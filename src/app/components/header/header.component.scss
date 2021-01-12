@@ -3,4 +3,22 @@
 app-header {
   display: flex;
   flex-flow: row;
+  background-color: $black;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  .links {
+    a {
+      margin: 0 5px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white !important;
+    }
+  }
+
+  a {
+    margin: 0 10px !important;
+  }
 }
