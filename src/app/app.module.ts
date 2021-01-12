@@ -8,6 +8,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SkillsComponent } from './pages/skills/skills.component';
+
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { ProgressBarColorsDirective } from './directives/progress-bar-colors.directive';
 
 @NgModule({
   declarations: [
@@ -15,13 +19,17 @@ import { FooterComponent } from './components/footer/footer.component';
     ContactComponent,
     HomepageComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SkillsComponent,
+    ProgressBarColorsDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatProgressBarModule
   ],
+  exports: [MatProgressBarModule],
   providers: [],
   bootstrap: [AppComponent]
 })

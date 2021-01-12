@@ -10,13 +10,16 @@ app-header {
   padding-bottom: 5px;
 
   .links {
-    a {
+    flex-flow: row;
+    display: flex;
+
+    div {
       margin: 0 5px;
       text-decoration: none;
       font-weight: bold;
       color: white !important;
     }
-    a:hover {
+    div:hover {
       border-bottom: 2px solid $bordo;
     }
   }
