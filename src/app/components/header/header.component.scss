@@ -16,6 +16,9 @@ app-header {
       font-weight: bold;
       color: white !important;
     }
+    a:hover {
+      border-bottom: 2px solid $bordo;
+    }
   }
 
   a {
