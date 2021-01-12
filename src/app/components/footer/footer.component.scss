@@ -1,0 +1,35 @@
+@import "../../variables.scss";
+
+app-footer {
+  display: flex;
+  flex-flow: column;
+  background-color: $black;
+  align-items: center;
+
+  .info-text {
+    color: $lightgray;
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  .social-icons-wrapper {
+    display: flex;
+    flex-flow: row;
+
+    a {
+      margin: 0 10px;
+
+      .social-icon {
+        height: 25px;
+        width: auto;
+      }
+    }
+  }
+
+  .copyright {
+    color: $gray;
+    padding: 10px 0px;
+    font-size: small;
+  }
+}
