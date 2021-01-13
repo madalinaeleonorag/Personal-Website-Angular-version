@@ -1,0 +1,13 @@
+Last experience:
+<app-experience-job [job]="EXPERIENCE[0]"></app-experience-job>
+
+<mat-accordion>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title> Other past experiences </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div *ngFor="let item of otherExperiences">
+      <app-experience-job [job]="item"></app-experience-job>
+    </div>
+  </mat-expansion-panel>
+</mat-accordion>

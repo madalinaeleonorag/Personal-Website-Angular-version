@@ -1,0 +1,19 @@
+<div><img *ngIf="job.companyLogo" src="{{ job.companyLogo }}" /></div>
+<div>
+  <div>{{ job.companyName }}</div>
+  <div>{{ job.role }}</div>
+  <div>{{ job.dateStart }} - {{ job.dateEnd }}</div>
+  <div *ngIf="job.location">{{ job.location }}</div>
+  <div *ngIf="job.skill.length > 0">
+    <div *ngFor="let skill of job.skill">{{ skill }}</div>
+  </div>
+  <div *ngIf="job.accomplishments.length > 0">
+    <div *ngFor="let accomplishments of job.accomplishments">
+      {{ accomplishments }}
+    </div>
+  </div>
+  <div *ngFor="let accomplishments of job.accomplishments">
+    {{ accomplishments }}
+  </div>
+</div>
+<div [innerHTML]="job.description"></div>
