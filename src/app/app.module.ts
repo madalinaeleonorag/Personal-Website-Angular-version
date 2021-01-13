@@ -12,6 +12,7 @@ import { SkillsComponent } from './pages/skills/skills.component';
 
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { ProgressBarColorsDirective } from './directives/progress-bar-colors.directive';
+import { SkillProgressBarComponent } from './components/skill-progress-bar/skill-progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProgressBarColorsDirective } from './directives/progress-bar-colors.dir
     HeaderComponent,
     FooterComponent,
     SkillsComponent,
-    ProgressBarColorsDirective
+    ProgressBarColorsDirective,
+    SkillProgressBarComponent
   ],
   imports: [
     BrowserModule,

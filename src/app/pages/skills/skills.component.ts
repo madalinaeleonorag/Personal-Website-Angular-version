@@ -8,17 +8,6 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  // 'Begginer' = 0, 'Medium' = 1, 'Intermediate' = 2, 'Advanced'= 3 
-  LEVELS = [{
-    name: 'Begginer', value: 20
-  }, {
-    name: 'Medium', value: 50
-  }, {
-    name: 'Intermediate', value: 80
-  }, {
-    name: 'Advanced', value: 100
-  }];
-
   SKILLS: {} = {
     HTML: [
       { name: 'HTML5', level: 3, color: '#E85D25', logo: 'HTML5'}

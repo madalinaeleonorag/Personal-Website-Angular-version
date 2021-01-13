@@ -1,0 +1,21 @@
+<div class="subcategory">
+    <div class="subcategory-logo">
+      <img
+        src="{{ '../../../assets/skills/' + skill.logo + '.png' }}"
+      />
+    </div>
+    <div
+      class="subcategory-name"
+      [ngStyle]="{ 'border-color': skill.color }"
+    >
+      {{ skill.name }}
+    </div>
+    <div class="progress">
+      <mat-progress-bar
+        mode="determinate"
+        [value]="LEVELS[skill.level].value"
+        [appProgressBarColors]="skill.color"
+      ></mat-progress-bar>
+      <div class="level-legend">({{ LEVELS[skill.level].name }})</div>
+    </div>
+  </div>

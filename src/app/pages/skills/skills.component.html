@@ -1,19 +1,6 @@
 <div *ngFor="let category of keysSkills">
   <div class="category-name">{{ category }}</div>
-  <div *ngFor="let subcategory of SKILLS[category]" class="subcategory">
-    <div class="subcategory-logo">
-        <img src='{{"../../../assets/skills/" + subcategory.logo + ".png"}}'>
-    </div>
-    <div class="subcategory-name" [ngStyle]="{'border-color': subcategory.color}">
-      {{ subcategory.name }}
-    </div>
-    <div class="progress">
-      <mat-progress-bar
-        mode="determinate"
-        [value]="LEVELS[subcategory.level].value"
-        [appProgressBarColors]="subcategory.color"
-      ></mat-progress-bar>
-      <div class="level-legend">({{ LEVELS[subcategory.level].name }})</div>
-    </div>
+  <div *ngFor="let subcategory of SKILLS[category]">
+    <app-skill-progress-bar [skill]="subcategory"></app-skill-progress-bar>
   </div>
 </div>
