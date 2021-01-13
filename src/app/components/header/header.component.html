@@ -1,9 +1,34 @@
 <div class="links">
-  <div (click)="goToPage('/')">Home</div>
-  <div (click)="goToPage('projects')">Projects</div>
-  <div (click)="goToPage('skills')">Skills</div>
-  <div (click)="goToPage('experience')">Experience</div>
-  <div (click)="goToPage('contact')">Contact</div>
+  <div
+    (click)="goToPage('/')"
+    [ngClass]="{ 'selected-page': isPageSelected('/') }"
+  >
+    Home
+  </div>
+  <div
+    (click)="goToPage('projects')"
+    [ngClass]="{ 'selected-page': isPageSelected('/projects') }"
+  >
+    Projects
+  </div>
+  <div
+    (click)="goToPage('skills')"
+    [ngClass]="{ 'selected-page': isPageSelected('/skills') }"
+  >
+    Skills
+  </div>
+  <div
+    (click)="goToPage('experience')"
+    [ngClass]="{ 'selected-page': isPageSelected('/experience') }"
+  >
+    Experience
+  </div>
+  <div
+    (click)="goToPage('contact')"
+    [ngClass]="{ 'selected-page': isPageSelected('/contact') }"
+  >
+    Contact
+  </div>
 </div>
 <div class="social-icons-wrapper">
   <a target="_blank" href="https://madalinaeleonorag.medium.com/"

@@ -18,10 +18,16 @@ app-header {
       text-decoration: none;
       font-weight: bold;
       color: white !important;
+      border-bottom: 2px solid $black;
     }
     div:hover {
       border-bottom: 2px solid $bordo;
     }
+    .selected-page {
+      border-bottom: 2px solid $bordo;
+    }
+    
+
   }
 
   a {
