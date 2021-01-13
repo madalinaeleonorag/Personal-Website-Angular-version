@@ -1,0 +1,71 @@
+@import "../../variables.scss";
+
+app-experience-job {
+  .header {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+    
+    .image {
+      padding-right: 20px;
+
+      img {
+        max-width: 150px;
+        height: auto;
+      }
+    }
+    .summary {
+      display: flex;
+      flex-flow: column;
+
+      .name {
+        font-weight: bold;
+        color: $gray;
+      }
+      .role {
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: $bordo;
+        margin: 4px 0;
+      }
+      .date {
+        font-weight: normal;
+      }
+      .location {
+        color: $lightgray;
+      }
+      .skills {
+        display: flex;
+
+        .mat-chip {
+          font-size: 0.7rem;
+        }
+        .mat-chip.mat-standard-chip {
+          background-color: $bordo;
+          color: $white;
+        }
+        .mat-standard-chip {
+          padding: 5px 5px;
+          border-radius: 15px;
+          min-height: 20px;
+          height: 1px;
+        }
+        .mat-chip-list-wrapper {
+          margin: 4px -4px;
+        }
+      }
+    }
+  }
+
+  .description {
+    padding: 0 20px;
+    line-height: 1.5rem;
+  }
+
+  @media (max-width: 750px) {
+    .header {
+      flex-flow: wrap;
+    }
+  }
+}

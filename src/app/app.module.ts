@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 // Material imports
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatChipsModule } from '@angular/material/chips';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -36,9 +37,10 @@ import { ExperienceJobComponent } from './components/experience-job/experience-j
     AppRoutingModule,
     BrowserAnimationsModule,
     MatProgressBarModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatChipsModule
   ],
-  exports: [MatProgressBarModule, MatExpansionModule],
+  exports: [MatProgressBarModule, MatExpansionModule, MatChipsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

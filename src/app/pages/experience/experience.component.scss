@@ -1,4 +1,18 @@
 @import "../../variables.scss";
 
 app-experience {
+  .last-experience {
+    font-weight: bold;
+    padding: 15px;
+    font-size: medium;
+  }
+
+  .mat-expansion-panel {
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  .mat-expansion-panel-header-title {
+    font-weight: bold;
+  }
 }

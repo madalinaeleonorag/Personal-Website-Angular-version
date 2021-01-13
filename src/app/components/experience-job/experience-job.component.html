@@ -1,19 +1,13 @@
-<div><img *ngIf="job.companyLogo" src="{{ job.companyLogo }}" /></div>
-<div>
-  <div>{{ job.companyName }}</div>
-  <div>{{ job.role }}</div>
-  <div>{{ job.dateStart }} - {{ job.dateEnd }}</div>
-  <div *ngIf="job.location">{{ job.location }}</div>
-  <div *ngIf="job.skill.length > 0">
-    <div *ngFor="let skill of job.skill">{{ skill }}</div>
-  </div>
-  <div *ngIf="job.accomplishments.length > 0">
-    <div *ngFor="let accomplishments of job.accomplishments">
-      {{ accomplishments }}
-    </div>
-  </div>
-  <div *ngFor="let accomplishments of job.accomplishments">
-    {{ accomplishments }}
+<div class="header">
+  <div class="image"><img *ngIf="job.companyLogo" src="{{ job.companyLogo }}" /></div>
+  <div class="summary">
+    <div class="name">{{ job.companyName }}</div>
+    <div class="role">{{ job.role }}</div>
+    <div class="date">{{ job.dateStart }} - {{ job.dateEnd }}</div>
+    <div class="location" *ngIf="job.location">{{ job.location }}</div>
+    <mat-chip-list class="skills" *ngIf="job.skill.length > 0">
+      <mat-chip *ngFor="let skill of job.skill">{{ skill }}</mat-chip>
+    </mat-chip-list>
   </div>
 </div>
-<div [innerHTML]="job.description"></div>
+<div class="description" [innerHTML]="job.description"></div>
