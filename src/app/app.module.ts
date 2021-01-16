@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatChipsModule } from '@angular/material/chips';
+import { MatTabsModule } from '@angular/material/tabs';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +19,9 @@ import { ProgressBarColorsDirective } from './directives/progress-bar-colors.dir
 import { SkillProgressBarComponent } from './components/skill-progress-bar/skill-progress-bar.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { ExperienceJobComponent } from './components/experience-job/experience-job.component';
+import { EducationLevelComponent } from './components/education-level/education-level.component';
+import { CertificationComponent } from './components/certification/certification.component';
+import { VolunteerComponent } from './components/volunteer/volunteer.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,10 @@ import { ExperienceJobComponent } from './components/experience-job/experience-j
     ProgressBarColorsDirective,
     SkillProgressBarComponent,
     ExperienceComponent,
-    ExperienceJobComponent
+    ExperienceJobComponent,
+    EducationLevelComponent,
+    CertificationComponent,
+    VolunteerComponent
   ],
   imports: [
     BrowserModule,
@@ -38,9 +45,14 @@ import { ExperienceJobComponent } from './components/experience-job/experience-j
     BrowserAnimationsModule,
     MatProgressBarModule,
     MatExpansionModule,
-    MatChipsModule
+    MatChipsModule,
+    MatTabsModule
   ],
-  exports: [MatProgressBarModule, MatExpansionModule, MatChipsModule],
+  exports: [
+    MatProgressBarModule,
+    MatExpansionModule,
+    MatChipsModule,
+    MatTabsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

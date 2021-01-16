@@ -1,3 +1,5 @@
+@import "./app/variables.scss";
+
 .social-icons-wrapper {
   display: flex;
   flex-flow: row;
@@ -10,4 +12,16 @@
       width: auto;
     }
   }
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: $bordo;
+}
+
+a {
+  color: $bordo;
+}
+
+a:hover {
+  color: $black;
 }

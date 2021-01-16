@@ -1,0 +1,13 @@
+<div class="header">
+  <div class="image">
+    <img *ngIf="certificate.logo" src="{{ certificate.logo }}" />
+  </div>
+  <div class="summary">
+    <div class="organization">{{ certificate.organization }}</div>
+    <div class="name">{{ certificate.name }}</div>
+    <div class="issueDate" *ngIf="certificate.issueDate">{{ certificate.issueDate }}</div>
+    <div class="grade" *ngIf="certificate.url">
+      <a href="{{certificate.url}}" target="_blank">See certificate</a>
+    </div>
+  </div>
+</div>

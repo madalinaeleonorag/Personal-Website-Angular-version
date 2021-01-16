@@ -16,7 +16,7 @@ export class ExperienceComponent implements OnInit {
       dateEnd: 'Present',
       location: 'Bucharest, Romania',
       description: `
-      <b>Team 1</b><br>
+      <b>Client 1</b><br>
       <i>03/2019 - 03/2020</i><br>
       Industry: Insurance<br>
       Assignment description:<br>
@@ -34,7 +34,7 @@ export class ExperienceComponent implements OnInit {
       - I contributed actively on a project from march and until the end of November, by helping other colleagues with code review and implementing reusable components. I also helped taking decisions in business rules and in development process;<br>
       - I participated in every meeting and decision in a proactive way in order to deliver a quality and clean code which meets the client requirements. I also suggested various changes to the design that was taken into account.<br>
       <b>Technologies:</b> Angular, Ionic, Sass, TypeScript, REST, Capacitor, RxJs<br><br>
-      <b>Team 2</b><br>
+      <b>Client 2</b><br>
       <i>03/2020 - 03/2020</i><br>
       Industry: Retail<br>
       Assignment description:<br>
@@ -44,7 +44,7 @@ export class ExperienceComponent implements OnInit {
       - I created reusable pages using React.js which corresponds to the design;<br>
       - I created dynamic forms using Formik framework for the registration of new plastic free materials.<br>
       <b>Technologies:</b> React.js<br><br>
-      <b>Team 3</b><br>
+      <b>Client 3</b><br>
       <i>04/2020 - to date</i><br>
       Industry: Retail<br>
       Assignment description:<br>
@@ -120,6 +120,51 @@ export class ExperienceComponent implements OnInit {
     }
   ]
   otherExperiences = [];
+  EDUCATION = [
+    {
+      school: 'Universitatea Româno-Americană din București',
+      degree: 'Master\'s degree',
+      fieldOfStudy: 'Computer/Information Technology Administration and Management',
+      startYear: '2018',
+      endYear: '2020',
+      grade: '9.66',
+      logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
+      activities: 'Participation in scientific communication session with transportation optimisation in pl/sql and an article regarding security for client-server applications',
+      description: 'I\'ve assimilated informations about IOT, mobile applications development, web technologies, AI, GDPR, PL/SQL, BigData, project management, WordPress, security of computer networks and E-Commerce. Those knowledges are proved by the projects worked for the graduation of the course.'
+    },
+    {
+      school: 'Universitatea Româno-Americană din București',
+      fieldOfStudy: 'Computer/Information Technology Administration and Management',
+      degree: 'Licentiate degree',
+      startYear: '2015',
+      endYear: '2018',
+      grade: '9.50',
+      logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
+      activities: 'Participation in scientific communication session with micro and macro economy, management and digital marketing',
+      description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP.'
+    },
+    {
+      school: 'Theoretical High School Nichita Stanescu',
+      degree: 'High school',
+      fieldOfStudy: 'Mathematical Informatics',
+      startYear: '2011',
+      endYear: '2015',
+      grade: '',
+      logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
+      activities: '',
+      description: 'Acquiring logical and organizational thinking.'
+    }
+  ]
+  VOLUNTEER = [
+    {
+      startYear: 'Aug 2014',
+      endYear: 'Nov 2014',
+      description: 'Theater project with the stage of frequent social situations for finding solutions',
+      role: 'Role Player',
+      organization: 'ArtFusion',
+      logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0R_odMk40zQ/company-logo_200_200/0/1583400910416?e=1619049600&v=beta&t=FrnDEuYXI-gv_NLAZr7e2xMe2vrazFjnUsY0HhPQu2Y'
+    }
+  ];
 
   constructor() {
     this.otherExperiences = this.EXPERIENCE.slice(1, this.EXPERIENCE.length);

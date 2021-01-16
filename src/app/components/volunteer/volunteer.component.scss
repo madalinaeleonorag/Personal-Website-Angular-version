@@ -1,12 +1,12 @@
 @import "../../variables.scss";
 
-app-experience-job {
+app-volunteer {
   .header {
     display: flex;
     flex-flow: row;
     align-items: center;
     padding: 20px 20px 10px 20px;
-    
+
     .image {
       padding-right: 20px;
 
@@ -19,7 +19,7 @@ app-experience-job {
       display: flex;
       flex-flow: column;
 
-      .name {
+      .organization {
         font-weight: bold;
         color: $gray;
       }
@@ -31,29 +31,6 @@ app-experience-job {
       }
       .date {
         font-weight: normal;
-      }
-      .location {
-        color: $lightgray;
-      }
-      .skills {
-        display: flex;
-
-        .mat-chip {
-          font-size: 0.7rem;
-        }
-        .mat-chip.mat-standard-chip {
-          background-color: $bordo;
-          color: $white;
-        }
-        .mat-standard-chip {
-          padding: 5px 5px;
-          border-radius: 15px;
-          min-height: 20px;
-          height: 1px;
-        }
-        .mat-chip-list-wrapper {
-          margin: 4px -4px;
-        }
       }
     }
   }

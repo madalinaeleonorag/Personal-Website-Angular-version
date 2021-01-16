@@ -1,0 +1,40 @@
+@import "../../variables.scss";
+
+app-certification {
+  .header {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+
+    .image {
+      padding-right: 20px;
+
+      img {
+        max-width: 100px;
+        height: auto;
+      }
+    }
+    .summary {
+      display: flex;
+      flex-flow: column;
+
+      .organization {
+        font-weight: bold;
+        color: $gray;
+      }
+      .name {
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: $bordo;
+        margin: 4px 0;
+      }
+      .issueDate {
+        font-weight: normal;
+      }
+      .grade {
+        color: $lightgray;
+      }
+    }
+  }
+}

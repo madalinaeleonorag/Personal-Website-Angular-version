@@ -1,12 +1,12 @@
 @import "../../variables.scss";
 
-app-experience-job {
+app-education-level {
   .header {
     display: flex;
     flex-flow: row;
     align-items: center;
     padding: 20px 20px 10px 20px;
-    
+
     .image {
       padding-right: 20px;
 
@@ -23,7 +23,7 @@ app-experience-job {
         font-weight: bold;
         color: $gray;
       }
-      .role {
+      .degree {
         font-weight: bold;
         font-size: 1.2rem;
         color: $bordo;
@@ -32,33 +32,18 @@ app-experience-job {
       .date {
         font-weight: normal;
       }
-      .location {
+      .fieldOfStudy {
+        font-weight: normal;
         color: $lightgray;
       }
-      .skills {
-        display: flex;
-
-        .mat-chip {
-          font-size: 0.7rem;
-        }
-        .mat-chip.mat-standard-chip {
-          background-color: $bordo;
-          color: $white;
-        }
-        .mat-standard-chip {
-          padding: 5px 5px;
-          border-radius: 15px;
-          min-height: 20px;
-          height: 1px;
-        }
-        .mat-chip-list-wrapper {
-          margin: 4px -4px;
-        }
+      .grade {
+        color: $lightgray;
       }
     }
   }
 
-  .description {
+  .description,
+  .activities {
     padding: 0 20px 20px;
     line-height: 1.5rem;
   }
