@@ -21,6 +21,22 @@
     </ng-template>
   </mat-tab>
 
+  <mat-tab label="Honors & Awards">
+    <ng-template matTabContent>
+      <div *ngFor="let item of AWARDS">
+        <app-awards [award]="item"></app-awards>
+      </div>
+    </ng-template>
+  </mat-tab>
+
+  <mat-tab label="Publications">
+    <ng-template matTabContent>
+      <div *ngFor="let item of PUBLICATIONS">
+        <app-publications [publication]="item"></app-publications>
+      </div>
+    </ng-template>
+  </mat-tab>
+
   <mat-tab label="Volunteer">
     <ng-template matTabContent>
       <div *ngFor="let item of VOLUNTEER">

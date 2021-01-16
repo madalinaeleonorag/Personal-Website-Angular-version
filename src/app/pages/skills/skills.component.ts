@@ -106,6 +106,28 @@ export class SkillsComponent implements OnInit {
     }
   ];
   keysSkills: string[];
+  COURSES = [
+    {
+      name: 'DevAcademy Front End Track',
+      organization: 'DevAcademy',
+      logo: '',
+      startYear: 'Jun 2018',
+      endYear: 'Dec 2018',
+      description: 'I was part of the Frontend Track learing HTML, CSS, JavaScript, Vue.js, REST, Firebase Realtime Database. All the knowledge was applied in different exercises and projects.'
+    },
+    {
+      name: 'Digital Marketing'
+    },
+    {
+      name: 'IoT & Mobile Apps Workshop by Oracle Academy Romania'
+    },
+    {
+      name: 'New Front-End Adventures Workshop with Vitaly Friedman'
+    },
+    {
+      name: 'Responsive Web Design Fundamentals by Google'
+    }
+  ]
 
   constructor() {
     this.keysSkills = Object.keys(this.SKILLS);

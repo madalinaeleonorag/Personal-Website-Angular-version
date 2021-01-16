@@ -165,6 +165,69 @@ export class ExperienceComponent implements OnInit {
       logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0R_odMk40zQ/company-logo_200_200/0/1583400910416?e=1619049600&v=beta&t=FrnDEuYXI-gv_NLAZr7e2xMe2vrazFjnUsY0HhPQu2Y'
     }
   ];
+  AWARDS = [
+    {
+      name: '2nd place at Rau-DevHack Hackathon',
+      date: 'Apr 2019',
+      description: 'Creating an application to help users choose the most recommended photographer for their event, according to their visual preferences, budget and period, giving photographers easier management on the event calendar and applications.'
+    },
+    {
+      name: '1st place for Web&Mobile Challenge at DevHacks',
+      date: 'Nov 2018',
+      description: `
+      Our result should allows candidates from Romania the possibility to offer reviews/ratings to companies about key areas such as:<br>
+        - recruitment process;<br>
+        - work environment (team, schedule, etc);<br>
+        - trainings, learning and development opportunities;<br>
+        - salary & benefits;<br>
+        - work-life balance;<br>
+        - management;<br>
+        - internal systems (procedures, values, way of working);<br>
+        - other relevant areas;<br>
+        The aim of this product is to help candidates find the employer that best suits their needs and personality, something different.<br>
+        The target audience of the product will be made up students and young professionals.
+      `
+    },
+    {
+      name: 'Note - IE Robot Contest',
+      date: 'May 2014',
+      description: 'Edition V-organized in Electrical Engineering Days 2014 in Politehnica University.'
+    }
+  ];
+  PUBLICATIONS = [
+    {
+      name: 'How I personalized my GitHub Overview',
+      date: 'Jan 2021',
+      description: '',
+      url: 'https://madalinaeleonorag.medium.com/how-i-personalized-my-github-overview-7144fd15d1e1',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
+      organization: 'Medium'
+    },
+    {
+      name: 'My JavaScriptmas Journey 🎄',
+      date: 'Dec 2020',
+      description: '',
+      url: 'https://madalinaeleonorag.medium.com/my-javascriptmas-journey-69a29ea5845a',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
+      organization: 'Medium'
+    },
+    {
+      name: 'Providing Security for Client-Server Applications',
+      date: '2019',
+      description: '',
+      url: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
+      logo: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
+      organization: 'Research Focus'
+    },
+    {
+      name: 'Dreptul la timp',
+      date: 'Jan 11, 2013',
+      description: 'Publishing poems in high school magazine',
+      url: '',
+      logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
+      organization: 'Liceul Teoretic Nichita Stanescu'
+    }
+  ]
 
   constructor() {
     this.otherExperiences = this.EXPERIENCE.slice(1, this.EXPERIENCE.length);

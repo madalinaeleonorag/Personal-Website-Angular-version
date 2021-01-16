@@ -1,0 +1,36 @@
+@import "../../variables.scss";
+
+app-awards {
+  .header {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+
+    .summary {
+      display: flex;
+      flex-flow: column;
+
+      .name {
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: $bordo;
+        margin: 4px 0;
+      }
+      .date {
+        font-weight: normal;
+      }
+    }
+  }
+
+  .description {
+    padding: 0 20px 20px;
+    line-height: 1.5rem;
+  }
+
+  @media (max-width: 750px) {
+    .header {
+      flex-flow: wrap;
+    }
+  }
+}

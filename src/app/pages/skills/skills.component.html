@@ -19,4 +19,12 @@
       </div>
     </ng-template>
   </mat-tab>
+  
+  <mat-tab label="Courses">
+    <ng-template matTabContent>
+      <div *ngFor="let course of COURSES">
+        <app-course [course]="course"></app-course>
+      </div>
+    </ng-template>
+  </mat-tab>
 </mat-tab-group>

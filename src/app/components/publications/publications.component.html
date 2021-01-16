@@ -1,0 +1,20 @@
+<div class="header">
+  <div class="image" *ngIf="publication.logo">
+  <img src="{{ publication.logo }}" />
+</div>
+  <div class="summary">
+    <div class="organization" *ngIf="publication.organization">
+      {{ publication.organization }}
+    </div>
+    <div class="name">{{ publication.name }}</div>
+    <div class="date" *ngIf="publication.date">{{ publication.date }}</div>
+    <div class="grade" *ngIf="publication.url">
+      <a href="{{ publication.url }}" target="_blank">See publication</a>
+    </div>
+  </div>
+</div>
+<div
+  class="description"
+  [innerHTML]="publication.description"
+  *ngIf="publication.description"
+></div>

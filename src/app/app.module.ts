@@ -22,6 +22,9 @@ import { ExperienceJobComponent } from './components/experience-job/experience-j
 import { EducationLevelComponent } from './components/education-level/education-level.component';
 import { CertificationComponent } from './components/certification/certification.component';
 import { VolunteerComponent } from './components/volunteer/volunteer.component';
+import { CourseComponent } from './components/course/course.component';
+import { AwardsComponent } from './components/awards/awards.component';
+import { PublicationsComponent } from './components/publications/publications.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import { VolunteerComponent } from './components/volunteer/volunteer.component';
     ExperienceJobComponent,
     EducationLevelComponent,
     CertificationComponent,
-    VolunteerComponent
+    VolunteerComponent,
+    CourseComponent,
+    AwardsComponent,
+    PublicationsComponent
   ],
   imports: [
     BrowserModule,
