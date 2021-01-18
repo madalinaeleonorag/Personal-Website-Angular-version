@@ -9,11 +9,13 @@ app-project-card {
     display: flex;
     flex-direction: column;
     height: -webkit-fill-available;
+    width: 100%;
   }
 
   .image {
-    height: 200px;
-    width: auto;
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
   }
 
   .technologies {

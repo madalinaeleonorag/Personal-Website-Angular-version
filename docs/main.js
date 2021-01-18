@@ -115,11 +115,13 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SkillsComponent", function() { return SkillsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
-/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/tabs */ "M9ds");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "SVse");
-/* harmony import */ var _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/skill-progress-bar/skill-progress-bar.component */ "rOuV");
-/* harmony import */ var _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/certification/certification.component */ "mstO");
-/* harmony import */ var _components_course_course_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/course/course.component */ "vP9v");
+/* harmony import */ var src_assets_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/assets/data */ "6Xnp");
+/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/tabs */ "M9ds");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "SVse");
+/* harmony import */ var _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/skill-progress-bar/skill-progress-bar.component */ "rOuV");
+/* harmony import */ var _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/certification/certification.component */ "mstO");
+/* harmony import */ var _components_course_course_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/course/course.component */ "vP9v");
+
 
 
 
@@ -149,7 +151,7 @@ function SkillsComponent_ng_template_2_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](category_r4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r3.SKILLS[category_r4]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r3.skills[category_r4]);
 } }
 function SkillsComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, SkillsComponent_ng_template_2_div_0_Template, 4, 2, "div", 4);
@@ -170,7 +172,7 @@ function SkillsComponent_ng_template_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, SkillsComponent_ng_template_4_div_0_Template, 2, 1, "div", 4);
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r1.CERTIFICATIONS);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r1.certifications);
 } }
 function SkillsComponent_ng_template_6_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
@@ -185,130 +187,14 @@ function SkillsComponent_ng_template_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, SkillsComponent_ng_template_6_div_0_Template, 2, 1, "div", 4);
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r2.COURSES);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r2.courses);
 } }
 class SkillsComponent {
     constructor() {
-        this.SKILLS = {
-            HTML: [
-                { name: 'HTML5', level: 3, color: '#E85D25', logo: 'HTML5' }
-            ],
-            CSS: [
-                { name: 'CSS3', level: 2, color: '#249CDA', logo: 'CSS3' },
-                { name: 'SCSS', level: 2, color: '#C96195', logo: 'SCSS' },
-                { name: 'Bootstrap', level: 2, color: '#533B78', logo: 'Bootstrap' }
-            ],
-            Javascript: [
-                { name: 'Javascript', level: 3, color: '#EFD81D', logo: 'Javascript' },
-                { name: 'Vue.js', level: 3, color: '#3FB27F', logo: 'Vuejs' },
-                { name: 'Vuex', level: 3, color: '#33475B', logo: 'Vuex' },
-                { name: 'Angular', level: 3, color: '#BD002E', logo: 'Angular' },
-                { name: 'JQuery', level: 1, color: '#0864A7', logo: 'JQuery' },
-                { name: 'Ionic', level: 2, color: '#367CF7', logo: 'Ionic' },
-                { name: 'React.js', level: 0, color: '#50BBD7', logo: 'Reactjs' }
-            ],
-            CMS: [
-                { name: 'Wordpress', level: 1, color: '#207196', logo: 'Wordpress' }
-            ],
-            Other: [
-                { name: 'Github', level: 3, color: '#302F2F', logo: 'Github' },
-                { name: 'Git', level: 3, color: '#E84E31', logo: 'Git' },
-                { name: 'NoSQL', level: 2, color: '#F7C52B', logo: 'NoSQL' },
-                { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' },
-                { name: 'Lightroom', level: 1, color: '#0A232F', logo: 'Lightroom' }
-            ]
-        };
-        this.CERTIFICATIONS = [
-            {
-                logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
-                name: 'IBM Mentor',
-                organization: 'IBM',
-                issueDate: 'Dec 2020',
-                url: 'https://www.youracclaim.com/badges/841adfea-65df-4a8e-bbe1-267d70cb6a21'
-            },
-            {
-                logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
-                name: 'JavaScript Front End Development',
-                organization: 'IBM',
-                issueDate: 'Dec 2020',
-                url: 'https://www.youracclaim.com/badges/b6792b26-e919-4de1-bc24-d4192439aa50'
-            },
-            {
-                logo: 'https://media-exp1.licdn.com/dms/image/C560BAQH0VNXBrdkklA/company-logo_200_200/0/1593711193383?e=1619049600&v=beta&t=lrBAcOWGtkwOM3MtvBw55FRiEHzMyNwaaeJycjzvC7k',
-                name: 'Web Design for Web Developers: Build Beautiful Websites!',
-                organization: 'Udemy',
-                issueDate: 'Sep 2020',
-                url: 'https://udemy-certificate.s3.amazonaws.com/image/UC-4b147be3-753e-47b3-bd44-df452ffc3018.jpg?v=1601294558000'
-            },
-            {
-                logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0iRUqSJueUw/company-logo_200_200/0/1519902704390?e=1619049600&v=beta&t=AmcNPqTADleh6FV8bDZ1yJhJb7QcwaEoZha72rhz4TY',
-                name: 'ES SET English Certificate',
-                organization: 'EF Standard English Test (EF SET)',
-                issueDate: 'Jul 2020',
-                url: 'https://www.efset.org/cert/V3b9C2'
-            },
-            {
-                logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
-                name: 'Enterprise Design Thinking Practitioner',
-                organization: 'IBM',
-                issueDate: 'Mar 2020',
-                url: 'https://www.youracclaim.com/badges/f28084ab-7407-4d30-8f84-e612adc40402'
-            },
-            {
-                logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
-                name: 'IBM Agile Explorer',
-                organization: 'IBM',
-                issueDate: 'Mar 2020',
-                url: 'https://www.youracclaim.com/badges/8ed472e8-38c5-42c0-aee7-c1993e9f737f'
-            },
-            {
-                logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
-                name: 'Insurance Industry Foundations',
-                organization: 'IBM',
-                issueDate: 'Oct 2019',
-                url: 'https://www.youracclaim.com/badges/073a4a5e-b2f0-4165-8684-c6a427a005b3'
-            },
-            {
-                logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQGxoHjf6gCmyQ/company-logo_200_200/0/1601991684673?e=1619049600&v=beta&t=ZDc7BD5euDuuUZaJHgPgoZxpUvn_Sh49rmRau3-pGbw',
-                name: '"Live for the story" Canon Summer school',
-                organization: 'Canon',
-                issueDate: 'Jul 2018'
-            },
-            {
-                logo: 'https://ecdl.ro/uploads/files/ECDL_SHORT_LOGO_WITH_REGISTRATION_RGB.jpg',
-                name: 'ECDL Complete',
-                organization: 'ECDL Romania',
-                issueDate: 'May 2015'
-            },
-            {
-                logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_200_200/0/1519856215226?e=1619049600&v=beta&t=wqGS0p4XpSRfUOSwlJ1_GDzkLcGNhFrMFdkps_mlOHc',
-                name: 'Google Digital Garage',
-                organization: 'Google'
-            }
-        ];
-        this.COURSES = [
-            {
-                name: 'DevAcademy Front End Track',
-                organization: 'DevAcademy',
-                logo: '',
-                startYear: 'Jun 2018',
-                endYear: 'Dec 2018',
-                description: 'I was part of the Frontend Track learing HTML, CSS, JavaScript, Vue.js, REST, Firebase Realtime Database. All the knowledge was applied in different exercises and projects.'
-            },
-            {
-                name: 'Digital Marketing'
-            },
-            {
-                name: 'IoT & Mobile Apps Workshop by Oracle Academy Romania'
-            },
-            {
-                name: 'New Front-End Adventures Workshop with Vitaly Friedman'
-            },
-            {
-                name: 'Responsive Web Design Fundamentals by Google'
-            }
-        ];
-        this.keysSkills = Object.keys(this.SKILLS);
+        this.skills = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["SKILLS"];
+        this.certifications = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["CERTIFICATIONS"];
+        this.courses = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["COURSES"];
+        this.keysSkills = Object.keys(this.skills);
     }
     ngOnInit() {
     }
@@ -326,7 +212,7 @@ SkillsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, SkillsComponent_ng_template_6_Template, 1, 1, "ng-template", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_1__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_1__["MatTab"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_1__["MatTabContent"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_3__["SkillProgressBarComponent"], _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_4__["CertificationComponent"], _components_course_course_component__WEBPACK_IMPORTED_MODULE_5__["CourseComponent"]], styles: ["app-skills .category-name {\n  font-weight: bold;\n  padding: 5px;\n  font-size: medium;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvc2tpbGxzL3NraWxscy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHRTtFQUNFLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0FBRkoiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9za2lsbHMvc2tpbGxzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uLy4uL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5hcHAtc2tpbGxzIHtcclxuICAuY2F0ZWdvcnktbmFtZSB7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIHBhZGRpbmc6IDVweDtcclxuICAgIGZvbnQtc2l6ZTogbWVkaXVtO1xyXG4gIH1cclxufVxyXG4iXX0= */"], encapsulation: 2 });
+    } }, directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTab"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTabContent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_4__["SkillProgressBarComponent"], _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_5__["CertificationComponent"], _components_course_course_component__WEBPACK_IMPORTED_MODULE_6__["CourseComponent"]], styles: ["app-skills .category-name {\n  font-weight: bold;\n  padding: 5px;\n  font-size: medium;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvc2tpbGxzL3NraWxscy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHRTtFQUNFLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0FBRkoiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9za2lsbHMvc2tpbGxzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uLy4uL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5hcHAtc2tpbGxzIHtcclxuICAuY2F0ZWdvcnktbmFtZSB7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIHBhZGRpbmc6IDVweDtcclxuICAgIGZvbnQtc2l6ZTogbWVkaXVtO1xyXG4gIH1cclxufVxyXG4iXX0= */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SkillsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -336,6 +222,646 @@ SkillsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
                 encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewEncapsulation"].None
             }]
     }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "6Xnp":
+/*!****************************!*\
+  !*** ./src/assets/data.ts ***!
+  \****************************/
+/*! exports provided: PROJECTS, SKILLS, CERTIFICATIONS, COURSES, EDUCATION, VOLUNTEER, AWARDS, PUBLICATIONS, EXPERIENCE */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PROJECTS", function() { return PROJECTS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SKILLS", function() { return SKILLS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CERTIFICATIONS", function() { return CERTIFICATIONS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "COURSES", function() { return COURSES; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EDUCATION", function() { return EDUCATION; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VOLUNTEER", function() { return VOLUNTEER; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AWARDS", function() { return AWARDS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PUBLICATIONS", function() { return PUBLICATIONS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EXPERIENCE", function() { return EXPERIENCE; });
+const PROJECTS = [
+    {
+        id: 0,
+        name: 'FreeCodeCamp.com Projects',
+        startDate: 'Sep 2020',
+        endDate: 'Present',
+        technologies: ['HTML', 'CSS', 'course'],
+        code: 'https://github.com/madalinaeleonorag/FreeCodeCamp.com-Projects',
+        description: `
+      Projects made by following the courses from FreeCodeCamp.com<br><br>
+      This includes:<br>
+      1. Responsive Web Design Certification Projects<br>
+      - Tribute page;<br>
+      - Form page;<br>
+      - Landing page;<br>
+      - Technical page;<br>
+      - Portfolio page.
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/landing-project/landing-design.png'
+    },
+    {
+        id: 1,
+        name: 'Madalina Eleonora Graphics & Photography',
+        startDate: 'Jun 2018',
+        endDate: 'Present',
+        technologies: ['Photoshop', 'Lightroom', 'Photography'],
+        live: 'https://500px.com/p/madalinaeleonorag',
+        logo: 'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc'
+    },
+    {
+        id: 2,
+        name: 'JavaScript30 Wes Bos Challenge',
+        startDate: 'Nov 2020',
+        endDate: 'Dec 2020',
+        technologies: ['HTML', 'CSS', 'Javascript', 'challenge'],
+        code: 'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge',
+        description: `30 day vanilla JS coding challenge from Web Bos`,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/24days-of-JavaScriptmas-by-Scrimba/master/screenshots/24.jpg'
+    },
+    {
+        id: 3,
+        name: 'Learning League - Hipo DevHack Hackathon',
+        startDate: 'Nov 2020',
+        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'CometChat', 'Firebase'],
+        code: 'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon',
+        live: 'https://devhacks2020-1c585.web.app',
+        description: `
+      Education application created using Vue.js CLI version 2.6.11 with Vuetify. Video and voice calling are made through CometChat and data is saved through Firebase.
+      Key Features:<br>
+      1. The user can login into the platform as a teacher or as a student<br>
+      2. As a teacher the user will have access to all of the app resources<br>
+      3. As a student the user will have access only on what the teacher shares with him for security purposes and for creating a community based on trust<br>
+      4. On the homepage the user will have the following options:<br>
+      - search for uploaded resources by other teachers or students and download them;<br>
+      - upload resources with selecting the privacy type to define which users can access the resource;<br>
+      - view classrooms and filter them by name or description;<br>
+      - view courses and filter them by name or description;<br>
+      - take tests from different categories.<br>
+      5. The user can search for resources, download them and filter them by name or description<br>
+      6. The user can enter several classrooms where they can talk about different topics with or without a teacher<br>
+      7. Users can make voice calls, video calls, share screen in the chatroom and upload/download documents<br>
+      8. User can take courses in order to develop their e-learning skills<br>
+      9. Users cand take tests in order to verify their knowledges from different categories
+      `,
+        logo: 'assets/projects/3.png'
+    },
+    {
+        id: 4,
+        name: 'ToDo App',
+        startDate: 'Aug 2020',
+        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'SweetAlert2', 'Firebase'],
+        code: 'https://github.com/madalinaeleonorag/Todo',
+        live: 'https://todovuevuetify.web.app',
+        description: `
+      Todo application created using HTML, Vue.js, Vuetify and JavaScript.<br>
+      This project was created using Vue.js CLI version 2.6.11 with Vuetify, SweetAlert2. Data is saved through local storage.<br>
+      Key Features:<br>
+      - Create a task with priority and due date;<br>
+      - Edit or delete a task;<br>
+      - Mark task as completed;<br>
+      - Views tasks in lists according to their status ('Overdue', 'To do', 'Done items') or in a calendar;<br>
+      - Filter tasks by priority or due date;<br>
+      - Data saved through local storage.
+      `,
+        logo: 'assets/projects/4.png'
+    },
+    {
+        id: 5,
+        name: 'UniversityRating',
+        startDate: 'Jul 2018',
+        endDate: 'Jul 2020',
+        technologies: ['HTML', 'CSS', 'Javascript', 'Sass', 'Angular', 'Angular Material', 'Microsoft Text Analytics', 'RxJs', 'Google Charts', 'Google Maps'],
+        code: 'https://github.com/madalinaeleonorag/UniversityRating',
+        live: 'https://universityraking.web.app',
+        description: `
+      In this application you can search for your best option through hundred of updated universities around the world. Users can grade and add a comment to institutions so others can see if it fits for them. Only verified ratings, using Microsoft Text Analysis will be displayed. After creating an account, the user can activate it to claim a university and add verified informations about it. The user needs to provide full informations and will be contacted by administrators in order to securely activate the account. The information accuracy depends on institution representant.<br>
+      This project was created using Angular CLI version 8.3.2 with TypeScript, Angular Material, Microsoft Text Analytics, Google Maps API, Google Charts and RxJs. For database used to store the data is Firebase Firestore.
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/UniversityRating/master/src/assets/presentation/homepage.png'
+    },
+    {
+        id: 6,
+        name: 'Exams Schedule',
+        startDate: 'Apr 2020',
+        endDate: 'May 2020',
+        technologies: ['HTML', 'CSS', 'Javascript', 'Firebase', 'React', 'AXIOS', 'Redux', 'Sass'],
+        code: 'https://github.com/madalinaeleonorag/ExamsSchedule',
+        live: 'https://reactproject-df131.web.app',
+        description: `
+      Application that allows the management of university exams.<br>
+      This project was created using React.js, axios, Redux and Sass.<br>
+      For database used to store the data is Firebase Realtime Database.
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/ExamsSchedule/master/src/assets/homepage.png'
+    },
+    {
+        id: 7,
+        name: 'Scientific Session of the University',
+        startDate: 'Aug 2015',
+        endDate: 'Dec 2019',
+        technologies: [],
+        description: `
+      - Water, limited resource - case study;<br>
+      - The Swiss banking system - macroeconomic study;<br>
+      - US Management VS Japanese Management;<br>
+      - Digital Marketing;<br>
+      - Transportation optimisation in PL/SQL;<br>
+      - Providing security for client-server applications.
+      `,
+        logo: 'https://lh3.googleusercontent.com/proxy/z2qNGd_35uQmqGf3Ed2ihgLRIkNRRCnaPklOpv3CSgGyAlJ_wR3pb0bYpfA_AE02TAaPh2S4m7y7IqfAdQYRfmZ9Q7Dfm7GOH9P9BI0W0Wi84EGqLn35fUFo-ErpoiP3F4kpgfJASetROWYw68imCOAQu_Ky13lDBtSogMhLOA'
+    },
+    {
+        id: 8,
+        name: 'Johnny\'z website',
+        startDate: 'May 2019',
+        endDate: 'Oct 2019',
+        technologies: ['CSS', 'Wordpress'],
+        live: 'https://www.johnnypizza.ro/',
+        description: `Is a site created in Wordpress, the result of a faculty project and currently used as the official site of Johhny'z restaurants.`,
+        logo: 'assets/projects/8.png'
+    },
+    {
+        id: 9,
+        name: 'TeachMe',
+        startDate: 'Mar 2019',
+        endDate: 'May 2019',
+        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Ionic', 'Firebase'],
+        code: 'https://github.com/madalinaeleonorag/TeachMeSecure',
+        live: 'https://teachme-7a1a2.web.app/login',
+        description: `
+      TeachMe mobile application created using Vue.js, Vuex, Ionic and Firebase which helps you learn new things by taking several courses.
+      <br>
+      Key features:<br>
+      - Create an account and login;<br>
+      - Take different courses from multiple categories (IT software and hardware, languages, general knowledge);<br>
+      - Each course has a theory part and a quiz at the end;<br>
+      - Keep track on how many courses did you finish;<br>
+      - Collect points from every test you take.
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/TeachMe/master/src/assets/hp2.png'
+    },
+    {
+        id: 10,
+        name: 'PhotoBooking - RauDevHack Hackathon',
+        startDate: 'Apr 2019',
+        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
+        code: 'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon',
+        description: `
+      PhotoBooking App that recommends a suitable photographer for a customer's event, according to his visual preferences, budget and period. Application created using Vue.js, Vuetify, Vuex, Firebase.
+      <br>
+      Features:<br>
+      - Users can login into the platform as a customer or as a photographer;<br>
+      - Customers can take a test so that the app can recommend the best photographer for their event, according to their visual preferences, budget and period;<br>
+      - Users can access their profile (as customer or photographer) where they can change their details;<br>
+      - Both types of users cand see a list of their requests and status;<br>
+      - Informations are saved through Firebase.
+      `,
+        logo: 'assets/projects/10.png'
+    },
+    {
+        id: 11,
+        name: 'SmileSharing App - Do IT Girls! Hackathon. Powered by Microsoft',
+        startDate: 'Mar 2019',
+        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
+        code: 'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon',
+        live: 'https://doitgirls-ed93d.web.app',
+        description: `
+      Ride sharing application created using HTML, Vue.js, Vuetify, JavaScript and Google Maps.
+      <br>
+      Key Features:<br>
+      - View list of rides;<br>
+      - Filter rides by locality leaving, locality going or by car model;<br>
+      - Login in order to add or book a ride;<br>
+      - Show route on Google Maps by pressing the 'View recomanded route' button;<br>
+      - Book a ride by pressing the 'Go with this driver' button;<br>
+      - Add a ride by completing a form;<br>
+      - View profile page which includes personal informations (name, phone number, email address) and the rides situation;<br>
+      - View user's rides list: one where the user is booked as a passenger and one where the user is the driver of the car;<br>
+      - View rides details.
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/master/src/assets/1.png'
+    },
+    {
+        id: 12,
+        name: 'Rap Jobs - Hipo DevHack Hackathon',
+        startDate: 'Nov 2018',
+        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
+        code: 'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon',
+        live: 'https://devhacks2018.web.app/',
+        description: `
+      This application allows candidates from Romania the possibility to offer reviews/ratings to companies about key areas such as:
+      - recruitment process
+      - work environment (team, schedule, etc)
+      - trainings, learning and development opportunities
+      - salary & benefits
+      - work-life balance
+      - management
+      - internal systems (procedures, values, way of working)
+      - other relevant areas
+      The aim of this product is to help candidates find the employer that best suits their needs and personality, using our personality test
+      `,
+        logo: 'assets/projects/12.png'
+    },
+    {
+        id: 13,
+        name: 'Waffic',
+        startDate: 'Mar 2018',
+        endDate: 'Jul 2018',
+        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
+        code: 'https://github.com/madalinaeleonorag/Waffic',
+        live: 'https://waffic1997.web.app',
+        description: `
+      Integrated application for tracking weather and traffic conditions, using AccuWeather, Google Maps and Google Charts APIs.<br>
+      This project was created using Vue.js CLI version 2.5.2 with Vuetify, Google Maps API, Google Charts, VUEX and Router. For database used to store the data is Firebase Realtime Database.
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Waffic/master/src/assets/Presentation/map.jpg'
+    },
+    {
+        id: 14,
+        name: 'Events Attendances',
+        startDate: 'Jan 2018',
+        endDate: 'May 2018',
+        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
+        code: 'https://github.com/madalinaeleonorag/Events-Attendances',
+        live: 'https://attendances-62382.web.app',
+        description: `
+      Events Attendance App application created using HTML, Vue.js, Element and Firebase.
+      <br>
+      This project was created using Vue.js CLI version 2.6.11 with Element. Data is saved through Firebase Database and the login is with Firebase Authentification.
+      <br>
+      Key Features:<br>
+      - Create an account and login;<br>
+      - Edit profile page;<br>
+      - View list of events;<br>
+      - Filter events by date ('Past evets', 'This week', 'Next week', 'Future events', 'Anytime');<br>
+      - See events details and people attending;<br>
+      - Attend event;<br>
+      - Data saved through Firebase Database.
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Events-Attendances/master/src/assets/1.png'
+    },
+    {
+        id: 15,
+        name: 'Backpropagation',
+        startDate: 'Dec 2019',
+        technologies: ['C#', 'Visual Studio'],
+        code: 'https://github.com/madalinaeleonorag/Backpropagation',
+        description: `Backpropagation program using C#`,
+        logo: 'https://victorzhou.com/media/nn-series/network.svg'
+    },
+    {
+        id: 16,
+        name: 'Sudoku Backtracking',
+        startDate: 'Dec 2019',
+        technologies: ['C#', 'Visual Studio'],
+        code: 'https://github.com/madalinaeleonorag/Sudoku_Backtracking',
+        description: `Sudoku program made using C# backtracking`,
+        logo: 'assets/projects/16.png'
+    }
+];
+const SKILLS = {
+    HTML: [
+        { name: 'HTML5', level: 3, color: '#E85D25', logo: 'HTML5' }
+    ],
+    CSS: [
+        { name: 'CSS3', level: 2, color: '#249CDA', logo: 'CSS3' },
+        { name: 'SCSS', level: 2, color: '#C96195', logo: 'SCSS' },
+        { name: 'Bootstrap', level: 2, color: '#533B78', logo: 'Bootstrap' }
+    ],
+    Javascript: [
+        { name: 'Javascript', level: 3, color: '#EFD81D', logo: 'Javascript' },
+        { name: 'Vue.js', level: 3, color: '#3FB27F', logo: 'Vuejs' },
+        { name: 'Vuex', level: 3, color: '#33475B', logo: 'Vuex' },
+        { name: 'Angular', level: 3, color: '#BD002E', logo: 'Angular' },
+        { name: 'JQuery', level: 1, color: '#0864A7', logo: 'JQuery' },
+        { name: 'Ionic', level: 2, color: '#367CF7', logo: 'Ionic' },
+        { name: 'React.js', level: 0, color: '#50BBD7', logo: 'Reactjs' }
+    ],
+    CMS: [
+        { name: 'Wordpress', level: 1, color: '#207196', logo: 'Wordpress' }
+    ],
+    Other: [
+        { name: 'Github', level: 3, color: '#302F2F', logo: 'Github' },
+        { name: 'Git', level: 3, color: '#E84E31', logo: 'Git' },
+        { name: 'NoSQL', level: 2, color: '#F7C52B', logo: 'NoSQL' },
+        { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' },
+        { name: 'Lightroom', level: 1, color: '#0A232F', logo: 'Lightroom' }
+    ]
+};
+const CERTIFICATIONS = [
+    {
+        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
+        name: 'IBM Mentor',
+        organization: 'IBM',
+        issueDate: 'Dec 2020',
+        url: 'https://www.youracclaim.com/badges/841adfea-65df-4a8e-bbe1-267d70cb6a21'
+    },
+    {
+        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
+        name: 'JavaScript Front End Development',
+        organization: 'IBM',
+        issueDate: 'Dec 2020',
+        url: 'https://www.youracclaim.com/badges/b6792b26-e919-4de1-bc24-d4192439aa50'
+    },
+    {
+        logo: 'https://media-exp1.licdn.com/dms/image/C560BAQH0VNXBrdkklA/company-logo_200_200/0/1593711193383?e=1619049600&v=beta&t=lrBAcOWGtkwOM3MtvBw55FRiEHzMyNwaaeJycjzvC7k',
+        name: 'Web Design for Web Developers: Build Beautiful Websites!',
+        organization: 'Udemy',
+        issueDate: 'Sep 2020',
+        url: 'https://udemy-certificate.s3.amazonaws.com/image/UC-4b147be3-753e-47b3-bd44-df452ffc3018.jpg?v=1601294558000'
+    },
+    {
+        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0iRUqSJueUw/company-logo_200_200/0/1519902704390?e=1619049600&v=beta&t=AmcNPqTADleh6FV8bDZ1yJhJb7QcwaEoZha72rhz4TY',
+        name: 'ES SET English Certificate',
+        organization: 'EF Standard English Test (EF SET)',
+        issueDate: 'Jul 2020',
+        url: 'https://www.efset.org/cert/V3b9C2'
+    },
+    {
+        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
+        name: 'Enterprise Design Thinking Practitioner',
+        organization: 'IBM',
+        issueDate: 'Mar 2020',
+        url: 'https://www.youracclaim.com/badges/f28084ab-7407-4d30-8f84-e612adc40402'
+    },
+    {
+        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
+        name: 'IBM Agile Explorer',
+        organization: 'IBM',
+        issueDate: 'Mar 2020',
+        url: 'https://www.youracclaim.com/badges/8ed472e8-38c5-42c0-aee7-c1993e9f737f'
+    },
+    {
+        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
+        name: 'Insurance Industry Foundations',
+        organization: 'IBM',
+        issueDate: 'Oct 2019',
+        url: 'https://www.youracclaim.com/badges/073a4a5e-b2f0-4165-8684-c6a427a005b3'
+    },
+    {
+        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQGxoHjf6gCmyQ/company-logo_200_200/0/1601991684673?e=1619049600&v=beta&t=ZDc7BD5euDuuUZaJHgPgoZxpUvn_Sh49rmRau3-pGbw',
+        name: '"Live for the story" Canon Summer school',
+        organization: 'Canon',
+        issueDate: 'Jul 2018'
+    },
+    {
+        logo: 'https://ecdl.ro/uploads/files/ECDL_SHORT_LOGO_WITH_REGISTRATION_RGB.jpg',
+        name: 'ECDL Complete',
+        organization: 'ECDL Romania',
+        issueDate: 'May 2015'
+    },
+    {
+        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_200_200/0/1519856215226?e=1619049600&v=beta&t=wqGS0p4XpSRfUOSwlJ1_GDzkLcGNhFrMFdkps_mlOHc',
+        name: 'Google Digital Garage',
+        organization: 'Google'
+    }
+];
+const COURSES = [
+    {
+        name: 'DevAcademy Front End Track',
+        organization: 'DevAcademy',
+        logo: '',
+        startYear: 'Jun 2018',
+        endYear: 'Dec 2018',
+        description: 'I was part of the Frontend Track learing HTML, CSS, JavaScript, Vue.js, REST, Firebase Realtime Database. All the knowledge was applied in different exercises and projects.'
+    },
+    {
+        name: 'Digital Marketing'
+    },
+    {
+        name: 'IoT & Mobile Apps Workshop by Oracle Academy Romania'
+    },
+    {
+        name: 'New Front-End Adventures Workshop with Vitaly Friedman'
+    },
+    {
+        name: 'Responsive Web Design Fundamentals by Google'
+    }
+];
+const EDUCATION = [
+    {
+        school: 'Universitatea Româno-Americană din București',
+        degree: 'Master\'s degree',
+        fieldOfStudy: 'Computer/Information Technology Administration and Management',
+        startYear: '2018',
+        endYear: '2020',
+        grade: '9.66',
+        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
+        activities: 'Participation in scientific communication session with transportation optimisation in pl/sql and an article regarding security for client-server applications',
+        description: 'I\'ve assimilated informations about IOT, mobile applications development, web technologies, AI, GDPR, PL/SQL, BigData, project management, WordPress, security of computer networks and E-Commerce. Those knowledges are proved by the projects worked for the graduation of the course.'
+    },
+    {
+        school: 'Universitatea Româno-Americană din București',
+        fieldOfStudy: 'Computer/Information Technology Administration and Management',
+        degree: 'Licentiate degree',
+        startYear: '2015',
+        endYear: '2018',
+        grade: '9.50',
+        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
+        activities: 'Participation in scientific communication session with micro and macro economy, management and digital marketing',
+        description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP.'
+    },
+    {
+        school: 'Theoretical High School Nichita Stanescu',
+        degree: 'High school',
+        fieldOfStudy: 'Mathematical Informatics',
+        startYear: '2011',
+        endYear: '2015',
+        grade: '',
+        logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
+        activities: '',
+        description: 'Acquiring logical and organizational thinking.'
+    }
+];
+const VOLUNTEER = [
+    {
+        startYear: 'Aug 2014',
+        endYear: 'Nov 2014',
+        description: 'Theater project with the stage of frequent social situations for finding solutions',
+        role: 'Role Player',
+        organization: 'ArtFusion',
+        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0R_odMk40zQ/company-logo_200_200/0/1583400910416?e=1619049600&v=beta&t=FrnDEuYXI-gv_NLAZr7e2xMe2vrazFjnUsY0HhPQu2Y'
+    }
+];
+const AWARDS = [
+    {
+        name: '2nd place at Rau-DevHack Hackathon',
+        date: 'Apr 2019',
+        description: 'Creating an application to help users choose the most recommended photographer for their event, according to their visual preferences, budget and period, giving photographers easier management on the event calendar and applications.'
+    },
+    {
+        name: '1st place for Web&Mobile Challenge at DevHacks',
+        date: 'Nov 2018',
+        description: `
+      Our result should allows candidates from Romania the possibility to offer reviews/ratings to companies about key areas such as:<br>
+        - recruitment process;<br>
+        - work environment (team, schedule, etc);<br>
+        - trainings, learning and development opportunities;<br>
+        - salary & benefits;<br>
+        - work-life balance;<br>
+        - management;<br>
+        - internal systems (procedures, values, way of working);<br>
+        - other relevant areas;<br>
+        The aim of this product is to help candidates find the employer that best suits their needs and personality, something different.<br>
+        The target audience of the product will be made up students and young professionals.
+      `
+    },
+    {
+        name: 'Note - IE Robot Contest',
+        date: 'May 2014',
+        description: 'Edition V-organized in Electrical Engineering Days 2014 in Politehnica University.'
+    }
+];
+const PUBLICATIONS = [
+    {
+        name: 'How I personalized my GitHub Overview',
+        date: 'Jan 2021',
+        description: '',
+        url: 'https://madalinaeleonorag.medium.com/how-i-personalized-my-github-overview-7144fd15d1e1',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
+        organization: 'Medium'
+    },
+    {
+        name: 'My JavaScriptmas Journey 🎄',
+        date: 'Dec 2020',
+        description: '',
+        url: 'https://madalinaeleonorag.medium.com/my-javascriptmas-journey-69a29ea5845a',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
+        organization: 'Medium'
+    },
+    {
+        name: 'Providing Security for Client-Server Applications',
+        date: '2019',
+        description: '',
+        url: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
+        logo: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
+        organization: 'Research Focus'
+    },
+    {
+        name: 'Dreptul la timp',
+        date: 'Jan 11, 2013',
+        description: 'Publishing poems in high school magazine',
+        url: '',
+        logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
+        organization: 'Liceul Teoretic Nichita Stanescu'
+    }
+];
+const EXPERIENCE = [
+    {
+        companyName: 'IBM iX',
+        role: 'Front End Developer',
+        dateStart: 'Dec 2018',
+        dateEnd: 'Present',
+        location: 'Bucharest, Romania',
+        description: `
+      <b>Client 1</b><br>
+      <i>03/2019 - 03/2020</i><br>
+      Industry: Insurance<br>
+      Assignment description:<br>
+      - Develop Web based applications including UX design, application building and supporting solutions;<br>
+      - Collaborate with back-end developers and web designers to improve usability;<br>
+      - Get feedback from, and build solutions for, users and customers;<br>
+      - Create quality mockups and prototypes;<br>
+      - Stay up-to-date on emerging technologies;<br>
+      - Participate in shadowing sessions with Senior Front End Developers in solving different problems;<br>
+      - Attended relevant courses for the knowledge used in my field;<br>
+      - Investigate and fixed vulnerabilities in packages.<br>
+      Contribution:<br>
+      - I delivered a good quality presentation website for our client in order to present our projects to their customers, in a small amount of time so the client was able to see the results and to use it;<br>
+      - I investigated and solved some vulnerabilities from the applications;<br>
+      - I contributed actively on a project from march and until the end of November, by helping other colleagues with code review and implementing reusable components. I also helped taking decisions in business rules and in development process;<br>
+      - I participated in every meeting and decision in a proactive way in order to deliver a quality and clean code which meets the client requirements. I also suggested various changes to the design that was taken into account.<br>
+      <b>Technologies:</b> Angular, Ionic, Sass, TypeScript, REST, Capacitor, RxJs<br><br>
+      <b>Client 2</b><br>
+      <i>03/2020 - 03/2020</i><br>
+      Industry: Retail<br>
+      Assignment description:<br>
+      - Redesigning the on-boarding process for non plastic material and packaging suppliers onto the materials library and reimagining the presentation and navigation of the library in parallel.<br>
+      Contribution:<br>
+      - I participated in discussions with the design and front-end team in order to clarify and suggest edits so the user can have a better experience using the website;<br>
+      - I created reusable pages using React.js which corresponds to the design;<br>
+      - I created dynamic forms using Formik framework for the registration of new plastic free materials.<br>
+      <b>Technologies:</b> React.js<br><br>
+      <b>Client 3</b><br>
+      <i>04/2020 - to date</i><br>
+      Industry: Retail<br>
+      Assignment description:<br>
+      - Being a member of the a subdivision from the team and delivering features and quality code.<br>
+      Contribution:<br>
+      - I created new components and features for the application in a way that we can reuse them when it's need;<br>
+      - I helped both design and development departments to take decisions in order to deliver the best features;<br>
+      - I learned better ways to solve the problems that appears during the development;<br>
+      - Delivered WYSIWYG (What You See Is What You Get), a feature that wants to improve the customer experience regarding the promotional codes.The first phase included changing the design of both coupons and product promotions, including more descriptive text and a user-friendly design, changes made throughout the application, on all banners. In the same phase was included the creation of the right drawer, which replaces the pop-up with the description of the promotion or the description page for it, being available by clicking on the link with the coupon / promotion details. If there are multiple promotions for a single product, they are displayed as a total, and will be described accordingly in the right drawer. The second phase includes the implementation of the new API response, which includes a new possibility to process the offers, displaying the requirement quantity, following that on the stores where the feature is activated, to display and if the offer has been completed and benefit from it. The new treatment system is visible both in the coupon design, in the mini-cart or in the top menu, in the right drawer and in the product page.<br>
+      <b>Technologies:</b> Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox<br>`,
+        companyLogo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQEEhxqhOHJVUA/company-logo_200_200/0/1525123751467?e=1618444800&v=beta&t=tAnznEreYDswd0JJE-g8HdvJrCVhwAN_WvxGdBxS1aQ',
+        skill: ['Angular', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'VirtualBox', 'Jira'],
+    },
+    {
+        companyName: 'OTP Bank',
+        role: 'Project - Referent',
+        dateStart: 'Nov 2017',
+        dateEnd: 'Dec 2017',
+        location: 'Bucharest, Romania',
+        description: 'The main responsibility was the selection of the clients that were in line with the requirements for digitization of bank transfers, within the project Digital Ambassador',
+        companyLogo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHp7dhOc8uDUQ/company-logo_200_200/0/1600108531146?e=1618444800&v=beta&t=ICwjhVXsA3S4IQ6u-U-jBYkjPDzTjcipb8bxqPC_F7s',
+        skill: []
+    },
+    {
+        companyName: 'Groupe Renault',
+        role: 'Practicant - Drive your future',
+        dateStart: 'Jun 2017',
+        dateEnd: 'Sept 2017',
+        location: 'Bucharest, Romania',
+        description: 'Database maintenance using my own Matlab scripts',
+        companyLogo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQEuvhNwiJCyZw/company-logo_200_200/0/1610449180280?e=1618444800&v=beta&t=UVG0Xg3Ie6rz4MW6Pm6J3Ta5btoCsTrZk50YTHJZhkU',
+        skill: ['Matlab']
+    },
+    {
+        companyName: 'DB Schenker',
+        role: 'Practitioner - Financial accountant',
+        dateStart: 'May 2017',
+        dateEnd: 'Jun 2017',
+        location: 'Bucharest, Romania',
+        description: 'Specialized practice in financial accounting',
+        companyLogo: 'https://media-exp1.licdn.com/dms/image/C560BAQE2argdPgynxQ/company-logo_200_200/0/1603714685129?e=1618444800&v=beta&t=fT9L8bRpvfbTyfjCOEMd3LfuvVC5cETSRX7gK53SBIA',
+        skill: ['SAP', 'Basic accountancy ']
+    },
+    {
+        companyName: 'Telekom Romania',
+        role: 'Inbound Agent',
+        dateStart: 'Feb 2016',
+        dateEnd: 'Jun 2017',
+        location: 'Bucharest, Romania',
+        description: 'Taking calls and solving the situations encountered by clients, making recordings and offering them.',
+        companyLogo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHhi7yDzxguBQ/company-logo_200_200/0/1591696739930?e=1618444800&v=beta&t=6JQBq6aZFNdS8-GIPsmGPpE21aNsss4ycZuNFQk--4M',
+        skill: ['Work under pressure', 'Adaptability', 'Multitasking']
+    },
+    {
+        companyName: 'Springtime',
+        role: 'Cashier and Comercial Worker',
+        dateStart: 'Aug 2015',
+        dateEnd: 'Dec 2015',
+        location: 'Bucharest, Romania',
+        description: 'Making orders as quickly and accurately, respecting customer requirements',
+        companyLogo: 'https://www.springtime.ro/workspace/img/Logo-Site.png',
+        skill: ['Meeting customer expectations', 'Multitasking', 'Work under pressure']
+    },
+    {
+        companyName: 'Kantar Millward Brown Romania',
+        role: 'Survey Operator',
+        dateStart: 'May 2015',
+        dateEnd: 'Aug 2015',
+        location: 'Bucharest, Romania',
+        description: 'Recruitment of people meeting the criteria communicated',
+        companyLogo: 'https://media-exp1.licdn.com/dms/image/C560BAQETvYin9MN05w/company-logo_200_200/0/1579084333483?e=1618444800&v=beta&t=L_ANBm4wO7v6WoW5D3vNvoDP_jm-7Za0bWdgcbr2q18',
+        skill: ['Persuasivity']
+    }
+];
 
 
 /***/ }),
@@ -431,7 +957,7 @@ ExperienceJobComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.job.skill.length > 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", ctx.job.description, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_2__["MatChipList"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_2__["MatChip"]], styles: ["app-experience-job .header {\n  display: flex;\n  flex-flow: row;\n  align-items: center;\n  padding: 20px 20px 10px 20px;\n}\napp-experience-job .header .image {\n  padding-right: 20px;\n}\napp-experience-job .header .image img {\n  max-width: 150px;\n  height: auto;\n}\napp-experience-job .header .summary {\n  display: flex;\n  flex-flow: column;\n}\napp-experience-job .header .summary .name {\n  font-weight: bold;\n  color: #3A3B3C;\n}\napp-experience-job .header .summary .role {\n  font-weight: bold;\n  font-size: 1.2rem;\n  color: #a50c0c;\n  margin: 4px 0;\n}\napp-experience-job .header .summary .date {\n  font-weight: normal;\n}\napp-experience-job .header .summary .location {\n  color: #8b8b8b;\n}\napp-experience-job .header .summary .skills {\n  display: flex;\n}\napp-experience-job .header .summary .skills .mat-chip {\n  font-size: 0.7rem;\n}\napp-experience-job .header .summary .skills .mat-chip.mat-standard-chip {\n  background-color: #a50c0c;\n  color: #FFFFFF;\n}\napp-experience-job .header .summary .skills .mat-standard-chip {\n  padding: 5px 5px;\n  border-radius: 15px;\n  min-height: 20px;\n  height: 1px;\n}\napp-experience-job .header .summary .skills .mat-chip-list-wrapper {\n  margin: 4px -4px;\n}\napp-experience-job .description {\n  padding: 0 20px 20px;\n  line-height: 1.5rem;\n}\n@media (max-width: 750px) {\n  app-experience-job .header {\n    flex-flow: wrap;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9leHBlcmllbmNlLWpvYi9leHBlcmllbmNlLWpvYi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvdmFyaWFibGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0U7RUFDRSxhQUFBO0VBQ0EsY0FBQTtFQUNBLG1CQUFBO0VBQ0EsNEJBQUE7QUFGSjtBQUlJO0VBQ0UsbUJBQUE7QUFGTjtBQUlNO0VBQ0UsZ0JBQUE7RUFDQSxZQUFBO0FBRlI7QUFLSTtFQUNFLGFBQUE7RUFDQSxpQkFBQTtBQUhOO0FBS007RUFDRSxpQkFBQTtFQUNBLGNDdEJEO0FEbUJQO0FBS007RUFDRSxpQkFBQTtFQUNBLGlCQUFBO0VBQ0EsY0N2QkE7RUR3QkEsYUFBQTtBQUhSO0FBS007RUFDRSxtQkFBQTtBQUhSO0FBS007RUFDRSxjQ2pDSTtBRDhCWjtBQUtNO0VBQ0UsYUFBQTtBQUhSO0FBS1E7RUFDRSxpQkFBQTtBQUhWO0FBS1E7RUFDRSx5QkN2Q0Y7RUR3Q0UsY0N6Q0Y7QURzQ1I7QUFLUTtFQUNFLGdCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtFQUNBLFdBQUE7QUFIVjtBQUtRO0VBQ0UsZ0JBQUE7QUFIVjtBQVNFO0VBQ0Usb0JBQUE7RUFDQSxtQkFBQTtBQVBKO0FBVUU7RUFDRTtJQUNFLGVBQUE7RUFSSjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9leHBlcmllbmNlLWpvYi9leHBlcmllbmNlLWpvYi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgXCIuLi8uLi92YXJpYWJsZXMuc2Nzc1wiO1xyXG5cclxuYXBwLWV4cGVyaWVuY2Utam9iIHtcclxuICAuaGVhZGVyIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWZsb3c6IHJvdztcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBwYWRkaW5nOiAyMHB4IDIwcHggMTBweCAyMHB4O1xyXG4gICAgXHJcbiAgICAuaW1hZ2Uge1xyXG4gICAgICBwYWRkaW5nLXJpZ2h0OiAyMHB4O1xyXG5cclxuICAgICAgaW1nIHtcclxuICAgICAgICBtYXgtd2lkdGg6IDE1MHB4O1xyXG4gICAgICAgIGhlaWdodDogYXV0bztcclxuICAgICAgfVxyXG4gICAgfVxyXG4gICAgLnN1bW1hcnkge1xyXG4gICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICBmbGV4LWZsb3c6IGNvbHVtbjtcclxuXHJcbiAgICAgIC5uYW1lIHtcclxuICAgICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgICAgICBjb2xvcjogJGdyYXk7XHJcbiAgICAgIH1cclxuICAgICAgLnJvbGUge1xyXG4gICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMS4ycmVtO1xyXG4gICAgICAgIGNvbG9yOiAkYm9yZG87XHJcbiAgICAgICAgbWFyZ2luOiA0cHggMDtcclxuICAgICAgfVxyXG4gICAgICAuZGF0ZSB7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuICAgICAgfVxyXG4gICAgICAubG9jYXRpb24ge1xyXG4gICAgICAgIGNvbG9yOiAkbGlnaHRncmF5O1xyXG4gICAgICB9XHJcbiAgICAgIC5za2lsbHMge1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcblxyXG4gICAgICAgIC5tYXQtY2hpcCB7XHJcbiAgICAgICAgICBmb250LXNpemU6IDAuN3JlbTtcclxuICAgICAgICB9XHJcbiAgICAgICAgLm1hdC1jaGlwLm1hdC1zdGFuZGFyZC1jaGlwIHtcclxuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICRib3JkbztcclxuICAgICAgICAgIGNvbG9yOiAkd2hpdGU7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5tYXQtc3RhbmRhcmQtY2hpcCB7XHJcbiAgICAgICAgICBwYWRkaW5nOiA1cHggNXB4O1xyXG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogMTVweDtcclxuICAgICAgICAgIG1pbi1oZWlnaHQ6IDIwcHg7XHJcbiAgICAgICAgICBoZWlnaHQ6IDFweDtcclxuICAgICAgICB9XHJcbiAgICAgICAgLm1hdC1jaGlwLWxpc3Qtd3JhcHBlciB7XHJcbiAgICAgICAgICBtYXJnaW46IDRweCAtNHB4O1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLmRlc2NyaXB0aW9uIHtcclxuICAgIHBhZGRpbmc6IDAgMjBweCAyMHB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDEuNXJlbTtcclxuICB9XHJcblxyXG4gIEBtZWRpYSAobWF4LXdpZHRoOiA3NTBweCkge1xyXG4gICAgLmhlYWRlciB7XHJcbiAgICAgIGZsZXgtZmxvdzogd3JhcDtcclxuICAgIH1cclxuICB9XHJcbn1cclxuIiwiJGJsYWNrOiAjMTgxOTFBO1xyXG4kZ3JheTogIzNBM0IzQztcclxuJGxpZ2h0Z3JheTogIzhiOGI4YjtcclxuJGJhY2tncm91bmQ6ICNGOEY4RkY7XHJcbiR3aGl0ZTogI0ZGRkZGRjtcclxuJGJvcmRvOiAjYTUwYzBjOyJdfQ== */"], encapsulation: 2 });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_2__["MatChipList"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_2__["MatChip"]], styles: ["app-experience-job .header {\n  display: flex;\n  flex-flow: row;\n  align-items: center;\n  padding: 20px 20px 10px 20px;\n}\napp-experience-job .header .image {\n  padding-right: 20px;\n}\napp-experience-job .header .image img {\n  max-width: 150px;\n  height: auto;\n}\napp-experience-job .header .summary {\n  display: flex;\n  flex-flow: column;\n}\napp-experience-job .header .summary .name {\n  font-weight: bold;\n  color: #3A3B3C;\n}\napp-experience-job .header .summary .role {\n  font-weight: bold;\n  font-size: 1.2rem;\n  color: #a50c0c;\n  margin: 4px 0;\n}\napp-experience-job .header .summary .date {\n  font-weight: normal;\n}\napp-experience-job .header .summary .location {\n  color: #8b8b8b;\n}\napp-experience-job .header .summary .skills {\n  display: flex;\n}\napp-experience-job .header .summary .skills .mat-chip {\n  font-size: 0.7rem;\n}\napp-experience-job .header .summary .skills .mat-chip.mat-standard-chip {\n  background-color: #FFFFFF;\n  color: #a50c0c;\n}\napp-experience-job .header .summary .skills .mat-standard-chip {\n  padding: 5px 5px;\n  border: 1px solid #a50c0c;\n  border-radius: 15px;\n  min-height: 20px;\n  height: 1px;\n}\napp-experience-job .header .summary .skills .mat-chip-list-wrapper {\n  margin: 4px -4px;\n}\napp-experience-job .description {\n  padding: 0 20px 20px;\n  line-height: 1.5rem;\n}\n@media (max-width: 750px) {\n  app-experience-job .header {\n    flex-flow: wrap;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9leHBlcmllbmNlLWpvYi9leHBlcmllbmNlLWpvYi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvdmFyaWFibGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0U7RUFDRSxhQUFBO0VBQ0EsY0FBQTtFQUNBLG1CQUFBO0VBQ0EsNEJBQUE7QUFGSjtBQUlJO0VBQ0UsbUJBQUE7QUFGTjtBQUlNO0VBQ0UsZ0JBQUE7RUFDQSxZQUFBO0FBRlI7QUFLSTtFQUNFLGFBQUE7RUFDQSxpQkFBQTtBQUhOO0FBS007RUFDRSxpQkFBQTtFQUNBLGNDdEJEO0FEbUJQO0FBS007RUFDRSxpQkFBQTtFQUNBLGlCQUFBO0VBQ0EsY0N2QkE7RUR3QkEsYUFBQTtBQUhSO0FBS007RUFDRSxtQkFBQTtBQUhSO0FBS007RUFDRSxjQ2pDSTtBRDhCWjtBQUtNO0VBQ0UsYUFBQTtBQUhSO0FBS1E7RUFDRSxpQkFBQTtBQUhWO0FBS1E7RUFDRSx5QkN4Q0Y7RUR5Q0UsY0N4Q0Y7QURxQ1I7QUFLUTtFQUNFLGdCQUFBO0VBQ0EseUJBQUE7RUFDQSxtQkFBQTtFQUNBLGdCQUFBO0VBQ0EsV0FBQTtBQUhWO0FBS1E7RUFDRSxnQkFBQTtBQUhWO0FBU0U7RUFDRSxvQkFBQTtFQUNBLG1CQUFBO0FBUEo7QUFVRTtFQUNFO0lBQ0UsZUFBQTtFQVJKO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2V4cGVyaWVuY2Utam9iL2V4cGVyaWVuY2Utam9iLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uLy4uL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5hcHAtZXhwZXJpZW5jZS1qb2Ige1xyXG4gIC5oZWFkZXIge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZmxvdzogcm93O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIHBhZGRpbmc6IDIwcHggMjBweCAxMHB4IDIwcHg7XHJcbiAgICBcclxuICAgIC5pbWFnZSB7XHJcbiAgICAgIHBhZGRpbmctcmlnaHQ6IDIwcHg7XHJcblxyXG4gICAgICBpbWcge1xyXG4gICAgICAgIG1heC13aWR0aDogMTUwcHg7XHJcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgICAuc3VtbWFyeSB7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIGZsZXgtZmxvdzogY29sdW1uO1xyXG5cclxuICAgICAgLm5hbWUge1xyXG4gICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgICAgIGNvbG9yOiAkZ3JheTtcclxuICAgICAgfVxyXG4gICAgICAucm9sZSB7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICAgICAgZm9udC1zaXplOiAxLjJyZW07XHJcbiAgICAgICAgY29sb3I6ICRib3JkbztcclxuICAgICAgICBtYXJnaW46IDRweCAwO1xyXG4gICAgICB9XHJcbiAgICAgIC5kYXRlIHtcclxuICAgICAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgICB9XHJcbiAgICAgIC5sb2NhdGlvbiB7XHJcbiAgICAgICAgY29sb3I6ICRsaWdodGdyYXk7XHJcbiAgICAgIH1cclxuICAgICAgLnNraWxscyB7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuXHJcbiAgICAgICAgLm1hdC1jaGlwIHtcclxuICAgICAgICAgIGZvbnQtc2l6ZTogMC43cmVtO1xyXG4gICAgICAgIH1cclxuICAgICAgICAubWF0LWNoaXAubWF0LXN0YW5kYXJkLWNoaXAge1xyXG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogJHdoaXRlO1xyXG4gICAgICAgICAgY29sb3I6ICRib3JkbztcclxuICAgICAgICB9XHJcbiAgICAgICAgLm1hdC1zdGFuZGFyZC1jaGlwIHtcclxuICAgICAgICAgIHBhZGRpbmc6IDVweCA1cHg7XHJcbiAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAkYm9yZG87XHJcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiAxNXB4O1xyXG4gICAgICAgICAgbWluLWhlaWdodDogMjBweDtcclxuICAgICAgICAgIGhlaWdodDogMXB4O1xyXG4gICAgICAgIH1cclxuICAgICAgICAubWF0LWNoaXAtbGlzdC13cmFwcGVyIHtcclxuICAgICAgICAgIG1hcmdpbjogNHB4IC00cHg7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAuZGVzY3JpcHRpb24ge1xyXG4gICAgcGFkZGluZzogMCAyMHB4IDIwcHg7XHJcbiAgICBsaW5lLWhlaWdodDogMS41cmVtO1xyXG4gIH1cclxuXHJcbiAgQG1lZGlhIChtYXgtd2lkdGg6IDc1MHB4KSB7XHJcbiAgICAuaGVhZGVyIHtcclxuICAgICAgZmxleC1mbG93OiB3cmFwO1xyXG4gICAgfVxyXG4gIH1cclxufVxyXG4iLCIkYmxhY2s6ICMxODE5MUE7XHJcbiRncmF5OiAjM0EzQjNDO1xyXG4kbGlnaHRncmF5OiAjOGI4YjhiO1xyXG4kYmFja2dyb3VuZDogI0Y4RjhGRjtcclxuJHdoaXRlOiAjRkZGRkZGO1xyXG4kYm9yZG86ICNhNTBjMGM7Il19 */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ExperienceJobComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -800,6 +1326,147 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
 
 /***/ }),
 
+/***/ "M0Pn":
+/*!*******************************************************************!*\
+  !*** ./src/app/components/project-card/project-card.component.ts ***!
+  \*******************************************************************/
+/*! exports provided: ProjectCardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectCardComponent", function() { return ProjectCardComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "iInd");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/card */ "PDjf");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "SVse");
+/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/chips */ "f44v");
+
+
+
+
+
+
+function ProjectCardComponent_a_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "See code");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", ctx_r0.project.code, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+function ProjectCardComponent_span_9_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" - ", ctx_r1.project.endDate, "");
+} }
+function ProjectCardComponent_mat_chip_list_11_mat_chip_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-chip");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const technology_r6 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](technology_r6);
+} }
+function ProjectCardComponent_mat_chip_list_11_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-chip-list", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ProjectCardComponent_mat_chip_list_11_mat_chip_1_Template, 2, 1, "mat-chip", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r2.project.technologies);
+} }
+function ProjectCardComponent_div_13_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div");
+} }
+function ProjectCardComponent_button_14_Template(rf, ctx) { if (rf & 1) {
+    const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectCardComponent_button_14_Template_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r7.openNewTab(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " See live ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+const _c0 = function (a0) { return { "background-image": a0 }; };
+class ProjectCardComponent {
+    constructor(router) {
+        this.router = router;
+    }
+    ngOnInit() {
+    }
+    seeDetails() {
+        this.router.navigateByUrl(`/project/${this.project.id}`);
+    }
+    openNewTab() {
+        window.open(this.project.live);
+    }
+}
+ProjectCardComponent.ɵfac = function ProjectCardComponent_Factory(t) { return new (t || ProjectCardComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
+ProjectCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectCardComponent, selectors: [["app-project-card"]], inputs: { project: "project" }, decls: 17, vars: 10, consts: [[1, "image", 3, "ngStyle"], [3, "href", 4, "ngIf"], [4, "ngIf"], ["class", "technologies", 4, "ngIf"], ["class", "text-button", 3, "click", 4, "ngIf"], [1, "fill-button", 3, "click"], [3, "href"], [1, "technologies"], [4, "ngFor", "ngForOf"], [1, "text-button", 3, "click"]], template: function ProjectCardComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-card");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-card-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mat-card-title");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-card-subtitle");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, ProjectCardComponent_a_6_Template, 2, 1, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "mat-card-subtitle");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, ProjectCardComponent_span_9_Template, 2, 1, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "mat-card-content");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, ProjectCardComponent_mat_chip_list_11_Template, 2, 1, "mat-chip-list", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "mat-card-actions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, ProjectCardComponent_div_13_Template, 1, 0, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, ProjectCardComponent_button_14_Template, 2, 0, "button", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "button", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectCardComponent_Template_button_click_15_listener() { return ctx.seeDetails(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "See details");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](8, _c0, "url(" + ctx.project.logo + ")"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.project.name);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.project.code);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.project.startDate, " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.project.endDate);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.project.technologies.length > 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.project.live);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.project.live);
+    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCard"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgStyle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardHeader"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardSubtitle"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardContent"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardActions"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipList"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChip"]], styles: ["app-project-card {\n  flex: 0 1 23%;\n  margin: 10px;\n  display: flex;\n}\napp-project-card .mat-card {\n  display: flex;\n  flex-direction: column;\n  height: -webkit-fill-available;\n  width: 100%;\n}\napp-project-card .image {\n  height: 25vh;\n  background-size: cover;\n  background-position: center;\n}\napp-project-card .technologies {\n  display: flex;\n}\napp-project-card .technologies .mat-chip {\n  font-size: 0.7rem;\n}\napp-project-card .technologies .mat-chip.mat-standard-chip {\n  background-color: #FFFFFF;\n  color: #a50c0c;\n}\napp-project-card .technologies .mat-standard-chip {\n  padding: 5px 5px;\n  border-radius: 15px;\n  border: 1px solid #a50c0c;\n  min-height: 20px;\n  height: 1px;\n}\napp-project-card .technologies .mat-chip-list-wrapper {\n  margin: 4px -4px;\n}\napp-project-card .mat-card-content {\n  margin-top: auto;\n}\napp-project-card .mat-card-actions {\n  display: flex;\n  justify-content: space-between;\n}\napp-project-card .mat-chip-list {\n  place-content: center;\n}\napp-project-card .mat-card-header-text {\n  text-align: -webkit-center;\n}\napp-project-card .mat-chip-list-wrapper {\n  justify-content: center;\n}\napp-project-card .mat-card-header {\n  place-content: center;\n}\napp-project-card button {\n  border: none;\n  padding: 6px;\n  margin: 2px;\n  cursor: pointer;\n  border-radius: 5px;\n}\napp-project-card .fill-button {\n  box-shadow: 0 0 10px -2px #8b8b8b;\n  background-color: #a50c0c;\n  color: #FFFFFF;\n}\napp-project-card .text-button {\n  border: 1px solid #a50c0c;\n  background-color: #FFFFFF;\n  color: #a50c0c;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wcm9qZWN0LWNhcmQvcHJvamVjdC1jYXJkLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC92YXJpYWJsZXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNFLGFBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtBQURGO0FBR0U7RUFDRSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSw4QkFBQTtFQUNBLFdBQUE7QUFESjtBQUlFO0VBQ0UsWUFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7QUFGSjtBQUtFO0VBQ0UsYUFBQTtBQUhKO0FBS0k7RUFDRSxpQkFBQTtBQUhOO0FBTUk7RUFDRSx5QkN4QkU7RUR5QkYsY0N4QkU7QURvQlI7QUFPSTtFQUNFLGdCQUFBO0VBQ0EsbUJBQUE7RUFDQSx5QkFBQTtFQUNBLGdCQUFBO0VBQ0EsV0FBQTtBQUxOO0FBUUk7RUFDRSxnQkFBQTtBQU5OO0FBVUU7RUFDRSxnQkFBQTtBQVJKO0FBV0U7RUFDRSxhQUFBO0VBQ0EsOEJBQUE7QUFUSjtBQVlFO0VBQ0UscUJBQUE7QUFWSjtBQWFFO0VBQ0UsMEJBQUE7QUFYSjtBQWNFO0VBQ0UsdUJBQUE7QUFaSjtBQWVFO0VBQ0UscUJBQUE7QUFiSjtBQWdCRTtFQUNFLFlBQUE7RUFDQSxZQUFBO0VBQ0EsV0FBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtBQWRKO0FBaUJFO0VBQ0UsaUNBQUE7RUFDQSx5QkMzRUk7RUQ0RUosY0M3RUk7QUQ4RFI7QUFrQkU7RUFDRSx5QkFBQTtFQUNBLHlCQ2xGSTtFRG1GSixjQ2xGSTtBRGtFUiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJvamVjdC1jYXJkL3Byb2plY3QtY2FyZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgXCIuLi8uLi92YXJpYWJsZXMuc2Nzc1wiO1xyXG5cclxuYXBwLXByb2plY3QtY2FyZCB7XHJcbiAgZmxleDogMCAxIDIzJTtcclxuICBtYXJnaW46IDEwcHg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuXHJcbiAgLm1hdC1jYXJkIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgaGVpZ2h0OiAtd2Via2l0LWZpbGwtYXZhaWxhYmxlO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgfVxyXG5cclxuICAuaW1hZ2Uge1xyXG4gICAgaGVpZ2h0OiAyNXZoO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICB9XHJcblxyXG4gIC50ZWNobm9sb2dpZXMge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuXHJcbiAgICAubWF0LWNoaXAge1xyXG4gICAgICBmb250LXNpemU6IDAuN3JlbTtcclxuICAgIH1cclxuXHJcbiAgICAubWF0LWNoaXAubWF0LXN0YW5kYXJkLWNoaXAge1xyXG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkd2hpdGU7XHJcbiAgICAgIGNvbG9yOiAkYm9yZG87XHJcbiAgICB9XHJcblxyXG4gICAgLm1hdC1zdGFuZGFyZC1jaGlwIHtcclxuICAgICAgcGFkZGluZzogNXB4IDVweDtcclxuICAgICAgYm9yZGVyLXJhZGl1czogMTVweDtcclxuICAgICAgYm9yZGVyOiAxcHggc29saWQgJGJvcmRvO1xyXG4gICAgICBtaW4taGVpZ2h0OiAyMHB4O1xyXG4gICAgICBoZWlnaHQ6IDFweDtcclxuICAgIH1cclxuXHJcbiAgICAubWF0LWNoaXAtbGlzdC13cmFwcGVyIHtcclxuICAgICAgbWFyZ2luOiA0cHggLTRweDtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC5tYXQtY2FyZC1jb250ZW50IHtcclxuICAgIG1hcmdpbi10b3A6IGF1dG87XHJcbiAgfVxyXG5cclxuICAubWF0LWNhcmQtYWN0aW9ucyB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gIH1cclxuXHJcbiAgLm1hdC1jaGlwLWxpc3Qge1xyXG4gICAgcGxhY2UtY29udGVudDogY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgLm1hdC1jYXJkLWhlYWRlci10ZXh0IHtcclxuICAgIHRleHQtYWxpZ246IC13ZWJraXQtY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgLm1hdC1jaGlwLWxpc3Qtd3JhcHBlciB7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICB9XHJcblxyXG4gIC5tYXQtY2FyZC1oZWFkZXIge1xyXG4gICAgcGxhY2UtY29udGVudDogY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgYnV0dG9uIHtcclxuICAgIGJvcmRlcjogbm9uZTtcclxuICAgIHBhZGRpbmc6IDZweDtcclxuICAgIG1hcmdpbjogMnB4O1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIH1cclxuXHJcbiAgLmZpbGwtYnV0dG9uIHtcclxuICAgIGJveC1zaGFkb3c6IDAgMCAxMHB4IC0ycHggJGxpZ2h0Z3JheTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRib3JkbztcclxuICAgIGNvbG9yOiAkd2hpdGU7XHJcbiAgfVxyXG5cclxuICAudGV4dC1idXR0b24ge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgJGJvcmRvO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJHdoaXRlO1xyXG4gICAgY29sb3I6ICRib3JkbztcclxuICB9XHJcbn1cclxuIiwiJGJsYWNrOiAjMTgxOTFBO1xyXG4kZ3JheTogIzNBM0IzQztcclxuJGxpZ2h0Z3JheTogIzhiOGI4YjtcclxuJGJhY2tncm91bmQ6ICNGOEY4RkY7XHJcbiR3aGl0ZTogI0ZGRkZGRjtcclxuJGJvcmRvOiAjYTUwYzBjOyJdfQ== */"], encapsulation: 2 });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ProjectCardComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-project-card',
+                templateUrl: './project-card.component.html',
+                styleUrls: ['./project-card.component.scss'],
+                encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewEncapsulation"].None
+            }]
+    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"] }]; }, { project: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
+
+
+/***/ }),
+
 /***/ "QrEi":
 /*!*******************************************************!*\
   !*** ./src/app/components/awards/awards.component.ts ***!
@@ -909,6 +1576,52 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
 
 /***/ }),
 
+/***/ "X1wX":
+/*!********************************************************************!*\
+  !*** ./src/app/pages/project-details/project-details.component.ts ***!
+  \********************************************************************/
+/*! exports provided: ProjectDetailsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectDetailsComponent", function() { return ProjectDetailsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var src_assets_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/assets/data */ "6Xnp");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "iInd");
+
+
+
+
+class ProjectDetailsComponent {
+    constructor(route) {
+        this.route = route;
+    }
+    ngOnInit() {
+        this.getDetailsByIndex(this.route.snapshot.paramMap.get('index'));
+    }
+    getDetailsByIndex(index) {
+        this.details = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["PROJECTS"][index];
+    }
+}
+ProjectDetailsComponent.ɵfac = function ProjectDetailsComponent_Factory(t) { return new (t || ProjectDetailsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"])); };
+ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectDetailsComponent, selectors: [["app-project-details"]], decls: 2, vars: 0, template: function ProjectDetailsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "project-details works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3Byb2plY3QtZGV0YWlscy9wcm9qZWN0LWRldGFpbHMuY29tcG9uZW50LnNjc3MifQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ProjectDetailsComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-project-details',
+                templateUrl: './project-details.component.html',
+                styleUrls: ['./project-details.component.scss']
+            }]
+    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }]; }, null); })();
+
+
+/***/ }),
+
 /***/ "ZAI4":
 /*!*******************************!*\
   !*** ./src/app/app.module.ts ***!
@@ -925,24 +1638,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/expansion */ "o4Yh");
 /* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/chips */ "f44v");
 /* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/tabs */ "M9ds");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "Sy1n");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/platform-browser/animations */ "omvX");
-/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/contact/contact.component */ "G2Gn");
-/* harmony import */ var _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/homepage/homepage.component */ "ojyh");
-/* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/header/header.component */ "2MiI");
-/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/footer/footer.component */ "LmEr");
-/* harmony import */ var _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/skills/skills.component */ "2yNh");
-/* harmony import */ var _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./directives/progress-bar-colors.directive */ "82IS");
-/* harmony import */ var _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/skill-progress-bar/skill-progress-bar.component */ "rOuV");
-/* harmony import */ var _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/experience/experience.component */ "mKaJ");
-/* harmony import */ var _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/experience-job/experience-job.component */ "6hof");
-/* harmony import */ var _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/education-level/education-level.component */ "zeqP");
-/* harmony import */ var _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/certification/certification.component */ "mstO");
-/* harmony import */ var _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/volunteer/volunteer.component */ "7ntx");
-/* harmony import */ var _components_course_course_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/course/course.component */ "vP9v");
-/* harmony import */ var _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/awards/awards.component */ "QrEi");
-/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/publications/publications.component */ "BBdW");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/card */ "PDjf");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app.component */ "Sy1n");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/platform-browser/animations */ "omvX");
+/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/contact/contact.component */ "G2Gn");
+/* harmony import */ var _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/homepage/homepage.component */ "ojyh");
+/* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/header/header.component */ "2MiI");
+/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/footer/footer.component */ "LmEr");
+/* harmony import */ var _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/skills/skills.component */ "2yNh");
+/* harmony import */ var _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./directives/progress-bar-colors.directive */ "82IS");
+/* harmony import */ var _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/skill-progress-bar/skill-progress-bar.component */ "rOuV");
+/* harmony import */ var _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/experience/experience.component */ "mKaJ");
+/* harmony import */ var _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/experience-job/experience-job.component */ "6hof");
+/* harmony import */ var _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/education-level/education-level.component */ "zeqP");
+/* harmony import */ var _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/certification/certification.component */ "mstO");
+/* harmony import */ var _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/volunteer/volunteer.component */ "7ntx");
+/* harmony import */ var _components_course_course_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/course/course.component */ "vP9v");
+/* harmony import */ var _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/awards/awards.component */ "QrEi");
+/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/publications/publications.component */ "BBdW");
+/* harmony import */ var _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./pages/projects/projects.component */ "u/sh");
+/* harmony import */ var _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/project-card/project-card.component */ "M0Pn");
+/* harmony import */ var _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./pages/project-details/project-details.component */ "X1wX");
 
 
 // Material imports
@@ -969,84 +1686,100 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
 class AppModule {
 }
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]] });
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]] });
 AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-            _app_routing_module__WEBPACK_IMPORTED_MODULE_6__["AppRoutingModule"],
-            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_7__["AppRoutingModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__["BrowserAnimationsModule"],
             _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
             _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
             _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
-            _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"]
+            _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
+            _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"]
         ], _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
         _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
         _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
+        _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
         _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
-        _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_9__["ContactComponent"],
-        _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_10__["HomepageComponent"],
-        _components_header_header_component__WEBPACK_IMPORTED_MODULE_11__["HeaderComponent"],
-        _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_12__["FooterComponent"],
-        _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_13__["SkillsComponent"],
-        _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_14__["ProgressBarColorsDirective"],
-        _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_15__["SkillProgressBarComponent"],
-        _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_16__["ExperienceComponent"],
-        _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_17__["ExperienceJobComponent"],
-        _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_18__["EducationLevelComponent"],
-        _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_19__["CertificationComponent"],
-        _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_20__["VolunteerComponent"],
-        _components_course_course_component__WEBPACK_IMPORTED_MODULE_21__["CourseComponent"],
-        _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_22__["AwardsComponent"],
-        _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_23__["PublicationsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-        _app_routing_module__WEBPACK_IMPORTED_MODULE_6__["AppRoutingModule"],
-        _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"],
+        _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_10__["ContactComponent"],
+        _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_11__["HomepageComponent"],
+        _components_header_header_component__WEBPACK_IMPORTED_MODULE_12__["HeaderComponent"],
+        _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"],
+        _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_14__["SkillsComponent"],
+        _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_15__["ProgressBarColorsDirective"],
+        _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_16__["SkillProgressBarComponent"],
+        _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_17__["ExperienceComponent"],
+        _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_18__["ExperienceJobComponent"],
+        _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_19__["EducationLevelComponent"],
+        _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_20__["CertificationComponent"],
+        _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_21__["VolunteerComponent"],
+        _components_course_course_component__WEBPACK_IMPORTED_MODULE_22__["CourseComponent"],
+        _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_23__["AwardsComponent"],
+        _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_24__["PublicationsComponent"],
+        _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_25__["ProjectsComponent"],
+        _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_26__["ProjectCardComponent"],
+        _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_27__["ProjectDetailsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _app_routing_module__WEBPACK_IMPORTED_MODULE_7__["AppRoutingModule"],
+        _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__["BrowserAnimationsModule"],
         _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
         _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
         _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
-        _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"]], exports: [_angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
+        _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
+        _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"]], exports: [_angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
         _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
         _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
+        _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
         _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
                 declarations: [
-                    _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
-                    _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_9__["ContactComponent"],
-                    _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_10__["HomepageComponent"],
-                    _components_header_header_component__WEBPACK_IMPORTED_MODULE_11__["HeaderComponent"],
-                    _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_12__["FooterComponent"],
-                    _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_13__["SkillsComponent"],
-                    _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_14__["ProgressBarColorsDirective"],
-                    _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_15__["SkillProgressBarComponent"],
-                    _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_16__["ExperienceComponent"],
-                    _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_17__["ExperienceJobComponent"],
-                    _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_18__["EducationLevelComponent"],
-                    _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_19__["CertificationComponent"],
-                    _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_20__["VolunteerComponent"],
-                    _components_course_course_component__WEBPACK_IMPORTED_MODULE_21__["CourseComponent"],
-                    _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_22__["AwardsComponent"],
-                    _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_23__["PublicationsComponent"]
+                    _app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"],
+                    _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_10__["ContactComponent"],
+                    _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_11__["HomepageComponent"],
+                    _components_header_header_component__WEBPACK_IMPORTED_MODULE_12__["HeaderComponent"],
+                    _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"],
+                    _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_14__["SkillsComponent"],
+                    _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_15__["ProgressBarColorsDirective"],
+                    _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_16__["SkillProgressBarComponent"],
+                    _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_17__["ExperienceComponent"],
+                    _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_18__["ExperienceJobComponent"],
+                    _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_19__["EducationLevelComponent"],
+                    _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_20__["CertificationComponent"],
+                    _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_21__["VolunteerComponent"],
+                    _components_course_course_component__WEBPACK_IMPORTED_MODULE_22__["CourseComponent"],
+                    _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_23__["AwardsComponent"],
+                    _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_24__["PublicationsComponent"],
+                    _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_25__["ProjectsComponent"],
+                    _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_26__["ProjectCardComponent"],
+                    _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_27__["ProjectDetailsComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                    _app_routing_module__WEBPACK_IMPORTED_MODULE_6__["AppRoutingModule"],
-                    _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"],
+                    _app_routing_module__WEBPACK_IMPORTED_MODULE_7__["AppRoutingModule"],
+                    _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__["BrowserAnimationsModule"],
                     _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
                     _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
                     _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
-                    _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"]
+                    _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
+                    _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"]
                 ],
                 exports: [
                     _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
                     _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
                     _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
+                    _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
                     _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"]
                 ],
                 providers: [],
-                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
+                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]]
             }]
     }], null, null); })();
 
@@ -1064,13 +1797,15 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExperienceComponent", function() { return ExperienceComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
-/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/tabs */ "M9ds");
-/* harmony import */ var _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/experience-job/experience-job.component */ "6hof");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "SVse");
-/* harmony import */ var _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/education-level/education-level.component */ "zeqP");
-/* harmony import */ var _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/awards/awards.component */ "QrEi");
-/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/publications/publications.component */ "BBdW");
-/* harmony import */ var _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/volunteer/volunteer.component */ "7ntx");
+/* harmony import */ var src_assets_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/assets/data */ "6Xnp");
+/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/tabs */ "M9ds");
+/* harmony import */ var _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/experience-job/experience-job.component */ "6hof");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "SVse");
+/* harmony import */ var _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/education-level/education-level.component */ "zeqP");
+/* harmony import */ var _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/awards/awards.component */ "QrEi");
+/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/publications/publications.component */ "BBdW");
+/* harmony import */ var _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/volunteer/volunteer.component */ "7ntx");
+
 
 
 
@@ -1084,7 +1819,7 @@ function ExperienceComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-job", 7);
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("job", ctx_r0.EXPERIENCE[0]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("job", ctx_r0.experience[0]);
 } }
 function ExperienceComponent_ng_template_4_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
@@ -1114,7 +1849,7 @@ function ExperienceComponent_ng_template_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ExperienceComponent_ng_template_6_div_0_Template, 2, 1, "div", 8);
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r2.EDUCATION);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r2.education);
 } }
 function ExperienceComponent_ng_template_8_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
@@ -1129,7 +1864,7 @@ function ExperienceComponent_ng_template_8_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ExperienceComponent_ng_template_8_div_0_Template, 2, 1, "div", 8);
 } if (rf & 2) {
     const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r3.AWARDS);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r3.awards);
 } }
 function ExperienceComponent_ng_template_10_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
@@ -1144,7 +1879,7 @@ function ExperienceComponent_ng_template_10_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ExperienceComponent_ng_template_10_div_0_Template, 2, 1, "div", 8);
 } if (rf & 2) {
     const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r4.PUBLICATIONS);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r4.publications);
 } }
 function ExperienceComponent_ng_template_12_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
@@ -1159,231 +1894,22 @@ function ExperienceComponent_ng_template_12_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ExperienceComponent_ng_template_12_div_0_Template, 2, 1, "div", 8);
 } if (rf & 2) {
     const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r5.VOLUNTEER);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r5.volunteer);
 } }
 class ExperienceComponent {
     constructor() {
-        this.EXPERIENCE = [
-            {
-                companyName: 'IBM iX',
-                role: 'Front End Developer',
-                dateStart: 'Dec 2018',
-                dateEnd: 'Present',
-                location: 'Bucharest, Romania',
-                description: `
-      <b>Client 1</b><br>
-      <i>03/2019 - 03/2020</i><br>
-      Industry: Insurance<br>
-      Assignment description:<br>
-      - Develop Web based applications including UX design, application building and supporting solutions;<br>
-      - Collaborate with back-end developers and web designers to improve usability;<br>
-      - Get feedback from, and build solutions for, users and customers;<br>
-      - Create quality mockups and prototypes;<br>
-      - Stay up-to-date on emerging technologies;<br>
-      - Participate in shadowing sessions with Senior Front End Developers in solving different problems;<br>
-      - Attended relevant courses for the knowledge used in my field;<br>
-      - Investigate and fixed vulnerabilities in packages.<br>
-      Contribution:<br>
-      - I delivered a good quality presentation website for our client in order to present our projects to their customers, in a small amount of time so the client was able to see the results and to use it;<br>
-      - I investigated and solved some vulnerabilities from the applications;<br>
-      - I contributed actively on a project from march and until the end of November, by helping other colleagues with code review and implementing reusable components. I also helped taking decisions in business rules and in development process;<br>
-      - I participated in every meeting and decision in a proactive way in order to deliver a quality and clean code which meets the client requirements. I also suggested various changes to the design that was taken into account.<br>
-      <b>Technologies:</b> Angular, Ionic, Sass, TypeScript, REST, Capacitor, RxJs<br><br>
-      <b>Client 2</b><br>
-      <i>03/2020 - 03/2020</i><br>
-      Industry: Retail<br>
-      Assignment description:<br>
-      - Redesigning the on-boarding process for non plastic material and packaging suppliers onto the materials library and reimagining the presentation and navigation of the library in parallel.<br>
-      Contribution:<br>
-      - I participated in discussions with the design and front-end team in order to clarify and suggest edits so the user can have a better experience using the website;<br>
-      - I created reusable pages using React.js which corresponds to the design;<br>
-      - I created dynamic forms using Formik framework for the registration of new plastic free materials.<br>
-      <b>Technologies:</b> React.js<br><br>
-      <b>Client 3</b><br>
-      <i>04/2020 - to date</i><br>
-      Industry: Retail<br>
-      Assignment description:<br>
-      - Being a member of the a subdivision from the team and delivering features and quality code.<br>
-      Contribution:<br>
-      - I created new components and features for the application in a way that we can reuse them when it's need;<br>
-      - I helped both design and development departments to take decisions in order to deliver the best features;<br>
-      - I learned better ways to solve the problems that appears during the development;<br>
-      - Delivered WYSIWYG (What You See Is What You Get), a feature that wants to improve the customer experience regarding the promotional codes.The first phase included changing the design of both coupons and product promotions, including more descriptive text and a user-friendly design, changes made throughout the application, on all banners. In the same phase was included the creation of the right drawer, which replaces the pop-up with the description of the promotion or the description page for it, being available by clicking on the link with the coupon / promotion details. If there are multiple promotions for a single product, they are displayed as a total, and will be described accordingly in the right drawer. The second phase includes the implementation of the new API response, which includes a new possibility to process the offers, displaying the requirement quantity, following that on the stores where the feature is activated, to display and if the offer has been completed and benefit from it. The new treatment system is visible both in the coupon design, in the mini-cart or in the top menu, in the right drawer and in the product page.<br>
-      <b>Technologies:</b> Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox<br>`,
-                companyLogo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQEEhxqhOHJVUA/company-logo_200_200/0/1525123751467?e=1618444800&v=beta&t=tAnznEreYDswd0JJE-g8HdvJrCVhwAN_WvxGdBxS1aQ',
-                skill: ['Angular', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'VirtualBox', 'Jira'],
-            },
-            {
-                companyName: 'OTP Bank',
-                role: 'Project - Referent',
-                dateStart: 'Nov 2017',
-                dateEnd: 'Dec 2017',
-                location: 'Bucharest, Romania',
-                description: 'The main responsibility was the selection of the clients that were in line with the requirements for digitization of bank transfers, within the project Digital Ambassador',
-                companyLogo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHp7dhOc8uDUQ/company-logo_200_200/0/1600108531146?e=1618444800&v=beta&t=ICwjhVXsA3S4IQ6u-U-jBYkjPDzTjcipb8bxqPC_F7s',
-                skill: []
-            },
-            {
-                companyName: 'Groupe Renault',
-                role: 'Practicant - Drive your future',
-                dateStart: 'Jun 2017',
-                dateEnd: 'Sept 2017',
-                location: 'Bucharest, Romania',
-                description: 'Database maintenance using my own Matlab scripts',
-                companyLogo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQEuvhNwiJCyZw/company-logo_200_200/0/1610449180280?e=1618444800&v=beta&t=UVG0Xg3Ie6rz4MW6Pm6J3Ta5btoCsTrZk50YTHJZhkU',
-                skill: ['Matlab']
-            },
-            {
-                companyName: 'DB Schenker',
-                role: 'Practitioner - Financial accountant',
-                dateStart: 'May 2017',
-                dateEnd: 'Jun 2017',
-                location: 'Bucharest, Romania',
-                description: 'Specialized practice in financial accounting',
-                companyLogo: 'https://media-exp1.licdn.com/dms/image/C560BAQE2argdPgynxQ/company-logo_200_200/0/1603714685129?e=1618444800&v=beta&t=fT9L8bRpvfbTyfjCOEMd3LfuvVC5cETSRX7gK53SBIA',
-                skill: ['SAP', 'Basic accountancy ']
-            },
-            {
-                companyName: 'Telekom Romania',
-                role: 'Inbound Agent',
-                dateStart: 'Feb 2016',
-                dateEnd: 'Jun 2017',
-                location: 'Bucharest, Romania',
-                description: 'Taking calls and solving the situations encountered by clients, making recordings and offering them.',
-                companyLogo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHhi7yDzxguBQ/company-logo_200_200/0/1591696739930?e=1618444800&v=beta&t=6JQBq6aZFNdS8-GIPsmGPpE21aNsss4ycZuNFQk--4M',
-                skill: ['Work under pressure', 'Adaptability', 'Multitasking']
-            },
-            {
-                companyName: 'Springtime',
-                role: 'Cashier and Comercial Worker',
-                dateStart: 'Aug 2015',
-                dateEnd: 'Dec 2015',
-                location: 'Bucharest, Romania',
-                description: 'Making orders as quickly and accurately, respecting customer requirements',
-                companyLogo: 'https://www.springtime.ro/workspace/img/Logo-Site.png',
-                skill: ['Meeting customer expectations', 'Multitasking', 'Work under pressure']
-            },
-            {
-                companyName: 'Kantar Millward Brown Romania',
-                role: 'Survey Operator',
-                dateStart: 'May 2015',
-                dateEnd: 'Aug 2015',
-                location: 'Bucharest, Romania',
-                description: 'Recruitment of people meeting the criteria communicated',
-                companyLogo: 'https://media-exp1.licdn.com/dms/image/C560BAQETvYin9MN05w/company-logo_200_200/0/1579084333483?e=1618444800&v=beta&t=L_ANBm4wO7v6WoW5D3vNvoDP_jm-7Za0bWdgcbr2q18',
-                skill: ['Persuasivity']
-            }
-        ];
+        this.experience = [];
+        this.education = [];
+        this.volunteer = [];
+        this.awards = [];
+        this.publications = [];
         this.otherExperiences = [];
-        this.EDUCATION = [
-            {
-                school: 'Universitatea Româno-Americană din București',
-                degree: 'Master\'s degree',
-                fieldOfStudy: 'Computer/Information Technology Administration and Management',
-                startYear: '2018',
-                endYear: '2020',
-                grade: '9.66',
-                logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
-                activities: 'Participation in scientific communication session with transportation optimisation in pl/sql and an article regarding security for client-server applications',
-                description: 'I\'ve assimilated informations about IOT, mobile applications development, web technologies, AI, GDPR, PL/SQL, BigData, project management, WordPress, security of computer networks and E-Commerce. Those knowledges are proved by the projects worked for the graduation of the course.'
-            },
-            {
-                school: 'Universitatea Româno-Americană din București',
-                fieldOfStudy: 'Computer/Information Technology Administration and Management',
-                degree: 'Licentiate degree',
-                startYear: '2015',
-                endYear: '2018',
-                grade: '9.50',
-                logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
-                activities: 'Participation in scientific communication session with micro and macro economy, management and digital marketing',
-                description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP.'
-            },
-            {
-                school: 'Theoretical High School Nichita Stanescu',
-                degree: 'High school',
-                fieldOfStudy: 'Mathematical Informatics',
-                startYear: '2011',
-                endYear: '2015',
-                grade: '',
-                logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
-                activities: '',
-                description: 'Acquiring logical and organizational thinking.'
-            }
-        ];
-        this.VOLUNTEER = [
-            {
-                startYear: 'Aug 2014',
-                endYear: 'Nov 2014',
-                description: 'Theater project with the stage of frequent social situations for finding solutions',
-                role: 'Role Player',
-                organization: 'ArtFusion',
-                logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0R_odMk40zQ/company-logo_200_200/0/1583400910416?e=1619049600&v=beta&t=FrnDEuYXI-gv_NLAZr7e2xMe2vrazFjnUsY0HhPQu2Y'
-            }
-        ];
-        this.AWARDS = [
-            {
-                name: '2nd place at Rau-DevHack Hackathon',
-                date: 'Apr 2019',
-                description: 'Creating an application to help users choose the most recommended photographer for their event, according to their visual preferences, budget and period, giving photographers easier management on the event calendar and applications.'
-            },
-            {
-                name: '1st place for Web&Mobile Challenge at DevHacks',
-                date: 'Nov 2018',
-                description: `
-      Our result should allows candidates from Romania the possibility to offer reviews/ratings to companies about key areas such as:<br>
-        - recruitment process;<br>
-        - work environment (team, schedule, etc);<br>
-        - trainings, learning and development opportunities;<br>
-        - salary & benefits;<br>
-        - work-life balance;<br>
-        - management;<br>
-        - internal systems (procedures, values, way of working);<br>
-        - other relevant areas;<br>
-        The aim of this product is to help candidates find the employer that best suits their needs and personality, something different.<br>
-        The target audience of the product will be made up students and young professionals.
-      `
-            },
-            {
-                name: 'Note - IE Robot Contest',
-                date: 'May 2014',
-                description: 'Edition V-organized in Electrical Engineering Days 2014 in Politehnica University.'
-            }
-        ];
-        this.PUBLICATIONS = [
-            {
-                name: 'How I personalized my GitHub Overview',
-                date: 'Jan 2021',
-                description: '',
-                url: 'https://madalinaeleonorag.medium.com/how-i-personalized-my-github-overview-7144fd15d1e1',
-                logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
-                organization: 'Medium'
-            },
-            {
-                name: 'My JavaScriptmas Journey 🎄',
-                date: 'Dec 2020',
-                description: '',
-                url: 'https://madalinaeleonorag.medium.com/my-javascriptmas-journey-69a29ea5845a',
-                logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
-                organization: 'Medium'
-            },
-            {
-                name: 'Providing Security for Client-Server Applications',
-                date: '2019',
-                description: '',
-                url: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
-                logo: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
-                organization: 'Research Focus'
-            },
-            {
-                name: 'Dreptul la timp',
-                date: 'Jan 11, 2013',
-                description: 'Publishing poems in high school magazine',
-                url: '',
-                logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
-                organization: 'Liceul Teoretic Nichita Stanescu'
-            }
-        ];
-        this.otherExperiences = this.EXPERIENCE.slice(1, this.EXPERIENCE.length);
+        this.experience = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["EXPERIENCE"];
+        this.education = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["EDUCATION"];
+        this.volunteer = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["VOLUNTEER"];
+        this.awards = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["AWARDS"];
+        this.publications = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["PUBLICATIONS"];
+        this.otherExperiences = this.experience.slice(1, this.experience.length);
     }
     ngOnInit() {
     }
@@ -1410,7 +1936,7 @@ ExperienceComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, ExperienceComponent_ng_template_12_Template, 1, 1, "ng-template", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_1__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_1__["MatTab"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_1__["MatTabContent"], _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_2__["ExperienceJobComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_4__["EducationLevelComponent"], _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_5__["AwardsComponent"], _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_6__["PublicationsComponent"], _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_7__["VolunteerComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2V4cGVyaWVuY2UvZXhwZXJpZW5jZS5jb21wb25lbnQuc2NzcyJ9 */"], encapsulation: 2 });
+    } }, directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTab"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTabContent"], _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_3__["ExperienceJobComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_5__["EducationLevelComponent"], _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_6__["AwardsComponent"], _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_7__["PublicationsComponent"], _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_8__["VolunteerComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2V4cGVyaWVuY2UvZXhwZXJpZW5jZS5jb21wb25lbnQuc2NzcyJ9 */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ExperienceComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1537,7 +2063,7 @@ class HomepageComponent {
 HomepageComponent.ɵfac = function HomepageComponent_Factory(t) { return new (t || HomepageComponent)(); };
 HomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomepageComponent, selectors: [["app-homepage"]], decls: 3, vars: 0, template: function HomepageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "homepage works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "I am an application developer, passionate about digital graphics and photography, eager to learn and evolve in the Front-End field. During the last years, i focused both on my technical and soft skills, working with people around the globe, and learning how to deliver their expectations. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-footer");
     } }, directives: [_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_1__["FooterComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2hvbWVwYWdlL2hvbWVwYWdlLmNvbXBvbmVudC5zY3NzIn0= */"], encapsulation: 2 });
@@ -1629,6 +2155,57 @@ SkillProgressBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
     }], function () { return []; }, { skill: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }] }); })();
+
+
+/***/ }),
+
+/***/ "u/sh":
+/*!******************************************************!*\
+  !*** ./src/app/pages/projects/projects.component.ts ***!
+  \******************************************************/
+/*! exports provided: ProjectsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectsComponent", function() { return ProjectsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var src_assets_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/assets/data */ "6Xnp");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "SVse");
+/* harmony import */ var _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/project-card/project-card.component */ "M0Pn");
+
+
+
+
+
+function ProjectsComponent_app_project_card_0_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-project-card", 1);
+} if (rf & 2) {
+    const item_r1 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", item_r1);
+} }
+class ProjectsComponent {
+    constructor() {
+        this.projects = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["PROJECTS"];
+    }
+    ngOnInit() {
+    }
+}
+ProjectsComponent.ɵfac = function ProjectsComponent_Factory(t) { return new (t || ProjectsComponent)(); };
+ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 1, vars: 1, consts: [[3, "project", 4, "ngFor", "ngForOf"], [3, "project"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ProjectsComponent_app_project_card_0_Template, 1, 1, "app-project-card", 0);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.projects);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_3__["ProjectCardComponent"]], styles: ["app-projects {\n  display: flex;\n  justify-content: center;\n  flex-flow: wrap;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxlQUFBO0FBREYiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9wcm9qZWN0cy9wcm9qZWN0cy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgXCIuLi8uLi92YXJpYWJsZXMuc2Nzc1wiO1xyXG5cclxuYXBwLXByb2plY3RzIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIGZsZXgtZmxvdzogd3JhcDtcclxufVxyXG4iXX0= */"], encapsulation: 2 });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ProjectsComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-projects',
+                templateUrl: './projects.component.html',
+                styleUrls: ['./projects.component.scss'],
+                encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewEncapsulation"].None
+            }]
+    }], function () { return []; }, null); })();
 
 
 /***/ }),
@@ -1740,7 +2317,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "iInd");
 /* harmony import */ var _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/experience/experience.component */ "mKaJ");
 /* harmony import */ var _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/homepage/homepage.component */ "ojyh");
-/* harmony import */ var _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/skills/skills.component */ "2yNh");
+/* harmony import */ var _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/project-details/project-details.component */ "X1wX");
+/* harmony import */ var _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/projects/projects.component */ "u/sh");
+/* harmony import */ var _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/skills/skills.component */ "2yNh");
+
+
 
 
 
@@ -1750,8 +2331,10 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     { path: '', component: _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_3__["HomepageComponent"] },
-    { path: 'skills', component: _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_4__["SkillsComponent"] },
-    { path: 'experience', component: _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_2__["ExperienceComponent"] }
+    { path: 'skills', component: _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_6__["SkillsComponent"] },
+    { path: 'experience', component: _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_2__["ExperienceComponent"] },
+    { path: 'projects', component: _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_5__["ProjectsComponent"] },
+    { path: 'project/:index', component: _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_4__["ProjectDetailsComponent"] }
 ];
 class AppRoutingModule {
 }
