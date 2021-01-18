@@ -1,0 +1,30 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{ project.name }}</mat-card-title>
+    <mat-card-subtitle
+      >{{ project.startDate }}
+      <span *ngIf="project.endDate">
+        - {{ project.endDate }}</span
+      ></mat-card-subtitle
+    >
+  </mat-card-header>
+  <img
+    mat-card-image
+    src="{{project.logo ? project.logo : '../../../../../assets/default-project-logo.png"
+  />
+  <mat-card-content>
+    <p>
+      {{ project.description }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <a href="{{ project.code }}" *ngIf="project.code">See code</a>
+    <button mat-button *ngIf="project.live" (click)="window.open(project.live)">
+      See live
+    </button>
+    <button mat-button *ngIf="project.live" (click)="seeDetails()">
+        See live
+      </button>
+  </mat-card-actions>
+</mat-card>

@@ -3,7 +3,7 @@
     <ng-template matTabContent>
       <div *ngFor="let category of keysSkills">
         <div class="category-name">{{ category }}</div>
-        <div *ngFor="let subcategory of SKILLS[category]">
+        <div *ngFor="let subcategory of skills[category]">
           <app-skill-progress-bar
             [skill]="subcategory"
           ></app-skill-progress-bar>
@@ -14,7 +14,7 @@
 
   <mat-tab label="Licenses & certifications">
     <ng-template matTabContent>
-      <div *ngFor="let certif of CERTIFICATIONS">
+      <div *ngFor="let certif of certifications">
         <app-certification [certificate]="certif"></app-certification>
       </div>
     </ng-template>
@@ -22,7 +22,7 @@
   
   <mat-tab label="Courses">
     <ng-template matTabContent>
-      <div *ngFor="let course of COURSES">
+      <div *ngFor="let course of courses">
         <app-course [course]="course"></app-course>
       </div>
     </ng-template>

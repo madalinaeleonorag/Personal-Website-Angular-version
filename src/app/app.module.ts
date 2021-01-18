@@ -6,6 +6,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatCardModule } from '@angular/material/card';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,6 +26,9 @@ import { VolunteerComponent } from './components/volunteer/volunteer.component';
 import { CourseComponent } from './components/course/course.component';
 import { AwardsComponent } from './components/awards/awards.component';
 import { PublicationsComponent } from './components/publications/publications.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +47,10 @@ import { PublicationsComponent } from './components/publications/publications.co
     VolunteerComponent,
     CourseComponent,
     AwardsComponent,
-    PublicationsComponent
+    PublicationsComponent,
+    ProjectsComponent,
+    ProjectCardComponent,
+    ProjectDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -52,12 +59,14 @@ import { PublicationsComponent } from './components/publications/publications.co
     MatProgressBarModule,
     MatExpansionModule,
     MatChipsModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule
   ],
   exports: [
     MatProgressBarModule,
     MatExpansionModule,
     MatChipsModule,
+    MatCardModule,
     MatTabsModule],
   providers: [],
   bootstrap: [AppComponent]
