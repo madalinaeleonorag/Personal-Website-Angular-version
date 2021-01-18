@@ -1,5 +1,6 @@
 export const PROJECTS = [
     {
+        id: 0,
         name: 'FreeCodeCamp.com Projects',
         startDate: 'Sep 2020',
         endDate: 'Present',
@@ -14,24 +15,30 @@ export const PROJECTS = [
       - Landing page;<br>
       - Technical page;<br>
       - Portfolio page.
-      `
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/landing-project/landing-design.png'
     },
     {
+        id: 1,
         name: 'Madalina Eleonora Graphics & Photography',
         startDate: 'Jun 2018',
         endDate: 'Present',
         technologies: ['Photoshop', 'Lightroom', 'Photography'],
         live: 'https://500px.com/p/madalinaeleonorag',
+        logo: 'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc'
     },
     {
+        id: 2,
         name: 'JavaScript30 Wes Bos Challenge',
         startDate: 'Nov 2020',
         endDate: 'Dec 2020',
         technologies: ['HTML', 'CSS', 'Javascript', 'challenge'],
         code: 'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge',
-        description: `30 day vanilla JS coding challenge from Web Bos`
+        description: `30 day vanilla JS coding challenge from Web Bos`,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/24days-of-JavaScriptmas-by-Scrimba/master/screenshots/24.jpg'
     },
     {
+        id: 3,
         name: 'Learning League - Hipo DevHack Hackathon',
         startDate: 'Nov 2020',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'CometChat', 'Firebase'],
@@ -54,9 +61,11 @@ export const PROJECTS = [
       7. Users can make voice calls, video calls, share screen in the chatroom and upload/download documents<br>
       8. User can take courses in order to develop their e-learning skills<br>
       9. Users cand take tests in order to verify their knowledges from different categories
-      `
+      `,
+        logo: 'assets/projects/3.png'
     },
     {
+        id: 4,
         name: 'ToDo App',
         startDate: 'Aug 2020',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'SweetAlert2', 'Firebase'],
@@ -72,9 +81,11 @@ export const PROJECTS = [
       - Views tasks in lists according to their status ('Overdue', 'To do', 'Done items') or in a calendar;<br>
       - Filter tasks by priority or due date;<br>
       - Data saved through local storage.
-      `
+      `,
+        logo: 'assets/projects/4.png'
     },
     {
+        id: 5,
         name: 'UniversityRating',
         startDate: 'Jul 2018',
         endDate: 'Jul 2020',
@@ -84,9 +95,11 @@ export const PROJECTS = [
         description: `
       In this application you can search for your best option through hundred of updated universities around the world. Users can grade and add a comment to institutions so others can see if it fits for them. Only verified ratings, using Microsoft Text Analysis will be displayed. After creating an account, the user can activate it to claim a university and add verified informations about it. The user needs to provide full informations and will be contacted by administrators in order to securely activate the account. The information accuracy depends on institution representant.<br>
       This project was created using Angular CLI version 8.3.2 with TypeScript, Angular Material, Microsoft Text Analytics, Google Maps API, Google Charts and RxJs. For database used to store the data is Firebase Firestore.
-      `
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/UniversityRating/master/src/assets/presentation/homepage.png'
     },
     {
+        id: 6,
         name: 'Exams Schedule',
         startDate: 'Apr 2020',
         endDate: 'May 2020',
@@ -97,9 +110,11 @@ export const PROJECTS = [
       Application that allows the management of university exams.<br>
       This project was created using React.js, axios, Redux and Sass.<br>
       For database used to store the data is Firebase Realtime Database.
-      `
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/ExamsSchedule/master/src/assets/homepage.png'
     },
     {
+        id: 7,
         name: 'Scientific Session of the University',
         startDate: 'Aug 2015',
         endDate: 'Dec 2019',
@@ -111,17 +126,21 @@ export const PROJECTS = [
       - Digital Marketing;<br>
       - Transportation optimisation in PL/SQL;<br>
       - Providing security for client-server applications.
-      `
+      `,
+        logo: 'https://lh3.googleusercontent.com/proxy/z2qNGd_35uQmqGf3Ed2ihgLRIkNRRCnaPklOpv3CSgGyAlJ_wR3pb0bYpfA_AE02TAaPh2S4m7y7IqfAdQYRfmZ9Q7Dfm7GOH9P9BI0W0Wi84EGqLn35fUFo-ErpoiP3F4kpgfJASetROWYw68imCOAQu_Ky13lDBtSogMhLOA'
     },
     {
+        id: 8,
         name: 'Johnny\'z website',
         startDate: 'May 2019',
         endDate: 'Oct 2019',
         technologies: ['CSS', 'Wordpress'],
         live: 'https://www.johnnypizza.ro/',
-        description: `Is a site created in Wordpress, the result of a faculty project and currently used as the official site of Johhny'z restaurants.`
+        description: `Is a site created in Wordpress, the result of a faculty project and currently used as the official site of Johhny'z restaurants.`,
+        logo: 'assets/projects/8.png'
     },
     {
+        id: 9,
         name: 'TeachMe',
         startDate: 'Mar 2019',
         endDate: 'May 2019',
@@ -137,9 +156,11 @@ export const PROJECTS = [
       - Each course has a theory part and a quiz at the end;<br>
       - Keep track on how many courses did you finish;<br>
       - Collect points from every test you take.
-      `
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/TeachMe/master/src/assets/hp2.png'
     },
     {
+        id: 10,
         name: 'PhotoBooking - RauDevHack Hackathon',
         startDate: 'Apr 2019',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
@@ -153,9 +174,11 @@ export const PROJECTS = [
       - Users can access their profile (as customer or photographer) where they can change their details;<br>
       - Both types of users cand see a list of their requests and status;<br>
       - Informations are saved through Firebase.
-      `
+      `,
+        logo: 'assets/projects/10.png'
     },
     {
+        id: 11,
         name: 'SmileSharing App - Do IT Girls! Hackathon. Powered by Microsoft',
         startDate: 'Mar 2019',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
@@ -174,9 +197,11 @@ export const PROJECTS = [
       - View profile page which includes personal informations (name, phone number, email address) and the rides situation;<br>
       - View user's rides list: one where the user is booked as a passenger and one where the user is the driver of the car;<br>
       - View rides details.
-      `
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/master/src/assets/1.png'
     },
     {
+        id: 12,
         name: 'Rap Jobs - Hipo DevHack Hackathon',
         startDate: 'Nov 2018',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
@@ -193,9 +218,11 @@ export const PROJECTS = [
       - internal systems (procedures, values, way of working)
       - other relevant areas
       The aim of this product is to help candidates find the employer that best suits their needs and personality, using our personality test
-      `
+      `,
+        logo: 'assets/projects/12.png'
     },
     {
+        id: 13,
         name: 'Waffic',
         startDate: 'Mar 2018',
         endDate: 'Jul 2018',
@@ -205,9 +232,11 @@ export const PROJECTS = [
         description: `
       Integrated application for tracking weather and traffic conditions, using AccuWeather, Google Maps and Google Charts APIs.<br>
       This project was created using Vue.js CLI version 2.5.2 with Vuetify, Google Maps API, Google Charts, VUEX and Router. For database used to store the data is Firebase Realtime Database.
-      `
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Waffic/master/src/assets/Presentation/map.jpg'
     },
     {
+        id: 14,
         name: 'Events Attendances',
         startDate: 'Jan 2018',
         endDate: 'May 2018',
@@ -227,7 +256,26 @@ export const PROJECTS = [
       - See events details and people attending;<br>
       - Attend event;<br>
       - Data saved through Firebase Database.
-      `
+      `,
+        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Events-Attendances/master/src/assets/1.png'
+    },
+    {
+        id: 15,
+        name: 'Backpropagation',
+        startDate: 'Dec 2019',
+        technologies: ['C#', 'Visual Studio'],
+        code: 'https://github.com/madalinaeleonorag/Backpropagation',
+        description: `Backpropagation program using C#`,
+        logo: 'https://victorzhou.com/media/nn-series/network.svg'
+    },
+    {
+        id: 16,
+        name: 'Sudoku Backtracking',
+        startDate: 'Dec 2019',
+        technologies: ['C#', 'Visual Studio'],
+        code: 'https://github.com/madalinaeleonorag/Sudoku_Backtracking',
+        description: `Sudoku program made using C# backtracking`,
+        logo: 'assets/projects/16.png'
     }
 ]
 

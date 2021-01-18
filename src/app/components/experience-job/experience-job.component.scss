@@ -42,11 +42,12 @@ app-experience-job {
           font-size: 0.7rem;
         }
         .mat-chip.mat-standard-chip {
-          background-color: $bordo;
-          color: $white;
+          background-color: $white;
+          color: $bordo;
         }
         .mat-standard-chip {
           padding: 5px 5px;
+          border: 1px solid $bordo;
           border-radius: 15px;
           min-height: 20px;
           height: 1px;

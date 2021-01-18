@@ -10,7 +10,6 @@ import { Router } from '@angular/router';
 export class ProjectCardComponent implements OnInit {
 
   @Input() project;
-  @Input() index;
 
   constructor(private router: Router) { }
 
@@ -18,6 +17,10 @@ export class ProjectCardComponent implements OnInit {
   }
 
   seeDetails() {
-    this.router.navigateByUrl(`/project/${this.index}`);
+    this.router.navigateByUrl(`/project/${this.project.id}`);
+  }
+
+  openNewTab() {
+    window.open(this.project.live)
   }
 }

@@ -1,30 +1,29 @@
-<mat-card class="example-card">
+<mat-card>
+  <img mat-card-image src="{{ project.logo }}" />
   <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
     <mat-card-title>{{ project.name }}</mat-card-title>
-    <mat-card-subtitle
-      >{{ project.startDate }}
+    <mat-card-subtitle>
+      <a href="{{ project.code }}" *ngIf="project.code">See code</a>
+    </mat-card-subtitle>
+      <mat-card-subtitle>
+      {{ project.startDate }}
       <span *ngIf="project.endDate">
         - {{ project.endDate }}</span
       ></mat-card-subtitle
     >
   </mat-card-header>
-  <img
-    mat-card-image
-    src="{{project.logo ? project.logo : '../../../../../assets/default-project-logo.png"
-  />
   <mat-card-content>
-    <p>
-      {{ project.description }}
-    </p>
+    <mat-chip-list class="technologies" *ngIf="project.technologies.length > 0">
+      <mat-chip *ngFor="let technology of project.technologies">{{
+        technology
+      }}</mat-chip>
+    </mat-chip-list>
   </mat-card-content>
   <mat-card-actions>
-    <a href="{{ project.code }}" *ngIf="project.code">See code</a>
-    <button mat-button *ngIf="project.live" (click)="window.open(project.live)">
+    <div *ngIf="!project.live"></div>
+    <button *ngIf="project.live" (click)="openNewTab()" class="text-button">
       See live
     </button>
-    <button mat-button *ngIf="project.live" (click)="seeDetails()">
-        See live
-      </button>
+    <button (click)="seeDetails()" class="fill-button">See details</button>
   </mat-card-actions>
 </mat-card>

@@ -1,4 +1,88 @@
 @import "../../variables.scss";
 
 app-project-card {
+  flex: 0 1 23%;
+  margin: 10px;
+  display: flex;
+
+  .mat-card {
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+  }
+
+  .image {
+    height: 200px;
+    width: auto;
+  }
+
+  .technologies {
+    display: flex;
+
+    .mat-chip {
+      font-size: 0.7rem;
+    }
+
+    .mat-chip.mat-standard-chip {
+      background-color: $white;
+      color: $bordo;
+    }
+
+    .mat-standard-chip {
+      padding: 5px 5px;
+      border-radius: 15px;
+      border: 1px solid $bordo;
+      min-height: 20px;
+      height: 1px;
+    }
+
+    .mat-chip-list-wrapper {
+      margin: 4px -4px;
+    }
+  }
+
+  .mat-card-content {
+    margin-top: auto;
+  }
+
+  .mat-card-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mat-chip-list {
+    place-content: center;
+  }
+
+  .mat-card-header-text {
+    text-align: -webkit-center;
+  }
+
+  .mat-chip-list-wrapper {
+    justify-content: center;
+  }
+
+  .mat-card-header {
+    place-content: center;
+  }
+
+  button {
+    border: none;
+    padding: 6px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .fill-button {
+    box-shadow: 0 0 10px -2px $lightgray;
+    background-color: $bordo;
+    color: $white;
+  }
+
+  .text-button {
+    border: 1px solid $bordo;
+    background-color: $white;
+    color: $bordo;
+  }
 }
