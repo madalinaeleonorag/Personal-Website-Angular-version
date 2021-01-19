@@ -8,6 +8,11 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 
+// Modal galery imports
+import 'hammerjs';
+import 'mousetrap';
+import { GalleryModule } from '@ks89/angular-modal-gallery';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -60,14 +65,16 @@ import { ProjectDetailsComponent } from './pages/project-details/project-details
     MatExpansionModule,
     MatChipsModule,
     MatTabsModule,
-    MatCardModule
+    MatCardModule,
+    GalleryModule.forRoot()
   ],
   exports: [
     MatProgressBarModule,
     MatExpansionModule,
     MatChipsModule,
     MatCardModule,
-    MatTabsModule],
+    MatTabsModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

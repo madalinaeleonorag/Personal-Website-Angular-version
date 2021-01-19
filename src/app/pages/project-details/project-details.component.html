@@ -1,23 +1,29 @@
-  <div
-    [ngStyle]="{ 'background-image': 'url(' + project.logo + ')' }"
-    class="image"
-  ></div>
-  <div class="summary">
-    <div class="name">{{ project.name }}</div>
-    <a href="{{ project.code }}" target="_blank" *ngIf="project.code"
-      >&#60;/ See code &#62;</a
-    >
-    <div class="date">
-      {{ project.startDate
-      }}<span *ngIf="project.endDate"> - {{ project.endDate }}</span>
-    </div>
-    <mat-chip-list class="technologies" *ngIf="project.technologies.length > 0">
-      <mat-chip *ngFor="let technology of project.technologies">{{
-        technology
-      }}</mat-chip>
-    </mat-chip-list>
-    <button *ngIf="project.live" (click)="openNewTab()" class="fill-button">
-      See live
-    </button>
+<div
+  [ngStyle]="{ 'background-image': 'url(' + project.logo + ')' }"
+  class="image"
+></div>
+<div class="summary">
+  <div class="name">{{ project.name }}</div>
+  <a href="{{ project.code }}" target="_blank" *ngIf="project.code"
+    >&#60;/ See code &#62;</a
+  >
+  <div class="date">
+    {{ project.startDate
+    }}<span *ngIf="project.endDate"> - {{ project.endDate }}</span>
   </div>
+  <mat-chip-list class="technologies" *ngIf="project.technologies.length > 0">
+    <mat-chip *ngFor="let technology of project.technologies">{{
+      technology
+    }}</mat-chip>
+  </mat-chip-list>
+  <button *ngIf="project.live" (click)="openNewTab()" class="fill-button">
+    See live
+  </button>
+</div>
 <div class="description" [innerHTML]="project.description"></div>
+
+<ks-modal-gallery
+  [id]="6"
+  [modalImages]="images"
+  [slideConfig]="{ infinite: true, sidePreviews: { show: false } }"
+></ks-modal-gallery>

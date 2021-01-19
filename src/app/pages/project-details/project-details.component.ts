@@ -2,6 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { PROJECTS } from 'src/assets/data';
+import { Image } from '@ks89/angular-modal-gallery';
 
 @Component({
   selector: 'app-project-details',
@@ -14,6 +15,7 @@ export class ProjectDetailsComponent implements OnInit {
   paramSubscription: Subscription;
   projects: any;
   project: any;
+  images: Image[];
 
   constructor(private route: ActivatedRoute) {
     this.projects = PROJECTS;
@@ -26,6 +28,9 @@ export class ProjectDetailsComponent implements OnInit {
   getProjectByID(ID) {
     this.project = this.projects.filter(project => project.id == ID)[0];
     console.log('this.project', this.project)
+    this.images = this.project.images ? this.project.images.map((imageUrl, index) => new Image(index, {
+      img: imageUrl
+    })) : [];
   }
 
 }

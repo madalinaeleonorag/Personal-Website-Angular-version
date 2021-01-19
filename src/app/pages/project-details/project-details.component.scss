@@ -73,4 +73,15 @@ app-project-details {
     padding: 10px;
     line-height: 1.5rem;
   }
+
+  .plain-container {
+    justify-content: center !important;
+    margin: 20px 40px 40px;
+    display: flex !important;
+    flex-flow: wrap;
+
+    .image {
+      margin: 5px !important;
+    }
+  }
 }

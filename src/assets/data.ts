@@ -17,6 +17,13 @@ export const PROJECTS = [
       - Technical page;<br>
       - Portfolio page.
       `,
+        images: [
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/tribute-project/tribute-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/form-project/form-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/landing-project/landing-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/technical-project/technical-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/portfolio-project/portfolio-design.png'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/landing-project/landing-design.png'
     },
     {
@@ -27,6 +34,7 @@ export const PROJECTS = [
         type: 'Personal project',
         technologies: ['Photoshop', 'Lightroom', 'Photography'],
         live: 'https://500px.com/p/madalinaeleonorag',
+        images: [],
         logo: 'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc'
     },
     {
@@ -38,6 +46,38 @@ export const PROJECTS = [
         type: 'Challenge',
         code: 'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge',
         description: `30 day vanilla JS coding challenge from Web Bos`,
+        images: [
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/01.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/blob/main/screenshots/02.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/03.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/04-1.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/05.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/blob/main/screenshots/06.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/07.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/08-update.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/09.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/10.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/11.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/12.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/13.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/14.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/15.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/16.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/17.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/18.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/19.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/20.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/21.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/22.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/23.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/24.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/25.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/26.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/27.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/28.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/29.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/30.png'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/24days-of-JavaScriptmas-by-Scrimba/master/screenshots/24.jpg'
     },
     {
@@ -66,6 +106,7 @@ export const PROJECTS = [
       8. User can take courses in order to develop their e-learning skills<br>
       9. Users cand take tests in order to verify their knowledges from different categories
       `,
+        images: [],
         logo: 'assets/projects/3.png'
     },
     {
@@ -87,6 +128,7 @@ export const PROJECTS = [
       - Filter tasks by priority or due date;<br>
       - Data saved through local storage.
       `,
+        images: [],
         logo: 'assets/projects/4.png'
     },
     {
@@ -102,6 +144,7 @@ export const PROJECTS = [
       In this application you can search for your best option through hundred of updated universities around the world. Users can grade and add a comment to institutions so others can see if it fits for them. Only verified ratings, using Microsoft Text Analysis will be displayed. After creating an account, the user can activate it to claim a university and add verified informations about it. The user needs to provide full informations and will be contacted by administrators in order to securely activate the account. The information accuracy depends on institution representant.<br>
       This project was created using Angular CLI version 8.3.2 with TypeScript, Angular Material, Microsoft Text Analytics, Google Maps API, Google Charts and RxJs. For database used to store the data is Firebase Firestore.
       `,
+        images: [],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/UniversityRating/master/src/assets/presentation/homepage.png'
     },
     {
@@ -118,6 +161,7 @@ export const PROJECTS = [
       This project was created using React.js, axios, Redux and Sass.<br>
       For database used to store the data is Firebase Realtime Database.
       `,
+        images: [],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/ExamsSchedule/master/src/assets/homepage.png'
     },
     {
@@ -135,6 +179,7 @@ export const PROJECTS = [
       - Transportation optimisation in PL/SQL;<br>
       - Providing security for client-server applications.
       `,
+        images: [],
         logo: 'https://lh3.googleusercontent.com/proxy/z2qNGd_35uQmqGf3Ed2ihgLRIkNRRCnaPklOpv3CSgGyAlJ_wR3pb0bYpfA_AE02TAaPh2S4m7y7IqfAdQYRfmZ9Q7Dfm7GOH9P9BI0W0Wi84EGqLn35fUFo-ErpoiP3F4kpgfJASetROWYw68imCOAQu_Ky13lDBtSogMhLOA'
     },
     {
@@ -146,6 +191,7 @@ export const PROJECTS = [
         type: 'Personal project',
         live: 'https://www.johnnypizza.ro/',
         description: `Is a site created in Wordpress, the result of a faculty project and currently used as the official site of Johhny'z restaurants.`,
+        images: [],
         logo: 'assets/projects/8.png'
     },
     {
@@ -167,6 +213,7 @@ export const PROJECTS = [
       - Keep track on how many courses did you finish;<br>
       - Collect points from every test you take.
       `,
+        images: [],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/TeachMe/master/src/assets/hp2.png'
     },
     {
@@ -186,6 +233,7 @@ export const PROJECTS = [
       - Both types of users cand see a list of their requests and status;<br>
       - Informations are saved through Firebase.
       `,
+        images: [],
         logo: 'assets/projects/10.png'
     },
     {
@@ -210,6 +258,7 @@ export const PROJECTS = [
       - View user's rides list: one where the user is booked as a passenger and one where the user is the driver of the car;<br>
       - View rides details.
       `,
+        images: [],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/master/src/assets/1.png'
     },
     {
@@ -232,6 +281,7 @@ export const PROJECTS = [
       - other relevant areas
       The aim of this product is to help candidates find the employer that best suits their needs and personality, using our personality test
       `,
+        images: [],
         logo: 'assets/projects/12.png'
     },
     {
@@ -247,6 +297,7 @@ export const PROJECTS = [
       Integrated application for tracking weather and traffic conditions, using AccuWeather, Google Maps and Google Charts APIs.<br>
       This project was created using Vue.js CLI version 2.5.2 with Vuetify, Google Maps API, Google Charts, VUEX and Router. For database used to store the data is Firebase Realtime Database.
       `,
+        images: [],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Waffic/master/src/assets/Presentation/map.jpg'
     },
     {
@@ -272,6 +323,7 @@ export const PROJECTS = [
       - Attend event;<br>
       - Data saved through Firebase Database.
       `,
+        images: [],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Events-Attendances/master/src/assets/1.png'
     },
     {
@@ -282,6 +334,7 @@ export const PROJECTS = [
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Backpropagation',
         description: `Backpropagation program using C#`,
+        images: [],
         logo: 'https://victorzhou.com/media/nn-series/network.svg'
     },
     {
@@ -292,6 +345,7 @@ export const PROJECTS = [
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Sudoku_Backtracking',
         description: `Sudoku program made using C# backtracking`,
+        images: [],
         logo: 'assets/projects/16.png'
     }
 ]
@@ -328,6 +382,7 @@ export const SKILLS: {} = {
 
 export const CERTIFICATIONS = [
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'IBM Mentor',
         organization: 'IBM',
@@ -335,6 +390,7 @@ export const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/841adfea-65df-4a8e-bbe1-267d70cb6a21'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'JavaScript Front End Development',
         organization: 'IBM',
@@ -342,6 +398,7 @@ export const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/b6792b26-e919-4de1-bc24-d4192439aa50'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C560BAQH0VNXBrdkklA/company-logo_200_200/0/1593711193383?e=1619049600&v=beta&t=lrBAcOWGtkwOM3MtvBw55FRiEHzMyNwaaeJycjzvC7k',
         name: 'Web Design for Web Developers: Build Beautiful Websites!',
         organization: 'Udemy',
@@ -349,6 +406,7 @@ export const CERTIFICATIONS = [
         url: 'https://udemy-certificate.s3.amazonaws.com/image/UC-4b147be3-753e-47b3-bd44-df452ffc3018.jpg?v=1601294558000'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0iRUqSJueUw/company-logo_200_200/0/1519902704390?e=1619049600&v=beta&t=AmcNPqTADleh6FV8bDZ1yJhJb7QcwaEoZha72rhz4TY',
         name: 'ES SET English Certificate',
         organization: 'EF Standard English Test (EF SET)',
@@ -356,6 +414,7 @@ export const CERTIFICATIONS = [
         url: 'https://www.efset.org/cert/V3b9C2'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'Enterprise Design Thinking Practitioner',
         organization: 'IBM',
@@ -363,6 +422,7 @@ export const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/f28084ab-7407-4d30-8f84-e612adc40402'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'IBM Agile Explorer',
         organization: 'IBM',
@@ -370,6 +430,7 @@ export const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/8ed472e8-38c5-42c0-aee7-c1993e9f737f'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'Insurance Industry Foundations',
         organization: 'IBM',
@@ -377,18 +438,21 @@ export const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/073a4a5e-b2f0-4165-8684-c6a427a005b3'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQGxoHjf6gCmyQ/company-logo_200_200/0/1601991684673?e=1619049600&v=beta&t=ZDc7BD5euDuuUZaJHgPgoZxpUvn_Sh49rmRau3-pGbw',
         name: '"Live for the story" Canon Summer school',
         organization: 'Canon',
         issueDate: 'Jul 2018'
     },
     {
+        images: [],
         logo: 'https://ecdl.ro/uploads/files/ECDL_SHORT_LOGO_WITH_REGISTRATION_RGB.jpg',
         name: 'ECDL Complete',
         organization: 'ECDL Romania',
         issueDate: 'May 2015'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_200_200/0/1519856215226?e=1619049600&v=beta&t=wqGS0p4XpSRfUOSwlJ1_GDzkLcGNhFrMFdkps_mlOHc',
         name: 'Google Digital Garage',
         organization: 'Google'
@@ -399,6 +463,7 @@ export const COURSES = [
     {
         name: 'DevAcademy Front End Track',
         organization: 'DevAcademy',
+        images: [],
         logo: '',
         startYear: 'Jun 2018',
         endYear: 'Dec 2018',
@@ -426,6 +491,7 @@ export const EDUCATION = [
         startYear: '2018',
         endYear: '2020',
         grade: '9.66',
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
         activities: 'Participation in scientific communication session with transportation optimisation in pl/sql and an article regarding security for client-server applications',
         description: 'I\'ve assimilated informations about IOT, mobile applications development, web technologies, AI, GDPR, PL/SQL, BigData, project management, WordPress, security of computer networks and E-Commerce. Those knowledges are proved by the projects worked for the graduation of the course.'
@@ -437,6 +503,7 @@ export const EDUCATION = [
         startYear: '2015',
         endYear: '2018',
         grade: '9.50',
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
         activities: 'Participation in scientific communication session with micro and macro economy, management and digital marketing',
         description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP.'
@@ -448,6 +515,7 @@ export const EDUCATION = [
         startYear: '2011',
         endYear: '2015',
         grade: '',
+        images: [],
         logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
         activities: '',
         description: 'Acquiring logical and organizational thinking.'
@@ -461,6 +529,7 @@ export const VOLUNTEER = [
         description: 'Theater project with the stage of frequent social situations for finding solutions',
         role: 'Role Player',
         organization: 'ArtFusion',
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0R_odMk40zQ/company-logo_200_200/0/1583400910416?e=1619049600&v=beta&t=FrnDEuYXI-gv_NLAZr7e2xMe2vrazFjnUsY0HhPQu2Y'
     }
 ];
@@ -501,6 +570,7 @@ export const PUBLICATIONS = [
         date: 'Jan 2021',
         description: '',
         url: 'https://madalinaeleonorag.medium.com/how-i-personalized-my-github-overview-7144fd15d1e1',
+        images: [],
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
         organization: 'Medium'
     },
@@ -509,6 +579,7 @@ export const PUBLICATIONS = [
         date: 'Dec 2020',
         description: '',
         url: 'https://madalinaeleonorag.medium.com/my-javascriptmas-journey-69a29ea5845a',
+        images: [],
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
         organization: 'Medium'
     },
@@ -517,6 +588,7 @@ export const PUBLICATIONS = [
         date: '2019',
         description: '',
         url: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
+        images: [],
         logo: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
         organization: 'Research Focus'
     },
@@ -525,6 +597,7 @@ export const PUBLICATIONS = [
         date: 'Jan 11, 2013',
         description: 'Publishing poems in high school magazine',
         url: '',
+        images: [],
         logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
         organization: 'Liceul Teoretic Nichita Stanescu'
     }
