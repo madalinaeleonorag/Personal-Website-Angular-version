@@ -48,11 +48,11 @@ export const PROJECTS = [
         description: `30 day vanilla JS coding challenge from Web Bos`,
         images: [
             'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/01.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/blob/main/screenshots/02.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/main/screenshots/02.png',
             'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/03.png',
             'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/04-1.png',
             'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/05.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/blob/main/screenshots/06.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/main/screenshots/06.png',
             'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/07.png',
             'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/08-update.png',
             'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/09.png',
