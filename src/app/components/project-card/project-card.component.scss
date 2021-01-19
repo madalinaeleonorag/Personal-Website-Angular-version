@@ -75,7 +75,6 @@ app-project-card {
     cursor: pointer;
     border-radius: 5px;
   }
-
   .fill-button {
     box-shadow: 0 0 10px -2px $lightgray;
     background-color: $bordo;
@@ -86,5 +85,10 @@ app-project-card {
     border: 1px solid $bordo;
     background-color: $white;
     color: $bordo;
+  }
+
+  .mat-card-header .mat-card-title {
+    padding: 12px 0;
+    margin: 0;
   }
 }

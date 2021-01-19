@@ -4,7 +4,8 @@ export const PROJECTS = [
         name: 'FreeCodeCamp.com Projects',
         startDate: 'Sep 2020',
         endDate: 'Present',
-        technologies: ['HTML', 'CSS', 'course'],
+        technologies: ['HTML', 'CSS'],
+        type: 'Course',
         code: 'https://github.com/madalinaeleonorag/FreeCodeCamp.com-Projects',
         description: `
       Projects made by following the courses from FreeCodeCamp.com<br><br>
@@ -23,6 +24,7 @@ export const PROJECTS = [
         name: 'Madalina Eleonora Graphics & Photography',
         startDate: 'Jun 2018',
         endDate: 'Present',
+        type: 'Personal project',
         technologies: ['Photoshop', 'Lightroom', 'Photography'],
         live: 'https://500px.com/p/madalinaeleonorag',
         logo: 'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc'
@@ -32,7 +34,8 @@ export const PROJECTS = [
         name: 'JavaScript30 Wes Bos Challenge',
         startDate: 'Nov 2020',
         endDate: 'Dec 2020',
-        technologies: ['HTML', 'CSS', 'Javascript', 'challenge'],
+        technologies: ['HTML', 'CSS', 'Javascript'],
+        type: 'Challenge',
         code: 'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge',
         description: `30 day vanilla JS coding challenge from Web Bos`,
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/24days-of-JavaScriptmas-by-Scrimba/master/screenshots/24.jpg'
@@ -42,6 +45,7 @@ export const PROJECTS = [
         name: 'Learning League - Hipo DevHack Hackathon',
         startDate: 'Nov 2020',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'CometChat', 'Firebase'],
+        type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon',
         live: 'https://devhacks2020-1c585.web.app',
         description: `
@@ -69,6 +73,7 @@ export const PROJECTS = [
         name: 'ToDo App',
         startDate: 'Aug 2020',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'SweetAlert2', 'Firebase'],
+        type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Todo',
         live: 'https://todovuevuetify.web.app',
         description: `
@@ -89,6 +94,7 @@ export const PROJECTS = [
         name: 'UniversityRating',
         startDate: 'Jul 2018',
         endDate: 'Jul 2020',
+        type: 'Personal project',
         technologies: ['HTML', 'CSS', 'Javascript', 'Sass', 'Angular', 'Angular Material', 'Microsoft Text Analytics', 'RxJs', 'Google Charts', 'Google Maps'],
         code: 'https://github.com/madalinaeleonorag/UniversityRating',
         live: 'https://universityraking.web.app',
@@ -104,6 +110,7 @@ export const PROJECTS = [
         startDate: 'Apr 2020',
         endDate: 'May 2020',
         technologies: ['HTML', 'CSS', 'Javascript', 'Firebase', 'React', 'AXIOS', 'Redux', 'Sass'],
+        type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/ExamsSchedule',
         live: 'https://reactproject-df131.web.app',
         description: `
@@ -118,7 +125,8 @@ export const PROJECTS = [
         name: 'Scientific Session of the University',
         startDate: 'Aug 2015',
         endDate: 'Dec 2019',
-        technologies: [],
+        technologies: ['PL/SQL'],
+        type: 'Reserch',
         description: `
       - Water, limited resource - case study;<br>
       - The Swiss banking system - macroeconomic study;<br>
@@ -135,6 +143,7 @@ export const PROJECTS = [
         startDate: 'May 2019',
         endDate: 'Oct 2019',
         technologies: ['CSS', 'Wordpress'],
+        type: 'Personal project',
         live: 'https://www.johnnypizza.ro/',
         description: `Is a site created in Wordpress, the result of a faculty project and currently used as the official site of Johhny'z restaurants.`,
         logo: 'assets/projects/8.png'
@@ -145,6 +154,7 @@ export const PROJECTS = [
         startDate: 'Mar 2019',
         endDate: 'May 2019',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Ionic', 'Firebase'],
+        type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/TeachMeSecure',
         live: 'https://teachme-7a1a2.web.app/login',
         description: `
@@ -164,6 +174,7 @@ export const PROJECTS = [
         name: 'PhotoBooking - RauDevHack Hackathon',
         startDate: 'Apr 2019',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
+        type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon',
         description: `
       PhotoBooking App that recommends a suitable photographer for a customer's event, according to his visual preferences, budget and period. Application created using Vue.js, Vuetify, Vuex, Firebase.
@@ -182,6 +193,7 @@ export const PROJECTS = [
         name: 'SmileSharing App - Do IT Girls! Hackathon. Powered by Microsoft',
         startDate: 'Mar 2019',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
+        type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon',
         live: 'https://doitgirls-ed93d.web.app',
         description: `
@@ -205,6 +217,7 @@ export const PROJECTS = [
         name: 'Rap Jobs - Hipo DevHack Hackathon',
         startDate: 'Nov 2018',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
+        type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon',
         live: 'https://devhacks2018.web.app/',
         description: `
@@ -227,6 +240,7 @@ export const PROJECTS = [
         startDate: 'Mar 2018',
         endDate: 'Jul 2018',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
+        type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Waffic',
         live: 'https://waffic1997.web.app',
         description: `
@@ -241,6 +255,7 @@ export const PROJECTS = [
         startDate: 'Jan 2018',
         endDate: 'May 2018',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
+        type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Events-Attendances',
         live: 'https://attendances-62382.web.app',
         description: `
@@ -264,6 +279,7 @@ export const PROJECTS = [
         name: 'Backpropagation',
         startDate: 'Dec 2019',
         technologies: ['C#', 'Visual Studio'],
+        type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Backpropagation',
         description: `Backpropagation program using C#`,
         logo: 'https://victorzhou.com/media/nn-series/network.svg'
@@ -273,6 +289,7 @@ export const PROJECTS = [
         name: 'Sudoku Backtracking',
         startDate: 'Dec 2019',
         technologies: ['C#', 'Visual Studio'],
+        type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Sudoku_Backtracking',
         description: `Sudoku program made using C# backtracking`,
         logo: 'assets/projects/16.png'

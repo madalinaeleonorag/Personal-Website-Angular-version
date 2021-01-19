@@ -4,7 +4,7 @@
   <mat-card-header>
     <mat-card-title>{{ project.name }}</mat-card-title>
     <mat-card-subtitle>
-      <a href="{{ project.code }}" *ngIf="project.code">See code</a>
+      <a href="{{ project.code }}" target="_blank" *ngIf="project.code">&#60;/ See code &#62;</a>
     </mat-card-subtitle>
       <mat-card-subtitle>
       {{ project.startDate }}
@@ -12,6 +12,9 @@
         - {{ project.endDate }}</span
       ></mat-card-subtitle
     >
+    <mat-card-subtitle>
+      {{ project.type }}
+    </mat-card-subtitle>
   </mat-card-header>
   <mat-card-content>
     <mat-chip-list class="technologies" *ngIf="project.technologies.length > 0">

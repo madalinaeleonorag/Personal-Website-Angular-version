@@ -1,0 +1,76 @@
+@import "../../variables.scss";
+
+app-project-details {
+  display: flex;
+  flex-flow: column;
+
+  .image {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .summary {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 15px 0;
+
+    .name {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #a50c0c;
+      margin: 4px 0;
+    }
+    .date {
+      padding-top: 5px;
+      color: $lightgray;
+      font-weight: normal;
+    }
+
+    .technologies {
+      display: flex;
+
+      .mat-chip {
+        font-size: 0.7rem;
+      }
+
+      .mat-chip.mat-standard-chip {
+        background-color: $white;
+        color: $bordo;
+      }
+
+      .mat-standard-chip {
+        padding: 5px 5px;
+        border-radius: 15px;
+        border: 1px solid $bordo;
+        min-height: 20px;
+        height: 1px;
+      }
+
+      .mat-chip-list-wrapper {
+        margin: 4px -4px;
+      }
+    }
+
+    button {
+      border: none;
+      padding: 6px;
+      margin: 2px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .fill-button {
+      box-shadow: 0 0 10px -2px $lightgray;
+      background-color: $bordo;
+      color: $white;
+    }
+  }
+
+  .description {
+    margin: 10px 40px 30px;
+    padding: 10px;
+    line-height: 1.5rem;
+  }
+}
