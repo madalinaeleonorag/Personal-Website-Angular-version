@@ -263,6 +263,13 @@ const PROJECTS = [
       - Technical page;<br>
       - Portfolio page.
       `,
+        images: [
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/tribute-project/tribute-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/form-project/form-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/landing-project/landing-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/technical-project/technical-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/portfolio-project/portfolio-design.png'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/landing-project/landing-design.png'
     },
     {
@@ -273,6 +280,34 @@ const PROJECTS = [
         type: 'Personal project',
         technologies: ['Photoshop', 'Lightroom', 'Photography'],
         live: 'https://500px.com/p/madalinaeleonorag',
+        images: [
+            'https://drscdn.500px.org/photo/274677301/q%3D80_m%3D2000/v2?sig=b8e9003effc3cd14c6bb5b6bfac2ec2faf6eef99afc0ea4e3ca98dea3b221d0c',
+            'https://drscdn.500px.org/photo/1001821941/q%3D80_m%3D2000_k%3D1/v2?sig=ecf84c046abbab098e1c14ea76050cc9e8b058fb11e5dc2853ff59601c83f087',
+            'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc',
+            'https://drscdn.500px.org/photo/1008740520/q%3D80_m%3D2000_k%3D1/v2?sig=4f20290e2e59325e77b9371f77e10025cbe88e7336dff24ab460f8465e9c8153',
+            'https://drscdn.500px.org/photo/1021798234/q%3D80_m%3D2000/v2?sig=85d4ebbe48dabd022aa0312a6b932419ef1d54a854ebc8fcd676ecfc8bf6ded3',
+            'https://drscdn.500px.org/photo/274148531/q%3D80_m%3D2000/v2?sig=83745aad0239a79dd100a7ab1c9408444ba29c15bc42bde350cd03938bf2ffbd',
+            'https://drscdn.500px.org/photo/299511073/q%3D80_m%3D2000_k%3D1/v2?sig=2e17140df120e4574c6d94783628d7695c15e3a3358704975c056e3f0fa835f3',
+            'https://drscdn.500px.org/photo/1021798163/q%3D80_m%3D2000/v2?sig=7aa5def0276ffcfd8cda41d0a759208038bf82643ba02ea36add46f9b7e9bd39',
+            'https://drscdn.500px.org/photo/274677625/q%3D80_m%3D2000/v2?sig=2befa1252f7a6ac7c7065613b39d0e784a903a24e6e778622996f662b25b7751',
+            'https://drscdn.500px.org/photo/1021800163/q%3D80_m%3D2000/v2?sig=d1b561de063576562ab601833f4886852e0279ccbb67d285246b2dd073b7afba',
+            'https://drscdn.500px.org/photo/1024923058/q%3D80_m%3D1000/v2?sig=f341fda9ae4362c5620bce921629091a13ac2cb040ff1503bfa964eaa0a0bfee',
+            'https://drscdn.500px.org/photo/274675807/q%3D80_m%3D2000/v2?sig=8427bc6fe43f49b86a3a8f610f5c72697d7299ea829f8af251ceaa6a5340e4d4',
+            'https://drscdn.500px.org/photo/274675811/q%3D80_m%3D2000/v2?sig=ebf1bf3f890aad8a9ca86a5b19a10408372d52190a4c789ee87ddd6189f7a057',
+            'https://drscdn.500px.org/photo/274673693/q%3D80_m%3D2000/v2?sig=8ca6a504a9b659352523386d6b165d110ff3fc53618fd56f7dc6b136683c7e1d',
+            'https://drscdn.500px.org/photo/274673705/q%3D80_m%3D1000/v2?sig=f59ca4d1bd0876a9090dc585ca35ccc310ed4a841873ba3f9eff50799cb179dd',
+            'https://drscdn.500px.org/photo/1023757921/q%3D80_m%3D2000/v2?sig=f5a5925fe77df77111c8c40be131f4ea7c3a581f7d7c29650d1e5d8a0fa55d0e',
+            'https://drscdn.500px.org/photo/274680129/q%3D80_m%3D2000/v2?sig=16bebb5070807146c4ce55c35b625a9130ae4d2fd8ad9c38ad468ad0535b5f19',
+            'https://drscdn.500px.org/photo/274672111/q%3D80_m%3D1000/v2?sig=b1343707dd5af615afbf03be17249d9da1a91e3d74465498880f0ce0c581858a',
+            'https://drscdn.500px.org/photo/274682401/q%3D80_m%3D2000/v2?sig=38696601dc7250502fdc487ff81aa41aae46876e9f36a0e6f82d217d4b3023c4',
+            'https://drscdn.500px.org/photo/1022942738/q%3D80_m%3D2000/v2?sig=f38cfd2804dac268136df88ae15f5746ffe069888834e7b0f799d00c9b7d109b',
+            'https://drscdn.500px.org/photo/304703171/q%3D80_m%3D1000_k%3D1/v2?sig=6f2c82b9ba98bd30c98324952214d142697bf3457574998cd42bd20e2fc4f01f',
+            'https://drscdn.500px.org/photo/274678773/q%3D80_m%3D2000/v2?sig=5ec65d579b51be9dd2330ab6c6c803bc3c91e09867cf8a22bf2e77ae94a673e1',
+            'https://drscdn.500px.org/photo/274678759/q%3D80_m%3D2000/v2?sig=50706a11686647e1a3d4dd9744b7e01d51a4c4c108a43940a37111739235c4f6',
+            'https://drscdn.500px.org/photo/274671995/q%3D80_m%3D2000/v2?sig=962089089c19531ae7cbe38385481ccc8cfdbb6a8c7d3b1e2bf8d395348425ac',
+            'https://drscdn.500px.org/photo/305513915/q%3D80_m%3D2000_k%3D1/v2?sig=74b14a7603df6baf02a857c63e20c0d775f77c2bdf8f47f1deddf2b4fbd457cd',
+            'https://drscdn.500px.org/photo/274681407/q%3D80_m%3D2000/v2?sig=e060226581eed5d6f587b4f7001f90e450cea1b9886d505ce536384d2c961252'
+        ],
         logo: 'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc'
     },
     {
@@ -284,6 +319,38 @@ const PROJECTS = [
         type: 'Challenge',
         code: 'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge',
         description: `30 day vanilla JS coding challenge from Web Bos`,
+        images: [
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/01.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/main/screenshots/02.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/03.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/04-1.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/05.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/main/screenshots/06.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/07.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/08-update.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/09.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/10.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/11.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/12.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/13.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/14.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/15.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/16.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/17.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/18.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/19.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/20.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/21.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/22.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/23.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/24.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/25.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/26.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/27.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/28.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/29.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/30.png'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/24days-of-JavaScriptmas-by-Scrimba/master/screenshots/24.jpg'
     },
     {
@@ -312,6 +379,20 @@ const PROJECTS = [
       8. User can take courses in order to develop their e-learning skills<br>
       9. Users cand take tests in order to verify their knowledges from different categories
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/1.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/2.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/3.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/4.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/5.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/6.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/7.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/8.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/9.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/10.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/11.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/12.png?raw=true'
+        ],
         logo: 'assets/projects/3.png'
     },
     {
@@ -333,6 +414,11 @@ const PROJECTS = [
       - Filter tasks by priority or due date;<br>
       - Data saved through local storage.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/Todo/raw/master/src/assets/1.png?raw=true',
+            'https://github.com/madalinaeleonorag/Todo/raw/master/src/assets/2.png?raw=true',
+            'https://github.com/madalinaeleonorag/Todo/raw/master/src/assets/3.png?raw=true'
+        ],
         logo: 'assets/projects/4.png'
     },
     {
@@ -348,6 +434,22 @@ const PROJECTS = [
       In this application you can search for your best option through hundred of updated universities around the world. Users can grade and add a comment to institutions so others can see if it fits for them. Only verified ratings, using Microsoft Text Analysis will be displayed. After creating an account, the user can activate it to claim a university and add verified informations about it. The user needs to provide full informations and will be contacted by administrators in order to securely activate the account. The information accuracy depends on institution representant.<br>
       This project was created using Angular CLI version 8.3.2 with TypeScript, Angular Material, Microsoft Text Analytics, Google Maps API, Google Charts and RxJs. For database used to store the data is Firebase Firestore.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/homepage.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/login.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/search.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/university.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/faculty.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/course.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/user-details.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/university-edit.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/faculty-edit.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/barcharts.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/piecharts.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/raports.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/requests.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/database.png'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/UniversityRating/master/src/assets/presentation/homepage.png'
     },
     {
@@ -364,24 +466,15 @@ const PROJECTS = [
       This project was created using React.js, axios, Redux and Sass.<br>
       For database used to store the data is Firebase Realtime Database.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/homepage.png',
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/exams-grid.png',
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/archive.png',
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/add-exam.png',
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/edit-exam.png',
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/edit-remove-exam.png'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/ExamsSchedule/master/src/assets/homepage.png'
-    },
-    {
-        id: 7,
-        name: 'Scientific Session of the University',
-        startDate: 'Aug 2015',
-        endDate: 'Dec 2019',
-        technologies: ['PL/SQL'],
-        type: 'Reserch',
-        description: `
-      - Water, limited resource - case study;<br>
-      - The Swiss banking system - macroeconomic study;<br>
-      - US Management VS Japanese Management;<br>
-      - Digital Marketing;<br>
-      - Transportation optimisation in PL/SQL;<br>
-      - Providing security for client-server applications.
-      `,
-        logo: 'https://lh3.googleusercontent.com/proxy/z2qNGd_35uQmqGf3Ed2ihgLRIkNRRCnaPklOpv3CSgGyAlJ_wR3pb0bYpfA_AE02TAaPh2S4m7y7IqfAdQYRfmZ9Q7Dfm7GOH9P9BI0W0Wi84EGqLn35fUFo-ErpoiP3F4kpgfJASetROWYw68imCOAQu_Ky13lDBtSogMhLOA'
     },
     {
         id: 8,
@@ -392,6 +485,14 @@ const PROJECTS = [
         type: 'Personal project',
         live: 'https://www.johnnypizza.ro/',
         description: `Is a site created in Wordpress, the result of a faculty project and currently used as the official site of Johhny'z restaurants.`,
+        images: [
+            'assets/projects/8-1.png',
+            'assets/projects/8-2.png',
+            'assets/projects/8-3.png',
+            'assets/projects/8-4.png',
+            'assets/projects/8-5.png',
+            'assets/projects/8-6.png'
+        ],
         logo: 'assets/projects/8.png'
     },
     {
@@ -413,6 +514,14 @@ const PROJECTS = [
       - Keep track on how many courses did you finish;<br>
       - Collect points from every test you take.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/login%20.png?raw=true',
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/signup.png?raw=true',
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/hp2.png?raw=true',
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/theory.png?raw=true',
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/quiz.png?raw=true',
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/results.png?raw=true'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/TeachMe/master/src/assets/hp2.png'
     },
     {
@@ -432,6 +541,17 @@ const PROJECTS = [
       - Both types of users cand see a list of their requests and status;<br>
       - Informations are saved through Firebase.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/hp.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/login.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/signup.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/profile.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test1.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test2.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test3.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test4.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/table.png?raw=true'
+        ],
         logo: 'assets/projects/10.png'
     },
     {
@@ -456,6 +576,13 @@ const PROJECTS = [
       - View user's rides list: one where the user is booked as a passenger and one where the user is the driver of the car;<br>
       - View rides details.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/1.png?raw=true',
+            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/2.png?raw=true',
+            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/3.png?raw=true',
+            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/4.png?raw=true',
+            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/5.png?raw=true'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/master/src/assets/1.png'
     },
     {
@@ -478,6 +605,15 @@ const PROJECTS = [
       - other relevant areas
       The aim of this product is to help candidates find the employer that best suits their needs and personality, using our personality test
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/hp.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/login.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/signup.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/test.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/search.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/company.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/profile.png?raw=true'
+        ],
         logo: 'assets/projects/12.png'
     },
     {
@@ -493,6 +629,21 @@ const PROJECTS = [
       Integrated application for tracking weather and traffic conditions, using AccuWeather, Google Maps and Google Charts APIs.<br>
       This project was created using Vue.js CLI version 2.5.2 with Vuetify, Google Maps API, Google Charts, VUEX and Router. For database used to store the data is Firebase Realtime Database.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/homepage.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/signup.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/collaborations.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/contact.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/tutorial.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/user-profile.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/travel-history.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/map.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/admin-account.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/messages.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/statistics.png',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/search.png',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/database.jpg'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Waffic/master/src/assets/Presentation/map.jpg'
     },
     {
@@ -518,6 +669,14 @@ const PROJECTS = [
       - Attend event;<br>
       - Data saved through Firebase Database.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/1.png?raw=true',
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/2.png?raw=true',
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/3.png?raw=true',
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/4.png?raw=true',
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/5.png?raw=true',
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/6.png?raw=true'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Events-Attendances/master/src/assets/1.png'
     },
     {
@@ -527,7 +686,84 @@ const PROJECTS = [
         technologies: ['C#', 'Visual Studio'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Backpropagation',
-        description: `Backpropagation program using C#`,
+        description: `Backpropagation program using C#
+        <br><br>
+        Last 2 instructions:<br><br>
+        
+        --------------Instruire: 98
+           <br> Se utilizeaza exemplul 1
+           <br>
+           <br>
+           <br> δ5 = -0.0298615276428424
+           <br>
+           <br> Determinam corectia
+           <br> Delta w35 = -0.0018772072410127
+           <br> Delta w45 = -0.00259208055658181
+           <br> Delta Teta  5 = 0.00298615276428424
+           <br>
+           <br> Prin calculul gradientului erorii se determina:
+           <br> δ3 = 0.010892788230975
+           <br> δ4 = -0.001879541855416
+           <br>
+           <br> Calculam apoi corectiile ponderilor si obtinem:
+           <br> Delta w13 = 0
+           <br> Delta w23 = 0
+           <br> Delta Teta 3 = -0.0010892788230975
+           <br> Delta w14 = 0
+           <br> Delta w24 = 0
+           <br> Delta Teta 4 = 0.0001879541855416
+           <br>
+           <br> Ajustam toate ponderile si nivelurile pragurilor din retea (biasurile):
+           <br> w13 = 0.608353543465978
+           <br> w14 = 0.870265059825897
+           <br> w23 = 0.507687716489308
+           <br> w24 = 0.970573683236741
+           <br> w35 = -1.56440823158843
+           <br> w45 = 0.546872524323644
+           <br> Teta 2 = 0.588576403627556
+           <br> Teta 3 = -0.042655277882563
+           <br> Teta 4 = 0.932964811489868
+           <br> ----Eroare: 0.00101389634619537
+           <br>
+           <br> Oc,3 = 0.62889163611443
+           <br> Oc,4 = 0.868011941669101
+           <br> Oc,5 = 0.191217859528008
+           <br> Eroare neuron 5, e5 = -0.191217859528008
+           <br>
+           <br> --------------Instruire: 99
+           <br> Se utilizeaza exemplul 2
+           <br>
+           <br> δ5 = -0.0295725283956396
+           <br>
+           <br> Determinam corectia
+           <br> Delta w35 = -0.00185979157667742
+           <br> Delta w45 = -0.00256693077927637
+           <br> Delta Teta  5 = 0.00295725283956396
+           <br>
+           <br> Prin calculul gradientului erorii se determina:
+           <br> δ3 = 0.010797298581675
+           <br> δ4 = -0.00185282713260552
+           <br>
+           <br> Calculam apoi corectiile ponderilor si obtinem:
+           <br> Delta w13 = 0.0010797298581675
+           <br> Delta w23 = 0
+           <br> Delta Teta 3 = -0.0010797298581675
+           <br> Delta w14 = -0.000185282713260552
+           <br> Delta w24 = 0
+           <br> Delta Teta 4 = 0.000185282713260552
+           <br>
+           <br> Ajustam toate ponderile si nivelurile pragurilor din retea (biasurile):
+           <br> w13 = 0.609433273324146
+           <br> w14 = 0.870079777112637
+           <br> w23 = 0.507687716489308
+           <br> w24 = 0.970573683236741
+           <br> w35 = -1.56626802316511
+           <br> w45 = 0.544305593544368
+           <br> Teta 2 = 0.587496673769388
+           <br> Teta 3 = -0.0424699951693025
+           <br> Teta 4 = 0.935922064329432
+           <br> ----Eroare: 0.000994549060756069
+        `,
         logo: 'https://victorzhou.com/media/nn-series/network.svg'
     },
     {
@@ -537,7 +773,37 @@ const PROJECTS = [
         technologies: ['C#', 'Visual Studio'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Sudoku_Backtracking',
-        description: `Sudoku program made using C# backtracking`,
+        description: `Sudoku program made using C# backtracking
+        <br><br>
+        Initial value of sudoku
+        <br>
+        <br> int[, ] board = { 
+        <br>     { 3, 0, 6, 5, 0, 8, 4, 0, 0 },
+        <br>     { 5, 2, 0, 0, 0, 0, 0, 0, 0 },
+        <br>     { 0, 8, 7, 0, 0, 0, 0, 3, 1 },
+        <br>     { 0, 0, 3, 0, 1, 0, 0, 8, 0 },
+        <br>     { 9, 0, 0, 8, 6, 3, 0, 0, 5 },
+        <br>     { 0, 5, 0, 0, 9, 0, 6, 0, 0 },
+        <br>     { 1, 3, 0, 0, 0, 0, 2, 5, 0 },
+        <br>     { 0, 0, 0, 0, 0, 0, 0, 7, 4 },
+        <br>     { 0, 0, 5, 2, 0, 6, 3, 0, 0 }
+        <br> };
+        <br><br> Solution after 770 iterations:
+        <br>
+        <br> ------------------- 
+        <br> | 316 | 578 | 492 | 
+        <br> | 529 | 134 | 768 | 
+        <br> | 487 | 629 | 531 | 
+        <br> ------------------- 
+        <br> | 263 | 415 | 987 | 
+        <br> | 974 | 863 | 125 | 
+        <br> | 851 | 792 | 643 | 
+        <br> ------------------- 
+        <br> | 138 | 947 | 256 | 
+        <br> | 692 | 351 | 874 | 
+        <br> | 745 | 286 | 319 | 
+        <br> ------------------- `,
+        images: ['assets/projects/16.png'],
         logo: 'assets/projects/16.png'
     }
 ];
@@ -572,6 +838,7 @@ const SKILLS = {
 };
 const CERTIFICATIONS = [
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'IBM Mentor',
         organization: 'IBM',
@@ -579,6 +846,7 @@ const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/841adfea-65df-4a8e-bbe1-267d70cb6a21'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'JavaScript Front End Development',
         organization: 'IBM',
@@ -586,6 +854,7 @@ const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/b6792b26-e919-4de1-bc24-d4192439aa50'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C560BAQH0VNXBrdkklA/company-logo_200_200/0/1593711193383?e=1619049600&v=beta&t=lrBAcOWGtkwOM3MtvBw55FRiEHzMyNwaaeJycjzvC7k',
         name: 'Web Design for Web Developers: Build Beautiful Websites!',
         organization: 'Udemy',
@@ -593,6 +862,7 @@ const CERTIFICATIONS = [
         url: 'https://udemy-certificate.s3.amazonaws.com/image/UC-4b147be3-753e-47b3-bd44-df452ffc3018.jpg?v=1601294558000'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0iRUqSJueUw/company-logo_200_200/0/1519902704390?e=1619049600&v=beta&t=AmcNPqTADleh6FV8bDZ1yJhJb7QcwaEoZha72rhz4TY',
         name: 'ES SET English Certificate',
         organization: 'EF Standard English Test (EF SET)',
@@ -600,6 +870,7 @@ const CERTIFICATIONS = [
         url: 'https://www.efset.org/cert/V3b9C2'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'Enterprise Design Thinking Practitioner',
         organization: 'IBM',
@@ -607,6 +878,7 @@ const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/f28084ab-7407-4d30-8f84-e612adc40402'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'IBM Agile Explorer',
         organization: 'IBM',
@@ -614,6 +886,7 @@ const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/8ed472e8-38c5-42c0-aee7-c1993e9f737f'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'Insurance Industry Foundations',
         organization: 'IBM',
@@ -621,18 +894,21 @@ const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/073a4a5e-b2f0-4165-8684-c6a427a005b3'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQGxoHjf6gCmyQ/company-logo_200_200/0/1601991684673?e=1619049600&v=beta&t=ZDc7BD5euDuuUZaJHgPgoZxpUvn_Sh49rmRau3-pGbw',
         name: '"Live for the story" Canon Summer school',
         organization: 'Canon',
         issueDate: 'Jul 2018'
     },
     {
+        images: [],
         logo: 'https://ecdl.ro/uploads/files/ECDL_SHORT_LOGO_WITH_REGISTRATION_RGB.jpg',
         name: 'ECDL Complete',
         organization: 'ECDL Romania',
         issueDate: 'May 2015'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_200_200/0/1519856215226?e=1619049600&v=beta&t=wqGS0p4XpSRfUOSwlJ1_GDzkLcGNhFrMFdkps_mlOHc',
         name: 'Google Digital Garage',
         organization: 'Google'
@@ -642,6 +918,7 @@ const COURSES = [
     {
         name: 'DevAcademy Front End Track',
         organization: 'DevAcademy',
+        images: [],
         logo: '',
         startYear: 'Jun 2018',
         endYear: 'Dec 2018',
@@ -668,6 +945,7 @@ const EDUCATION = [
         startYear: '2018',
         endYear: '2020',
         grade: '9.66',
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
         activities: 'Participation in scientific communication session with transportation optimisation in pl/sql and an article regarding security for client-server applications',
         description: 'I\'ve assimilated informations about IOT, mobile applications development, web technologies, AI, GDPR, PL/SQL, BigData, project management, WordPress, security of computer networks and E-Commerce. Those knowledges are proved by the projects worked for the graduation of the course.'
@@ -679,6 +957,7 @@ const EDUCATION = [
         startYear: '2015',
         endYear: '2018',
         grade: '9.50',
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
         activities: 'Participation in scientific communication session with micro and macro economy, management and digital marketing',
         description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP.'
@@ -690,6 +969,7 @@ const EDUCATION = [
         startYear: '2011',
         endYear: '2015',
         grade: '',
+        images: [],
         logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
         activities: '',
         description: 'Acquiring logical and organizational thinking.'
@@ -702,6 +982,7 @@ const VOLUNTEER = [
         description: 'Theater project with the stage of frequent social situations for finding solutions',
         role: 'Role Player',
         organization: 'ArtFusion',
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0R_odMk40zQ/company-logo_200_200/0/1583400910416?e=1619049600&v=beta&t=FrnDEuYXI-gv_NLAZr7e2xMe2vrazFjnUsY0HhPQu2Y'
     }
 ];
@@ -740,6 +1021,7 @@ const PUBLICATIONS = [
         date: 'Jan 2021',
         description: '',
         url: 'https://madalinaeleonorag.medium.com/how-i-personalized-my-github-overview-7144fd15d1e1',
+        images: [],
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
         organization: 'Medium'
     },
@@ -748,6 +1030,7 @@ const PUBLICATIONS = [
         date: 'Dec 2020',
         description: '',
         url: 'https://madalinaeleonorag.medium.com/my-javascriptmas-journey-69a29ea5845a',
+        images: [],
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
         organization: 'Medium'
     },
@@ -756,6 +1039,7 @@ const PUBLICATIONS = [
         date: '2019',
         description: '',
         url: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
+        images: [],
         logo: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
         organization: 'Research Focus'
     },
@@ -764,6 +1048,7 @@ const PUBLICATIONS = [
         date: 'Jan 11, 2013',
         description: 'Publishing poems in high school magazine',
         url: '',
+        images: [],
         logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
         organization: 'Liceul Teoretic Nichita Stanescu'
     }
@@ -1610,9 +1895,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectDetailsComponent", function() { return ProjectDetailsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
 /* harmony import */ var src_assets_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/assets/data */ "6Xnp");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "iInd");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "SVse");
-/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/chips */ "f44v");
+/* harmony import */ var _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ks89/angular-modal-gallery */ "rHMi");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "iInd");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "SVse");
+/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/chips */ "f44v");
+
+
 
 
 
@@ -1620,7 +1908,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function ProjectDetailsComponent_a_4_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "</ See code >");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1646,8 +1934,8 @@ function ProjectDetailsComponent_mat_chip_list_8_mat_chip_1_Template(rf, ctx) { 
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](technology_r5);
 } }
 function ProjectDetailsComponent_mat_chip_list_8_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-chip-list", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ProjectDetailsComponent_mat_chip_list_8_mat_chip_1_Template, 2, 1, "mat-chip", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-chip-list", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ProjectDetailsComponent_mat_chip_list_8_mat_chip_1_Template, 2, 1, "mat-chip", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -1656,12 +1944,14 @@ function ProjectDetailsComponent_mat_chip_list_8_Template(rf, ctx) { if (rf & 1)
 } }
 function ProjectDetailsComponent_button_9_Template(rf, ctx) { if (rf & 1) {
     const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectDetailsComponent_button_9_Template_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r7); const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r6.openNewTab(); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " See live ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 const _c0 = function (a0) { return { "background-image": a0 }; };
+const _c1 = function () { return { show: false }; };
+const _c2 = function (a1) { return { infinite: true, sidePreviews: a1 }; };
 class ProjectDetailsComponent {
     constructor(route) {
         this.route = route;
@@ -1672,11 +1962,13 @@ class ProjectDetailsComponent {
     }
     getProjectByID(ID) {
         this.project = this.projects.filter(project => project.id == ID)[0];
-        console.log('this.project', this.project);
+        this.images = this.project.images ? this.project.images.map((imageUrl, index) => new _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_2__["Image"](index, {
+            img: imageUrl
+        })) : [];
     }
 }
-ProjectDetailsComponent.ɵfac = function ProjectDetailsComponent_Factory(t) { return new (t || ProjectDetailsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"])); };
-ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectDetailsComponent, selectors: [["app-project-details"]], decls: 11, vars: 10, consts: [[1, "image", 3, "ngStyle"], [1, "summary"], [1, "name"], ["target", "_blank", 3, "href", 4, "ngIf"], [1, "date"], [4, "ngIf"], ["class", "technologies", 4, "ngIf"], ["class", "fill-button", 3, "click", 4, "ngIf"], [1, "description", 3, "innerHTML"], ["target", "_blank", 3, "href"], [1, "technologies"], [4, "ngFor", "ngForOf"], [1, "fill-button", 3, "click"]], template: function ProjectDetailsComponent_Template(rf, ctx) { if (rf & 1) {
+ProjectDetailsComponent.ɵfac = function ProjectDetailsComponent_Factory(t) { return new (t || ProjectDetailsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"])); };
+ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectDetailsComponent, selectors: [["app-project-details"]], decls: 12, vars: 16, consts: [[1, "image", 3, "ngStyle"], [1, "summary"], [1, "name"], ["target", "_blank", 3, "href", 4, "ngIf"], [1, "date"], [4, "ngIf"], ["class", "technologies", 4, "ngIf"], ["class", "fill-button", 3, "click", 4, "ngIf"], [1, "description", 3, "innerHTML"], [3, "id", "modalImages", "slideConfig"], ["target", "_blank", 3, "href"], [1, "technologies"], [4, "ngFor", "ngForOf"], [1, "fill-button", 3, "click"]], template: function ProjectDetailsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1691,8 +1983,9 @@ ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, ProjectDetailsComponent_button_9_Template, 2, 0, "button", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "ks-modal-gallery", 9);
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](8, _c0, "url(" + ctx.project.logo + ")"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](11, _c0, "url(" + ctx.project.logo + ")"));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.project.name);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
@@ -1707,7 +2000,9 @@ ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.project.live);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", ctx.project.description, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipList"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChip"]], styles: ["app-project-details {\n  display: flex;\n  flex-flow: column;\n}\napp-project-details .image {\n  height: 50vh;\n  background-size: cover;\n  background-position: center;\n}\napp-project-details .summary {\n  display: flex;\n  flex-flow: column;\n  align-items: center;\n  margin: 15px 0;\n}\napp-project-details .summary .name {\n  font-weight: bold;\n  font-size: 1.2rem;\n  color: #a50c0c;\n  margin: 4px 0;\n}\napp-project-details .summary .date {\n  padding-top: 5px;\n  color: #8b8b8b;\n  font-weight: normal;\n}\napp-project-details .summary .technologies {\n  display: flex;\n}\napp-project-details .summary .technologies .mat-chip {\n  font-size: 0.7rem;\n}\napp-project-details .summary .technologies .mat-chip.mat-standard-chip {\n  background-color: #FFFFFF;\n  color: #a50c0c;\n}\napp-project-details .summary .technologies .mat-standard-chip {\n  padding: 5px 5px;\n  border-radius: 15px;\n  border: 1px solid #a50c0c;\n  min-height: 20px;\n  height: 1px;\n}\napp-project-details .summary .technologies .mat-chip-list-wrapper {\n  margin: 4px -4px;\n}\napp-project-details .summary button {\n  border: none;\n  padding: 6px;\n  margin: 2px;\n  cursor: pointer;\n  border-radius: 5px;\n}\napp-project-details .summary .fill-button {\n  box-shadow: 0 0 10px -2px #8b8b8b;\n  background-color: #a50c0c;\n  color: #FFFFFF;\n}\napp-project-details .description {\n  margin: 10px 40px 30px;\n  padding: 10px;\n  line-height: 1.5rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvcHJvamVjdC1kZXRhaWxzL3Byb2plY3QtZGV0YWlscy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvdmFyaWFibGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxhQUFBO0VBQ0EsaUJBQUE7QUFERjtBQUdFO0VBQ0UsWUFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7QUFESjtBQUlFO0VBQ0UsYUFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxjQUFBO0FBRko7QUFJSTtFQUNFLGlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxjQUFBO0VBQ0EsYUFBQTtBQUZOO0FBSUk7RUFDRSxnQkFBQTtFQUNBLGNDeEJNO0VEeUJOLG1CQUFBO0FBRk47QUFLSTtFQUNFLGFBQUE7QUFITjtBQUtNO0VBQ0UsaUJBQUE7QUFIUjtBQU1NO0VBQ0UseUJDbENBO0VEbUNBLGNDbENBO0FEOEJSO0FBT007RUFDRSxnQkFBQTtFQUNBLG1CQUFBO0VBQ0EseUJBQUE7RUFDQSxnQkFBQTtFQUNBLFdBQUE7QUFMUjtBQVFNO0VBQ0UsZ0JBQUE7QUFOUjtBQVVJO0VBQ0UsWUFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0FBUk47QUFXSTtFQUNFLGlDQUFBO0VBQ0EseUJDNURFO0VENkRGLGNDOURFO0FEcURSO0FBYUU7RUFDRSxzQkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQVhKIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvcHJvamVjdC1kZXRhaWxzL3Byb2plY3QtZGV0YWlscy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgXCIuLi8uLi92YXJpYWJsZXMuc2Nzc1wiO1xyXG5cclxuYXBwLXByb2plY3QtZGV0YWlscyB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWZsb3c6IGNvbHVtbjtcclxuXHJcbiAgLmltYWdlIHtcclxuICAgIGhlaWdodDogNTB2aDtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XHJcbiAgfVxyXG5cclxuICAuc3VtbWFyeSB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1mbG93OiBjb2x1bW47XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgbWFyZ2luOiAxNXB4IDA7XHJcblxyXG4gICAgLm5hbWUge1xyXG4gICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgICAgZm9udC1zaXplOiAxLjJyZW07XHJcbiAgICAgIGNvbG9yOiAjYTUwYzBjO1xyXG4gICAgICBtYXJnaW46IDRweCAwO1xyXG4gICAgfVxyXG4gICAgLmRhdGUge1xyXG4gICAgICBwYWRkaW5nLXRvcDogNXB4O1xyXG4gICAgICBjb2xvcjogJGxpZ2h0Z3JheTtcclxuICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuICAgIH1cclxuXHJcbiAgICAudGVjaG5vbG9naWVzIHtcclxuICAgICAgZGlzcGxheTogZmxleDtcclxuXHJcbiAgICAgIC5tYXQtY2hpcCB7XHJcbiAgICAgICAgZm9udC1zaXplOiAwLjdyZW07XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5tYXQtY2hpcC5tYXQtc3RhbmRhcmQtY2hpcCB7XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogJHdoaXRlO1xyXG4gICAgICAgIGNvbG9yOiAkYm9yZG87XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5tYXQtc3RhbmRhcmQtY2hpcCB7XHJcbiAgICAgICAgcGFkZGluZzogNXB4IDVweDtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiAxNXB4O1xyXG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICRib3JkbztcclxuICAgICAgICBtaW4taGVpZ2h0OiAyMHB4O1xyXG4gICAgICAgIGhlaWdodDogMXB4O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAubWF0LWNoaXAtbGlzdC13cmFwcGVyIHtcclxuICAgICAgICBtYXJnaW46IDRweCAtNHB4O1xyXG4gICAgICB9XHJcbiAgICB9XHJcblxyXG4gICAgYnV0dG9uIHtcclxuICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICBwYWRkaW5nOiA2cHg7XHJcbiAgICAgIG1hcmdpbjogMnB4O1xyXG4gICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICAgIH1cclxuXHJcbiAgICAuZmlsbC1idXR0b24ge1xyXG4gICAgICBib3gtc2hhZG93OiAwIDAgMTBweCAtMnB4ICRsaWdodGdyYXk7XHJcbiAgICAgIGJhY2tncm91bmQtY29sb3I6ICRib3JkbztcclxuICAgICAgY29sb3I6ICR3aGl0ZTtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC5kZXNjcmlwdGlvbiB7XHJcbiAgICBtYXJnaW46IDEwcHggNDBweCAzMHB4O1xyXG4gICAgcGFkZGluZzogMTBweDtcclxuICAgIGxpbmUtaGVpZ2h0OiAxLjVyZW07XHJcbiAgfVxyXG59XHJcbiIsIiRibGFjazogIzE4MTkxQTtcclxuJGdyYXk6ICMzQTNCM0M7XHJcbiRsaWdodGdyYXk6ICM4YjhiOGI7XHJcbiRiYWNrZ3JvdW5kOiAjRjhGOEZGO1xyXG4kd2hpdGU6ICNGRkZGRkY7XHJcbiRib3JkbzogI2E1MGMwYzsiXX0= */"], encapsulation: 2 });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("id", 6)("modalImages", ctx.images)("slideConfig", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](14, _c2, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](13, _c1)));
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_2__["ɵd"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_5__["MatChipList"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_5__["MatChip"]], styles: ["app-project-details {\n  display: flex;\n  flex-flow: column;\n}\napp-project-details .image {\n  height: 50vh;\n  background-size: cover;\n  background-position: center;\n}\napp-project-details .summary {\n  display: flex;\n  flex-flow: column;\n  align-items: center;\n  margin: 15px 0;\n}\napp-project-details .summary .name {\n  font-weight: bold;\n  font-size: 1.2rem;\n  color: #a50c0c;\n  margin: 4px 0;\n}\napp-project-details .summary .date {\n  padding-top: 5px;\n  color: #8b8b8b;\n  font-weight: normal;\n}\napp-project-details .summary .technologies {\n  display: flex;\n}\napp-project-details .summary .technologies .mat-chip {\n  font-size: 0.7rem;\n}\napp-project-details .summary .technologies .mat-chip.mat-standard-chip {\n  background-color: #FFFFFF;\n  color: #a50c0c;\n}\napp-project-details .summary .technologies .mat-standard-chip {\n  padding: 5px 5px;\n  border-radius: 15px;\n  border: 1px solid #a50c0c;\n  min-height: 20px;\n  height: 1px;\n}\napp-project-details .summary .technologies .mat-chip-list-wrapper {\n  margin: 4px -4px;\n}\napp-project-details .summary button {\n  border: none;\n  padding: 6px;\n  margin: 2px;\n  cursor: pointer;\n  border-radius: 5px;\n}\napp-project-details .summary .fill-button {\n  box-shadow: 0 0 10px -2px #8b8b8b;\n  background-color: #a50c0c;\n  color: #FFFFFF;\n}\napp-project-details .description {\n  margin: 10px 40px 30px;\n  padding: 10px;\n  line-height: 1.5rem;\n}\napp-project-details .plain-container {\n  justify-content: center !important;\n  margin: 20px 40px 40px;\n  display: flex !important;\n  flex-flow: wrap;\n}\napp-project-details .plain-container .image {\n  margin: 5px !important;\n  height: 200px !important;\n  width: auto !important;\n  box-shadow: 0 0 10px -3px #8b8b8b;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvcHJvamVjdC1kZXRhaWxzL3Byb2plY3QtZGV0YWlscy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvdmFyaWFibGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxhQUFBO0VBQ0EsaUJBQUE7QUFERjtBQUdFO0VBQ0UsWUFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7QUFESjtBQUlFO0VBQ0UsYUFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxjQUFBO0FBRko7QUFJSTtFQUNFLGlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxjQUFBO0VBQ0EsYUFBQTtBQUZOO0FBSUk7RUFDRSxnQkFBQTtFQUNBLGNDeEJNO0VEeUJOLG1CQUFBO0FBRk47QUFLSTtFQUNFLGFBQUE7QUFITjtBQUtNO0VBQ0UsaUJBQUE7QUFIUjtBQU1NO0VBQ0UseUJDbENBO0VEbUNBLGNDbENBO0FEOEJSO0FBT007RUFDRSxnQkFBQTtFQUNBLG1CQUFBO0VBQ0EseUJBQUE7RUFDQSxnQkFBQTtFQUNBLFdBQUE7QUFMUjtBQVFNO0VBQ0UsZ0JBQUE7QUFOUjtBQVVJO0VBQ0UsWUFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0FBUk47QUFXSTtFQUNFLGlDQUFBO0VBQ0EseUJDNURFO0VENkRGLGNDOURFO0FEcURSO0FBYUU7RUFDRSxzQkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQVhKO0FBY0U7RUFDRSxrQ0FBQTtFQUNBLHNCQUFBO0VBQ0Esd0JBQUE7RUFDQSxlQUFBO0FBWko7QUFjSTtFQUNFLHNCQUFBO0VBQ0Esd0JBQUE7RUFDQSxzQkFBQTtFQUNBLGlDQUFBO0FBWk4iLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9wcm9qZWN0LWRldGFpbHMvcHJvamVjdC1kZXRhaWxzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uLy4uL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5hcHAtcHJvamVjdC1kZXRhaWxzIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZmxvdzogY29sdW1uO1xyXG5cclxuICAuaW1hZ2Uge1xyXG4gICAgaGVpZ2h0OiA1MHZoO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICB9XHJcblxyXG4gIC5zdW1tYXJ5IHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWZsb3c6IGNvbHVtbjtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBtYXJnaW46IDE1cHggMDtcclxuXHJcbiAgICAubmFtZSB7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgICBmb250LXNpemU6IDEuMnJlbTtcclxuICAgICAgY29sb3I6ICNhNTBjMGM7XHJcbiAgICAgIG1hcmdpbjogNHB4IDA7XHJcbiAgICB9XHJcbiAgICAuZGF0ZSB7XHJcbiAgICAgIHBhZGRpbmctdG9wOiA1cHg7XHJcbiAgICAgIGNvbG9yOiAkbGlnaHRncmF5O1xyXG4gICAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgfVxyXG5cclxuICAgIC50ZWNobm9sb2dpZXMge1xyXG4gICAgICBkaXNwbGF5OiBmbGV4O1xyXG5cclxuICAgICAgLm1hdC1jaGlwIHtcclxuICAgICAgICBmb250LXNpemU6IDAuN3JlbTtcclxuICAgICAgfVxyXG5cclxuICAgICAgLm1hdC1jaGlwLm1hdC1zdGFuZGFyZC1jaGlwIHtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkd2hpdGU7XHJcbiAgICAgICAgY29sb3I6ICRib3JkbztcclxuICAgICAgfVxyXG5cclxuICAgICAgLm1hdC1zdGFuZGFyZC1jaGlwIHtcclxuICAgICAgICBwYWRkaW5nOiA1cHggNXB4O1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDE1cHg7XHJcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgJGJvcmRvO1xyXG4gICAgICAgIG1pbi1oZWlnaHQ6IDIwcHg7XHJcbiAgICAgICAgaGVpZ2h0OiAxcHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5tYXQtY2hpcC1saXN0LXdyYXBwZXIge1xyXG4gICAgICAgIG1hcmdpbjogNHB4IC00cHg7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICBidXR0b24ge1xyXG4gICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgIHBhZGRpbmc6IDZweDtcclxuICAgICAgbWFyZ2luOiAycHg7XHJcbiAgICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gICAgfVxyXG5cclxuICAgIC5maWxsLWJ1dHRvbiB7XHJcbiAgICAgIGJveC1zaGFkb3c6IDAgMCAxMHB4IC0ycHggJGxpZ2h0Z3JheTtcclxuICAgICAgYmFja2dyb3VuZC1jb2xvcjogJGJvcmRvO1xyXG4gICAgICBjb2xvcjogJHdoaXRlO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLmRlc2NyaXB0aW9uIHtcclxuICAgIG1hcmdpbjogMTBweCA0MHB4IDMwcHg7XHJcbiAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDEuNXJlbTtcclxuICB9XHJcblxyXG4gIC5wbGFpbi1jb250YWluZXIge1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXIgIWltcG9ydGFudDtcclxuICAgIG1hcmdpbjogMjBweCA0MHB4IDQwcHg7XHJcbiAgICBkaXNwbGF5OiBmbGV4ICFpbXBvcnRhbnQ7XHJcbiAgICBmbGV4LWZsb3c6IHdyYXA7XHJcblxyXG4gICAgLmltYWdlIHtcclxuICAgICAgbWFyZ2luOiA1cHggIWltcG9ydGFudDtcclxuICAgICAgaGVpZ2h0OiAyMDBweCAhaW1wb3J0YW50O1xyXG4gICAgICB3aWR0aDogYXV0byAhaW1wb3J0YW50O1xyXG4gICAgICBib3gtc2hhZG93OiAwIDAgMTBweCAtM3B4ICRsaWdodGdyYXk7XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiIsIiRibGFjazogIzE4MTkxQTtcclxuJGdyYXk6ICMzQTNCM0M7XHJcbiRsaWdodGdyYXk6ICM4YjhiOGI7XHJcbiRiYWNrZ3JvdW5kOiAjRjhGOEZGO1xyXG4kd2hpdGU6ICNGRkZGRkY7XHJcbiRib3JkbzogI2E1MGMwYzsiXX0= */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ProjectDetailsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1716,7 +2011,7 @@ ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
                 styleUrls: ['./project-details.component.scss'],
                 encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewEncapsulation"].None
             }]
-    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }]; }, null); })();
+    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"] }]; }, null); })();
 
 
 /***/ }),
@@ -1738,31 +2033,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/chips */ "f44v");
 /* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/tabs */ "M9ds");
 /* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/card */ "PDjf");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app.component */ "Sy1n");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/platform-browser/animations */ "omvX");
-/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/contact/contact.component */ "G2Gn");
-/* harmony import */ var _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/homepage/homepage.component */ "ojyh");
-/* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/header/header.component */ "2MiI");
-/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/footer/footer.component */ "LmEr");
-/* harmony import */ var _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/skills/skills.component */ "2yNh");
-/* harmony import */ var _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./directives/progress-bar-colors.directive */ "82IS");
-/* harmony import */ var _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/skill-progress-bar/skill-progress-bar.component */ "rOuV");
-/* harmony import */ var _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/experience/experience.component */ "mKaJ");
-/* harmony import */ var _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/experience-job/experience-job.component */ "6hof");
-/* harmony import */ var _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/education-level/education-level.component */ "zeqP");
-/* harmony import */ var _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/certification/certification.component */ "mstO");
-/* harmony import */ var _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/volunteer/volunteer.component */ "7ntx");
-/* harmony import */ var _components_course_course_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/course/course.component */ "vP9v");
-/* harmony import */ var _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/awards/awards.component */ "QrEi");
-/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/publications/publications.component */ "BBdW");
-/* harmony import */ var _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./pages/projects/projects.component */ "u/sh");
-/* harmony import */ var _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/project-card/project-card.component */ "M0Pn");
-/* harmony import */ var _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./pages/project-details/project-details.component */ "X1wX");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! hammerjs */ "yLV6");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(hammerjs__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var mousetrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! mousetrap */ "imBb");
+/* harmony import */ var mousetrap__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(mousetrap__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ks89/angular-modal-gallery */ "rHMi");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./app.component */ "Sy1n");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/platform-browser/animations */ "omvX");
+/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/contact/contact.component */ "G2Gn");
+/* harmony import */ var _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/homepage/homepage.component */ "ojyh");
+/* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/header/header.component */ "2MiI");
+/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/footer/footer.component */ "LmEr");
+/* harmony import */ var _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/skills/skills.component */ "2yNh");
+/* harmony import */ var _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./directives/progress-bar-colors.directive */ "82IS");
+/* harmony import */ var _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/skill-progress-bar/skill-progress-bar.component */ "rOuV");
+/* harmony import */ var _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pages/experience/experience.component */ "mKaJ");
+/* harmony import */ var _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/experience-job/experience-job.component */ "6hof");
+/* harmony import */ var _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/education-level/education-level.component */ "zeqP");
+/* harmony import */ var _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/certification/certification.component */ "mstO");
+/* harmony import */ var _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/volunteer/volunteer.component */ "7ntx");
+/* harmony import */ var _components_course_course_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/course/course.component */ "vP9v");
+/* harmony import */ var _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/awards/awards.component */ "QrEi");
+/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/publications/publications.component */ "BBdW");
+/* harmony import */ var _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./pages/projects/projects.component */ "u/sh");
+/* harmony import */ var _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./components/project-card/project-card.component */ "M0Pn");
+/* harmony import */ var _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./pages/project-details/project-details.component */ "X1wX");
 
 
 // Material imports
 
+
+
+
+
+// Modal galery imports
 
 
 
@@ -1791,47 +2096,48 @@ __webpack_require__.r(__webpack_exports__);
 
 class AppModule {
 }
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]] });
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_11__["AppComponent"]] });
 AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-            _app_routing_module__WEBPACK_IMPORTED_MODULE_7__["AppRoutingModule"],
-            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__["BrowserAnimationsModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["AppRoutingModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_12__["BrowserAnimationsModule"],
             _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
             _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
             _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
             _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
-            _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"]
+            _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
+            _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_9__["GalleryModule"].forRoot()
         ], _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
         _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
         _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
         _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
         _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"],
-        _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_10__["ContactComponent"],
-        _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_11__["HomepageComponent"],
-        _components_header_header_component__WEBPACK_IMPORTED_MODULE_12__["HeaderComponent"],
-        _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"],
-        _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_14__["SkillsComponent"],
-        _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_15__["ProgressBarColorsDirective"],
-        _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_16__["SkillProgressBarComponent"],
-        _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_17__["ExperienceComponent"],
-        _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_18__["ExperienceJobComponent"],
-        _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_19__["EducationLevelComponent"],
-        _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_20__["CertificationComponent"],
-        _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_21__["VolunteerComponent"],
-        _components_course_course_component__WEBPACK_IMPORTED_MODULE_22__["CourseComponent"],
-        _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_23__["AwardsComponent"],
-        _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_24__["PublicationsComponent"],
-        _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_25__["ProjectsComponent"],
-        _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_26__["ProjectCardComponent"],
-        _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_27__["ProjectDetailsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-        _app_routing_module__WEBPACK_IMPORTED_MODULE_7__["AppRoutingModule"],
-        _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__["BrowserAnimationsModule"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_11__["AppComponent"],
+        _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_13__["ContactComponent"],
+        _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_14__["HomepageComponent"],
+        _components_header_header_component__WEBPACK_IMPORTED_MODULE_15__["HeaderComponent"],
+        _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_16__["FooterComponent"],
+        _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_17__["SkillsComponent"],
+        _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_18__["ProgressBarColorsDirective"],
+        _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_19__["SkillProgressBarComponent"],
+        _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_20__["ExperienceComponent"],
+        _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_21__["ExperienceJobComponent"],
+        _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_22__["EducationLevelComponent"],
+        _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_23__["CertificationComponent"],
+        _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_24__["VolunteerComponent"],
+        _components_course_course_component__WEBPACK_IMPORTED_MODULE_25__["CourseComponent"],
+        _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_26__["AwardsComponent"],
+        _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_27__["PublicationsComponent"],
+        _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_28__["ProjectsComponent"],
+        _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_29__["ProjectCardComponent"],
+        _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_30__["ProjectDetailsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["AppRoutingModule"],
+        _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_12__["BrowserAnimationsModule"],
         _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
         _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
         _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
         _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
-        _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"]], exports: [_angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
+        _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"], _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_9__["GalleryModule"]], exports: [_angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
         _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
         _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
         _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
@@ -1840,35 +2146,36 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
                 declarations: [
-                    _app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"],
-                    _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_10__["ContactComponent"],
-                    _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_11__["HomepageComponent"],
-                    _components_header_header_component__WEBPACK_IMPORTED_MODULE_12__["HeaderComponent"],
-                    _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"],
-                    _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_14__["SkillsComponent"],
-                    _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_15__["ProgressBarColorsDirective"],
-                    _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_16__["SkillProgressBarComponent"],
-                    _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_17__["ExperienceComponent"],
-                    _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_18__["ExperienceJobComponent"],
-                    _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_19__["EducationLevelComponent"],
-                    _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_20__["CertificationComponent"],
-                    _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_21__["VolunteerComponent"],
-                    _components_course_course_component__WEBPACK_IMPORTED_MODULE_22__["CourseComponent"],
-                    _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_23__["AwardsComponent"],
-                    _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_24__["PublicationsComponent"],
-                    _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_25__["ProjectsComponent"],
-                    _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_26__["ProjectCardComponent"],
-                    _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_27__["ProjectDetailsComponent"]
+                    _app_component__WEBPACK_IMPORTED_MODULE_11__["AppComponent"],
+                    _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_13__["ContactComponent"],
+                    _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_14__["HomepageComponent"],
+                    _components_header_header_component__WEBPACK_IMPORTED_MODULE_15__["HeaderComponent"],
+                    _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_16__["FooterComponent"],
+                    _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_17__["SkillsComponent"],
+                    _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_18__["ProgressBarColorsDirective"],
+                    _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_19__["SkillProgressBarComponent"],
+                    _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_20__["ExperienceComponent"],
+                    _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_21__["ExperienceJobComponent"],
+                    _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_22__["EducationLevelComponent"],
+                    _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_23__["CertificationComponent"],
+                    _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_24__["VolunteerComponent"],
+                    _components_course_course_component__WEBPACK_IMPORTED_MODULE_25__["CourseComponent"],
+                    _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_26__["AwardsComponent"],
+                    _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_27__["PublicationsComponent"],
+                    _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_28__["ProjectsComponent"],
+                    _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_29__["ProjectCardComponent"],
+                    _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_30__["ProjectDetailsComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                    _app_routing_module__WEBPACK_IMPORTED_MODULE_7__["AppRoutingModule"],
-                    _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__["BrowserAnimationsModule"],
+                    _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["AppRoutingModule"],
+                    _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_12__["BrowserAnimationsModule"],
                     _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
                     _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
                     _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
                     _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
-                    _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"]
+                    _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
+                    _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_9__["GalleryModule"].forRoot()
                 ],
                 exports: [
                     _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
@@ -1878,7 +2185,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"]
                 ],
                 providers: [],
-                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]]
+                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_11__["AppComponent"]]
             }]
     }], null, null); })();
 

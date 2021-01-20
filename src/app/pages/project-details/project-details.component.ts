@@ -27,7 +27,6 @@ export class ProjectDetailsComponent implements OnInit {
 
   getProjectByID(ID) {
     this.project = this.projects.filter(project => project.id == ID)[0];
-    console.log('this.project', this.project)
     this.images = this.project.images ? this.project.images.map((imageUrl, index) => new Image(index, {
       img: imageUrl
     })) : [];

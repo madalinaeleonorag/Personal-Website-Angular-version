@@ -17,6 +17,13 @@ export const PROJECTS = [
       - Technical page;<br>
       - Portfolio page.
       `,
+        images: [
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/tribute-project/tribute-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/form-project/form-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/landing-project/landing-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/technical-project/technical-design.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/portfolio-project/portfolio-design.png'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/landing-project/landing-design.png'
     },
     {
@@ -27,6 +34,34 @@ export const PROJECTS = [
         type: 'Personal project',
         technologies: ['Photoshop', 'Lightroom', 'Photography'],
         live: 'https://500px.com/p/madalinaeleonorag',
+        images: [
+            'https://drscdn.500px.org/photo/274677301/q%3D80_m%3D2000/v2?sig=b8e9003effc3cd14c6bb5b6bfac2ec2faf6eef99afc0ea4e3ca98dea3b221d0c',
+            'https://drscdn.500px.org/photo/1001821941/q%3D80_m%3D2000_k%3D1/v2?sig=ecf84c046abbab098e1c14ea76050cc9e8b058fb11e5dc2853ff59601c83f087',
+            'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc',
+            'https://drscdn.500px.org/photo/1008740520/q%3D80_m%3D2000_k%3D1/v2?sig=4f20290e2e59325e77b9371f77e10025cbe88e7336dff24ab460f8465e9c8153',
+            'https://drscdn.500px.org/photo/1021798234/q%3D80_m%3D2000/v2?sig=85d4ebbe48dabd022aa0312a6b932419ef1d54a854ebc8fcd676ecfc8bf6ded3',
+            'https://drscdn.500px.org/photo/274148531/q%3D80_m%3D2000/v2?sig=83745aad0239a79dd100a7ab1c9408444ba29c15bc42bde350cd03938bf2ffbd',
+            'https://drscdn.500px.org/photo/299511073/q%3D80_m%3D2000_k%3D1/v2?sig=2e17140df120e4574c6d94783628d7695c15e3a3358704975c056e3f0fa835f3',
+            'https://drscdn.500px.org/photo/1021798163/q%3D80_m%3D2000/v2?sig=7aa5def0276ffcfd8cda41d0a759208038bf82643ba02ea36add46f9b7e9bd39',
+            'https://drscdn.500px.org/photo/274677625/q%3D80_m%3D2000/v2?sig=2befa1252f7a6ac7c7065613b39d0e784a903a24e6e778622996f662b25b7751',
+            'https://drscdn.500px.org/photo/1021800163/q%3D80_m%3D2000/v2?sig=d1b561de063576562ab601833f4886852e0279ccbb67d285246b2dd073b7afba',
+            'https://drscdn.500px.org/photo/1024923058/q%3D80_m%3D1000/v2?sig=f341fda9ae4362c5620bce921629091a13ac2cb040ff1503bfa964eaa0a0bfee',
+            'https://drscdn.500px.org/photo/274675807/q%3D80_m%3D2000/v2?sig=8427bc6fe43f49b86a3a8f610f5c72697d7299ea829f8af251ceaa6a5340e4d4',
+            'https://drscdn.500px.org/photo/274675811/q%3D80_m%3D2000/v2?sig=ebf1bf3f890aad8a9ca86a5b19a10408372d52190a4c789ee87ddd6189f7a057',
+            'https://drscdn.500px.org/photo/274673693/q%3D80_m%3D2000/v2?sig=8ca6a504a9b659352523386d6b165d110ff3fc53618fd56f7dc6b136683c7e1d',
+            'https://drscdn.500px.org/photo/274673705/q%3D80_m%3D1000/v2?sig=f59ca4d1bd0876a9090dc585ca35ccc310ed4a841873ba3f9eff50799cb179dd',
+            'https://drscdn.500px.org/photo/1023757921/q%3D80_m%3D2000/v2?sig=f5a5925fe77df77111c8c40be131f4ea7c3a581f7d7c29650d1e5d8a0fa55d0e',
+            'https://drscdn.500px.org/photo/274680129/q%3D80_m%3D2000/v2?sig=16bebb5070807146c4ce55c35b625a9130ae4d2fd8ad9c38ad468ad0535b5f19',
+            'https://drscdn.500px.org/photo/274672111/q%3D80_m%3D1000/v2?sig=b1343707dd5af615afbf03be17249d9da1a91e3d74465498880f0ce0c581858a',
+            'https://drscdn.500px.org/photo/274682401/q%3D80_m%3D2000/v2?sig=38696601dc7250502fdc487ff81aa41aae46876e9f36a0e6f82d217d4b3023c4',
+            'https://drscdn.500px.org/photo/1022942738/q%3D80_m%3D2000/v2?sig=f38cfd2804dac268136df88ae15f5746ffe069888834e7b0f799d00c9b7d109b',
+            'https://drscdn.500px.org/photo/304703171/q%3D80_m%3D1000_k%3D1/v2?sig=6f2c82b9ba98bd30c98324952214d142697bf3457574998cd42bd20e2fc4f01f',
+            'https://drscdn.500px.org/photo/274678773/q%3D80_m%3D2000/v2?sig=5ec65d579b51be9dd2330ab6c6c803bc3c91e09867cf8a22bf2e77ae94a673e1',
+            'https://drscdn.500px.org/photo/274678759/q%3D80_m%3D2000/v2?sig=50706a11686647e1a3d4dd9744b7e01d51a4c4c108a43940a37111739235c4f6',
+            'https://drscdn.500px.org/photo/274671995/q%3D80_m%3D2000/v2?sig=962089089c19531ae7cbe38385481ccc8cfdbb6a8c7d3b1e2bf8d395348425ac',
+            'https://drscdn.500px.org/photo/305513915/q%3D80_m%3D2000_k%3D1/v2?sig=74b14a7603df6baf02a857c63e20c0d775f77c2bdf8f47f1deddf2b4fbd457cd',
+            'https://drscdn.500px.org/photo/274681407/q%3D80_m%3D2000/v2?sig=e060226581eed5d6f587b4f7001f90e450cea1b9886d505ce536384d2c961252'
+        ],
         logo: 'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc'
     },
     {
@@ -38,6 +73,38 @@ export const PROJECTS = [
         type: 'Challenge',
         code: 'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge',
         description: `30 day vanilla JS coding challenge from Web Bos`,
+        images: [
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/01.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/main/screenshots/02.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/03.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/04-1.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/05.png',
+            'https://raw.githubusercontent.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/main/screenshots/06.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/07.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/08-update.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/09.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/10.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/11.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/12.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/13.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/14.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/15.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/16.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/17.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/18.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/19.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/20.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/21.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/22.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/23.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/24.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/25.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/26.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/27.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/28.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/29.png',
+            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/30.png'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/24days-of-JavaScriptmas-by-Scrimba/master/screenshots/24.jpg'
     },
     {
@@ -66,6 +133,20 @@ export const PROJECTS = [
       8. User can take courses in order to develop their e-learning skills<br>
       9. Users cand take tests in order to verify their knowledges from different categories
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/1.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/2.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/3.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/4.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/5.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/6.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/7.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/8.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/9.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/10.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/11.png?raw=true',
+            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/12.png?raw=true'
+        ],
         logo: 'assets/projects/3.png'
     },
     {
@@ -87,6 +168,11 @@ export const PROJECTS = [
       - Filter tasks by priority or due date;<br>
       - Data saved through local storage.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/Todo/raw/master/src/assets/1.png?raw=true',
+            'https://github.com/madalinaeleonorag/Todo/raw/master/src/assets/2.png?raw=true',
+            'https://github.com/madalinaeleonorag/Todo/raw/master/src/assets/3.png?raw=true'
+        ],
         logo: 'assets/projects/4.png'
     },
     {
@@ -102,6 +188,22 @@ export const PROJECTS = [
       In this application you can search for your best option through hundred of updated universities around the world. Users can grade and add a comment to institutions so others can see if it fits for them. Only verified ratings, using Microsoft Text Analysis will be displayed. After creating an account, the user can activate it to claim a university and add verified informations about it. The user needs to provide full informations and will be contacted by administrators in order to securely activate the account. The information accuracy depends on institution representant.<br>
       This project was created using Angular CLI version 8.3.2 with TypeScript, Angular Material, Microsoft Text Analytics, Google Maps API, Google Charts and RxJs. For database used to store the data is Firebase Firestore.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/homepage.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/login.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/search.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/university.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/faculty.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/course.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/user-details.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/university-edit.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/faculty-edit.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/barcharts.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/piecharts.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/raports.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/requests.png',
+            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/database.png'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/UniversityRating/master/src/assets/presentation/homepage.png'
     },
     {
@@ -118,24 +220,15 @@ export const PROJECTS = [
       This project was created using React.js, axios, Redux and Sass.<br>
       For database used to store the data is Firebase Realtime Database.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/homepage.png',
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/exams-grid.png',
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/archive.png',
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/add-exam.png',
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/edit-exam.png',
+            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/edit-remove-exam.png'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/ExamsSchedule/master/src/assets/homepage.png'
-    },
-    {
-        id: 7,
-        name: 'Scientific Session of the University',
-        startDate: 'Aug 2015',
-        endDate: 'Dec 2019',
-        technologies: ['PL/SQL'],
-        type: 'Reserch',
-        description: `
-      - Water, limited resource - case study;<br>
-      - The Swiss banking system - macroeconomic study;<br>
-      - US Management VS Japanese Management;<br>
-      - Digital Marketing;<br>
-      - Transportation optimisation in PL/SQL;<br>
-      - Providing security for client-server applications.
-      `,
-        logo: 'https://lh3.googleusercontent.com/proxy/z2qNGd_35uQmqGf3Ed2ihgLRIkNRRCnaPklOpv3CSgGyAlJ_wR3pb0bYpfA_AE02TAaPh2S4m7y7IqfAdQYRfmZ9Q7Dfm7GOH9P9BI0W0Wi84EGqLn35fUFo-ErpoiP3F4kpgfJASetROWYw68imCOAQu_Ky13lDBtSogMhLOA'
     },
     {
         id: 8,
@@ -146,6 +239,14 @@ export const PROJECTS = [
         type: 'Personal project',
         live: 'https://www.johnnypizza.ro/',
         description: `Is a site created in Wordpress, the result of a faculty project and currently used as the official site of Johhny'z restaurants.`,
+        images: [
+            'assets/projects/8-1.png',
+            'assets/projects/8-2.png',
+            'assets/projects/8-3.png',
+            'assets/projects/8-4.png',
+            'assets/projects/8-5.png',
+            'assets/projects/8-6.png'
+        ],
         logo: 'assets/projects/8.png'
     },
     {
@@ -167,6 +268,14 @@ export const PROJECTS = [
       - Keep track on how many courses did you finish;<br>
       - Collect points from every test you take.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/login%20.png?raw=true',
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/signup.png?raw=true',
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/hp2.png?raw=true',
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/theory.png?raw=true',
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/quiz.png?raw=true',
+            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/results.png?raw=true'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/TeachMe/master/src/assets/hp2.png'
     },
     {
@@ -186,6 +295,17 @@ export const PROJECTS = [
       - Both types of users cand see a list of their requests and status;<br>
       - Informations are saved through Firebase.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/hp.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/login.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/signup.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/profile.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test1.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test2.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test3.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test4.png?raw=true',
+            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/table.png?raw=true'
+        ],
         logo: 'assets/projects/10.png'
     },
     {
@@ -210,6 +330,13 @@ export const PROJECTS = [
       - View user's rides list: one where the user is booked as a passenger and one where the user is the driver of the car;<br>
       - View rides details.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/1.png?raw=true',
+            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/2.png?raw=true',
+            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/3.png?raw=true',
+            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/4.png?raw=true',
+            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/5.png?raw=true'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/master/src/assets/1.png'
     },
     {
@@ -232,6 +359,15 @@ export const PROJECTS = [
       - other relevant areas
       The aim of this product is to help candidates find the employer that best suits their needs and personality, using our personality test
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/hp.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/login.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/signup.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/test.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/search.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/company.png?raw=true',
+            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/profile.png?raw=true'
+        ],
         logo: 'assets/projects/12.png'
     },
     {
@@ -247,6 +383,21 @@ export const PROJECTS = [
       Integrated application for tracking weather and traffic conditions, using AccuWeather, Google Maps and Google Charts APIs.<br>
       This project was created using Vue.js CLI version 2.5.2 with Vuetify, Google Maps API, Google Charts, VUEX and Router. For database used to store the data is Firebase Realtime Database.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/homepage.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/signup.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/collaborations.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/contact.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/tutorial.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/user-profile.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/travel-history.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/map.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/admin-account.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/messages.jpg',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/statistics.png',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/search.png',
+            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/database.jpg'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Waffic/master/src/assets/Presentation/map.jpg'
     },
     {
@@ -272,6 +423,14 @@ export const PROJECTS = [
       - Attend event;<br>
       - Data saved through Firebase Database.
       `,
+        images: [
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/1.png?raw=true',
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/2.png?raw=true',
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/3.png?raw=true',
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/4.png?raw=true',
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/5.png?raw=true',
+            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/6.png?raw=true'
+        ],
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Events-Attendances/master/src/assets/1.png'
     },
     {
@@ -281,7 +440,84 @@ export const PROJECTS = [
         technologies: ['C#', 'Visual Studio'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Backpropagation',
-        description: `Backpropagation program using C#`,
+        description: `Backpropagation program using C#
+        <br><br>
+        Last 2 instructions:<br><br>
+        
+        --------------Instruire: 98
+           <br> Se utilizeaza exemplul 1
+           <br>
+           <br>
+           <br> δ5 = -0.0298615276428424
+           <br>
+           <br> Determinam corectia
+           <br> Delta w35 = -0.0018772072410127
+           <br> Delta w45 = -0.00259208055658181
+           <br> Delta Teta  5 = 0.00298615276428424
+           <br>
+           <br> Prin calculul gradientului erorii se determina:
+           <br> δ3 = 0.010892788230975
+           <br> δ4 = -0.001879541855416
+           <br>
+           <br> Calculam apoi corectiile ponderilor si obtinem:
+           <br> Delta w13 = 0
+           <br> Delta w23 = 0
+           <br> Delta Teta 3 = -0.0010892788230975
+           <br> Delta w14 = 0
+           <br> Delta w24 = 0
+           <br> Delta Teta 4 = 0.0001879541855416
+           <br>
+           <br> Ajustam toate ponderile si nivelurile pragurilor din retea (biasurile):
+           <br> w13 = 0.608353543465978
+           <br> w14 = 0.870265059825897
+           <br> w23 = 0.507687716489308
+           <br> w24 = 0.970573683236741
+           <br> w35 = -1.56440823158843
+           <br> w45 = 0.546872524323644
+           <br> Teta 2 = 0.588576403627556
+           <br> Teta 3 = -0.042655277882563
+           <br> Teta 4 = 0.932964811489868
+           <br> ----Eroare: 0.00101389634619537
+           <br>
+           <br> Oc,3 = 0.62889163611443
+           <br> Oc,4 = 0.868011941669101
+           <br> Oc,5 = 0.191217859528008
+           <br> Eroare neuron 5, e5 = -0.191217859528008
+           <br>
+           <br> --------------Instruire: 99
+           <br> Se utilizeaza exemplul 2
+           <br>
+           <br> δ5 = -0.0295725283956396
+           <br>
+           <br> Determinam corectia
+           <br> Delta w35 = -0.00185979157667742
+           <br> Delta w45 = -0.00256693077927637
+           <br> Delta Teta  5 = 0.00295725283956396
+           <br>
+           <br> Prin calculul gradientului erorii se determina:
+           <br> δ3 = 0.010797298581675
+           <br> δ4 = -0.00185282713260552
+           <br>
+           <br> Calculam apoi corectiile ponderilor si obtinem:
+           <br> Delta w13 = 0.0010797298581675
+           <br> Delta w23 = 0
+           <br> Delta Teta 3 = -0.0010797298581675
+           <br> Delta w14 = -0.000185282713260552
+           <br> Delta w24 = 0
+           <br> Delta Teta 4 = 0.000185282713260552
+           <br>
+           <br> Ajustam toate ponderile si nivelurile pragurilor din retea (biasurile):
+           <br> w13 = 0.609433273324146
+           <br> w14 = 0.870079777112637
+           <br> w23 = 0.507687716489308
+           <br> w24 = 0.970573683236741
+           <br> w35 = -1.56626802316511
+           <br> w45 = 0.544305593544368
+           <br> Teta 2 = 0.587496673769388
+           <br> Teta 3 = -0.0424699951693025
+           <br> Teta 4 = 0.935922064329432
+           <br> ----Eroare: 0.000994549060756069
+        `,
         logo: 'https://victorzhou.com/media/nn-series/network.svg'
     },
     {
@@ -291,7 +527,37 @@ export const PROJECTS = [
         technologies: ['C#', 'Visual Studio'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Sudoku_Backtracking',
-        description: `Sudoku program made using C# backtracking`,
+        description: `Sudoku program made using C# backtracking
+        <br><br>
+        Initial value of sudoku
+        <br>
+        <br> int[, ] board = { 
+        <br>     { 3, 0, 6, 5, 0, 8, 4, 0, 0 },
+        <br>     { 5, 2, 0, 0, 0, 0, 0, 0, 0 },
+        <br>     { 0, 8, 7, 0, 0, 0, 0, 3, 1 },
+        <br>     { 0, 0, 3, 0, 1, 0, 0, 8, 0 },
+        <br>     { 9, 0, 0, 8, 6, 3, 0, 0, 5 },
+        <br>     { 0, 5, 0, 0, 9, 0, 6, 0, 0 },
+        <br>     { 1, 3, 0, 0, 0, 0, 2, 5, 0 },
+        <br>     { 0, 0, 0, 0, 0, 0, 0, 7, 4 },
+        <br>     { 0, 0, 5, 2, 0, 6, 3, 0, 0 }
+        <br> };
+        <br><br> Solution after 770 iterations:
+        <br>
+        <br> ------------------- 
+        <br> | 316 | 578 | 492 | 
+        <br> | 529 | 134 | 768 | 
+        <br> | 487 | 629 | 531 | 
+        <br> ------------------- 
+        <br> | 263 | 415 | 987 | 
+        <br> | 974 | 863 | 125 | 
+        <br> | 851 | 792 | 643 | 
+        <br> ------------------- 
+        <br> | 138 | 947 | 256 | 
+        <br> | 692 | 351 | 874 | 
+        <br> | 745 | 286 | 319 | 
+        <br> ------------------- `,
+        images: ['assets/projects/16.png'],
         logo: 'assets/projects/16.png'
     }
 ]
@@ -328,6 +594,7 @@ export const SKILLS: {} = {
 
 export const CERTIFICATIONS = [
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'IBM Mentor',
         organization: 'IBM',
@@ -335,6 +602,7 @@ export const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/841adfea-65df-4a8e-bbe1-267d70cb6a21'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'JavaScript Front End Development',
         organization: 'IBM',
@@ -342,6 +610,7 @@ export const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/b6792b26-e919-4de1-bc24-d4192439aa50'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C560BAQH0VNXBrdkklA/company-logo_200_200/0/1593711193383?e=1619049600&v=beta&t=lrBAcOWGtkwOM3MtvBw55FRiEHzMyNwaaeJycjzvC7k',
         name: 'Web Design for Web Developers: Build Beautiful Websites!',
         organization: 'Udemy',
@@ -349,6 +618,7 @@ export const CERTIFICATIONS = [
         url: 'https://udemy-certificate.s3.amazonaws.com/image/UC-4b147be3-753e-47b3-bd44-df452ffc3018.jpg?v=1601294558000'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0iRUqSJueUw/company-logo_200_200/0/1519902704390?e=1619049600&v=beta&t=AmcNPqTADleh6FV8bDZ1yJhJb7QcwaEoZha72rhz4TY',
         name: 'ES SET English Certificate',
         organization: 'EF Standard English Test (EF SET)',
@@ -356,6 +626,7 @@ export const CERTIFICATIONS = [
         url: 'https://www.efset.org/cert/V3b9C2'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'Enterprise Design Thinking Practitioner',
         organization: 'IBM',
@@ -363,6 +634,7 @@ export const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/f28084ab-7407-4d30-8f84-e612adc40402'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'IBM Agile Explorer',
         organization: 'IBM',
@@ -370,6 +642,7 @@ export const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/8ed472e8-38c5-42c0-aee7-c1993e9f737f'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
         name: 'Insurance Industry Foundations',
         organization: 'IBM',
@@ -377,18 +650,21 @@ export const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/073a4a5e-b2f0-4165-8684-c6a427a005b3'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQGxoHjf6gCmyQ/company-logo_200_200/0/1601991684673?e=1619049600&v=beta&t=ZDc7BD5euDuuUZaJHgPgoZxpUvn_Sh49rmRau3-pGbw',
         name: '"Live for the story" Canon Summer school',
         organization: 'Canon',
         issueDate: 'Jul 2018'
     },
     {
+        images: [],
         logo: 'https://ecdl.ro/uploads/files/ECDL_SHORT_LOGO_WITH_REGISTRATION_RGB.jpg',
         name: 'ECDL Complete',
         organization: 'ECDL Romania',
         issueDate: 'May 2015'
     },
     {
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_200_200/0/1519856215226?e=1619049600&v=beta&t=wqGS0p4XpSRfUOSwlJ1_GDzkLcGNhFrMFdkps_mlOHc',
         name: 'Google Digital Garage',
         organization: 'Google'
@@ -399,6 +675,7 @@ export const COURSES = [
     {
         name: 'DevAcademy Front End Track',
         organization: 'DevAcademy',
+        images: [],
         logo: '',
         startYear: 'Jun 2018',
         endYear: 'Dec 2018',
@@ -426,6 +703,7 @@ export const EDUCATION = [
         startYear: '2018',
         endYear: '2020',
         grade: '9.66',
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
         activities: 'Participation in scientific communication session with transportation optimisation in pl/sql and an article regarding security for client-server applications',
         description: 'I\'ve assimilated informations about IOT, mobile applications development, web technologies, AI, GDPR, PL/SQL, BigData, project management, WordPress, security of computer networks and E-Commerce. Those knowledges are proved by the projects worked for the graduation of the course.'
@@ -437,6 +715,7 @@ export const EDUCATION = [
         startYear: '2015',
         endYear: '2018',
         grade: '9.50',
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
         activities: 'Participation in scientific communication session with micro and macro economy, management and digital marketing',
         description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP.'
@@ -448,6 +727,7 @@ export const EDUCATION = [
         startYear: '2011',
         endYear: '2015',
         grade: '',
+        images: [],
         logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
         activities: '',
         description: 'Acquiring logical and organizational thinking.'
@@ -461,6 +741,7 @@ export const VOLUNTEER = [
         description: 'Theater project with the stage of frequent social situations for finding solutions',
         role: 'Role Player',
         organization: 'ArtFusion',
+        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0R_odMk40zQ/company-logo_200_200/0/1583400910416?e=1619049600&v=beta&t=FrnDEuYXI-gv_NLAZr7e2xMe2vrazFjnUsY0HhPQu2Y'
     }
 ];
@@ -501,6 +782,7 @@ export const PUBLICATIONS = [
         date: 'Jan 2021',
         description: '',
         url: 'https://madalinaeleonorag.medium.com/how-i-personalized-my-github-overview-7144fd15d1e1',
+        images: [],
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
         organization: 'Medium'
     },
@@ -509,6 +791,7 @@ export const PUBLICATIONS = [
         date: 'Dec 2020',
         description: '',
         url: 'https://madalinaeleonorag.medium.com/my-javascriptmas-journey-69a29ea5845a',
+        images: [],
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
         organization: 'Medium'
     },
@@ -517,6 +800,7 @@ export const PUBLICATIONS = [
         date: '2019',
         description: '',
         url: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
+        images: [],
         logo: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
         organization: 'Research Focus'
     },
@@ -525,6 +809,7 @@ export const PUBLICATIONS = [
         date: 'Jan 11, 2013',
         description: 'Publishing poems in high school magazine',
         url: '',
+        images: [],
         logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
         organization: 'Liceul Teoretic Nichita Stanescu'
     }

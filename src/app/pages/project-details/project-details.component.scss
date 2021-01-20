@@ -82,6 +82,9 @@ app-project-details {
 
     .image {
       margin: 5px !important;
+      height: 200px !important;
+      width: auto !important;
+      box-shadow: 0 0 10px -3px $lightgray;
     }
   }
 }
