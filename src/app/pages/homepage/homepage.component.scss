@@ -1,0 +1,51 @@
+@import "../../variables.scss";
+
+app-homepage {
+  .logo {
+    text-align-last: center;
+    margin: 20px;
+
+    img {
+      width: auto;
+      height: 25vh;
+    }
+  }
+
+  .description-homepage {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 20px 50px;
+  }
+
+  .carousel {
+    height: 50% !important;
+    margin: 30px;
+    width: auto;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 20px;
+  }
+
+  .see-more {
+    text-align-last: end;
+    margin: 20px;
+
+    a {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  .projects {
+    display: flex;
+    margin: 10px;
+  }
+
+  hr {
+    margin: 20px;
+  }
+}

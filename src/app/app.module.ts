@@ -7,6 +7,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
+import { MatSelectModule } from '@angular/material/select';
 
 // Modal galery imports
 import 'hammerjs';
@@ -34,6 +35,8 @@ import { PublicationsComponent } from './components/publications/publications.co
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
@@ -66,13 +69,17 @@ import { ProjectDetailsComponent } from './pages/project-details/project-details
     MatChipsModule,
     MatTabsModule,
     MatCardModule,
-    GalleryModule.forRoot()
+    ReactiveFormsModule,
+    MatSelectModule,
+    GalleryModule.forRoot(),
+    IvyCarouselModule
   ],
   exports: [
     MatProgressBarModule,
     MatExpansionModule,
     MatChipsModule,
     MatCardModule,
+    MatSelectModule,
     MatTabsModule
   ],
   providers: [],

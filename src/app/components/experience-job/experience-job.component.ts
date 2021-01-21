@@ -9,6 +9,7 @@ import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 export class ExperienceJobComponent implements OnInit {
 
   @Input() job;
+  @Input() parentPage: string;
 
   constructor() { }
 

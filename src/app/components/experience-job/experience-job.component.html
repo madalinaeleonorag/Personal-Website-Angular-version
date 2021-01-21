@@ -10,4 +10,4 @@
     </mat-chip-list>
   </div>
 </div>
-<div class="description" [innerHTML]="job.description"></div>
+<div class="description" [innerHTML]="job.description" *ngIf="parentPage !== 'homepage'"></div>

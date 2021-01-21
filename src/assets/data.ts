@@ -231,6 +231,25 @@ export const PROJECTS = [
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/ExamsSchedule/master/src/assets/homepage.png'
     },
     {
+        id: 7,
+        name: 'Graphic Design',
+        startDate: 'June 2015',
+        endDate: 'Present',
+        technologies: ['Photoshop'],
+        type: 'Personal project',
+        description: `
+            Providing logos for different clients and pro bono`,
+        images: [
+            'assets/projects/7-1.png',
+            'assets/projects/7-2.png',
+            'assets/projects/7-3.png',
+            'assets/projects/7-4.png',
+            'assets/projects/7-5.png',
+            'assets/projects/7-6.png'
+        ],
+        logo: 'assets/projects/7-2.png'
+    },
+    {
         id: 8,
         name: 'Johnny\'z website',
         startDate: 'May 2019',

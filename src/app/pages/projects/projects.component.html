@@ -1,4 +1,31 @@
-<app-project-card
-  [project]="item"
-  *ngFor="let item of projects"
-></app-project-card>
+<div class="filters">
+  <input
+  matInput
+  placeholder="Search for a project"
+  [formControl]="keywordsSearch"
+/>
+
+<mat-select [formControl]="typesSearch">
+  <mat-select-trigger>{{typesSearch.value}}</mat-select-trigger>
+  <mat-option value="All types">All types of projects</mat-option>
+  <mat-option *ngFor="let type of types" [value]="type">
+    {{ type }}
+  </mat-option>
+</mat-select>
+
+<mat-select [formControl]="technologySearch">
+  <mat-select-trigger>{{technologySearch}}</mat-select-trigger>
+  <mat-option value="All technologies">All types of projects</mat-option>
+  <mat-option *ngFor="let technology of technologies" [value]="technology">
+    {{ technology }}
+  </mat-option>
+</mat-select>
+
+</div>
+
+<div class="projects-cards">
+  <app-project-card
+    [project]="item"
+    *ngFor="let item of getFilteredData()"
+  ></app-project-card>
+</div>

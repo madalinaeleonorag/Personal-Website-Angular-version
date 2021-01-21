@@ -1,2 +1,58 @@
-<p>I am an application developer, passionate about digital graphics and photography, eager to learn and evolve in the Front-End field. During the last years, i focused both on my technical and soft skills, working with people around the globe, and learning how to deliver their expectations. </p>
+<div class="logo">
+  <img src="assets/LOGO-black.png" />
+</div>
+<div class="description-homepage">
+  I am an application developer open for collaborations, passionate about
+  digital graphics and photography, eager to learn and evolve in the Front-End
+  field. During the last years, i focused both on my technical and soft skills,
+  working with people around the globe, and learning how to deliver their
+  expectations.
+</div>
+<carousel [images]="images" [cellsToShow]="3" [borderRadius]="4"> </carousel>
+<div class="title">Last job experience</div>
+<app-experience-job
+  [job]="experience"
+  parentPage="homepage"
+></app-experience-job>
+<div class="see-more">
+  <a (click)="goToPage('/experience')">&#60;/See more job experiences&#62;</a>
+</div>
+<hr />
+<div class="title">Last education</div>
+<app-education-level [education]="education"></app-education-level>
+<div class="see-more">
+  <a (click)="goToPage('/experience')">&#60;/See more education levels&#62;</a>
+</div>
+<hr />
+<div class="title">Last projects</div>
+<div class="projects">
+  <app-project-card
+    [project]="project"
+    *ngFor="let project of projects"
+  ></app-project-card>
+</div>
+<div class="see-more">
+  <a (click)="goToPage('/projects')">&#60;/See more projects&#62;</a>
+</div>
+<hr />
+<div class="title">Last award</div>
+<app-awards [award]="awards"></app-awards>
+<div class="see-more">
+  <a (click)="goToPage('/experience')">&#60;/See more awards&#62;</a>
+</div>
+<hr />
+<div class="title">Last certifications</div>
+<app-certification
+  [certificate]="certif"
+  *ngFor="let certif of certifications"
+></app-certification>
+<div class="see-more">
+  <a (click)="goToPage('/skills')">&#60;/See more certifications&#62;</a>
+</div>
+<hr />
+<div class="title">Last publication</div>
+<app-publications [publication]="publication"></app-publications>
+<div class="see-more">
+  <a (click)="goToPage('/experience')">&#60;/See more publications&#62;</a>
+</div>
 <app-footer></app-footer>

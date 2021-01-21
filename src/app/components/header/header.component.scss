@@ -12,6 +12,12 @@ app-header {
     flex-flow: row;
     display: flex;
 
+    .logo {
+      width: auto;
+      height: 25px;
+      cursor: pointer;
+    }
+
     div {
       margin: 0 10px;
       text-decoration: none;
@@ -26,8 +32,6 @@ app-header {
     .selected-page {
       border-bottom: 2px solid $bordo;
     }
-    
-
   }
 
   a {
