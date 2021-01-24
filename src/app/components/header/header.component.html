@@ -1,5 +1,7 @@
 <div class="links">
-  <img src="assets/LOGO-white.png" class="logo" (click)="goToPage('/')" />
+  <div class="title" (click)="goToPage('/')">
+    <span>Madalina</span>Eleonora
+  </div>
   <div
     (click)="goToPage('/')"
     [ngClass]="{ 'selected-page': isPageSelected('/') }"
@@ -33,9 +35,9 @@
 </div>
 <div class="social-icons-wrapper">
   <a target="_blank" href="https://madalinaeleonorag.medium.com/"
-    ><img class="social-icon" src="./../../../assets/social-icons/medium.png"
+    ><img class="social-icon" src="assets/social-icons/medium.png"
   /></a>
   <a target="_blank" href="https://github.com/madalinaeleonorag"
-    ><img class="social-icon" src="./../../../assets/social-icons/github.png"
+    ><img class="social-icon" src="assets/social-icons/github.png"
   /></a>
 </div>

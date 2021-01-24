@@ -1,29 +1,9 @@
 @import "../../variables.scss";
 
 app-projects {
-  display:flex;
+  display: flex;
   flex-flow: column;
   justify-content: center;
-
-  .filters {
-    display: flex;
-    flex-flow: wrap;
-    margin: 30px;
-
-    input {
-      border: 1px solid $bordo;
-      background-color: $white;
-      color: $bordo;
-      padding: 6px;
-      margin: 2px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    input:focus {
-      outline: none;
-    }
-  }
 
   .projects-cards {
     display: flex;
