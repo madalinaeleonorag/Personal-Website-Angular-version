@@ -8,15 +8,15 @@ export const PROJECTS = [
         type: 'Course',
         code: 'https://github.com/madalinaeleonorag/FreeCodeCamp.com-Projects',
         description: `
-      Projects made by following the courses from FreeCodeCamp.com<br><br>
-      This includes:<br>
-      1. Responsive Web Design Certification Projects<br>
-      - Tribute page;<br>
-      - Form page;<br>
-      - Landing page;<br>
-      - Technical page;<br>
-      - Portfolio page.
-      `,
+            Projects made by following the courses from FreeCodeCamp.com<br><br>
+            This includes:<br>
+            1. Responsive Web Design Certification Projects<br>
+            - Tribute page;<br>
+            - Form page;<br>
+            - Landing page;<br>
+            - Technical page;<br>
+            - Portfolio page.
+        `,
         images: [
             'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/tribute-project/tribute-design.png',
             'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/form-project/form-design.png',
@@ -613,23 +613,27 @@ export const SKILLS: {} = {
 
 export const CERTIFICATIONS = [
     {
-        images: [],
-        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
+        logo: 'https://images.youracclaim.com/size/680x680/images/53608ce6-a597-40fa-a42d-d243b3ecfba4/Watson_and_Cloud_Foundations.png',
+        name: 'Watson and Cloud Foundations',
+        organization: 'IBM',
+        issueDate: 'Jan 2021',
+        url: 'https://www.youracclaim.com/badges/11c2db76-b461-4bf9-8a12-9a42663d404f?source=linked_in_profile'
+    },
+    {
+        logo: 'https://images.youracclaim.com/size/680x680/images/cef56b02-49c4-43c8-9913-733569bd39cc/IBM-Mentor__282_29.png',
         name: 'IBM Mentor',
         organization: 'IBM',
         issueDate: 'Dec 2020',
         url: 'https://www.youracclaim.com/badges/841adfea-65df-4a8e-bbe1-267d70cb6a21'
     },
     {
-        images: [],
-        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
+        logo: 'https://images.youracclaim.com/size/680x680/images/9f990990-c8bc-4c9a-8ceb-fb8dd68f8bea/front_end_dev.png',
         name: 'JavaScript Front End Development',
         organization: 'IBM',
         issueDate: 'Dec 2020',
         url: 'https://www.youracclaim.com/badges/b6792b26-e919-4de1-bc24-d4192439aa50'
     },
     {
-        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C560BAQH0VNXBrdkklA/company-logo_200_200/0/1593711193383?e=1619049600&v=beta&t=lrBAcOWGtkwOM3MtvBw55FRiEHzMyNwaaeJycjzvC7k',
         name: 'Web Design for Web Developers: Build Beautiful Websites!',
         organization: 'Udemy',
@@ -637,7 +641,6 @@ export const CERTIFICATIONS = [
         url: 'https://udemy-certificate.s3.amazonaws.com/image/UC-4b147be3-753e-47b3-bd44-df452ffc3018.jpg?v=1601294558000'
     },
     {
-        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0iRUqSJueUw/company-logo_200_200/0/1519902704390?e=1619049600&v=beta&t=AmcNPqTADleh6FV8bDZ1yJhJb7QcwaEoZha72rhz4TY',
         name: 'ES SET English Certificate',
         organization: 'EF Standard English Test (EF SET)',
@@ -645,45 +648,39 @@ export const CERTIFICATIONS = [
         url: 'https://www.efset.org/cert/V3b9C2'
     },
     {
-        images: [],
-        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
+        logo: 'https://images.youracclaim.com/size/680x680/images/bc08972c-3c7d-4b99-82a0-c94bcca36674/Badges_v8-07_Practitioner.png',
         name: 'Enterprise Design Thinking Practitioner',
         organization: 'IBM',
         issueDate: 'Mar 2020',
         url: 'https://www.youracclaim.com/badges/f28084ab-7407-4d30-8f84-e612adc40402'
     },
     {
-        images: [],
-        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
+        logo: 'https://images.youracclaim.com/size/680x680/images/a972f054-be07-4845-85c7-95c8d11852f5/IBM-Agile-Explorer.png',
         name: 'IBM Agile Explorer',
         organization: 'IBM',
         issueDate: 'Mar 2020',
         url: 'https://www.youracclaim.com/badges/8ed472e8-38c5-42c0-aee7-c1993e9f737f'
     },
     {
-        images: [],
-        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619049600&v=beta&t=Ai-TmZlun2w7Ti6I-MztBaw97qRqfUV4Di-_Y6m2qq8',
+        logo: 'https://images.youracclaim.com/size/680x680/images/faaa312a-4ea2-4094-8287-f34671cdac55/Insurance-Industry-Jumpstart.png',
         name: 'Insurance Industry Foundations',
         organization: 'IBM',
         issueDate: 'Oct 2019',
         url: 'https://www.youracclaim.com/badges/073a4a5e-b2f0-4165-8684-c6a427a005b3'
     },
     {
-        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQGxoHjf6gCmyQ/company-logo_200_200/0/1601991684673?e=1619049600&v=beta&t=ZDc7BD5euDuuUZaJHgPgoZxpUvn_Sh49rmRau3-pGbw',
         name: '"Live for the story" Canon Summer school',
         organization: 'Canon',
         issueDate: 'Jul 2018'
     },
     {
-        images: [],
         logo: 'https://ecdl.ro/uploads/files/ECDL_SHORT_LOGO_WITH_REGISTRATION_RGB.jpg',
         name: 'ECDL Complete',
         organization: 'ECDL Romania',
         issueDate: 'May 2015'
     },
     {
-        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_200_200/0/1519856215226?e=1619049600&v=beta&t=wqGS0p4XpSRfUOSwlJ1_GDzkLcGNhFrMFdkps_mlOHc',
         name: 'Google Digital Garage',
         organization: 'Google'
@@ -692,25 +689,37 @@ export const CERTIFICATIONS = [
 
 export const COURSES = [
     {
+        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619654400&v=beta&t=A9VFnYMjQ0PrDh-LPlZRFvr21Bg_Xp6A0qFqjq0Va9Q',
+        name: 'Artificial Intelligence Concepts',
+        organization: 'IBM',
+    },
+    {
         name: 'DevAcademy Front End Track',
-        organization: 'DevAcademy',
-        images: [],
-        logo: '',
+        organization: 'Digital Nation',
+        logo: 'https://media-exp1.licdn.com/dms/image/C560BAQH-3eg_GcQLXQ/company-logo_200_200/0/1563458292520?e=2159024400&v=beta&t=ryfw6wzxS6a6-UmIRGcTa-Q1D0WahCtot-bNSmdDB1Y',
         startYear: 'Jun 2018',
         endYear: 'Dec 2018',
         description: 'I was part of the Frontend Track learing HTML, CSS, JavaScript, Vue.js, REST, Firebase Realtime Database. All the knowledge was applied in different exercises and projects.'
     },
     {
-        name: 'Digital Marketing'
+        name: 'Digital Marketing',
+        organization: 'Google',
+        logo: 'https://www.lucabottarostudio.com/wp-content/uploads/2019/05/google_PNG19635.png'
     },
     {
-        name: 'IoT & Mobile Apps Workshop by Oracle Academy Romania'
+        name: 'IoT & Mobile Apps Workshop by Oracle Academy Romania',
+        organization: 'Oracle',
+        logo: 'https://sybyl.com/wp-content/uploads/2019/11/Oracle-Logo-For-Website.png'
     },
     {
-        name: 'New Front-End Adventures Workshop with Vitaly Friedman'
+        name: 'New Front-End Adventures Workshop with Vitaly Friedman',
+        organization: 'Hipo',
+        logo: 'https://sisc.ro/wp-content/uploads/2017/06/conf-dev-talks.jpg'
     },
     {
-        name: 'Responsive Web Design Fundamentals by Google'
+        name: 'Responsive Web Design Fundamentals by Google',
+        organization: 'Google',
+        logo: 'https://www.lucabottarostudio.com/wp-content/uploads/2019/05/google_PNG19635.png'
     }
 ]
 
@@ -722,7 +731,6 @@ export const EDUCATION = [
         startYear: '2018',
         endYear: '2020',
         grade: '9.66',
-        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
         activities: 'Participation in scientific communication session with transportation optimisation in pl/sql and an article regarding security for client-server applications',
         description: 'I\'ve assimilated informations about IOT, mobile applications development, web technologies, AI, GDPR, PL/SQL, BigData, project management, WordPress, security of computer networks and E-Commerce. Those knowledges are proved by the projects worked for the graduation of the course.'
@@ -734,7 +742,6 @@ export const EDUCATION = [
         startYear: '2015',
         endYear: '2018',
         grade: '9.50',
-        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
         activities: 'Participation in scientific communication session with micro and macro economy, management and digital marketing',
         description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP.'
@@ -746,7 +753,6 @@ export const EDUCATION = [
         startYear: '2011',
         endYear: '2015',
         grade: '',
-        images: [],
         logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
         activities: '',
         description: 'Acquiring logical and organizational thinking.'
@@ -760,7 +766,6 @@ export const VOLUNTEER = [
         description: 'Theater project with the stage of frequent social situations for finding solutions',
         role: 'Role Player',
         organization: 'ArtFusion',
-        images: [],
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0R_odMk40zQ/company-logo_200_200/0/1583400910416?e=1619049600&v=beta&t=FrnDEuYXI-gv_NLAZr7e2xMe2vrazFjnUsY0HhPQu2Y'
     }
 ];
@@ -801,7 +806,6 @@ export const PUBLICATIONS = [
         date: 'Jan 2021',
         description: '',
         url: 'https://madalinaeleonorag.medium.com/how-i-personalized-my-github-overview-7144fd15d1e1',
-        images: [],
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
         organization: 'Medium'
     },
@@ -810,7 +814,6 @@ export const PUBLICATIONS = [
         date: 'Dec 2020',
         description: '',
         url: 'https://madalinaeleonorag.medium.com/my-javascriptmas-journey-69a29ea5845a',
-        images: [],
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
         organization: 'Medium'
     },
@@ -819,7 +822,6 @@ export const PUBLICATIONS = [
         date: '2019',
         description: '',
         url: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
-        images: [],
         logo: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
         organization: 'Research Focus'
     },
@@ -828,7 +830,6 @@ export const PUBLICATIONS = [
         date: 'Jan 11, 2013',
         description: 'Publishing poems in high school magazine',
         url: '',
-        images: [],
         logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
         organization: 'Liceul Teoretic Nichita Stanescu'
     }

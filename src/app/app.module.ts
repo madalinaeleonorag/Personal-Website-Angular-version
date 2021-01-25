@@ -37,6 +37,8 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
 import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
+import { HttpClientModule } from '@angular/common/http';
+import { ContactService } from './pages/contact/contact.service';
 
 @NgModule({
   declarations: [
@@ -72,7 +74,8 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
     ReactiveFormsModule,
     MatSelectModule,
     GalleryModule.forRoot(),
-    IvyCarouselModule
+    IvyCarouselModule,
+    HttpClientModule
   ],
   exports: [
     MatProgressBarModule,
@@ -82,7 +85,11 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
     MatSelectModule,
     MatTabsModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    ContactService
+  ],
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }

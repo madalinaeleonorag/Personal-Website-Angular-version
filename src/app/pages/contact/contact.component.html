@@ -1,0 +1,11 @@
+<form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
+  <input
+    type="email"
+    name="Email"
+    placeholder="Enter email"
+    formControlName="Email"
+  />
+  <textarea formControlName="Comment" name="Comment"></textarea>
+  <button type="submit" [disabled]="!FormData.valid">Submit</button>
+</form>
+swcfdefc
