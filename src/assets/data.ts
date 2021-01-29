@@ -613,6 +613,13 @@ export const SKILLS: {} = {
 
 export const CERTIFICATIONS = [
     {
+        logo: 'https://images.youracclaim.com/size/680x680/images/58e2cad5-5551-44a6-8285-06d6a4aa9cb3/IBM_Cloud_Essentials.png',
+        name: 'IBM Cloud Essentials',
+        organization: 'IBM',
+        issueDate: 'Jan 2021',
+        url: 'https://www.youracclaim.com/badges/26b0884f-9c3a-42f1-be74-6b23c4f6a743'
+    },
+    {
         logo: 'https://images.youracclaim.com/size/680x680/images/c1ca6570-bdc6-40e9-8992-722050788418/Security-_-Privacy-by-Design-Foundational.png',
         name: 'Security and Privacy by Design Foundations',
         organization: 'IBM',
