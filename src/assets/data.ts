@@ -612,6 +612,13 @@ export const SKILLS: {} = {
 };
 
 export const CERTIFICATIONS = [
+     {
+        logo: 'https://images.youracclaim.com/size/680x680/images/88bef918-2e93-4e68-8782-60f706db53f4/IBM_Quantum_Conversations.png',
+        name: 'IBM Quantum Conversations',
+        organization: 'IBM',
+        issueDate: 'Feb 2021',
+        url: 'https://www.youracclaim.com/badges/7e32724d-8e1b-444f-a44d-0c527fd63ca6x'
+    },
     {
         logo: 'https://images.youracclaim.com/size/680x680/images/58e2cad5-5551-44a6-8285-06d6a4aa9cb3/IBM_Cloud_Essentials.png',
         name: 'IBM Cloud Essentials',
