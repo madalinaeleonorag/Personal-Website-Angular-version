@@ -864,11 +864,32 @@ const SKILLS = {
 };
 const CERTIFICATIONS = [
     {
+        logo: 'https://images.youracclaim.com/size/680x680/images/88bef918-2e93-4e68-8782-60f706db53f4/IBM_Quantum_Conversations.png',
+        name: 'IBM Quantum Conversations',
+        organization: 'IBM',
+        issueDate: 'Feb 2021',
+        url: 'https://www.youracclaim.com/badges/7e32724d-8e1b-444f-a44d-0c527fd63ca6x'
+    },
+    {
+        logo: 'https://images.youracclaim.com/size/680x680/images/58e2cad5-5551-44a6-8285-06d6a4aa9cb3/IBM_Cloud_Essentials.png',
+        name: 'IBM Cloud Essentials',
+        organization: 'IBM',
+        issueDate: 'Jan 2021',
+        url: 'https://www.youracclaim.com/badges/26b0884f-9c3a-42f1-be74-6b23c4f6a743'
+    },
+    {
+        logo: 'https://images.youracclaim.com/size/680x680/images/c1ca6570-bdc6-40e9-8992-722050788418/Security-_-Privacy-by-Design-Foundational.png',
+        name: 'Security and Privacy by Design Foundations',
+        organization: 'IBM',
+        issueDate: 'Jan 2021',
+        url: 'https://www.youracclaim.com/badges/84998ca5-487f-4c61-b1e5-298ec991bb20'
+    },
+    {
         logo: 'https://images.youracclaim.com/size/680x680/images/53608ce6-a597-40fa-a42d-d243b3ecfba4/Watson_and_Cloud_Foundations.png',
         name: 'Watson and Cloud Foundations',
         organization: 'IBM',
         issueDate: 'Jan 2021',
-        url: 'https://www.youracclaim.com/badges/11c2db76-b461-4bf9-8a12-9a42663d404f?source=linked_in_profile'
+        url: 'https://www.youracclaim.com/badges/11c2db76-b461-4bf9-8a12-9a42663d404f'
     },
     {
         logo: 'https://images.youracclaim.com/size/680x680/images/cef56b02-49c4-43c8-9913-733569bd39cc/IBM-Mentor__282_29.png',
