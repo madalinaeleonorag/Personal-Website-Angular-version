@@ -13,7 +13,7 @@ export const PROJECTS = [
             'https://instagram.fotp3-2.fna.fbcdn.net/v/t51.2885-15/e35/119887360_378895629940050_5984901977305936709_n.jpg?_nc_ht=instagram.fotp3-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=SpI3i0xeXw0AX9-JpcC&tp=1&oh=4218f08fd4d8b0688a54ceeed01cb8dc&oe=60458BFD',
             'https://instagram.fotp3-3.fna.fbcdn.net/v/t51.2885-15/e35/119710793_170334737973184_8958561567050219_n.jpg?_nc_ht=instagram.fotp3-3.fna.fbcdn.net&_nc_cat=104&_nc_ohc=AiFdj3a8fi0AX_BKzNI&tp=1&oh=13ac120c80b7fa6b811840226518d334&oe=6047E065'
         ],
-        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/CRUD-PHP-mySQL/main/screenshots/login.png'
+        logo: 'https://instagram.fotp3-2.fna.fbcdn.net/v/t51.2885-15/e35/119887360_378895629940050_5984901977305936709_n.jpg?_nc_ht=instagram.fotp3-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=SpI3i0xeXw0AX9-JpcC&tp=1&oh=4218f08fd4d8b0688a54ceeed01cb8dc&oe=60458BFD'
     },
     {
         id: 17,
