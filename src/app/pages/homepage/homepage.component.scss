@@ -43,6 +43,7 @@ app-homepage {
   .projects {
     display: flex;
     margin: 10px;
+    overflow: auto;
   }
 
   hr {

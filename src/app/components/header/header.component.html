@@ -1,7 +1,13 @@
+<img class="menu-icon" [matMenuTriggerFor]="menu" src="assets/menu.png" />
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="goToPage('/')">Home</button>
+  <button mat-menu-item (click)="goToPage('projects')">Projects</button>
+  <button mat-menu-item (click)="goToPage('skills')">Skills</button>
+  <button mat-menu-item (click)="goToPage('experience')">Experience</button>
+  <button mat-menu-item (click)="goToPage('contact')">Contact</button>
+</mat-menu>
+<div class="title" (click)="goToPage('/')"><span>Madalina</span>Eleonora</div>
 <div class="links">
-  <div class="title" (click)="goToPage('/')">
-    <span>Madalina</span>Eleonora
-  </div>
   <div
     (click)="goToPage('/')"
     [ngClass]="{ 'selected-page': isPageSelected('/') }"

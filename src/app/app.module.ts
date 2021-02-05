@@ -39,6 +39,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactService } from './pages/contact/contact.service';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -75,7 +76,8 @@ import { ContactService } from './pages/contact/contact.service';
     MatSelectModule,
     GalleryModule.forRoot(),
     IvyCarouselModule,
-    HttpClientModule
+    HttpClientModule,
+    MatMenuModule
   ],
   exports: [
     MatProgressBarModule,
@@ -83,7 +85,8 @@ import { ContactService } from './pages/contact/contact.service';
     MatChipsModule,
     MatCardModule,
     MatSelectModule,
-    MatTabsModule
+    MatTabsModule,
+    MatMenuModule
   ],
   providers: [
     ContactService
