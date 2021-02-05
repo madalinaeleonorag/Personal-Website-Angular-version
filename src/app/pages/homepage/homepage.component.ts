@@ -22,11 +22,13 @@ export class HomepageComponent implements OnInit {
   publication: any;
   projects: any;
   certifications: any;
+  isMobileView: boolean;
 
   constructor(private router: Router) {
   }
-
+  
   ngOnInit(): void {
+    this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
     this.experience = EXPERIENCE[0];
     this.education = EDUCATION[0];
     this.awards = AWARDS[0];
