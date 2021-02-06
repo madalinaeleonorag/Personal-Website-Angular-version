@@ -1,0 +1,23 @@
+@import "../../variables.scss";
+
+app-contact {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 20px;
+
+  .text {
+    color: $gray;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+
+  .social-icons-wrapper {
+    flex-flow: wrap;
+    place-content: center;
+
+    a .social-icon {
+      height: 10vh;
+    }
+  }
+}

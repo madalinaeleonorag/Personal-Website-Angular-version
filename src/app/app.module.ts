@@ -17,7 +17,7 @@ import { GalleryModule } from '@ks89/angular-modal-gallery';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ContactComponent } from './components/contact/contact.component';
+import { ContactComponent } from './pages/contact/contact.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -38,7 +38,6 @@ import { ProjectDetailsComponent } from './pages/project-details/project-details
 import { ReactiveFormsModule } from '@angular/forms';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { HttpClientModule } from '@angular/common/http';
-import { ContactService } from './pages/contact/contact.service';
 import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
@@ -87,9 +86,6 @@ import { MatMenuModule } from '@angular/material/menu';
     MatSelectModule,
     MatTabsModule,
     MatMenuModule
-  ],
-  providers: [
-    ContactService
   ],
   bootstrap: [
     AppComponent

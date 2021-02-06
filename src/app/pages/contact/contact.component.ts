@@ -1,35 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import { ContactService } from './contact.service';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  styleUrls: ['./contact.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class ContactComponent implements OnInit {
 
-  FormData: FormGroup;
-
-  constructor(private builder: FormBuilder, private contact: ContactService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.FormData = this.builder.group({
-      Email: new FormControl('', [Validators.compose([Validators.required, Validators.email])]),
-      Comment: new FormControl('', [Validators.required])
-    })
-  }
-
-  onSubmit(FormData) {
-    console.log(FormData)
-    this.contact.PostMessage(FormData)
-      .subscribe(response => {
-        location.href = 'https://mailthis.to/confirm'
-        console.log(response)
-      }, error => {
-        console.warn(error.responseText)
-        console.log({ error })
-      })
   }
 
 }

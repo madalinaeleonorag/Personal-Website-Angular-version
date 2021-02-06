@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ContactComponent } from './components/contact/contact.component';
+import { ContactComponent } from './pages/contact/contact.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
@@ -17,7 +17,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
