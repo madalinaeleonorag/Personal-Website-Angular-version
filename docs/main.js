@@ -2157,6 +2157,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! angular-responsive-carousel */ "0L5U");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/common/http */ "IheW");
 /* harmony import */ var _angular_material_menu__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/material/menu */ "rJgo");
+/* harmony import */ var _pages_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./pages/not-found/not-found.component */ "v2M4");
 
 
 // Material imports
@@ -2167,6 +2168,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // Modal galery imports
+
 
 
 
@@ -2238,7 +2240,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_27__["PublicationsComponent"],
         _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_28__["ProjectsComponent"],
         _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_29__["ProjectCardComponent"],
-        _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_30__["ProjectDetailsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_30__["ProjectDetailsComponent"],
+        _pages_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_35__["NotFoundComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_11__["AppRoutingModule"],
         _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_13__["BrowserAnimationsModule"],
         _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
@@ -2277,7 +2280,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_27__["PublicationsComponent"],
                     _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_28__["ProjectsComponent"],
                     _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_29__["ProjectCardComponent"],
-                    _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_30__["ProjectDetailsComponent"]
+                    _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_30__["ProjectDetailsComponent"],
+                    _pages_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_35__["NotFoundComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -2888,6 +2892,57 @@ ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
 
 /***/ }),
 
+/***/ "v2M4":
+/*!********************************************************!*\
+  !*** ./src/app/pages/not-found/not-found.component.ts ***!
+  \********************************************************/
+/*! exports provided: NotFoundComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotFoundComponent", function() { return NotFoundComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "iInd");
+
+
+
+class NotFoundComponent {
+    constructor(router) {
+        this.router = router;
+    }
+    ngOnInit() {
+    }
+    goToHomepage() {
+        this.router.navigateByUrl("/");
+    }
+}
+NotFoundComponent.ɵfac = function NotFoundComponent_Factory(t) { return new (t || NotFoundComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
+NotFoundComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NotFoundComponent, selectors: [["app-not-found"]], decls: 7, vars: 0, consts: [[3, "click"]], template: function NotFoundComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "404 - Page not found");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, " You might want to go to the ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "a", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NotFoundComponent_Template_a_click_4_listener() { return ctx.goToHomepage(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Homepage");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " and try again.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL25vdC1mb3VuZC9ub3QtZm91bmQuY29tcG9uZW50LnNjc3MifQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NotFoundComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-not-found',
+                templateUrl: './not-found.component.html',
+                styleUrls: ['./not-found.component.scss']
+            }]
+    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"] }]; }, null); })();
+
+
+/***/ }),
+
 /***/ "vP9v":
 /*!*******************************************************!*\
   !*** ./src/app/components/course/course.component.ts ***!
@@ -2996,9 +3051,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/contact/contact.component */ "XEn3");
 /* harmony import */ var _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/experience/experience.component */ "mKaJ");
 /* harmony import */ var _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/homepage/homepage.component */ "ojyh");
-/* harmony import */ var _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/project-details/project-details.component */ "X1wX");
-/* harmony import */ var _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/projects/projects.component */ "u/sh");
-/* harmony import */ var _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/skills/skills.component */ "2yNh");
+/* harmony import */ var _pages_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/not-found/not-found.component */ "v2M4");
+/* harmony import */ var _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/project-details/project-details.component */ "X1wX");
+/* harmony import */ var _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/projects/projects.component */ "u/sh");
+/* harmony import */ var _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/skills/skills.component */ "2yNh");
+
 
 
 
@@ -3011,11 +3068,12 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     { path: '', component: _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_4__["HomepageComponent"] },
-    { path: 'skills', component: _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_7__["SkillsComponent"] },
+    { path: 'skills', component: _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_8__["SkillsComponent"] },
     { path: 'experience', component: _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_3__["ExperienceComponent"] },
     { path: 'contact', component: _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_2__["ContactComponent"] },
-    { path: 'projects', component: _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_6__["ProjectsComponent"] },
-    { path: 'project/:id', component: _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_5__["ProjectDetailsComponent"] }
+    { path: 'projects', component: _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"] },
+    { path: 'project/:id', component: _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_6__["ProjectDetailsComponent"] },
+    { path: '**', component: _pages_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_5__["NotFoundComponent"] }
 ];
 class AppRoutingModule {
 }

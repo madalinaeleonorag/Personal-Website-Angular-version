@@ -38,6 +38,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { HttpClientModule } from '@angular/common/http';
 import { MatMenuModule } from '@angular/material/menu';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { MatMenuModule } from '@angular/material/menu';
     PublicationsComponent,
     ProjectsComponent,
     ProjectCardComponent,
-    ProjectDetailsComponent
+    ProjectDetailsComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
