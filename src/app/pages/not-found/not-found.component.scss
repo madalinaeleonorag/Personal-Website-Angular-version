@@ -1,0 +1,11 @@
+@import "../../variables.scss";
+
+app-not-found {
+  .wrapper {
+    margin: 20px;
+
+    a {
+      cursor: pointer;
+    }
+  }
+}

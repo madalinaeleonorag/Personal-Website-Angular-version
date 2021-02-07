@@ -8,7 +8,7 @@
     </mat-card-subtitle>
       <mat-card-subtitle>
       {{ project.startDate }}
-      <span *ngIf="project.endDate">
+      <span *ngIf="project.endDate && project.startDate != project.endDate">
         - {{ project.endDate }}</span
       ></mat-card-subtitle
     >
