@@ -20,7 +20,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { ProgressBarColorsDirective } from './directives/progress-bar-colors.directive';
 import { SkillProgressBarComponent } from './components/skill-progress-bar/skill-progress-bar.component';
@@ -46,7 +45,6 @@ import { MatMenuModule } from '@angular/material/menu';
     ContactComponent,
     HomepageComponent,
     HeaderComponent,
-    FooterComponent,
     SkillsComponent,
     ProgressBarColorsDirective,
     SkillProgressBarComponent,

@@ -12,6 +12,23 @@ app-contact {
     font-weight: bold;
   }
 
+  .info-text {
+    color: $bordo;
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  .copyright {
+    color: $gray;
+    padding: 10px 0px;
+    font-size: small;
+  }
+
+  .copyright:hover {
+    color: $bordo;
+  }
+
   .social-icons-wrapper {
     flex-flow: wrap;
     place-content: center;
