@@ -1969,6 +1969,9 @@ class ProjectDetailsComponent {
             img: imageUrl
         })) : [];
     }
+    openNewTab() {
+        window.open(this.project.live);
+    }
 }
 ProjectDetailsComponent.ɵfac = function ProjectDetailsComponent_Factory(t) { return new (t || ProjectDetailsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"])); };
 ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectDetailsComponent, selectors: [["app-project-details"]], decls: 12, vars: 16, consts: [[1, "image", 3, "ngStyle"], [1, "summary"], [1, "name"], ["target", "_blank", 3, "href", 4, "ngIf"], [1, "date"], [4, "ngIf"], ["class", "technologies", 4, "ngIf"], ["class", "fill-button", 3, "click", 4, "ngIf"], [1, "description", 3, "innerHTML"], [3, "id", "modalImages", "slideConfig"], ["target", "_blank", 3, "href"], [1, "technologies"], [4, "ngFor", "ngForOf"], [1, "fill-button", 3, "click"]], template: function ProjectDetailsComponent_Template(rf, ctx) { if (rf & 1) {

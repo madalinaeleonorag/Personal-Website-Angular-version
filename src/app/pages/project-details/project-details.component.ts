@@ -32,4 +32,8 @@ export class ProjectDetailsComponent implements OnInit {
     })) : [];
   }
 
+  openNewTab() {
+    window.open(this.project.live)
+  }
+
 }
