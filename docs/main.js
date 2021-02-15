@@ -327,13 +327,14 @@ const PROJECTS = [
     },
     {
         id: 1,
-        name: 'Madalina Eleonora Graphics & Photography',
+        name: 'Madalina Eleonora Photography',
         startDate: 'Jun 2018',
         endDate: 'Present',
         type: 'Personal project',
         technologies: ['Photoshop', 'Lightroom', 'Photography'],
-        live: 'https://500px.com/p/madalinaeleonorag',
+        live: 'https://www.viewbug.com/member/madalinaeleonorag',
         images: [
+            'https://www.viewbug.com/photo/92761253/embed',
             'https://drscdn.500px.org/photo/274677301/q%3D80_m%3D2000/v2?sig=b8e9003effc3cd14c6bb5b6bfac2ec2faf6eef99afc0ea4e3ca98dea3b221d0c',
             'https://drscdn.500px.org/photo/1001821941/q%3D80_m%3D2000_k%3D1/v2?sig=ecf84c046abbab098e1c14ea76050cc9e8b058fb11e5dc2853ff59601c83f087',
             'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc',
@@ -2041,7 +2042,7 @@ class ContactComponent {
     }
 }
 ContactComponent.ɵfac = function ContactComponent_Factory(t) { return new (t || ContactComponent)(); };
-ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 27, vars: 0, consts: [[1, "info-text"], [1, "text"], ["href", "mailto:madalinaeleonora.gheorghe@gmail.com"], [1, "social-icons-wrapper"], ["target", "_blank", "href", "mailto:madalinaeleonora.gheorghe@gmail.com"], ["src", "./../../../assets/social-icons/email.png", 1, "social-icon"], ["target", "_blank", "href", "https://www.linkedin.com/in/madalinaeleonorag/"], ["src", "./../../../assets/social-icons/linkedin.png", 1, "social-icon"], ["target", "_blank", "href", "https://madalinaeleonorag.medium.com/"], ["src", "./../../../assets/social-icons/medium-black.png", 1, "social-icon"], ["target", "_blank", "href", "https://github.com/madalinaeleonorag"], ["src", "./../../../assets/social-icons/github-black.svg", 1, "social-icon"], ["target", "_blank", "href", "https://www.instagram.com/madalinaeleonorag/"], ["src", "./../../../assets/social-icons/instagram.png", 1, "social-icon"], ["target", "_blank", "href", "https://www.facebook.com/mdx.madalinaeleonora/"], ["src", "./../../../assets/social-icons/facebook.png", 1, "social-icon"], ["target", "_blank", "href", "https://500px.com/p/madalinaeleonorag?view=photos"], ["src", "./../../../assets/social-icons/500px-black.png", 1, "social-icon"], ["target", "_blank", "href", "https://www.paypal.com/paypalme/madalinaeleonorag"], ["src", "./../../../assets/social-icons/paypal.png", 1, "social-icon"], [1, "copyright"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
+ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 27, vars: 0, consts: [[1, "info-text"], [1, "text"], ["href", "mailto:madalinaeleonora.gheorghe@gmail.com"], [1, "social-icons-wrapper"], ["target", "_blank", "href", "mailto:madalinaeleonora.gheorghe@gmail.com"], ["src", "./../../../assets/social-icons/email.png", 1, "social-icon"], ["target", "_blank", "href", "https://www.linkedin.com/in/madalinaeleonorag/"], ["src", "./../../../assets/social-icons/linkedin.png", 1, "social-icon"], ["target", "_blank", "href", "https://madalinaeleonorag.medium.com/"], ["src", "./../../../assets/social-icons/medium-black.png", 1, "social-icon"], ["target", "_blank", "href", "https://github.com/madalinaeleonorag"], ["src", "./../../../assets/social-icons/github-black.svg", 1, "social-icon"], ["target", "_blank", "href", "https://www.instagram.com/madalinaeleonorag/"], ["src", "./../../../assets/social-icons/instagram.png", 1, "social-icon"], ["target", "_blank", "href", "https://www.facebook.com/mdx.madalinaeleonora/"], ["src", "./../../../assets/social-icons/facebook.png", 1, "social-icon"], ["target", "_blank", "href", "https://www.viewbug.com/member/madalinaeleonorag"], ["src", "./../../../assets/social-icons/viewbug.png", 1, "social-icon"], ["target", "_blank", "href", "https://www.paypal.com/paypalme/madalinaeleonorag"], ["src", "./../../../assets/social-icons/paypal.png", 1, "social-icon"], [1, "copyright"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Let's be internet BFFs");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

@@ -47,13 +47,14 @@ export const PROJECTS = [
     },
     {
         id: 1,
-        name: 'Madalina Eleonora Graphics & Photography',
+        name: 'Madalina Eleonora Photography',
         startDate: 'Jun 2018',
         endDate: 'Present',
         type: 'Personal project',
         technologies: ['Photoshop', 'Lightroom', 'Photography'],
-        live: 'https://500px.com/p/madalinaeleonorag',
+        live: 'https://www.viewbug.com/member/madalinaeleonorag',
         images: [
+            'https://www.viewbug.com/photo/92761253/embed',
             'https://drscdn.500px.org/photo/274677301/q%3D80_m%3D2000/v2?sig=b8e9003effc3cd14c6bb5b6bfac2ec2faf6eef99afc0ea4e3ca98dea3b221d0c',
             'https://drscdn.500px.org/photo/1001821941/q%3D80_m%3D2000_k%3D1/v2?sig=ecf84c046abbab098e1c14ea76050cc9e8b058fb11e5dc2853ff59601c83f087',
             'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc',
