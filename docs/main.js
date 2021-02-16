@@ -290,7 +290,8 @@ const PROJECTS = [
             Long time ago I started drawing furniture design for my own place or for others, discovering that I have a passion for it.
         `,
         images: [
-            '../assets/projects/furniture-design/desk-dressing-bedroom.png'
+            '../assets/projects/furniture-design/desk-dressing-bedroom.png',
+            '../assets/projects/furniture-design/showcase.png'
         ],
         logo: '../assets/projects/furniture-design/desk-dressing-bedroom.png'
     },
