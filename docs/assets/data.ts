@@ -11,7 +11,9 @@ export const PROJECTS = [
         `,
         images: [
             '../assets/projects/furniture-design/desk-dressing-bedroom.png',
-            '../assets/projects/furniture-design/showcase.png'
+            '../assets/projects/furniture-design/showcase.png',
+            '../assets/projects/furniture-design/kitchen.png',
+            '../assets/projects/furniture-design/kitchen-2.png'
         ],
         logo: '../assets/projects/furniture-design/desk-dressing-bedroom.png'
     },
