@@ -280,6 +280,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EXPERIENCE", function() { return EXPERIENCE; });
 const PROJECTS = [
     {
+        id: 18,
+        name: 'Madalina Eleonora - Furniture Design',
+        startDate: 'Dec 2018',
+        endDate: 'Present',
+        technologies: ['Photoshop'],
+        type: 'Personal project',
+        description: `
+            Long time ago I started drawing furniture design for my own place or for others, discovering that I have a passion for it.
+        `,
+        images: [
+            '../assets/projects/furniture-design/desk-dressing-bedroom.png'
+        ],
+        logo: '../assets/projects/furniture-design/desk-dressing-bedroom.png'
+    },
+    {
         id: 17,
         name: 'CRUD PHP MySQL',
         startDate: 'Feb 2021',
@@ -327,7 +342,7 @@ const PROJECTS = [
     },
     {
         id: 1,
-        name: 'Madalina Eleonora Photography',
+        name: 'Madalina Eleonora - Photography',
         startDate: 'Jun 2018',
         endDate: 'Present',
         type: 'Personal project',
@@ -532,7 +547,7 @@ const PROJECTS = [
     },
     {
         id: 7,
-        name: 'Graphic Design',
+        name: 'Madalina Eleonora - Graphic Design',
         startDate: 'June 2015',
         endDate: 'Present',
         technologies: ['Photoshop'],
