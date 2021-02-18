@@ -1,30 +1,26 @@
-<mat-tab-group>
-  <mat-tab label="Skills">
-    <ng-template matTabContent>
-      <div *ngFor="let category of keysSkills">
-        <div class="category-name">{{ category }}</div>
-        <div *ngFor="let subcategory of skills[category]">
-          <app-skill-progress-bar
-            [skill]="subcategory"
-          ></app-skill-progress-bar>
-        </div>
-      </div>
-    </ng-template>
-  </mat-tab>
+<div class="category">
+  <div class="category-name">Skills</div>
+  <div class="category-items">
+    <app-skill-card
+      [item]="skill"
+      *ngFor="let skill of skills"
+    ></app-skill-card>
+  </div>
+</div>
 
-  <mat-tab label="Licenses & certifications">
-    <ng-template matTabContent>
-      <div *ngFor="let certif of certifications">
-        <app-certification [certificate]="certif"></app-certification>
-      </div>
-    </ng-template>
-  </mat-tab>
-  
-  <mat-tab label="Courses">
-    <ng-template matTabContent>
-      <div *ngFor="let course of courses">
-        <app-course [course]="course"></app-course>
-      </div>
-    </ng-template>
-  </mat-tab>
-</mat-tab-group>
+<div class="category">
+  <div class="category-name">Certifications</div>
+  <div class="category-items">
+    <app-certification
+      [certificate]="certif"
+      *ngFor="let certif of certifications"
+    ></app-certification>
+  </div>
+</div>
+
+<div class="category">
+  <div class="category-name">Courses</div>
+  <div class="category-items">
+    <app-course [course]="course" *ngFor="let course of courses"></app-course>
+  </div>
+</div>

@@ -1,9 +1,23 @@
 @import "../../variables.scss";
 
 app-skills {
-  .category-name {
-    font-weight: bold;
-    padding: 5px;
-    font-size: medium;
+  display: flex;
+  flex-flow: column;
+
+  .category {
+    margin: 10px;
+
+    .category-name {
+      font-weight: bold;
+      padding: 10px;
+      font-size: medium;
+      text-align: -webkit-center;
+    }
+
+    .category-items {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+    }
   }
 }

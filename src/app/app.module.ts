@@ -22,7 +22,6 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { ProgressBarColorsDirective } from './directives/progress-bar-colors.directive';
-import { SkillProgressBarComponent } from './components/skill-progress-bar/skill-progress-bar.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { ExperienceJobComponent } from './components/experience-job/experience-job.component';
 import { EducationLevelComponent } from './components/education-level/education-level.component';
@@ -39,6 +38,7 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { HttpClientModule } from '@angular/common/http';
 import { MatMenuModule } from '@angular/material/menu';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { SkillCardComponent } from './components/skill-card/skill-card.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +48,6 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     HeaderComponent,
     SkillsComponent,
     ProgressBarColorsDirective,
-    SkillProgressBarComponent,
     ExperienceComponent,
     ExperienceJobComponent,
     EducationLevelComponent,
@@ -60,7 +59,8 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     ProjectsComponent,
     ProjectCardComponent,
     ProjectDetailsComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SkillCardComponent
   ],
   imports: [
     BrowserModule,

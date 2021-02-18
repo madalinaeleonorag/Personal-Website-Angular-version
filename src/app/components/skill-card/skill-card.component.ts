@@ -1,17 +1,17 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'app-skill-progress-bar',
-  templateUrl: './skill-progress-bar.component.html',
-  styleUrls: ['./skill-progress-bar.component.scss'],
+  selector: 'app-skill-card',
+  templateUrl: './skill-card.component.html',
+  styleUrls: ['./skill-card.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class SkillProgressBarComponent implements OnInit {
+export class SkillCardComponent implements OnInit {
 
-  @Input() skill;
+  @Input() item;
 
   // 'Begginer' = 0, 'Medium' = 1, 'Intermediate' = 2, 'Advanced'= 3 
-  LEVELS = [{
+  SKILL_LEVELS = [{
     name: 'Begginer', value: 20
   }, {
     name: 'Medium', value: 50
@@ -20,7 +20,7 @@ export class SkillProgressBarComponent implements OnInit {
   }, {
     name: 'Advanced', value: 100
   }];
-
+  
   constructor() { }
 
   ngOnInit(): void {

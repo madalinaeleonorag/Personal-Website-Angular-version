@@ -150,11 +150,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SkillsComponent", function() { return SkillsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
 /* harmony import */ var src_assets_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/assets/data */ "6Xnp");
-/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/tabs */ "M9ds");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "SVse");
-/* harmony import */ var _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/skill-progress-bar/skill-progress-bar.component */ "rOuV");
-/* harmony import */ var _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/certification/certification.component */ "mstO");
-/* harmony import */ var _components_course_course_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/course/course.component */ "vP9v");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "SVse");
+/* harmony import */ var _components_skill_card_skill_card_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/skill-card/skill-card.component */ "fTIr");
+/* harmony import */ var _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/certification/certification.component */ "mstO");
+/* harmony import */ var _components_course_course_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/course/course.component */ "vP9v");
 
 
 
@@ -162,66 +161,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-function SkillsComponent_ng_template_2_div_0_div_3_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-skill-progress-bar", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function SkillsComponent_app_skill_card_4_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-skill-card", 6);
 } if (rf & 2) {
-    const subcategory_r6 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("skill", subcategory_r6);
+    const skill_r3 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("item", skill_r3);
 } }
-function SkillsComponent_ng_template_2_div_0_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, SkillsComponent_ng_template_2_div_0_div_3_Template, 2, 1, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function SkillsComponent_app_certification_9_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-certification", 7);
 } if (rf & 2) {
-    const category_r4 = ctx.$implicit;
-    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](category_r4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r3.skills[category_r4]);
+    const certif_r4 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("certificate", certif_r4);
 } }
-function SkillsComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, SkillsComponent_ng_template_2_div_0_Template, 4, 2, "div", 4);
+function SkillsComponent_app_course_14_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-course", 8);
 } if (rf & 2) {
-    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r0.keysSkills);
-} }
-function SkillsComponent_ng_template_4_div_0_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-certification", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const certif_r8 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("certificate", certif_r8);
-} }
-function SkillsComponent_ng_template_4_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, SkillsComponent_ng_template_4_div_0_Template, 2, 1, "div", 4);
-} if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r1.certifications);
-} }
-function SkillsComponent_ng_template_6_div_0_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-course", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const course_r10 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("course", course_r10);
-} }
-function SkillsComponent_ng_template_6_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, SkillsComponent_ng_template_6_div_0_Template, 2, 1, "div", 4);
-} if (rf & 2) {
-    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r2.courses);
+    const course_r5 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("course", course_r5);
 } }
 class SkillsComponent {
     constructor() {
@@ -234,19 +190,39 @@ class SkillsComponent {
     }
 }
 SkillsComponent.ɵfac = function SkillsComponent_Factory(t) { return new (t || SkillsComponent)(); };
-SkillsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SkillsComponent, selectors: [["app-skills"]], decls: 7, vars: 0, consts: [["label", "Skills"], ["matTabContent", ""], ["label", "Licenses & certifications"], ["label", "Courses"], [4, "ngFor", "ngForOf"], [1, "category-name"], [3, "skill"], [3, "certificate"], [3, "course"]], template: function SkillsComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-tab-group");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-tab", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, SkillsComponent_ng_template_2_Template, 1, 1, "ng-template", 1);
+SkillsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SkillsComponent, selectors: [["app-skills"]], decls: 15, vars: 3, consts: [[1, "category"], [1, "category-name"], [1, "category-items"], [3, "item", 4, "ngFor", "ngForOf"], [3, "certificate", 4, "ngFor", "ngForOf"], [3, "course", 4, "ngFor", "ngForOf"], [3, "item"], [3, "certificate"], [3, "course"]], template: function SkillsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Skills");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mat-tab", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, SkillsComponent_ng_template_4_Template, 1, 1, "ng-template", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-tab", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, SkillsComponent_ng_template_6_Template, 1, 1, "ng-template", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, SkillsComponent_app_skill_card_4_Template, 1, 1, "app-skill-card", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTab"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTabContent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_4__["SkillProgressBarComponent"], _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_5__["CertificationComponent"], _components_course_course_component__WEBPACK_IMPORTED_MODULE_6__["CourseComponent"]], styles: ["app-skills .category-name {\n  font-weight: bold;\n  padding: 5px;\n  font-size: medium;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvc2tpbGxzL3NraWxscy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHRTtFQUNFLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0FBRkoiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9za2lsbHMvc2tpbGxzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uLy4uL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5hcHAtc2tpbGxzIHtcclxuICAuY2F0ZWdvcnktbmFtZSB7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIHBhZGRpbmc6IDVweDtcclxuICAgIGZvbnQtc2l6ZTogbWVkaXVtO1xyXG4gIH1cclxufVxyXG4iXX0= */"], encapsulation: 2 });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Certifications");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, SkillsComponent_app_certification_9_Template, 1, 1, "app-certification", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Courses");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, SkillsComponent_app_course_14_Template, 1, 1, "app-course", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.skills);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.certifications);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.courses);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _components_skill_card_skill_card_component__WEBPACK_IMPORTED_MODULE_3__["SkillCardComponent"], _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_4__["CertificationComponent"], _components_course_course_component__WEBPACK_IMPORTED_MODULE_5__["CourseComponent"]], styles: ["app-skills {\n  display: flex;\n  flex-flow: column;\n}\napp-skills .category {\n  margin: 10px;\n}\napp-skills .category .category-name {\n  font-weight: bold;\n  padding: 10px;\n  font-size: medium;\n  text-align: -webkit-center;\n}\napp-skills .category .category-items {\n  display: flex;\n  flex-flow: wrap;\n  justify-content: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvc2tpbGxzL3NraWxscy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNFLGFBQUE7RUFDQSxpQkFBQTtBQURGO0FBR0U7RUFDRSxZQUFBO0FBREo7QUFHSTtFQUNFLGlCQUFBO0VBQ0EsYUFBQTtFQUNBLGlCQUFBO0VBQ0EsMEJBQUE7QUFETjtBQUlJO0VBQ0UsYUFBQTtFQUNBLGVBQUE7RUFDQSx1QkFBQTtBQUZOIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvc2tpbGxzL3NraWxscy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgXCIuLi8uLi92YXJpYWJsZXMuc2Nzc1wiO1xyXG5cclxuYXBwLXNraWxscyB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWZsb3c6IGNvbHVtbjtcclxuXHJcbiAgLmNhdGVnb3J5IHtcclxuICAgIG1hcmdpbjogMTBweDtcclxuXHJcbiAgICAuY2F0ZWdvcnktbmFtZSB7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgICBmb250LXNpemU6IG1lZGl1bTtcclxuICAgICAgdGV4dC1hbGlnbjogLXdlYmtpdC1jZW50ZXI7XHJcbiAgICB9XHJcblxyXG4gICAgLmNhdGVnb3J5LWl0ZW1zIHtcclxuICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgZmxleC1mbG93OiB3cmFwO1xyXG4gICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIH1cclxuICB9XHJcbn1cclxuIl19 */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SkillsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -898,35 +874,25 @@ const PROJECTS = [
         logo: 'assets/projects/16.png'
     }
 ];
-const SKILLS = {
-    HTML: [
-        { name: 'HTML5', level: 3, color: '#E85D25', logo: 'HTML5' }
-    ],
-    CSS: [
-        { name: 'CSS3', level: 2, color: '#249CDA', logo: 'CSS3' },
-        { name: 'SCSS', level: 2, color: '#C96195', logo: 'SCSS' },
-        { name: 'Bootstrap', level: 2, color: '#533B78', logo: 'Bootstrap' }
-    ],
-    Javascript: [
-        { name: 'Javascript', level: 3, color: '#EFD81D', logo: 'Javascript' },
-        { name: 'Vue.js', level: 3, color: '#3FB27F', logo: 'Vuejs' },
-        { name: 'Vuex', level: 3, color: '#33475B', logo: 'Vuex' },
-        { name: 'Angular', level: 3, color: '#BD002E', logo: 'Angular' },
-        { name: 'JQuery', level: 1, color: '#0864A7', logo: 'JQuery' },
-        { name: 'Ionic', level: 2, color: '#367CF7', logo: 'Ionic' },
-        { name: 'React.js', level: 0, color: '#50BBD7', logo: 'Reactjs' }
-    ],
-    CMS: [
-        { name: 'Wordpress', level: 1, color: '#207196', logo: 'Wordpress' }
-    ],
-    Other: [
-        { name: 'Github', level: 3, color: '#302F2F', logo: 'Github' },
-        { name: 'Git', level: 3, color: '#E84E31', logo: 'Git' },
-        { name: 'NoSQL', level: 2, color: '#F7C52B', logo: 'NoSQL' },
-        { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' },
-        { name: 'Lightroom', level: 1, color: '#0A232F', logo: 'Lightroom' }
-    ]
-};
+const SKILLS = [
+    { name: 'HTML5', level: 3, color: '#E85D25', logo: 'HTML5' },
+    { name: 'CSS3', level: 2, color: '#249CDA', logo: 'CSS3' },
+    { name: 'SCSS', level: 2, color: '#C96195', logo: 'SCSS' },
+    { name: 'Bootstrap', level: 2, color: '#533B78', logo: 'Bootstrap' },
+    { name: 'Javascript', level: 3, color: '#EFD81D', logo: 'Javascript' },
+    { name: 'Vue.js', level: 3, color: '#3FB27F', logo: 'Vuejs' },
+    { name: 'Vuex', level: 3, color: '#33475B', logo: 'Vuex' },
+    { name: 'Angular', level: 3, color: '#BD002E', logo: 'Angular' },
+    { name: 'JQuery', level: 1, color: '#0864A7', logo: 'JQuery' },
+    { name: 'Ionic', level: 2, color: '#367CF7', logo: 'Ionic' },
+    { name: 'React.js', level: 0, color: '#50BBD7', logo: 'Reactjs' },
+    { name: 'Wordpress', level: 1, color: '#207196', logo: 'Wordpress' },
+    { name: 'Github', level: 3, color: '#302F2F', logo: 'Github' },
+    { name: 'Git', level: 3, color: '#E84E31', logo: 'Git' },
+    { name: 'NoSQL', level: 2, color: '#F7C52B', logo: 'NoSQL' },
+    { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' },
+    { name: 'Lightroom', level: 1, color: '#0A232F', logo: 'Lightroom' }
+];
 const CERTIFICATIONS = [
     {
         logo: 'https://images.youracclaim.com/size/680x680/images/88bef918-2e93-4e68-8782-60f706db53f4/IBM_Quantum_Conversations.png',
@@ -2147,23 +2113,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/header/header.component */ "2MiI");
 /* harmony import */ var _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/skills/skills.component */ "2yNh");
 /* harmony import */ var _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./directives/progress-bar-colors.directive */ "82IS");
-/* harmony import */ var _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/skill-progress-bar/skill-progress-bar.component */ "rOuV");
-/* harmony import */ var _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pages/experience/experience.component */ "mKaJ");
-/* harmony import */ var _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/experience-job/experience-job.component */ "6hof");
-/* harmony import */ var _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/education-level/education-level.component */ "zeqP");
-/* harmony import */ var _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/certification/certification.component */ "mstO");
-/* harmony import */ var _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/volunteer/volunteer.component */ "7ntx");
-/* harmony import */ var _components_course_course_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/course/course.component */ "vP9v");
-/* harmony import */ var _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/awards/awards.component */ "QrEi");
-/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/publications/publications.component */ "BBdW");
-/* harmony import */ var _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./pages/projects/projects.component */ "u/sh");
-/* harmony import */ var _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./components/project-card/project-card.component */ "M0Pn");
-/* harmony import */ var _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./pages/project-details/project-details.component */ "X1wX");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/forms */ "s7LF");
-/* harmony import */ var angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! angular-responsive-carousel */ "0L5U");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/common/http */ "IheW");
-/* harmony import */ var _angular_material_menu__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/material/menu */ "rJgo");
-/* harmony import */ var _pages_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./pages/not-found/not-found.component */ "v2M4");
+/* harmony import */ var _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pages/experience/experience.component */ "mKaJ");
+/* harmony import */ var _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/experience-job/experience-job.component */ "6hof");
+/* harmony import */ var _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/education-level/education-level.component */ "zeqP");
+/* harmony import */ var _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/certification/certification.component */ "mstO");
+/* harmony import */ var _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/volunteer/volunteer.component */ "7ntx");
+/* harmony import */ var _components_course_course_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/course/course.component */ "vP9v");
+/* harmony import */ var _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/awards/awards.component */ "QrEi");
+/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/publications/publications.component */ "BBdW");
+/* harmony import */ var _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./pages/projects/projects.component */ "u/sh");
+/* harmony import */ var _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/project-card/project-card.component */ "M0Pn");
+/* harmony import */ var _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./pages/project-details/project-details.component */ "X1wX");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @angular/forms */ "s7LF");
+/* harmony import */ var angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! angular-responsive-carousel */ "0L5U");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/common/http */ "IheW");
+/* harmony import */ var _angular_material_menu__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/material/menu */ "rJgo");
+/* harmony import */ var _pages_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./pages/not-found/not-found.component */ "v2M4");
+/* harmony import */ var _components_skill_card_skill_card_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./components/skill-card/skill-card.component */ "fTIr");
 
 
 // Material imports
@@ -2216,38 +2182,38 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
             _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
             _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
             _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
-            _angular_forms__WEBPACK_IMPORTED_MODULE_31__["ReactiveFormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_30__["ReactiveFormsModule"],
             _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"],
             _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_10__["GalleryModule"].forRoot(),
-            angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_32__["IvyCarouselModule"],
-            _angular_common_http__WEBPACK_IMPORTED_MODULE_33__["HttpClientModule"],
-            _angular_material_menu__WEBPACK_IMPORTED_MODULE_34__["MatMenuModule"]
+            angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_31__["IvyCarouselModule"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_32__["HttpClientModule"],
+            _angular_material_menu__WEBPACK_IMPORTED_MODULE_33__["MatMenuModule"]
         ], _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
         _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
         _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
         _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
         _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"],
         _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
-        _angular_material_menu__WEBPACK_IMPORTED_MODULE_34__["MatMenuModule"]] });
+        _angular_material_menu__WEBPACK_IMPORTED_MODULE_33__["MatMenuModule"]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"],
         _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_14__["ContactComponent"],
         _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_15__["HomepageComponent"],
         _components_header_header_component__WEBPACK_IMPORTED_MODULE_16__["HeaderComponent"],
         _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_17__["SkillsComponent"],
         _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_18__["ProgressBarColorsDirective"],
-        _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_19__["SkillProgressBarComponent"],
-        _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_20__["ExperienceComponent"],
-        _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_21__["ExperienceJobComponent"],
-        _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_22__["EducationLevelComponent"],
-        _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_23__["CertificationComponent"],
-        _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_24__["VolunteerComponent"],
-        _components_course_course_component__WEBPACK_IMPORTED_MODULE_25__["CourseComponent"],
-        _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_26__["AwardsComponent"],
-        _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_27__["PublicationsComponent"],
-        _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_28__["ProjectsComponent"],
-        _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_29__["ProjectCardComponent"],
-        _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_30__["ProjectDetailsComponent"],
-        _pages_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_35__["NotFoundComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_19__["ExperienceComponent"],
+        _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_20__["ExperienceJobComponent"],
+        _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_21__["EducationLevelComponent"],
+        _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_22__["CertificationComponent"],
+        _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_23__["VolunteerComponent"],
+        _components_course_course_component__WEBPACK_IMPORTED_MODULE_24__["CourseComponent"],
+        _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_25__["AwardsComponent"],
+        _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_26__["PublicationsComponent"],
+        _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_27__["ProjectsComponent"],
+        _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_28__["ProjectCardComponent"],
+        _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_29__["ProjectDetailsComponent"],
+        _pages_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_34__["NotFoundComponent"],
+        _components_skill_card_skill_card_component__WEBPACK_IMPORTED_MODULE_35__["SkillCardComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_11__["AppRoutingModule"],
         _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_13__["BrowserAnimationsModule"],
         _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
@@ -2255,16 +2221,16 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
         _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
         _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
-        _angular_forms__WEBPACK_IMPORTED_MODULE_31__["ReactiveFormsModule"],
-        _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"], _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_10__["GalleryModule"], angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_32__["IvyCarouselModule"],
-        _angular_common_http__WEBPACK_IMPORTED_MODULE_33__["HttpClientModule"],
-        _angular_material_menu__WEBPACK_IMPORTED_MODULE_34__["MatMenuModule"]], exports: [_angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_30__["ReactiveFormsModule"],
+        _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"], _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_10__["GalleryModule"], angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_31__["IvyCarouselModule"],
+        _angular_common_http__WEBPACK_IMPORTED_MODULE_32__["HttpClientModule"],
+        _angular_material_menu__WEBPACK_IMPORTED_MODULE_33__["MatMenuModule"]], exports: [_angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
         _angular_material_expansion__WEBPACK_IMPORTED_MODULE_3__["MatExpansionModule"],
         _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
         _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
         _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"],
         _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
-        _angular_material_menu__WEBPACK_IMPORTED_MODULE_34__["MatMenuModule"]] }); })();
+        _angular_material_menu__WEBPACK_IMPORTED_MODULE_33__["MatMenuModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
@@ -2275,19 +2241,19 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _components_header_header_component__WEBPACK_IMPORTED_MODULE_16__["HeaderComponent"],
                     _pages_skills_skills_component__WEBPACK_IMPORTED_MODULE_17__["SkillsComponent"],
                     _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_18__["ProgressBarColorsDirective"],
-                    _components_skill_progress_bar_skill_progress_bar_component__WEBPACK_IMPORTED_MODULE_19__["SkillProgressBarComponent"],
-                    _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_20__["ExperienceComponent"],
-                    _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_21__["ExperienceJobComponent"],
-                    _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_22__["EducationLevelComponent"],
-                    _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_23__["CertificationComponent"],
-                    _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_24__["VolunteerComponent"],
-                    _components_course_course_component__WEBPACK_IMPORTED_MODULE_25__["CourseComponent"],
-                    _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_26__["AwardsComponent"],
-                    _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_27__["PublicationsComponent"],
-                    _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_28__["ProjectsComponent"],
-                    _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_29__["ProjectCardComponent"],
-                    _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_30__["ProjectDetailsComponent"],
-                    _pages_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_35__["NotFoundComponent"]
+                    _pages_experience_experience_component__WEBPACK_IMPORTED_MODULE_19__["ExperienceComponent"],
+                    _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_20__["ExperienceJobComponent"],
+                    _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_21__["EducationLevelComponent"],
+                    _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_22__["CertificationComponent"],
+                    _components_volunteer_volunteer_component__WEBPACK_IMPORTED_MODULE_23__["VolunteerComponent"],
+                    _components_course_course_component__WEBPACK_IMPORTED_MODULE_24__["CourseComponent"],
+                    _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_25__["AwardsComponent"],
+                    _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_26__["PublicationsComponent"],
+                    _pages_projects_projects_component__WEBPACK_IMPORTED_MODULE_27__["ProjectsComponent"],
+                    _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_28__["ProjectCardComponent"],
+                    _pages_project_details_project_details_component__WEBPACK_IMPORTED_MODULE_29__["ProjectDetailsComponent"],
+                    _pages_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_34__["NotFoundComponent"],
+                    _components_skill_card_skill_card_component__WEBPACK_IMPORTED_MODULE_35__["SkillCardComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -2298,12 +2264,12 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _angular_material_chips__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
                     _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
                     _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
-                    _angular_forms__WEBPACK_IMPORTED_MODULE_31__["ReactiveFormsModule"],
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_30__["ReactiveFormsModule"],
                     _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"],
                     _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_10__["GalleryModule"].forRoot(),
-                    angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_32__["IvyCarouselModule"],
-                    _angular_common_http__WEBPACK_IMPORTED_MODULE_33__["HttpClientModule"],
-                    _angular_material_menu__WEBPACK_IMPORTED_MODULE_34__["MatMenuModule"]
+                    angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_31__["IvyCarouselModule"],
+                    _angular_common_http__WEBPACK_IMPORTED_MODULE_32__["HttpClientModule"],
+                    _angular_material_menu__WEBPACK_IMPORTED_MODULE_33__["MatMenuModule"]
                 ],
                 exports: [
                     _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
@@ -2312,13 +2278,90 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _angular_material_card__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
                     _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"],
                     _angular_material_tabs__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
-                    _angular_material_menu__WEBPACK_IMPORTED_MODULE_34__["MatMenuModule"]
+                    _angular_material_menu__WEBPACK_IMPORTED_MODULE_33__["MatMenuModule"]
                 ],
                 bootstrap: [
                     _app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"]
                 ]
             }]
     }], null, null); })();
+
+
+/***/ }),
+
+/***/ "fTIr":
+/*!***************************************************************!*\
+  !*** ./src/app/components/skill-card/skill-card.component.ts ***!
+  \***************************************************************/
+/*! exports provided: SkillCardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SkillCardComponent", function() { return SkillCardComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/progress-bar */ "BTe0");
+/* harmony import */ var _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../directives/progress-bar-colors.directive */ "82IS");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "SVse");
+
+
+
+
+
+const _c0 = function (a0) { return { color: a0 }; };
+class SkillCardComponent {
+    constructor() {
+        // 'Begginer' = 0, 'Medium' = 1, 'Intermediate' = 2, 'Advanced'= 3 
+        this.SKILL_LEVELS = [{
+                name: 'Begginer', value: 20
+            }, {
+                name: 'Medium', value: 50
+            }, {
+                name: 'Intermediate', value: 80
+            }, {
+                name: 'Advanced', value: 100
+            }];
+    }
+    ngOnInit() {
+    }
+}
+SkillCardComponent.ɵfac = function SkillCardComponent_Factory(t) { return new (t || SkillCardComponent)(); };
+SkillCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SkillCardComponent, selectors: [["app-skill-card"]], inputs: { item: "item" }, decls: 8, vars: 8, consts: [[1, "logo"], [3, "src"], [1, "name"], [1, "progress"], ["mode", "determinate", 3, "value", "appProgressBarColors"], [1, "level-legend", 3, "ngStyle"]], template: function SkillCardComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "mat-progress-bar", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", "../../../assets/skills/" + ctx.item.logo + ".png", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.item.name, "\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", ctx.SKILL_LEVELS[ctx.item.level].value)("appProgressBarColors", ctx.item.color);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](6, _c0, ctx.item.color));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.SKILL_LEVELS[ctx.item.level].name, " ");
+    } }, directives: [_angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_1__["MatProgressBar"], _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_2__["ProgressBarColorsDirective"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgStyle"]], styles: ["app-skill-card {\n  display: flex;\n  flex-flow: column;\n  text-align: center;\n  margin: 10px;\n  padding: 15px;\n  width: 110px;\n}\napp-skill-card .logo img {\n  height: 50px;\n  width: auto;\n}\napp-skill-card .name {\n  padding: 5px;\n  font-weight: bold;\n  color: #18191A;\n}\napp-skill-card .progress {\n  width: 100%;\n  display: flex;\n  flex-flow: column;\n}\napp-skill-card .progress .level-legend {\n  opacity: 0.5;\n  font-size: small;\n  padding: 5px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9za2lsbC1jYXJkL3NraWxsLWNhcmQuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3ZhcmlhYmxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBRUUsYUFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLFlBQUE7QUFGRjtBQU1JO0VBQ0UsWUFBQTtFQUNBLFdBQUE7QUFKTjtBQVFFO0VBQ0UsWUFBQTtFQUNBLGlCQUFBO0VBQ0EsY0N0Qkk7QURnQlI7QUFTRTtFQUNFLFdBQUE7RUFDQSxhQUFBO0VBQ0EsaUJBQUE7QUFQSjtBQVNJO0VBQ0UsWUFBQTtFQUNBLGdCQUFBO0VBQ0EsWUFBQTtBQVBOIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9za2lsbC1jYXJkL3NraWxsLWNhcmQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IFwiLi4vLi4vdmFyaWFibGVzLnNjc3NcIjtcclxuXHJcbmFwcC1za2lsbC1jYXJkIHtcclxuICAvLyBiYWNrZ3JvdW5kLWNvbG9yOiAkd2hpdGU7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWZsb3c6IGNvbHVtbjtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgbWFyZ2luOiAxMHB4O1xyXG4gIHBhZGRpbmc6IDE1cHg7XHJcbiAgd2lkdGg6IDExMHB4O1xyXG4gIC8vIGJveC1zaGFkb3c6IDBweCAwcHggM3B4IC0xcHggJGxpZ2h0Z3JheTtcclxuXHJcbiAgLmxvZ28ge1xyXG4gICAgaW1nIHtcclxuICAgICAgaGVpZ2h0OiA1MHB4O1xyXG4gICAgICB3aWR0aDogYXV0bztcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC5uYW1lIHtcclxuICAgIHBhZGRpbmc6IDVweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgY29sb3I6ICRibGFjaztcclxuICB9XHJcblxyXG4gIC5wcm9ncmVzcyB7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWZsb3c6IGNvbHVtbjtcclxuXHJcbiAgICAubGV2ZWwtbGVnZW5kIHtcclxuICAgICAgb3BhY2l0eTogMC41O1xyXG4gICAgICBmb250LXNpemU6IHNtYWxsO1xyXG4gICAgICBwYWRkaW5nOiA1cHg7XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiIsIiRibGFjazogIzE4MTkxQTtcclxuJGdyYXk6ICMzQTNCM0M7XHJcbiRsaWdodGdyYXk6ICM4YjhiOGI7XHJcbiRiYWNrZ3JvdW5kOiAjRjhGOEZGO1xyXG4kd2hpdGU6ICNGRkZGRkY7XHJcbiRib3JkbzogI2E1MGMwYzsiXX0= */"], encapsulation: 2 });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SkillCardComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-skill-card',
+                templateUrl: './skill-card.component.html',
+                styleUrls: ['./skill-card.component.scss'],
+                encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewEncapsulation"].None
+            }]
+    }], function () { return []; }, { item: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
 
 
 /***/ }),
@@ -2592,15 +2635,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "iInd");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "SVse");
 /* harmony import */ var _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/experience-job/experience-job.component */ "6hof");
-/* harmony import */ var _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/education-level/education-level.component */ "zeqP");
-/* harmony import */ var _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/awards/awards.component */ "QrEi");
-/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/publications/publications.component */ "BBdW");
-/* harmony import */ var angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! angular-responsive-carousel */ "0L5U");
-/* harmony import */ var _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/project-card/project-card.component */ "M0Pn");
-/* harmony import */ var _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/certification/certification.component */ "mstO");
-
-
-
+/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/publications/publications.component */ "BBdW");
+/* harmony import */ var angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! angular-responsive-carousel */ "0L5U");
+/* harmony import */ var _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/project-card/project-card.component */ "M0Pn");
 
 
 
@@ -2611,28 +2648,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function HomepageComponent_carousel_4_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "carousel", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "carousel", 11);
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("images", ctx_r0.images)("cellsToShow", 3)("borderRadius", 4);
 } }
 function HomepageComponent_carousel_5_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "carousel", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "carousel", 11);
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("images", ctx_r1.images)("cellsToShow", 1)("borderRadius", 4);
 } }
-function HomepageComponent_app_project_card_23_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-project-card", 15);
+function HomepageComponent_app_project_card_16_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-project-card", 12);
 } if (rf & 2) {
-    const project_r4 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", project_r4);
-} }
-function HomepageComponent_app_certification_37_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-certification", 16);
-} if (rf & 2) {
-    const certif_r5 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("certificate", certif_r5);
+    const project_r3 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", project_r3);
 } }
 class HomepageComponent {
     constructor(router) {
@@ -2647,18 +2678,15 @@ class HomepageComponent {
     ngOnInit() {
         this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
         this.experience = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["EXPERIENCE"][0];
-        this.education = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["EDUCATION"][0];
-        this.awards = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["AWARDS"][0];
         this.publication = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["PUBLICATIONS"][0];
         this.projects = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["PROJECTS"].slice(0, 4);
-        this.certifications = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["CERTIFICATIONS"].slice(0, 2);
     }
     goToPage(page) {
         this.router.navigateByUrl(`${page}`);
     }
 }
 HomepageComponent.ɵfac = function HomepageComponent_Factory(t) { return new (t || HomepageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
-HomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomepageComponent, selectors: [["app-homepage"]], decls: 48, vars: 8, consts: [[1, "logo"], ["src", "assets/LOGO-black.png"], [1, "description-homepage"], [3, "images", "cellsToShow", "borderRadius", 4, "ngIf"], [1, "title"], ["parentPage", "homepage", 3, "job"], [1, "see-more"], [3, "click"], [3, "education"], [1, "projects"], [3, "project", 4, "ngFor", "ngForOf"], [3, "award"], [3, "certificate", 4, "ngFor", "ngForOf"], [3, "publication"], [3, "images", "cellsToShow", "borderRadius"], [3, "project"], [3, "certificate"]], template: function HomepageComponent_Template(rf, ctx) { if (rf & 1) {
+HomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomepageComponent, selectors: [["app-homepage"]], decls: 27, vars: 5, consts: [[1, "logo"], ["src", "assets/LOGO-black.png"], [1, "description-homepage"], [3, "images", "cellsToShow", "borderRadius", 4, "ngIf"], [1, "title"], ["parentPage", "homepage", 3, "job"], [1, "see-more"], [3, "click"], [1, "projects"], [3, "project", 4, "ngFor", "ngForOf"], [3, "publication"], [3, "images", "cellsToShow", "borderRadius"], [3, "project"]], template: function HomepageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -2679,59 +2707,26 @@ HomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "hr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Last education");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Last projects");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "app-education-level", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomepageComponent_Template_a_click_17_listener() { return ctx.goToPage("/experience"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "</See more education levels>");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, HomepageComponent_app_project_card_16_Template, 1, 1, "app-project-card", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomepageComponent_Template_a_click_18_listener() { return ctx.goToPage("/projects"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "</See more projects>");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Last projects");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Last publication");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](23, HomepageComponent_app_project_card_23_Template, 1, 1, "app-project-card", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "app-publications", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomepageComponent_Template_a_click_25_listener() { return ctx.goToPage("/projects"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "</See more projects>");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Last award");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "app-awards", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomepageComponent_Template_a_click_32_listener() { return ctx.goToPage("/experience"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "</See more awards>");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Last certifications");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](37, HomepageComponent_app_certification_37_Template, 1, 1, "app-certification", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomepageComponent_Template_a_click_39_listener() { return ctx.goToPage("/skills"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "</See more certifications>");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Last publication");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "app-publications", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomepageComponent_Template_a_click_46_listener() { return ctx.goToPage("/experience"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "</See more publications>");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomepageComponent_Template_a_click_25_listener() { return ctx.goToPage("/experience"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "</See more publications>");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
@@ -2741,17 +2736,11 @@ HomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isMobileView);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("job", ctx.experience);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("education", ctx.education);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.projects);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("award", ctx.awards);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.certifications);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("publication", ctx.publication);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_4__["ExperienceJobComponent"], _components_education_level_education_level_component__WEBPACK_IMPORTED_MODULE_5__["EducationLevelComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _components_awards_awards_component__WEBPACK_IMPORTED_MODULE_6__["AwardsComponent"], _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_7__["PublicationsComponent"], angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_8__["CarouselComponent"], _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_9__["ProjectCardComponent"], _components_certification_certification_component__WEBPACK_IMPORTED_MODULE_10__["CertificationComponent"]], styles: ["app-homepage .logo {\n  text-align-last: center;\n  margin: 20px;\n}\napp-homepage .logo img {\n  width: auto;\n  height: 25vh;\n}\napp-homepage .description-homepage {\n  text-align: center;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  margin: 20px 50px;\n}\napp-homepage .carousel {\n  height: 50% !important;\n  margin: 30px;\n  width: auto;\n}\napp-homepage .title {\n  font-weight: bold;\n  font-size: 1.2rem;\n  margin-left: 20px;\n}\napp-homepage .see-more {\n  text-align-last: end;\n  margin: 20px;\n}\napp-homepage .see-more a {\n  cursor: pointer;\n  text-decoration: underline;\n}\napp-homepage .projects {\n  display: flex;\n  margin: 10px;\n  overflow: auto;\n}\napp-homepage hr {\n  margin: 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZXBhZ2UvaG9tZXBhZ2UuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0U7RUFDRSx1QkFBQTtFQUNBLFlBQUE7QUFGSjtBQUlJO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUFGTjtBQU1FO0VBQ0Usa0JBQUE7RUFDQSxlQUFBO0VBQ0EsbUJBQUE7RUFDQSxpQkFBQTtBQUpKO0FBT0U7RUFDRSxzQkFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0FBTEo7QUFRRTtFQUNFLGlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxpQkFBQTtBQU5KO0FBU0U7RUFDRSxvQkFBQTtFQUNBLFlBQUE7QUFQSjtBQVNJO0VBQ0UsZUFBQTtFQUNBLDBCQUFBO0FBUE47QUFXRTtFQUNFLGFBQUE7RUFDQSxZQUFBO0VBQ0EsY0FBQTtBQVRKO0FBWUU7RUFDRSxZQUFBO0FBVkoiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgXCIuLi8uLi92YXJpYWJsZXMuc2Nzc1wiO1xyXG5cclxuYXBwLWhvbWVwYWdlIHtcclxuICAubG9nbyB7XHJcbiAgICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcclxuICAgIG1hcmdpbjogMjBweDtcclxuXHJcbiAgICBpbWcge1xyXG4gICAgICB3aWR0aDogYXV0bztcclxuICAgICAgaGVpZ2h0OiAyNXZoO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLmRlc2NyaXB0aW9uLWhvbWVwYWdlIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogMXJlbTtcclxuICAgIGxpbmUtaGVpZ2h0OiAxLjVyZW07XHJcbiAgICBtYXJnaW46IDIwcHggNTBweDtcclxuICB9XHJcblxyXG4gIC5jYXJvdXNlbCB7XHJcbiAgICBoZWlnaHQ6IDUwJSAhaW1wb3J0YW50O1xyXG4gICAgbWFyZ2luOiAzMHB4O1xyXG4gICAgd2lkdGg6IGF1dG87XHJcbiAgfVxyXG5cclxuICAudGl0bGUge1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBmb250LXNpemU6IDEuMnJlbTtcclxuICAgIG1hcmdpbi1sZWZ0OiAyMHB4O1xyXG4gIH1cclxuXHJcbiAgLnNlZS1tb3JlIHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogZW5kO1xyXG4gICAgbWFyZ2luOiAyMHB4O1xyXG5cclxuICAgIGEge1xyXG4gICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLnByb2plY3RzIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBtYXJnaW46IDEwcHg7XHJcbiAgICBvdmVyZmxvdzogYXV0bztcclxuICB9XHJcblxyXG4gIGhyIHtcclxuICAgIG1hcmdpbjogMjBweDtcclxuICB9XHJcbn1cclxuIl19 */"], encapsulation: 2 });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _components_experience_job_experience_job_component__WEBPACK_IMPORTED_MODULE_4__["ExperienceJobComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_5__["PublicationsComponent"], angular_responsive_carousel__WEBPACK_IMPORTED_MODULE_6__["CarouselComponent"], _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_7__["ProjectCardComponent"]], styles: ["app-homepage .logo {\n  text-align-last: center;\n  margin: 20px;\n}\napp-homepage .logo img {\n  width: auto;\n  height: 25vh;\n}\napp-homepage .description-homepage {\n  text-align: center;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  margin: 20px 50px;\n}\napp-homepage .carousel {\n  height: 50% !important;\n  margin: 30px;\n  width: auto;\n}\napp-homepage .title {\n  font-weight: bold;\n  font-size: 1.2rem;\n  margin-left: 20px;\n}\napp-homepage .see-more {\n  text-align-last: end;\n  margin: 20px;\n}\napp-homepage .see-more a {\n  cursor: pointer;\n  text-decoration: underline;\n}\napp-homepage .projects {\n  display: flex;\n  margin: 10px;\n  overflow: auto;\n}\napp-homepage hr {\n  margin: 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZXBhZ2UvaG9tZXBhZ2UuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0U7RUFDRSx1QkFBQTtFQUNBLFlBQUE7QUFGSjtBQUlJO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUFGTjtBQU1FO0VBQ0Usa0JBQUE7RUFDQSxlQUFBO0VBQ0EsbUJBQUE7RUFDQSxpQkFBQTtBQUpKO0FBT0U7RUFDRSxzQkFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0FBTEo7QUFRRTtFQUNFLGlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxpQkFBQTtBQU5KO0FBU0U7RUFDRSxvQkFBQTtFQUNBLFlBQUE7QUFQSjtBQVNJO0VBQ0UsZUFBQTtFQUNBLDBCQUFBO0FBUE47QUFXRTtFQUNFLGFBQUE7RUFDQSxZQUFBO0VBQ0EsY0FBQTtBQVRKO0FBWUU7RUFDRSxZQUFBO0FBVkoiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgXCIuLi8uLi92YXJpYWJsZXMuc2Nzc1wiO1xyXG5cclxuYXBwLWhvbWVwYWdlIHtcclxuICAubG9nbyB7XHJcbiAgICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcclxuICAgIG1hcmdpbjogMjBweDtcclxuXHJcbiAgICBpbWcge1xyXG4gICAgICB3aWR0aDogYXV0bztcclxuICAgICAgaGVpZ2h0OiAyNXZoO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLmRlc2NyaXB0aW9uLWhvbWVwYWdlIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogMXJlbTtcclxuICAgIGxpbmUtaGVpZ2h0OiAxLjVyZW07XHJcbiAgICBtYXJnaW46IDIwcHggNTBweDtcclxuICB9XHJcblxyXG4gIC5jYXJvdXNlbCB7XHJcbiAgICBoZWlnaHQ6IDUwJSAhaW1wb3J0YW50O1xyXG4gICAgbWFyZ2luOiAzMHB4O1xyXG4gICAgd2lkdGg6IGF1dG87XHJcbiAgfVxyXG5cclxuICAudGl0bGUge1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBmb250LXNpemU6IDEuMnJlbTtcclxuICAgIG1hcmdpbi1sZWZ0OiAyMHB4O1xyXG4gIH1cclxuXHJcbiAgLnNlZS1tb3JlIHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogZW5kO1xyXG4gICAgbWFyZ2luOiAyMHB4O1xyXG5cclxuICAgIGEge1xyXG4gICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLnByb2plY3RzIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBtYXJnaW46IDEwcHg7XHJcbiAgICBvdmVyZmxvdzogYXV0bztcclxuICB9XHJcblxyXG4gIGhyIHtcclxuICAgIG1hcmdpbjogMjBweDtcclxuICB9XHJcbn1cclxuIl19 */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomepageComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -2761,85 +2750,6 @@ HomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
                 encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewEncapsulation"].None
             }]
     }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] }]; }, null); })();
-
-
-/***/ }),
-
-/***/ "rOuV":
-/*!*******************************************************************************!*\
-  !*** ./src/app/components/skill-progress-bar/skill-progress-bar.component.ts ***!
-  \*******************************************************************************/
-/*! exports provided: SkillProgressBarComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SkillProgressBarComponent", function() { return SkillProgressBarComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "SVse");
-/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/progress-bar */ "BTe0");
-/* harmony import */ var _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../directives/progress-bar-colors.directive */ "82IS");
-
-
-
-
-
-const _c0 = function (a0) { return { "border-color": a0 }; };
-class SkillProgressBarComponent {
-    constructor() {
-        // 'Begginer' = 0, 'Medium' = 1, 'Intermediate' = 2, 'Advanced'= 3 
-        this.LEVELS = [{
-                name: 'Begginer', value: 20
-            }, {
-                name: 'Medium', value: 50
-            }, {
-                name: 'Intermediate', value: 80
-            }, {
-                name: 'Advanced', value: 100
-            }];
-    }
-    ngOnInit() {
-    }
-}
-SkillProgressBarComponent.ɵfac = function SkillProgressBarComponent_Factory(t) { return new (t || SkillProgressBarComponent)(); };
-SkillProgressBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SkillProgressBarComponent, selectors: [["app-skill-progress-bar"]], inputs: { skill: "skill" }, decls: 9, vars: 8, consts: [[1, "subcategory"], [1, "subcategory-logo"], [3, "src"], [1, "subcategory-name", 3, "ngStyle"], [1, "progress"], ["mode", "determinate", 3, "value", "appProgressBarColors"], [1, "level-legend"]], template: function SkillProgressBarComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "mat-progress-bar", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", "../../../assets/skills/" + ctx.skill.logo + ".png", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](6, _c0, ctx.skill.color));
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.skill.name, " ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", ctx.LEVELS[ctx.skill.level].value)("appProgressBarColors", ctx.skill.color);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("(", ctx.LEVELS[ctx.skill.level].name, ")");
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"], _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_2__["MatProgressBar"], _directives_progress_bar_colors_directive__WEBPACK_IMPORTED_MODULE_3__["ProgressBarColorsDirective"]], styles: ["app-skill-progress-bar .subcategory {\n  display: flex;\n  flex-flow: row;\n  padding: 5px 20px;\n}\napp-skill-progress-bar .subcategory .subcategory-logo {\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n  width: 45px;\n  padding-right: 5px;\n}\napp-skill-progress-bar .subcategory .subcategory-logo img {\n  height: 25px;\n  width: auto;\n}\napp-skill-progress-bar .subcategory .subcategory-name {\n  place-self: center;\n  padding: 5px 5px;\n  border-style: solid;\n  border-width: 1px;\n  height: 100%;\n  width: 15%;\n}\napp-skill-progress-bar .subcategory .progress {\n  width: 100%;\n}\napp-skill-progress-bar .subcategory .progress .mat-progress-bar {\n  height: 30px;\n}\napp-skill-progress-bar .subcategory .progress .mat-progress-bar .mat-progress-bar-buffer {\n  background-color: #e9e9e9;\n}\napp-skill-progress-bar .subcategory .progress .level-legend {\n  opacity: 0.5;\n  font-size: small;\n  position: absolute;\n  margin-top: -24px;\n  padding-left: 5px;\n  color: #F8F8FF;\n}\n@media (max-width: 625px) {\n  app-skill-progress-bar .subcategory .subcategory-name {\n    width: 35vw;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9za2lsbC1wcm9ncmVzcy1iYXIvc2tpbGwtcHJvZ3Jlc3MtYmFyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC92YXJpYWJsZXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHRTtFQUNFLGFBQUE7RUFDQSxjQUFBO0VBQ0EsaUJBQUE7QUFGSjtBQUlJO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EseUJBQUE7RUFDQSxXQUFBO0VBQ0Esa0JBQUE7QUFGTjtBQUlNO0VBQ0UsWUFBQTtFQUNBLFdBQUE7QUFGUjtBQU1JO0VBQ0Usa0JBQUE7RUFDQSxnQkFBQTtFQUNBLG1CQUFBO0VBQ0EsaUJBQUE7RUFDQSxZQUFBO0VBQ0EsVUFBQTtBQUpOO0FBT0k7RUFDRSxXQUFBO0FBTE47QUFPTTtFQUNFLFlBQUE7QUFMUjtBQU9RO0VBQ0UseUJBQUE7QUFMVjtBQVFNO0VBQ0UsWUFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGlCQUFBO0VBQ0EsY0MzQ0s7QURxQ2I7QUFXRTtFQUVJO0lBQ0UsV0FBQTtFQVZOO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NraWxsLXByb2dyZXNzLWJhci9za2lsbC1wcm9ncmVzcy1iYXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IFwiLi4vLi4vdmFyaWFibGVzLnNjc3NcIjtcclxuXHJcbmFwcC1za2lsbC1wcm9ncmVzcy1iYXIge1xyXG4gIC5zdWJjYXRlZ29yeSB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1mbG93OiByb3c7XHJcbiAgICBwYWRkaW5nOiA1cHggMjBweDtcclxuXHJcbiAgICAuc3ViY2F0ZWdvcnktbG9nbyB7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgIGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7XHJcbiAgICAgIHdpZHRoOiA0NXB4O1xyXG4gICAgICBwYWRkaW5nLXJpZ2h0OiA1cHg7XHJcblxyXG4gICAgICBpbWcge1xyXG4gICAgICAgIGhlaWdodDogMjVweDtcclxuICAgICAgICB3aWR0aDogYXV0bztcclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC5zdWJjYXRlZ29yeS1uYW1lIHtcclxuICAgICAgcGxhY2Utc2VsZjogY2VudGVyO1xyXG4gICAgICBwYWRkaW5nOiA1cHggNXB4O1xyXG4gICAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gICAgICBib3JkZXItd2lkdGg6IDFweDtcclxuICAgICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgICB3aWR0aDogMTUlO1xyXG4gICAgfVxyXG5cclxuICAgIC5wcm9ncmVzcyB7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG5cclxuICAgICAgLm1hdC1wcm9ncmVzcy1iYXIge1xyXG4gICAgICAgIGhlaWdodDogMzBweDtcclxuXHJcbiAgICAgICAgLm1hdC1wcm9ncmVzcy1iYXItYnVmZmVyIHtcclxuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNlOWU5ZTk7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICAgIC5sZXZlbC1sZWdlbmQge1xyXG4gICAgICAgIG9wYWNpdHk6IDAuNTtcclxuICAgICAgICBmb250LXNpemU6IHNtYWxsO1xyXG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICBtYXJnaW4tdG9wOiAtMjRweDtcclxuICAgICAgICBwYWRkaW5nLWxlZnQ6IDVweDtcclxuICAgICAgICBjb2xvcjogJGJhY2tncm91bmQ7XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcblxyXG4gIEBtZWRpYSAobWF4LXdpZHRoOiA2MjVweCkge1xyXG4gICAgLnN1YmNhdGVnb3J5IHtcclxuICAgICAgLnN1YmNhdGVnb3J5LW5hbWUge1xyXG4gICAgICAgIHdpZHRoOiAzNXZ3O1xyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiIsIiRibGFjazogIzE4MTkxQTtcclxuJGdyYXk6ICMzQTNCM0M7XHJcbiRsaWdodGdyYXk6ICM4YjhiOGI7XHJcbiRiYWNrZ3JvdW5kOiAjRjhGOEZGO1xyXG4kd2hpdGU6ICNGRkZGRkY7XHJcbiRib3JkbzogI2E1MGMwYzsiXX0= */"], encapsulation: 2 });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SkillProgressBarComponent, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
-        args: [{
-                selector: 'app-skill-progress-bar',
-                templateUrl: './skill-progress-bar.component.html',
-                styleUrls: ['./skill-progress-bar.component.scss'],
-                encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewEncapsulation"].None
-            }]
-    }], function () { return []; }, { skill: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }] }); })();
 
 
 /***/ }),

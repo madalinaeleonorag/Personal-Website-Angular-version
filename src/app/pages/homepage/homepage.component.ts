@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
-import { AWARDS, CERTIFICATIONS, EDUCATION, EXPERIENCE, PROJECTS, PUBLICATIONS } from 'src/assets/data';
+import { EXPERIENCE, PROJECTS, PUBLICATIONS } from 'src/assets/data';
 
 @Component({
   selector: 'app-homepage',
@@ -17,11 +17,8 @@ export class HomepageComponent implements OnInit {
     { path: 'https://scontent.fotp3-3.fna.fbcdn.net/v/t1.0-9/69138846_2610602455821004_5727805971204407296_o.jpg?_nc_cat=108&ccb=2&_nc_sid=0debeb&_nc_ohc=uV9QeJP66MYAX_TQWVt&_nc_ht=scontent.fotp3-3.fna&oh=e2c1f290ccfe738dc8d09e43891e96bb&oe=602E88B6' }
   ];
   experience: any;
-  education: any;
-  awards: any;
   publication: any;
   projects: any;
-  certifications: any;
   isMobileView: boolean;
 
   constructor(private router: Router) {
@@ -30,11 +27,8 @@ export class HomepageComponent implements OnInit {
   ngOnInit(): void {
     this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
     this.experience = EXPERIENCE[0];
-    this.education = EDUCATION[0];
-    this.awards = AWARDS[0];
     this.publication = PUBLICATIONS[0];
     this.projects = PROJECTS.slice(0, 4);
-    this.certifications = CERTIFICATIONS.slice(0,2);
   }
 
   goToPage(page: string) {
