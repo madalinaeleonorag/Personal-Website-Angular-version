@@ -8,6 +8,7 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
+import { MatTableModule } from '@angular/material/table';
 
 // Modal galery imports
 import 'hammerjs';
@@ -25,9 +26,7 @@ import { ProgressBarColorsDirective } from './directives/progress-bar-colors.dir
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { ExperienceJobComponent } from './components/experience-job/experience-job.component';
 import { EducationLevelComponent } from './components/education-level/education-level.component';
-import { CertificationComponent } from './components/certification/certification.component';
 import { VolunteerComponent } from './components/volunteer/volunteer.component';
-import { CourseComponent } from './components/course/course.component';
 import { AwardsComponent } from './components/awards/awards.component';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
@@ -39,6 +38,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatMenuModule } from '@angular/material/menu';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
+import { InfoCardComponent } from './components/info-card/info-card.component';
 
 @NgModule({
   declarations: [
@@ -51,16 +51,15 @@ import { SkillCardComponent } from './components/skill-card/skill-card.component
     ExperienceComponent,
     ExperienceJobComponent,
     EducationLevelComponent,
-    CertificationComponent,
     VolunteerComponent,
-    CourseComponent,
     AwardsComponent,
     PublicationsComponent,
     ProjectsComponent,
     ProjectCardComponent,
     ProjectDetailsComponent,
     NotFoundComponent,
-    SkillCardComponent
+    SkillCardComponent,
+    InfoCardComponent,
   ],
   imports: [
     BrowserModule,
@@ -76,7 +75,8 @@ import { SkillCardComponent } from './components/skill-card/skill-card.component
     GalleryModule.forRoot(),
     IvyCarouselModule,
     HttpClientModule,
-    MatMenuModule
+    MatMenuModule,
+    MatTableModule
   ],
   exports: [
     MatProgressBarModule,
@@ -85,7 +85,8 @@ import { SkillCardComponent } from './components/skill-card/skill-card.component
     MatCardModule,
     MatSelectModule,
     MatTabsModule,
-    MatMenuModule
+    MatMenuModule,
+    MatTableModule
   ],
   bootstrap: [
     AppComponent

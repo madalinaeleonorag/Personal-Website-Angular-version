@@ -14,6 +14,7 @@ export class SkillsComponent implements OnInit {
   courses: any;
   keysSkills: string[];
 
+  columns: string[] = ['logo', 'name', 'organization'];
 
   constructor() {
     this.skills = SKILLS;

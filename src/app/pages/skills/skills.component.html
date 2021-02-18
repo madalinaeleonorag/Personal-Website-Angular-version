@@ -11,16 +11,46 @@
 <div class="category">
   <div class="category-name">Certifications</div>
   <div class="category-items">
-    <app-certification
-      [certificate]="certif"
-      *ngFor="let certif of certifications"
-    ></app-certification>
+    <app-info-card
+      [item]="certification"
+      *ngFor="let certification of certifications"
+    ></app-info-card>
   </div>
 </div>
 
 <div class="category">
   <div class="category-name">Courses</div>
+
   <div class="category-items">
+    <table mat-table [dataSource]="courses" class="courses-table">
+      <ng-container matColumnDef="logo">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let element">
+          <div
+            class="image-course"
+            [ngStyle]="{
+              background: 'url(' + element['logo'] + ')',
+              'background-position': 'center',
+              'background-size': 'cover'
+            }"
+          ></div>
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef>Name</th>
+        <td mat-cell *matCellDef="let element" class="name">{{ element["name"] }}</td>
+      </ng-container>
+      <ng-container matColumnDef="organization">
+        <th mat-header-cell *matHeaderCellDef>Organization</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element["organization"] }}
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="columns"></tr>
+      <tr mat-row *matRowDef="let row; columns: columns"></tr>
+    </table>
+
     <app-course [course]="course" *ngFor="let course of courses"></app-course>
   </div>
 </div>
