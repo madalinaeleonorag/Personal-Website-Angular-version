@@ -1,7 +1,7 @@
 @import "../../variables.scss";
 
 app-info-card {
-    display: flex;
+  display: flex;
   filter: opacity(0.5);
 
   .wrapper {
@@ -31,4 +31,23 @@ app-info-card {
 
 app-info-card:hover {
   filter: none;
+}
+
+@media (max-width: 800px) {
+  app-info-card {
+    .wrapper {
+      margin: 8px;
+      padding: 12px;
+      width: 90px;
+
+      .image {
+        width: 80px;
+        height: 80px;
+      }
+
+      .name {
+        font-size: smaller;
+      }
+    }
+  }
 }

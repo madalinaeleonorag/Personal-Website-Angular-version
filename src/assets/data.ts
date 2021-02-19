@@ -632,7 +632,6 @@ export const SKILLS = [
         { name: 'Ionic', level: 2, color: '#367CF7', logo: 'Ionic' },
         { name: 'React.js', level: 0, color: '#50BBD7', logo: 'Reactjs' },
         { name: 'Wordpress', level: 1, color: '#207196', logo: 'Wordpress' },
-        { name: 'Github', level: 3, color: '#302F2F', logo: 'Github' },
         { name: 'Git', level: 3, color: '#E84E31', logo: 'Git' },
         { name: 'NoSQL', level: 2, color: '#F7C52B', logo: 'NoSQL' },
         { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' },
