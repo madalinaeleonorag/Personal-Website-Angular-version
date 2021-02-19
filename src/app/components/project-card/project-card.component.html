@@ -3,9 +3,6 @@
   </div>
   <mat-card-header>
     <mat-card-title>{{ project.name }}</mat-card-title>
-    <mat-card-subtitle>
-      <a href="{{ project.code }}" target="_blank" *ngIf="project.code">&#60;/ See code &#62;</a>
-    </mat-card-subtitle>
       <mat-card-subtitle>
       {{ project.startDate }}
       <span *ngIf="project.endDate && project.startDate != project.endDate">
@@ -21,8 +18,11 @@
     </mat-chip-list>
   </mat-card-content>
   <mat-card-actions>
-    <button *ngIf="project.live" (click)="openNewTab()" class="text-button">
-      See live
+    <button *ngIf="project.code" (click)="openNewTab('code')" class="text-button">
+      &#60;/Code&#62;
+    </button>
+    <button *ngIf="project.live" (click)="openNewTab('live')" class="text-button">
+      Demo
     </button>
     <button (click)="seeDetails()" class="fill-button">See details</button>
   </mat-card-actions>

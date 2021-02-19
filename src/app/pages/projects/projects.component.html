@@ -1,12 +1,20 @@
-<!-- <mat-chip-list>
-  <mat-chip *ngFor="let filter of FILTERS">{{
-    filter
-  }}</mat-chip>
-</mat-chip-list> -->
+<mat-chip-list class="filters">
+  <mat-chip
+  (click)="selectTechnology('all')"
+    [ngClass]="{'selected-chip': isSelected()}"
+    >All technologies</mat-chip>
+  <mat-chip
+    *ngFor="let technology of uniqueTechnologies"
+    (click)="selectTechnology(technology)"
+    [ngClass]="{'selected-chip': isSelected(technology)}"
+  >
+    {{ technology }}
+  </mat-chip>
+</mat-chip-list>
 
 <div class="projects-cards">
   <app-project-card
     [project]="item"
-    *ngFor="let item of data"
+    *ngFor="let item of filteredData()"
   ></app-project-card>
 </div>

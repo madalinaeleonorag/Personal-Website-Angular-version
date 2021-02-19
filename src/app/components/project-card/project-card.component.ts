@@ -20,7 +20,10 @@ export class ProjectCardComponent implements OnInit {
     this.router.navigateByUrl(`/project/${this.project.id}`);
   }
 
-  openNewTab() {
-    window.open(this.project.live)
+  openNewTab(type: string) {
+    switch (type) {
+      case 'live': window.open(this.project.live);
+      case 'code': window.open(this.project.code)
+    }
   }
 }

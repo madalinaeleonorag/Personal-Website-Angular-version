@@ -34,13 +34,8 @@ app-project-card {
       .mat-chip-list-wrapper {
         justify-content: center;
 
-        .mat-chip {
-          font-size: 0.7rem;
-          background-color: $white;
-          color: $bordo;
-          min-height: 20px;
-          border-radius: unset;
-          margin: 2px;
+        .mat-standard-chip {
+          padding: 4px 5px;
         }
       }
     }
@@ -63,38 +58,20 @@ app-project-card {
     place-content: center;
   }
 
-  button {
-    border: none;
-    padding: 6px;
-    width: 100%;
-    cursor: pointer;
-  }
-
-  .fill-button {
-    background-color: $bordo;
-    color: $white;
-    border: 1px solid $bordo;
-  }
-
-  .fill-button:hover {
-    background-color: $white;
-    color: $bordo;
-  }
-
-  .text-button {
-    border: 1px solid $bordo;
-    background-color: $white;
-    color: $bordo;
-  }
-
   .mat-card-header .mat-card-title {
     padding: 12px 0;
     margin: 0;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   app-project-card {
-    flex: 1 0 50%;
+    flex: 0 0 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  app-project-card {
+    flex: 0 0 80%;
   }
 }

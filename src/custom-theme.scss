@@ -34,10 +34,6 @@ $project-theme: mat-light-theme(
 // that you are using.
 @include angular-material-theme($project-theme);
 
-html,
-body {
-  height: 100%;
-}
 body {
   margin: 0;
   font-family: "Verdana", "Helvetica Neue", sans-serif;

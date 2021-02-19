@@ -10,4 +10,19 @@ app-projects {
     justify-content: center;
     flex-flow: wrap;
   }
+
+  .filters {
+    .mat-chip-list-wrapper {
+      justify-content: center;
+      margin: 25px;
+
+      .selected-chip {
+        border: 1px solid $bordo !important;
+      }
+    }
+
+    .mat-chip:hover {
+      background-color: #a50c0c2b !important;
+    }
+  }
 }
