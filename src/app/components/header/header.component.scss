@@ -2,11 +2,16 @@
 
 app-header {
   display: flex;
+  height: 30px;
   flex-flow: row;
   background-color: $black;
   align-items: center;
   justify-content: space-between;
   padding: 15px;
+  margin-top: -60px;
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 99999;
 
   .menu-icon {
     display: none;

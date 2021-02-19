@@ -1,15 +1,22 @@
 @import "../../variables.scss";
 
 app-project-card {
-  flex: 1 0 23%;
-  margin: 10px;
+  flex: 0 0 20%;
+  margin: 15px;
   display: flex;
 
   .mat-card {
+    box-shadow: 0px 0px 3px -1px $lightgray !important;
     display: flex;
     flex-direction: column;
     height: -webkit-fill-available;
     width: 100%;
+    border-radius: unset;
+    padding: unset;
+  }
+
+  .mat-card-actions {
+    margin: 0 !important;
   }
 
   .image {
@@ -21,25 +28,21 @@ app-project-card {
   .technologies {
     display: flex;
 
-    .mat-chip {
-      font-size: 0.7rem;
-    }
+    &.mat-chip-list {
+      place-content: center;
 
-    .mat-chip.mat-standard-chip {
-      background-color: $white;
-      color: $bordo;
-    }
+      .mat-chip-list-wrapper {
+        justify-content: center;
 
-    .mat-standard-chip {
-      padding: 5px 5px;
-      border-radius: 15px;
-      border: 1px solid $bordo;
-      min-height: 20px;
-      height: 1px;
-    }
-
-    .mat-chip-list-wrapper {
-      margin: 4px -4px;
+        .mat-chip {
+          font-size: 0.7rem;
+          background-color: $white;
+          color: $bordo;
+          min-height: 20px;
+          border-radius: unset;
+          margin: 2px;
+        }
+      }
     }
   }
 
@@ -52,16 +55,8 @@ app-project-card {
     justify-content: space-between;
   }
 
-  .mat-chip-list {
-    place-content: center;
-  }
-
   .mat-card-header-text {
     text-align: -webkit-center;
-  }
-
-  .mat-chip-list-wrapper {
-    justify-content: center;
   }
 
   .mat-card-header {
@@ -71,14 +66,19 @@ app-project-card {
   button {
     border: none;
     padding: 6px;
-    margin: 2px;
+    width: 100%;
     cursor: pointer;
-    border-radius: 5px;
   }
+
   .fill-button {
-    box-shadow: 0 0 10px -2px $lightgray;
     background-color: $bordo;
     color: $white;
+    border: 1px solid $bordo;
+  }
+
+  .fill-button:hover {
+    background-color: $white;
+    color: $bordo;
   }
 
   .text-button {

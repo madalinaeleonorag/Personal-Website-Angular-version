@@ -11,6 +11,7 @@ import { PROJECTS } from 'src/assets/data';
 export class ProjectsComponent implements OnInit {
 
   data;
+  FILTERS = ['ALL', 'Design', 'Programming'];
 
   constructor() {
     this.data = PROJECTS;
@@ -18,4 +19,6 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  getD  
 }
