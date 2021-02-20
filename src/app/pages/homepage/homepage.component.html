@@ -10,7 +10,8 @@
 </div>
 <!-- <carousel [images]="images" [cellsToShow]="3" [borderRadius]="4" *ngIf="!isMobileView"> </carousel>
 <carousel [images]="images" [cellsToShow]="1" [borderRadius]="4" *ngIf="isMobileView"> </carousel> -->
-<div class="title">Last job experience</div>
+<hr />
+<div class="title-category">Last job experience</div>
 <app-experience-job
   [job]="experience"
   parentPage="homepage"
@@ -19,7 +20,7 @@
   <a (click)="goToPage('/experience')">&#60;/See more job experiences&#62;</a>
 </div>
 <hr />
-<div class="title">Last projects</div>
+<div class="title-category">Last projects</div>
 <div class="projects">
   <app-project-card
     [project]="project"
@@ -30,7 +31,7 @@
   <a (click)="goToPage('/projects')">&#60;/See more projects&#62;</a>
 </div>
 <hr />
-<div class="title">Last publication</div>
+<div class="title-category">Last publication</div>
 <app-publications [publication]="publication"></app-publications>
 <div class="see-more">
   <a (click)="goToPage('/experience')">&#60;/See more publications&#62;</a>

@@ -1,4 +1,22 @@
 @import "../../variables.scss";
 
 app-experience {
+  .other-work-experiences {
+    display: flex;
+    flex-flow: wrap;
+
+    app-experience-job {
+      flex: 0 0 50%;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  app-experience {
+    .other-work-experiences {
+      app-experience-job {
+        flex: 0 0 100%;
+      }
+    }
+  }
 }
