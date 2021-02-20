@@ -3,7 +3,7 @@
 app-homepage {
   .logo {
     text-align-last: center;
-    margin: 20px;
+    padding: 20px;
 
     img {
       width: auto;
@@ -14,8 +14,8 @@ app-homepage {
   .description-homepage {
     text-align: center;
     font-size: 1rem;
-    line-height: 1.5rem;
-    margin: 20px 50px;
+    line-height: 1.7rem;
+    margin: 20px 10vw;
   }
 
   .carousel {
@@ -27,12 +27,13 @@ app-homepage {
   .title {
     font-weight: bold;
     font-size: 1.2rem;
-    margin-left: 20px;
+    padding: 20px;
+    text-align: -webkit-center;
   }
 
   .see-more {
     text-align-last: end;
-    margin: 20px;
+    padding: 20px;
 
     a {
       cursor: pointer;

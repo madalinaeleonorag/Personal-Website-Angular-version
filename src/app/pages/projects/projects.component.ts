@@ -22,7 +22,7 @@ export class ProjectsComponent implements OnInit {
     this.data.forEach(project => {
       allTechnologies.push(...project.technologies);
     });
-    this.uniqueTechnologies = [...new Set(allTechnologies)];
+    this.uniqueTechnologies = [...new Set(allTechnologies)].sort();
   }
 
   isSelected(name?: string): boolean {
