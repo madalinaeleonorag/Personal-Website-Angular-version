@@ -34,5 +34,4 @@ export class HomepageComponent implements OnInit {
   goToPage(page: string) {
     this.router.navigateByUrl(`${page}`);
   }
-
 }

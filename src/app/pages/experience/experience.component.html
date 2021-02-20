@@ -1,20 +1,20 @@
 <mat-tab-group>
   <mat-tab label="Last work experience">
     <ng-template matTabContent>
-      <app-experience-job [job]="experience[0]"></app-experience-job>
-      <div class="title-category">Other work experiences</div>
+      <app-experience-card [experience]="experience[0]"></app-experience-card>
+      <div class="title-category">Work experiences</div>
       <div class="other-work-experiences">
-        <app-experience-job
-          [job]="item"
+        <app-experience-card
+          [experience]="item"
           *ngFor="let item of otherExperiences"
-        ></app-experience-job>
+        ></app-experience-card>
       </div>
       <div class="title-category">Volunteer</div>
       <div class="other-work-experiences">
-        <app-volunteer
-          [volunteer]="item"
+        <app-experience-card
+          [experience]="item"
           *ngFor="let item of volunteer"
-        ></app-volunteer>
+        ></app-experience-card>
       </div>
     </ng-template>
   </mat-tab>

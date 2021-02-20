@@ -12,10 +12,10 @@
 <carousel [images]="images" [cellsToShow]="1" [borderRadius]="4" *ngIf="isMobileView"> </carousel> -->
 <hr />
 <div class="title-category">Last job experience</div>
-<app-experience-job
-  [job]="experience"
+<app-experience-card
+  [experience]="experience"
   parentPage="homepage"
-></app-experience-job>
+></app-experience-card>
 <div class="see-more">
   <a (click)="goToPage('/experience')">&#60;/See more job experiences&#62;</a>
 </div>

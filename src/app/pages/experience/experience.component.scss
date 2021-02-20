@@ -5,7 +5,7 @@ app-experience {
     display: flex;
     flex-flow: wrap;
 
-    app-experience-job {
+    app-experience-card {
       flex: 0 0 50%;
     }
   }
@@ -14,7 +14,7 @@ app-experience {
 @media (max-width: 800px) {
   app-experience {
     .other-work-experiences {
-      app-experience-job {
+      app-experience-card {
         flex: 0 0 100%;
       }
     }

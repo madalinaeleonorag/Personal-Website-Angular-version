@@ -24,7 +24,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { ProgressBarColorsDirective } from './directives/progress-bar-colors.directive';
 import { ExperienceComponent } from './pages/experience/experience.component';
-import { ExperienceJobComponent } from './components/experience-job/experience-job.component';
+import { ExperienceCardComponent } from './components/experience-card/experience-card.component';
 import { EducationLevelComponent } from './components/education-level/education-level.component';
 import { VolunteerComponent } from './components/volunteer/volunteer.component';
 import { AwardsComponent } from './components/awards/awards.component';
@@ -49,7 +49,7 @@ import { InfoCardComponent } from './components/info-card/info-card.component';
     SkillsComponent,
     ProgressBarColorsDirective,
     ExperienceComponent,
-    ExperienceJobComponent,
+    ExperienceCardComponent,
     EducationLevelComponent,
     VolunteerComponent,
     AwardsComponent,
