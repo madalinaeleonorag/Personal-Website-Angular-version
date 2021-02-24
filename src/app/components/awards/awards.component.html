@@ -1,13 +1,16 @@
-<div class="header">
-  <div class="summary">
-    <div class="name">{{ award.name }}</div>
-    <div class="date" *ngIf="award.date">
-      {{ award.date }}
+<div class="award-wrapper">
+  <div class="header">
+    <div class="summary">
+      <img [src]="'assets/prizes/' + place + '.svg'">
+      <div class="name">{{ award.name }}</div>
+      <div class="date" *ngIf="award.date">
+        {{ award.date }}
+      </div>
     </div>
   </div>
+  <div
+    class="description"
+    [innerHTML]="award.description"
+    *ngIf="award.description"
+  ></div>
 </div>
-<div
-  class="description"
-  [innerHTML]="award.description"
-  *ngIf="award.description"
-></div>

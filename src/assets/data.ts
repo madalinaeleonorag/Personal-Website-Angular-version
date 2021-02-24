@@ -820,13 +820,15 @@ export const VOLUNTEER = [
 
 export const AWARDS = [
     {
-        name: '2nd place at Rau-DevHack Hackathon',
+        name: 'Rau-DevHack Hackathon',
+        place: 2,
         date: 'Apr 2019',
         description: 'Creating an application to help users choose the most recommended photographer for their event, according to their visual preferences, budget and period, giving photographers easier management on the event calendar and applications.'
     },
     {
-        name: '1st place for Web&Mobile Challenge at DevHacks',
+        name: 'Web&Mobile Challenge at DevHacks',
         date: 'Nov 2018',
+        place: 1,
         description: `
       Our result should allows candidates from Romania the possibility to offer reviews/ratings to companies about key areas such as:<br>
         - recruitment process;<br>
@@ -842,7 +844,8 @@ export const AWARDS = [
       `
     },
     {
-        name: 'Note - IE Robot Contest',
+        name: 'IE Robot Contest',
+        place: 4,
         date: 'May 2014',
         description: 'Edition V-organized in Electrical Engineering Days 2014 in Politehnica University.'
     }

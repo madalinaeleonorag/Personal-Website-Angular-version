@@ -31,8 +31,7 @@
   <a (click)="goToPage('/projects')">&#60;/See more projects&#62;</a>
 </div>
 <hr />
-<div class="title-category">Last publication</div>
-<app-publications [publication]="publication"></app-publications>
-<div class="see-more">
-  <a (click)="goToPage('/experience')">&#60;/See more publications&#62;</a>
+<div class="title-category">Last publications</div>
+<div class="publications">
+  <app-publications *ngFor="let publication of publications" [publication]="publication"></app-publications>
 </div>

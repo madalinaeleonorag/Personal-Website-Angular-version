@@ -1,7 +1,13 @@
-<div class="header">
-  <div class="image" *ngIf="publication.logo">
-  <img src="{{ publication.logo }}" />
-</div>
+<div class="publication-wrapper">
+  <div
+    class="image"
+    *ngIf="publication.logo"
+    [ngStyle]="{
+      background: 'url(' + publication.logo + ')',
+      'background-position': 'center',
+      'background-size': 'cover'
+    }"
+  ></div>
   <div class="summary">
     <div class="organization" *ngIf="publication.organization">
       {{ publication.organization }}
@@ -13,8 +19,3 @@
     </div>
   </div>
 </div>
-<div
-  class="description"
-  [innerHTML]="publication.description"
-  *ngIf="publication.description"
-></div>

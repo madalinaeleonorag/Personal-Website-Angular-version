@@ -1,8 +1,8 @@
 <mat-tab-group>
-  <mat-tab label="Last work experience">
+  <mat-tab label="Work experiences">
     <ng-template matTabContent>
       <app-experience-card [experience]="experience[0]"></app-experience-card>
-      <div class="title-category">Work experiences</div>
+      <div class="title-category">Other work experiences</div>
       <div class="other-work-experiences">
         <app-experience-card
           [experience]="item"
@@ -31,14 +31,6 @@
     <ng-template matTabContent>
       <div *ngFor="let item of awards">
         <app-awards [award]="item"></app-awards>
-      </div>
-    </ng-template>
-  </mat-tab>
-
-  <mat-tab label="Publications">
-    <ng-template matTabContent>
-      <div *ngFor="let item of publications">
-        <app-publications [publication]="item"></app-publications>
       </div>
     </ng-template>
   </mat-tab>

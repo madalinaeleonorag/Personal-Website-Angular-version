@@ -1,36 +1,49 @@
 @import "../../variables.scss";
 
-app-awards {
+app-awards .award-wrapper {
+  padding: 30px;
+
   .header {
     display: flex;
     flex-flow: row;
     align-items: center;
-    padding: 20px 20px 10px 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    text-align: center;
 
     .summary {
       display: flex;
       flex-flow: column;
 
+      img {
+        height: 15vh;
+      }
+
       .name {
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         color: $bordo;
-        margin: 4px 0;
+        margin: 10px 0;
       }
+
       .date {
-        font-weight: normal;
+        font-weight: bold;
+        color: $lightgray;
       }
     }
   }
 
   .description {
-    padding: 0 20px 20px;
     line-height: 1.5rem;
+    padding: 0 15vw;
   }
 
   @media (max-width: 750px) {
     .header {
       flex-flow: wrap;
+    }
+    .description {
+      padding: 0 5vw;
     }
   }
 }

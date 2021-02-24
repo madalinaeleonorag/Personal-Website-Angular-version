@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { EXPERIENCE, EDUCATION, VOLUNTEER, AWARDS, PUBLICATIONS } from 'src/assets/data';
+import { EXPERIENCE, EDUCATION, VOLUNTEER, AWARDS } from 'src/assets/data';
 
 @Component({
   selector: 'app-experience',
@@ -13,7 +13,6 @@ export class ExperienceComponent implements OnInit {
   education = [];
   volunteer = [];
   awards = [];
-  publications = [];
   otherExperiences = [];
 
   constructor() {
@@ -21,7 +20,6 @@ export class ExperienceComponent implements OnInit {
     this.education = EDUCATION;
     this.volunteer = VOLUNTEER;
     this.awards = AWARDS;
-    this.publications = PUBLICATIONS;
     this.otherExperiences = this.experience.slice(1, this.experience.length);
   }
 

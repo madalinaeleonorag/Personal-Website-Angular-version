@@ -1,49 +1,47 @@
 @import "../../variables.scss";
 
-app-publications {
-  .header {
+app-publications .publication-wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+
+  .image {
+    height: 150px;
+    width: 150px;
+  }
+
+  .summary {
     display: flex;
-    flex-flow: row;
-    align-items: center;
-    padding: 20px 20px 10px 20px;
+    padding-top: 10px;
+    flex-flow: column;
 
-    .image {
-      padding-right: 20px;
-
-      img {
-        max-width: 150px;
-        height: auto;
-      }
+    .organization {
+      font-weight: bold;
+      color: $gray;
     }
-    
-    .summary {
-      display: flex;
-      flex-flow: column;
-
-      .organization {
-        font-weight: bold;
-        color: $gray;
-      }
-      .name {
-        font-weight: bold;
-        font-size: 1.2rem;
-        color: $bordo;
-        margin: 4px 0;
-      }
-      .date {
-        font-weight: normal;
-      }
+    .name {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: $bordo;
+      padding: 10px 0;
+    }
+    .date {
+      font-weight: bold;
+      color: $lightgray;
+      padding-bottom: 5px;
     }
   }
+}
 
-  .description {
-    padding: 0 20px 20px;
-    line-height: 1.5rem;
-  }
+.description {
+  padding: 0 20px 20px;
+  line-height: 1.5rem;
+}
 
-  @media (max-width: 750px) {
-    .header {
-      flex-flow: wrap;
-    }
+@media (max-width: 750px) {
+  .header {
+    flex-flow: wrap;
   }
 }
