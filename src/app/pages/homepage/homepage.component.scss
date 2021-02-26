@@ -18,7 +18,7 @@ app-homepage {
     margin: 20px 10vw;
   }
 
-  .carousel {
+  .selfies {
     height: 50% !important;
     margin: 30px;
     width: auto;
@@ -38,10 +38,19 @@ app-homepage {
     display: flex;
     margin: 10px;
     overflow: auto;
+    justify-content: center;
   }
 
   hr {
     margin: 20px;
+  }
+
+  .experience {
+    app-experience-card {
+      .header {
+        justify-content: center;
+      }
+    }
   }
 
   .publications {
@@ -53,10 +62,33 @@ app-homepage {
     }
   }
 
+  .plain-container {
+    justify-content: center !important;
+    margin: 20px 40px 40px;
+    display: flex !important;
+    flex-flow: wrap;
+
+    .image {
+      margin: 5px !important;
+      height: 200px !important;
+      width: auto !important;
+      box-shadow: 0 0 10px -3px $lightgray;
+    }
+  }
+
   @media (max-width: 850px) {
     .publications {
       app-publications {
         flex: 0 0 50%;
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+    .plain-container {
+      .image {
+        height: auto !important;
+        width: 100% !important;
       }
     }
   }

@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
 import { EXPERIENCE, PROJECTS, PUBLICATIONS } from 'src/assets/data';
+import { Image } from '@ks89/angular-modal-gallery';
 
 @Component({
   selector: 'app-homepage',
@@ -10,11 +11,11 @@ import { EXPERIENCE, PROJECTS, PUBLICATIONS } from 'src/assets/data';
 })
 export class HomepageComponent implements OnInit {
 
-  images = [
-    { path: 'assets/selfies/1.jpg' },
-    { path: 'assets/selfies/2.jpg' },
-    { path: 'assets/selfies/3.jpg' },
-    { path: 'assets/selfies/4.jpg' }
+  images: any;
+  selfies = [
+    'assets/selfies/1.jpg',
+    'assets/selfies/2.jpg',
+    'assets/selfies/3.jpg'
   ];
   experience: any;
   publications: any;
@@ -23,12 +24,17 @@ export class HomepageComponent implements OnInit {
 
   constructor(private router: Router) {
   }
-  
+
   ngOnInit(): void {
     this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
     this.experience = EXPERIENCE[0];
     this.publications = PUBLICATIONS;
     this.projects = PROJECTS.slice(0, 4);
+
+    this.images = this.selfies ? this.selfies.map((imageUrl, index) => new Image(index, {
+      img: imageUrl
+    })) : [];
+
   }
 
   goToPage(page: string) {

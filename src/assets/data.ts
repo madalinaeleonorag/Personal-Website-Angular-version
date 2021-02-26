@@ -13,7 +13,8 @@ export const PROJECTS = [
             '../assets/projects/furniture-design/desk-dressing-bedroom.png',
             '../assets/projects/furniture-design/showcase.png',
             '../assets/projects/furniture-design/kitchen.png',
-            '../assets/projects/furniture-design/kitchen-2.png'
+            '../assets/projects/furniture-design/kitchen-2.png',
+            '../assets/projects/furniture-design/living-dressing.png'
         ],
         logo: '../assets/projects/furniture-design/desk-dressing-bedroom.png'
     },

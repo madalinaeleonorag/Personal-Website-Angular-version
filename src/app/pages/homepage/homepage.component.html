@@ -8,14 +8,21 @@
   working with people around the globe and learning how to deliver their
   expectations.
 </div>
-<!-- <carousel [images]="images" [cellsToShow]="3" [borderRadius]="4" *ngIf="!isMobileView"> </carousel>
-<carousel [images]="images" [cellsToShow]="1" [borderRadius]="4" *ngIf="isMobileView"> </carousel> -->
+<div class="selfies">
+  <ks-modal-gallery
+    [id]="6"
+    [modalImages]="images"
+    [slideConfig]="{ infinite: true, sidePreviews: { show: false } }"
+  ></ks-modal-gallery>
+</div>
 <hr />
 <div class="title-category">Last job experience</div>
-<app-experience-card
-  [experience]="experience"
-  parentPage="homepage"
-></app-experience-card>
+<div class="experience">
+  <app-experience-card
+    [experience]="experience"
+    parentPage="homepage"
+  ></app-experience-card>
+</div>
 <div class="see-more">
   <a (click)="goToPage('/experience')">&#60;/See more job experiences&#62;</a>
 </div>
@@ -33,5 +40,8 @@
 <hr />
 <div class="title-category">Last publications</div>
 <div class="publications">
-  <app-publications *ngFor="let publication of publications" [publication]="publication"></app-publications>
+  <app-publications
+    *ngFor="let publication of publications"
+    [publication]="publication"
+  ></app-publications>
 </div>
