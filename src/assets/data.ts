@@ -1,6 +1,57 @@
 export const PROJECTS = [
-        {
-        id: 18,
+    {
+        id: 1,
+        name: 'Photography',
+        startDate: 'Jun 2018',
+        endDate: 'Present',
+        type: 'Personal project',
+        technologies: ['Photoshop', 'Lightroom', 'Photography'],
+        live: 'https://www.viewbug.com/member/madalinaeleonorag',
+        images: [
+            '../assets/projects/1/1.jpg',
+            '../assets/projects/1/2.jpg',
+            '../assets/projects/1/3.jpg',
+            '../assets/projects/1/4.jpg',
+            '../assets/projects/1/5.jpg',
+            '../assets/projects/1/6.jpg',
+            '../assets/projects/1/7.jpg',
+            '../assets/projects/1/8.jpg',
+            '../assets/projects/1/9.jpg',
+            '../assets/projects/1/10.jpg',
+            '../assets/projects/1/11.jpg',
+            '../assets/projects/1/12.jpg',
+            '../assets/projects/1/13.jpg',
+            '../assets/projects/1/14.jpg',
+            '../assets/projects/1/15.jpg',
+            '../assets/projects/1/16.jpg',
+            '../assets/projects/1/17.jpg',
+            '../assets/projects/1/18.jpg',
+            '../assets/projects/1/19.jpg',
+            '../assets/projects/1/20.jpg',
+            '../assets/projects/1/21.jpg',
+            '../assets/projects/1/22.jpg',
+            '../assets/projects/1/23.jpg',
+            '../assets/projects/1/24.jpg',
+            '../assets/projects/1/25.jpg',
+            '../assets/projects/1/26.jpg',
+            '../assets/projects/1/27.jpg',
+            '../assets/projects/1/28.jpg',
+            '../assets/projects/1/29.jpg',
+            '../assets/projects/1/30.jpg',
+            '../assets/projects/1/31.jpg',
+            '../assets/projects/1/32.jpg',
+            '../assets/projects/1/33.jpg',
+            '../assets/projects/1/34.jpg',
+            '../assets/projects/1/35.jpg',
+            '../assets/projects/1/36.jpg',
+            '../assets/projects/1/37.jpg',
+            '../assets/projects/1/38.jpg',
+            '../assets/projects/1/39.jpg'
+        ],
+        logo: '../assets/projects/1/4.jpg'
+    },
+    {
+        id: 2,
         name: 'Madalina Eleonora - Furniture Design',
         startDate: 'Dec 2018',
         endDate: 'Present',
@@ -10,16 +61,16 @@ export const PROJECTS = [
             Long time ago I started drawing furniture design for my own place or for others, discovering that I have a passion for it.
         `,
         images: [
-            '../assets/projects/furniture-design/desk-dressing-bedroom.png',
-            '../assets/projects/furniture-design/showcase.png',
-            '../assets/projects/furniture-design/kitchen.png',
-            '../assets/projects/furniture-design/kitchen-2.png',
-            '../assets/projects/furniture-design/living-dressing.png'
+            '../assets/projects/2/1.png',
+            '../assets/projects/2/2.png',
+            '../assets/projects/2/3.png',
+            '../assets/projects/2/4.png',
+            '../assets/projects/2/5.png'
         ],
-        logo: '../assets/projects/furniture-design/desk-dressing-bedroom.png'
+        logo: '../assets/projects/2/1.png'
     },
     {
-        id: 17,
+        id: 3,
         name: 'CRUD PHP MySQL',
         startDate: 'Feb 2021',
         endDate: 'Feb 2021',
@@ -30,15 +81,15 @@ export const PROJECTS = [
             CRUD PHP and MySQL application
         `,
         images: [
-            'https://raw.githubusercontent.com/madalinaeleonorag/CRUD-PHP-mySQL/main/screenshots/login.png',
-            'https://raw.githubusercontent.com/madalinaeleonorag/CRUD-PHP-mySQL/main/screenshots/account-details.png',
-            'https://raw.githubusercontent.com/madalinaeleonorag/CRUD-PHP-mySQL/main/screenshots/edit-details.png',
-            'https://raw.githubusercontent.com/madalinaeleonorag/CRUD-PHP-mySQL/main/screenshots/database.png'
+            '../assets/projects/3/1.png',
+            '../assets/projects/3/2.png',
+            '../assets/projects/3/3.png',
+            '../assets/projects/3/4.png',
         ],
-        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/CRUD-PHP-mySQL/main/screenshots/login.png'
+        logo: '../assets/projects/3/4.png',
     },
     {
-        id: 0,
+        id: 4,
         name: 'FreeCodeCamp.com Projects',
         startDate: 'Sep 2020',
         endDate: 'Present',
@@ -56,55 +107,17 @@ export const PROJECTS = [
             - Portfolio page.
         `,
         images: [
-            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/tribute-project/tribute-design.png',
-            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/form-project/form-design.png',
-            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/landing-project/landing-design.png',
-            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/technical-project/technical-design.png',
-            'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/portfolio-project/portfolio-design.png'
+            '../assets/projects/4/1.png',
+            '../assets/projects/4/2.png',
+            '../assets/projects/4/3.png',
+            '../assets/projects/4/4.png',
+            '../assets/projects/4/5.png',
         ],
-        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/FreeCodeCamp.com-Projects/master/Responsive-Web-Design-Certification/landing-project/landing-design.png'
+        logo: '../assets/projects/4/3.png',
     },
+
     {
-        id: 1,
-        name: 'Madalina Eleonora - Photography',
-        startDate: 'Jun 2018',
-        endDate: 'Present',
-        type: 'Personal project',
-        technologies: ['Photoshop', 'Lightroom', 'Photography'],
-        live: 'https://www.viewbug.com/member/madalinaeleonorag',
-        images: [
-            'https://www.viewbug.com/photo/92761253/embed',
-            'https://drscdn.500px.org/photo/274677301/q%3D80_m%3D2000/v2?sig=b8e9003effc3cd14c6bb5b6bfac2ec2faf6eef99afc0ea4e3ca98dea3b221d0c',
-            'https://drscdn.500px.org/photo/1001821941/q%3D80_m%3D2000_k%3D1/v2?sig=ecf84c046abbab098e1c14ea76050cc9e8b058fb11e5dc2853ff59601c83f087',
-            'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc',
-            'https://drscdn.500px.org/photo/1008740520/q%3D80_m%3D2000_k%3D1/v2?sig=4f20290e2e59325e77b9371f77e10025cbe88e7336dff24ab460f8465e9c8153',
-            'https://drscdn.500px.org/photo/1021798234/q%3D80_m%3D2000/v2?sig=85d4ebbe48dabd022aa0312a6b932419ef1d54a854ebc8fcd676ecfc8bf6ded3',
-            'https://drscdn.500px.org/photo/274148531/q%3D80_m%3D2000/v2?sig=83745aad0239a79dd100a7ab1c9408444ba29c15bc42bde350cd03938bf2ffbd',
-            'https://drscdn.500px.org/photo/299511073/q%3D80_m%3D2000_k%3D1/v2?sig=2e17140df120e4574c6d94783628d7695c15e3a3358704975c056e3f0fa835f3',
-            'https://drscdn.500px.org/photo/1021798163/q%3D80_m%3D2000/v2?sig=7aa5def0276ffcfd8cda41d0a759208038bf82643ba02ea36add46f9b7e9bd39',
-            'https://drscdn.500px.org/photo/274677625/q%3D80_m%3D2000/v2?sig=2befa1252f7a6ac7c7065613b39d0e784a903a24e6e778622996f662b25b7751',
-            'https://drscdn.500px.org/photo/1021800163/q%3D80_m%3D2000/v2?sig=d1b561de063576562ab601833f4886852e0279ccbb67d285246b2dd073b7afba',
-            'https://drscdn.500px.org/photo/1024923058/q%3D80_m%3D1000/v2?sig=f341fda9ae4362c5620bce921629091a13ac2cb040ff1503bfa964eaa0a0bfee',
-            'https://drscdn.500px.org/photo/274675807/q%3D80_m%3D2000/v2?sig=8427bc6fe43f49b86a3a8f610f5c72697d7299ea829f8af251ceaa6a5340e4d4',
-            'https://drscdn.500px.org/photo/274675811/q%3D80_m%3D2000/v2?sig=ebf1bf3f890aad8a9ca86a5b19a10408372d52190a4c789ee87ddd6189f7a057',
-            'https://drscdn.500px.org/photo/274673693/q%3D80_m%3D2000/v2?sig=8ca6a504a9b659352523386d6b165d110ff3fc53618fd56f7dc6b136683c7e1d',
-            'https://drscdn.500px.org/photo/274673705/q%3D80_m%3D1000/v2?sig=f59ca4d1bd0876a9090dc585ca35ccc310ed4a841873ba3f9eff50799cb179dd',
-            'https://drscdn.500px.org/photo/1023757921/q%3D80_m%3D2000/v2?sig=f5a5925fe77df77111c8c40be131f4ea7c3a581f7d7c29650d1e5d8a0fa55d0e',
-            'https://drscdn.500px.org/photo/274680129/q%3D80_m%3D2000/v2?sig=16bebb5070807146c4ce55c35b625a9130ae4d2fd8ad9c38ad468ad0535b5f19',
-            'https://drscdn.500px.org/photo/274672111/q%3D80_m%3D1000/v2?sig=b1343707dd5af615afbf03be17249d9da1a91e3d74465498880f0ce0c581858a',
-            'https://drscdn.500px.org/photo/274682401/q%3D80_m%3D2000/v2?sig=38696601dc7250502fdc487ff81aa41aae46876e9f36a0e6f82d217d4b3023c4',
-            'https://drscdn.500px.org/photo/1022942738/q%3D80_m%3D2000/v2?sig=f38cfd2804dac268136df88ae15f5746ffe069888834e7b0f799d00c9b7d109b',
-            'https://drscdn.500px.org/photo/304703171/q%3D80_m%3D1000_k%3D1/v2?sig=6f2c82b9ba98bd30c98324952214d142697bf3457574998cd42bd20e2fc4f01f',
-            'https://drscdn.500px.org/photo/274678773/q%3D80_m%3D2000/v2?sig=5ec65d579b51be9dd2330ab6c6c803bc3c91e09867cf8a22bf2e77ae94a673e1',
-            'https://drscdn.500px.org/photo/274678759/q%3D80_m%3D2000/v2?sig=50706a11686647e1a3d4dd9744b7e01d51a4c4c108a43940a37111739235c4f6',
-            'https://drscdn.500px.org/photo/274671995/q%3D80_m%3D2000/v2?sig=962089089c19531ae7cbe38385481ccc8cfdbb6a8c7d3b1e2bf8d395348425ac',
-            'https://drscdn.500px.org/photo/305513915/q%3D80_m%3D2000_k%3D1/v2?sig=74b14a7603df6baf02a857c63e20c0d775f77c2bdf8f47f1deddf2b4fbd457cd',
-            'https://drscdn.500px.org/photo/274681407/q%3D80_m%3D2000/v2?sig=e060226581eed5d6f587b4f7001f90e450cea1b9886d505ce536384d2c961252'
-        ],
-        logo: 'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc'
-    },
-    {
-        id: 2,
+        id: 5,
         name: 'JavaScript30 Wes Bos Challenge',
         startDate: 'Nov 2020',
         endDate: 'Dec 2020',
@@ -147,7 +160,7 @@ export const PROJECTS = [
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/24days-of-JavaScriptmas-by-Scrimba/master/screenshots/24.jpg'
     },
     {
-        id: 3,
+        id: 6,
         name: 'Learning League - Hipo DevHack Hackathon',
         startDate: 'Nov 2020',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'CometChat', 'Firebase'],
@@ -189,7 +202,7 @@ export const PROJECTS = [
         logo: 'assets/projects/3.png'
     },
     {
-        id: 4,
+        id: 7,
         name: 'ToDo App',
         startDate: 'Aug 2020',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'SweetAlert2', 'Firebase'],
@@ -215,7 +228,7 @@ export const PROJECTS = [
         logo: 'assets/projects/4.png'
     },
     {
-        id: 5,
+        id: 8,
         name: 'UniversityRating',
         startDate: 'Jul 2018',
         endDate: 'Jul 2020',
@@ -246,7 +259,7 @@ export const PROJECTS = [
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/UniversityRating/master/src/assets/presentation/homepage.png'
     },
     {
-        id: 6,
+        id: 9,
         name: 'Exams Schedule',
         startDate: 'Apr 2020',
         endDate: 'May 2020',
@@ -270,7 +283,7 @@ export const PROJECTS = [
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/ExamsSchedule/master/src/assets/homepage.png'
     },
     {
-        id: 7,
+        id: 10,
         name: 'Madalina Eleonora - Graphic Design',
         startDate: 'June 2015',
         endDate: 'Present',
@@ -279,17 +292,17 @@ export const PROJECTS = [
         description: `
             Providing logos for different clients and pro bono`,
         images: [
-            'assets/projects/7-1.png',
-            'assets/projects/7-2.png',
-            'assets/projects/7-3.png',
-            'assets/projects/7-4.png',
-            'assets/projects/7-5.png',
-            'assets/projects/7-6.png'
+            'assets/projects/10/1.png',
+            'assets/projects/10/2.png',
+            'assets/projects/10/3.png',
+            'assets/projects/10/4.png',
+            'assets/projects/10/5.png',
+            'assets/projects/10/6.png'
         ],
-        logo: 'assets/projects/7-2.png'
+        logo: 'assets/projects/10/2.png'
     },
     {
-        id: 8,
+        id: 11,
         name: 'Johnny\'z website',
         startDate: 'May 2019',
         endDate: 'Oct 2019',
@@ -298,17 +311,17 @@ export const PROJECTS = [
         live: 'https://www.johnnypizza.ro/',
         description: `Is a site created in Wordpress, the result of a faculty project and currently used as the official site of Johhny'z restaurants.`,
         images: [
-            'assets/projects/8-1.png',
-            'assets/projects/8-2.png',
-            'assets/projects/8-3.png',
-            'assets/projects/8-4.png',
-            'assets/projects/8-5.png',
-            'assets/projects/8-6.png'
+            'assets/projects/11/1.png',
+            'assets/projects/11/2.png',
+            'assets/projects/11/3.png',
+            'assets/projects/11/4.png',
+            'assets/projects/11/5.png',
+            'assets/projects/11/6.png'
         ],
-        logo: 'assets/projects/8.png'
+        logo: 'assets/projects/11/1.png'
     },
     {
-        id: 9,
+        id: 12,
         name: 'TeachMe',
         startDate: 'Mar 2019',
         endDate: 'May 2019',
@@ -337,7 +350,7 @@ export const PROJECTS = [
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/TeachMe/master/src/assets/hp2.png'
     },
     {
-        id: 10,
+        id: 13,
         name: 'PhotoBooking - RauDevHack Hackathon',
         startDate: 'Apr 2019',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
@@ -367,7 +380,7 @@ export const PROJECTS = [
         logo: 'assets/projects/10.png'
     },
     {
-        id: 11,
+        id: 14,
         name: 'SmileSharing App - Do IT Girls! Hackathon. Powered by Microsoft',
         startDate: 'Mar 2019',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
@@ -398,7 +411,7 @@ export const PROJECTS = [
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/master/src/assets/1.png'
     },
     {
-        id: 12,
+        id: 15,
         name: 'Rap Jobs - Hipo DevHack Hackathon',
         startDate: 'Nov 2018',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
@@ -429,7 +442,7 @@ export const PROJECTS = [
         logo: 'assets/projects/12.png'
     },
     {
-        id: 13,
+        id: 16,
         name: 'Waffic',
         startDate: 'Mar 2018',
         endDate: 'Jul 2018',
@@ -459,7 +472,7 @@ export const PROJECTS = [
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Waffic/master/src/assets/Presentation/map.jpg'
     },
     {
-        id: 14,
+        id: 17,
         name: 'Events Attendances',
         startDate: 'Jan 2018',
         endDate: 'May 2018',
@@ -492,7 +505,7 @@ export const PROJECTS = [
         logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Events-Attendances/master/src/assets/1.png'
     },
     {
-        id: 15,
+        id: 18,
         name: 'Backpropagation',
         startDate: 'Dec 2019',
         technologies: ['C#', 'Visual Studio'],
@@ -579,7 +592,7 @@ export const PROJECTS = [
         logo: 'https://victorzhou.com/media/nn-series/network.svg'
     },
     {
-        id: 16,
+        id: 19,
         name: 'Sudoku Backtracking',
         startDate: 'Dec 2019',
         technologies: ['C#', 'Visual Studio'],
@@ -621,26 +634,26 @@ export const PROJECTS = [
 ]
 
 export const SKILLS = [
-        { name: 'HTML5', level: 3, color: '#E85D25', logo: 'HTML5' },
-        { name: 'CSS3', level: 2, color: '#249CDA', logo: 'CSS3' },
-        { name: 'SCSS', level: 2, color: '#C96195', logo: 'SCSS' },
-        { name: 'Bootstrap', level: 2, color: '#533B78', logo: 'Bootstrap' },
-        { name: 'Javascript', level: 3, color: '#EFD81D', logo: 'Javascript' },
-        { name: 'Vue.js', level: 3, color: '#3FB27F', logo: 'Vuejs' },
-        { name: 'Vuex', level: 3, color: '#33475B', logo: 'Vuex' },
-        { name: 'Angular', level: 3, color: '#BD002E', logo: 'Angular' },
-        { name: 'JQuery', level: 1, color: '#0864A7', logo: 'JQuery' },
-        { name: 'Ionic', level: 2, color: '#367CF7', logo: 'Ionic' },
-        { name: 'React.js', level: 0, color: '#50BBD7', logo: 'Reactjs' },
-        { name: 'Wordpress', level: 1, color: '#207196', logo: 'Wordpress' },
-        { name: 'Git', level: 3, color: '#E84E31', logo: 'Git' },
-        { name: 'NoSQL', level: 2, color: '#F7C52B', logo: 'NoSQL' },
-        { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' },
-        { name: 'Lightroom', level: 1, color: '#0A232F', logo: 'Lightroom' }
+    { name: 'HTML5', level: 3, color: '#E85D25', logo: 'HTML5' },
+    { name: 'CSS3', level: 2, color: '#249CDA', logo: 'CSS3' },
+    { name: 'SCSS', level: 2, color: '#C96195', logo: 'SCSS' },
+    { name: 'Bootstrap', level: 2, color: '#533B78', logo: 'Bootstrap' },
+    { name: 'Javascript', level: 3, color: '#EFD81D', logo: 'Javascript' },
+    { name: 'Vue.js', level: 3, color: '#3FB27F', logo: 'Vuejs' },
+    { name: 'Vuex', level: 3, color: '#33475B', logo: 'Vuex' },
+    { name: 'Angular', level: 3, color: '#BD002E', logo: 'Angular' },
+    { name: 'JQuery', level: 1, color: '#0864A7', logo: 'JQuery' },
+    { name: 'Ionic', level: 2, color: '#367CF7', logo: 'Ionic' },
+    { name: 'React.js', level: 0, color: '#50BBD7', logo: 'Reactjs' },
+    { name: 'Wordpress', level: 1, color: '#207196', logo: 'Wordpress' },
+    { name: 'Git', level: 3, color: '#E84E31', logo: 'Git' },
+    { name: 'NoSQL', level: 2, color: '#F7C52B', logo: 'NoSQL' },
+    { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' },
+    { name: 'Lightroom', level: 1, color: '#0A232F', logo: 'Lightroom' }
 ];
 
 export const CERTIFICATIONS = [
-     {
+    {
         logo: 'https://images.youracclaim.com/size/680x680/images/88bef918-2e93-4e68-8782-60f706db53f4/IBM_Quantum_Conversations.png',
         name: 'IBM Quantum Conversations',
         organization: 'IBM',
