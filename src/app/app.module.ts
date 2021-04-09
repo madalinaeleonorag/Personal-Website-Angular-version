@@ -39,6 +39,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
 import { InfoCardComponent } from './components/info-card/info-card.component';
+import { CustomButtonComponent } from './components/custom-button/custom-button.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { InfoCardComponent } from './components/info-card/info-card.component';
     NotFoundComponent,
     SkillCardComponent,
     InfoCardComponent,
+    CustomButtonComponent,
   ],
   imports: [
     BrowserModule,

@@ -16,9 +16,7 @@
       technology
     }}</mat-chip>
   </mat-chip-list>
-  <button *ngIf="project.live" (click)="openNewTab()">
-    See live
-  </button>
+  <app-custom-button buttonText="See live" [isFilledButton]="false" *ngIf="project.live" (click)="openNewTab()"></app-custom-button>
 </div>
 <div class="description" [innerHTML]="project.description"></div>
 

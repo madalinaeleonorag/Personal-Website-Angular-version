@@ -18,12 +18,9 @@
     </mat-chip-list>
   </mat-card-content>
   <mat-card-actions>
-    <button *ngIf="project.code" (click)="openNewTab('code')" class="text-button">
-      &#60;/Code&#62;
-    </button>
-    <button *ngIf="project.live" (click)="openNewTab('live')" class="text-button">
-      Demo
-    </button>
-    <button (click)="seeDetails()" class="fill-button">See details</button>
+    <app-custom-button buttonText="&#60;/Code&#62;" [isFilledButton]="false" *ngIf="project.code" (click)="openNewTab('code')"></app-custom-button>
+    <app-custom-button buttonText="Demo" [isFilledButton]="false" *ngIf="project.live" (click)="openNewTab('live')"></app-custom-button>
+    <app-custom-button buttonText="See details" [isFilledButton]="true" (click)="seeDetails()">
+    </app-custom-button>
   </mat-card-actions>
 </mat-card>
