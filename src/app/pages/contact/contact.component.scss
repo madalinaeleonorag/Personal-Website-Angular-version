@@ -28,13 +28,4 @@ app-contact {
   .copyright:hover {
     color: $bordo;
   }
-
-  .social-icons-wrapper {
-    flex-flow: wrap;
-    place-content: center;
-
-    a .social-icon {
-      height: 10vh;
-    }
-  }
 }

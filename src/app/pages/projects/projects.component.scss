@@ -12,17 +12,13 @@ app-projects {
   }
 
   .filters {
-    .mat-chip-list-wrapper {
-      justify-content: center;
-      margin: 25px 10vw;
+    margin: 0 10%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 
-      .selected-chip {
-        border: 1px solid $bordo !important;
-      }
-    }
-
-    .mat-chip:hover {
-      background-color: #a50c0c2b !important;
+    .chip {
+      margin: 5px;
     }
   }
 }

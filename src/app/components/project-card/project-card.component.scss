@@ -27,16 +27,19 @@ app-project-card {
 
   .technologies {
     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 
-    &.mat-chip-list {
-      place-content: center;
+    span {
+      color: $bordoopacity;
+      padding: 3px;
+    }
+  }
 
-      .mat-chip-list-wrapper {
-        justify-content: center;
-
-        .mat-standard-chip {
-          padding: 4px 5px;
-        }
+  .mat-card:hover {
+    .technologies {
+      span {
+        color: $bordo;
       }
     }
   }

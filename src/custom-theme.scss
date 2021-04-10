@@ -1,3 +1,4 @@
+@import "./app/variables.scss";
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @import "~@angular/material/theming";
@@ -38,5 +39,61 @@ body {
   margin: 0;
   font-family: "Verdana", "Helvetica Neue", sans-serif;
   font-size: 14px;
-  background-color: #F8F8FF;
+  color: $white;
+  background: $black;
+  margin-top: 60px;
+}
+
+.social-icons-wrapper {
+  display: flex;
+  flex-flow: row;
+
+  a {
+    margin: 0 10px;
+  }
+}
+
+.title-category {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 20px;
+  text-align: -webkit-center;
+}
+
+.menu-icon {
+  height: 25px;
+  width: auto;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: $bordo;
+}
+
+a {
+  color: $bordo;
+}
+
+a:hover {
+  color: $white;
+}
+
+.mat-chip.mat-standard-chip::after {
+  background: transparent;
+}
+
+.mat-chip-list {
+  .mat-chip {
+    font-size: 0.7rem;
+    border: 1px solid transparent;
+    background: transparent;
+    color: $bordo;
+    min-height: 20px;
+    border-radius: unset;
+    margin: 5px;
+  }
+
+  .mat-chip:hover {
+    border: 1px solid $bordo;
+  }
 }

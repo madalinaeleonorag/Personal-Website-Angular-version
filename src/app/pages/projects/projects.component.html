@@ -1,16 +1,18 @@
-<mat-chip-list class="filters">
-  <mat-chip
-  (click)="selectTechnology('all')"
-    [ngClass]="{'selected-chip': isSelected()}"
-    >All technologies</mat-chip>
-  <mat-chip
+<div class="filters">
+  <app-custom-category-chip
+    (click)="selectTechnology('all')"
+    text="All technologies"
+    [isSelected]="isSelected()"
+  >
+  </app-custom-category-chip>
+  <app-custom-category-chip
     *ngFor="let technology of uniqueTechnologies"
     (click)="selectTechnology(technology)"
-    [ngClass]="{'selected-chip': isSelected(technology)}"
+    [text]="technology"
+    [isSelected]="isSelected(technology)"
   >
-    {{ technology }}
-  </mat-chip>
-</mat-chip-list>
+  </app-custom-category-chip>
+</div>
 
 <div class="projects-cards">
   <app-project-card

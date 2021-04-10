@@ -1,0 +1,13 @@
+@import "../../variables.scss";
+
+app-custom-svg {
+  .icon {
+    fill: $white;
+    width: 25px;
+    height: 25px;
+  }
+
+  .icon:hover {
+    fill: $bordo;
+  }
+}
