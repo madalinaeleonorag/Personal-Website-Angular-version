@@ -1,37 +1,14 @@
-<mat-tab-group>
-  <mat-tab label="Work experiences">
-    <ng-template matTabContent>
-      <app-experience-card [experience]="experience[0]"></app-experience-card>
-      <div class="title-category">Other work experiences</div>
-      <div class="other-work-experiences">
-        <app-experience-card
-          [experience]="item"
-          *ngFor="let item of otherExperiences"
-        ></app-experience-card>
-      </div>
-      <div class="title-category">Volunteer</div>
-      <div class="other-work-experiences">
-        <app-experience-card
-          [experience]="item"
-          *ngFor="let item of volunteer"
-        ></app-experience-card>
-      </div>
-    </ng-template>
-  </mat-tab>
-
-  <mat-tab label="Education">
-    <ng-template matTabContent>
-      <div *ngFor="let item of education">
-        <app-education-level [education]="item"></app-education-level>
-      </div>
-    </ng-template>
-  </mat-tab>
-
-  <mat-tab label="Honors & Awards">
-    <ng-template matTabContent>
-      <div *ngFor="let item of awards">
-        <app-awards [award]="item"></app-awards>
-      </div>
-    </ng-template>
-  </mat-tab>
-</mat-tab-group>
+<app-experience-card [experience]="experience[0]"></app-experience-card>
+<div *ngFor="let item of awards">
+  <app-awards [award]="item"></app-awards>
+</div>
+<div *ngFor="let item of education">
+  <app-education-level [education]="item"></app-education-level>
+</div>
+<div class="title-category">Other work experiences</div>
+<div class="other-work-experiences">
+  <app-experience-card
+    [experience]="item"
+    *ngFor="let item of otherExperiences"
+  ></app-experience-card>
+</div>

@@ -23,12 +23,9 @@
     <div class="location" *ngIf="experience.location">
       {{ experience.location }}
     </div>
-    <mat-chip-list
-      class="skills"
-      *ngIf="experience.skill && experience.skill.length > 0"
-    >
-      <mat-chip *ngFor="let skill of experience.skill">{{ skill }}</mat-chip>
-    </mat-chip-list>
+    <div class="skills" *ngIf="experience.skill && experience.skill.length > 0">
+      <app-custom-chip *ngFor="let skill of experience.skill" [text]="skill"></app-custom-chip>
+    </div>
   </div>
 </div>
 <div

@@ -29,7 +29,7 @@ export class HomepageComponent implements OnInit {
     this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
     this.experience = EXPERIENCE[0];
     this.publications = PUBLICATIONS;
-    this.projects = PROJECTS.slice(0, 4);
+    this.projects = PROJECTS.slice(0, 3);
 
     this.images = this.selfies ? this.selfies.map((imageUrl, index) => new Image(index, {
       img: imageUrl

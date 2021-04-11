@@ -26,7 +26,6 @@ import { ProgressBarColorsDirective } from './directives/progress-bar-colors.dir
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { ExperienceCardComponent } from './components/experience-card/experience-card.component';
 import { EducationLevelComponent } from './components/education-level/education-level.component';
-import { VolunteerComponent } from './components/volunteer/volunteer.component';
 import { AwardsComponent } from './components/awards/awards.component';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
@@ -41,7 +40,8 @@ import { SkillCardComponent } from './components/skill-card/skill-card.component
 import { InfoCardComponent } from './components/info-card/info-card.component';
 import { CustomButtonComponent } from './components/custom-button/custom-button.component';
 import { CustomSvgComponent } from './components/custom-svg/custom-svg.component';
-import { CustomCategoryChipComponent } from './components/custom-category-chip/custom-category-chip.component';
+import { CustomCategoryButtonComponent } from './components/custom-category-button/custom-category-button.component';
+import { CustomChipComponent } from './components/custom-chip/custom-chip.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +54,6 @@ import { CustomCategoryChipComponent } from './components/custom-category-chip/c
     ExperienceComponent,
     ExperienceCardComponent,
     EducationLevelComponent,
-    VolunteerComponent,
     AwardsComponent,
     PublicationsComponent,
     ProjectsComponent,
@@ -65,7 +64,8 @@ import { CustomCategoryChipComponent } from './components/custom-category-chip/c
     InfoCardComponent,
     CustomButtonComponent,
     CustomSvgComponent,
-    CustomCategoryChipComponent,
+    CustomCategoryButtonComponent,
+    CustomChipComponent,
   ],
   imports: [
     BrowserModule,

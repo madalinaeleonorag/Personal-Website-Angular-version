@@ -20,23 +20,30 @@ app-skills {
       flex-flow: wrap;
       justify-content: center;
 
-      .courses-table {
-        margin: 0 30px 30px 30px;
-        width: 100%;
+      &.courses {
+        display: flex;
+        flex-flow: column;
+        margin: 0 10%;
 
-        .image-course {
-          width: 50px;
-          height: 50px;
-          border-radius: 50%;
-        }
-
-        .name {
-          font-weight: bold;
-        }
-
-        th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+        .course {
+          display: flex;
+          align-items: center;
           padding: 10px;
+
+          .image-course {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+          }
+
+          .course-detail {
+            padding-left: 10px;
+          }
         }
+      }
+
+      .name {
+        font-weight: bold;
       }
     }
   }

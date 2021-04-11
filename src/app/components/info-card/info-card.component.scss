@@ -2,7 +2,6 @@
 
 app-info-card {
   display: flex;
-  filter: opacity(0.5);
 
   .wrapper {
     background-color: $white;
@@ -27,10 +26,6 @@ app-info-card {
       padding: 10px 0;
     }
   }
-}
-
-app-info-card:hover {
-  filter: none;
 }
 
 @media (max-width: 800px) {

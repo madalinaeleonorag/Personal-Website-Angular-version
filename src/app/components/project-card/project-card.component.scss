@@ -1,7 +1,7 @@
 @import "../../variables.scss";
 
 app-project-card {
-  flex: 0 0 20%;
+  flex: 0 0 30%;
   margin: 15px;
   display: flex;
 
@@ -29,11 +29,6 @@ app-project-card {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-
-    span {
-      color: $bordoopacity;
-      padding: 3px;
-    }
   }
 
   .mat-card:hover {

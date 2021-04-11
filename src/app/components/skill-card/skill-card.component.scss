@@ -32,6 +32,12 @@ app-skill-card {
       padding: 5px;
     }
   }
+
+  .mat-progress-bar {
+    .mat-progress-bar-fill::after {
+      animation: load 3s normal forwards;
+    }
+  }
 }
 
 @media (max-width: 800px) {
@@ -45,5 +51,14 @@ app-skill-card {
         height: 40px;
       }
     }
+  }
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 68%;
   }
 }

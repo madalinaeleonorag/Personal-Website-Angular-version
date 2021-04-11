@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VolunteerComponent } from './volunteer.component';
+import { CustomChipComponent } from './custom-chip.component';
 
-describe('VolunteerComponent', () => {
-  let component: VolunteerComponent;
-  let fixture: ComponentFixture<VolunteerComponent>;
+describe('CustomChipComponent', () => {
+  let component: CustomChipComponent;
+  let fixture: ComponentFixture<CustomChipComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ VolunteerComponent ]
+      declarations: [ CustomChipComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(VolunteerComponent);
+    fixture = TestBed.createComponent(CustomChipComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

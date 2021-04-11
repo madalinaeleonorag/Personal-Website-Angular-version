@@ -689,7 +689,7 @@ export const CERTIFICATIONS = [
         url: 'https://www.youracclaim.com/badges/841adfea-65df-4a8e-bbe1-267d70cb6a21'
     },
     {
-        logo: 'https://images.youracclaim.com/size/680x680/images/9f990990-c8bc-4c9a-8ceb-fb8dd68f8bea/front_end_dev.png',
+        logo: 'https://images.credly.com/size/680x680/images/2acbb8fa-6b28-4b55-87e9-da0839a70ceb/JavaScript-Front-End-Development.png',
         name: 'JavaScript Front End Development',
         organization: 'IBM',
         issueDate: 'Dec 2020',
@@ -729,23 +729,6 @@ export const CERTIFICATIONS = [
         organization: 'IBM',
         issueDate: 'Oct 2019',
         url: 'https://www.youracclaim.com/badges/073a4a5e-b2f0-4165-8684-c6a427a005b3'
-    },
-    {
-        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQGxoHjf6gCmyQ/company-logo_200_200/0/1601991684673?e=1619049600&v=beta&t=ZDc7BD5euDuuUZaJHgPgoZxpUvn_Sh49rmRau3-pGbw',
-        name: '"Live for the story" Canon Summer school',
-        organization: 'Canon',
-        issueDate: 'Jul 2018'
-    },
-    {
-        logo: 'https://ecdl.ro/uploads/files/ECDL_SHORT_LOGO_WITH_REGISTRATION_RGB.jpg',
-        name: 'ECDL Complete',
-        organization: 'ECDL Romania',
-        issueDate: 'May 2015'
-    },
-    {
-        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_200_200/0/1519856215226?e=1619049600&v=beta&t=wqGS0p4XpSRfUOSwlJ1_GDzkLcGNhFrMFdkps_mlOHc',
-        name: 'Google Digital Garage',
-        organization: 'Google'
     }
 ];
 
@@ -764,19 +747,9 @@ export const COURSES = [
         description: 'I was part of the Frontend Track learing HTML, CSS, JavaScript, Vue.js, REST, Firebase Realtime Database. All the knowledge was applied in different exercises and projects.'
     },
     {
-        name: 'Digital Marketing',
-        organization: 'Google',
-        logo: 'https://www.lucabottarostudio.com/wp-content/uploads/2019/05/google_PNG19635.png'
-    },
-    {
         name: 'IoT & Mobile Apps Workshop by Oracle Academy Romania',
         organization: 'Oracle',
         logo: 'https://sybyl.com/wp-content/uploads/2019/11/Oracle-Logo-For-Website.png'
-    },
-    {
-        name: 'New Front-End Adventures Workshop with Vitaly Friedman',
-        organization: 'Hipo',
-        logo: 'https://sisc.ro/wp-content/uploads/2017/06/conf-dev-talks.jpg'
     },
     {
         name: 'Responsive Web Design Fundamentals by Google',
@@ -807,30 +780,8 @@ export const EDUCATION = [
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
         activities: 'Participation in scientific communication session with micro and macro economy, management and digital marketing',
         description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP.'
-    },
-    {
-        school: 'Theoretical High School Nichita Stanescu',
-        degree: 'High school',
-        fieldOfStudy: 'Mathematical Informatics',
-        startYear: '2011',
-        endYear: '2015',
-        grade: '',
-        logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
-        activities: '',
-        description: 'Acquiring logical and organizational thinking.'
     }
 ]
-
-export const VOLUNTEER = [
-    {
-        startYear: 'Aug 2014',
-        endYear: 'Nov 2014',
-        description: 'Theater project with the stage of frequent social situations for finding solutions',
-        role: 'Role Player',
-        organization: 'ArtFusion',
-        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0R_odMk40zQ/company-logo_200_200/0/1583400910416?e=1619049600&v=beta&t=FrnDEuYXI-gv_NLAZr7e2xMe2vrazFjnUsY0HhPQu2Y'
-    }
-];
 
 export const AWARDS = [
     {
@@ -856,16 +807,18 @@ export const AWARDS = [
         The aim of this product is to help candidates find the employer that best suits their needs and personality, something different.<br>
         The target audience of the product will be made up students and young professionals.
       `
-    },
-    {
-        name: 'IE Robot Contest',
-        place: 4,
-        date: 'May 2014',
-        description: 'Edition V-organized in Electrical Engineering Days 2014 in Politehnica University.'
     }
 ];
 
 export const PUBLICATIONS = [
+    {
+        name: 'Git fetch & pull for all repos once',
+        date: 'April 2021',
+        description: '',
+        url: 'https://madalinaeleonorag.medium.com/git-fetch-pull-for-all-repos-once-82a0abff828b',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
+        organization: 'Medium'
+    },
     {
         name: 'How I personalized my GitHub Overview',
         date: 'Jan 2021',
@@ -889,14 +842,6 @@ export const PUBLICATIONS = [
         url: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
         logo: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
         organization: 'Research Focus'
-    },
-    {
-        name: 'Dreptul la timp',
-        date: 'Jan 11, 2013',
-        description: 'Publishing poems in high school magazine',
-        url: '',
-        logo: 'https://www.admitereliceu.ro/uploads/school/9/6/32/300x200/0_53_sigla.jpg',
-        organization: 'Liceul Teoretic Nichita Stanescu'
     }
 ]
 
@@ -951,16 +896,6 @@ export const EXPERIENCE = [
         skill: ['Angular', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'VirtualBox', 'Jira'],
     },
     {
-        companyName: 'OTP Bank',
-        role: 'Project - Referent',
-        dateStart: 'Nov 2017',
-        dateEnd: 'Dec 2017',
-        location: 'Bucharest, Romania',
-        description: 'The main responsibility was the selection of the clients that were in line with the requirements for digitization of bank transfers, within the project Digital Ambassador',
-        companyLogo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHp7dhOc8uDUQ/company-logo_200_200/0/1600108531146?e=1618444800&v=beta&t=ICwjhVXsA3S4IQ6u-U-jBYkjPDzTjcipb8bxqPC_F7s',
-        skill: []
-    },
-    {
         companyName: 'Groupe Renault',
         role: 'Practicant - Drive your future',
         dateStart: 'Jun 2017',
@@ -971,16 +906,6 @@ export const EXPERIENCE = [
         skill: ['Matlab']
     },
     {
-        companyName: 'DB Schenker',
-        role: 'Practitioner - Financial accountant',
-        dateStart: 'May 2017',
-        dateEnd: 'Jun 2017',
-        location: 'Bucharest, Romania',
-        description: 'Specialized practice in financial accounting',
-        companyLogo: 'https://media-exp1.licdn.com/dms/image/C560BAQE2argdPgynxQ/company-logo_200_200/0/1603714685129?e=1618444800&v=beta&t=fT9L8bRpvfbTyfjCOEMd3LfuvVC5cETSRX7gK53SBIA',
-        skill: ['SAP', 'Basic accountancy ']
-    },
-    {
         companyName: 'Telekom Romania',
         role: 'Inbound Agent',
         dateStart: 'Feb 2016',
@@ -989,25 +914,5 @@ export const EXPERIENCE = [
         description: 'Taking calls and solving the situations encountered by clients, making recordings and offering them.',
         companyLogo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHhi7yDzxguBQ/company-logo_200_200/0/1591696739930?e=1618444800&v=beta&t=6JQBq6aZFNdS8-GIPsmGPpE21aNsss4ycZuNFQk--4M',
         skill: ['Work under pressure', 'Adaptability', 'Multitasking']
-    },
-    {
-        companyName: 'Springtime',
-        role: 'Cashier and Comercial Worker',
-        dateStart: 'Aug 2015',
-        dateEnd: 'Dec 2015',
-        location: 'Bucharest, Romania',
-        description: 'Making orders as quickly and accurately, respecting customer requirements',
-        companyLogo: 'https://www.springtime.ro/workspace/img/Logo-Site.png',
-        skill: ['Meeting customer expectations', 'Multitasking', 'Work under pressure']
-    },
-    {
-        companyName: 'Kantar Millward Brown Romania',
-        role: 'Survey Operator',
-        dateStart: 'May 2015',
-        dateEnd: 'Aug 2015',
-        location: 'Bucharest, Romania',
-        description: 'Recruitment of people meeting the criteria communicated',
-        companyLogo: 'https://media-exp1.licdn.com/dms/image/C560BAQETvYin9MN05w/company-logo_200_200/0/1579084333483?e=1618444800&v=beta&t=L_ANBm4wO7v6WoW5D3vNvoDP_jm-7Za0bWdgcbr2q18',
-        skill: ['Persuasivity']
     }
 ]

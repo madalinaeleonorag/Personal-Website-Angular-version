@@ -25,13 +25,8 @@ app-homepage {
   }
 
   .see-more {
-    text-align-last: end;
-    padding: 20px;
-
-    a {
-      cursor: pointer;
-      text-decoration: underline;
-    }
+    width: fit-content;
+    margin: auto;
   }
 
   .projects {
@@ -39,10 +34,6 @@ app-homepage {
     margin: 10px;
     overflow: auto;
     justify-content: center;
-  }
-
-  hr {
-    margin: 20px;
   }
 
   .experience {

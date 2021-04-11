@@ -37,7 +37,7 @@ app-experience-card {
       }
       .skills {
         display: flex;
-        margin: 5px 0;
+        flex-flow: wrap;
       }
     }
   }

@@ -1,5 +1,5 @@
 <div class="logo">
-  <img src="assets/LOGO-black.png" />
+  <img src="assets/LOGO-white.png" />
 </div>
 <div class="description-homepage">
   I am an application developer open for collaborations, passionate about
@@ -15,18 +15,6 @@
     [slideConfig]="{ infinite: true, sidePreviews: { show: false } }"
   ></ks-modal-gallery>
 </div>
-<hr />
-<div class="title-category">Last job experience</div>
-<div class="experience">
-  <app-experience-card
-    [experience]="experience"
-    parentPage="homepage"
-  ></app-experience-card>
-</div>
-<div class="see-more">
-  <a (click)="goToPage('/experience')">&#60;/See more job experiences&#62;</a>
-</div>
-<hr />
 <div class="title-category">Last projects</div>
 <div class="projects">
   <app-project-card
@@ -35,9 +23,18 @@
   ></app-project-card>
 </div>
 <div class="see-more">
-  <a (click)="goToPage('/projects')">&#60;/See more projects&#62;</a>
+    <app-custom-button buttonText="&#60;/See more projects&#62;" [isFilledButton]="true" (click)="goToPage('/projects')"></app-custom-button>
 </div>
-<hr />
+<div class="title-category">Last job experience</div>
+<div class="experience">
+  <app-experience-card
+    [experience]="experience"
+    parentPage="homepage"
+  ></app-experience-card>
+</div>
+<div class="see-more">
+  <app-custom-button buttonText="&#60;/See more job experiences&#62;" [isFilledButton]="true" (click)="goToPage('/experience')"></app-custom-button>
+</div>
 <div class="title-category">Last publications</div>
 <div class="publications">
   <app-publications
