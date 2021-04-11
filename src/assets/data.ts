@@ -732,32 +732,6 @@ export const CERTIFICATIONS = [
     }
 ];
 
-export const COURSES = [
-    {
-        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQGfKOtAsJ7gOQ/company-logo_200_200/0/1591028793640?e=1619654400&v=beta&t=A9VFnYMjQ0PrDh-LPlZRFvr21Bg_Xp6A0qFqjq0Va9Q',
-        name: 'Artificial Intelligence Concepts',
-        organization: 'IBM',
-    },
-    {
-        name: 'DevAcademy Front End Track',
-        organization: 'Digital Nation',
-        logo: 'https://media-exp1.licdn.com/dms/image/C560BAQH-3eg_GcQLXQ/company-logo_200_200/0/1563458292520?e=2159024400&v=beta&t=ryfw6wzxS6a6-UmIRGcTa-Q1D0WahCtot-bNSmdDB1Y',
-        startYear: 'Jun 2018',
-        endYear: 'Dec 2018',
-        description: 'I was part of the Frontend Track learing HTML, CSS, JavaScript, Vue.js, REST, Firebase Realtime Database. All the knowledge was applied in different exercises and projects.'
-    },
-    {
-        name: 'IoT & Mobile Apps Workshop by Oracle Academy Romania',
-        organization: 'Oracle',
-        logo: 'https://sybyl.com/wp-content/uploads/2019/11/Oracle-Logo-For-Website.png'
-    },
-    {
-        name: 'Responsive Web Design Fundamentals by Google',
-        organization: 'Google',
-        logo: 'https://www.lucabottarostudio.com/wp-content/uploads/2019/05/google_PNG19635.png'
-    }
-]
-
 export const EDUCATION = [
     {
         school: 'Universitatea Româno-Americană din București',

@@ -17,23 +17,3 @@
     ></app-info-card>
   </div>
 </div>
-
-<div class="category">
-  <div class="category-name">Courses</div>
-
-  <div class="category-items courses">
-    <div *ngFor="let course of courses" class="course">
-      <div
-        class="image-course"
-        [ngStyle]="{
-          background: 'url(' + course['logo'] + ')',
-          'background-position': 'center',
-          'background-size': 'cover'
-        }"
-      ></div>
-      <div class="course-detail">
-        {{ course.name }} by {{ course.organization }}
-      </div>
-    </div>
-  </div>
-</div>

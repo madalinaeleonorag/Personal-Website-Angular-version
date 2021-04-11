@@ -27,7 +27,7 @@ app-skill-card {
     flex-flow: column;
 
     .level-legend {
-      opacity: 0.5;
+      filter: brightness(2);
       font-size: small;
       padding: 5px;
     }

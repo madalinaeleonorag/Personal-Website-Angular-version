@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { CERTIFICATIONS, COURSES, SKILLS } from 'src/assets/data';
+import { CERTIFICATIONS, SKILLS } from 'src/assets/data';
 
 @Component({
   selector: 'app-skills',
@@ -11,7 +11,6 @@ export class SkillsComponent implements OnInit {
 
   skills: any;
   certifications: any;
-  courses: any;
   keysSkills: string[];
 
   columns: string[] = ['logo', 'name', 'organization'];
@@ -19,7 +18,6 @@ export class SkillsComponent implements OnInit {
   constructor() {
     this.skills = SKILLS;
     this.certifications = CERTIFICATIONS;
-    this.courses = COURSES;
     this.keysSkills = Object.keys(this.skills);
   }
 
