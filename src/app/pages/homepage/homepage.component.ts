@@ -14,9 +14,7 @@ export class HomepageComponent implements OnInit {
 
   images: any;
   selfies = [
-    'assets/selfies/1.jpg',
-    'assets/selfies/2.jpg',
-    'assets/selfies/3.jpg'
+    'assets/selfie'
   ];
   experience: any;
   publications: any;
@@ -33,7 +31,6 @@ export class HomepageComponent implements OnInit {
 
     this._commonsService.publications$.subscribe(publications => {
       this.publications = publications
-      console.log('cevas', publications)
     })
 
     this.images = this.selfies ? this.selfies.map((imageUrl, index) => new Image(index, {
