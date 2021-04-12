@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { CommonsService } from './commons.service';
 
 @Component({
   selector: 'app-root',
@@ -9,16 +10,24 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'Project';
 
+  constructor(private _commonsService: CommonsService) { }
+
+
   ngOnInit() {
+    this.cookieConsoleMessage();
+    this._commonsService.getDataFromAPIs()
+  }
+
+  private cookieConsoleMessage() {
 
     var consoleSignatureStyle = "font-size: 12px;" +
-      "background: #a50c0c;" +
-      "color: white;" +
-      "text-align: center;" +
-      "padding: 5px 10px;" +
-      "margin: 5px 0;" +
-      "width: 100%;" +
-      "border-radius: 20px;";
+    "background: #a50c0c;" +
+    "color: white;" +
+    "text-align: center;" +
+    "padding: 5px 10px;" +
+    "margin: 5px 0;" +
+    "width: 100%;" +
+    "border-radius: 20px;";
 
     var consoleSignatureText = "%cDon't steal my cookies! 🍪";
 

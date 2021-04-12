@@ -1,21 +1,17 @@
 <div class="publication-wrapper">
   <div
     class="image"
-    *ngIf="publication.logo"
+    *ngIf="publication.thumbnail"
     [ngStyle]="{
-      background: 'url(' + publication.logo + ')',
+      background: 'url(' + publication.thumbnail + ')',
       'background-position': 'center',
       'background-size': 'cover'
     }"
   ></div>
   <div class="summary">
-    <div class="organization" *ngIf="publication.organization">
-      {{ publication.organization }}
-    </div>
-    <div class="name">{{ publication.name }}</div>
-    <div class="date" *ngIf="publication.date">{{ publication.date }}</div>
-    <div class="grade" *ngIf="publication.url">
-      <a href="{{ publication.url }}" target="_blank">See publication</a>
+    <div class="name">{{ publication.title }}</div>
+    <div class="grade" *ngIf="publication.link">
+      <a href="{{ publication.link }}" target="_blank">See publication</a>
     </div>
   </div>
 </div>

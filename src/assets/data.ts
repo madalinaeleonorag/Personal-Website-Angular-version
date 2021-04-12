@@ -772,38 +772,11 @@ export const AWARDS = [
     }
 ];
 
-export const PUBLICATIONS = [
+export const OTHER_PUBLICATIONS = [
     {
-        name: 'Git fetch & pull for all repos once',
-        date: 'April 2021',
-        description: '',
-        url: 'https://madalinaeleonorag.medium.com/git-fetch-pull-for-all-repos-once-82a0abff828b',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
-        organization: 'Medium'
-    },
-    {
-        name: 'How I personalized my GitHub Overview',
-        date: 'Jan 2021',
-        description: '',
-        url: 'https://madalinaeleonorag.medium.com/how-i-personalized-my-github-overview-7144fd15d1e1',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
-        organization: 'Medium'
-    },
-    {
-        name: 'My JavaScriptmas Journey 🎄',
-        date: 'Dec 2020',
-        description: '',
-        url: 'https://madalinaeleonorag.medium.com/my-javascriptmas-journey-69a29ea5845a',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png',
-        organization: 'Medium'
-    },
-    {
-        name: 'Providing Security for Client-Server Applications',
-        date: '2019',
-        description: '',
-        url: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
-        logo: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
-        organization: 'Research Focus'
+        title: 'Providing Security for Client-Server Applications',
+        link: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
+        thumbnail: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
     }
 ]
 
@@ -855,7 +828,7 @@ export const EXPERIENCE = [
       - Delivered WYSIWYG (What You See Is What You Get), a feature that wants to improve the customer experience regarding the promotional codes.The first phase included changing the design of both coupons and product promotions, including more descriptive text and a user-friendly design, changes made throughout the application, on all banners. In the same phase was included the creation of the right drawer, which replaces the pop-up with the description of the promotion or the description page for it, being available by clicking on the link with the coupon / promotion details. If there are multiple promotions for a single product, they are displayed as a total, and will be described accordingly in the right drawer. The second phase includes the implementation of the new API response, which includes a new possibility to process the offers, displaying the requirement quantity, following that on the stores where the feature is activated, to display and if the offer has been completed and benefit from it. The new treatment system is visible both in the coupon design, in the mini-cart or in the top menu, in the right drawer and in the product page.<br>
       <b>Technologies:</b> Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox<br>`,
         companyLogo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQEEhxqhOHJVUA/company-logo_200_200/0/1525123751467?e=1618444800&v=beta&t=tAnznEreYDswd0JJE-g8HdvJrCVhwAN_WvxGdBxS1aQ',
-        skill: ['Angular', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'VirtualBox', 'Jira'],
+        skill: ['Angular', 'Vagrant', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'Jira'],
     },
     {
         companyName: 'Groupe Renault',
