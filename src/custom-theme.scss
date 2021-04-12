@@ -44,6 +44,10 @@ body {
   margin-top: 60px;
 }
 
+.component-wrapper {
+  padding: 20px;
+}
+
 .social-icons-wrapper {
   display: flex;
   flex-flow: row;
@@ -56,7 +60,7 @@ body {
 .title-category {
   font-weight: bold;
   font-size: 1.2rem;
-  padding: 20px;
+  padding: 20px 0;
   text-align: -webkit-center;
 }
 
@@ -67,11 +71,11 @@ body {
 
 .mat-tab-group.mat-primary .mat-ink-bar,
 .mat-tab-nav-bar.mat-primary .mat-ink-bar {
-  background-color: $bordo;
+  background-color: $primary;
 }
 
 a {
-  color: $bordo;
+  color: $primary;
 }
 
 a:hover {
@@ -87,13 +91,13 @@ a:hover {
     font-size: 0.7rem;
     border: 1px solid transparent;
     background: transparent;
-    color: $bordo;
+    color: $primary;
     min-height: 20px;
     border-radius: unset;
     margin: 5px;
   }
 
   .mat-chip:hover {
-    border: 1px solid $bordo;
+    border: 1px solid $primary;
   }
 }

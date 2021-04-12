@@ -741,8 +741,7 @@ export const EDUCATION = [
         endYear: '2020',
         grade: '9.66',
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
-        activities: 'Participation in scientific communication session with transportation optimisation in pl/sql and an article regarding security for client-server applications',
-        description: 'I\'ve assimilated informations about IOT, mobile applications development, web technologies, AI, GDPR, PL/SQL, BigData, project management, WordPress, security of computer networks and E-Commerce. Those knowledges are proved by the projects worked for the graduation of the course.'
+        description: 'I\'ve assimilated informations about IOT, mobile applications development, web technologies, AI, GDPR, PL/SQL, BigData, project management, WordPress, security of computer networks and E-Commerce. Those knowledges are proved by the projects worked for the graduation of the course. Participation in scientific communication session with transportation optimisation in pl/sql and an article regarding security for client-server applications'
     },
     {
         school: 'Universitatea Româno-Americană din București',
@@ -752,8 +751,7 @@ export const EDUCATION = [
         endYear: '2018',
         grade: '9.50',
         logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
-        activities: 'Participation in scientific communication session with micro and macro economy, management and digital marketing',
-        description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP.'
+        description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP. Participation in scientific communication session with micro and macro economy, management and digital marketing'
     }
 ]
 
@@ -769,17 +767,7 @@ export const AWARDS = [
         date: 'Nov 2018',
         place: 1,
         description: `
-      Our result should allows candidates from Romania the possibility to offer reviews/ratings to companies about key areas such as:<br>
-        - recruitment process;<br>
-        - work environment (team, schedule, etc);<br>
-        - trainings, learning and development opportunities;<br>
-        - salary & benefits;<br>
-        - work-life balance;<br>
-        - management;<br>
-        - internal systems (procedures, values, way of working);<br>
-        - other relevant areas;<br>
-        The aim of this product is to help candidates find the employer that best suits their needs and personality, something different.<br>
-        The target audience of the product will be made up students and young professionals.
+      Our result should allows candidates from Romania the possibility to offer reviews/ratings to companies about key areas such as: recruitment process,  work environment (team, schedule, etc), trainings, learning and development opportunities, salary & benefits, work-life balance, management, internal systems (procedures, values, way of working), other relevant areas. The aim of this product is to help candidates find the employer that best suits their needs and personality, something different. The target audience of the product will be made up students and young professionals.
       `
     }
 ];

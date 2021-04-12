@@ -5,11 +5,10 @@ app-skills {
   flex-flow: column;
 
   .category {
-    margin: 10px;
 
     .category-name {
       font-weight: bold;
-      padding: 20px;
+      padding: 10px 0;
       font-size: medium;
       font-size: 1.5rem;
       text-align: -webkit-center;
@@ -44,6 +43,7 @@ app-skills {
 
       .name {
         font-weight: bold;
+        color:white;
       }
     }
   }

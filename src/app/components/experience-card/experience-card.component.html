@@ -23,10 +23,10 @@
     <div class="location" *ngIf="experience.location">
       {{ experience.location }}
     </div>
-    <div class="skills" *ngIf="experience.skill && experience.skill.length > 0">
-      <app-custom-chip *ngFor="let skill of experience.skill" [text]="skill"></app-custom-chip>
-    </div>
   </div>
+</div>
+<div class="skills" *ngIf="experience.skill && experience.skill.length > 0">
+  <app-custom-chip *ngFor="let skill of experience.skill" [text]="skill"></app-custom-chip>
 </div>
 <div
   class="description"

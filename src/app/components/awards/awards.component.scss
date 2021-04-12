@@ -1,19 +1,18 @@
 @import "../../variables.scss";
 
 app-awards .award-wrapper {
-  padding: 30px;
-
   .header {
     display: flex;
     flex-flow: row;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     justify-content: center;
     text-align: center;
 
     .summary {
       display: flex;
       flex-flow: column;
+      padding: 10px 0;
 
       img {
         height: 15vh;
@@ -22,7 +21,7 @@ app-awards .award-wrapper {
       .name {
         font-weight: bold;
         font-size: 1.5rem;
-        color: $bordo;
+        color: $primary;
         margin: 10px 0;
       }
 
@@ -35,6 +34,7 @@ app-awards .award-wrapper {
 
   .description {
     line-height: 1.5rem;
+    text-align: center;
   }
 
   @media (max-width: 750px) {

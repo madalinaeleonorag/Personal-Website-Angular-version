@@ -1,14 +1,13 @@
 @import "../../variables.scss";
 
 app-experience-card {
+
   .header {
     display: flex;
     flex-flow: row;
     align-items: center;
-    padding: 20px 20px 10px 20px;
 
     .image {
-      padding-right: 20px;
 
       img {
         max-width: 150px;
@@ -18,6 +17,7 @@ app-experience-card {
     .summary {
       display: flex;
       flex-flow: column;
+      padding: 20px;
 
       .name {
         font-weight: bold;
@@ -26,7 +26,7 @@ app-experience-card {
       .role {
         font-weight: bold;
         font-size: 1.2rem;
-        color: $bordo;
+        color: $primary;
         margin: 4px 0;
       }
       .date {
@@ -35,15 +35,16 @@ app-experience-card {
       .location {
         color: $lightgray;
       }
-      .skills {
-        display: flex;
-        flex-flow: wrap;
-      }
     }
   }
 
+  .skills {
+    display: flex;
+    flex-flow: wrap;
+    margin: 10px 0;;
+  }
+
   .description {
-    padding: 0 20px 20px;
     line-height: 1.5rem;
   }
 

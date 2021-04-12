@@ -5,7 +5,7 @@ app-education-level {
     display: flex;
     flex-flow: row;
     align-items: center;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 0;
 
     .image {
       padding-right: 20px;
@@ -26,7 +26,7 @@ app-education-level {
       .degree {
         font-weight: bold;
         font-size: 1.2rem;
-        color: $bordo;
+        color: $primary;
         margin: 4px 0;
       }
       .date {
@@ -42,9 +42,7 @@ app-education-level {
     }
   }
 
-  .description,
-  .activities {
-    padding: 0 20px 20px;
+  .description {
     line-height: 1.5rem;
   }
 

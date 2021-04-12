@@ -26,7 +26,7 @@ app-header {
     margin: 0 10px;
 
     span {
-      color: $bordo;
+      color: $primary;
     }
   }
 
@@ -48,11 +48,11 @@ app-header {
       color: white !important;
     }
     div:hover {
-      color: $bordo !important;
+      color: $primary !important;
       cursor: pointer;
     }
     .selected-page {
-      color: $bordo !important;
+      color: $primary !important;
     }
   }
 
