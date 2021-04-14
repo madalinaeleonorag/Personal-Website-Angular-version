@@ -46,9 +46,22 @@ app-education-level {
     line-height: 1.5rem;
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 800px) {
     .header {
-      flex-flow: wrap;
+      padding: 10px 0;
+      
+      .image {
+        display: none;
+      }
+
+      .summary {
+        .name {
+          display: none;
+        }
+      }
+    }
+    .description {
+      display: none;
     }
   }
 }

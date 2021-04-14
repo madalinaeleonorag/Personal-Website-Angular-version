@@ -83,6 +83,9 @@ app-homepage {
         }
       }
     }
+    .projects {
+      justify-content: unset;
+    }
   }
 
   @media (max-width: 700px) {

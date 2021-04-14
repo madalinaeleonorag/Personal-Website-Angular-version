@@ -37,12 +37,13 @@ app-awards .award-wrapper {
     text-align: center;
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 800px) {
     .header {
       flex-flow: wrap;
     }
     .description {
       padding: 0 5vw;
+      font-size: smaller;
     }
   }
 }

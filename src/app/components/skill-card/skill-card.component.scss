@@ -44,12 +44,23 @@ app-skill-card {
 @media (max-width: 800px) {
   app-skill-card {
     margin: 5px;
-    padding: 10px;
-    width: 90px;
+    padding: 8px;
+    width: 80px;
 
     .logo {
       img {
         height: 40px;
+      }
+    }
+
+    .name {
+      padding: 5px 0;
+    }
+
+    .progress {
+      .level-legend {
+        font-size: x-small;
+        padding: 3px;
       }
     }
   }
