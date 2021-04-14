@@ -25,6 +25,7 @@
     "@ks89/angular-modal-gallery": "^7.2.7",
     "angular-responsive-carousel": "^2.0.2",
     "hammerjs": "^2.0.8",
+    "material-design-icons": "^3.0.1",
     "mousetrap": "^1.6.5",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",

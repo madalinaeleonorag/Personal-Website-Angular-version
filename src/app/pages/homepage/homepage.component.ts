@@ -1,7 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
 import { EXPERIENCE, PROJECTS } from 'src/assets/data';
-import { Image } from '@ks89/angular-modal-gallery';
 import { CommonsService } from 'src/app/commons.service';
 
 @Component({
@@ -12,12 +11,8 @@ import { CommonsService } from 'src/app/commons.service';
 })
 export class HomepageComponent implements OnInit {
 
-  images: any;
-  selfies = [
-    'assets/selfie'
-  ];
   experience: any;
-  publications: any;
+  publications: any[] = [];
   projects: any;
   isMobileView: boolean;
 
@@ -30,16 +25,11 @@ export class HomepageComponent implements OnInit {
     this.projects = PROJECTS.slice(0, 3);
 
     this._commonsService.publications$.subscribe(publications => {
-      this.publications = publications
-    })
-
-    this.images = this.selfies ? this.selfies.map((imageUrl, index) => new Image(index, {
-      img: imageUrl
-    })) : [];
-
+      this.publications = publications;
+    });
   }
 
-  goToPage(page: string) {
+  public goToPage(page: string): void {
     this.router.navigateByUrl(`${page}`);
   }
 }

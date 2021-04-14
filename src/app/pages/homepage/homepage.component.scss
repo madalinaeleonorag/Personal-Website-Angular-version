@@ -46,6 +46,7 @@ app-homepage {
 
   .publications {
     display: flex;
+    justify-content: center;
     flex-flow: wrap;
 
     app-publications {
@@ -71,6 +72,15 @@ app-homepage {
     .publications {
       app-publications {
         flex: 0 0 50%;
+
+        .publication-wrapper {
+          padding: 10px;
+
+          .image {
+            height: 125px;
+            width: 125px;
+          }
+        }
       }
     }
   }

@@ -15,8 +15,8 @@
 <div class="see-more">
     <app-custom-button buttonText="&#60;/See more projects&#62;" [isFilledButton]="true" (click)="goToPage('/projects')"></app-custom-button>
 </div>
-<div class="title-category">Last publications</div>
-<div class="publications">
+<div class="title-category" *ngIf="publications.length > 0">Latest publications</div>
+<div class="publications" *ngIf="publications.length > 0">
   <app-publications
     *ngFor="let publication of publications"
     [publication]="publication"
