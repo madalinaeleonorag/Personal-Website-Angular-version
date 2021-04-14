@@ -69,6 +69,9 @@ app-homepage {
   }
 
   @media (max-width: 850px) {
+    .description-homepage {
+      margin: 3vh 5vw;
+    }
     .publications {
       app-publications {
         flex: 0 0 50%;

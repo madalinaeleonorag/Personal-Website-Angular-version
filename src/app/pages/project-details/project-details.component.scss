@@ -30,6 +30,7 @@ app-project-details {
 
     .technologies {
       display: flex;
+      flex-flow: wrap;
 
       .mat-chip-list-wrapper {
         justify-content: center;
@@ -54,6 +55,29 @@ app-project-details {
       height: 200px !important;
       width: auto !important;
       box-shadow: 0 0 10px -3px $lightgray;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .summary {
+      margin: 15px;
+      text-align: center;
+
+      .technologies {
+        margin: 10px 0;
+        justify-content: center;
+      }
+    }
+    .description {
+      margin: 10px;
+    }
+    .plain-container {
+      margin: 5px 20px 20px;
+      
+      .image {
+        width: auto !important;
+        height: 60px !important;
+      }
     }
   }
 }
