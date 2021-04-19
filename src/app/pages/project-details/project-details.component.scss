@@ -58,6 +58,11 @@ app-project-details {
     }
   }
 
+  #current-image {
+    height: 70vh !important;
+    max-height: unset !important;
+  }
+
   @media (max-width: 800px) {
     .summary {
       margin: 15px;
