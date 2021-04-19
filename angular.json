@@ -27,9 +27,6 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/custom-theme.scss"
-            ],
             "scripts": []
           },
           "configurations": {

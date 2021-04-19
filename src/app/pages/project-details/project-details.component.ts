@@ -3,6 +3,8 @@ import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { PROJECTS } from 'src/assets/data';
 import { Image } from '@ks89/angular-modal-gallery';
+import { ProjectModel } from 'src/app/data.model';
+import { CommonsService } from 'src/app/commons.service';
 
 @Component({
   selector: 'app-project-details',
@@ -12,28 +14,28 @@ import { Image } from '@ks89/angular-modal-gallery';
 })
 export class ProjectDetailsComponent implements OnInit {
 
-  paramSubscription: Subscription;
-  projects: any;
-  project: any;
-  images: Image[];
+  private projects: ProjectModel[];
+  public paramSubscription: Subscription;
+  public project: ProjectModel;
+  public images: Image[];
 
-  constructor(private route: ActivatedRoute) {
+  constructor(private route: ActivatedRoute, private commonsService: CommonsService) {
     this.projects = PROJECTS;
   }
 
-  ngOnInit() {
-    this.getProjectByID(this.route.snapshot.paramMap.get('id'));
+  ngOnInit(): void {
+    this.getProjectByID(+this.route.snapshot.paramMap.get('id'));
   }
 
-  getProjectByID(ID) {
-    this.project = this.projects.filter(project => project.id == ID)[0];
+  private getProjectByID(ID: number): void {
+    this.project = this.projects.filter(project => project.id === ID)[0];
     this.images = this.project.images ? this.project.images.map((imageUrl, index) => new Image(index, {
       img: imageUrl
     })) : [];
   }
 
-  openNewTab() {
-    window.open(this.project.live)
+  public openNewTab(): void {
+    this.commonsService.openNewTab(this.project.live);
   }
 
 }

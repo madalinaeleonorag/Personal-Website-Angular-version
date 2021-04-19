@@ -777,7 +777,7 @@ export const EDUCATION = [
         logo: '../assets/logos/romanian-american university.png',
         description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP. Participation in scientific communication session with micro and macro economy, management and digital marketing'
     }
-]
+];
 
 export const AWARDS = [
     {
@@ -802,7 +802,7 @@ export const OTHER_PUBLICATIONS = [
         link: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
         thumbnail: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
     }
-]
+];
 
 export const EXPERIENCE = [
     {
@@ -874,4 +874,4 @@ export const EXPERIENCE = [
         companyLogo: '../assets/logos/telekom.png',
         skill: ['Work under pressure', 'Adaptability', 'Multitasking']
     }
-]
+];

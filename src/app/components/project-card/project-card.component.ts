@@ -1,5 +1,7 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
+import { CommonsService } from 'src/app/commons.service';
+import { ProjectModel } from 'src/app/data.model';
 
 @Component({
   selector: 'app-project-card',
@@ -9,21 +11,23 @@ import { Router } from '@angular/router';
 })
 export class ProjectCardComponent implements OnInit {
 
-  @Input() project;
+  @Input() project: ProjectModel;
 
-  constructor(private router: Router) { }
+  constructor(private commonsService: CommonsService) { }
 
   ngOnInit(): void {
   }
 
-  seeDetails() {
-    this.router.navigateByUrl(`/project/${this.project.id}`);
+  public seeDetails(): void {
+    this.commonsService.navigateToURL(`/project/${this.project.id}`);
   }
 
-  openNewTab(type: string) {
+  public openNewTab(type: string): void {
     switch (type) {
-      case 'live': window.open(this.project.live);
-      case 'code': window.open(this.project.code)
+      case 'live': this.commonsService.openNewTab(this.project.live);
+                   break;
+      case 'code': this.commonsService.openNewTab(this.project.code);
+                   break;
     }
   }
 }

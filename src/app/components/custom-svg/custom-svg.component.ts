@@ -9,7 +9,7 @@ import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 export class CustomSvgComponent implements OnInit {
 
   @Input() type: string;
-  
+
   constructor() { }
 
   ngOnInit(): void {

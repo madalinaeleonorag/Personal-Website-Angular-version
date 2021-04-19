@@ -8,28 +8,26 @@ import { CommonsService } from './commons.service';
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements OnInit {
-  title = 'Project';
 
-  constructor(private _commonsService: CommonsService) { }
+  constructor(private commonsService: CommonsService) { }
 
-
-  ngOnInit() {
+  ngOnInit(): void {
     this.cookieConsoleMessage();
-    this._commonsService.getDataFromAPIs()
+    this.commonsService.getDataFromAPIs();
   }
 
-  private cookieConsoleMessage() {
+  private cookieConsoleMessage(): void {
 
-    var consoleSignatureStyle = "font-size: 12px;" +
-    "background: #a50c0c;" +
-    "color: white;" +
-    "text-align: center;" +
-    "padding: 5px 10px;" +
-    "margin: 5px 0;" +
-    "width: 100%;" +
-    "border-radius: 20px;";
+    const consoleSignatureStyle = 'font-size: 12px;' +
+    'background: #a50c0c;' +
+    'color: white;' +
+    'text-align: center;' +
+    'padding: 5px 10px;' +
+    'margin: 5px 0;' +
+    'width: 100%;' +
+    'border-radius: 20px;';
 
-    var consoleSignatureText = "%cDon't steal my cookies! 🍪";
+    const consoleSignatureText = '%cDon\'t steal my cookies! 🍪';
 
     console.log(consoleSignatureText, consoleSignatureStyle);
   }

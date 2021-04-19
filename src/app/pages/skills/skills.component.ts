@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { CertificationModel, SkillModel } from 'src/app/data.model';
 import { CERTIFICATIONS, SKILLS } from 'src/assets/data';
 
 @Component({
@@ -9,19 +10,16 @@ import { CERTIFICATIONS, SKILLS } from 'src/assets/data';
 })
 export class SkillsComponent implements OnInit {
 
-  skills: any;
-  certifications: any;
-  keysSkills: string[];
+  public skills: SkillModel[];
+  public certifications: CertificationModel[];
 
   columns: string[] = ['logo', 'name', 'organization'];
 
   constructor() {
     this.skills = SKILLS;
     this.certifications = CERTIFICATIONS;
-    this.keysSkills = Object.keys(this.skills);
   }
 
   ngOnInit(): void {
   }
-
 }

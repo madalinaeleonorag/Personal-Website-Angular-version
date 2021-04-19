@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { AwardModel, EducationModel, ExperienceModel } from 'src/app/data.model';
 import { EXPERIENCE, EDUCATION, AWARDS } from 'src/assets/data';
 
 @Component({
@@ -9,10 +10,10 @@ import { EXPERIENCE, EDUCATION, AWARDS } from 'src/assets/data';
 })
 export class ExperienceComponent implements OnInit {
 
-  experience = [];
-  education = [];
-  awards = [];
-  otherExperiences = [];
+  public experience: ExperienceModel[] = [];
+  public education: EducationModel[] = [];
+  public awards: AwardModel[] = [];
+  public otherExperiences: ExperienceModel[] = [];
 
   constructor() {
     this.experience = EXPERIENCE;

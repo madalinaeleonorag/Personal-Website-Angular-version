@@ -1,4 +1,5 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { CommonsService } from 'src/app/commons.service';
 
 @Component({
   selector: 'app-info-card',
@@ -8,15 +9,15 @@ import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class InfoCardComponent implements OnInit {
 
-  @Input() item;
+  @Input() item: any;
 
-  constructor() { }
+  constructor(private commonsService: CommonsService) { }
 
   ngOnInit(): void {
   }
 
-  openNewTab() {
-    window.open(this.item.url);
-}
+  public openNewTab(): void {
+    this.commonsService.openNewTab(this.item.url);
+  }
 
 }

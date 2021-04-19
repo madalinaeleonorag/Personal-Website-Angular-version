@@ -1,4 +1,5 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { ExperienceModel } from 'src/app/data.model';
 
 @Component({
   selector: 'app-experience-card',
@@ -8,7 +9,7 @@ import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class ExperienceCardComponent implements OnInit {
 
-  @Input() experience;
+  @Input() experience: ExperienceModel;
   @Input() parentPage: string;
 
   constructor() { }

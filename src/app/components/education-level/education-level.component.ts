@@ -1,4 +1,5 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { EducationModel } from 'src/app/data.model';
 
 @Component({
   selector: 'app-education-level',
@@ -8,7 +9,7 @@ import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class EducationLevelComponent implements OnInit {
 
-  @Input() education;
+  @Input() education: EducationModel;
 
   constructor() { }
 

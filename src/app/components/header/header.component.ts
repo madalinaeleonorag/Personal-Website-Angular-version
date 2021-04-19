@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
+import { CommonsService } from 'src/app/commons.service';
 
 @Component({
   selector: 'app-header',
@@ -8,10 +9,11 @@ import { Router } from '@angular/router';
   encapsulation: ViewEncapsulation.None
 })
 export class HeaderComponent implements OnInit {
-  selectedPageUrl: string = '/';
 
-  constructor(private router: Router) {
-    this.router.events.subscribe(value => {
+  private selectedPageUrl = '/';
+
+  constructor(private router: Router, private commonsService: CommonsService) {
+    this.router.events.subscribe(() => {
       this.selectedPageUrl = router.url.toString();
     });
   }
@@ -19,11 +21,11 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  goToPage(page: string) {
-    this.router.navigateByUrl(`${page}`);
+  public goToPage(page: string): void {
+    this.commonsService.navigateToURL(`${page}`);
   }
 
-  isPageSelected(page: string) {
+  public isPageSelected(page: string): boolean {
     return page === this.selectedPageUrl;
   }
 

@@ -2,6 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
 import { EXPERIENCE, PROJECTS } from 'src/assets/data';
 import { CommonsService } from 'src/app/commons.service';
+import { ExperienceModel, ProjectModel, PublicationModel } from 'src/app/data.model';
 
 @Component({
   selector: 'app-homepage',
@@ -10,13 +11,13 @@ import { CommonsService } from 'src/app/commons.service';
   encapsulation: ViewEncapsulation.None
 })
 export class HomepageComponent implements OnInit {
-
-  experience: {} = {};
-  publications: any[] = [];
-  projects: any[] = [];
-  isMobileView: boolean;
-  projectsTechnology: any[] = [];
-  projectsDesign: any[] = [];
+  
+  private projects: ProjectModel[] = [];
+  public experience: ExperienceModel;
+  public publications: PublicationModel[] = [];
+  public isMobileView: boolean;
+  public projectsTechnology: ProjectModel[] = [];
+  public projectsDesign: ProjectModel[] = [];
 
   constructor(private router: Router, private commonsService: CommonsService) {
   }

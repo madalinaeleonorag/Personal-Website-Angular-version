@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
+import { CommonsService } from 'src/app/commons.service';
 
 @Component({
   selector: 'app-not-found',
@@ -9,13 +10,13 @@ import { Router } from '@angular/router';
 })
 export class NotFoundComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private commonsService: CommonsService) { }
 
   ngOnInit(): void {
   }
 
-  goToHomepage() {
-    this.router.navigateByUrl("/");
+  public goToHomepage(): void {
+    this.commonsService.navigateToURL('/');
   }
 
 }

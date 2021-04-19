@@ -1,4 +1,5 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { PublicationModel } from 'src/app/data.model';
 
 @Component({
   selector: 'app-publications',
@@ -8,7 +9,7 @@ import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class PublicationsComponent implements OnInit {
 
-  @Input() publication;
+  @Input() publication: PublicationModel;
 
   constructor() { }
 
