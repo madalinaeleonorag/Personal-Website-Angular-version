@@ -5,17 +5,36 @@
   working with people around the globe and learning how to deliver their
   expectations.
 </div>
-<div class="title-category">Last projects</div>
-<div class="projects">
-  <app-project-card
-    [project]="project"
-    *ngFor="let project of projects"
-  ></app-project-card>
-</div>
+<div class="title-category">Lastest projects</div>
+
+<mat-tab-group>
+  <mat-tab label="💻 Programming">
+    <div class="projects">
+      <app-project-card
+        [project]="project"
+        *ngFor="let project of projectsTechnology"
+      ></app-project-card>
+    </div>
+  </mat-tab>
+  <mat-tab label="🎨 Design">
+    <div class="projects">
+      <app-project-card
+        [project]="project"
+        *ngFor="let project of projectsDesign"
+      ></app-project-card>
+    </div>
+  </mat-tab>
+</mat-tab-group>
 <div class="see-more">
-    <app-custom-button buttonText="&#60;/See more projects&#62;" [isFilledButton]="true" (click)="goToPage('/projects')"></app-custom-button>
+  <app-custom-button
+    buttonText="&#60;/See more projects&#62;"
+    [isFilledButton]="true"
+    (click)="goToPage('/projects')"
+  ></app-custom-button>
 </div>
-<div class="title-category" *ngIf="publications.length > 0">Latest publications</div>
+<div class="title-category" *ngIf="publications.length > 0">
+  Latest publications
+</div>
 <div class="publications" *ngIf="publications.length > 0">
   <app-publications
     *ngFor="let publication of publications"

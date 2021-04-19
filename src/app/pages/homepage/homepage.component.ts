@@ -11,20 +11,24 @@ import { CommonsService } from 'src/app/commons.service';
 })
 export class HomepageComponent implements OnInit {
 
-  experience: any;
+  experience: {} = {};
   publications: any[] = [];
-  projects: any;
+  projects: any[] = [];
   isMobileView: boolean;
+  projectsTechnology: any[] = [];
+  projectsDesign: any[] = [];
 
-  constructor(private router: Router, private _commonsService: CommonsService) {
+  constructor(private router: Router, private commonsService: CommonsService) {
   }
 
   ngOnInit(): void {
     this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
     this.experience = EXPERIENCE[0];
-    this.projects = PROJECTS.slice(0, 3);
+    this.projects = PROJECTS.filter(project => project.featured);
+    this.projectsTechnology = this.projects.filter(project => project.category === 'programming');
+    this.projectsDesign = this.projects.filter(project => project.category === 'design');
 
-    this._commonsService.publications$.subscribe(publications => {
+    this.commonsService.publications$.subscribe(publications => {
       this.publications = publications;
     });
   }

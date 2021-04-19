@@ -1,6 +1,8 @@
 export const PROJECTS = [
     {
         id: 1,
+        featured: true,
+        category: 'design',
         name: 'Photography',
         startDate: 'Jun 2018',
         endDate: 'Present',
@@ -54,6 +56,8 @@ export const PROJECTS = [
         id: 2,
         name: 'Madalina Eleonora - Furniture Design',
         startDate: 'Dec 2018',
+        category: 'design',
+        featured: true,
         endDate: 'Present',
         technologies: ['Photoshop'],
         type: 'Personal project',
@@ -74,6 +78,7 @@ export const PROJECTS = [
         name: 'CRUD PHP MySQL',
         startDate: 'Feb 2021',
         endDate: 'Feb 2021',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'PHP', 'MySQL'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/CRUD-PHP-mySQL',
@@ -93,6 +98,7 @@ export const PROJECTS = [
         name: 'FreeCodeCamp.com Projects',
         startDate: 'Sep 2020',
         endDate: 'Present',
+        category: 'programming',
         technologies: ['HTML', 'CSS'],
         type: 'Course',
         code: 'https://github.com/madalinaeleonorag/FreeCodeCamp.com-Projects',
@@ -115,12 +121,12 @@ export const PROJECTS = [
         ],
         logo: '../assets/projects/4/3.png',
     },
-
     {
         id: 5,
         name: 'JavaScript30 Wes Bos Challenge',
         startDate: 'Nov 2020',
         endDate: 'Dec 2020',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript'],
         type: 'Challenge',
         code: 'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge',
@@ -161,8 +167,10 @@ export const PROJECTS = [
     },
     {
         id: 6,
+        featured: true,
         name: 'Learning League - Hipo DevHack Hackathon',
         startDate: 'Nov 2020',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'CometChat', 'Firebase'],
         type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon',
@@ -205,6 +213,7 @@ export const PROJECTS = [
         id: 7,
         name: 'ToDo App',
         startDate: 'Aug 2020',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'SweetAlert2', 'Firebase'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Todo',
@@ -229,9 +238,11 @@ export const PROJECTS = [
     },
     {
         id: 8,
+        featured: true,
         name: 'UniversityRating',
         startDate: 'Jul 2018',
         endDate: 'Jul 2020',
+        category: 'programming',
         type: 'Personal project',
         technologies: ['HTML', 'CSS', 'Javascript', 'Sass', 'Angular', 'Angular Material', 'Microsoft Text Analytics', 'RxJs', 'Google Charts', 'Google Maps'],
         code: 'https://github.com/madalinaeleonorag/UniversityRating',
@@ -260,8 +271,10 @@ export const PROJECTS = [
     },
     {
         id: 9,
+        featured: true,
         name: 'Exams Schedule',
         startDate: 'Apr 2020',
+        category: 'programming',
         endDate: 'May 2020',
         technologies: ['HTML', 'CSS', 'Javascript', 'Firebase', 'React', 'AXIOS', 'Redux', 'Sass'],
         type: 'Personal project',
@@ -287,6 +300,8 @@ export const PROJECTS = [
         name: 'Madalina Eleonora - Graphic Design',
         startDate: 'June 2015',
         endDate: 'Present',
+        category: 'design',
+        featured: true,
         technologies: ['Photoshop'],
         type: 'Personal project',
         description: `
@@ -306,6 +321,7 @@ export const PROJECTS = [
         name: 'Johnny\'z website',
         startDate: 'May 2019',
         endDate: 'Oct 2019',
+        category: 'programming',
         technologies: ['CSS', 'Wordpress'],
         type: 'Personal project',
         live: 'https://www.johnnypizza.ro/',
@@ -324,6 +340,7 @@ export const PROJECTS = [
         id: 12,
         name: 'TeachMe',
         startDate: 'Mar 2019',
+        category: 'programming',
         endDate: 'May 2019',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Ionic', 'Firebase'],
         type: 'Personal project',
@@ -353,6 +370,7 @@ export const PROJECTS = [
         id: 13,
         name: 'PhotoBooking - RauDevHack Hackathon',
         startDate: 'Apr 2019',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
         type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon',
@@ -383,6 +401,7 @@ export const PROJECTS = [
         id: 14,
         name: 'SmileSharing App - Do IT Girls! Hackathon. Powered by Microsoft',
         startDate: 'Mar 2019',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
         type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon',
@@ -414,6 +433,7 @@ export const PROJECTS = [
         id: 15,
         name: 'Rap Jobs - Hipo DevHack Hackathon',
         startDate: 'Nov 2018',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
         type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon',
@@ -445,6 +465,7 @@ export const PROJECTS = [
         id: 16,
         name: 'Waffic',
         startDate: 'Mar 2018',
+        category: 'programming',
         endDate: 'Jul 2018',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
         type: 'Personal project',
@@ -475,6 +496,7 @@ export const PROJECTS = [
         id: 17,
         name: 'Events Attendances',
         startDate: 'Jan 2018',
+        category: 'programming',
         endDate: 'May 2018',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
         type: 'Personal project',
@@ -508,6 +530,7 @@ export const PROJECTS = [
         id: 18,
         name: 'Backpropagation',
         startDate: 'Dec 2019',
+        category: 'programming',
         technologies: ['C#', 'Visual Studio'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Backpropagation',
@@ -595,6 +618,7 @@ export const PROJECTS = [
         id: 19,
         name: 'Sudoku Backtracking',
         startDate: 'Dec 2019',
+        category: 'programming',
         technologies: ['C#', 'Visual Studio'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Sudoku_Backtracking',
@@ -631,7 +655,7 @@ export const PROJECTS = [
         images: ['assets/projects/16.png'],
         logo: 'assets/projects/16.png'
     }
-]
+];
 
 export const SKILLS = [
     { name: 'HTML5', level: 3, color: '#E85D25', logo: 'HTML5' },
@@ -740,7 +764,7 @@ export const EDUCATION = [
         startYear: '2018',
         endYear: '2020',
         grade: '9.66',
-        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
+        logo: '../assets/logos/romanian-american university.png',
         description: 'I\'ve assimilated informations about IOT, mobile applications development, web technologies, AI, GDPR, PL/SQL, BigData, project management, WordPress, security of computer networks and E-Commerce. Those knowledges are proved by the projects worked for the graduation of the course. Participation in scientific communication session with transportation optimisation in pl/sql and an article regarding security for client-server applications'
     },
     {
@@ -750,7 +774,7 @@ export const EDUCATION = [
         startYear: '2015',
         endYear: '2018',
         grade: '9.50',
-        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
+        logo: '../assets/logos/romanian-american university.png',
         description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP. Participation in scientific communication session with micro and macro economy, management and digital marketing'
     }
 ]
@@ -827,7 +851,7 @@ export const EXPERIENCE = [
       - I learned better ways to solve the problems that appears during the development;<br>
       - Delivered WYSIWYG (What You See Is What You Get), a feature that wants to improve the customer experience regarding the promotional codes.The first phase included changing the design of both coupons and product promotions, including more descriptive text and a user-friendly design, changes made throughout the application, on all banners. In the same phase was included the creation of the right drawer, which replaces the pop-up with the description of the promotion or the description page for it, being available by clicking on the link with the coupon / promotion details. If there are multiple promotions for a single product, they are displayed as a total, and will be described accordingly in the right drawer. The second phase includes the implementation of the new API response, which includes a new possibility to process the offers, displaying the requirement quantity, following that on the stores where the feature is activated, to display and if the offer has been completed and benefit from it. The new treatment system is visible both in the coupon design, in the mini-cart or in the top menu, in the right drawer and in the product page.<br>
       <b>Technologies:</b> Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox<br>`,
-        companyLogo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQEEhxqhOHJVUA/company-logo_200_200/0/1525123751467?e=1618444800&v=beta&t=tAnznEreYDswd0JJE-g8HdvJrCVhwAN_WvxGdBxS1aQ',
+        companyLogo: '../assets/logos/ibm.jpg',
         skill: ['Angular', 'Vagrant', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'Jira'],
     },
     {
@@ -837,7 +861,7 @@ export const EXPERIENCE = [
         dateEnd: 'Sept 2017',
         location: 'Bucharest, Romania',
         description: 'Database maintenance using my own Matlab scripts',
-        companyLogo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQEuvhNwiJCyZw/company-logo_200_200/0/1610449180280?e=1618444800&v=beta&t=UVG0Xg3Ie6rz4MW6Pm6J3Ta5btoCsTrZk50YTHJZhkU',
+        companyLogo: '../assets/logos/renault.png',
         skill: ['Matlab']
     },
     {
@@ -847,7 +871,7 @@ export const EXPERIENCE = [
         dateEnd: 'Jun 2017',
         location: 'Bucharest, Romania',
         description: 'Taking calls and solving the situations encountered by clients, making recordings and offering them.',
-        companyLogo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHhi7yDzxguBQ/company-logo_200_200/0/1591696739930?e=1618444800&v=beta&t=6JQBq6aZFNdS8-GIPsmGPpE21aNsss4ycZuNFQk--4M',
+        companyLogo: '../assets/logos/telekom.png',
         skill: ['Work under pressure', 'Adaptability', 'Multitasking']
     }
 ]

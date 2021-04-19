@@ -18,12 +18,6 @@ app-homepage {
     margin: 20px 10vw;
   }
 
-  .selfies {
-    height: 50% !important;
-    margin: 30px;
-    width: auto;
-  }
-
   .see-more {
     width: fit-content;
     margin: auto;
@@ -36,12 +30,17 @@ app-homepage {
     justify-content: center;
   }
 
-  .experience {
-    app-experience-card {
-      .header {
-        justify-content: center;
-      }
-    }
+  .mat-tab-header {
+    border-bottom: none;
+  }
+
+  .mat-tab-labels {
+    justify-content: center;
+  }
+
+  .mat-tab-label {
+    opacity: 1;
+    color: $white;
   }
 
   .publications {

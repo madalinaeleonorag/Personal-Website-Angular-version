@@ -267,6 +267,8 @@ __webpack_require__.r(__webpack_exports__);
 const PROJECTS = [
     {
         id: 1,
+        featured: true,
+        category: 'design',
         name: 'Photography',
         startDate: 'Jun 2018',
         endDate: 'Present',
@@ -320,6 +322,8 @@ const PROJECTS = [
         id: 2,
         name: 'Madalina Eleonora - Furniture Design',
         startDate: 'Dec 2018',
+        category: 'design',
+        featured: true,
         endDate: 'Present',
         technologies: ['Photoshop'],
         type: 'Personal project',
@@ -340,6 +344,7 @@ const PROJECTS = [
         name: 'CRUD PHP MySQL',
         startDate: 'Feb 2021',
         endDate: 'Feb 2021',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'PHP', 'MySQL'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/CRUD-PHP-mySQL',
@@ -359,6 +364,7 @@ const PROJECTS = [
         name: 'FreeCodeCamp.com Projects',
         startDate: 'Sep 2020',
         endDate: 'Present',
+        category: 'programming',
         technologies: ['HTML', 'CSS'],
         type: 'Course',
         code: 'https://github.com/madalinaeleonorag/FreeCodeCamp.com-Projects',
@@ -386,6 +392,7 @@ const PROJECTS = [
         name: 'JavaScript30 Wes Bos Challenge',
         startDate: 'Nov 2020',
         endDate: 'Dec 2020',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript'],
         type: 'Challenge',
         code: 'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge',
@@ -426,8 +433,10 @@ const PROJECTS = [
     },
     {
         id: 6,
+        featured: true,
         name: 'Learning League - Hipo DevHack Hackathon',
         startDate: 'Nov 2020',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'CometChat', 'Firebase'],
         type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon',
@@ -470,6 +479,7 @@ const PROJECTS = [
         id: 7,
         name: 'ToDo App',
         startDate: 'Aug 2020',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'SweetAlert2', 'Firebase'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Todo',
@@ -494,9 +504,11 @@ const PROJECTS = [
     },
     {
         id: 8,
+        featured: true,
         name: 'UniversityRating',
         startDate: 'Jul 2018',
         endDate: 'Jul 2020',
+        category: 'programming',
         type: 'Personal project',
         technologies: ['HTML', 'CSS', 'Javascript', 'Sass', 'Angular', 'Angular Material', 'Microsoft Text Analytics', 'RxJs', 'Google Charts', 'Google Maps'],
         code: 'https://github.com/madalinaeleonorag/UniversityRating',
@@ -525,8 +537,10 @@ const PROJECTS = [
     },
     {
         id: 9,
+        featured: true,
         name: 'Exams Schedule',
         startDate: 'Apr 2020',
+        category: 'programming',
         endDate: 'May 2020',
         technologies: ['HTML', 'CSS', 'Javascript', 'Firebase', 'React', 'AXIOS', 'Redux', 'Sass'],
         type: 'Personal project',
@@ -552,6 +566,8 @@ const PROJECTS = [
         name: 'Madalina Eleonora - Graphic Design',
         startDate: 'June 2015',
         endDate: 'Present',
+        category: 'design',
+        featured: true,
         technologies: ['Photoshop'],
         type: 'Personal project',
         description: `
@@ -571,6 +587,7 @@ const PROJECTS = [
         name: 'Johnny\'z website',
         startDate: 'May 2019',
         endDate: 'Oct 2019',
+        category: 'programming',
         technologies: ['CSS', 'Wordpress'],
         type: 'Personal project',
         live: 'https://www.johnnypizza.ro/',
@@ -589,6 +606,7 @@ const PROJECTS = [
         id: 12,
         name: 'TeachMe',
         startDate: 'Mar 2019',
+        category: 'programming',
         endDate: 'May 2019',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Ionic', 'Firebase'],
         type: 'Personal project',
@@ -618,6 +636,7 @@ const PROJECTS = [
         id: 13,
         name: 'PhotoBooking - RauDevHack Hackathon',
         startDate: 'Apr 2019',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
         type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon',
@@ -648,6 +667,7 @@ const PROJECTS = [
         id: 14,
         name: 'SmileSharing App - Do IT Girls! Hackathon. Powered by Microsoft',
         startDate: 'Mar 2019',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
         type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon',
@@ -679,6 +699,7 @@ const PROJECTS = [
         id: 15,
         name: 'Rap Jobs - Hipo DevHack Hackathon',
         startDate: 'Nov 2018',
+        category: 'programming',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
         type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon',
@@ -710,6 +731,7 @@ const PROJECTS = [
         id: 16,
         name: 'Waffic',
         startDate: 'Mar 2018',
+        category: 'programming',
         endDate: 'Jul 2018',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
         type: 'Personal project',
@@ -740,6 +762,7 @@ const PROJECTS = [
         id: 17,
         name: 'Events Attendances',
         startDate: 'Jan 2018',
+        category: 'programming',
         endDate: 'May 2018',
         technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
         type: 'Personal project',
@@ -773,6 +796,7 @@ const PROJECTS = [
         id: 18,
         name: 'Backpropagation',
         startDate: 'Dec 2019',
+        category: 'programming',
         technologies: ['C#', 'Visual Studio'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Backpropagation',
@@ -860,6 +884,7 @@ const PROJECTS = [
         id: 19,
         name: 'Sudoku Backtracking',
         startDate: 'Dec 2019',
+        category: 'programming',
         technologies: ['C#', 'Visual Studio'],
         type: 'Personal project',
         code: 'https://github.com/madalinaeleonorag/Sudoku_Backtracking',
@@ -1002,7 +1027,7 @@ const EDUCATION = [
         startYear: '2018',
         endYear: '2020',
         grade: '9.66',
-        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
+        logo: '../assets/logos/romanian-american university.png',
         description: 'I\'ve assimilated informations about IOT, mobile applications development, web technologies, AI, GDPR, PL/SQL, BigData, project management, WordPress, security of computer networks and E-Commerce. Those knowledges are proved by the projects worked for the graduation of the course. Participation in scientific communication session with transportation optimisation in pl/sql and an article regarding security for client-server applications'
     },
     {
@@ -1012,7 +1037,7 @@ const EDUCATION = [
         startYear: '2015',
         endYear: '2018',
         grade: '9.50',
-        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHjuCqBJaQ94w/company-logo_200_200/0/1519912629039?e=1618444800&v=beta&t=0AXa7bstZ1nG0hQ5M4GW4L473FOdVXwejrE79X9XZBE',
+        logo: '../assets/logos/romanian-american university.png',
         description: 'The knowledge is supported by practical projects to prove a good assimilation of basic information. These are both economics, such as management, economics, statistics, accounting, office, marketing, econometrics and programming in various languages such as C ++, C # (Console and Windows Forms), Access databases, SQL, HTML, PHP. Participation in scientific communication session with micro and macro economy, management and digital marketing'
     }
 ];
@@ -1086,7 +1111,7 @@ const EXPERIENCE = [
       - I learned better ways to solve the problems that appears during the development;<br>
       - Delivered WYSIWYG (What You See Is What You Get), a feature that wants to improve the customer experience regarding the promotional codes.The first phase included changing the design of both coupons and product promotions, including more descriptive text and a user-friendly design, changes made throughout the application, on all banners. In the same phase was included the creation of the right drawer, which replaces the pop-up with the description of the promotion or the description page for it, being available by clicking on the link with the coupon / promotion details. If there are multiple promotions for a single product, they are displayed as a total, and will be described accordingly in the right drawer. The second phase includes the implementation of the new API response, which includes a new possibility to process the offers, displaying the requirement quantity, following that on the stores where the feature is activated, to display and if the offer has been completed and benefit from it. The new treatment system is visible both in the coupon design, in the mini-cart or in the top menu, in the right drawer and in the product page.<br>
       <b>Technologies:</b> Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox<br>`,
-        companyLogo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQEEhxqhOHJVUA/company-logo_200_200/0/1525123751467?e=1618444800&v=beta&t=tAnznEreYDswd0JJE-g8HdvJrCVhwAN_WvxGdBxS1aQ',
+        companyLogo: '../assets/logos/ibm.jpg',
         skill: ['Angular', 'Vagrant', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'Jira'],
     },
     {
@@ -1096,7 +1121,7 @@ const EXPERIENCE = [
         dateEnd: 'Sept 2017',
         location: 'Bucharest, Romania',
         description: 'Database maintenance using my own Matlab scripts',
-        companyLogo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQEuvhNwiJCyZw/company-logo_200_200/0/1610449180280?e=1618444800&v=beta&t=UVG0Xg3Ie6rz4MW6Pm6J3Ta5btoCsTrZk50YTHJZhkU',
+        companyLogo: '../assets/logos/renault.png',
         skill: ['Matlab']
     },
     {
@@ -1106,7 +1131,7 @@ const EXPERIENCE = [
         dateEnd: 'Jun 2017',
         location: 'Bucharest, Romania',
         description: 'Taking calls and solving the situations encountered by clients, making recordings and offering them.',
-        companyLogo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHhi7yDzxguBQ/company-logo_200_200/0/1591696739930?e=1618444800&v=beta&t=6JQBq6aZFNdS8-GIPsmGPpE21aNsss4ycZuNFQk--4M',
+        companyLogo: '../assets/logos/telekom.png',
         skill: ['Work under pressure', 'Adaptability', 'Multitasking']
     }
 ];
@@ -2565,10 +2590,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var src_assets_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/assets/data */ "6Xnp");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "iInd");
 /* harmony import */ var src_app_commons_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/commons.service */ "zZLy");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "SVse");
-/* harmony import */ var _components_custom_button_custom_button_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/custom-button/custom-button.component */ "bGnb");
-/* harmony import */ var _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/project-card/project-card.component */ "M0Pn");
-/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/publications/publications.component */ "BBdW");
+/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/tabs */ "M9ds");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "SVse");
+/* harmony import */ var _components_custom_button_custom_button_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/custom-button/custom-button.component */ "bGnb");
+/* harmony import */ var _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/project-card/project-card.component */ "M0Pn");
+/* harmony import */ var _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/publications/publications.component */ "BBdW");
 
 
 
@@ -2578,43 +2604,56 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function HomepageComponent_app_project_card_5_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-project-card", 8);
+
+function HomepageComponent_app_project_card_7_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-project-card", 10);
 } if (rf & 2) {
-    const project_r3 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", project_r3);
+    const project_r4 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", project_r4);
 } }
-function HomepageComponent_div_8_Template(rf, ctx) { if (rf & 1) {
+function HomepageComponent_app_project_card_10_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-project-card", 10);
+} if (rf & 2) {
+    const project_r5 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", project_r5);
+} }
+function HomepageComponent_div_13_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Latest publications");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " Latest publications\n");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function HomepageComponent_div_9_app_publications_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-publications", 11);
+function HomepageComponent_div_14_app_publications_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-publications", 13);
 } if (rf & 2) {
-    const publication_r5 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("publication", publication_r5);
+    const publication_r7 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("publication", publication_r7);
 } }
-function HomepageComponent_div_9_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, HomepageComponent_div_9_app_publications_1_Template, 1, 1, "app-publications", 10);
+function HomepageComponent_div_14_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, HomepageComponent_div_14_app_publications_1_Template, 1, 1, "app-publications", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r2.publications);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r3.publications);
 } }
 class HomepageComponent {
-    constructor(router, _commonsService) {
+    constructor(router, commonsService) {
         this.router = router;
-        this._commonsService = _commonsService;
+        this.commonsService = commonsService;
+        this.experience = {};
         this.publications = [];
+        this.projects = [];
+        this.projectsTechnology = [];
+        this.projectsDesign = [];
     }
     ngOnInit() {
         this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
         this.experience = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["EXPERIENCE"][0];
-        this.projects = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["PROJECTS"].slice(0, 3);
-        this._commonsService.publications$.subscribe(publications => {
+        this.projects = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["PROJECTS"].filter(project => project.featured);
+        this.projectsTechnology = this.projects.filter(project => project.category === 'programming');
+        this.projectsDesign = this.projects.filter(project => project.category === 'design');
+        this.commonsService.publications$.subscribe(publications => {
             this.publications = publications;
         });
     }
@@ -2623,33 +2662,44 @@ class HomepageComponent {
     }
 }
 HomepageComponent.ɵfac = function HomepageComponent_Factory(t) { return new (t || HomepageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_commons_service__WEBPACK_IMPORTED_MODULE_3__["CommonsService"])); };
-HomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomepageComponent, selectors: [["app-homepage"]], decls: 10, vars: 4, consts: [[1, "description-homepage"], [1, "title-category"], [1, "projects"], [3, "project", 4, "ngFor", "ngForOf"], [1, "see-more"], ["buttonText", "</See more projects>", 3, "isFilledButton", "click"], ["class", "title-category", 4, "ngIf"], ["class", "publications", 4, "ngIf"], [3, "project"], [1, "publications"], [3, "publication", 4, "ngFor", "ngForOf"], [3, "publication"]], template: function HomepageComponent_Template(rf, ctx) { if (rf & 1) {
+HomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomepageComponent, selectors: [["app-homepage"]], decls: 15, vars: 5, consts: [[1, "description-homepage"], [1, "title-category"], ["label", "\uD83D\uDCBB Programming"], [1, "projects"], [3, "project", 4, "ngFor", "ngForOf"], ["label", "\uD83C\uDFA8 Design"], [1, "see-more"], ["buttonText", "</See more projects>", 3, "isFilledButton", "click"], ["class", "title-category", 4, "ngIf"], ["class", "publications", 4, "ngIf"], [3, "project"], [1, "publications"], [3, "publication", 4, "ngFor", "ngForOf"], [3, "publication"]], template: function HomepageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " I am an application developer open for collaborations, passionate about digital graphics and photography, eager to learn and evolve in the Front-End field. During the last years, i focused both on my technical and soft skills, working with people around the globe and learning how to deliver their expectations.\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Last projects");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Lastest projects");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, HomepageComponent_app_project_card_5_Template, 1, 1, "app-project-card", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "app-custom-button", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomepageComponent_Template_app_custom_button_click_7_listener() { return ctx.goToPage("/projects"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "mat-tab-group");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-tab", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, HomepageComponent_app_project_card_7_Template, 1, 1, "app-project-card", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, HomepageComponent_div_8_Template, 2, 0, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, HomepageComponent_div_9_Template, 2, 1, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "mat-tab", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, HomepageComponent_app_project_card_10_Template, 1, 1, "app-project-card", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "app-custom-button", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomepageComponent_Template_app_custom_button_click_12_listener() { return ctx.goToPage("/projects"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, HomepageComponent_div_13_Template, 2, 0, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, HomepageComponent_div_14_Template, 2, 1, "div", 9);
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.projects);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.projectsTechnology);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.projectsDesign);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("isFilledButton", true);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.publications.length > 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.publications.length > 0);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _components_custom_button_custom_button_component__WEBPACK_IMPORTED_MODULE_5__["CustomButtonComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_6__["ProjectCardComponent"], _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_7__["PublicationsComponent"]], styles: ["app-homepage .logo {\n  text-align-last: center;\n  padding: 20px;\n}\napp-homepage .logo img {\n  width: auto;\n  height: 25vh;\n}\napp-homepage .description-homepage {\n  text-align: center;\n  font-size: 1rem;\n  line-height: 1.7rem;\n  margin: 20px 10vw;\n}\napp-homepage .selfies {\n  height: 50% !important;\n  margin: 30px;\n  width: auto;\n}\napp-homepage .see-more {\n  width: -webkit-fit-content;\n  width: -moz-fit-content;\n  width: fit-content;\n  margin: auto;\n}\napp-homepage .projects {\n  display: flex;\n  margin: 10px;\n  overflow: auto;\n  justify-content: center;\n}\napp-homepage .experience app-experience-card .header {\n  justify-content: center;\n}\napp-homepage .publications {\n  display: flex;\n  justify-content: center;\n  flex-flow: wrap;\n}\napp-homepage .publications app-publications {\n  flex: 0 0 25%;\n}\napp-homepage .plain-container {\n  justify-content: center !important;\n  margin: 20px 40px 40px;\n  display: flex !important;\n  flex-flow: wrap;\n}\napp-homepage .plain-container .image {\n  margin: 5px !important;\n  height: 200px !important;\n  width: auto !important;\n  box-shadow: 0 0 10px -3px #9c9393;\n}\n@media (max-width: 850px) {\n  app-homepage .description-homepage {\n    margin: 3vh 5vw;\n  }\n  app-homepage .publications app-publications {\n    flex: 0 0 50%;\n  }\n  app-homepage .publications app-publications .publication-wrapper {\n    padding: 10px;\n  }\n  app-homepage .publications app-publications .publication-wrapper .image {\n    height: 125px;\n    width: 125px;\n  }\n  app-homepage .projects {\n    justify-content: unset;\n  }\n}\n@media (max-width: 700px) {\n  app-homepage .plain-container .image {\n    height: auto !important;\n    width: 100% !important;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZXBhZ2UvaG9tZXBhZ2UuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0U7RUFDRSx1QkFBQTtFQUNBLGFBQUE7QUFGSjtBQUlJO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUFGTjtBQU1FO0VBQ0Usa0JBQUE7RUFDQSxlQUFBO0VBQ0EsbUJBQUE7RUFDQSxpQkFBQTtBQUpKO0FBT0U7RUFDRSxzQkFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0FBTEo7QUFRRTtFQUNFLDBCQUFBO0VBQUEsdUJBQUE7RUFBQSxrQkFBQTtFQUNBLFlBQUE7QUFOSjtBQVNFO0VBQ0UsYUFBQTtFQUNBLFlBQUE7RUFDQSxjQUFBO0VBQ0EsdUJBQUE7QUFQSjtBQVlNO0VBQ0UsdUJBQUE7QUFWUjtBQWVFO0VBQ0UsYUFBQTtFQUNBLHVCQUFBO0VBQ0EsZUFBQTtBQWJKO0FBZUk7RUFDRSxhQUFBO0FBYk47QUFpQkU7RUFDRSxrQ0FBQTtFQUNBLHNCQUFBO0VBQ0Esd0JBQUE7RUFDQSxlQUFBO0FBZko7QUFpQkk7RUFDRSxzQkFBQTtFQUNBLHdCQUFBO0VBQ0Esc0JBQUE7RUFDQSxpQ0FBQTtBQWZOO0FBbUJFO0VBQ0U7SUFDRSxlQUFBO0VBakJKO0VBb0JJO0lBQ0UsYUFBQTtFQWxCTjtFQW9CTTtJQUNFLGFBQUE7RUFsQlI7RUFvQlE7SUFDRSxhQUFBO0lBQ0EsWUFBQTtFQWxCVjtFQXVCRTtJQUNFLHNCQUFBO0VBckJKO0FBQ0Y7QUF3QkU7RUFFSTtJQUNFLHVCQUFBO0lBQ0Esc0JBQUE7RUF2Qk47QUFDRiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2hvbWVwYWdlL2hvbWVwYWdlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uLy4uL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5hcHAtaG9tZXBhZ2Uge1xyXG4gIC5sb2dvIHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xyXG4gICAgcGFkZGluZzogMjBweDtcclxuXHJcbiAgICBpbWcge1xyXG4gICAgICB3aWR0aDogYXV0bztcclxuICAgICAgaGVpZ2h0OiAyNXZoO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLmRlc2NyaXB0aW9uLWhvbWVwYWdlIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogMXJlbTtcclxuICAgIGxpbmUtaGVpZ2h0OiAxLjdyZW07XHJcbiAgICBtYXJnaW46IDIwcHggMTB2dztcclxuICB9XHJcblxyXG4gIC5zZWxmaWVzIHtcclxuICAgIGhlaWdodDogNTAlICFpbXBvcnRhbnQ7XHJcbiAgICBtYXJnaW46IDMwcHg7XHJcbiAgICB3aWR0aDogYXV0bztcclxuICB9XHJcblxyXG4gIC5zZWUtbW9yZSB7XHJcbiAgICB3aWR0aDogZml0LWNvbnRlbnQ7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgfVxyXG5cclxuICAucHJvamVjdHMge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIG1hcmdpbjogMTBweDtcclxuICAgIG92ZXJmbG93OiBhdXRvO1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgfVxyXG5cclxuICAuZXhwZXJpZW5jZSB7XHJcbiAgICBhcHAtZXhwZXJpZW5jZS1jYXJkIHtcclxuICAgICAgLmhlYWRlciB7XHJcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcblxyXG4gIC5wdWJsaWNhdGlvbnMge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgZmxleC1mbG93OiB3cmFwO1xyXG5cclxuICAgIGFwcC1wdWJsaWNhdGlvbnMge1xyXG4gICAgICBmbGV4OiAwIDAgMjUlO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLnBsYWluLWNvbnRhaW5lciB7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlciAhaW1wb3J0YW50O1xyXG4gICAgbWFyZ2luOiAyMHB4IDQwcHggNDBweDtcclxuICAgIGRpc3BsYXk6IGZsZXggIWltcG9ydGFudDtcclxuICAgIGZsZXgtZmxvdzogd3JhcDtcclxuXHJcbiAgICAuaW1hZ2Uge1xyXG4gICAgICBtYXJnaW46IDVweCAhaW1wb3J0YW50O1xyXG4gICAgICBoZWlnaHQ6IDIwMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIHdpZHRoOiBhdXRvICFpbXBvcnRhbnQ7XHJcbiAgICAgIGJveC1zaGFkb3c6IDAgMCAxMHB4IC0zcHggJGxpZ2h0Z3JheTtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIEBtZWRpYSAobWF4LXdpZHRoOiA4NTBweCkge1xyXG4gICAgLmRlc2NyaXB0aW9uLWhvbWVwYWdlIHtcclxuICAgICAgbWFyZ2luOiAzdmggNXZ3O1xyXG4gICAgfVxyXG4gICAgLnB1YmxpY2F0aW9ucyB7XHJcbiAgICAgIGFwcC1wdWJsaWNhdGlvbnMge1xyXG4gICAgICAgIGZsZXg6IDAgMCA1MCU7XHJcblxyXG4gICAgICAgIC5wdWJsaWNhdGlvbi13cmFwcGVyIHtcclxuICAgICAgICAgIHBhZGRpbmc6IDEwcHg7XHJcblxyXG4gICAgICAgICAgLmltYWdlIHtcclxuICAgICAgICAgICAgaGVpZ2h0OiAxMjVweDtcclxuICAgICAgICAgICAgd2lkdGg6IDEyNXB4O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG4gICAgLnByb2plY3RzIHtcclxuICAgICAganVzdGlmeS1jb250ZW50OiB1bnNldDtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIEBtZWRpYSAobWF4LXdpZHRoOiA3MDBweCkge1xyXG4gICAgLnBsYWluLWNvbnRhaW5lciB7XHJcbiAgICAgIC5pbWFnZSB7XHJcbiAgICAgICAgaGVpZ2h0OiBhdXRvICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgd2lkdGg6IDEwMCUgIWltcG9ydGFudDtcclxuICAgICAgfVxyXG4gICAgfVxyXG4gIH1cclxufVxyXG4iXX0= */"], encapsulation: 2 });
+    } }, directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_4__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_4__["MatTab"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _components_custom_button_custom_button_component__WEBPACK_IMPORTED_MODULE_6__["CustomButtonComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _components_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_7__["ProjectCardComponent"], _components_publications_publications_component__WEBPACK_IMPORTED_MODULE_8__["PublicationsComponent"]], styles: ["app-homepage .logo {\n  text-align-last: center;\n  padding: 20px;\n}\napp-homepage .logo img {\n  width: auto;\n  height: 25vh;\n}\napp-homepage .description-homepage {\n  text-align: center;\n  font-size: 1rem;\n  line-height: 1.7rem;\n  margin: 20px 10vw;\n}\napp-homepage .see-more {\n  width: -webkit-fit-content;\n  width: -moz-fit-content;\n  width: fit-content;\n  margin: auto;\n}\napp-homepage .projects {\n  display: flex;\n  margin: 10px;\n  overflow: auto;\n  justify-content: center;\n}\napp-homepage .mat-tab-header {\n  border-bottom: none;\n}\napp-homepage .mat-tab-labels {\n  justify-content: center;\n}\napp-homepage .mat-tab-label {\n  opacity: 1;\n  color: #FFFFFF;\n}\napp-homepage .publications {\n  display: flex;\n  justify-content: center;\n  flex-flow: wrap;\n}\napp-homepage .publications app-publications {\n  flex: 0 0 25%;\n}\napp-homepage .plain-container {\n  justify-content: center !important;\n  margin: 20px 40px 40px;\n  display: flex !important;\n  flex-flow: wrap;\n}\napp-homepage .plain-container .image {\n  margin: 5px !important;\n  height: 200px !important;\n  width: auto !important;\n  box-shadow: 0 0 10px -3px #9c9393;\n}\n@media (max-width: 850px) {\n  app-homepage .description-homepage {\n    margin: 3vh 5vw;\n  }\n  app-homepage .publications app-publications {\n    flex: 0 0 50%;\n  }\n  app-homepage .publications app-publications .publication-wrapper {\n    padding: 10px;\n  }\n  app-homepage .publications app-publications .publication-wrapper .image {\n    height: 125px;\n    width: 125px;\n  }\n  app-homepage .projects {\n    justify-content: unset;\n  }\n}\n@media (max-width: 700px) {\n  app-homepage .plain-container .image {\n    height: auto !important;\n    width: 100% !important;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZXBhZ2UvaG9tZXBhZ2UuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3ZhcmlhYmxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdFO0VBQ0UsdUJBQUE7RUFDQSxhQUFBO0FBRko7QUFJSTtFQUNFLFdBQUE7RUFDQSxZQUFBO0FBRk47QUFNRTtFQUNFLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0VBQ0EsaUJBQUE7QUFKSjtBQU9FO0VBQ0UsMEJBQUE7RUFBQSx1QkFBQTtFQUFBLGtCQUFBO0VBQ0EsWUFBQTtBQUxKO0FBUUU7RUFDRSxhQUFBO0VBQ0EsWUFBQTtFQUNBLGNBQUE7RUFDQSx1QkFBQTtBQU5KO0FBU0U7RUFDRSxtQkFBQTtBQVBKO0FBVUU7RUFDRSx1QkFBQTtBQVJKO0FBV0U7RUFDRSxVQUFBO0VBQ0EsY0N0Q0k7QUQ2QlI7QUFZRTtFQUNFLGFBQUE7RUFDQSx1QkFBQTtFQUNBLGVBQUE7QUFWSjtBQVlJO0VBQ0UsYUFBQTtBQVZOO0FBY0U7RUFDRSxrQ0FBQTtFQUNBLHNCQUFBO0VBQ0Esd0JBQUE7RUFDQSxlQUFBO0FBWko7QUFjSTtFQUNFLHNCQUFBO0VBQ0Esd0JBQUE7RUFDQSxzQkFBQTtFQUNBLGlDQUFBO0FBWk47QUFnQkU7RUFDRTtJQUNFLGVBQUE7RUFkSjtFQWlCSTtJQUNFLGFBQUE7RUFmTjtFQWlCTTtJQUNFLGFBQUE7RUFmUjtFQWlCUTtJQUNFLGFBQUE7SUFDQSxZQUFBO0VBZlY7RUFvQkU7SUFDRSxzQkFBQTtFQWxCSjtBQUNGO0FBcUJFO0VBRUk7SUFDRSx1QkFBQTtJQUNBLHNCQUFBO0VBcEJOO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgXCIuLi8uLi92YXJpYWJsZXMuc2Nzc1wiO1xyXG5cclxuYXBwLWhvbWVwYWdlIHtcclxuICAubG9nbyB7XHJcbiAgICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcclxuICAgIHBhZGRpbmc6IDIwcHg7XHJcblxyXG4gICAgaW1nIHtcclxuICAgICAgd2lkdGg6IGF1dG87XHJcbiAgICAgIGhlaWdodDogMjV2aDtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC5kZXNjcmlwdGlvbi1ob21lcGFnZSB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDFyZW07XHJcbiAgICBsaW5lLWhlaWdodDogMS43cmVtO1xyXG4gICAgbWFyZ2luOiAyMHB4IDEwdnc7XHJcbiAgfVxyXG5cclxuICAuc2VlLW1vcmUge1xyXG4gICAgd2lkdGg6IGZpdC1jb250ZW50O1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gIH1cclxuXHJcbiAgLnByb2plY3RzIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBtYXJnaW46IDEwcHg7XHJcbiAgICBvdmVyZmxvdzogYXV0bztcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgLm1hdC10YWItaGVhZGVyIHtcclxuICAgIGJvcmRlci1ib3R0b206IG5vbmU7XHJcbiAgfVxyXG5cclxuICAubWF0LXRhYi1sYWJlbHMge1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgfVxyXG5cclxuICAubWF0LXRhYi1sYWJlbCB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgY29sb3I6ICR3aGl0ZTtcclxuICB9XHJcblxyXG4gIC5wdWJsaWNhdGlvbnMge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgZmxleC1mbG93OiB3cmFwO1xyXG5cclxuICAgIGFwcC1wdWJsaWNhdGlvbnMge1xyXG4gICAgICBmbGV4OiAwIDAgMjUlO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLnBsYWluLWNvbnRhaW5lciB7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlciAhaW1wb3J0YW50O1xyXG4gICAgbWFyZ2luOiAyMHB4IDQwcHggNDBweDtcclxuICAgIGRpc3BsYXk6IGZsZXggIWltcG9ydGFudDtcclxuICAgIGZsZXgtZmxvdzogd3JhcDtcclxuXHJcbiAgICAuaW1hZ2Uge1xyXG4gICAgICBtYXJnaW46IDVweCAhaW1wb3J0YW50O1xyXG4gICAgICBoZWlnaHQ6IDIwMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIHdpZHRoOiBhdXRvICFpbXBvcnRhbnQ7XHJcbiAgICAgIGJveC1zaGFkb3c6IDAgMCAxMHB4IC0zcHggJGxpZ2h0Z3JheTtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIEBtZWRpYSAobWF4LXdpZHRoOiA4NTBweCkge1xyXG4gICAgLmRlc2NyaXB0aW9uLWhvbWVwYWdlIHtcclxuICAgICAgbWFyZ2luOiAzdmggNXZ3O1xyXG4gICAgfVxyXG4gICAgLnB1YmxpY2F0aW9ucyB7XHJcbiAgICAgIGFwcC1wdWJsaWNhdGlvbnMge1xyXG4gICAgICAgIGZsZXg6IDAgMCA1MCU7XHJcblxyXG4gICAgICAgIC5wdWJsaWNhdGlvbi13cmFwcGVyIHtcclxuICAgICAgICAgIHBhZGRpbmc6IDEwcHg7XHJcblxyXG4gICAgICAgICAgLmltYWdlIHtcclxuICAgICAgICAgICAgaGVpZ2h0OiAxMjVweDtcclxuICAgICAgICAgICAgd2lkdGg6IDEyNXB4O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG4gICAgLnByb2plY3RzIHtcclxuICAgICAganVzdGlmeS1jb250ZW50OiB1bnNldDtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIEBtZWRpYSAobWF4LXdpZHRoOiA3MDBweCkge1xyXG4gICAgLnBsYWluLWNvbnRhaW5lciB7XHJcbiAgICAgIC5pbWFnZSB7XHJcbiAgICAgICAgaGVpZ2h0OiBhdXRvICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgd2lkdGg6IDEwMCUgIWltcG9ydGFudDtcclxuICAgICAgfVxyXG4gICAgfVxyXG4gIH1cclxufVxyXG4iLCIkYmxhY2s6ICMxODE5MUE7XHJcbiRncmF5OiAjNGY0ZjRmO1xyXG4kbGlnaHRncmF5OiAjOWM5MzkzO1xyXG4kYmFja2dyb3VuZDogI0Y4RjhGRjtcclxuJHdoaXRlOiAjRkZGRkZGO1xyXG4kcHJpbWFyeTogI2QwMjkyOTtcclxuJHByaW1hcnlvcGFjaXR5OiAjZDAyOTI5MmI7Il19 */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomepageComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
