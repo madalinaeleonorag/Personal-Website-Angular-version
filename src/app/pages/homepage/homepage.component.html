@@ -10,7 +10,7 @@
       occasionally designing) digital experiences.
     </p>
     <p>
-      Currently I'm an front end application developer at <a href="https://www.ibm.com/services/ibmix">IBM iX</a>,
+      Currently I'm a front end application developer at <a href="https://www.ibm.com/services/ibmix">IBM iX</a>,
       focused on increasing both technical and soft skills, working with people
       around the globe and learning how to deliver their expectations.
     </p>
@@ -24,6 +24,13 @@
         *ngFor="let project of projectsTechnology"
       ></app-project-card>
     </div>
+    <div class="see-more">
+      <app-custom-button
+        buttonText="&#60;/See more projects on GitHub&#62;"
+        [isFilledButton]="true"
+        (click)="openGitHub()"
+      ></app-custom-button>
+    </div>
   </mat-tab>
   <mat-tab label="🎨 Design">
     <div class="projects">
@@ -34,16 +41,20 @@
     </div>
   </mat-tab>
 </mat-tab-group>
-<div class="see-more">
-  <app-custom-button
-    buttonText="&#60;/See more projects&#62;"
-    [isFilledButton]="true"
-    (click)="goToPage('/projects')"
-  ></app-custom-button>
-</div>
+<h3 class="publications-info">
+  I like to write, sometimes ✏️
+</h3>
 <div class="publications" *ngIf="publications.length > 0">
   <app-publications
     *ngFor="let publication of publications"
     [publication]="publication"
   ></app-publications>
 </div>
+<div class="see-more">
+  <app-custom-button
+    buttonText="See more articles on Medium"
+    [isFilledButton]="true"
+    (click)="openMedium()"
+  ></app-custom-button>
+</div>
+<app-contact></app-contact>

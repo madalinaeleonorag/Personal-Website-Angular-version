@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <div
+    class="image"
+    [ngStyle]="{
+      background: 'url(' + item.logo + ')',
+      'background-position': 'center',
+      'background-size': 'cover'
+    }"
+  ></div>
+  <div class="name">{{ item.name }}</div>
+  <a href="{{ item.url }}" target="_blank">See certification</a>
+</div>

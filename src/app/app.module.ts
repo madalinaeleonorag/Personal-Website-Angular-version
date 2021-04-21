@@ -18,7 +18,7 @@ import { GalleryModule } from '@ks89/angular-modal-gallery';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ContactComponent } from './pages/contact/contact.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SkillsComponent } from './pages/skills/skills.component';
@@ -28,7 +28,6 @@ import { ExperienceCardComponent } from './components/experience-card/experience
 import { EducationLevelComponent } from './components/education-level/education-level.component';
 import { AwardsComponent } from './components/awards/awards.component';
 import { PublicationsComponent } from './components/publications/publications.component';
-import { ProjectsComponent } from './pages/projects/projects.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -37,7 +36,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatMenuModule } from '@angular/material/menu';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
-import { InfoCardComponent } from './components/info-card/info-card.component';
+import { CertificationCardComponent } from './components/certification-card/certification-card.component';
 import { CustomButtonComponent } from './components/custom-button/custom-button.component';
 import { CustomSvgComponent } from './components/custom-svg/custom-svg.component';
 import { CustomCategoryButtonComponent } from './components/custom-category-button/custom-category-button.component';
@@ -56,12 +55,11 @@ import { CustomChipComponent } from './components/custom-chip/custom-chip.compon
     EducationLevelComponent,
     AwardsComponent,
     PublicationsComponent,
-    ProjectsComponent,
     ProjectCardComponent,
     ProjectDetailsComponent,
     NotFoundComponent,
     SkillCardComponent,
-    InfoCardComponent,
+    CertificationCardComponent,
     CustomButtonComponent,
     CustomSvgComponent,
     CustomCategoryButtonComponent,

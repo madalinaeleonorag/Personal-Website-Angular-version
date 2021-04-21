@@ -75,98 +75,6 @@ export const PROJECTS = [
     },
     {
         id: 3,
-        name: 'CRUD PHP MySQL',
-        startDate: 'Feb 2021',
-        endDate: 'Feb 2021',
-        category: 'programming',
-        technologies: ['HTML', 'CSS', 'PHP', 'MySQL'],
-        type: 'Personal project',
-        code: 'https://github.com/madalinaeleonorag/CRUD-PHP-mySQL',
-        description: `
-            CRUD PHP and MySQL application
-        `,
-        images: [
-            '../assets/projects/3/1.png',
-            '../assets/projects/3/2.png',
-            '../assets/projects/3/3.png',
-            '../assets/projects/3/4.png',
-        ],
-        logo: '../assets/projects/3/4.png',
-    },
-    {
-        id: 4,
-        name: 'FreeCodeCamp.com Projects',
-        startDate: 'Sep 2020',
-        endDate: 'Present',
-        category: 'programming',
-        technologies: ['HTML', 'CSS'],
-        type: 'Course',
-        code: 'https://github.com/madalinaeleonorag/FreeCodeCamp.com-Projects',
-        description: `
-            Projects made by following the courses from FreeCodeCamp.com<br><br>
-            This includes:<br>
-            1. Responsive Web Design Certification Projects<br>
-            - Tribute page;<br>
-            - Form page;<br>
-            - Landing page;<br>
-            - Technical page;<br>
-            - Portfolio page.
-        `,
-        images: [
-            '../assets/projects/4/1.png',
-            '../assets/projects/4/2.png',
-            '../assets/projects/4/3.png',
-            '../assets/projects/4/4.png',
-            '../assets/projects/4/5.png',
-        ],
-        logo: '../assets/projects/4/3.png',
-    },
-    {
-        id: 5,
-        name: 'JavaScript30 Wes Bos Challenge',
-        startDate: 'Nov 2020',
-        endDate: 'Dec 2020',
-        category: 'programming',
-        technologies: ['HTML', 'CSS', 'Javascript'],
-        type: 'Challenge',
-        code: 'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge',
-        description: `30 day vanilla JS coding challenge from Web Bos`,
-        images: [
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/01.png',
-            'https://raw.githubusercontent.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/main/screenshots/02.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/03.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/04-1.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/05.png',
-            'https://raw.githubusercontent.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/main/screenshots/06.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/07.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/08-update.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/09.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/10.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/11.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/12.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/13.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/14.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/15.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/16.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/17.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/18.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/19.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/20.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/21.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/22.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/23.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/24.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/25.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/26.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/27.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/28.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/29.png',
-            'https://github.com/madalinaeleonorag/JavaScript30-WesBos-Challenge/raw/main/screenshots/30.png'
-        ],
-        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/24days-of-JavaScriptmas-by-Scrimba/master/screenshots/24.jpg'
-    },
-    {
-        id: 6,
         featured: true,
         name: 'Learning League - Hipo DevHack Hackathon',
         startDate: 'Nov 2020',
@@ -176,68 +84,48 @@ export const PROJECTS = [
         code: 'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon',
         live: 'https://devhacks2020-1c585.web.app',
         description: `
-      Education application created using Vue.js CLI version 2.6.11 with Vuetify. Video and voice calling are made through CometChat and data is saved through Firebase.
-      Key Features:<br>
-      1. The user can login into the platform as a teacher or as a student<br>
-      2. As a teacher the user will have access to all of the app resources<br>
-      3. As a student the user will have access only on what the teacher shares with him for security purposes and for creating a community based on trust<br>
-      4. On the homepage the user will have the following options:<br>
-      - search for uploaded resources by other teachers or students and download them;<br>
-      - upload resources with selecting the privacy type to define which users can access the resource;<br>
-      - view classrooms and filter them by name or description;<br>
-      - view courses and filter them by name or description;<br>
-      - take tests from different categories.<br>
-      5. The user can search for resources, download them and filter them by name or description<br>
-      6. The user can enter several classrooms where they can talk about different topics with or without a teacher<br>
-      7. Users can make voice calls, video calls, share screen in the chatroom and upload/download documents<br>
-      8. User can take courses in order to develop their e-learning skills<br>
-      9. Users cand take tests in order to verify their knowledges from different categories
-      `,
+            <h1>DevHacks2020 App</h1>
+            <p>Education application created using Vue.js, Vuetify, Vuex, Firebase.</p>
+            <h2>Development</h2>
+            This project was created using <a href="https://vuejs.org/">Vue.js CLI</a> version 2.6.11 with <a href="https://vuetifyjs.com/en/">Vuetify</a>. Video and voice calling are made through <a href="https://www.cometchat.com/">CometChat</a> and data is saved through <a href="https://firebase.google.com/docs">Firebase</a>.
+            <h2>Features</h2>
+            <ul>
+            <li>The user can login into the platform as a teacher or as a student</li>
+            <li>As a teacher the user will have access to all of the app resources</li>
+            <li>As a student the user will have access only on what the teacher shares with him for security purposes and for creating a community based on trust</li>
+            <li>On the homepage the user will have the following options:
+            <ol>
+            <li>search for uploaded resources by other teachers or students and download them</li>
+            <li>upload resources with selecting the privacy type to define which users can access the resource</li>
+            <li>view classrooms and filter them by name or description</li>
+            <li>view courses and filter them by name or description</li>
+            <li>take tests from different categories</li>
+            </ol>
+            <li>The user can search for resources, download them and filter them by name or description</li>
+            <li>The user can enter several classrooms where they can talk about different topics with or without a teacher</li>
+            <li>Users can make voice calls, video calls, share screen in the chatroom and upload/download documents</li>
+            <li>User can take courses in order to develop their e-learning skills</li>
+            <li>Users cand take tests in order to verify their knowledges from different categories</li>
+            </ul>
+        `,
         images: [
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/1.png?raw=true',
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/2.png?raw=true',
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/3.png?raw=true',
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/4.png?raw=true',
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/5.png?raw=true',
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/6.png?raw=true',
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/7.png?raw=true',
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/8.png?raw=true',
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/9.png?raw=true',
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/10.png?raw=true',
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/11.png?raw=true',
-            'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon/raw/master/src/assets/12.png?raw=true'
+            '../assets/projects/3/1.png',
+            '../assets/projects/3/2.png',
+            '../assets/projects/3/3.png',
+            '../assets/projects/3/4.png',
+            '../assets/projects/3/5.png',
+            '../assets/projects/3/6.png',
+            '../assets/projects/3/7.png',
+            '../assets/projects/3/8.png',
+            '../assets/projects/3/9.png',
+            '../assets/projects/3/10.png',
+            '../assets/projects/3/11.png',
+            '../assets/projects/3/12.png'
         ],
-        logo: 'assets/projects/3.png'
+        logo: '../assets/projects/3/1.png'
     },
     {
-        id: 7,
-        name: 'ToDo App',
-        startDate: 'Aug 2020',
-        category: 'programming',
-        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'SweetAlert2', 'Firebase'],
-        type: 'Personal project',
-        code: 'https://github.com/madalinaeleonorag/Todo',
-        live: 'https://todovuevuetify.web.app',
-        description: `
-      Todo application created using HTML, Vue.js, Vuetify and JavaScript.<br>
-      This project was created using Vue.js CLI version 2.6.11 with Vuetify, SweetAlert2. Data is saved through local storage.<br>
-      Key Features:<br>
-      - Create a task with priority and due date;<br>
-      - Edit or delete a task;<br>
-      - Mark task as completed;<br>
-      - Views tasks in lists according to their status ('Overdue', 'To do', 'Done items') or in a calendar;<br>
-      - Filter tasks by priority or due date;<br>
-      - Data saved through local storage.
-      `,
-        images: [
-            'https://github.com/madalinaeleonorag/Todo/raw/master/src/assets/1.png?raw=true',
-            'https://github.com/madalinaeleonorag/Todo/raw/master/src/assets/2.png?raw=true',
-            'https://github.com/madalinaeleonorag/Todo/raw/master/src/assets/3.png?raw=true'
-        ],
-        logo: 'assets/projects/4.png'
-    },
-    {
-        id: 8,
+        id: 4,
         featured: true,
         name: 'UniversityRating',
         startDate: 'Jul 2018',
@@ -248,29 +136,59 @@ export const PROJECTS = [
         code: 'https://github.com/madalinaeleonorag/UniversityRating',
         live: 'https://universityraking.web.app',
         description: `
-      In this application you can search for your best option through hundred of updated universities around the world. Users can grade and add a comment to institutions so others can see if it fits for them. Only verified ratings, using Microsoft Text Analysis will be displayed. After creating an account, the user can activate it to claim a university and add verified informations about it. The user needs to provide full informations and will be contacted by administrators in order to securely activate the account. The information accuracy depends on institution representant.<br>
-      This project was created using Angular CLI version 8.3.2 with TypeScript, Angular Material, Microsoft Text Analytics, Google Maps API, Google Charts and RxJs. For database used to store the data is Firebase Firestore.
-      `,
+            <p>In this application you can search for your best option through hundred of updated universities around the world. Users can grade and add a comment to institutions so others can see if it fits for them. Only verified ratings, using Microsoft Text Analysis will be displayed. After creating an account, the user can activate it to claim a university and add verified informations about it. The user needs to provide full informations and will be contacted by administrators in order to securely activate the account. The information accuracy depends on institution representant.</p>
+            <h2>Development</h2>
+            This project was created using <a href="https://github.com/angular/angular-cli">Angular CLI</a> version 8.3.2 with <a href="https://www.typescriptlang.org/">TypeScript</a>, <a href="https://material.angular.io/">Angular Material</a>, <a href="https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/">Microsoft Text Analytics</a>, <a href="https://developers.google.com/maps/documentation">Google Maps API</a>, <a href="https://developers.google.com/chart">Google Charts</a> and <a href="https://www.npmjs.com/package/rxjs">RxJs</a>.
+            <br>
+            For database used to store the data is <a href="https://firebase.google.com/docs/firestore">Firebase Firestore</a>.
+            <p>The main page of the application gives the visitor the opportunity to register in the account or create a new account or to view the list of available information. Also, in the footer of the page you can see its legal details.</p>
+            <p>Pressing the "LOGIN" button leads to the window that allows the user to enter the personal account by filling in the fields "Email" and "Password", and pressing the "SIGNUP" button on the form to create a new account. The account is only entered with valid data, with automatic correction for the fields required. The e-mail address requires the presence of the "@" character and the connection point, in order to be declared valid. If the email address is formed correctly but does not exist in the database, an error will be received.</p>
+            <p>The essential information for creating a new account is your email, password, last name, first name and GDPR agreement.</p>
+            <p>After logging in, the user has the option to view personal data or log out. Another feature activated by creating an account is the ability to write reviews at universities or colleges.</p>
+            <p>Pressing the "ACCOUNT" button takes you to the user's personal information page, where he can change it.</p>
+            <p>For the administrator, the additional pages that can be accessed are "DASHBOARD" and "UNIVERSITY REQUESTS". In the applications section, he can see the status of applications for the administration of a university on the application, to accept or reject one of these applications.</p>
+            <p>
+            By entering the "DASHBOARD" section, the administrator has the opportunity to view:
+            <ul>
+            <li>Report with information about users, such as their identification code, email address, date of birth, name, surname and location;</li>
+            <li>Report on all universities registered on the application so far;</li>
+            <li>Report on all faculties registered on the application so far;</li>
+            <li>Reports on existing bachelor's, master's and doctoral programs;</li>
+            <li>Graphic reports on the degree of use of facilities, age of users, level of education of users, location of users and universities;</li>
+            <li>Statistics on the level of education of users, type of registered universities, gender of users, degree of acceptance of the GDPR, type of verification of courses, status of applications, average number of registered faculties for a university, photos uploaded for a university, number of facilities offered by universities, as well as on the average number of specializations registered at a faculty.</li>
+            </ul>
+            </p>
+            <p>Pressing the "SEARCH" button redirects the user to the results page, where he can filter the information by level of education, name, description, location, facilities or type of institution.</p>
+            <p>Pressing the "VIEW DETAILS" button redirects the user to the page for the university or faculty, according to the filtering obtained previously.
+            The university page contains general information about the university, such as the description, mission, values ​​and strategic programs, link to the official website of the university, photos, existing facilities, contact details and the route to reach its location. At the existing faculties at this university, there is a table with the name, the number of specializations on the level of education and a button that redirects the user to the faculty page.</p>
+            <p>The faculty page contains general information about the faculty or university to which it belongs, the faculty guide, the programs available for each level of education, as well as a button that redirects us to the university.</p>
+            <p>For each program, the number of years and semesters required for completion, the general skills obtained, the professional perspectives and the courses existing during the university years are known.</p>
+            <p>The course is known by its name, the number of credits obtained after completion, the evaluation procedure, the number of hours available, the semester and its objectives.</p>
+            <p>For both college and university, an authenticated user will be able to write a review. This review is automatically accepted and published if it is positive, or verified by a user and subsequently added or deleted if it contains inappropriate words, in order to avoid misleading users. The review consists of the number of stars awarded and the completed comment.</p>
+            <p>Editing data after activating the university account can be done from the presentation page of the university / faculty by pressing the "EDIT" button, which will activate the fields for completing or modifying the information.</p>
+        `,
         images: [
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/homepage.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/login.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/search.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/university.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/faculty.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/course.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/user-details.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/university-edit.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/faculty-edit.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/barcharts.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/piecharts.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/raports.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/requests.png',
-            'https://github.com/madalinaeleonorag/UniversityRating/raw/master/src/assets/presentation/database.png'
+            '../assets/projects/4/1.png',
+            '../assets/projects/4/2.png',
+            '../assets/projects/4/3.png',
+            '../assets/projects/4/4.png',
+            '../assets/projects/4/5.png',
+            '../assets/projects/4/6.png',
+            '../assets/projects/4/7.png',
+            '../assets/projects/4/8.png',
+            '../assets/projects/4/9.png',
+            '../assets/projects/4/10.png',
+            '../assets/projects/4/11.png',
+            '../assets/projects/4/12.png',
+            '../assets/projects/4/13.png',
+            '../assets/projects/4/14.png',
+            '../assets/projects/4/15.png',
+            '../assets/projects/4/16.png'
         ],
-        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/UniversityRating/master/src/assets/presentation/homepage.png'
+        logo: '../assets/projects/4/1.png'
     },
     {
-        id: 9,
+        id: 5,
         featured: true,
         name: 'Exams Schedule',
         startDate: 'Apr 2020',
@@ -281,22 +199,24 @@ export const PROJECTS = [
         code: 'https://github.com/madalinaeleonorag/ExamsSchedule',
         live: 'https://reactproject-df131.web.app',
         description: `
-      Application that allows the management of university exams.<br>
-      This project was created using React.js, axios, Redux and Sass.<br>
-      For database used to store the data is Firebase Realtime Database.
-      `,
+            CRUD application that allows the management of university exams
+            <h2>Development</h2>
+            <p>
+            This project was created using <a href="https://reactjs.org/">React.js</a>, <a href="https://www.npmjs.com/package/axios">axios</a>, <a href="https://redux.js.org/">Redux</a> and <a href="https://sass-lang.com/">Sass</a>. For database used to store the data is <a href="https://firebase.google.com/products/realtime-database">Firebase Realtime Database</a>.
+            </p>
+        `,
         images: [
-            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/homepage.png',
-            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/exams-grid.png',
-            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/archive.png',
-            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/add-exam.png',
-            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/edit-exam.png',
-            'https://github.com/madalinaeleonorag/ExamsSchedule/raw/master/src/assets/edit-remove-exam.png'
+            '../assets/projects/5/1.png',
+            '../assets/projects/5/2.png',
+            '../assets/projects/5/3.png',
+            '../assets/projects/5/4.png',
+            '../assets/projects/5/5.png',
+            '../assets/projects/5/6.png'
         ],
-        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/ExamsSchedule/master/src/assets/homepage.png'
+        logo: '../assets/projects/5/1.png'
     },
     {
-        id: 10,
+        id: 6,
         name: 'Madalina Eleonora - Graphic Design',
         startDate: 'June 2015',
         endDate: 'Present',
@@ -307,67 +227,17 @@ export const PROJECTS = [
         description: `
             Providing logos for different clients and pro bono`,
         images: [
-            'assets/projects/10/1.png',
-            'assets/projects/10/2.png',
-            'assets/projects/10/3.png',
-            'assets/projects/10/4.png',
-            'assets/projects/10/5.png',
-            'assets/projects/10/6.png'
+            'assets/projects/6/1.png',
+            'assets/projects/6/2.png',
+            'assets/projects/6/3.png',
+            'assets/projects/6/4.png',
+            'assets/projects/6/5.png',
+            'assets/projects/6/6.png'
         ],
-        logo: 'assets/projects/10/2.png'
+        logo: 'assets/projects/6/1.png'
     },
     {
-        id: 11,
-        name: 'Johnny\'z website',
-        startDate: 'May 2019',
-        endDate: 'Oct 2019',
-        category: 'programming',
-        technologies: ['CSS', 'Wordpress'],
-        type: 'Personal project',
-        live: 'https://www.johnnypizza.ro/',
-        description: `Is a site created in Wordpress, the result of a faculty project and currently used as the official site of Johhny'z restaurants.`,
-        images: [
-            'assets/projects/11/1.png',
-            'assets/projects/11/2.png',
-            'assets/projects/11/3.png',
-            'assets/projects/11/4.png',
-            'assets/projects/11/5.png',
-            'assets/projects/11/6.png'
-        ],
-        logo: 'assets/projects/11/1.png'
-    },
-    {
-        id: 12,
-        name: 'TeachMe',
-        startDate: 'Mar 2019',
-        category: 'programming',
-        endDate: 'May 2019',
-        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Ionic', 'Firebase'],
-        type: 'Personal project',
-        code: 'https://github.com/madalinaeleonorag/TeachMeSecure',
-        live: 'https://teachme-7a1a2.web.app/login',
-        description: `
-      TeachMe mobile application created using Vue.js, Vuex, Ionic and Firebase which helps you learn new things by taking several courses.
-      <br>
-      Key features:<br>
-      - Create an account and login;<br>
-      - Take different courses from multiple categories (IT software and hardware, languages, general knowledge);<br>
-      - Each course has a theory part and a quiz at the end;<br>
-      - Keep track on how many courses did you finish;<br>
-      - Collect points from every test you take.
-      `,
-        images: [
-            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/login%20.png?raw=true',
-            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/signup.png?raw=true',
-            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/hp2.png?raw=true',
-            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/theory.png?raw=true',
-            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/quiz.png?raw=true',
-            'https://github.com/madalinaeleonorag/TeachMe/raw/master/src/assets/results.png?raw=true'
-        ],
-        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/TeachMe/master/src/assets/hp2.png'
-    },
-    {
-        id: 13,
+        id: 7,
         name: 'PhotoBooking - RauDevHack Hackathon',
         startDate: 'Apr 2019',
         category: 'programming',
@@ -375,62 +245,34 @@ export const PROJECTS = [
         type: 'Hackathon',
         code: 'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon',
         description: `
-      PhotoBooking App that recommends a suitable photographer for a customer's event, according to his visual preferences, budget and period. Application created using Vue.js, Vuetify, Vuex, Firebase.
-      <br>
-      Features:<br>
-      - Users can login into the platform as a customer or as a photographer;<br>
-      - Customers can take a test so that the app can recommend the best photographer for their event, according to their visual preferences, budget and period;<br>
-      - Users can access their profile (as customer or photographer) where they can change their details;<br>
-      - Both types of users cand see a list of their requests and status;<br>
-      - Informations are saved through Firebase.
-      `,
+            <h1>PhotoBooking App for URA Hackathon 2019</h1>
+            <p>PhotoBooking App that recommends a suitable photographer for a customer's event, according to his visual preferences, budget and period.</p>
+            <h2>Development</h2>
+            <p>This project was created using <a href="https://vuejs.org/">Vue.js CLI</a> version 2.6.11 with <a href="https://vuetifyjs.com/en/">Vuetify</a>. Data is saved through <a href="https://firebase.google.com/docs">Firebase</a>.</p>
+            <h2>Features</h2>
+            <ul>
+            <li>Users can login into the platform as a customer or as a photographer</li>
+            <li>Customers can take a test so that the app can recommend the best photographer for their event, according to their visual preferences, budget and period</li>
+            <li>Users can access their profile (as customer or photographer) where they can change their details</li>
+            <li>Both types of users cand see a list of their requests and status</li>
+            <li>Informations are saved through Firebase</li>
+            </ul>
+        `,
         images: [
-            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/hp.png?raw=true',
-            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/login.png?raw=true',
-            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/signup.png?raw=true',
-            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/profile.png?raw=true',
-            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test1.png?raw=true',
-            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test2.png?raw=true',
-            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test3.png?raw=true',
-            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/test4.png?raw=true',
-            'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon/raw/master/src/assets/table.png?raw=true'
+            '../assets/projects/7/1.png',
+            '../assets/projects/7/2.png',
+            '../assets/projects/7/3.png',
+            '../assets/projects/7/4.png',
+            '../assets/projects/7/5.png',
+            '../assets/projects/7/6.png',
+            '../assets/projects/7/7.png',
+            '../assets/projects/7/8.png',
+            '../assets/projects/7/9.png'
         ],
-        logo: 'assets/projects/10.png'
+        logo: '../assets/projects/7/2.png'
     },
     {
-        id: 14,
-        name: 'SmileSharing App - Do IT Girls! Hackathon. Powered by Microsoft',
-        startDate: 'Mar 2019',
-        category: 'programming',
-        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
-        type: 'Hackathon',
-        code: 'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon',
-        live: 'https://doitgirls-ed93d.web.app',
-        description: `
-      Ride sharing application created using HTML, Vue.js, Vuetify, JavaScript and Google Maps.
-      <br>
-      Key Features:<br>
-      - View list of rides;<br>
-      - Filter rides by locality leaving, locality going or by car model;<br>
-      - Login in order to add or book a ride;<br>
-      - Show route on Google Maps by pressing the 'View recomanded route' button;<br>
-      - Book a ride by pressing the 'Go with this driver' button;<br>
-      - Add a ride by completing a form;<br>
-      - View profile page which includes personal informations (name, phone number, email address) and the rides situation;<br>
-      - View user's rides list: one where the user is booked as a passenger and one where the user is the driver of the car;<br>
-      - View rides details.
-      `,
-        images: [
-            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/1.png?raw=true',
-            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/2.png?raw=true',
-            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/3.png?raw=true',
-            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/4.png?raw=true',
-            'https://github.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/raw/master/src/assets/5.png?raw=true'
-        ],
-        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/SmileSharingApp-Microsoft-DoITGirls-Hackathon/master/src/assets/1.png'
-    },
-    {
-        id: 15,
+        id: 8,
         name: 'Rap Jobs - Hipo DevHack Hackathon',
         startDate: 'Nov 2018',
         category: 'programming',
@@ -439,30 +281,32 @@ export const PROJECTS = [
         code: 'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon',
         live: 'https://devhacks2018.web.app/',
         description: `
-      This application allows candidates from Romania the possibility to offer reviews/ratings to companies about key areas such as:
-      - recruitment process
-      - work environment (team, schedule, etc)
-      - trainings, learning and development opportunities
-      - salary & benefits
-      - work-life balance
-      - management
-      - internal systems (procedures, values, way of working)
-      - other relevant areas
-      The aim of this product is to help candidates find the employer that best suits their needs and personality, using our personality test
-      `,
+        <h1>RapJobs - Job Search App</h1>
+        <p>The aim of this product is to help candidates find the employer that best suits their needs and personality, using our personality test.</p>
+        <h2>Development</h2>
+        <p>This project was created using <a href="https://vuejs.org/">Vue.js CLI</a> version 2.6.11 with <a href="https://vuetifyjs.com/en/">Vuetify</a>, <a href="https://vuex.vuejs.org/">Vuex</a>. Data is saved through <a href="https://firebase.google.com/">Firebase</a></p>
+        <h2>Features</h2>
+        <ul>
+        <li>Users can login or signup</li>
+        <li>Users can search for jobs or companies by different criteria (filter by name, address, industry, location, benefits, requirements, full-time/part-time job)</li>
+        <li>Users can see details about companies on the employer's page</li>
+        <li>The user's profile page is also his resume so the application progress is simplified</li>
+        <li>The user can take a personality test in order to help him find the jobs that suits his needs best</li>
+        </ul>
+        `,
         images: [
-            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/hp.png?raw=true',
-            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/login.png?raw=true',
-            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/signup.png?raw=true',
-            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/test.png?raw=true',
-            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/search.png?raw=true',
-            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/company.png?raw=true',
-            'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon/raw/master/src/assets/profile.png?raw=true'
+            '../assets/projects/8/1.png',
+            '../assets/projects/8/2.png',
+            '../assets/projects/8/3.png',
+            '../assets/projects/8/4.png',
+            '../assets/projects/8/5.png',
+            '../assets/projects/8/6.png',
+            '../assets/projects/8/7.png'
         ],
-        logo: 'assets/projects/12.png'
+        logo: '../assets/projects/8/2.png'
     },
     {
-        id: 16,
+        id: 9,
         name: 'Waffic',
         startDate: 'Mar 2018',
         category: 'programming',
@@ -472,188 +316,88 @@ export const PROJECTS = [
         code: 'https://github.com/madalinaeleonorag/Waffic',
         live: 'https://waffic1997.web.app',
         description: `
-      Integrated application for tracking weather and traffic conditions, using AccuWeather, Google Maps and Google Charts APIs.<br>
-      This project was created using Vue.js CLI version 2.5.2 with Vuetify, Google Maps API, Google Charts, VUEX and Router. For database used to store the data is Firebase Realtime Database.
-      `,
-        images: [
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/homepage.jpg',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/signup.jpg',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/collaborations.jpg',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/contact.jpg',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/tutorial.jpg',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/user-profile.jpg',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/travel-history.jpg',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/map.jpg',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/admin-account.jpg',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/messages.jpg',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/statistics.png',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/search.png',
-            'https://github.com/madalinaeleonorag/Waffic/raw/master/src/assets/Presentation/database.jpg'
-        ],
-        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Waffic/master/src/assets/Presentation/map.jpg'
-    },
-    {
-        id: 17,
-        name: 'Events Attendances',
-        startDate: 'Jan 2018',
-        category: 'programming',
-        endDate: 'May 2018',
-        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
-        type: 'Personal project',
-        code: 'https://github.com/madalinaeleonorag/Events-Attendances',
-        live: 'https://attendances-62382.web.app',
-        description: `
-      Events Attendance App application created using HTML, Vue.js, Element and Firebase.
-      <br>
-      This project was created using Vue.js CLI version 2.6.11 with Element. Data is saved through Firebase Database and the login is with Firebase Authentification.
-      <br>
-      Key Features:<br>
-      - Create an account and login;<br>
-      - Edit profile page;<br>
-      - View list of events;<br>
-      - Filter events by date ('Past evets', 'This week', 'Next week', 'Future events', 'Anytime');<br>
-      - See events details and people attending;<br>
-      - Attend event;<br>
-      - Data saved through Firebase Database.
-      `,
-        images: [
-            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/1.png?raw=true',
-            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/2.png?raw=true',
-            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/3.png?raw=true',
-            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/4.png?raw=true',
-            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/5.png?raw=true',
-            'https://github.com/madalinaeleonorag/Events-Attendances/raw/master/src/assets/6.png?raw=true'
-        ],
-        logo: 'https://raw.githubusercontent.com/madalinaeleonorag/Events-Attendances/master/src/assets/1.png'
-    },
-    {
-        id: 18,
-        name: 'Backpropagation',
-        startDate: 'Dec 2019',
-        category: 'programming',
-        technologies: ['C#', 'Visual Studio'],
-        type: 'Personal project',
-        code: 'https://github.com/madalinaeleonorag/Backpropagation',
-        description: `Backpropagation program using C#
-        <br><br>
-        Last 2 instructions:<br><br>
-        
-        --------------Instruire: 98
-           <br> Se utilizeaza exemplul 1
-           <br>
-           <br>
-           <br> δ5 = -0.0298615276428424
-           <br>
-           <br> Determinam corectia
-           <br> Delta w35 = -0.0018772072410127
-           <br> Delta w45 = -0.00259208055658181
-           <br> Delta Teta  5 = 0.00298615276428424
-           <br>
-           <br> Prin calculul gradientului erorii se determina:
-           <br> δ3 = 0.010892788230975
-           <br> δ4 = -0.001879541855416
-           <br>
-           <br> Calculam apoi corectiile ponderilor si obtinem:
-           <br> Delta w13 = 0
-           <br> Delta w23 = 0
-           <br> Delta Teta 3 = -0.0010892788230975
-           <br> Delta w14 = 0
-           <br> Delta w24 = 0
-           <br> Delta Teta 4 = 0.0001879541855416
-           <br>
-           <br> Ajustam toate ponderile si nivelurile pragurilor din retea (biasurile):
-           <br> w13 = 0.608353543465978
-           <br> w14 = 0.870265059825897
-           <br> w23 = 0.507687716489308
-           <br> w24 = 0.970573683236741
-           <br> w35 = -1.56440823158843
-           <br> w45 = 0.546872524323644
-           <br> Teta 2 = 0.588576403627556
-           <br> Teta 3 = -0.042655277882563
-           <br> Teta 4 = 0.932964811489868
-           <br> ----Eroare: 0.00101389634619537
-           <br>
-           <br> Oc,3 = 0.62889163611443
-           <br> Oc,4 = 0.868011941669101
-           <br> Oc,5 = 0.191217859528008
-           <br> Eroare neuron 5, e5 = -0.191217859528008
-           <br>
-           <br> --------------Instruire: 99
-           <br> Se utilizeaza exemplul 2
-           <br>
-           <br> δ5 = -0.0295725283956396
-           <br>
-           <br> Determinam corectia
-           <br> Delta w35 = -0.00185979157667742
-           <br> Delta w45 = -0.00256693077927637
-           <br> Delta Teta  5 = 0.00295725283956396
-           <br>
-           <br> Prin calculul gradientului erorii se determina:
-           <br> δ3 = 0.010797298581675
-           <br> δ4 = -0.00185282713260552
-           <br>
-           <br> Calculam apoi corectiile ponderilor si obtinem:
-           <br> Delta w13 = 0.0010797298581675
-           <br> Delta w23 = 0
-           <br> Delta Teta 3 = -0.0010797298581675
-           <br> Delta w14 = -0.000185282713260552
-           <br> Delta w24 = 0
-           <br> Delta Teta 4 = 0.000185282713260552
-           <br>
-           <br> Ajustam toate ponderile si nivelurile pragurilor din retea (biasurile):
-           <br> w13 = 0.609433273324146
-           <br> w14 = 0.870079777112637
-           <br> w23 = 0.507687716489308
-           <br> w24 = 0.970573683236741
-           <br> w35 = -1.56626802316511
-           <br> w45 = 0.544305593544368
-           <br> Teta 2 = 0.587496673769388
-           <br> Teta 3 = -0.0424699951693025
-           <br> Teta 4 = 0.935922064329432
-           <br> ----Eroare: 0.000994549060756069
+            Integrated application for tracking weather and traffic conditions, using AccuWeather, Google Maps and Google Charts APIs.
+            <h2>Development</h2>
+            <p>This project was created using <a href="https://vuejs.org/">Vue.js CLI</a> version 2.5.2 with <a href="https://vuetifyjs.com/en/">Vuetify</a>, <a href="https://developers.google.com/maps/documentation">Google Maps API</a>, <a href="https://developers.google.com/chart">Google Charts</a>, <a href="https://vuex.vuejs.org/">VUEX</a> and <a href="https://router.vuejs.org/">Router</a>. For database used to store the data is <a href="https://firebase.google.com/docs/database">Firebase Realtime Database</a>.</p>
+            <p>From the main page of the application, the visitor is offered the opportunity to log in or create a new account, view subscriptions, send a contact, read news in the field or view the user guide. Accessing such functionality is done by pressing the corresponding button in the side menu. Also, in the footer of the page you can view the Terms and Conditions, Privacy Policy and Copyright, following the same procedure.</p>
+            <p>Pressing the "Log in / Create new account" button allows the user to enter the personal account by filling in the "Email" and "Password" fields, to create a new account by pressing the "New account" button or to recover the password, following enter the email address for the account for which you want to recover your password.</p>
+            <p>The account can only be entered with valid data. Because of this, there is automatic correction for the fields that are required. An example of an error obtained for incorrect completion of a field. The e-mail address needs the presence of the "@" character and the domain connection point in order to be declared valid.</p>
+            <p>If the email address is correctly formatted but does not exist in the database, an error will be received.</p>
+            <p>If the email address is valid but the password is incorrect, you will receive the error specifying this.</p>
+            <p>
+            The password recovery steps are:
+            <li>Enter the email address for which you want to recover the password (if it does not exist in the database, an error will be received)</li>
+            <li>Receive a message with password recovery instructions on the email address</li>
+            <li>Enter a new password chosen by the user. This step is reached by clicking on the reference provided automatically in the received message. He can see what password he enters by tapping the icon next to the "New Password" field.</li>
+            <li>After entering a new password and saving it by pressing the "Save" button, it is notified that the password change has been made successfully and can return to authentication with the new password.</li>
+            </p>
+            <p>Pressing the "New Account" button brings up the window where the new user is asked to enter the email address, name, surname, city, date of birth and account password. For the account password it is necessary to enter twice, in order to check its correctness.</p>
+            <p>The fields considered mandatory for account creation are email and password. If they are not completed, the new user will be notified. If he presses the "Register" button with the omission of these fields, he will be notified and the registration will not take place. If you want to cancel the action of creating a new account, he can press the "Back" button.</p>
+            <p>If the user or the new user does not manage to use the application, he can access the "Help" button from the side menu where the user guide will be displayed.</p>
+            <p>In order to obtain various benefits on his account, the user can access the "Collaborations" button, visible even in the absence of an account. In order to purchase such a collaboration, he must log in and fill in the data necessary to complete the payment on the page to which he will be sent.</p>
+            <p>
+            The collaborations available are:
+            <ol>
+            <li>1week: collaboration valid for 7 days, starting from the day of payment confirmation, with the price of 5 RON;</li>
+            <li>Happy Month: collaboration valid for 30 days, starting from the day of payment confirmation, with the price of 15 RON;</li>
+            <li>BeOnline: collaboration valid for 90 days, starting from the day of payment confirmation, with the price of 30 RON;</li>
+            <li>What about six ?: collaboration valid for 180 days, starting from the day of payment confirmation, with the price of 50 RON;</li>
+            <li>Forget about payment: collaboration valid for 365 days, starting from the day of payment confirmation, with the price of 75 RON.</li>
+            </ol>
+            </p>
+            <p>After logging in, the "Map", "Personal Data" and "Your Trips" buttons will also be available to the user in the side menu. The destination search field is also activated.</p>
+            <p>The "Search for destination" field leads to the essential page and to the application itself, which can be reached only by entering a destination in the search field. The search field, while typing, will provide additional suggestions for ease of use and finding the desired destination.</p>
+            <p>Choosing a destination will start the application algorithm and calculate the most efficient route from the current location taken from the user. Updated weather conditions will be on the search bar. To the left of the destination searched by the user will be the weather conditions for the current location, and to the right of the destination, the weather conditions from the chosen destination.</p>
+            <p>To view the history of the destinations searched by the user, he will access from the side menu the button "Your trips" where you will find the starting location, destination, search date and the button to delete the registration on the same line. This information is structured in the form of a table.</p>
+            <p>If the user wishes to view the personal information saved in his account, or to change one of these information, the "Personal data" button in the side menu can be accessed. Clicking on a field on this page will activate the ability to edit, and the "Save changes" button will save all new changes if they exist. Changes to the database will only take place if the user fills in the password in the required field "Current password" for security.</p>
+            <p>For the administrator, the "Messages", "Statistics and reports" and "Search" fields are still valid in the "Administration" section of the side menu.</p>
+            <p>In the messages section, the administrator has the ability to view messages received from users or visitors to the application, change their status, and delete them as needed.</p>
+            <p>
+            By entering the "Reports and statistics" section, the administrator has the opportunity to view in real time:
+            <ul>
+            <li>Report with information about all users, such as their code, name, surname, email address, date of birth and location. Also, for each user, by pressing the "View collaborations" and "View history" buttons he can see:</li>
+            <ul>
+            <li>History of collaborations activated by that user;</li>
+            <li>History of routes performed.</li>
+            </ul>
+            <li>Report on all collaborations by users so far;</li>
+            <li>The report containing all the destinations searched by users;</li>
+            <li>Top three most active users according to the number of routes performed since the creation of the account and until now;</li>
+            <li>Top three most searched destinations</li>
+            <li>Top three most active collaborators according to the number of purchases made within the application since the creation of the account and until now;</li>
+            <li>Account statistics with or without acquisitions;</li>
+            <li>Account statistics with or without history;</li>
+            <li>Top three most common homes of users;</li>
+            <li>Top three most activated collaborations;</li>
+            <li>Top three most common ages of users;</li>
+            <li>User age statistics.</li>
+            </ul>
+            </p>
+            <p>
+            The "Search" section of the side menu gives the administrator the ability to perform custom searches in the application database such as:
+            <ul>
+            <li>Search by name or surname in the user table with reference to the history of collaborations or trips of each user;</li>
+            <li>Search by calendar date between two times, before or after a certain date, in the history of total collaborations performed by all existing customers;</li>
+            <li>Search by the names of destinations saved in the user history and their total frequency in the database.</li>
+            </ul>
+            </p>
         `,
-        logo: 'https://victorzhou.com/media/nn-series/network.svg'
-    },
-    {
-        id: 19,
-        name: 'Sudoku Backtracking',
-        startDate: 'Dec 2019',
-        category: 'programming',
-        technologies: ['C#', 'Visual Studio'],
-        type: 'Personal project',
-        code: 'https://github.com/madalinaeleonorag/Sudoku_Backtracking',
-        description: `Sudoku program made using C# backtracking
-        <br><br>
-        Initial value of sudoku
-        <br>
-        <br> int[, ] board = { 
-        <br>     { 3, 0, 6, 5, 0, 8, 4, 0, 0 },
-        <br>     { 5, 2, 0, 0, 0, 0, 0, 0, 0 },
-        <br>     { 0, 8, 7, 0, 0, 0, 0, 3, 1 },
-        <br>     { 0, 0, 3, 0, 1, 0, 0, 8, 0 },
-        <br>     { 9, 0, 0, 8, 6, 3, 0, 0, 5 },
-        <br>     { 0, 5, 0, 0, 9, 0, 6, 0, 0 },
-        <br>     { 1, 3, 0, 0, 0, 0, 2, 5, 0 },
-        <br>     { 0, 0, 0, 0, 0, 0, 0, 7, 4 },
-        <br>     { 0, 0, 5, 2, 0, 6, 3, 0, 0 }
-        <br> };
-        <br><br> Solution after 770 iterations:
-        <br>
-        <br> ------------------- 
-        <br> | 316 | 578 | 492 | 
-        <br> | 529 | 134 | 768 | 
-        <br> | 487 | 629 | 531 | 
-        <br> ------------------- 
-        <br> | 263 | 415 | 987 | 
-        <br> | 974 | 863 | 125 | 
-        <br> | 851 | 792 | 643 | 
-        <br> ------------------- 
-        <br> | 138 | 947 | 256 | 
-        <br> | 692 | 351 | 874 | 
-        <br> | 745 | 286 | 319 | 
-        <br> ------------------- `,
-        images: ['assets/projects/16.png'],
-        logo: 'assets/projects/16.png'
+        images: [
+            '../assets/projects/9/1.png',
+            '../assets/projects/9/2.png',
+            '../assets/projects/9/3.png',
+            '../assets/projects/9/4.png',
+            '../assets/projects/9/5.png',
+            '../assets/projects/9/6.png',
+            '../assets/projects/9/7.png',
+            '../assets/projects/9/8.png',
+            '../assets/projects/9/9.png',
+            '../assets/projects/9/10.png',
+            '../assets/projects/9/11.png',
+            '../assets/projects/9/12.png',
+            '../assets/projects/9/13.png'
+        ],
+        logo: '../assets/projects/9/1.png'
     }
 ];
 
@@ -793,14 +537,6 @@ export const AWARDS = [
         description: `
       Our result should allows candidates from Romania the possibility to offer reviews/ratings to companies about key areas such as: recruitment process,  work environment (team, schedule, etc), trainings, learning and development opportunities, salary & benefits, work-life balance, management, internal systems (procedures, values, way of working), other relevant areas. The aim of this product is to help candidates find the employer that best suits their needs and personality, something different. The target audience of the product will be made up students and young professionals.
       `
-    }
-];
-
-export const OTHER_PUBLICATIONS = [
-    {
-        title: 'Providing Security for Client-Server Applications',
-        link: 'https://df38f438-aa8a-4f56-925f-3f56c5f61c2a.filesusr.com/ugd/b8ce10_e3835a03a0664499927aafdd75540127.pdf',
-        thumbnail: 'https://image.isu.pub/170105105000-13074954e5ffd8949525023c1f6c49c3/jpg/page_1.jpg',
     }
 ];
 

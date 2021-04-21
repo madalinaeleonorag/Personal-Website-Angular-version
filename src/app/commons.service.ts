@@ -2,7 +2,6 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { Subject } from 'rxjs';
-import { OTHER_PUBLICATIONS } from 'src/assets/data';
 import { PublicationModel } from './data.model';
 
 @Injectable({
@@ -30,8 +29,6 @@ export class CommonsService {
 
       switch (true) {
         case data.items.length > 4: articlesToShow = [...data.items.slice(0, 3)];
-                                    break;
-        case data.items.length < 4: articlesToShow = [...data.items, ...OTHER_PUBLICATIONS];
                                     break;
         default: articlesToShow = [...data.items];
                  break;

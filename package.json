@@ -34,6 +34,7 @@
     "@angular/cli": "^10.2.2",
     "@angular/compiler-cli": "~10.2.0",
     "@types/hammerjs": "^2.0.38",
+    "@types/mocha": "^8.2.2",
     "@types/mousetrap": "^1.6.5",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",

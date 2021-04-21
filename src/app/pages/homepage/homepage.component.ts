@@ -12,29 +12,31 @@ import { ExperienceModel, ProjectModel, PublicationModel } from 'src/app/data.mo
 })
 export class HomepageComponent implements OnInit {
   
-  private projects: ProjectModel[] = [];
   public experience: ExperienceModel;
   public publications: PublicationModel[] = [];
   public isMobileView: boolean;
   public projectsTechnology: ProjectModel[] = [];
   public projectsDesign: ProjectModel[] = [];
 
-  constructor(private router: Router, private commonsService: CommonsService) {
+  constructor(private commonsService: CommonsService) {
   }
 
   ngOnInit(): void {
     this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
     this.experience = EXPERIENCE[0];
-    this.projects = PROJECTS.filter(project => project.featured);
-    this.projectsTechnology = this.projects.filter(project => project.category === 'programming');
-    this.projectsDesign = this.projects.filter(project => project.category === 'design');
+    this.projectsTechnology = PROJECTS.filter(project => project.category === 'programming');
+    this.projectsDesign = PROJECTS.filter(project => project.category === 'design');
 
     this.commonsService.publications$.subscribe(publications => {
       this.publications = publications;
     });
   }
 
-  public goToPage(page: string): void {
-    this.router.navigateByUrl(`${page}`);
+  public openGitHub(): void {
+    this.commonsService.openNewTab('https://github.com/madalinaeleonorag');
+  }
+
+  public openMedium(): void {
+    this.commonsService.openNewTab('https://madalinaeleonorag.medium.com/');
   }
 }

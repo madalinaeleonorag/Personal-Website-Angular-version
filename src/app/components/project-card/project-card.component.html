@@ -17,7 +17,7 @@
   </mat-card-content>
   <mat-card-actions>
     <app-custom-button buttonText="&#60;/Code&#62;" [isFilledButton]="false" *ngIf="project.code" (click)="openNewTab('code')"></app-custom-button>
-    <app-custom-button buttonText="Demo" [isFilledButton]="false" *ngIf="project.live" (click)="openNewTab('live')"></app-custom-button>
+    <app-custom-button buttonText="Demo" [isFilledButton]="true" *ngIf="project.live" (click)="openNewTab('live')"></app-custom-button>
     <app-custom-button buttonText="See details" [isFilledButton]="true" (click)="seeDetails()">
     </app-custom-button>
   </mat-card-actions>
