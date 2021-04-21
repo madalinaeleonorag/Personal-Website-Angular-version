@@ -11,11 +11,30 @@ app-homepage {
     }
   }
 
-  .description-homepage {
-    text-align: center;
+  .homepage-title {
     font-size: 1rem;
     line-height: 1.7rem;
-    margin: 20px 10vw;
+    margin: 5vh;
+
+    .welcome-name {
+      color: $primary;
+      font-weight: 400;
+      font-family: monospace;
+    }
+
+    .name {
+      color: $white;
+    }
+
+    .welcome-subtitle {
+      color: $lightgray;
+    }
+
+    .description {
+      font-family: monospace;
+      line-height: normal;
+      font-size: unset;
+    }
   }
 
   .see-more {
@@ -99,3 +118,5 @@ app-homepage {
     }
   }
 }
+
+

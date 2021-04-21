@@ -29,4 +29,8 @@ export class HeaderComponent implements OnInit {
     return page === this.selectedPageUrl;
   }
 
+  public openCV(): void {
+    this.commonsService.openNewTab('./../../../assets/CV.pdf');
+  }
+
 }

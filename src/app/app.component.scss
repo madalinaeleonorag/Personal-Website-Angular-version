@@ -92,11 +92,23 @@ mat-icon {
 }
 
 a {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
   color: $primary;
-}
 
-a:hover {
-  color: $white;
+  &:after {
+    display: block;
+    content: "";
+    border-bottom: solid 1px $primary;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    transform-origin: 0 100%;
+  }
+  &:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0 100%;
+  }
 }
 
 .mat-chip.mat-standard-chip::after {
@@ -132,6 +144,10 @@ a:hover {
   min-width: unset !important;
   max-width: unset !important;
 
+  .mat-menu-content:not(:empty) {
+    padding: 10%;
+  }
+
   .mat-menu-content {
     background: transparent;
     margin-top: 60px;
@@ -139,8 +155,8 @@ a:hover {
     flex-flow: column;
     height: -webkit-fill-available;
     justify-content: space-around;
-    padding: 20% 10%;
-    
+    padding: 10%;
+
     .mat-menu-item {
       color: $white;
       width: 100%;
