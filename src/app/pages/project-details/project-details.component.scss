@@ -18,8 +18,7 @@ app-project-details {
 
     .name {
       font-weight: bold;
-      font-size: 1.2rem;
-      color: #a50c0c;
+      font-size: 2rem;
       margin: 4px 0;
     }
     .date {
@@ -28,9 +27,17 @@ app-project-details {
       font-weight: normal;
     }
 
+    .actions-buttons {
+      display: flex;
+      flex-flow: row;
+      width: 50vw;
+      margin: 2vh 0;
+    }
+
     .technologies {
       display: flex;
       flex-flow: wrap;
+      place-content: center;
 
       .mat-chip-list-wrapper {
         justify-content: center;

@@ -34,8 +34,13 @@ export class ProjectDetailsComponent implements OnInit {
     })) : [];
   }
 
-  public openNewTab(): void {
-    this.commonsService.openNewTab(this.project.live);
+  public openNewTab(type: string): void {
+    switch (type) {
+      case 'live': this.commonsService.openNewTab(this.project.live);
+                   break;
+      case 'code': this.commonsService.openNewTab(this.project.code);
+                   break;
+    }
   }
 
 }
