@@ -166,3 +166,9 @@ a {
 .selected-page {
   color: $primary !important;
 }
+
+.particles-js-canvas-el {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}

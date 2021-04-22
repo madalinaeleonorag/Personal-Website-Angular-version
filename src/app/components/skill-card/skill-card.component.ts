@@ -11,7 +11,7 @@ export class SkillCardComponent implements OnInit {
 
   @Input() item: SkillModel;
 
-  // 'Beginner' = 0, 'Medium' = 1, 'Intermediate' = 2, 'Advanced'= 3 
+  // 'Beginner' = 0, 'Medium' = 1, 'Intermediate' = 2, 'Advanced'= 3
   public SKILL_LEVELS = [{
     name: 'Beginner', value: 20
   }, {
