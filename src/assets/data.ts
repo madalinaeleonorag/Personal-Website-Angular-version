@@ -422,81 +422,60 @@ export const SKILLS = [
 
 export const CERTIFICATIONS = [
     {
-        logo: 'https://images.youracclaim.com/size/680x680/images/88bef918-2e93-4e68-8782-60f706db53f4/IBM_Quantum_Conversations.png',
-        name: 'IBM Quantum Conversations',
-        organization: 'IBM',
-        issueDate: 'Feb 2021',
-        url: 'https://www.youracclaim.com/badges/7e32724d-8e1b-444f-a44d-0c527fd63ca6x'
-    },
-    {
-        logo: 'https://images.youracclaim.com/size/680x680/images/58e2cad5-5551-44a6-8285-06d6a4aa9cb3/IBM_Cloud_Essentials.png',
+        logo: '../assets/certifications/IBM_Cloud_Essentials.png',
         name: 'IBM Cloud Essentials',
         organization: 'IBM',
         issueDate: 'Jan 2021',
         url: 'https://www.youracclaim.com/badges/26b0884f-9c3a-42f1-be74-6b23c4f6a743'
     },
     {
-        logo: 'https://images.youracclaim.com/size/680x680/images/c1ca6570-bdc6-40e9-8992-722050788418/Security-_-Privacy-by-Design-Foundational.png',
+        logo: '../assets/certifications/Security-_-Privacy-by-Design-Foundational.png',
         name: 'Security and Privacy by Design Foundations',
         organization: 'IBM',
         issueDate: 'Jan 2021',
         url: 'https://www.youracclaim.com/badges/84998ca5-487f-4c61-b1e5-298ec991bb20'
     },
     {
-        logo: 'https://images.youracclaim.com/size/680x680/images/53608ce6-a597-40fa-a42d-d243b3ecfba4/Watson_and_Cloud_Foundations.png',
+        logo: '../assets/certifications/Watson_and_Cloud_Foundations.png',
         name: 'Watson and Cloud Foundations',
         organization: 'IBM',
         issueDate: 'Jan 2021',
         url: 'https://www.youracclaim.com/badges/11c2db76-b461-4bf9-8a12-9a42663d404f'
     },
     {
-        logo: 'https://images.youracclaim.com/size/680x680/images/cef56b02-49c4-43c8-9913-733569bd39cc/IBM-Mentor__282_29.png',
+        logo: '../assets/certifications/IBM-Mentor.png',
         name: 'IBM Mentor',
         organization: 'IBM',
         issueDate: 'Dec 2020',
         url: 'https://www.youracclaim.com/badges/841adfea-65df-4a8e-bbe1-267d70cb6a21'
     },
     {
-        logo: 'https://images.credly.com/size/680x680/images/2acbb8fa-6b28-4b55-87e9-da0839a70ceb/JavaScript-Front-End-Development.png',
+        logo: '../assets/certifications/JavaScript-Front-End-Development.png',
         name: 'JavaScript Front End Development',
         organization: 'IBM',
         issueDate: 'Dec 2020',
         url: 'https://www.youracclaim.com/badges/b6792b26-e919-4de1-bc24-d4192439aa50'
     },
     {
-        logo: 'https://media-exp1.licdn.com/dms/image/C560BAQH0VNXBrdkklA/company-logo_200_200/0/1593711193383?e=1619049600&v=beta&t=lrBAcOWGtkwOM3MtvBw55FRiEHzMyNwaaeJycjzvC7k',
-        name: 'Web Design for Web Developers: Build Beautiful Websites!',
-        organization: 'Udemy',
-        issueDate: 'Sep 2020',
-        url: 'https://udemy-certificate.s3.amazonaws.com/image/UC-4b147be3-753e-47b3-bd44-df452ffc3018.jpg?v=1601294558000'
-    },
-    {
-        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQE0iRUqSJueUw/company-logo_200_200/0/1519902704390?e=1619049600&v=beta&t=AmcNPqTADleh6FV8bDZ1yJhJb7QcwaEoZha72rhz4TY',
+        logo: '../assets/certifications/EF-Standard.png',
         name: 'ES SET English Certificate',
         organization: 'EF Standard English Test (EF SET)',
         issueDate: 'Jul 2020',
         url: 'https://www.efset.org/cert/V3b9C2'
     },
     {
-        logo: 'https://images.youracclaim.com/size/680x680/images/bc08972c-3c7d-4b99-82a0-c94bcca36674/Badges_v8-07_Practitioner.png',
+        logo: '../assets/certifications/Badges_v8-07_Practitioner.png',
         name: 'Enterprise Design Thinking Practitioner',
         organization: 'IBM',
         issueDate: 'Mar 2020',
         url: 'https://www.youracclaim.com/badges/f28084ab-7407-4d30-8f84-e612adc40402'
     },
     {
-        logo: 'https://images.youracclaim.com/size/680x680/images/a972f054-be07-4845-85c7-95c8d11852f5/IBM-Agile-Explorer.png',
+        logo: '../assets/certifications/IBM-Agile-Explorer.png',
         name: 'IBM Agile Explorer',
         organization: 'IBM',
         issueDate: 'Mar 2020',
         url: 'https://www.youracclaim.com/badges/8ed472e8-38c5-42c0-aee7-c1993e9f737f'
-    },
-    {
-        logo: 'https://images.youracclaim.com/size/680x680/images/faaa312a-4ea2-4094-8287-f34671cdac55/Insurance-Industry-Jumpstart.png',
-        name: 'Insurance Industry Foundations',
-        organization: 'IBM',
-        issueDate: 'Oct 2019',
-        url: 'https://www.youracclaim.com/badges/073a4a5e-b2f0-4165-8684-c6a427a005b3'
     }
 ];
 
@@ -548,45 +527,58 @@ export const EXPERIENCE = [
         dateEnd: 'Present',
         location: 'Bucharest, Romania',
         description: `
-      <b>Client 1</b><br>
-      <i>03/2019 - 03/2020</i><br>
-      Industry: Insurance<br>
-      Assignment description:<br>
-      - Develop Web based applications including UX design, application building and supporting solutions;<br>
-      - Collaborate with back-end developers and web designers to improve usability;<br>
-      - Get feedback from, and build solutions for, users and customers;<br>
-      - Create quality mockups and prototypes;<br>
-      - Stay up-to-date on emerging technologies;<br>
-      - Participate in shadowing sessions with Senior Front End Developers in solving different problems;<br>
-      - Attended relevant courses for the knowledge used in my field;<br>
-      - Investigate and fixed vulnerabilities in packages.<br>
-      Contribution:<br>
-      - I delivered a good quality presentation website for our client in order to present our projects to their customers, in a small amount of time so the client was able to see the results and to use it;<br>
-      - I investigated and solved some vulnerabilities from the applications;<br>
-      - I contributed actively on a project from march and until the end of November, by helping other colleagues with code review and implementing reusable components. I also helped taking decisions in business rules and in development process;<br>
-      - I participated in every meeting and decision in a proactive way in order to deliver a quality and clean code which meets the client requirements. I also suggested various changes to the design that was taken into account.<br>
-      <b>Technologies:</b> Angular, Ionic, Sass, TypeScript, REST, Capacitor, RxJs<br><br>
-      <b>Client 2</b><br>
-      <i>03/2020 - 03/2020</i><br>
-      Industry: Retail<br>
-      Assignment description:<br>
-      - Redesigning the on-boarding process for non plastic material and packaging suppliers onto the materials library and reimagining the presentation and navigation of the library in parallel.<br>
-      Contribution:<br>
-      - I participated in discussions with the design and front-end team in order to clarify and suggest edits so the user can have a better experience using the website;<br>
-      - I created reusable pages using React.js which corresponds to the design;<br>
-      - I created dynamic forms using Formik framework for the registration of new plastic free materials.<br>
-      <b>Technologies:</b> React.js<br><br>
-      <b>Client 3</b><br>
-      <i>04/2020 - to date</i><br>
-      Industry: Retail<br>
-      Assignment description:<br>
-      - Being a member of the a subdivision from the team and delivering features and quality code.<br>
-      Contribution:<br>
-      - I created new components and features for the application in a way that we can reuse them when it's need;<br>
-      - I helped both design and development departments to take decisions in order to deliver the best features;<br>
-      - I learned better ways to solve the problems that appears during the development;<br>
-      - Delivered WYSIWYG (What You See Is What You Get), a feature that wants to improve the customer experience regarding the promotional codes.The first phase included changing the design of both coupons and product promotions, including more descriptive text and a user-friendly design, changes made throughout the application, on all banners. In the same phase was included the creation of the right drawer, which replaces the pop-up with the description of the promotion or the description page for it, being available by clicking on the link with the coupon / promotion details. If there are multiple promotions for a single product, they are displayed as a total, and will be described accordingly in the right drawer. The second phase includes the implementation of the new API response, which includes a new possibility to process the offers, displaying the requirement quantity, following that on the stores where the feature is activated, to display and if the offer has been completed and benefit from it. The new treatment system is visible both in the coupon design, in the mini-cart or in the top menu, in the right drawer and in the product page.<br>
-      <b>Technologies:</b> Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox<br>`,
+            <h3>Client 1</h3>
+            <i>03/2019 - 03/2020</i><br>
+            Industry: Insurance<br>
+            <h4>Assignment description:</h4>
+            <ul>
+            <li>Develop Web based applications including UX design, application building and supporting solutions;</li>
+            <li>Collaborate with back-end developers and web designers to improve usability;</li>
+            <li>Get feedback from, and build solutions for, users and customers;</li>
+            <li>Create quality mockups and prototypes;</li>
+            <li>Stay up-to-date on emerging technologies;</li>
+            <li>Participate in shadowing sessions with Senior Front End Developers in solving different problems;</li>
+            <li>Attended relevant courses for the knowledge used in my field;</li>
+            <li>Investigate and fixed vulnerabilities in packages.</li>
+            </ul>
+            <h4>Contribution:</h4>
+            <ul>
+            <li>Delivered a good quality presentation website for our client in order to present our projects to their customers, in a small amount of time so the client was able to see the results and to use it;</li>
+            <li>Investigated and solved some vulnerabilities from the applications;</li>
+            <li>Contributed actively on a project from march and until the end of November, by helping other colleagues with code review and implementing reusable components. I also helped taking decisions in business rules and in development process;</li>
+            <li>Participated in every meeting and decision in a proactive way in order to deliver a quality and clean code which meets the client requirements. I also suggested various changes to the design that was taken into account.</li>
+            </ul>
+            <b>Technologies:</b> Angular, Ionic, Sass, TypeScript, REST, Capacitor, RxJs<br><br>
+            <h3>Client 2</h3>
+            <i>03/2020 - 03/2020</i><br>
+            Industry: Retail<br>
+            <h4>Assignment description:</h4>
+            <ul>
+            <li>Redesigning the on-boarding process for non plastic material and packaging suppliers onto the materials library and reimagining the presentation and navigation of the library in parallel.</li>
+            </ul>
+            <h4>Contribution:</h4>
+            <ul>
+            <li>Participated in discussions with the design and front-end team in order to clarify and suggest edits so the user can have a better experience using the website;</li>
+            <li>Created reusable pages using React.js which corresponds to the design;</li>
+            <li>Created dynamic forms using Formik framework for the registration of new plastic free materials.</li>
+            </ul>
+            <b>Technologies:</b> React.js<br><br>
+            <h3>Client 3</h3>
+            <i>04/2020 - to date</i><br>
+            Industry: Retail</h4>
+            <h4>Assignment description:<br>
+            <ul>
+            <li>Being a member of the a subdivision from the team and delivering features and quality code.</li>
+            </ul>
+            <h4>Contribution:</h4>
+            <ul>
+            <li>Created new components and features for the application in a way that we can reuse them when it's need;</li>
+            <li>Helped both design and development departments to take decisions in order to deliver the best features;</li>
+            <li>Learned better ways to solve the problems that appears during the development;</li>
+            <li>Delivered WYSIWYG (What You See Is What You Get), a feature that wants to improve the customer experience regarding the promotional codes.The first phase included changing the design of both coupons and product promotions, including more descriptive text and a user-friendly design, changes made throughout the application, on all banners. In the same phase was included the creation of the right drawer, which replaces the pop-up with the description of the promotion or the description page for it, being available by clicking on the link with the coupon / promotion details. If there are multiple promotions for a single product, they are displayed as a total, and will be described accordingly in the right drawer. The second phase includes the implementation of the new API response, which includes a new possibility to process the offers, displaying the requirement quantity, following that on the stores where the feature is activated, to display and if the offer has been completed and benefit from it. The new treatment system is visible both in the coupon design, in the mini-cart or in the top menu, in the right drawer and in the product page.</li>
+            </ul>
+            <b>Technologies:</b> Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox<br>
+        `,
         companyLogo: '../assets/logos/ibm.jpg',
         skill: ['Angular', 'Vagrant', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'Jira'],
     },
@@ -596,7 +588,6 @@ export const EXPERIENCE = [
         dateStart: 'Jun 2017',
         dateEnd: 'Sept 2017',
         location: 'Bucharest, Romania',
-        description: 'Database maintenance using my own Matlab scripts',
         companyLogo: '../assets/logos/renault.png',
         skill: ['Matlab']
     },
@@ -606,7 +597,6 @@ export const EXPERIENCE = [
         dateStart: 'Feb 2016',
         dateEnd: 'Jun 2017',
         location: 'Bucharest, Romania',
-        description: 'Taking calls and solving the situations encountered by clients, making recordings and offering them.',
         companyLogo: '../assets/logos/telekom.png',
         skill: ['Work under pressure', 'Adaptability', 'Multitasking']
     }

@@ -59,7 +59,7 @@ export class ExperienceModel {
     public dateStart: string;
     public dateEnd: string;
     public location: string;
-    public description: string;
+    public description?: string;
     public companyLogo: string;
     public skill: string[];
     public organization?: string;

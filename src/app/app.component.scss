@@ -45,7 +45,7 @@ body {
 }
 
 .component-wrapper {
-  padding: 20px;
+  padding: 5vh 5vw;
 }
 
 @media (max-width: 850px) {
@@ -61,13 +61,6 @@ body {
   a {
     margin: 0 10px;
   }
-}
-
-.title-category {
-  font-weight: bold;
-  font-size: 1.2rem;
-  padding: 20px 0;
-  text-align: -webkit-center;
 }
 
 .menu-icon {

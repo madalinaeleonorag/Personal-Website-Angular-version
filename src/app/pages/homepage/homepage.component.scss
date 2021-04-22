@@ -1,6 +1,9 @@
 @import "../../variables.scss";
 
 app-homepage {
+
+  font-size: 1rem;
+
   .logo {
     text-align-last: center;
     padding: 20px;
@@ -12,9 +15,10 @@ app-homepage {
   }
 
   .homepage-title {
-    font-size: 1rem;
     line-height: 1.7rem;
-    margin: 5vh;
+    margin: 2vh 5vw 8vh 2vw;
+    padding: 1vh 0 2vh 3vw;
+    border-left: 1px solid $primary;
 
     .welcome-name {
       color: $primary;
@@ -27,7 +31,7 @@ app-homepage {
     }
 
     .welcome-subtitle {
-      color: $lightgray;
+      color: $primary;
     }
 
     .description {
@@ -40,6 +44,7 @@ app-homepage {
   .see-more {
     width: fit-content;
     margin: auto;
+    margin: 2vh auto;
   }
 
   .projects {
@@ -87,8 +92,10 @@ app-homepage {
     }
   }
 
-  .publications-info {
+  .title {
     margin: 2vh 5vh;
+    text-align-last: center;
+    font-size: 1.5rem;
     color: $white;
   }
 

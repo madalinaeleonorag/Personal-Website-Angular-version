@@ -41,6 +41,7 @@ import { CustomButtonComponent } from './components/custom-button/custom-button.
 import { CustomSvgComponent } from './components/custom-svg/custom-svg.component';
 import { CustomCategoryButtonComponent } from './components/custom-category-button/custom-category-button.component';
 import { CustomChipComponent } from './components/custom-chip/custom-chip.component';
+import { CustomSocialCardComponent } from './components/custom-social-card/custom-social-card.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,7 @@ import { CustomChipComponent } from './components/custom-chip/custom-chip.compon
     CustomSvgComponent,
     CustomCategoryButtonComponent,
     CustomChipComponent,
+    CustomSocialCardComponent,
   ],
   imports: [
     BrowserModule,

@@ -4,37 +4,19 @@ app-contact {
   display: flex;
   flex-flow: column;
   align-items: center;
+  margin: 5vh 0 0 0;
 
   .info-text {
-    color: $primary;
+    color: $white;
     padding: 10px 0px;
     font-weight: bold;
     font-size: 1.5rem;
   }
 
-  .social-icons-wrapper {
+  .social-wrapper {
     flex-flow: wrap;
     place-content: center;
-
-    a {
-      border: 1px solid $lightgray;
-      display: flex;
-      flex-flow: column;
-      padding: 1vh;
-      margin: 1vh;
-      align-items: flex-end;
-
-      span {
-        color: $lightgray;
-      }
-    }
-    a:hover {
-      border: 1px solid $primary;
-
-      .icon {
-        fill: $primary;
-      }
-    }
+    display: flex;
   }
 
   .copyright {

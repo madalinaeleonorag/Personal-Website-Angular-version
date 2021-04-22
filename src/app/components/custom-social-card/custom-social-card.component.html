@@ -1,0 +1,18 @@
+<div class="border-btn">
+  <span class="border-btn__inner">
+    <div *ngIf="type === 'email'">
+      <a target="_blank" href="mailto:madalinaeleonora.gheorghe@gmail.com"
+        ><app-custom-svg type="email"></app-custom-svg>
+        <span>{{ text }}</span>
+      </a>
+    </div>
+    <div *ngIf="type !== 'email'">
+      <a target="_blank" [href]="link"
+        ><app-custom-svg [type]="type"></app-custom-svg>
+        <span> {{ text }} </span></a
+      >
+    </div>
+  </span>
+  <span class="border-btn__lines-1"></span>
+  <span class="border-btn__lines-2"></span>
+</div>
