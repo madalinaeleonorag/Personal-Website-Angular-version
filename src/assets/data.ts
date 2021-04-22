@@ -566,7 +566,7 @@ export const EXPERIENCE = [
             <h3>Client 3</h3>
             <i>04/2020 - to date</i><br>
             Industry: Retail</h4>
-            <h4>Assignment description:<br>
+            <h4>Assignment description:</h4>
             <ul>
             <li>Being a member of the a subdivision from the team and delivering features and quality code.</li>
             </ul>

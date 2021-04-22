@@ -62,14 +62,17 @@ app-project-card {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
   app-project-card {
-    flex: 0 0 40%;
-  }
-}
+    flex: unset;
+    width: -webkit-fill-available;
 
-@media (max-width: 500px) {
-  app-project-card {
-    flex: 0 0 80%;
+    .mat-card-subtitle {
+      display:none;
+    }
+
+    .mat-card-content {
+      margin-bottom: 5px;
+    }
   }
 }

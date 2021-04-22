@@ -16,7 +16,7 @@ app-homepage {
 
   .homepage-title {
     line-height: 1.7rem;
-    margin: 2vh 5vw 8vh 2vw;
+    margin: 2vh 5vw 8vh 5vw;
     padding: 1vh 0 2vh 3vw;
     border-left: 1px solid $primary;
 
@@ -102,7 +102,16 @@ app-homepage {
   @media (max-width: 850px) {
     .description-homepage {
       margin: 3vh 5vw;
+
+      .name {
+        font-size: x-large;
+      }
     }
+
+    .title {
+      font-size: 1rem;
+    }
+
     .publications {
       app-publications {
         flex: 0 0 50%;
@@ -113,6 +122,12 @@ app-homepage {
           .image {
             height: 125px;
             width: 125px;
+          }
+
+          .summary {
+            .name {
+              font-size: 0.9rem;
+            }
           }
         }
       }

@@ -47,4 +47,13 @@ app-skills {
       }
     }
   }
+
+  @media (max-width: 850px) {
+    .category {
+      .category-name {
+        font-size: 1rem;
+        padding: 3vh 0;
+      }
+    }
+  }
 }

@@ -21,6 +21,10 @@ app-experience {
 
 @media (max-width: 800px) {
   app-experience {
+    .title-category {
+      font-size: 1.2rem;
+      margin: 3vh;
+    }
     .other-work-experiences {
       app-experience-card {
         flex: 0 0 100%;

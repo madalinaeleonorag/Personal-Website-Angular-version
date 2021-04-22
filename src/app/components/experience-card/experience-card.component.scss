@@ -62,9 +62,17 @@ app-experience-card {
           font-size: small;
         }
       }
+
+      .location {
+        display: none;
+      }
     }
     .description {
-      display: none;
+      font-size: smaller;
+
+      h3, h4 {
+        margin: 0;
+      } 
     }
   }
 }

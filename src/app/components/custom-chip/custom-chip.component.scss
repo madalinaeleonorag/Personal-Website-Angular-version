@@ -84,4 +84,11 @@ app-custom-chip {
       -webkit-transform-origin: top;
       transform-origin: top;
     }
+
+    @media (max-width: 850px) {
+        .chip__inner {
+          padding: 4px;
+          font-size: 8px;
+        }
+    }
 }
