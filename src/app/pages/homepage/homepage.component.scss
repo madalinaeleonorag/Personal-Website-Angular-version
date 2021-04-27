@@ -27,11 +27,15 @@ app-homepage {
     }
 
     .name {
-      color: $white;
+      height: auto;
+      padding: 10px 0;
+      max-width: 80vw;
     }
 
     .welcome-subtitle {
       color: $primary;
+      margin-top: 0;
+      font-family: monospace;
     }
 
     .description {
