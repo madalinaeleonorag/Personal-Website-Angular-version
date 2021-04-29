@@ -1,6 +1,6 @@
 <div class="homepage-title">
   <div class="welcome-name">Hi, my name is</div>
-    <img class="name" alt="" src="../../../assets/logo-name.png">
+  <img class="name" alt="" src="../../../assets/logo-name.png" />
   <h3 class="welcome-subtitle">
     and I gathered my passions in Web Development
   </h3>
@@ -10,22 +10,22 @@
       occasionally designing) digital experiences.
     </p>
     <p>
-      Currently I'm a Front-End Application Developer at <a href="https://www.ibm.com/services/ibmix">IBM iX</a>,
-      focused on increasing both technical and soft skills, working with people
-      around the globe and learning how to deliver their expectations.
+      Currently I'm a Front-End Application Developer at
+      <a href="https://www.ibm.com/services/ibmix">IBM iX</a>, focused on
+      increasing both technical and soft skills, working with people around the
+      globe and learning how to deliver their expectations.
     </p>
   </div>
 </div>
-<div class="title">
-  Few of my projects 💻
-</div>
+<div class="title">Few of my projects 💻</div>
 <mat-tab-group>
   <mat-tab label="💻 Programming">
     <div class="projects">
-      <app-project-card
-        [project]="project"
+      <app-custom-card
         *ngFor="let project of projectsTechnology"
-      ></app-project-card>
+        [data]="project"
+        type="project"
+      ></app-custom-card>
     </div>
     <div class="see-more">
       <app-custom-button
@@ -37,23 +37,23 @@
   </mat-tab>
   <mat-tab label="🎨 Design">
     <div class="projects">
-      <app-project-card
-        [project]="project"
+      <app-custom-card
         *ngFor="let project of projectsDesign"
-      ></app-project-card>
+        type="project"
+        [data]="project"
+      ></app-custom-card>
     </div>
   </mat-tab>
 </mat-tab-group>
-<div class="title">
-  I like to write, sometimes ✏️
-</div>
+<div class="title" *ngIf="publications.length > 0">I like to write, sometimes ✏️</div>
 <div class="publications" *ngIf="publications.length > 0">
-  <app-publications
+  <app-custom-card
     *ngFor="let publication of publications"
-    [publication]="publication"
-  ></app-publications>
+    type="publication"
+    [data]="publication"
+  ></app-custom-card>
 </div>
-<div class="see-more">
+<div class="see-more" *ngIf="publications.length > 0">
   <app-custom-button
     buttonText="See more articles on Medium"
     [isFilledButton]="true"

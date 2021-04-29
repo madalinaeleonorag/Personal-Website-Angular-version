@@ -26,9 +26,8 @@ export class CommonsService {
     let articlesToShow: PublicationModel[] = [];
 
     this.http.get<any>('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@madalinaeleonorag').subscribe(data => {
-
       switch (true) {
-        case data.items.length > 4: articlesToShow = [...data.items.slice(0, 3)];
+        case data.items.length > 7: articlesToShow = [...data.items.slice(0, 6)];
                                     break;
         default: articlesToShow = [...data.items];
                  break;
@@ -36,7 +35,6 @@ export class CommonsService {
 
       this.publications.next(articlesToShow);
     });
-
   }
 
   public openNewTab(link: string): void {

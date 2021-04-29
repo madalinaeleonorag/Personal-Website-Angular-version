@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { Router } from '@angular/router';
 import { EXPERIENCE, PROJECTS } from 'src/assets/data';
 import { CommonsService } from 'src/app/commons.service';
 import { ExperienceModel, ProjectModel, PublicationModel } from 'src/app/data.model';
@@ -11,7 +10,7 @@ import { ExperienceModel, ProjectModel, PublicationModel } from 'src/app/data.mo
   encapsulation: ViewEncapsulation.None
 })
 export class HomepageComponent implements OnInit {
-  
+
   public experience: ExperienceModel;
   public publications: PublicationModel[] = [];
   public isMobileView: boolean;

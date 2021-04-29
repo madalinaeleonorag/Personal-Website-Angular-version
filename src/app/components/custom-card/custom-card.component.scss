@@ -1,6 +1,6 @@
 @import "../../variables.scss";
 
-app-project-card {
+app-custom-card {
   flex: 0 0 30%;
   margin: 15px;
   display: flex;
@@ -63,7 +63,7 @@ app-project-card {
 }
 
 @media (max-width: 850px) {
-  app-project-card {
+  app-custom-card {
     flex: unset;
     width: -webkit-fill-available;
 

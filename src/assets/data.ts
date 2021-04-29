@@ -218,7 +218,7 @@ export const PROJECTS = [
     {
         id: 6,
         name: 'Madalina Eleonora - Graphic Design',
-        startDate: 'June 2015',
+        startDate: 'Jun 2015',
         endDate: 'Present',
         category: 'design',
         featured: true,

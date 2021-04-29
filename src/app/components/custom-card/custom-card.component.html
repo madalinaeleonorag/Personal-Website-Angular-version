@@ -1,0 +1,54 @@
+<mat-card>
+  <div
+    *ngIf="data.image"
+    [ngStyle]="{ 'background-image': 'url(' + data.image + ')' }"
+    class="image"
+  ></div>
+  <mat-card-header>
+    <mat-card-title [innerHTML]="data.title"></mat-card-title>
+    <mat-card-subtitle>
+      {{ data.startDate }}
+      <span *ngIf="data.endDate && data.startDate != data.endDate">
+        - {{ data.endDate }}</span
+      ></mat-card-subtitle
+    >
+  </mat-card-header>
+  <mat-card-content>
+    <div
+      class="technologies"
+      *ngIf="data.technologies && data.technologies.length > 0"
+    >
+      <app-custom-chip
+        *ngFor="let technology of data.technologies"
+        [text]="technology"
+      ></app-custom-chip>
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <app-custom-button
+      buttonText="&#60;/Code&#62;"
+      [isFilledButton]="false"
+      *ngIf="data.code && type === 'project'"
+      (click)="openNewTab('code')"
+    ></app-custom-button>
+    <app-custom-button
+      buttonText="Demo"
+      [isFilledButton]="true"
+      *ngIf="data.live && type === 'project'"
+      (click)="openNewTab('live')"
+    ></app-custom-button>
+    <app-custom-button
+      buttonText="See details"
+      [isFilledButton]="true"
+      *ngIf="type === 'project'"
+      (click)="seeDetailsProject()"
+    ></app-custom-button>
+    <app-custom-button
+      buttonText="Read article"
+      [isFilledButton]="true"
+      *ngIf="type === 'publication'"
+      (click)="openNewTab('publication')"
+    >
+    </app-custom-button>
+  </mat-card-actions>
+</mat-card>

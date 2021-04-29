@@ -27,8 +27,7 @@ import { ExperienceComponent } from './pages/experience/experience.component';
 import { ExperienceCardComponent } from './components/experience-card/experience-card.component';
 import { EducationLevelComponent } from './components/education-level/education-level.component';
 import { AwardsComponent } from './components/awards/awards.component';
-import { PublicationsComponent } from './components/publications/publications.component';
-import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { CustomCardComponent } from './components/custom-card/custom-card.component';
 import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
@@ -55,8 +54,7 @@ import { CustomSocialCardComponent } from './components/custom-social-card/custo
     ExperienceCardComponent,
     EducationLevelComponent,
     AwardsComponent,
-    PublicationsComponent,
-    ProjectCardComponent,
+    CustomCardComponent,
     ProjectDetailsComponent,
     NotFoundComponent,
     SkillCardComponent,
