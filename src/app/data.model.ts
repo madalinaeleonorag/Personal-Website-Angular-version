@@ -10,7 +10,7 @@ export class ProjectModel {
     public live?: string;
     public code?: string;
     public description?: string;
-    public images?: string[];
+    public images?: {};
     public logo: string;
 }
 

@@ -51,6 +51,11 @@ app-project-details {
     line-height: 1.5rem;
   }
 
+  h3 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+
   .plain-container {
     justify-content: center !important;
     margin: 20px 40px 40px;
@@ -61,7 +66,7 @@ app-project-details {
       margin: 5px !important;
       height: 200px !important;
       width: auto !important;
-      box-shadow: 0 0 10px -3px $lightgray;
+      box-shadow: 0 0 8px -7px $lightgray;
     }
   }
 

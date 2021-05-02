@@ -82,20 +82,6 @@ app-homepage {
     }
   }
 
-  .plain-container {
-    justify-content: center !important;
-    margin: 20px 40px 40px;
-    display: flex !important;
-    flex-flow: wrap;
-
-    .image {
-      margin: 5px !important;
-      height: 200px !important;
-      width: auto !important;
-      box-shadow: 0 0 10px -3px $lightgray;
-    }
-  }
-
   .title {
     margin: 2vh 5vh;
     text-align-last: center;
@@ -134,15 +120,6 @@ app-homepage {
             }
           }
         }
-      }
-    }
-  }
-
-  @media (max-width: 700px) {
-    .plain-container {
-      .image {
-        height: auto !important;
-        width: 100% !important;
       }
     }
   }

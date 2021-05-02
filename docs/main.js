@@ -331,48 +331,285 @@ const PROJECTS = [
         endDate: 'Present',
         type: 'Personal project',
         technologies: ['Photoshop', 'Lightroom', 'Photography'],
-        live: 'https://www.viewbug.com/member/madalinaeleonorag',
-        images: [
-            '../assets/projects/1/1.jpg',
-            '../assets/projects/1/2.jpg',
-            '../assets/projects/1/3.jpg',
-            '../assets/projects/1/4.jpg',
-            '../assets/projects/1/5.jpg',
-            '../assets/projects/1/6.jpg',
-            '../assets/projects/1/7.jpg',
-            '../assets/projects/1/8.jpg',
-            '../assets/projects/1/9.jpg',
-            '../assets/projects/1/10.jpg',
-            '../assets/projects/1/11.jpg',
-            '../assets/projects/1/12.jpg',
-            '../assets/projects/1/13.jpg',
-            '../assets/projects/1/14.jpg',
-            '../assets/projects/1/15.jpg',
-            '../assets/projects/1/16.jpg',
-            '../assets/projects/1/17.jpg',
-            '../assets/projects/1/18.jpg',
-            '../assets/projects/1/19.jpg',
-            '../assets/projects/1/20.jpg',
-            '../assets/projects/1/21.jpg',
-            '../assets/projects/1/22.jpg',
-            '../assets/projects/1/23.jpg',
-            '../assets/projects/1/24.jpg',
-            '../assets/projects/1/25.jpg',
-            '../assets/projects/1/26.jpg',
-            '../assets/projects/1/27.jpg',
-            '../assets/projects/1/28.jpg',
-            '../assets/projects/1/29.jpg',
-            '../assets/projects/1/30.jpg',
-            '../assets/projects/1/31.jpg',
-            '../assets/projects/1/32.jpg',
-            '../assets/projects/1/33.jpg',
-            '../assets/projects/1/34.jpg',
-            '../assets/projects/1/35.jpg',
-            '../assets/projects/1/36.jpg',
-            '../assets/projects/1/37.jpg',
-            '../assets/projects/1/38.jpg',
-            '../assets/projects/1/39.jpg'
-        ],
+        live: 'https://500px.com/p/madalinaeleonorag?view=galleries&',
+        images: {
+            'Self portraits as a model': [
+                'https://drscdn.500px.org/photo/1024470846/q%3D80_m%3D2000/v2?sig=ffa40abe0ccfb86d9c6aa12bd0eccb72a6dd0760cf8d0b02a85db7995ffc8e9e',
+                'https://drscdn.500px.org/photo/1024470845/q%3D80_m%3D2000/v2?sig=a3efdd46bc8401fe885ce6b07f387a8872b506540ff11e6ca33460cfa536b7a3',
+                'https://drscdn.500px.org/photo/1024470847/q%3D80_m%3D2000/v2?sig=8879e39bfbfc8d79380e02c1fda7d0c0fdeb085c0be23ed0f971c52ccafd9ebe'
+            ],
+            'People photoshoots': [
+                'https://drscdn.500px.org/photo/1025485703/q%3D80_m%3D1000/v2?sig=b1a60222f950c7fc0d918d3513ae52d70c96af5b6cb2fb867a506f22eab0a20d',
+                'https://drscdn.500px.org/photo/1024923550/q%3D80_m%3D1000/v2?sig=d477ee4cde0d4c55f20f5a5198119b7932642ab9a71b671169fba0367b3d546a',
+                'https://drscdn.500px.org/photo/1024923397/q%3D80_m%3D1000/v2?sig=8ee4ffa83ded818a035449d9c4e02b0ba41195c28ad91f5f9a0d2277133262a0',
+                'https://drscdn.500px.org/photo/1024923398/q%3D80_m%3D1000/v2?sig=7514bc3332d6a36edb2135f2be13ebc67fc07316c90496ff543e45cc3009f0d0',
+                'https://drscdn.500px.org/photo/1024923057/q%3D80_m%3D2000/v2?sig=a84b063a3af6e48dcf6a815596a1679f5ff79e1e5c54b829377c1d1f9c2642c3',
+                'https://drscdn.500px.org/photo/1024923058/q%3D80_m%3D1000/v2?sig=f341fda9ae4362c5620bce921629091a13ac2cb040ff1503bfa964eaa0a0bfee',
+                'https://drscdn.500px.org/photo/1024661863/q%3D80_m%3D2000/v2?sig=1d4ae4b0fb7af8349481bb7fcfe63a307e61bf12c9e131b1b791e3d0a631f9fd',
+                'https://drscdn.500px.org/photo/1024447380/q%3D80_m%3D1000/v2?sig=e64883b88799ef9ca94e31b76264a654422f6de534e0a31c0981a24a38c29ae8',
+                'https://drscdn.500px.org/photo/1024447382/q%3D80_m%3D1000/v2?sig=3a3375a3d2de27260b4d117ef8c3de8453bf2003974f4a49e1786a0607b2f049',
+                'https://drscdn.500px.org/photo/1010244022/q%3D80_m%3D1000_k%3D1/v2?sig=54732d28e73b6312ffb817aab1dd35e0347b7917ae3e2e1f5d76cc73cb6ccf77',
+                'https://drscdn.500px.org/photo/1021800163/q%3D80_m%3D2000/v2?sig=d1b561de063576562ab601833f4886852e0279ccbb67d285246b2dd073b7afba',
+                'https://drscdn.500px.org/photo/274676821/q%3D80_m%3D1000/v2?sig=36e27f715bfd31dfb18b2b4c41adff7b0da9e5bf8ea43795a4c87b6fea4836ec',
+                'https://drscdn.500px.org/photo/1022941275/q%3D80_m%3D2000_k%3D1/v2?sig=52f8731e082cd5949893464c764a0b2a10ff9fc2c54bddb085cb5b746e105cea',
+                'https://drscdn.500px.org/photo/1022941274/q%3D80_m%3D2000_k%3D1/v2?sig=b9b33f8cefc5557dda4e45239b914a0105daabdcd839f10c4b4b97e5b5911514',
+                'https://drscdn.500px.org/photo/1024447383/q%3D80_m%3D1000/v2?sig=64d05baf75922fad52f746e1ecac11edc5bc41afe6f5164c392739200fb40d77',
+                'https://drscdn.500px.org/photo/274676823/q%3D80_m%3D1000/v2?sig=331dc6f47074aceee7ce8db33982aab984b9574bf18663b4248931ef9424dbb9',
+                'https://drscdn.500px.org/photo/274676853/q%3D80_m%3D1000/v2?sig=d53dfd3cdf2c70aeecc8122f961c2aa174e5ba73ea52ff74e23fddd78cc11f30',
+                'https://drscdn.500px.org/photo/274676855/q%3D80_m%3D1000/v2?sig=c7d63b7047d57b108d41ba20833d8c6ab55567f59f65bfd01239e0f48ec14883',
+                'https://drscdn.500px.org/photo/274676859/q%3D80_m%3D1000/v2?sig=783b0b71a7ffe012ca8e72460db5ee1580e1ca96543db7799576524b6216f487'
+            ],
+            'Plants': [
+                'https://drscdn.500px.org/photo/299511073/q%3D80_m%3D2000_k%3D1/v2?sig=2e17140df120e4574c6d94783628d7695c15e3a3358704975c056e3f0fa835f3',
+                'https://drscdn.500px.org/photo/299511063/q%3D80_m%3D2000_k%3D1/v2?sig=9499b1690bc4c441f24cc3651677cf8a96f7b039c32b7c5a98d2ebc8c1bf60c2',
+                'https://drscdn.500px.org/photo/1021798165/q%3D80_m%3D2000/v2?sig=f1ae1fdf23991b382565e2fa169a83c3fbc31290b62786077bac68c16c0e78f9',
+                'https://drscdn.500px.org/photo/1021798163/q%3D80_m%3D2000/v2?sig=7aa5def0276ffcfd8cda41d0a759208038bf82643ba02ea36add46f9b7e9bd39',
+                'https://drscdn.500px.org/photo/1022253693/q%3D80_m%3D2000/v2?sig=8468407a3d9562728a3900e6c1253167f5774d39475012d03620052346b8bd38',
+                'https://drscdn.500px.org/photo/1022253692/q%3D80_m%3D2000/v2?sig=3a2fc50cbd34c7b7bb2319be761a798a6d1d4cebc921c77a2d1afcb009ad3c4a',
+                'https://drscdn.500px.org/photo/1023757923/q%3D80_m%3D2000/v2?sig=d50cfa91e82b3da8d4ec2f97ff5df5575974608137a37d13fe216fcf7c73775e'
+            ],
+            'Sony/F64 - equipment testing': [
+                'https://drscdn.500px.org/photo/274677611/q%3D80_m%3D2000/v2?sig=0ae758d6ad8166863669321d615723fae34c91bfb20197af38394335997f02fb',
+                'https://drscdn.500px.org/photo/274677609/q%3D80_m%3D2000/v2?sig=2ac9932afdd034d07e1f97579b14edb1efe36e677ce552e835912c10bf740da1',
+                'https://drscdn.500px.org/photo/274677605/q%3D80_m%3D1000/v2?sig=28d705e73397a29ad1f5b949398b161fe1c2d9434e03b0ee38cd3b1886d97057',
+                'https://drscdn.500px.org/photo/274677603/q%3D80_m%3D2000/v2?sig=2a1dcc033db650e30e3a7aa60fc17a0e1e238c12c02b27818cbebe57552b0061',
+                'https://drscdn.500px.org/photo/274677601/q%3D80_m%3D2000/v2?sig=812739a990a00f9bfdc32eecdd78abd80fe25fe0ee726a71a577f248a290639e',
+                'https://drscdn.500px.org/photo/274677585/q%3D80_m%3D1000/v2?sig=7f65291309f7ddffcadcc906f09648dc3b5a906bb26ccbc22780d1e85a25e227',
+                'https://drscdn.500px.org/photo/274677583/q%3D80_m%3D2000/v2?sig=56a6314b6d1958989c82625bf7e9a4cf80cb0500ff6c79c580d31c82e17a516e',
+                'https://drscdn.500px.org/photo/274677623/q%3D80_m%3D2000/v2?sig=3f6e94f8fd93b64dd4cb8b38893ff65fddbf911761feb2ab35e4ae0177a87def',
+                'https://drscdn.500px.org/photo/274677621/q%3D80_m%3D2000/v2?sig=b65c4113f9c0b198b0b754c22f367020fa9b999d573916cfafa62829387104bf',
+                'https://drscdn.500px.org/photo/274677613/q%3D80_m%3D2000/v2?sig=98d8696c0af852d822b592b5dece09d3c7a4def64aa92df14c5ee317ad1bcd7d',
+                'https://drscdn.500px.org/photo/274677625/q%3D80_m%3D2000/v2?sig=2befa1252f7a6ac7c7065613b39d0e784a903a24e6e778622996f662b25b7751'
+            ],
+            'Small livings': [
+                'https://drscdn.500px.org/photo/274675811/q%3D80_m%3D2000/v2?sig=ebf1bf3f890aad8a9ca86a5b19a10408372d52190a4c789ee87ddd6189f7a057',
+                'https://drscdn.500px.org/photo/274675799/q%3D80_m%3D2000/v2?sig=23db16cf94fab83a59430daabb2d22cd6228150744add96bff0393463f64a306',
+                'https://drscdn.500px.org/photo/274675801/q%3D80_m%3D2000/v2?sig=4ef4ae5af5be540e8da2e0c40e654242b09cd65ce2cfd92e862137985230d597',
+                'https://drscdn.500px.org/photo/274675807/q%3D80_m%3D2000/v2?sig=8427bc6fe43f49b86a3a8f610f5c72697d7299ea829f8af251ceaa6a5340e4d4'
+            ],
+            'SIAB (Salonul International Auto Bucuresti)': [
+                'https://drscdn.500px.org/photo/274681383/q%3D80_m%3D1500/v2?sig=ab6a7c90795bbb670accab98342b0981e8cc96ce126d23b04aa9d0d4f38dcdf3',
+                'https://drscdn.500px.org/photo/274681413/q%3D80_m%3D2000/v2?sig=862b29926850b1c173f5ff659f8337e791d4d9dde2c216d10f54d1cf5eeb054f',
+                'https://drscdn.500px.org/photo/274681411/q%3D80_m%3D2000/v2?sig=420d3e13f43c34ba350bee0eca63a23edbbfb3cbad6895f2c8b15373c0f2d6f7',
+                'https://drscdn.500px.org/photo/274681409/q%3D80_m%3D2000/v2?sig=281410bd0fa058a3e9321b0ca1ebb8bba5b8f06aaf097d84b375b314c497b816',
+                'https://drscdn.500px.org/photo/274681407/q%3D80_m%3D2000/v2?sig=e060226581eed5d6f587b4f7001f90e450cea1b9886d505ce536384d2c961252',
+                'https://drscdn.500px.org/photo/274681405/q%3D80_m%3D2000/v2?sig=ec487ba2d3b483fefcfae913d25669b88903e80ceb2d8ce9bb5afd736c0b8e97',
+                'https://drscdn.500px.org/photo/274681403/q%3D80_m%3D2000/v2?sig=697e1d30785004a98eb2518d5a6532f9c15d532d07085a2097b56dbd6a16e6ce',
+                'https://drscdn.500px.org/photo/274681401/q%3D80_m%3D2000/v2?sig=b08af39d23a1f3d34366125966ed403eda8b00378a3db55538343c4094cd94f7',
+                'https://drscdn.500px.org/photo/274681399/q%3D80_m%3D2000/v2?sig=75e166dd6da8f30bf1b8e79dd904483d6cdcd0d6bfd0ef3eafaa4895c9bb1b74',
+                'https://drscdn.500px.org/photo/274681397/q%3D80_m%3D2000/v2?sig=f766a96233e8551cc09c7f34d9c38fbf22f132ef47b4f973a7be15f532586d36',
+                'https://drscdn.500px.org/photo/274681395/q%3D80_m%3D2000/v2?sig=093d6abf29cad16a48022d796b9edf388d1d906d907b940cee9d6c7e91ef3155',
+                'https://drscdn.500px.org/photo/274681393/q%3D80_m%3D2000/v2?sig=e800557d69f128bff1ea6f67e4507a586af7ecf81f3ca5cece587ca2af9fbd48',
+                'https://drscdn.500px.org/photo/274681391/q%3D80_m%3D2000/v2?sig=bf2b43c272fa407922b87061a502aad4247a29a78bb65a31cbf224888e3cb9af',
+                'https://drscdn.500px.org/photo/274681389/q%3D80_m%3D2000/v2?sig=90ca8677dea509815287d8facb9faa4ee98bdfb5b3c3f9e58a50ff41ca2fa812',
+                'https://drscdn.500px.org/photo/274681387/q%3D80_m%3D2000/v2?sig=766e9dd25989e604dc95b4b8888d0709c62a3e2f4c1553245c54f353588328a3',
+                'https://drscdn.500px.org/photo/274681385/q%3D80_m%3D2000/v2?sig=0d6d97f2042a67562c5d55ae14cec67195b987cf5a4103de4f8e036bc2194ead'
+            ],
+            'BIAS (Bucharest International Air Show)': [
+                'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000_k%3D1/v2?sig=5cfe5539a53fc9defd9d701fe1398fbc8f88fec519167d2e33da364ae3c158dc',
+                'https://drscdn.500px.org/photo/274677331/q%3D80_m%3D2000/v2?sig=3fa36fc65eb62d585a75dd36b97965d81a70ccfd93cf4586983a90c81ba8ed3a',
+                'https://drscdn.500px.org/photo/274677329/q%3D80_m%3D2000/v2?sig=f3bf40bd958e75fb687cef1e0d96fdaa729305e445566d0bd36aabc20a613180',
+                'https://drscdn.500px.org/photo/274677325/q%3D80_m%3D2000/v2?sig=8b6f8691761961c052a03665ffd25b28c93903c8e37adf70839639c1a88d604b',
+                'https://drscdn.500px.org/photo/274677323/q%3D80_m%3D2000/v2?sig=0a0e0ce882d59222af27de7f21b77fdaa4aa68284b20af1c1a52b7c8627f79c8',
+                'https://drscdn.500px.org/photo/274677321/q%3D80_m%3D2000/v2?sig=978f79f62c69683aea541b2e3fd899054e4f445b5fcd97890fae620787963e0f',
+                'https://drscdn.500px.org/photo/274677319/q%3D80_m%3D2000/v2?sig=ba41a59747dc3bbd6e2eb97fdd2ae201b3b9b76828a2a95f6bf62f6a796b5b06',
+                'https://drscdn.500px.org/photo/274677317/q%3D80_m%3D2000/v2?sig=344061910ea4d8af05583b1168bc23abc014a0b46b96fbdad1671eb7e3d301b2',
+                'https://drscdn.500px.org/photo/274677311/q%3D80_m%3D2000/v2?sig=e17a5a603119cdd74a18f6361959ea8f3e2513371576d884c55829f387c776d8',
+                'https://drscdn.500px.org/photo/274677301/q%3D80_m%3D2000/v2?sig=b8e9003effc3cd14c6bb5b6bfac2ec2faf6eef99afc0ea4e3ca98dea3b221d0c',
+                'https://drscdn.500px.org/photo/274677299/q%3D80_m%3D2000/v2?sig=3ea9341f9b5e146397de817bdc57d3548346f404512c08c56a9abde997c0a743',
+                'https://drscdn.500px.org/photo/274677297/q%3D80_m%3D2000/v2?sig=2fb5c196a63297c7f5c5ce388494d51f76c4f9be40b8d569afdcfc7b51566e12',
+                'https://drscdn.500px.org/photo/274677295/q%3D80_m%3D2000/v2?sig=9e2bde131a893f2d54b8772f42d673051a1dde6581047fd8b3bda9ccff4141bf',
+                'https://drscdn.500px.org/photo/274677289/q%3D80_m%3D2000/v2?sig=248f3e2dd7110521f7a92db53548bf52352c5a24583928533b5359f7cfb5b8bf',
+                'https://drscdn.500px.org/photo/274677287/q%3D80_m%3D2000/v2?sig=36c38460b5379509afbafe52758d63c970fe5c462adb83a9dd573132a8a02698',
+                'https://drscdn.500px.org/photo/274677283/q%3D80_m%3D2000/v2?sig=c11de48cd113cbb9662442a9972c169e9931779d11ec2c4dc7a8b867e7f92529',
+                'https://drscdn.500px.org/photo/274677281/q%3D80_m%3D2000/v2?sig=82bb46a2594ff3c72aeca5c2487cf4240a754d499e1ea100833e1ac248968206',
+                'https://drscdn.500px.org/photo/274677279/q%3D80_m%3D2000/v2?sig=89d21770797d708a40090e8701e9e18c73957d7bbbb877a0fe926ec583a34477',
+                'https://drscdn.500px.org/photo/274677271/q%3D80_m%3D2000/v2?sig=2a43e5f07497d94b4cafaa8fa63f7ef1795a8c402ea9046399f1c49457f02030',
+                'https://drscdn.500px.org/photo/274677269/q%3D80_m%3D2000/v2?sig=d2234bdc65e55500123a6d9e7dbc013549fea7168a245f46a22e092bec73f2d6',
+                'https://drscdn.500px.org/photo/274677313/q%3D80_m%3D2000/v2?sig=5a230293cb385feb3f715ebb266c0ccad23a8a709bac0bfe4daaf16e8b376568',
+                'https://drscdn.500px.org/photo/274677303/q%3D80_m%3D2000/v2?sig=f3f8f330e4aa8e6d8b5326eb4a6e8311e47838a4ee0764ae1a91d8fe1e8b0146',
+                'https://drscdn.500px.org/photo/274677285/q%3D80_m%3D2000/v2?sig=714fa9ec601c208b024e05d7a818e646868de109d3a4dc66bc26c3cbb76b847d',
+                'https://drscdn.500px.org/photo/1001786008/q%3D80_m%3D2000_k%3D1/v2?sig=bf055bc4d13b86359c46b93c93ac9c960e2ba5eb9253ef907cbb33acae61369d',
+                'https://drscdn.500px.org/photo/1001798525/q%3D80_m%3D2000_k%3D1/v2?sig=a848ad159db1ad5a02baf5159e94acfb038b7879b05060ab12dbac3e4fc6cb49',
+                'https://drscdn.500px.org/photo/1001821941/q%3D80_m%3D2000_k%3D1/v2?sig=ecf84c046abbab098e1c14ea76050cc9e8b058fb11e5dc2853ff59601c83f087',
+                'https://drscdn.500px.org/photo/1001855119/q%3D80_m%3D2000_k%3D1/v2?sig=fae6f4b30e09900a7395fba011eb727e9198ac9daeb168187a81761d9674aec9',
+                'https://drscdn.500px.org/photo/1001855118/q%3D80_m%3D2000_k%3D1/v2?sig=a15519c57087e8f43dd782f06aca1a9d172cbf3b886316977888d19ed7814b75',
+                'https://drscdn.500px.org/photo/1001855125/q%3D80_m%3D2000_k%3D1/v2?sig=37f69a065e11083aacd7878bb46dc4020f0a0947f4a845321b6718b514473b8c',
+                'https://drscdn.500px.org/photo/1001855126/q%3D80_m%3D2000_k%3D1/v2?sig=c90bc282d1ce6d9ef678f4605dea11b0e92f29d122a28db84c5ea4912166e307',
+                'https://drscdn.500px.org/photo/1007902122/q%3D80_m%3D2000_k%3D1/v2?sig=a4bcf370c4be40d8394b636cf134d2cb92afa3f9ca940672d70716d0c3bce296',
+                'https://drscdn.500px.org/photo/1007902121/q%3D80_m%3D2000_k%3D1/v2?sig=45f77fd48578c786e3d700cde11c2ff9754ff072497926abb5c7f8b37bac5cee',
+                'https://drscdn.500px.org/photo/1007902120/q%3D80_m%3D2000_k%3D1/v2?sig=f7df582aa026b2988ed8dab860211798de4b4f9cfb888b7ed9cfaeba8dc64b12',
+                'https://drscdn.500px.org/photo/1007902119/q%3D80_m%3D2000_k%3D1/v2?sig=568c984f29b99ad5975d5ba4a407d458c26e832750d4ef4cf75bbc1721475ef0',
+                'https://drscdn.500px.org/photo/1007902118/q%3D80_m%3D2000_k%3D1/v2?sig=cceb3f8aa67af0054ec6b2bf9f32e9275781da3e6d7584495d493ddb90c6628a',
+                'https://drscdn.500px.org/photo/1007902117/q%3D80_m%3D2000_k%3D1/v2?sig=4e804f67b84d65ae34cadb571cfca8ae43ed5120bec9c708eab1974da945108a',
+                'https://drscdn.500px.org/photo/1008740522/q%3D80_m%3D2000_k%3D1/v2?sig=2914baede4206572e4707e36b8d8979593f44f3fa12a52e51055293b0c975b14',
+                'https://drscdn.500px.org/photo/1008740520/q%3D80_m%3D2000_k%3D1/v2?sig=4f20290e2e59325e77b9371f77e10025cbe88e7336dff24ab460f8465e9c8153',
+                'https://drscdn.500px.org/photo/1008740518/q%3D80_m%3D2000_k%3D1/v2?sig=8b8af145e33b9cb9e05c7eab2193cf41976f743d0e4b159c9db949d9f0b79ef1',
+                'https://drscdn.500px.org/photo/274677333/q%3D80_m%3D2000/v2?sig=74adf7961722438b5508f92438d04149cdbbfdda6936d2e495fb330ff6979c19'
+            ],
+            'Random concerts': [
+                'https://drscdn.500px.org/photo/1021798365/q%3D80_m%3D2000/v2?sig=eecb6afcc08bae80753c9c251f4e6c0868eff2c769af56d35616335dadd60e89'
+            ],
+            'Fireworks': [
+                'https://drscdn.500px.org/photo/1021798235/q%3D80_m%3D2000/v2?sig=c1cd0a9ecd7f62fffb14b7efaafcd0503d5571593693753a216437309b42dd02',
+                'https://drscdn.500px.org/photo/1021798233/q%3D80_m%3D2000/v2?sig=10225d15b1efcef737417587fcacee4b8b599a297a8dc400efad3f43dcae8556',
+                'https://drscdn.500px.org/photo/1021798234/q%3D80_m%3D2000/v2?sig=85d4ebbe48dabd022aa0312a6b932419ef1d54a854ebc8fcd676ecfc8bf6ded3'
+            ],
+            'Galaxy': [
+                'https://drscdn.500px.org/photo/274672095/q%3D80_m%3D2000/v2?sig=616cd300f241288e5b3ae9ce2abdd3bbe0018da3d64a12b298ad804a81a3a94f',
+                'https://drscdn.500px.org/photo/274672093/q%3D80_m%3D1000/v2?sig=8b7b0aeb168908413838629602b0c84bdb479577fee2dc1cde80e89d86cc1540',
+                'https://drscdn.500px.org/photo/274672111/q%3D80_m%3D1000/v2?sig=b1343707dd5af615afbf03be17249d9da1a91e3d74465498880f0ce0c581858a',
+                'https://drscdn.500px.org/photo/305389281/q%3D80_m%3D2000_k%3D1/v2?sig=6a609da150ce4964e827ee10d8883a02ebf660a3a7aa138b5fb02e5d43d64e72',
+                'https://drscdn.500px.org/photo/305389283/q%3D80_m%3D1000_k%3D1/v2?sig=3c3cd307b937570fd7ed3494610cb47d015debaac9201725b52c7314f19157bc'
+            ],
+            'Animals & Birds': [
+                'https://drscdn.500px.org/photo/274682401/q%3D80_m%3D2000/v2?sig=38696601dc7250502fdc487ff81aa41aae46876e9f36a0e6f82d217d4b3023c4',
+                'https://drscdn.500px.org/photo/274671999/q%3D80_m%3D1000/v2?sig=8afd468ac9548827d9ae37e30750415485aa1b14ddace808b895cb0d4cd8dc4e',
+                'https://drscdn.500px.org/photo/274671995/q%3D80_m%3D2000/v2?sig=962089089c19531ae7cbe38385481ccc8cfdbb6a8c7d3b1e2bf8d395348425ac',
+                'https://drscdn.500px.org/photo/274675725/q%3D80_m%3D2000/v2?sig=6270d15a9a16a00c6e53f565730e897956e9f4261195a66ea26a4592adb078d2',
+                'https://drscdn.500px.org/photo/274678773/q%3D80_m%3D2000/v2?sig=5ec65d579b51be9dd2330ab6c6c803bc3c91e09867cf8a22bf2e77ae94a673e1',
+                'https://drscdn.500px.org/photo/274678771/q%3D80_m%3D2000/v2?sig=4de9d8fb032bf2dd39a5dd6c83a9f99320a2485cc47154e020af827b76cc51fe',
+                'https://drscdn.500px.org/photo/274678761/q%3D80_m%3D1000/v2?sig=187a17d2795a3ac149103e67b92b8534700d53d4e23d930a9c18aa67e72e1c2e',
+                'https://drscdn.500px.org/photo/274678759/q%3D80_m%3D2000/v2?sig=50706a11686647e1a3d4dd9744b7e01d51a4c4c108a43940a37111739235c4f6',
+                'https://drscdn.500px.org/photo/274678755/q%3D80_m%3D2000/v2?sig=bd15a76384ea1ef3c73d11f71cd4fe3785aee592c4ac0782072273d99a99fb3b',
+                'https://drscdn.500px.org/photo/274678741/q%3D80_m%3D1000/v2?sig=17eb8879181ebd4b66c751bf3214cadf4b41cc422d34fc0de06133594778867e',
+                'https://drscdn.500px.org/photo/274678739/q%3D80_m%3D1000/v2?sig=734cbb1a9921b38269693058fecc5285f9de9ee910bf8ebdbd21d3186a5a4d99',
+                'https://drscdn.500px.org/photo/299520067/q%3D80_m%3D1000_k%3D1/v2?sig=166e79bc688c9377be87b4430b58ea1283a3425b712281a180a9b135da05e898',
+                'https://drscdn.500px.org/photo/299520065/q%3D80_m%3D1000_k%3D1/v2?sig=643701ce7fc5a2cae96552dfbd14c62ad509aa4007f09842987cab6c550140af',
+                'https://drscdn.500px.org/photo/304703171/q%3D80_m%3D1000_k%3D1/v2?sig=6f2c82b9ba98bd30c98324952214d142697bf3457574998cd42bd20e2fc4f01f',
+                'https://drscdn.500px.org/photo/305513915/q%3D80_m%3D2000_k%3D1/v2?sig=74b14a7603df6baf02a857c63e20c0d775f77c2bdf8f47f1deddf2b4fbd457cd',
+                'https://drscdn.500px.org/photo/305513913/q%3D80_m%3D2000_k%3D1/v2?sig=d4561e8c509b4d60bab17771f3196e655efa9d7d8601a8bef1d4f2c4c4b7a416',
+                'https://drscdn.500px.org/photo/307515763/q%3D80_m%3D2000_k%3D1/v2?sig=4d70152afb576cb6ef1f9ad0686fe1fc16c1cc3eaf1ddad2bc0195ff5afc7ab0',
+                'https://drscdn.500px.org/photo/307515761/q%3D80_m%3D2000_k%3D1/v2?sig=def1e610ea8545005405a0a2b4293db8e1890183af972aed361e1fbc58e1d8e8',
+                'https://drscdn.500px.org/photo/308668117/q%3D80_m%3D2000_k%3D1/v2?sig=d01f384cbbc7b13eee838e0af9c36e2a2007d2acca5ad76c4a04348eeeea1273',
+                'https://drscdn.500px.org/photo/274682453/q%3D80_m%3D2000/v2?sig=d10b1871e631ca8385c76884b51b58f9bdcc79f9bcd4a01302d38241249f9bdc',
+                'https://drscdn.500px.org/photo/274682471/q%3D80_m%3D2000/v2?sig=b2b7693281f0e56f3e327c9bbe7ee06a5d8805e08912bcd49480d1ee824cdd64',
+                'https://drscdn.500px.org/photo/1022253610/q%3D80_m%3D2000/v2?sig=5e9475e5b3105ba0673075e947721ac0d5f59744bd1194bf361b3e889307e78b',
+                'https://drscdn.500px.org/photo/1022253609/q%3D80_m%3D2000/v2?sig=2eca78df5aee3a10682c722c51c9b311ebfe86078be04f20312f04b9f32fdaa4',
+                'https://drscdn.500px.org/photo/1022253611/q%3D80_m%3D2000/v2?sig=74881bc96e621b3d9e78b2a883f7a0b011609c3eddc6960a958c5806554e2643',
+                'https://drscdn.500px.org/photo/1022253753/q%3D80_m%3D2000_k%3D1/v2?sig=10d8807b8bedb2da1d4dba203c3de9d09326babd9b892e965af7a037f0761a7a',
+                'https://drscdn.500px.org/photo/1022941352/q%3D80_m%3D2000_k%3D1/v2?sig=7d0891ef2c6ae496cce349891d21fa26206ecf4f3fd2781f2532ea1985465c5b',
+                'https://drscdn.500px.org/photo/1022941396/q%3D80_m%3D2000_k%3D1/v2?sig=a2bc6fa9520d4629e30c9a22c23140c3bfed438d5f20f589017ee814ffca126f',
+                'https://drscdn.500px.org/photo/1022941395/q%3D80_m%3D2000_k%3D1/v2?sig=4a303090321b5fb1ba4062a87b77756f08d7cf7d8bc4bed0683904d06cd634b0',
+                'https://drscdn.500px.org/photo/1022942738/q%3D80_m%3D2000/v2?sig=f38cfd2804dac268136df88ae15f5746ffe069888834e7b0f799d00c9b7d109b'
+            ],
+            'Canon Summer School': [
+                'https://drscdn.500px.org/photo/274682351/q%3D80_m%3D2000/v2?sig=585670bcee3aae811f62be1c996b5b7713765981c4b3d6500d3b257646182eab',
+                'https://drscdn.500px.org/photo/274682343/q%3D80_m%3D2000/v2?sig=1d996eea7593bcf4a5c2da38671a5d0a88eb3894f7676bd994c5cbc25663595d',
+                'https://drscdn.500px.org/photo/274682329/q%3D80_m%3D2000/v2?sig=623058ec8f6cf0f074c7ce2e98c6f60587b7a87b0a3cc4742e803aa2928c756a',
+                'https://drscdn.500px.org/photo/274682327/q%3D80_m%3D2000/v2?sig=bd557648615d2b0fe51e53498597df50aa34c51edad41b9cdadca394f41cce34',
+                'https://drscdn.500px.org/photo/274682315/q%3D80_m%3D1000/v2?sig=3162da15b83fbefc0495c51440f97087608ec25825e52143feed580a22ef457d',
+                'https://drscdn.500px.org/photo/274682347/q%3D80_m%3D2000/v2?sig=6b4b0b0ffcead8b42cbc286db6003818b320de043b2bbf9992808614c98c8529',
+                'https://drscdn.500px.org/photo/274682357/q%3D80_m%3D2000/v2?sig=cad96e7413d724f4a9431a5d24b41fc3d746f821b60cab74c9be0736d1ab8f7d',
+                'https://drscdn.500px.org/photo/274682373/q%3D80_m%3D2000/v2?sig=b5aa7b7431512739ed28a6eb1b9c5141c14c78160113fce283ac65e2d6ecc4ed',
+                'https://drscdn.500px.org/photo/274682325/q%3D80_m%3D2000/v2?sig=9d6aeacd9e7398f02d4f9212b872c40439bf574da51dc54ea7d07b170d5d89ea',
+                'https://drscdn.500px.org/photo/274682319/q%3D80_m%3D2000/v2?sig=027d0b96fe5c0677589282eaf86d4b39247f43d3616352c6eeb1406d25bc6006'
+            ],
+            'Music in the park': [
+                'https://drscdn.500px.org/photo/274671399/q%3D80_m%3D2000/v2?sig=e5ad83551249c2ddd6b896082fb6e533027a58ce9db700a9a61cffbc63cc6913',
+                'https://drscdn.500px.org/photo/274671397/q%3D80_m%3D2000/v2?sig=82986c69b01a957c91f6f2f8c20c546423e853e9cfd2049bd3d3610f69e78d5a',
+                'https://drscdn.500px.org/photo/274671395/q%3D80_m%3D2000/v2?sig=78d4525dd6cdd3f169b067e0ead76ecdc240bf8b147ba4d5eb3cf8f8306b162a',
+                'https://drscdn.500px.org/photo/274671391/q%3D80_m%3D2000/v2?sig=35924063a02e2a7e4d83ff90eafe7650dba2b790c47a361b23a7a28936ad693a',
+                'https://drscdn.500px.org/photo/274671389/q%3D80_m%3D2000/v2?sig=8ab8b4a5b40852ffc01b56564dc20854af0d5e2b984dd8e66c82bde3784976e6',
+                'https://drscdn.500px.org/photo/274671387/q%3D80_m%3D2000/v2?sig=aa0d9f57ee2e652bfabee3ea5df62d3a4c1ce76c16d6bd4fa74df374b8558ffd',
+                'https://drscdn.500px.org/photo/274671385/q%3D80_m%3D2000/v2?sig=fe034d8dae385f896c97975a80aac60ebe86d4dd5937459ec48a6b1c5fae2292',
+                'https://drscdn.500px.org/photo/274671383/q%3D80_m%3D2000/v2?sig=4b78bcee1919b9f013a4423aa23126df8706c18055365c7b094261070f8483ac',
+                'https://drscdn.500px.org/photo/274671381/q%3D80_m%3D2000/v2?sig=f06a750879605ce5aff8809fd26112f5d0f2c54da7878426d9287d0a8db182d2',
+                'https://drscdn.500px.org/photo/274671379/q%3D80_m%3D2000/v2?sig=dbc6e26472eb080571e98ca8e20597c9e568306baaed8b18eece168870102380',
+                'https://drscdn.500px.org/photo/274671377/q%3D80_m%3D2000/v2?sig=50262e7db7a5441d34be67a986891ab0ee421c5175529bf6b59afe94e5c63218',
+                'https://drscdn.500px.org/photo/274671375/q%3D80_m%3D2000/v2?sig=084b29bee0282d20ec63d7c9cb425ec818b82248d5d3b1684f83aa7d68dc9e4f',
+                'https://drscdn.500px.org/photo/274671373/q%3D80_m%3D2000/v2?sig=25d434df3b0b2134532ab8926dd5da8dae837947ef00677cc66b81d2e9bb0192',
+                'https://drscdn.500px.org/photo/274671371/q%3D80_m%3D2000/v2?sig=b67db57ec8f11408ce873166d5ea7603002fc30e46b0c0da36a7d9c20cd5d2b5',
+                'https://drscdn.500px.org/photo/274671369/q%3D80_m%3D2000/v2?sig=9fe9f459358849a6670cb95df9735710baf594ebdea2b1f1b066007cba5b25b8',
+                'https://drscdn.500px.org/photo/274671365/q%3D80_m%3D2000/v2?sig=f2649734036ca456ea0c28916d8d25ed8e2db78e428d9b422a4fdf0ac89d3685',
+                'https://drscdn.500px.org/photo/274671363/q%3D80_m%3D2000/v2?sig=014111d1be7b1bc1f7928070ecddb1567cb493b017a681e8f237d5a3d37cb22f',
+                'https://drscdn.500px.org/photo/274671361/q%3D80_m%3D2000/v2?sig=4065a1abc8d8851516112e072f87e81c79fa29b3f65a9ba4410adc91b9f97c48',
+                'https://drscdn.500px.org/photo/274671343/q%3D80_m%3D2000/v2?sig=c5a023b7f38b00c2dbbc8c5444aeff1b55c1a727a5e299dc85430c8511f9fd7f',
+                'https://drscdn.500px.org/photo/274671359/q%3D80_m%3D2000/v2?sig=6461df0800e30c983e0d858acef6db31d63430fa52f872eaada0fa49f2f8336b'
+            ],
+            'Aeronautic Show': [
+                'https://drscdn.500px.org/photo/274670015/q%3D80_m%3D2000/v2?sig=9f1bfd5301f0d28a3bcca6c117d8dbf575d8f661d74db410fa5ad0496a114a39',
+                'https://drscdn.500px.org/photo/274670017/q%3D80_m%3D2000/v2?sig=603f188608da2c792259a2bed8fcf8ead2fffcd4b8ea50d1c3bf6e7bcb22989a',
+                'https://drscdn.500px.org/photo/274670027/q%3D80_m%3D2000/v2?sig=5020069e1bdc3b36fefa495ef1ef7ebe6fa82b1e0c3822b2f97e3c50505ef409',
+                'https://drscdn.500px.org/photo/274670043/q%3D80_m%3D2000/v2?sig=86fd6dfac0919d6987f2ab140ad8e5bf18e0689ee7f77c759ff0367f1cef3fad',
+                'https://drscdn.500px.org/photo/274670049/q%3D80_m%3D2000/v2?sig=0bda812be7389a80a91f6b17b75170b9068f3c455790d9d7d65bc0b5fddcf229',
+                'https://drscdn.500px.org/photo/274670051/q%3D80_m%3D2000/v2?sig=bbf2a92e4f2120866d65d3bf6ba40e832296c924a75d4c64d7a53ca02cac27b8',
+                'https://drscdn.500px.org/photo/274670055/q%3D80_m%3D2000/v2?sig=8f050f2fa3d7ff2155254eccfd9b4969dc6805d52236aab24411d25c4e891e1b',
+                'https://drscdn.500px.org/photo/274670059/q%3D80_m%3D2000/v2?sig=1470d1b5d547b4c86335ce50a6551fe3e092ba28402c7a5bcccfbfa94d6525b1',
+                'https://drscdn.500px.org/photo/274670067/q%3D80_m%3D2000/v2?sig=be2dfd00149072cb4b5b0597c66a93e63992a46592d095e0246285c41bcda2de',
+                'https://drscdn.500px.org/photo/274670069/q%3D80_m%3D2000/v2?sig=d52db64d0617d67f52ad93c2643abfd5cf0a379f087160b52466204212d89e8f',
+                'https://drscdn.500px.org/photo/274670071/q%3D80_m%3D2000/v2?sig=cbe61ae720324e474c4458c055e4a2285a21da42ea0a904f44ddcd84596915b7',
+                'https://drscdn.500px.org/photo/274670073/q%3D80_m%3D2000/v2?sig=701055f999777c0a01b1f11d0abf92709930f4cae4a5498429fa17b8bf0b7e5d',
+                'https://drscdn.500px.org/photo/274670075/q%3D80_m%3D2000/v2?sig=e853ae79a3ad63b3ceeca31e95b89f3ee6dfee01c3281fca5ee3e7890b98a6e2',
+                'https://drscdn.500px.org/photo/274670077/q%3D80_m%3D2000/v2?sig=ed4137a853de0bda934e89c22ef3138ab8709a3f3488af233281d6db889015d0',
+                'https://drscdn.500px.org/photo/274670079/q%3D80_m%3D2000/v2?sig=a7647dabf53932a4acfedcdc3bf17d887db19ad671e78136e6a08253402ee229',
+                'https://drscdn.500px.org/photo/274670081/q%3D80_m%3D2000/v2?sig=5e31b72c91bd1c03164683287b47c8b47ccd0b67c474e9766f7088419d669b28',
+                'https://drscdn.500px.org/photo/274670085/q%3D80_m%3D1000/v2?sig=1f5da7cb788e8b3d1006f7f08eb96305909f60e29cd9b93ddbad95a2ebf4fe0e',
+                'https://drscdn.500px.org/photo/274670087/q%3D80_m%3D2000/v2?sig=03e4ff742bb95b9c41a3025b79ab0a6c41bac7b15040833641ee2c25ee0b224f',
+                'https://drscdn.500px.org/photo/274670089/q%3D80_m%3D2000/v2?sig=25e9ca6b5b342fe892ca55cd61c7ed5acacb60f4b4b5cea566d5d1345523e59c',
+                'https://drscdn.500px.org/photo/274670095/q%3D80_m%3D2000/v2?sig=e26389677eb6ab9f5fcab1a52c558557a764567ac09cdb17528f7613b1c18d42',
+                'https://drscdn.500px.org/photo/274670103/q%3D80_m%3D2000/v2?sig=ac270faf4bef962296d6a62b0fb49a04274f0546aa55c97e98fe68f38e3b6541',
+                'https://drscdn.500px.org/photo/274670109/q%3D80_m%3D2000/v2?sig=5df3423bc698aa514fb6d0afc4ffedc4920e1476eea9ef8935cad8729af9a030',
+                'https://drscdn.500px.org/photo/274670111/q%3D80_m%3D2000/v2?sig=02eb14e5db425053f332b9227b2f840de05d7ad0a01144ae78760882de5e456d',
+                'https://drscdn.500px.org/photo/274670121/q%3D80_m%3D2000/v2?sig=d14380ae29928ac3b5e79baf945762880f5fb37339b0fa1d563452a8ceb55404',
+                'https://drscdn.500px.org/photo/274670123/q%3D80_m%3D2000/v2?sig=936fca4d5b5e6d814de180863ca9b2bdef0e5437d311dcdb41199c4c7ddcca75',
+                'https://drscdn.500px.org/photo/274670127/q%3D80_m%3D2000/v2?sig=66ddcd529886acc1abc39bbdebe75050c787523e7d36f2108e4a25adab80cdda'
+            ],
+            'Zoo Bucharest': [
+                'https://drscdn.500px.org/photo/274678131/q%3D80_m%3D2000/v2?sig=75a4eacd24176d813814df9799ee46c2e8857df66265ccfd12899210776ec4a6',
+                'https://drscdn.500px.org/photo/274678129/q%3D80_m%3D2000/v2?sig=da945c241146ff92210d10a0174a10abd4180b1f8f1f80fba11053d5f115b224',
+                'https://drscdn.500px.org/photo/274678125/q%3D80_m%3D1000/v2?sig=b0803db258fbedde4ea83ae4701fb92b2f9ac55f9af37e250d68a7b2be4a62e3',
+                'https://drscdn.500px.org/photo/274678123/q%3D80_m%3D2000/v2?sig=9d0b758fb161e3d0a80c540e9a2d0d4378d1676d7a57d459fdb3c4de09812ac7',
+                'https://drscdn.500px.org/photo/274678121/q%3D80_m%3D2000/v2?sig=aedd4978ee7bc8c0d38c798631f3e50de82b745cb54c25763bcb6c5b8317dace',
+                'https://drscdn.500px.org/photo/274678113/q%3D80_m%3D2000/v2?sig=52cd4e38e3e6c048b591db942f4b3889212cf76d3091c828234140e3e361319b',
+                'https://drscdn.500px.org/photo/1023757922/q%3D80_m%3D1000/v2?sig=c4ef5fab62f40a8342cfb9c8dfc1c038457b9132edc8b5355ee0cac24ddb8e36',
+                'https://drscdn.500px.org/photo/1024091178/q%3D80_m%3D2000/v2?sig=bf17e3a883c31b8964f76d208f1cb08dfd4f36d430f9c41e703d95382a8b3b35',
+                'https://drscdn.500px.org/photo/1024091175/q%3D80_m%3D2000/v2?sig=62ee5bb11e34593cef0da7e75400f29352caa5ccc8cb60d214828e440bbce3e1',
+                'https://drscdn.500px.org/photo/1024091174/q%3D80_m%3D2000/v2?sig=ca7a49f9309aee59e4a8b7408abff31936b0690c80ee854f5961014c22a56df1'
+            ],
+            'Travel': [
+                'https://drscdn.500px.org/photo/274672599/q%3D80_m%3D1000/v2?sig=30356c6b453fb899106b49115919a61fb9194e6d9b89d6978b77807b338e8136',
+                'https://drscdn.500px.org/photo/274673461/q%3D80_m%3D2000/v2?sig=bd2bd4c05f7ae1ccc33cdfddbba07468e4cd6f0db13ad22c928dcdf5440a9d9a',
+                'https://drscdn.500px.org/photo/274673451/q%3D80_m%3D2000/v2?sig=0c55aa38f12caa52374e6689ee66668c5d7971bd6dbd6ed727d6c3c62ca63f5e',
+                'https://drscdn.500px.org/photo/274673681/q%3D80_m%3D2000/v2?sig=486cf3c2b54a123003e04ba053ff0eb2be98e0d7d9b89ce278c81887e052f56f',
+                'https://drscdn.500px.org/photo/274673689/q%3D80_m%3D2000/v2?sig=f2502918a029b09f5fdc4295c6992ed20b83ab04028c7d74f58fd54aefa19922',
+                'https://drscdn.500px.org/photo/274673693/q%3D80_m%3D2000/v2?sig=8ca6a504a9b659352523386d6b165d110ff3fc53618fd56f7dc6b136683c7e1d',
+                'https://drscdn.500px.org/photo/274673707/q%3D80_m%3D1000/v2?sig=8cd6f1ce87b1de923ee75936d083637fe9e1374753f210180294c5a7f4238964',
+                'https://drscdn.500px.org/photo/274673705/q%3D80_m%3D1000/v2?sig=f59ca4d1bd0876a9090dc585ca35ccc310ed4a841873ba3f9eff50799cb179dd',
+                'https://drscdn.500px.org/photo/274673709/q%3D80_m%3D1000/v2?sig=5810e7c817c7d57dc313b50cf4c887703d4135c684e2862438895126beaa1d00',
+                'https://drscdn.500px.org/photo/274673711/q%3D80_m%3D1000/v2?sig=b38ea63ea5c2525f4fefd5a2b909ab19980f0f4ef4dffd19de05a0c28cf963ad',
+                'https://drscdn.500px.org/photo/274679699/q%3D80_m%3D1000/v2?sig=cb377961ba23d9ea1b8be3debc9488658f8d9fa12d0a8bd267ca48f4abea1af4',
+                'https://drscdn.500px.org/photo/274679745/q%3D80_m%3D2000/v2?sig=2d7e1118214bd3294104d01cc62f464d077a186301a4617eee217043684e9ff1',
+                'https://drscdn.500px.org/photo/274679737/q%3D80_m%3D2000/v2?sig=f8ab64d2f4d9a435b5ab9f35df9fe021ac9b07994fbbff98308a9feda2808a9d',
+                'https://drscdn.500px.org/photo/274679733/q%3D80_m%3D2000/v2?sig=ab84a9237d48f49aba287ac6cc491d8bb95ef98676242e7dbb871baef228e137',
+                'https://drscdn.500px.org/photo/274679701/q%3D80_m%3D2000/v2?sig=0e3f7d9999b99fc32b80ee35f4789895ff9290254ce3a199b991ed90836f4897',
+                'https://drscdn.500px.org/photo/274680169/q%3D80_m%3D1000/v2?sig=a7de783f0747a462bcc407d1b74cdf8dff3951bf65fd2a44149d40762d1bad82',
+                'https://drscdn.500px.org/photo/274680167/q%3D80_m%3D2000/v2?sig=dac9196b887d660a6ddec143f5951928f630dbfb26d491efab2ea420b36b2ea4',
+                'https://drscdn.500px.org/photo/274680163/q%3D80_m%3D2000/v2?sig=9fe8da9f547b0a10ea7476bc3414980d6363dbcb291e1a4d4d358be0072f0a0d',
+                'https://drscdn.500px.org/photo/274680129/q%3D80_m%3D2000/v2?sig=16bebb5070807146c4ce55c35b625a9130ae4d2fd8ad9c38ad468ad0535b5f19',
+                'https://drscdn.500px.org/photo/305385505/q%3D80_m%3D2000_k%3D1/v2?sig=58357da38934b0fdd47d76eb308491ea08d5fdc8de9a447e638667e1e55b92e9',
+                'https://drscdn.500px.org/photo/1023757921/q%3D80_m%3D2000/v2?sig=f5a5925fe77df77111c8c40be131f4ea7c3a581f7d7c29650d1e5d8a0fa55d0e',
+                'https://drscdn.500px.org/photo/1023761009/q%3D80_m%3D2000/v2?sig=96546af913b4a3dab7980cfbd3e8fce7acf65480cf9ccf5c7da089bc252d461f',
+                'https://drscdn.500px.org/photo/1023761008/q%3D80_m%3D2000/v2?sig=74138e59fdac4d49bd9591a518c0905b1a71247e10c2c2f7f49311b36409a348',
+                'https://drscdn.500px.org/photo/1023761007/q%3D80_m%3D2000/v2?sig=5d0f93fa289b9ffc649fd9ed8100e08c13cb29ffd5fa1d20a57b14309b202ef5',
+                'https://drscdn.500px.org/photo/1023761198/q%3D80_m%3D2000/v2?sig=91d7c5e3ded2a1e1e341c2764c1220c663fd91578d06ac016e4d7a7e9be2be50',
+                'https://drscdn.500px.org/photo/1024091177/q%3D80_m%3D2000/v2?sig=412f12610cc43c871e30e96cd6474c22b214ad170f4767eb68829c9eb2eaa473'
+            ],
+            'Others': [
+                'https://drscdn.500px.org/photo/1025485701/q%3D80_m%3D2000/v2?sig=d86d118782191c5c901a98e1dc369cb38fb53e0b64d8a855df0bdace3a1e4989',
+                'https://drscdn.500px.org/photo/1024095206/q%3D80_m%3D1000/v2?sig=115a2072d5f1ca5b0a380404204e00b5a707094b2e2d1f452b0fa6c8b3c837e7',
+                'https://drscdn.500px.org/photo/1024095207/q%3D80_m%3D1000/v2?sig=3c4faa583a2b32b2ccda8deddf888894bd5705ce62f3d1cb3cabc7f9c15300bb',
+                'https://drscdn.500px.org/photo/308668119/q%3D80_m%3D2000_k%3D1/v2?sig=5279322f4d7abd5c1ea6249699c462393f80e96060ed664fe83c275a963a93d5'
+            ],
+            'Paco the Birb': [
+                'https://drscdn.500px.org/photo/274148529/q%3D80_m%3D2000/v2?sig=6a13dbaf2364b3584f434c0e32c031c851892dcff07b9a05db8b442c01d4aa63',
+                'https://drscdn.500px.org/photo/274148531/q%3D80_m%3D2000/v2?sig=83745aad0239a79dd100a7ab1c9408444ba29c15bc42bde350cd03938bf2ffbd',
+                'https://drscdn.500px.org/photo/274148537/q%3D80_m%3D1000/v2?sig=c14656d1940409c4dc9633b51a6cf6e6f3c6ba5727339dc8bd1b356931a98691',
+                'https://drscdn.500px.org/photo/274676129/q%3D80_m%3D2000/v2?sig=58f464d346bb6a59ae42323d5d37af5c97b66b1c6adc891565bef88048249fd4',
+                'https://drscdn.500px.org/photo/274676055/q%3D80_m%3D2000/v2?sig=c971960af82f6f79f3b877a2f15229f2ea06f5342eb80c7a7959a46a92fa1835',
+                'https://drscdn.500px.org/photo/274676013/q%3D80_m%3D2000/v2?sig=77c3fbb3c7c476e63bab5e4622235d7222764ce4a1f903020be8b2c9a0e61bf6'
+            ]
+        },
         logo: '../assets/projects/1/4.jpg'
     },
     {
@@ -387,13 +624,15 @@ const PROJECTS = [
         description: `
             Long time ago I started drawing furniture design for my own place or for others, discovering that I have a passion for it.
         `,
-        images: [
-            '../assets/projects/2/1.png',
-            '../assets/projects/2/2.png',
-            '../assets/projects/2/3.png',
-            '../assets/projects/2/4.png',
-            '../assets/projects/2/5.png'
-        ],
+        images: {
+            screenshots: [
+                '../assets/projects/2/1.png',
+                '../assets/projects/2/2.png',
+                '../assets/projects/2/3.png',
+                '../assets/projects/2/4.png',
+                '../assets/projects/2/5.png'
+            ]
+        },
         logo: '../assets/projects/2/1.png'
     },
     {
@@ -431,20 +670,22 @@ const PROJECTS = [
             <li>Users cand take tests in order to verify their knowledges from different categories</li>
             </ul>
         `,
-        images: [
-            '../assets/projects/3/1.png',
-            '../assets/projects/3/2.png',
-            '../assets/projects/3/3.png',
-            '../assets/projects/3/4.png',
-            '../assets/projects/3/5.png',
-            '../assets/projects/3/6.png',
-            '../assets/projects/3/7.png',
-            '../assets/projects/3/8.png',
-            '../assets/projects/3/9.png',
-            '../assets/projects/3/10.png',
-            '../assets/projects/3/11.png',
-            '../assets/projects/3/12.png'
-        ],
+        images: {
+            screenshots: [
+                '../assets/projects/3/1.png',
+                '../assets/projects/3/2.png',
+                '../assets/projects/3/3.png',
+                '../assets/projects/3/4.png',
+                '../assets/projects/3/5.png',
+                '../assets/projects/3/6.png',
+                '../assets/projects/3/7.png',
+                '../assets/projects/3/8.png',
+                '../assets/projects/3/9.png',
+                '../assets/projects/3/10.png',
+                '../assets/projects/3/11.png',
+                '../assets/projects/3/12.png'
+            ]
+        },
         logo: '../assets/projects/3/1.png'
     },
     {
@@ -490,24 +731,26 @@ const PROJECTS = [
             <p>For both college and university, an authenticated user will be able to write a review. This review is automatically accepted and published if it is positive, or verified by a user and subsequently added or deleted if it contains inappropriate words, in order to avoid misleading users. The review consists of the number of stars awarded and the completed comment.</p>
             <p>Editing data after activating the university account can be done from the presentation page of the university / faculty by pressing the "EDIT" button, which will activate the fields for completing or modifying the information.</p>
         `,
-        images: [
-            '../assets/projects/4/1.png',
-            '../assets/projects/4/2.png',
-            '../assets/projects/4/3.png',
-            '../assets/projects/4/4.png',
-            '../assets/projects/4/5.png',
-            '../assets/projects/4/6.png',
-            '../assets/projects/4/7.png',
-            '../assets/projects/4/8.png',
-            '../assets/projects/4/9.png',
-            '../assets/projects/4/10.png',
-            '../assets/projects/4/11.png',
-            '../assets/projects/4/12.png',
-            '../assets/projects/4/13.png',
-            '../assets/projects/4/14.png',
-            '../assets/projects/4/15.png',
-            '../assets/projects/4/16.png'
-        ],
+        images: {
+            screenshots: [
+                '../assets/projects/4/1.png',
+                '../assets/projects/4/2.png',
+                '../assets/projects/4/3.png',
+                '../assets/projects/4/4.png',
+                '../assets/projects/4/5.png',
+                '../assets/projects/4/6.png',
+                '../assets/projects/4/7.png',
+                '../assets/projects/4/8.png',
+                '../assets/projects/4/9.png',
+                '../assets/projects/4/10.png',
+                '../assets/projects/4/11.png',
+                '../assets/projects/4/12.png',
+                '../assets/projects/4/13.png',
+                '../assets/projects/4/14.png',
+                '../assets/projects/4/15.png',
+                '../assets/projects/4/16.png'
+            ]
+        },
         logo: '../assets/projects/4/1.png'
     },
     {
@@ -528,14 +771,16 @@ const PROJECTS = [
             This project was created using <a href="https://reactjs.org/">React.js</a>, <a href="https://www.npmjs.com/package/axios">axios</a>, <a href="https://redux.js.org/">Redux</a> and <a href="https://sass-lang.com/">Sass</a>. For database used to store the data is <a href="https://firebase.google.com/products/realtime-database">Firebase Realtime Database</a>.
             </p>
         `,
-        images: [
-            '../assets/projects/5/1.png',
-            '../assets/projects/5/2.png',
-            '../assets/projects/5/3.png',
-            '../assets/projects/5/4.png',
-            '../assets/projects/5/5.png',
-            '../assets/projects/5/6.png'
-        ],
+        images: {
+            screenshots: [
+                '../assets/projects/5/1.png',
+                '../assets/projects/5/2.png',
+                '../assets/projects/5/3.png',
+                '../assets/projects/5/4.png',
+                '../assets/projects/5/5.png',
+                '../assets/projects/5/6.png'
+            ]
+        },
         logo: '../assets/projects/5/1.png'
     },
     {
@@ -549,14 +794,16 @@ const PROJECTS = [
         type: 'Personal project',
         description: `
             Providing logos for different clients and pro bono`,
-        images: [
-            'assets/projects/6/1.png',
-            'assets/projects/6/2.png',
-            'assets/projects/6/3.png',
-            'assets/projects/6/4.png',
-            'assets/projects/6/5.png',
-            'assets/projects/6/6.png'
-        ],
+        images: {
+            screenshots: [
+                'assets/projects/6/1.png',
+                'assets/projects/6/2.png',
+                'assets/projects/6/3.png',
+                'assets/projects/6/4.png',
+                'assets/projects/6/5.png',
+                'assets/projects/6/6.png'
+            ]
+        },
         logo: 'assets/projects/6/1.png'
     },
     {
@@ -581,17 +828,19 @@ const PROJECTS = [
             <li>Informations are saved through Firebase</li>
             </ul>
         `,
-        images: [
-            '../assets/projects/7/1.png',
-            '../assets/projects/7/2.png',
-            '../assets/projects/7/3.png',
-            '../assets/projects/7/4.png',
-            '../assets/projects/7/5.png',
-            '../assets/projects/7/6.png',
-            '../assets/projects/7/7.png',
-            '../assets/projects/7/8.png',
-            '../assets/projects/7/9.png'
-        ],
+        images: {
+            screenshots: [
+                '../assets/projects/7/1.png',
+                '../assets/projects/7/2.png',
+                '../assets/projects/7/3.png',
+                '../assets/projects/7/4.png',
+                '../assets/projects/7/5.png',
+                '../assets/projects/7/6.png',
+                '../assets/projects/7/7.png',
+                '../assets/projects/7/8.png',
+                '../assets/projects/7/9.png'
+            ]
+        },
         logo: '../assets/projects/7/2.png'
     },
     {
@@ -617,15 +866,17 @@ const PROJECTS = [
         <li>The user can take a personality test in order to help him find the jobs that suits his needs best</li>
         </ul>
         `,
-        images: [
-            '../assets/projects/8/1.png',
-            '../assets/projects/8/2.png',
-            '../assets/projects/8/3.png',
-            '../assets/projects/8/4.png',
-            '../assets/projects/8/5.png',
-            '../assets/projects/8/6.png',
-            '../assets/projects/8/7.png'
-        ],
+        images: {
+            screenshots: [
+                '../assets/projects/8/1.png',
+                '../assets/projects/8/2.png',
+                '../assets/projects/8/3.png',
+                '../assets/projects/8/4.png',
+                '../assets/projects/8/5.png',
+                '../assets/projects/8/6.png',
+                '../assets/projects/8/7.png'
+            ]
+        },
         logo: '../assets/projects/8/2.png'
     },
     {
@@ -705,21 +956,23 @@ const PROJECTS = [
             </ul>
             </p>
         `,
-        images: [
-            '../assets/projects/9/1.png',
-            '../assets/projects/9/2.png',
-            '../assets/projects/9/3.png',
-            '../assets/projects/9/4.png',
-            '../assets/projects/9/5.png',
-            '../assets/projects/9/6.png',
-            '../assets/projects/9/7.png',
-            '../assets/projects/9/8.png',
-            '../assets/projects/9/9.png',
-            '../assets/projects/9/10.png',
-            '../assets/projects/9/11.png',
-            '../assets/projects/9/12.png',
-            '../assets/projects/9/13.png'
-        ],
+        images: {
+            screenshots: [
+                '../assets/projects/9/1.png',
+                '../assets/projects/9/2.png',
+                '../assets/projects/9/3.png',
+                '../assets/projects/9/4.png',
+                '../assets/projects/9/5.png',
+                '../assets/projects/9/6.png',
+                '../assets/projects/9/7.png',
+                '../assets/projects/9/8.png',
+                '../assets/projects/9/9.png',
+                '../assets/projects/9/10.png',
+                '../assets/projects/9/11.png',
+                '../assets/projects/9/12.png',
+                '../assets/projects/9/13.png'
+            ]
+        },
         logo: '../assets/projects/9/1.png'
     }
 ];
@@ -1020,7 +1273,7 @@ class ContactComponent {
     }
 }
 ContactComponent.ɵfac = function ContactComponent_Factory(t) { return new (t || ContactComponent)(); };
-ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 12, vars: 0, consts: [[1, "info-text"], [1, "social-wrapper"], ["text", "madalinaeleonora.gheorghe@gmail.com", "type", "email"], ["text", "/madalinaeleonorag", "type", "linkedin", "link", "https://www.linkedin.com/in/madalinaeleonorag/"], ["text", "/madalinaeleonorag", "type", "medium", "link", "https://madalinaeleonorag.medium.com/"], ["text", "/madalinaeleonorag", "type", "github", "link", "https://github.com/madalinaeleonorag"], ["text", "/madalinaeleonorag", "type", "instagram", "link", "https://www.instagram.com/madalinaeleonorag/"], ["text", "/madalinaeleonora", "type", "facebook", "link", "https://www.facebook.com/mdx.madalinaeleonora/"], ["text", "/madalinaeleonorag", "type", "paypal", "link", "https://www.paypal.com/paypalme/madalinaeleonorag"], [1, "copyright"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
+ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 13, vars: 0, consts: [[1, "info-text"], [1, "social-wrapper"], ["text", "madalinaeleonora.gheorghe@gmail.com", "type", "email"], ["text", "/madalinaeleonorag", "type", "linkedin", "link", "https://www.linkedin.com/in/madalinaeleonorag/"], ["text", "/madalinaeleonorag", "type", "medium", "link", "https://madalinaeleonorag.medium.com/"], ["text", "/madalinaeleonorag", "type", "github", "link", "https://github.com/madalinaeleonorag"], ["text", "/madalinaeleonorag", "type", "instagram", "link", "https://www.instagram.com/madalinaeleonorag/"], ["text", "/madalinaeleonora", "type", "facebook", "link", "https://www.facebook.com/mdx.madalinaeleonora/"], ["text", "/madalinaeleonorag", "type", "paypal", "link", "https://www.paypal.com/paypalme/madalinaeleonorag"], ["text", "/madalinaeleonorag", "type", "500px", "link", "https://500px.com/p/madalinaeleonorag?view=galleries"], [1, "copyright"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Let's be internet BFFs");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1032,9 +1285,10 @@ ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "app-custom-social-card", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "app-custom-social-card", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "app-custom-social-card", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "app-custom-social-card", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "\u00A9 Madalina-Eleonora Gheorghe 2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "\u00A9 Madalina-Eleonora Gheorghe 2021");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, directives: [_custom_social_card_custom_social_card_component__WEBPACK_IMPORTED_MODULE_1__["CustomSocialCardComponent"]], styles: ["app-contact {\n  display: flex;\n  flex-flow: column;\n  align-items: center;\n  margin: 5vh 0 0 0;\n}\napp-contact .info-text {\n  color: #fff;\n  padding: 10px 0px;\n  font-weight: bold;\n  font-size: 1.5rem;\n}\napp-contact .social-wrapper {\n  flex-flow: wrap;\n  place-content: center;\n  display: flex;\n}\napp-contact .copyright {\n  color: #d02929;\n  padding: 10px;\n  font-size: smaller;\n  text-align-last: center;\n}\n@media (max-width: 850px) {\n  app-contact .info-text {\n    font-size: unset;\n  }\n  app-contact app-custom-social-card .border-btn {\n    margin: 0.1rem;\n  }\n  app-contact app-custom-social-card .border-btn__inner a span {\n    display: none;\n  }\n  app-contact app-custom-social-card .border-btn app-custom-svg .icon {\n    width: 25px;\n    height: 25px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb250YWN0L2NvbnRhY3QuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3ZhcmlhYmxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0UsYUFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxpQkFBQTtBQURGO0FBR0U7RUFDRSxXQ05JO0VET0osaUJBQUE7RUFDQSxpQkFBQTtFQUNBLGlCQUFBO0FBREo7QUFJRTtFQUNFLGVBQUE7RUFDQSxxQkFBQTtFQUNBLGFBQUE7QUFGSjtBQUtFO0VBQ0UsY0NsQk07RURtQk4sYUFBQTtFQUNBLGtCQUFBO0VBQ0EsdUJBQUE7QUFISjtBQU1FO0VBQ0U7SUFDRSxnQkFBQTtFQUpKO0VBUUk7SUFDRSxjQUFBO0VBTk47RUFVVTtJQUNFLGFBQUE7RUFSWjtFQWNRO0lBQ0UsV0FBQTtJQUNBLFlBQUE7RUFaVjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jb250YWN0L2NvbnRhY3QuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IFwiLi4vLi4vdmFyaWFibGVzLnNjc3NcIjtcclxuXHJcbmFwcC1jb250YWN0IHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZmxvdzogY29sdW1uO1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgbWFyZ2luOiA1dmggMCAwIDA7XHJcblxyXG4gIC5pbmZvLXRleHQge1xyXG4gICAgY29sb3I6ICR3aGl0ZTtcclxuICAgIHBhZGRpbmc6IDEwcHggMHB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBmb250LXNpemU6IDEuNXJlbTtcclxuICB9XHJcblxyXG4gIC5zb2NpYWwtd3JhcHBlciB7XHJcbiAgICBmbGV4LWZsb3c6IHdyYXA7XHJcbiAgICBwbGFjZS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gIH1cclxuXHJcbiAgLmNvcHlyaWdodCB7XHJcbiAgICBjb2xvcjogJHByaW1hcnk7XHJcbiAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgZm9udC1zaXplOiBzbWFsbGVyO1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbiAgfVxyXG5cclxuICBAbWVkaWEgKG1heC13aWR0aDogODUwcHgpIHtcclxuICAgIC5pbmZvLXRleHQge1xyXG4gICAgICBmb250LXNpemU6IHVuc2V0O1xyXG4gICAgfVxyXG5cclxuICAgIGFwcC1jdXN0b20tc29jaWFsLWNhcmQge1xyXG4gICAgICAuYm9yZGVyLWJ0biB7XHJcbiAgICAgICAgbWFyZ2luOiAwLjFyZW07XHJcblxyXG4gICAgICAgICZfX2lubmVyIHtcclxuICAgICAgICAgIGEge1xyXG4gICAgICAgICAgICBzcGFuIHtcclxuICAgICAgICAgICAgICBkaXNwbGF5OiBub25lO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBhcHAtY3VzdG9tLXN2ZyB7XHJcbiAgICAgICAgICAuaWNvbiB7XHJcbiAgICAgICAgICAgIHdpZHRoOiAyNXB4O1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDI1cHg7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiIsIiRibGFjazogIzE3MDQwNDtcclxuJGdyYXk6ICM0ZjRmNGY7XHJcbiRsaWdodGdyYXk6ICNmY2RlZGU7XHJcbiR3aGl0ZTogI2ZmZjtcclxuJHByaW1hcnk6ICNkMDI5Mjk7XHJcbiRwcmltYXJ5b3BhY2l0eTogI2QwMjkyOTEyOyJdfQ== */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ContactComponent, [{
@@ -1186,13 +1440,23 @@ function CustomSvgComponent_div_10_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
+function CustomSvgComponent_div_11_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "svg", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "g", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "path", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
 class CustomSvgComponent {
     constructor() { }
     ngOnInit() {
     }
 }
 CustomSvgComponent.ɵfac = function CustomSvgComponent_Factory(t) { return new (t || CustomSvgComponent)(); };
-CustomSvgComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CustomSvgComponent, selectors: [["app-custom-svg"]], inputs: { type: "type" }, decls: 11, vars: 11, consts: [[4, "ngIf"], ["width", "25", "height", "25", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "52 42 88 66", 1, "icon"], ["d", "M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"], ["d", "M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"], ["d", "M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"], ["d", "M72 74V48l24 18 24-18v26L96 92"], ["d", "M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"], ["width", "25", "height", "25", "xmlns", "http://www.w3.org/2000/svg", "width", "25", "height", "25", "viewBox", "0 0 24 24", 1, "icon"], ["d", "M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"], ["width", "25", "height", "25", "xmlns", "http://www.w3.org/2000/svg", "fill-rule", "evenodd", "clip-rule", "evenodd", 1, "icon"], ["d", "M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z"], ["xmlns", "http://www.w3.org/2000/svg", "width", "25", "height", "25", "viewBox", "0 0 24 24", 1, "icon"], ["width", "25", "height", "25", "d", "M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z", 1, "icon"], ["d", "M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"], ["d", "M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"], ["d", "M22 9.761c0 .536-.065 1.084-.169 1.627-.847 4.419-3.746 5.946-7.449 5.946h-.572c-.453 0-.838.334-.908.789l-.803 5.09c-.071.453-.456.787-.908.787h-2.736c-.39 0-.688-.348-.628-.732l1.386-8.88.062-.056h2.155c5.235 0 8.509-2.618 9.473-7.568.812.814 1.097 1.876 1.097 2.997zm-14.216 4.252c.116-.826.459-1.177 1.385-1.179l2.26-.002c4.574 0 7.198-2.09 8.023-6.39.8-4.134-2.102-6.442-6.031-6.442h-7.344c-.517 0-.958.382-1.038.901-2.304 14.835-2.97 18.607-3.038 19.758-.021.362.269.672.635.672h3.989l1.159-7.318z"], ["id", "Bold", "enable-background", "new 0 0 24 24", "viewBox", "0 0 24 24", "width", "25", "height", "25", "xmlns", "http://www.w3.org/2000/svg", 1, "icon"], ["d", "m7 13.859v9.391c0 .285.162.546.418.672.254.126.561.097.788-.077l3.794-2.901 3.794 2.901c.134.103.294.155.456.155.113 0 .227-.025.332-.078.256-.126.418-.387.418-.672v-9.391c-1.405 1.027-3.13 1.641-5 1.641s-3.595-.614-5-1.641z"], ["d", "m12 0c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 10.25c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-4.792c-.292-.104-.5-.381-.5-.708 0-.414.336-.75.75-.75h.5c.414 0 .75.336.75.75z"], ["d", "m12 0c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1.25 9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-2.5c-.414 0-.75-.336-.75-.75v-1.375c0-1.172.897-2.125 2-2.125.271 0 .5-.286.5-.625s-.229-.625-.5-.625h-1.25c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h1.25c1.103 0 2 .953 2 2.125s-.897 2.125-2 2.125c-.271 0-.5.286-.5.625v.625z"], ["d", "m5.96 12.98-3.87 6.95c-.13.24-.12.54.03.77s.41.37.69.34l3.08-.23 1.36 2.77c.13.25.38.41.65.42h.02c.27 0 .53-.15.66-.38l2.52-4.48-2.45-4.33c-1.01-.43-1.92-1.06-2.69-1.83z"], ["d", "m21.9 19.93-3.9-6.91c-1.27 1.27-2.94 2.13-4.8 2.39-.39.06-.79.09-1.2.09-.44 0-.87-.03-1.29-.1l1.25 2.21 3.39 6.01c.13.23.38.38.65.38h.02c.28-.01.53-.17.66-.42l1.37-2.77 3.14.24c.28.02.54-.11.69-.35.15-.23.16-.53.02-.77z"], ["id", "Bold", "enable-background", "new 0 0 24 24", "width", "25", "height", "25", "viewBox", "0 0 24 24", "xmlns", "http://www.w3.org/2000/svg", 1, "icon"], ["d", "m12 0c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm2 7.5v1.833c0 .919-.71 1.667-1.583 1.667h-1.667c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h1.667c.021 0 .083-.059.083-.167v-1.083h-1.75c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h1.75v-1.083c0-.107-.062-.167-.083-.167h-1.667c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h1.667c.873 0 1.583.748 1.583 1.667z"], ["d", "m12 0c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm3.787 6.757-1.361 1.395.323 1.978c.046.283-.073.568-.309.734-.128.09-.28.136-.431.136-.125 0-.25-.031-.363-.094l-1.646-.909-1.646.91c-.251.139-.561.123-.795-.043-.235-.166-.354-.451-.309-.734l.323-1.978-1.36-1.395c-.196-.201-.264-.496-.174-.762.089-.267.319-.46.598-.503l1.851-.283.834-1.777c.246-.527 1.111-.527 1.357 0l.834 1.777 1.851.283c.278.042.509.236.598.503.089.266.021.561-.175.762z"]], template: function CustomSvgComponent_Template(rf, ctx) { if (rf & 1) {
+CustomSvgComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CustomSvgComponent, selectors: [["app-custom-svg"]], inputs: { type: "type" }, decls: 12, vars: 12, consts: [[4, "ngIf"], ["width", "25", "height", "25", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "52 42 88 66", 1, "icon"], ["d", "M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"], ["d", "M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"], ["d", "M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"], ["d", "M72 74V48l24 18 24-18v26L96 92"], ["d", "M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"], ["width", "25", "height", "25", "xmlns", "http://www.w3.org/2000/svg", "width", "25", "height", "25", "viewBox", "0 0 24 24", 1, "icon"], ["d", "M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"], ["width", "25", "height", "25", "xmlns", "http://www.w3.org/2000/svg", "fill-rule", "evenodd", "clip-rule", "evenodd", 1, "icon"], ["d", "M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z"], ["xmlns", "http://www.w3.org/2000/svg", "width", "25", "height", "25", "viewBox", "0 0 24 24", 1, "icon"], ["width", "25", "height", "25", "d", "M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z", 1, "icon"], ["d", "M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"], ["d", "M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"], ["d", "M22 9.761c0 .536-.065 1.084-.169 1.627-.847 4.419-3.746 5.946-7.449 5.946h-.572c-.453 0-.838.334-.908.789l-.803 5.09c-.071.453-.456.787-.908.787h-2.736c-.39 0-.688-.348-.628-.732l1.386-8.88.062-.056h2.155c5.235 0 8.509-2.618 9.473-7.568.812.814 1.097 1.876 1.097 2.997zm-14.216 4.252c.116-.826.459-1.177 1.385-1.179l2.26-.002c4.574 0 7.198-2.09 8.023-6.39.8-4.134-2.102-6.442-6.031-6.442h-7.344c-.517 0-.958.382-1.038.901-2.304 14.835-2.97 18.607-3.038 19.758-.021.362.269.672.635.672h3.989l1.159-7.318z"], ["id", "Bold", "enable-background", "new 0 0 24 24", "viewBox", "0 0 24 24", "width", "25", "height", "25", "xmlns", "http://www.w3.org/2000/svg", 1, "icon"], ["d", "m7 13.859v9.391c0 .285.162.546.418.672.254.126.561.097.788-.077l3.794-2.901 3.794 2.901c.134.103.294.155.456.155.113 0 .227-.025.332-.078.256-.126.418-.387.418-.672v-9.391c-1.405 1.027-3.13 1.641-5 1.641s-3.595-.614-5-1.641z"], ["d", "m12 0c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 10.25c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-4.792c-.292-.104-.5-.381-.5-.708 0-.414.336-.75.75-.75h.5c.414 0 .75.336.75.75z"], ["d", "m12 0c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1.25 9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-2.5c-.414 0-.75-.336-.75-.75v-1.375c0-1.172.897-2.125 2-2.125.271 0 .5-.286.5-.625s-.229-.625-.5-.625h-1.25c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h1.25c1.103 0 2 .953 2 2.125s-.897 2.125-2 2.125c-.271 0-.5.286-.5.625v.625z"], ["d", "m5.96 12.98-3.87 6.95c-.13.24-.12.54.03.77s.41.37.69.34l3.08-.23 1.36 2.77c.13.25.38.41.65.42h.02c.27 0 .53-.15.66-.38l2.52-4.48-2.45-4.33c-1.01-.43-1.92-1.06-2.69-1.83z"], ["d", "m21.9 19.93-3.9-6.91c-1.27 1.27-2.94 2.13-4.8 2.39-.39.06-.79.09-1.2.09-.44 0-.87-.03-1.29-.1l1.25 2.21 3.39 6.01c.13.23.38.38.65.38h.02c.28-.01.53-.17.66-.42l1.37-2.77 3.14.24c.28.02.54-.11.69-.35.15-.23.16-.53.02-.77z"], ["id", "Bold", "enable-background", "new 0 0 24 24", "width", "25", "height", "25", "viewBox", "0 0 24 24", "xmlns", "http://www.w3.org/2000/svg", 1, "icon"], ["d", "m12 0c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm2 7.5v1.833c0 .919-.71 1.667-1.583 1.667h-1.667c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h1.667c.021 0 .083-.059.083-.167v-1.083h-1.75c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h1.75v-1.083c0-.107-.062-.167-.083-.167h-1.667c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h1.667c.873 0 1.583.748 1.583 1.667z"], ["d", "m12 0c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm3.787 6.757-1.361 1.395.323 1.978c.046.283-.073.568-.309.734-.128.09-.28.136-.431.136-.125 0-.25-.031-.363-.094l-1.646-.909-1.646.91c-.251.139-.561.123-.795-.043-.235-.166-.354-.451-.309-.734l.323-1.978-1.36-1.395c-.196-.201-.264-.496-.174-.762.089-.267.319-.46.598-.503l1.851-.283.834-1.777c.246-.527 1.111-.527 1.357 0l.834 1.777 1.851.283c.278.042.509.236.598.503.089.266.021.561-.175.762z"], ["width", "25", "height", "25", "xmlns", "http://www.w3.org/2000/svg", 0, "xmlns", "xlink", "http://www.w3.org/1999/xlink", "version", "1.1", "id", "Layer_1", "x", "0px", "y", "0px", "viewBox", "0 0 305 305", 0, "xml", "space", "preserve", 1, "icon", 2, "enable-background", "new 0 0 305 305"], ["id", "XMLID_455_"], ["id", "XMLID_458_", "d", "M254.773,118.227c-29.076,0-47.951,22.781-54.153,30.267c-0.045,0.055-0.091,0.11-0.137,0.165   c-0.04-0.049-0.08-0.097-0.119-0.145c-6.182-7.491-24.991-30.287-54.303-30.287c-19.289,0-34.163,9.72-44.242,28.899   c-8.588-15.419-21.261-23.232-37.703-23.232c-13.762,0-21.114,3.656-25.234,6.855c0.822-5.127,2.112-13.014,3.859-23.262h55.846   c1.381,0,2.5-1.119,2.5-2.5V82.321c0-1.381-1.119-2.5-2.5-2.5h-78.41c-1.215,0-2.254,0.873-2.463,2.07l-13.258,75.93   c-0.127,0.727,0.074,1.474,0.549,2.039c0.476,0.565,1.176,0.892,1.914,0.892h25.379c0.917,0,1.76-0.502,2.197-1.308   c0.051-0.094,5.258-9.396,19.016-9.396c14.606,0,22.248,11.411,22.248,22.684c0,12.016-9.515,25.454-22.248,25.454   c-12.532,0-20.228-10.719-20.228-18.403c0-1.381-1.119-2.5-2.5-2.5H2.5c-1.381,0-2.5,1.119-2.5,2.5   c0,4.918,1.923,15.876,9.129,25.755c6.536,8.961,19.541,19.642,44.381,19.642c28.598,0,43.368-16.391,48.603-26.428   c5.636,9.817,20.028,26.428,43.947,26.428c29.243,0,46.779-20.657,53.382-28.433c0.371-0.438,0.763-0.899,1.116-1.306   c0.475,0.492,1.026,1.079,1.544,1.63c7.22,7.688,26.398,28.109,52.67,28.109c31.44,0,50.227-27.307,50.227-53.707   c0-13.186-4.34-26.202-11.907-35.712C283.965,124.29,270.714,118.227,254.773,118.227z M254.994,193.137   c-13.944,0-29.453-16.033-34.087-21.199c4.634-5.166,20.143-21.199,34.087-21.199c18.277,0,18.807,20.982,18.807,21.203   C273.801,172.154,273.272,193.137,254.994,193.137z M146.219,193.137c-18.278,0-18.808-20.982-18.808-21.198v-0.005h0.001   c0-0.212,0.525-21.194,18.807-21.194c13.884,0,29.429,16.028,34.082,21.199C175.652,177.105,160.105,193.137,146.219,193.137z"]], template: function CustomSvgComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, CustomSvgComponent_div_0_Template, 7, 0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, CustomSvgComponent_div_1_Template, 3, 0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, CustomSvgComponent_div_2_Template, 3, 0, "div", 0);
@@ -1204,6 +1468,7 @@ CustomSvgComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, CustomSvgComponent_div_8_Template, 8, 0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, CustomSvgComponent_div_9_Template, 8, 0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, CustomSvgComponent_div_10_Template, 8, 0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, CustomSvgComponent_div_11_Template, 4, 0, "div", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.type === "email");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
@@ -1226,6 +1491,8 @@ CustomSvgComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.type === "third-place");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.type === "mention-place");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.type === "500px");
     } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]], styles: ["app-custom-svg .icon {\n  fill: #fff;\n  width: 25px;\n  height: 25px;\n}\napp-custom-svg .icon:hover {\n  fill: #d02929;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jdXN0b20tc3ZnL2N1c3RvbS1zdmcuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3ZhcmlhYmxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdFO0VBQ0UsVUNESTtFREVKLFdBQUE7RUFDQSxZQUFBO0FBRko7QUFLRTtFQUNFLGFDTk07QURHViIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY3VzdG9tLXN2Zy9jdXN0b20tc3ZnLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uLy4uL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5hcHAtY3VzdG9tLXN2ZyB7XHJcbiAgLmljb24ge1xyXG4gICAgZmlsbDogJHdoaXRlO1xyXG4gICAgd2lkdGg6IDI1cHg7XHJcbiAgICBoZWlnaHQ6IDI1cHg7XHJcbiAgfVxyXG5cclxuICAuaWNvbjpob3ZlciB7XHJcbiAgICBmaWxsOiAkcHJpbWFyeTtcclxuICB9XHJcbn1cclxuIiwiJGJsYWNrOiAjMTcwNDA0O1xyXG4kZ3JheTogIzRmNGY0ZjtcclxuJGxpZ2h0Z3JheTogI2ZjZGVkZTtcclxuJHdoaXRlOiAjZmZmO1xyXG4kcHJpbWFyeTogI2QwMjkyOTtcclxuJHByaW1hcnlvcGFjaXR5OiAjZDAyOTI5MTI7Il19 */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CustomSvgComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
@@ -1433,43 +1700,69 @@ function ProjectDetailsComponent_span_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" - ", ctx_r0.project.endDate, "");
 } }
 function ProjectDetailsComponent_app_custom_button_8_Template(rf, ctx) { if (rf & 1) {
-    const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "app-custom-button", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectDetailsComponent_app_custom_button_8_Template_app_custom_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r5); const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r4.openNewTab("live"); });
+    const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "app-custom-button", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectDetailsComponent_app_custom_button_8_Template_app_custom_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r6); const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r5.openNewTab("live"); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("isFilledButton", true);
 } }
 function ProjectDetailsComponent_app_custom_button_9_Template(rf, ctx) { if (rf & 1) {
-    const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "app-custom-button", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectDetailsComponent_app_custom_button_9_Template_app_custom_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r7); const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r6.openNewTab("code"); });
+    const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "app-custom-button", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ProjectDetailsComponent_app_custom_button_9_Template_app_custom_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r7.openNewTab("code"); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("isFilledButton", false);
 } }
 function ProjectDetailsComponent_div_10_app_custom_chip_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-custom-chip", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-custom-chip", 14);
 } if (rf & 2) {
-    const technology_r9 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("text", technology_r9);
+    const technology_r10 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("text", technology_r10);
 } }
 function ProjectDetailsComponent_div_10_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ProjectDetailsComponent_div_10_app_custom_chip_1_Template, 1, 1, "app-custom-chip", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ProjectDetailsComponent_div_10_app_custom_chip_1_Template, 1, 1, "app-custom-chip", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r3.project.technologies);
 } }
-const _c0 = function (a0) { return { "background-image": a0 }; };
-const _c1 = function () { return { show: false }; };
-const _c2 = function (a1) { return { infinite: true, sidePreviews: a1 }; };
+const _c0 = function () { return { show: false }; };
+const _c1 = function (a1) { return { infinite: true, sidePreviews: a1 }; };
+function ProjectDetailsComponent_div_12_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "ks-modal-gallery", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const categoryImage_r12 = ctx.$implicit;
+    const i_r13 = ctx.index;
+    const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](categoryImage_r12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("id", i_r13)("modalImages", ctx_r11.images[categoryImage_r12])("slideConfig", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](5, _c1, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](4, _c0)));
+} }
+function ProjectDetailsComponent_div_12_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ProjectDetailsComponent_div_12_div_1_Template, 4, 7, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r4.imagesKeys);
+} }
+const _c2 = function (a0) { return { "background-image": a0 }; };
 class ProjectDetailsComponent {
     constructor(route, commonsService) {
         this.route = route;
         this.commonsService = commonsService;
+        this.images = {};
         this.projects = src_assets_data__WEBPACK_IMPORTED_MODULE_1__["PROJECTS"];
     }
     ngOnInit() {
@@ -1477,9 +1770,17 @@ class ProjectDetailsComponent {
     }
     getProjectByID(ID) {
         this.project = this.projects.filter(project => project.id === ID)[0];
-        this.images = this.project.images ? this.project.images.map((imageUrl, index) => new _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_2__["Image"](index, {
-            img: imageUrl
-        })) : [];
+        if (this.project.images) {
+            this.imagesKeys = Object.keys(this.project.images);
+            this.imagesKeys.forEach(category => {
+                this.images[category] = this.project.images[category].map((imageUrl, index) => new _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_2__["Image"](index, {
+                    img: imageUrl
+                }));
+            });
+        }
+        else {
+            this.images = [];
+        }
     }
     openNewTab(type) {
         switch (type) {
@@ -1493,7 +1794,7 @@ class ProjectDetailsComponent {
     }
 }
 ProjectDetailsComponent.ɵfac = function ProjectDetailsComponent_Factory(t) { return new (t || ProjectDetailsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_commons_service__WEBPACK_IMPORTED_MODULE_4__["CommonsService"])); };
-ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectDetailsComponent, selectors: [["app-project-details"]], decls: 13, vars: 16, consts: [[1, "image", 3, "ngStyle"], [1, "summary"], [1, "name"], [1, "date"], [4, "ngIf"], [1, "actions-buttons"], ["buttonText", "Demo", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "</ See code >", 3, "isFilledButton", "click", 4, "ngIf"], ["class", "technologies", 4, "ngIf"], [1, "description", 3, "innerHTML"], [3, "id", "modalImages", "slideConfig"], ["buttonText", "Demo", 3, "isFilledButton", "click"], ["buttonText", "</ See code >", 3, "isFilledButton", "click"], [1, "technologies"], [3, "text", 4, "ngFor", "ngForOf"], [3, "text"]], template: function ProjectDetailsComponent_Template(rf, ctx) { if (rf & 1) {
+ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectDetailsComponent, selectors: [["app-project-details"]], decls: 13, vars: 11, consts: [[1, "image", 3, "ngStyle"], [1, "summary"], [1, "name"], [1, "date"], [4, "ngIf"], [1, "actions-buttons"], ["buttonText", "Demo", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "</ See code >", 3, "isFilledButton", "click", 4, "ngIf"], ["class", "technologies", 4, "ngIf"], [1, "description", 3, "innerHTML"], ["buttonText", "Demo", 3, "isFilledButton", "click"], ["buttonText", "</ See code >", 3, "isFilledButton", "click"], [1, "technologies"], [3, "text", 4, "ngFor", "ngForOf"], [3, "text"], [4, "ngFor", "ngForOf"], [3, "id", "modalImages", "slideConfig"]], template: function ProjectDetailsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1510,9 +1811,9 @@ ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ProjectDetailsComponent_div_10_Template, 2, 1, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "ks-modal-gallery", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, ProjectDetailsComponent_div_12_Template, 2, 1, "div", 4);
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](11, _c0, "url(" + ctx.project.logo + ")"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](9, _c2, "url(" + ctx.project.logo + ")"));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.project.name);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
@@ -1528,8 +1829,8 @@ ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", ctx.project.description, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("id", 6)("modalImages", ctx.images)("slideConfig", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](14, _c2, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](13, _c1)));
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_2__["ɵd"], _components_custom_button_custom_button_component__WEBPACK_IMPORTED_MODULE_6__["CustomButtonComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _components_custom_chip_custom_chip_component__WEBPACK_IMPORTED_MODULE_7__["CustomChipComponent"]], styles: ["app-project-details {\n  display: flex;\n  flex-flow: column;\n}\napp-project-details .image {\n  height: 50vh;\n  background-size: cover;\n  background-position: center;\n}\napp-project-details .summary {\n  display: flex;\n  flex-flow: column;\n  align-items: center;\n  margin: 15px 10%;\n}\napp-project-details .summary .name {\n  font-weight: bold;\n  font-size: 2rem;\n  margin: 4px 0;\n}\napp-project-details .summary .date {\n  padding-top: 5px;\n  color: #fcdede;\n  font-weight: normal;\n}\napp-project-details .summary .actions-buttons {\n  display: flex;\n  flex-flow: row;\n  width: 50vw;\n  margin: 2vh 0;\n}\napp-project-details .summary .technologies {\n  display: flex;\n  flex-flow: wrap;\n  place-content: center;\n}\napp-project-details .summary .technologies .mat-chip-list-wrapper {\n  justify-content: center;\n}\napp-project-details .description {\n  margin: 10px 40px 30px;\n  padding: 10px;\n  line-height: 1.5rem;\n}\napp-project-details .plain-container {\n  justify-content: center !important;\n  margin: 20px 40px 40px;\n  display: flex !important;\n  flex-flow: wrap;\n}\napp-project-details .plain-container .image {\n  margin: 5px !important;\n  height: 200px !important;\n  width: auto !important;\n  box-shadow: 0 0 10px -3px #fcdede;\n}\napp-project-details #current-image {\n  height: 70vh !important;\n  max-height: unset !important;\n}\n@media (max-width: 800px) {\n  app-project-details .summary {\n    margin: 15px;\n    text-align: center;\n  }\n  app-project-details .summary .technologies {\n    margin: 10px 0;\n    justify-content: center;\n  }\n  app-project-details .description {\n    margin: 10px;\n  }\n  app-project-details .plain-container {\n    margin: 5px 20px 20px;\n  }\n  app-project-details .plain-container .image {\n    width: auto !important;\n    height: 60px !important;\n  }\n  app-project-details #current-image {\n    height: unset !important;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvcHJvamVjdC1kZXRhaWxzL3Byb2plY3QtZGV0YWlscy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvdmFyaWFibGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxhQUFBO0VBQ0EsaUJBQUE7QUFERjtBQUdFO0VBQ0UsWUFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7QUFESjtBQUlFO0VBQ0UsYUFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtBQUZKO0FBSUk7RUFDRSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxhQUFBO0FBRk47QUFJSTtFQUNFLGdCQUFBO0VBQ0EsY0N2Qk07RUR3Qk4sbUJBQUE7QUFGTjtBQUtJO0VBQ0UsYUFBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0VBQ0EsYUFBQTtBQUhOO0FBTUk7RUFDRSxhQUFBO0VBQ0EsZUFBQTtFQUNBLHFCQUFBO0FBSk47QUFNTTtFQUNFLHVCQUFBO0FBSlI7QUFTRTtFQUNFLHNCQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0FBUEo7QUFVRTtFQUNFLGtDQUFBO0VBQ0Esc0JBQUE7RUFDQSx3QkFBQTtFQUNBLGVBQUE7QUFSSjtBQVVJO0VBQ0Usc0JBQUE7RUFDQSx3QkFBQTtFQUNBLHNCQUFBO0VBQ0EsaUNBQUE7QUFSTjtBQVlFO0VBQ0UsdUJBQUE7RUFDQSw0QkFBQTtBQVZKO0FBYUU7RUFDRTtJQUNFLFlBQUE7SUFDQSxrQkFBQTtFQVhKO0VBYUk7SUFDRSxjQUFBO0lBQ0EsdUJBQUE7RUFYTjtFQWNFO0lBQ0UsWUFBQTtFQVpKO0VBY0U7SUFDRSxxQkFBQTtFQVpKO0VBY0k7SUFDRSxzQkFBQTtJQUNBLHVCQUFBO0VBWk47RUFnQkU7SUFDRSx3QkFBQTtFQWRKO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9wcm9qZWN0LWRldGFpbHMvcHJvamVjdC1kZXRhaWxzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uLy4uL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5hcHAtcHJvamVjdC1kZXRhaWxzIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZmxvdzogY29sdW1uO1xyXG5cclxuICAuaW1hZ2Uge1xyXG4gICAgaGVpZ2h0OiA1MHZoO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICB9XHJcblxyXG4gIC5zdW1tYXJ5IHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWZsb3c6IGNvbHVtbjtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBtYXJnaW46IDE1cHggMTAlO1xyXG5cclxuICAgIC5uYW1lIHtcclxuICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICAgIGZvbnQtc2l6ZTogMnJlbTtcclxuICAgICAgbWFyZ2luOiA0cHggMDtcclxuICAgIH1cclxuICAgIC5kYXRlIHtcclxuICAgICAgcGFkZGluZy10b3A6IDVweDtcclxuICAgICAgY29sb3I6ICRsaWdodGdyYXk7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICB9XHJcblxyXG4gICAgLmFjdGlvbnMtYnV0dG9ucyB7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIGZsZXgtZmxvdzogcm93O1xyXG4gICAgICB3aWR0aDogNTB2dztcclxuICAgICAgbWFyZ2luOiAydmggMDtcclxuICAgIH1cclxuXHJcbiAgICAudGVjaG5vbG9naWVzIHtcclxuICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgZmxleC1mbG93OiB3cmFwO1xyXG4gICAgICBwbGFjZS1jb250ZW50OiBjZW50ZXI7XHJcblxyXG4gICAgICAubWF0LWNoaXAtbGlzdC13cmFwcGVyIHtcclxuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgfVxyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLmRlc2NyaXB0aW9uIHtcclxuICAgIG1hcmdpbjogMTBweCA0MHB4IDMwcHg7XHJcbiAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDEuNXJlbTtcclxuICB9XHJcblxyXG4gIC5wbGFpbi1jb250YWluZXIge1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXIgIWltcG9ydGFudDtcclxuICAgIG1hcmdpbjogMjBweCA0MHB4IDQwcHg7XHJcbiAgICBkaXNwbGF5OiBmbGV4ICFpbXBvcnRhbnQ7XHJcbiAgICBmbGV4LWZsb3c6IHdyYXA7XHJcblxyXG4gICAgLmltYWdlIHtcclxuICAgICAgbWFyZ2luOiA1cHggIWltcG9ydGFudDtcclxuICAgICAgaGVpZ2h0OiAyMDBweCAhaW1wb3J0YW50O1xyXG4gICAgICB3aWR0aDogYXV0byAhaW1wb3J0YW50O1xyXG4gICAgICBib3gtc2hhZG93OiAwIDAgMTBweCAtM3B4ICRsaWdodGdyYXk7XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAjY3VycmVudC1pbWFnZSB7XHJcbiAgICBoZWlnaHQ6IDcwdmggIWltcG9ydGFudDtcclxuICAgIG1heC1oZWlnaHQ6IHVuc2V0ICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG5cclxuICBAbWVkaWEgKG1heC13aWR0aDogODAwcHgpIHtcclxuICAgIC5zdW1tYXJ5IHtcclxuICAgICAgbWFyZ2luOiAxNXB4O1xyXG4gICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblxyXG4gICAgICAudGVjaG5vbG9naWVzIHtcclxuICAgICAgICBtYXJnaW46IDEwcHggMDtcclxuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgfVxyXG4gICAgfVxyXG4gICAgLmRlc2NyaXB0aW9uIHtcclxuICAgICAgbWFyZ2luOiAxMHB4O1xyXG4gICAgfVxyXG4gICAgLnBsYWluLWNvbnRhaW5lciB7XHJcbiAgICAgIG1hcmdpbjogNXB4IDIwcHggMjBweDtcclxuICAgICAgXHJcbiAgICAgIC5pbWFnZSB7XHJcbiAgICAgICAgd2lkdGg6IGF1dG8gIWltcG9ydGFudDtcclxuICAgICAgICBoZWlnaHQ6IDYwcHggIWltcG9ydGFudDtcclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgICNjdXJyZW50LWltYWdlIHtcclxuICAgICAgaGVpZ2h0OiB1bnNldCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gIH1cclxufVxyXG4iLCIkYmxhY2s6ICMxNzA0MDQ7XHJcbiRncmF5OiAjNGY0ZjRmO1xyXG4kbGlnaHRncmF5OiAjZmNkZWRlO1xyXG4kd2hpdGU6ICNmZmY7XHJcbiRwcmltYXJ5OiAjZDAyOTI5O1xyXG4kcHJpbWFyeW9wYWNpdHk6ICNkMDI5MjkxMjsiXX0= */"], encapsulation: 2 });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.imagesKeys.length > 0);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _components_custom_button_custom_button_component__WEBPACK_IMPORTED_MODULE_6__["CustomButtonComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _components_custom_chip_custom_chip_component__WEBPACK_IMPORTED_MODULE_7__["CustomChipComponent"], _ks89_angular_modal_gallery__WEBPACK_IMPORTED_MODULE_2__["ɵd"]], styles: ["app-project-details {\n  display: flex;\n  flex-flow: column;\n}\napp-project-details .image {\n  height: 50vh;\n  background-size: cover;\n  background-position: center;\n}\napp-project-details .summary {\n  display: flex;\n  flex-flow: column;\n  align-items: center;\n  margin: 15px 10%;\n}\napp-project-details .summary .name {\n  font-weight: bold;\n  font-size: 2rem;\n  margin: 4px 0;\n}\napp-project-details .summary .date {\n  padding-top: 5px;\n  color: #fcdede;\n  font-weight: normal;\n}\napp-project-details .summary .actions-buttons {\n  display: flex;\n  flex-flow: row;\n  width: 50vw;\n  margin: 2vh 0;\n}\napp-project-details .summary .technologies {\n  display: flex;\n  flex-flow: wrap;\n  place-content: center;\n}\napp-project-details .summary .technologies .mat-chip-list-wrapper {\n  justify-content: center;\n}\napp-project-details .description {\n  margin: 10px 40px 30px;\n  padding: 10px;\n  line-height: 1.5rem;\n}\napp-project-details h3 {\n  text-align: center;\n  text-transform: capitalize;\n}\napp-project-details .plain-container {\n  justify-content: center !important;\n  margin: 20px 40px 40px;\n  display: flex !important;\n  flex-flow: wrap;\n}\napp-project-details .plain-container .image {\n  margin: 5px !important;\n  height: 200px !important;\n  width: auto !important;\n  box-shadow: 0 0 8px -7px #fcdede;\n}\napp-project-details #current-image {\n  height: 70vh !important;\n  max-height: unset !important;\n}\n@media (max-width: 800px) {\n  app-project-details .summary {\n    margin: 15px;\n    text-align: center;\n  }\n  app-project-details .summary .technologies {\n    margin: 10px 0;\n    justify-content: center;\n  }\n  app-project-details .description {\n    margin: 10px;\n  }\n  app-project-details .plain-container {\n    margin: 5px 20px 20px;\n  }\n  app-project-details .plain-container .image {\n    width: auto !important;\n    height: 60px !important;\n  }\n  app-project-details #current-image {\n    height: unset !important;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvcHJvamVjdC1kZXRhaWxzL3Byb2plY3QtZGV0YWlscy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvdmFyaWFibGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxhQUFBO0VBQ0EsaUJBQUE7QUFERjtBQUdFO0VBQ0UsWUFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7QUFESjtBQUlFO0VBQ0UsYUFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtBQUZKO0FBSUk7RUFDRSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxhQUFBO0FBRk47QUFJSTtFQUNFLGdCQUFBO0VBQ0EsY0N2Qk07RUR3Qk4sbUJBQUE7QUFGTjtBQUtJO0VBQ0UsYUFBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0VBQ0EsYUFBQTtBQUhOO0FBTUk7RUFDRSxhQUFBO0VBQ0EsZUFBQTtFQUNBLHFCQUFBO0FBSk47QUFNTTtFQUNFLHVCQUFBO0FBSlI7QUFTRTtFQUNFLHNCQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0FBUEo7QUFVRTtFQUNFLGtCQUFBO0VBQ0EsMEJBQUE7QUFSSjtBQVdFO0VBQ0Usa0NBQUE7RUFDQSxzQkFBQTtFQUNBLHdCQUFBO0VBQ0EsZUFBQTtBQVRKO0FBV0k7RUFDRSxzQkFBQTtFQUNBLHdCQUFBO0VBQ0Esc0JBQUE7RUFDQSxnQ0FBQTtBQVROO0FBYUU7RUFDRSx1QkFBQTtFQUNBLDRCQUFBO0FBWEo7QUFjRTtFQUNFO0lBQ0UsWUFBQTtJQUNBLGtCQUFBO0VBWko7RUFjSTtJQUNFLGNBQUE7SUFDQSx1QkFBQTtFQVpOO0VBZUU7SUFDRSxZQUFBO0VBYko7RUFlRTtJQUNFLHFCQUFBO0VBYko7RUFlSTtJQUNFLHNCQUFBO0lBQ0EsdUJBQUE7RUFiTjtFQWlCRTtJQUNFLHdCQUFBO0VBZko7QUFDRiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3Byb2plY3QtZGV0YWlscy9wcm9qZWN0LWRldGFpbHMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IFwiLi4vLi4vdmFyaWFibGVzLnNjc3NcIjtcclxuXHJcbmFwcC1wcm9qZWN0LWRldGFpbHMge1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1mbG93OiBjb2x1bW47XHJcblxyXG4gIC5pbWFnZSB7XHJcbiAgICBoZWlnaHQ6IDUwdmg7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgLnN1bW1hcnkge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZmxvdzogY29sdW1uO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIG1hcmdpbjogMTVweCAxMCU7XHJcblxyXG4gICAgLm5hbWUge1xyXG4gICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgICAgZm9udC1zaXplOiAycmVtO1xyXG4gICAgICBtYXJnaW46IDRweCAwO1xyXG4gICAgfVxyXG4gICAgLmRhdGUge1xyXG4gICAgICBwYWRkaW5nLXRvcDogNXB4O1xyXG4gICAgICBjb2xvcjogJGxpZ2h0Z3JheTtcclxuICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuICAgIH1cclxuXHJcbiAgICAuYWN0aW9ucy1idXR0b25zIHtcclxuICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgZmxleC1mbG93OiByb3c7XHJcbiAgICAgIHdpZHRoOiA1MHZ3O1xyXG4gICAgICBtYXJnaW46IDJ2aCAwO1xyXG4gICAgfVxyXG5cclxuICAgIC50ZWNobm9sb2dpZXMge1xyXG4gICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICBmbGV4LWZsb3c6IHdyYXA7XHJcbiAgICAgIHBsYWNlLWNvbnRlbnQ6IGNlbnRlcjtcclxuXHJcbiAgICAgIC5tYXQtY2hpcC1saXN0LXdyYXBwZXIge1xyXG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAuZGVzY3JpcHRpb24ge1xyXG4gICAgbWFyZ2luOiAxMHB4IDQwcHggMzBweDtcclxuICAgIHBhZGRpbmc6IDEwcHg7XHJcbiAgICBsaW5lLWhlaWdodDogMS41cmVtO1xyXG4gIH1cclxuXHJcbiAgaDMge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IGNhcGl0YWxpemU7XHJcbiAgfVxyXG5cclxuICAucGxhaW4tY29udGFpbmVyIHtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyICFpbXBvcnRhbnQ7XHJcbiAgICBtYXJnaW46IDIwcHggNDBweCA0MHB4O1xyXG4gICAgZGlzcGxheTogZmxleCAhaW1wb3J0YW50O1xyXG4gICAgZmxleC1mbG93OiB3cmFwO1xyXG5cclxuICAgIC5pbWFnZSB7XHJcbiAgICAgIG1hcmdpbjogNXB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIGhlaWdodDogMjAwcHggIWltcG9ydGFudDtcclxuICAgICAgd2lkdGg6IGF1dG8gIWltcG9ydGFudDtcclxuICAgICAgYm94LXNoYWRvdzogMCAwIDhweCAtN3B4ICRsaWdodGdyYXk7XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAjY3VycmVudC1pbWFnZSB7XHJcbiAgICBoZWlnaHQ6IDcwdmggIWltcG9ydGFudDtcclxuICAgIG1heC1oZWlnaHQ6IHVuc2V0ICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG5cclxuICBAbWVkaWEgKG1heC13aWR0aDogODAwcHgpIHtcclxuICAgIC5zdW1tYXJ5IHtcclxuICAgICAgbWFyZ2luOiAxNXB4O1xyXG4gICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblxyXG4gICAgICAudGVjaG5vbG9naWVzIHtcclxuICAgICAgICBtYXJnaW46IDEwcHggMDtcclxuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgfVxyXG4gICAgfVxyXG4gICAgLmRlc2NyaXB0aW9uIHtcclxuICAgICAgbWFyZ2luOiAxMHB4O1xyXG4gICAgfVxyXG4gICAgLnBsYWluLWNvbnRhaW5lciB7XHJcbiAgICAgIG1hcmdpbjogNXB4IDIwcHggMjBweDtcclxuICAgICAgXHJcbiAgICAgIC5pbWFnZSB7XHJcbiAgICAgICAgd2lkdGg6IGF1dG8gIWltcG9ydGFudDtcclxuICAgICAgICBoZWlnaHQ6IDYwcHggIWltcG9ydGFudDtcclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgICNjdXJyZW50LWltYWdlIHtcclxuICAgICAgaGVpZ2h0OiB1bnNldCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gIH1cclxufVxyXG4iLCIkYmxhY2s6ICMxNzA0MDQ7XHJcbiRncmF5OiAjNGY0ZjRmO1xyXG4kbGlnaHRncmF5OiAjZmNkZWRlO1xyXG4kd2hpdGU6ICNmZmY7XHJcbiRwcmltYXJ5OiAjZDAyOTI5O1xyXG4kcHJpbWFyeW9wYWNpdHk6ICNkMDI5MjkxMjsiXX0= */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ProjectDetailsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1957,16 +2258,14 @@ class CustomChipComponent {
     }
 }
 CustomChipComponent.ɵfac = function CustomChipComponent_Factory(t) { return new (t || CustomChipComponent)(); };
-CustomChipComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CustomChipComponent, selectors: [["app-custom-chip"]], inputs: { text: "text" }, decls: 3, vars: 1, consts: [[1, "chip"], [1, "chip__inner"]], template: function CustomChipComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+CustomChipComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CustomChipComponent, selectors: [["app-custom-chip"]], inputs: { text: "text" }, decls: 2, vars: 1, consts: [[1, "chip__inner"]], template: function CustomChipComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.text);
-    } }, styles: ["app-custom-chip div {\n  border: none;\n  color: inherit;\n  text-decoration: none;\n}\napp-custom-chip div:hover {\n  text-decoration: none;\n}\napp-custom-chip div:focus {\n  outline: none;\n}\napp-custom-chip .chip {\n  display: inline-block;\n  position: relative;\n  text-align: center;\n  margin: 2px;\n}\napp-custom-chip .chip__inner {\n  display: inline-block;\n  padding: 5px;\n  font-size: 10px;\n  font-weight: 400;\n  letter-spacing: 2px;\n  line-height: 1.2;\n  text-transform: uppercase;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: -webkit-fill-available;\n  color: #d02929;\n  transition: 0.5s cubic-bezier(0.17, 0.85, 0.438, 0.99);\n}\napp-custom-chip .chip:before,\napp-custom-chip .chip:after,\napp-custom-chip .chip__inner:before,\napp-custom-chip .chip__inner:after {\n  content: \"\";\n  position: absolute;\n  background-color: #d02929;\n  opacity: 0.2;\n  transition: 0.5s cubic-bezier(0.17, 0.85, 0.438, 0.99);\n}\napp-custom-chip .chip:before {\n  width: 100%;\n  height: 1px;\n  left: 0;\n  top: 0;\n  transform: scaleX(1);\n  transform-origin: right;\n}\napp-custom-chip .chip:after {\n  width: 1px;\n  height: 100%;\n  top: 0;\n  right: 0;\n  transform: scaleY(1);\n  transform-origin: bottom;\n}\napp-custom-chip .chip__inner:before {\n  width: 100%;\n  height: 1px;\n  left: 0;\n  bottom: 0;\n  transform: scaleX(1);\n  transform-origin: left;\n}\napp-custom-chip .chip__inner:after {\n  width: 1px;\n  height: 100%;\n  left: 0;\n  top: 0;\n  transform: scaleY(1);\n  transform-origin: top;\n}\n@media (max-width: 850px) {\n  app-custom-chip .chip__inner {\n    padding: 4px;\n    font-size: 8px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jdXN0b20tY2hpcC9jdXN0b20tY2hpcC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvdmFyaWFibGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0k7RUFDRSxZQUFBO0VBQ0EsY0FBQTtFQUNBLHFCQUFBO0FBRk47QUFJSTtFQUNFLHFCQUFBO0FBRk47QUFJSTtFQUNFLGFBQUE7QUFGTjtBQUlJO0VBQ0UscUJBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EsV0FBQTtBQUZOO0FBSUk7RUFDRSxxQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtFQUNBLGdCQUFBO0VBQ0EseUJBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSx1QkFBQTtFQUNBLDhCQUFBO0VBQ0EsY0M1Qkk7RUQ2Qkosc0RBQUE7QUFGTjtBQUlJOzs7O0VBSUUsV0FBQTtFQUNBLGtCQUFBO0VBQ0EseUJDckNJO0VEc0NKLFlBQUE7RUFDQSxzREFBQTtBQUZOO0FBSUk7RUFDRSxXQUFBO0VBQ0EsV0FBQTtFQUNBLE9BQUE7RUFDQSxNQUFBO0VBRUEsb0JBQUE7RUFFQSx1QkFBQTtBQUZOO0FBSUk7RUFDRSxVQUFBO0VBQ0EsWUFBQTtFQUNBLE1BQUE7RUFDQSxRQUFBO0VBRUEsb0JBQUE7RUFFQSx3QkFBQTtBQUZOO0FBSUk7RUFDRSxXQUFBO0VBQ0EsV0FBQTtFQUNBLE9BQUE7RUFDQSxTQUFBO0VBRUEsb0JBQUE7RUFFQSxzQkFBQTtBQUZOO0FBSUk7RUFDRSxVQUFBO0VBQ0EsWUFBQTtFQUNBLE9BQUE7RUFDQSxNQUFBO0VBRUEsb0JBQUE7RUFFQSxxQkFBQTtBQUZOO0FBS0k7RUFDSTtJQUNFLFlBQUE7SUFDQSxjQUFBO0VBSFI7QUFDRiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY3VzdG9tLWNoaXAvY3VzdG9tLWNoaXAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IFwiLi4vLi4vdmFyaWFibGVzLnNjc3NcIjtcclxuXHJcbmFwcC1jdXN0b20tY2hpcCB7XHJcbiAgICBkaXYge1xyXG4gICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgIGNvbG9yOiBpbmhlcml0O1xyXG4gICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICB9XHJcbiAgICBkaXY6aG92ZXIge1xyXG4gICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICB9XHJcbiAgICBkaXY6Zm9jdXMge1xyXG4gICAgICBvdXRsaW5lOiBub25lO1xyXG4gICAgfVxyXG4gICAgLmNoaXAge1xyXG4gICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICBtYXJnaW46IDJweDtcclxuICAgIH1cclxuICAgIC5jaGlwX19pbm5lciB7XHJcbiAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgcGFkZGluZzogNXB4O1xyXG4gICAgICBmb250LXNpemU6IDEwcHg7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICAgIGxldHRlci1zcGFjaW5nOiAycHg7XHJcbiAgICAgIGxpbmUtaGVpZ2h0OiAxLjI7XHJcbiAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgICBoZWlnaHQ6IC13ZWJraXQtZmlsbC1hdmFpbGFibGU7XHJcbiAgICAgIGNvbG9yOiAkcHJpbWFyeTtcclxuICAgICAgdHJhbnNpdGlvbjogMC41cyBjdWJpYy1iZXppZXIoMC4xNywgMC44NSwgMC40MzgsIDAuOTkpO1xyXG4gICAgfVxyXG4gICAgLmNoaXA6YmVmb3JlLFxyXG4gICAgLmNoaXA6YWZ0ZXIsXHJcbiAgICAuY2hpcF9faW5uZXI6YmVmb3JlLFxyXG4gICAgLmNoaXBfX2lubmVyOmFmdGVyIHtcclxuICAgICAgY29udGVudDogXCJcIjtcclxuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkcHJpbWFyeTtcclxuICAgICAgb3BhY2l0eTogMC4yO1xyXG4gICAgICB0cmFuc2l0aW9uOiAwLjVzIGN1YmljLWJlemllcigwLjE3LCAwLjg1LCAwLjQzOCwgMC45OSk7XHJcbiAgICB9XHJcbiAgICAuY2hpcDpiZWZvcmUge1xyXG4gICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgaGVpZ2h0OiAxcHg7XHJcbiAgICAgIGxlZnQ6IDA7XHJcbiAgICAgIHRvcDogMDtcclxuICAgICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlWCgxKTtcclxuICAgICAgdHJhbnNmb3JtOiBzY2FsZVgoMSk7XHJcbiAgICAgIC13ZWJraXQtdHJhbnNmb3JtLW9yaWdpbjogcmlnaHQ7XHJcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IHJpZ2h0O1xyXG4gICAgfVxyXG4gICAgLmNoaXA6YWZ0ZXIge1xyXG4gICAgICB3aWR0aDogMXB4O1xyXG4gICAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICAgIHRvcDogMDtcclxuICAgICAgcmlnaHQ6IDA7XHJcbiAgICAgIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZVkoMSk7XHJcbiAgICAgIHRyYW5zZm9ybTogc2NhbGVZKDEpO1xyXG4gICAgICAtd2Via2l0LXRyYW5zZm9ybS1vcmlnaW46IGJvdHRvbTtcclxuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogYm90dG9tO1xyXG4gICAgfVxyXG4gICAgLmNoaXBfX2lubmVyOmJlZm9yZSB7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICBoZWlnaHQ6IDFweDtcclxuICAgICAgbGVmdDogMDtcclxuICAgICAgYm90dG9tOiAwO1xyXG4gICAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGVYKDEpO1xyXG4gICAgICB0cmFuc2Zvcm06IHNjYWxlWCgxKTtcclxuICAgICAgLXdlYmtpdC10cmFuc2Zvcm0tb3JpZ2luOiBsZWZ0O1xyXG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiBsZWZ0O1xyXG4gICAgfVxyXG4gICAgLmNoaXBfX2lubmVyOmFmdGVyIHtcclxuICAgICAgd2lkdGg6IDFweDtcclxuICAgICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgICBsZWZ0OiAwO1xyXG4gICAgICB0b3A6IDA7XHJcbiAgICAgIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZVkoMSk7XHJcbiAgICAgIHRyYW5zZm9ybTogc2NhbGVZKDEpO1xyXG4gICAgICAtd2Via2l0LXRyYW5zZm9ybS1vcmlnaW46IHRvcDtcclxuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogdG9wO1xyXG4gICAgfVxyXG5cclxuICAgIEBtZWRpYSAobWF4LXdpZHRoOiA4NTBweCkge1xyXG4gICAgICAgIC5jaGlwX19pbm5lciB7XHJcbiAgICAgICAgICBwYWRkaW5nOiA0cHg7XHJcbiAgICAgICAgICBmb250LXNpemU6IDhweDtcclxuICAgICAgICB9XHJcbiAgICB9XHJcbn0iLCIkYmxhY2s6ICMxNzA0MDQ7XHJcbiRncmF5OiAjNGY0ZjRmO1xyXG4kbGlnaHRncmF5OiAjZmNkZWRlO1xyXG4kd2hpdGU6ICNmZmY7XHJcbiRwcmltYXJ5OiAjZDAyOTI5O1xyXG4kcHJpbWFyeW9wYWNpdHk6ICNkMDI5MjkxMjsiXX0= */"], encapsulation: 2 });
+    } }, styles: ["app-custom-chip {\n  display: inline-block;\n  position: relative;\n  text-align: center;\n  color: #d02929;\n  margin: 2px;\n}\napp-custom-chip .chip__inner {\n  border: 1px solid transparent;\n  padding: 5px;\n  font-size: 10px;\n  font-weight: 400;\n  letter-spacing: 2px;\n  line-height: 1.2;\n  text-transform: uppercase;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: -webkit-fill-available;\n}\napp-custom-chip .chip__inner:hover {\n  border: 1px solid #d0292912;\n  cursor: default;\n}\n@media (max-width: 850px) {\n  app-custom-chip .chip__inner {\n    padding: 4px;\n    font-size: 8px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jdXN0b20tY2hpcC9jdXN0b20tY2hpcC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvdmFyaWFibGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxxQkFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQ0ZRO0VER1IsV0FBQTtBQURGO0FBR0U7RUFDRSw2QkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtFQUNBLGdCQUFBO0VBQ0EseUJBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSx1QkFBQTtFQUNBLDhCQUFBO0FBREo7QUFJRTtFQUNFLDJCQUFBO0VBQ0EsZUFBQTtBQUZKO0FBS0U7RUFDRTtJQUNFLFlBQUE7SUFDQSxjQUFBO0VBSEo7QUFDRiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY3VzdG9tLWNoaXAvY3VzdG9tLWNoaXAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IFwiLi4vLi4vdmFyaWFibGVzLnNjc3NcIjtcclxuXHJcbmFwcC1jdXN0b20tY2hpcCB7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgY29sb3I6ICRwcmltYXJ5O1xyXG4gIG1hcmdpbjogMnB4O1xyXG5cclxuICAuY2hpcF9faW5uZXIge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgdHJhbnNwYXJlbnQ7XHJcbiAgICBwYWRkaW5nOiA1cHg7XHJcbiAgICBmb250LXNpemU6IDEwcHg7XHJcbiAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgbGV0dGVyLXNwYWNpbmc6IDJweDtcclxuICAgIGxpbmUtaGVpZ2h0OiAxLjI7XHJcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGhlaWdodDogLXdlYmtpdC1maWxsLWF2YWlsYWJsZTtcclxuICB9XHJcblxyXG4gIC5jaGlwX19pbm5lcjpob3ZlciB7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCAkcHJpbWFyeW9wYWNpdHk7XHJcbiAgICBjdXJzb3I6IGRlZmF1bHQ7XHJcbiAgfVxyXG5cclxuICBAbWVkaWEgKG1heC13aWR0aDogODUwcHgpIHtcclxuICAgIC5jaGlwX19pbm5lciB7XHJcbiAgICAgIHBhZGRpbmc6IDRweDtcclxuICAgICAgZm9udC1zaXplOiA4cHg7XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiIsIiRibGFjazogIzE3MDQwNDtcclxuJGdyYXk6ICM0ZjRmNGY7XHJcbiRsaWdodGdyYXk6ICNmY2RlZGU7XHJcbiR3aGl0ZTogI2ZmZjtcclxuJHByaW1hcnk6ICNkMDI5Mjk7XHJcbiRwcmltYXJ5b3BhY2l0eTogI2QwMjkyOTEyOyJdfQ== */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CustomChipComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -2417,7 +2716,7 @@ HomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.publications.length > 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.publications.length > 0);
-    } }, directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__["MatTab"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _components_custom_button_custom_button_component__WEBPACK_IMPORTED_MODULE_5__["CustomButtonComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"], _components_custom_card_custom_card_component__WEBPACK_IMPORTED_MODULE_7__["CustomCardComponent"]], styles: ["app-homepage {\n  font-size: 1rem;\n}\napp-homepage .logo {\n  text-align-last: center;\n  padding: 20px;\n}\napp-homepage .logo img {\n  width: auto;\n  height: 25vh;\n}\napp-homepage .homepage-title {\n  line-height: 1.7rem;\n  margin: 2vh 5vw 8vh 5vw;\n  padding: 1vh 0 2vh 3vw;\n  border-left: 1px solid #d02929;\n}\napp-homepage .homepage-title .welcome-name {\n  color: #d02929;\n  font-weight: 400;\n  font-family: monospace;\n}\napp-homepage .homepage-title .name {\n  height: auto;\n  padding: 10px 0;\n  max-width: 80vw;\n}\napp-homepage .homepage-title .welcome-subtitle {\n  color: #d02929;\n  margin-top: 0;\n  font-family: monospace;\n}\napp-homepage .homepage-title .description {\n  font-family: monospace;\n  line-height: normal;\n  font-size: unset;\n}\napp-homepage .see-more {\n  width: -webkit-fit-content;\n  width: -moz-fit-content;\n  width: fit-content;\n  margin: auto;\n  margin: 2vh auto;\n}\napp-homepage .projects {\n  display: flex;\n  margin: 10px;\n  overflow: auto;\n  flex-flow: wrap;\n  justify-content: center;\n}\napp-homepage .mat-tab-header {\n  border-bottom: none;\n}\napp-homepage .mat-tab-labels {\n  justify-content: center;\n}\napp-homepage .mat-tab-label {\n  opacity: 1;\n  color: #fff;\n}\napp-homepage .publications {\n  display: flex;\n  justify-content: center;\n  flex-flow: wrap;\n}\napp-homepage .publications app-publications {\n  flex: 0 0 30%;\n}\napp-homepage .plain-container {\n  justify-content: center !important;\n  margin: 20px 40px 40px;\n  display: flex !important;\n  flex-flow: wrap;\n}\napp-homepage .plain-container .image {\n  margin: 5px !important;\n  height: 200px !important;\n  width: auto !important;\n  box-shadow: 0 0 10px -3px #fcdede;\n}\napp-homepage .title {\n  margin: 2vh 5vh;\n  text-align-last: center;\n  font-size: 1.5rem;\n  color: #fff;\n}\n@media (max-width: 850px) {\n  app-homepage .description-homepage {\n    margin: 3vh 5vw;\n  }\n  app-homepage .description-homepage .name {\n    font-size: x-large;\n  }\n  app-homepage .title {\n    font-size: 1rem;\n  }\n  app-homepage .publications app-publications {\n    flex: 0 0 50%;\n  }\n  app-homepage .publications app-publications .publication-wrapper {\n    padding: 10px;\n  }\n  app-homepage .publications app-publications .publication-wrapper .image {\n    height: 125px;\n    width: 125px;\n  }\n  app-homepage .publications app-publications .publication-wrapper .summary .name {\n    font-size: 0.9rem;\n  }\n}\n@media (max-width: 700px) {\n  app-homepage .plain-container .image {\n    height: auto !important;\n    width: 100% !important;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZXBhZ2UvaG9tZXBhZ2UuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3ZhcmlhYmxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBRUUsZUFBQTtBQUZGO0FBSUU7RUFDRSx1QkFBQTtFQUNBLGFBQUE7QUFGSjtBQUlJO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUFGTjtBQU1FO0VBQ0UsbUJBQUE7RUFDQSx1QkFBQTtFQUNBLHNCQUFBO0VBQ0EsOEJBQUE7QUFKSjtBQU1JO0VBQ0UsY0NuQkk7RURvQkosZ0JBQUE7RUFDQSxzQkFBQTtBQUpOO0FBT0k7RUFDRSxZQUFBO0VBQ0EsZUFBQTtFQUNBLGVBQUE7QUFMTjtBQVFJO0VBQ0UsY0MvQkk7RURnQ0osYUFBQTtFQUNBLHNCQUFBO0FBTk47QUFTSTtFQUNFLHNCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtBQVBOO0FBV0U7RUFDRSwwQkFBQTtFQUFBLHVCQUFBO0VBQUEsa0JBQUE7RUFDQSxZQUFBO0VBQ0EsZ0JBQUE7QUFUSjtBQVlFO0VBQ0UsYUFBQTtFQUNBLFlBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLHVCQUFBO0FBVko7QUFhRTtFQUNFLG1CQUFBO0FBWEo7QUFjRTtFQUNFLHVCQUFBO0FBWko7QUFlRTtFQUNFLFVBQUE7RUFDQSxXQ3BFSTtBRHVEUjtBQWdCRTtFQUNFLGFBQUE7RUFDQSx1QkFBQTtFQUNBLGVBQUE7QUFkSjtBQWdCSTtFQUNFLGFBQUE7QUFkTjtBQWtCRTtFQUNFLGtDQUFBO0VBQ0Esc0JBQUE7RUFDQSx3QkFBQTtFQUNBLGVBQUE7QUFoQko7QUFrQkk7RUFDRSxzQkFBQTtFQUNBLHdCQUFBO0VBQ0Esc0JBQUE7RUFDQSxpQ0FBQTtBQWhCTjtBQW9CRTtFQUNFLGVBQUE7RUFDQSx1QkFBQTtFQUNBLGlCQUFBO0VBQ0EsV0NuR0k7QURpRlI7QUFxQkU7RUFDRTtJQUNFLGVBQUE7RUFuQko7RUFxQkk7SUFDRSxrQkFBQTtFQW5CTjtFQXVCRTtJQUNFLGVBQUE7RUFyQko7RUF5Qkk7SUFDRSxhQUFBO0VBdkJOO0VBeUJNO0lBQ0UsYUFBQTtFQXZCUjtFQXlCUTtJQUNFLGFBQUE7SUFDQSxZQUFBO0VBdkJWO0VBMkJVO0lBQ0UsaUJBQUE7RUF6Qlo7QUFDRjtBQWdDRTtFQUVJO0lBQ0UsdUJBQUE7SUFDQSxzQkFBQTtFQS9CTjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvaG9tZXBhZ2UvaG9tZXBhZ2UuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IFwiLi4vLi4vdmFyaWFibGVzLnNjc3NcIjtcclxuXHJcbmFwcC1ob21lcGFnZSB7XHJcblxyXG4gIGZvbnQtc2l6ZTogMXJlbTtcclxuXHJcbiAgLmxvZ28ge1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbiAgICBwYWRkaW5nOiAyMHB4O1xyXG5cclxuICAgIGltZyB7XHJcbiAgICAgIHdpZHRoOiBhdXRvO1xyXG4gICAgICBoZWlnaHQ6IDI1dmg7XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAuaG9tZXBhZ2UtdGl0bGUge1xyXG4gICAgbGluZS1oZWlnaHQ6IDEuN3JlbTtcclxuICAgIG1hcmdpbjogMnZoIDV2dyA4dmggNXZ3O1xyXG4gICAgcGFkZGluZzogMXZoIDAgMnZoIDN2dztcclxuICAgIGJvcmRlci1sZWZ0OiAxcHggc29saWQgJHByaW1hcnk7XHJcblxyXG4gICAgLndlbGNvbWUtbmFtZSB7XHJcbiAgICAgIGNvbG9yOiAkcHJpbWFyeTtcclxuICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcclxuICAgICAgZm9udC1mYW1pbHk6IG1vbm9zcGFjZTtcclxuICAgIH1cclxuXHJcbiAgICAubmFtZSB7XHJcbiAgICAgIGhlaWdodDogYXV0bztcclxuICAgICAgcGFkZGluZzogMTBweCAwO1xyXG4gICAgICBtYXgtd2lkdGg6IDgwdnc7XHJcbiAgICB9XHJcblxyXG4gICAgLndlbGNvbWUtc3VidGl0bGUge1xyXG4gICAgICBjb2xvcjogJHByaW1hcnk7XHJcbiAgICAgIG1hcmdpbi10b3A6IDA7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiBtb25vc3BhY2U7XHJcbiAgICB9XHJcblxyXG4gICAgLmRlc2NyaXB0aW9uIHtcclxuICAgICAgZm9udC1mYW1pbHk6IG1vbm9zcGFjZTtcclxuICAgICAgbGluZS1oZWlnaHQ6IG5vcm1hbDtcclxuICAgICAgZm9udC1zaXplOiB1bnNldDtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC5zZWUtbW9yZSB7XHJcbiAgICB3aWR0aDogZml0LWNvbnRlbnQ7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW46IDJ2aCBhdXRvO1xyXG4gIH1cclxuXHJcbiAgLnByb2plY3RzIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBtYXJnaW46IDEwcHg7XHJcbiAgICBvdmVyZmxvdzogYXV0bztcclxuICAgIGZsZXgtZmxvdzogd3JhcDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgLm1hdC10YWItaGVhZGVyIHtcclxuICAgIGJvcmRlci1ib3R0b206IG5vbmU7XHJcbiAgfVxyXG5cclxuICAubWF0LXRhYi1sYWJlbHMge1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgfVxyXG5cclxuICAubWF0LXRhYi1sYWJlbCB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgY29sb3I6ICR3aGl0ZTtcclxuICB9XHJcblxyXG4gIC5wdWJsaWNhdGlvbnMge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgZmxleC1mbG93OiB3cmFwO1xyXG5cclxuICAgIGFwcC1wdWJsaWNhdGlvbnMge1xyXG4gICAgICBmbGV4OiAwIDAgMzAlO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLnBsYWluLWNvbnRhaW5lciB7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlciAhaW1wb3J0YW50O1xyXG4gICAgbWFyZ2luOiAyMHB4IDQwcHggNDBweDtcclxuICAgIGRpc3BsYXk6IGZsZXggIWltcG9ydGFudDtcclxuICAgIGZsZXgtZmxvdzogd3JhcDtcclxuXHJcbiAgICAuaW1hZ2Uge1xyXG4gICAgICBtYXJnaW46IDVweCAhaW1wb3J0YW50O1xyXG4gICAgICBoZWlnaHQ6IDIwMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIHdpZHRoOiBhdXRvICFpbXBvcnRhbnQ7XHJcbiAgICAgIGJveC1zaGFkb3c6IDAgMCAxMHB4IC0zcHggJGxpZ2h0Z3JheTtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC50aXRsZSB7XHJcbiAgICBtYXJnaW46IDJ2aCA1dmg7XHJcbiAgICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogMS41cmVtO1xyXG4gICAgY29sb3I6ICR3aGl0ZTtcclxuICB9XHJcblxyXG4gIEBtZWRpYSAobWF4LXdpZHRoOiA4NTBweCkge1xyXG4gICAgLmRlc2NyaXB0aW9uLWhvbWVwYWdlIHtcclxuICAgICAgbWFyZ2luOiAzdmggNXZ3O1xyXG5cclxuICAgICAgLm5hbWUge1xyXG4gICAgICAgIGZvbnQtc2l6ZTogeC1sYXJnZTtcclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC50aXRsZSB7XHJcbiAgICAgIGZvbnQtc2l6ZTogMXJlbTtcclxuICAgIH1cclxuXHJcbiAgICAucHVibGljYXRpb25zIHtcclxuICAgICAgYXBwLXB1YmxpY2F0aW9ucyB7XHJcbiAgICAgICAgZmxleDogMCAwIDUwJTtcclxuXHJcbiAgICAgICAgLnB1YmxpY2F0aW9uLXdyYXBwZXIge1xyXG4gICAgICAgICAgcGFkZGluZzogMTBweDtcclxuXHJcbiAgICAgICAgICAuaW1hZ2Uge1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDEyNXB4O1xyXG4gICAgICAgICAgICB3aWR0aDogMTI1cHg7XHJcbiAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgLnN1bW1hcnkge1xyXG4gICAgICAgICAgICAubmFtZSB7XHJcbiAgICAgICAgICAgICAgZm9udC1zaXplOiAwLjlyZW07XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgIH1cclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcblxyXG4gIEBtZWRpYSAobWF4LXdpZHRoOiA3MDBweCkge1xyXG4gICAgLnBsYWluLWNvbnRhaW5lciB7XHJcbiAgICAgIC5pbWFnZSB7XHJcbiAgICAgICAgaGVpZ2h0OiBhdXRvICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgd2lkdGg6IDEwMCUgIWltcG9ydGFudDtcclxuICAgICAgfVxyXG4gICAgfVxyXG4gIH1cclxufVxyXG4iLCIkYmxhY2s6ICMxNzA0MDQ7XHJcbiRncmF5OiAjNGY0ZjRmO1xyXG4kbGlnaHRncmF5OiAjZmNkZWRlO1xyXG4kd2hpdGU6ICNmZmY7XHJcbiRwcmltYXJ5OiAjZDAyOTI5O1xyXG4kcHJpbWFyeW9wYWNpdHk6ICNkMDI5MjkxMjsiXX0= */"], encapsulation: 2 });
+    } }, directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__["MatTab"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _components_custom_button_custom_button_component__WEBPACK_IMPORTED_MODULE_5__["CustomButtonComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"], _components_custom_card_custom_card_component__WEBPACK_IMPORTED_MODULE_7__["CustomCardComponent"]], styles: ["app-homepage {\n  font-size: 1rem;\n}\napp-homepage .logo {\n  text-align-last: center;\n  padding: 20px;\n}\napp-homepage .logo img {\n  width: auto;\n  height: 25vh;\n}\napp-homepage .homepage-title {\n  line-height: 1.7rem;\n  margin: 2vh 5vw 8vh 5vw;\n  padding: 1vh 0 2vh 3vw;\n  border-left: 1px solid #d02929;\n}\napp-homepage .homepage-title .welcome-name {\n  color: #d02929;\n  font-weight: 400;\n  font-family: monospace;\n}\napp-homepage .homepage-title .name {\n  height: auto;\n  padding: 10px 0;\n  max-width: 80vw;\n}\napp-homepage .homepage-title .welcome-subtitle {\n  color: #d02929;\n  margin-top: 0;\n  font-family: monospace;\n}\napp-homepage .homepage-title .description {\n  font-family: monospace;\n  line-height: normal;\n  font-size: unset;\n}\napp-homepage .see-more {\n  width: -webkit-fit-content;\n  width: -moz-fit-content;\n  width: fit-content;\n  margin: auto;\n  margin: 2vh auto;\n}\napp-homepage .projects {\n  display: flex;\n  margin: 10px;\n  overflow: auto;\n  flex-flow: wrap;\n  justify-content: center;\n}\napp-homepage .mat-tab-header {\n  border-bottom: none;\n}\napp-homepage .mat-tab-labels {\n  justify-content: center;\n}\napp-homepage .mat-tab-label {\n  opacity: 1;\n  color: #fff;\n}\napp-homepage .publications {\n  display: flex;\n  justify-content: center;\n  flex-flow: wrap;\n}\napp-homepage .publications app-publications {\n  flex: 0 0 30%;\n}\napp-homepage .title {\n  margin: 2vh 5vh;\n  text-align-last: center;\n  font-size: 1.5rem;\n  color: #fff;\n}\n@media (max-width: 850px) {\n  app-homepage .description-homepage {\n    margin: 3vh 5vw;\n  }\n  app-homepage .description-homepage .name {\n    font-size: x-large;\n  }\n  app-homepage .title {\n    font-size: 1rem;\n  }\n  app-homepage .publications app-publications {\n    flex: 0 0 50%;\n  }\n  app-homepage .publications app-publications .publication-wrapper {\n    padding: 10px;\n  }\n  app-homepage .publications app-publications .publication-wrapper .image {\n    height: 125px;\n    width: 125px;\n  }\n  app-homepage .publications app-publications .publication-wrapper .summary .name {\n    font-size: 0.9rem;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZXBhZ2UvaG9tZXBhZ2UuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3ZhcmlhYmxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBRUUsZUFBQTtBQUZGO0FBSUU7RUFDRSx1QkFBQTtFQUNBLGFBQUE7QUFGSjtBQUlJO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUFGTjtBQU1FO0VBQ0UsbUJBQUE7RUFDQSx1QkFBQTtFQUNBLHNCQUFBO0VBQ0EsOEJBQUE7QUFKSjtBQU1JO0VBQ0UsY0NuQkk7RURvQkosZ0JBQUE7RUFDQSxzQkFBQTtBQUpOO0FBT0k7RUFDRSxZQUFBO0VBQ0EsZUFBQTtFQUNBLGVBQUE7QUFMTjtBQVFJO0VBQ0UsY0MvQkk7RURnQ0osYUFBQTtFQUNBLHNCQUFBO0FBTk47QUFTSTtFQUNFLHNCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtBQVBOO0FBV0U7RUFDRSwwQkFBQTtFQUFBLHVCQUFBO0VBQUEsa0JBQUE7RUFDQSxZQUFBO0VBQ0EsZ0JBQUE7QUFUSjtBQVlFO0VBQ0UsYUFBQTtFQUNBLFlBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLHVCQUFBO0FBVko7QUFhRTtFQUNFLG1CQUFBO0FBWEo7QUFjRTtFQUNFLHVCQUFBO0FBWko7QUFlRTtFQUNFLFVBQUE7RUFDQSxXQ3BFSTtBRHVEUjtBQWdCRTtFQUNFLGFBQUE7RUFDQSx1QkFBQTtFQUNBLGVBQUE7QUFkSjtBQWdCSTtFQUNFLGFBQUE7QUFkTjtBQWtCRTtFQUNFLGVBQUE7RUFDQSx1QkFBQTtFQUNBLGlCQUFBO0VBQ0EsV0NyRkk7QURxRVI7QUFtQkU7RUFDRTtJQUNFLGVBQUE7RUFqQko7RUFtQkk7SUFDRSxrQkFBQTtFQWpCTjtFQXFCRTtJQUNFLGVBQUE7RUFuQko7RUF1Qkk7SUFDRSxhQUFBO0VBckJOO0VBdUJNO0lBQ0UsYUFBQTtFQXJCUjtFQXVCUTtJQUNFLGFBQUE7SUFDQSxZQUFBO0VBckJWO0VBeUJVO0lBQ0UsaUJBQUE7RUF2Qlo7QUFDRiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2hvbWVwYWdlL2hvbWVwYWdlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uLy4uL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5hcHAtaG9tZXBhZ2Uge1xyXG5cclxuICBmb250LXNpemU6IDFyZW07XHJcblxyXG4gIC5sb2dvIHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xyXG4gICAgcGFkZGluZzogMjBweDtcclxuXHJcbiAgICBpbWcge1xyXG4gICAgICB3aWR0aDogYXV0bztcclxuICAgICAgaGVpZ2h0OiAyNXZoO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLmhvbWVwYWdlLXRpdGxlIHtcclxuICAgIGxpbmUtaGVpZ2h0OiAxLjdyZW07XHJcbiAgICBtYXJnaW46IDJ2aCA1dncgOHZoIDV2dztcclxuICAgIHBhZGRpbmc6IDF2aCAwIDJ2aCAzdnc7XHJcbiAgICBib3JkZXItbGVmdDogMXB4IHNvbGlkICRwcmltYXJ5O1xyXG5cclxuICAgIC53ZWxjb21lLW5hbWUge1xyXG4gICAgICBjb2xvcjogJHByaW1hcnk7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiBtb25vc3BhY2U7XHJcbiAgICB9XHJcblxyXG4gICAgLm5hbWUge1xyXG4gICAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICAgIHBhZGRpbmc6IDEwcHggMDtcclxuICAgICAgbWF4LXdpZHRoOiA4MHZ3O1xyXG4gICAgfVxyXG5cclxuICAgIC53ZWxjb21lLXN1YnRpdGxlIHtcclxuICAgICAgY29sb3I6ICRwcmltYXJ5O1xyXG4gICAgICBtYXJnaW4tdG9wOiAwO1xyXG4gICAgICBmb250LWZhbWlseTogbW9ub3NwYWNlO1xyXG4gICAgfVxyXG5cclxuICAgIC5kZXNjcmlwdGlvbiB7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiBtb25vc3BhY2U7XHJcbiAgICAgIGxpbmUtaGVpZ2h0OiBub3JtYWw7XHJcbiAgICAgIGZvbnQtc2l6ZTogdW5zZXQ7XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAuc2VlLW1vcmUge1xyXG4gICAgd2lkdGg6IGZpdC1jb250ZW50O1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgbWFyZ2luOiAydmggYXV0bztcclxuICB9XHJcblxyXG4gIC5wcm9qZWN0cyB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgbWFyZ2luOiAxMHB4O1xyXG4gICAgb3ZlcmZsb3c6IGF1dG87XHJcbiAgICBmbGV4LWZsb3c6IHdyYXA7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICB9XHJcblxyXG4gIC5tYXQtdGFiLWhlYWRlciB7XHJcbiAgICBib3JkZXItYm90dG9tOiBub25lO1xyXG4gIH1cclxuXHJcbiAgLm1hdC10YWItbGFiZWxzIHtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgLm1hdC10YWItbGFiZWwge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIGNvbG9yOiAkd2hpdGU7XHJcbiAgfVxyXG5cclxuICAucHVibGljYXRpb25zIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGZsZXgtZmxvdzogd3JhcDtcclxuXHJcbiAgICBhcHAtcHVibGljYXRpb25zIHtcclxuICAgICAgZmxleDogMCAwIDMwJTtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC50aXRsZSB7XHJcbiAgICBtYXJnaW46IDJ2aCA1dmg7XHJcbiAgICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogMS41cmVtO1xyXG4gICAgY29sb3I6ICR3aGl0ZTtcclxuICB9XHJcblxyXG4gIEBtZWRpYSAobWF4LXdpZHRoOiA4NTBweCkge1xyXG4gICAgLmRlc2NyaXB0aW9uLWhvbWVwYWdlIHtcclxuICAgICAgbWFyZ2luOiAzdmggNXZ3O1xyXG5cclxuICAgICAgLm5hbWUge1xyXG4gICAgICAgIGZvbnQtc2l6ZTogeC1sYXJnZTtcclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC50aXRsZSB7XHJcbiAgICAgIGZvbnQtc2l6ZTogMXJlbTtcclxuICAgIH1cclxuXHJcbiAgICAucHVibGljYXRpb25zIHtcclxuICAgICAgYXBwLXB1YmxpY2F0aW9ucyB7XHJcbiAgICAgICAgZmxleDogMCAwIDUwJTtcclxuXHJcbiAgICAgICAgLnB1YmxpY2F0aW9uLXdyYXBwZXIge1xyXG4gICAgICAgICAgcGFkZGluZzogMTBweDtcclxuXHJcbiAgICAgICAgICAuaW1hZ2Uge1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDEyNXB4O1xyXG4gICAgICAgICAgICB3aWR0aDogMTI1cHg7XHJcbiAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgLnN1bW1hcnkge1xyXG4gICAgICAgICAgICAubmFtZSB7XHJcbiAgICAgICAgICAgICAgZm9udC1zaXplOiAwLjlyZW07XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgIH1cclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcbn1cclxuIiwiJGJsYWNrOiAjMTcwNDA0O1xyXG4kZ3JheTogIzRmNGY0ZjtcclxuJGxpZ2h0Z3JheTogI2ZjZGVkZTtcclxuJHdoaXRlOiAjZmZmO1xyXG4kcHJpbWFyeTogI2QwMjkyOTtcclxuJHByaW1hcnlvcGFjaXR5OiAjZDAyOTI5MTI7Il19 */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomepageComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{

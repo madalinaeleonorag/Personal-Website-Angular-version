@@ -9,18 +9,34 @@
     }}<span *ngIf="project.endDate"> - {{ project.endDate }}</span>
   </div>
   <div class="actions-buttons">
-    <app-custom-button buttonText="Demo" [isFilledButton]="true" *ngIf="project.live" (click)="openNewTab('live')"></app-custom-button>
-    <app-custom-button buttonText="&#60;/ See code &#62;" [isFilledButton]="false" *ngIf="project.code" (click)="openNewTab('code')"></app-custom-button>
+    <app-custom-button
+      buttonText="Demo"
+      [isFilledButton]="true"
+      *ngIf="project.live"
+      (click)="openNewTab('live')"
+    ></app-custom-button>
+    <app-custom-button
+      buttonText="&#60;/ See code &#62;"
+      [isFilledButton]="false"
+      *ngIf="project.code"
+      (click)="openNewTab('code')"
+    ></app-custom-button>
   </div>
   <div class="technologies" *ngIf="project.technologies.length > 0">
-    <app-custom-chip *ngFor="let technology of project.technologies" [text]="technology"></app-custom-chip>
+    <app-custom-chip
+      *ngFor="let technology of project.technologies"
+      [text]="technology"
+    ></app-custom-chip>
   </div>
-  
 </div>
 <div class="description" [innerHTML]="project.description"></div>
-
-<ks-modal-gallery
-  [id]="6"
-  [modalImages]="images"
-  [slideConfig]="{ infinite: true, sidePreviews: { show: false } }"
-></ks-modal-gallery>
+<div *ngIf="imagesKeys.length > 0">
+  <div *ngFor="let categoryImage of imagesKeys; index as i">
+    <h3>{{ categoryImage }}</h3>
+    <ks-modal-gallery
+      [id]="i"
+      [modalImages]="images[categoryImage]"
+      [slideConfig]="{ infinite: true, sidePreviews: { show: false } }"
+    ></ks-modal-gallery>
+  </div>
+</div>

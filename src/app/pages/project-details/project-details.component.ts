@@ -17,7 +17,8 @@ export class ProjectDetailsComponent implements OnInit {
   private projects: ProjectModel[];
   public paramSubscription: Subscription;
   public project: ProjectModel;
-  public images: Image[];
+  public images: {} = {};
+  public imagesKeys: string[];
 
   constructor(private route: ActivatedRoute, private commonsService: CommonsService) {
     this.projects = PROJECTS;
@@ -29,9 +30,17 @@ export class ProjectDetailsComponent implements OnInit {
 
   private getProjectByID(ID: number): void {
     this.project = this.projects.filter(project => project.id === ID)[0];
-    this.images = this.project.images ? this.project.images.map((imageUrl, index) => new Image(index, {
-      img: imageUrl
-    })) : [];
+    if (this.project.images) {
+      this.imagesKeys = Object.keys(this.project.images);
+      this.imagesKeys.forEach(category => {
+        this.images[category] = this.project.images[category].map((imageUrl, index) => new Image(index, {
+          img: imageUrl
+        })
+        );
+      });
+    } else {
+      this.images = [];
+    }
   }
 
   public openNewTab(type: string): void {
