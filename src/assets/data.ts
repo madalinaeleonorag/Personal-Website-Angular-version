@@ -307,7 +307,11 @@ export const PROJECTS = [
                 '../assets/projects/2/2.png',
                 '../assets/projects/2/3.png',
                 '../assets/projects/2/4.png',
-                '../assets/projects/2/5.png'
+                '../assets/projects/2/5.png',
+                '../assets/projects/2/6.png',
+                '../assets/projects/2/7.png',
+                '../assets/projects/2/8.png',
+                '../assets/projects/2/9.png'
             ]
         },
         logo: '../assets/projects/2/1.png'

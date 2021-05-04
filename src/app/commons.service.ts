@@ -43,5 +43,11 @@ export class CommonsService {
 
   public navigateToURL(url: string): void {
     this.router.navigateByUrl(url);
+    this.goToTop();
+  }
+
+  private goToTop(): void {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
 }
