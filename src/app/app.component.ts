@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { CommonsService } from './commons.service';
-declare var particlesJS: any;
 
 @Component({
   selector: 'app-root',
@@ -15,8 +14,6 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.cookieConsoleMessage();
     this.commonsService.getDataFromAPIs();
-
-    particlesJS.load('particles-js', '../assets/particles.json', null);
   }
 
   private cookieConsoleMessage(): void {
