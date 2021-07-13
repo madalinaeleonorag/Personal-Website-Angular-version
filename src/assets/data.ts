@@ -291,7 +291,7 @@ export const PROJECTS = [
     },
     {
         id: 2,
-        name: 'Madalina Eleonora - Furniture Design',
+        name: 'Furniture Design',
         startDate: 'Dec 2018',
         category: 'design',
         featured: true,
@@ -466,7 +466,7 @@ export const PROJECTS = [
     },
     {
         id: 6,
-        name: 'Madalina Eleonora - Graphic Design',
+        name: 'Graphic Design',
         startDate: 'Jun 2015',
         endDate: 'Present',
         category: 'design',

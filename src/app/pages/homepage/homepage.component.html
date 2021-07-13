@@ -13,40 +13,37 @@
       <p>
         Currently I'm a Front-End Application Developer at
         <a href="https://www.ibm.com/services/ibmix">IBM iX</a>, focused on
-        increasing both technical and soft skills, working with people around the
-        globe and learning how to deliver their expectations.
+        increasing both technical and soft skills, working with people around
+        the globe and learning how to deliver their expectations.
       </p>
     </div>
   </div>
-  <div class="title">Few of my projects 💻</div>
-  <mat-tab-group>
-    <mat-tab label="💻 Programming">
-      <div class="projects">
-        <app-custom-card
-          *ngFor="let project of projectsTechnology"
-          [data]="project"
-          type="project"
-        ></app-custom-card>
-      </div>
-      <div class="see-more">
-        <app-custom-button
-          buttonText="&#60;/See more projects on GitHub&#62;"
-          [isFilledButton]="true"
-          (click)="openGitHub()"
-        ></app-custom-button>
-      </div>
-    </mat-tab>
-    <mat-tab label="🎨 Design">
-      <div class="projects">
-        <app-custom-card
-          *ngFor="let project of projectsDesign"
-          type="project"
-          [data]="project"
-        ></app-custom-card>
-      </div>
-    </mat-tab>
-  </mat-tab-group>
-  <div class="title" *ngIf="publications.length > 0">I like to write, sometimes ✏️</div>
+  <div class="title">Few of my programming projects 💻</div>
+  <div class="projects">
+    <app-custom-card
+      *ngFor="let project of projectsTechnology"
+      [data]="project"
+      type="project"
+    ></app-custom-card>
+  </div>
+  <div class="see-more">
+    <app-custom-button
+      buttonText="&#60;/See more projects on GitHub&#62;"
+      [isFilledButton]="true"
+      (click)="openGitHub()"
+    ></app-custom-button>
+  </div>
+  <div class="title">Few of my design projects 🎨</div>
+  <div class="projects">
+    <app-custom-card
+      *ngFor="let project of projectsDesign"
+      type="project"
+      [data]="project"
+    ></app-custom-card>
+  </div>
+  <div class="title" *ngIf="publications.length > 0">
+    I like to write, sometimes ✏️
+  </div>
   <div class="publications" *ngIf="publications.length > 0">
     <app-custom-card
       *ngFor="let publication of publications"
