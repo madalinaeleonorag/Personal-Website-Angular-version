@@ -667,12 +667,18 @@ export const SKILLS = [
     { name: 'Vue.js', level: 3, color: '#3FB27F', logo: 'Vuejs' },
     { name: 'Vuex', level: 3, color: '#33475B', logo: 'Vuex' },
     { name: 'Angular', level: 3, color: '#BD002E', logo: 'Angular' },
+    { name: 'Node.js', level: 0, color: '#539e43', logo: 'nodejs' },
     { name: 'JQuery', level: 1, color: '#0864A7', logo: 'JQuery' },
+    { name: 'Postman', level: 2, color: '#ff6c37', logo: 'Postman' },
+    { name: 'VS Code', level: 3, color: '#2981b9', logo: 'Visual Studio Code' },
+    { name: 'C#', level: 1, color: '#68217a', logo: 'CSharp' },
+    { name: 'C++', level: 1, color: '#00589c', logo: 'CPP' },
     { name: 'Ionic', level: 2, color: '#367CF7', logo: 'Ionic' },
     { name: 'React.js', level: 0, color: '#50BBD7', logo: 'Reactjs' },
     { name: 'Wordpress', level: 1, color: '#207196', logo: 'Wordpress' },
     { name: 'Git', level: 3, color: '#E84E31', logo: 'Git' },
     { name: 'NoSQL', level: 2, color: '#F7C52B', logo: 'NoSQL' },
+    { name: 'PHP', level: 0, color: '#787cb4', logo: 'PHP' },
     { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' },
     { name: 'Lightroom', level: 1, color: '#0A232F', logo: 'Lightroom' }
 ];

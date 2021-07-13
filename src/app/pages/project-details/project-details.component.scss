@@ -57,16 +57,23 @@ app-project-details {
   }
 
   .plain-container {
-    justify-content: center !important;
-    margin: 20px 40px 40px;
-    display: flex !important;
-    flex-flow: wrap;
+    display: flow-root !important;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5px;
+    -moz-column-count: 3;
+    -moz-column-gap: 5px;
+    column-count: 3;
+    column-gap: 5px;
+    row-gap: 5px;
 
     .image {
-      margin: 5px !important;
-      height: 200px !important;
-      width: auto !important;
-      box-shadow: 0 0 8px -7px $lightgray;
+      width: 100% !important;
+      height: auto !important;
+      margin: unset !important;
+
+      &:hover {
+        filter: brightness(0.5);
+      }
     }
   }
 
@@ -85,20 +92,21 @@ app-project-details {
         justify-content: center;
       }
     }
+
     .description {
       margin: 10px;
-    }
-    .plain-container {
-      margin: 5px 20px 20px;
-      
-      .image {
-        width: auto !important;
-        height: 60px !important;
-      }
     }
 
     #current-image {
       height: unset !important;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .plain-container {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
     }
   }
 }
