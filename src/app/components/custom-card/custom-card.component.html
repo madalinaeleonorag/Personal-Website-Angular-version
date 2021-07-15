@@ -40,7 +40,7 @@
     <app-custom-button
       buttonText="See details"
       [isFilledButton]="true"
-      *ngIf="type === 'project'"
+      *ngIf="type === 'project' && !data.noDetails"
       (click)="seeDetailsProject()"
     ></app-custom-button>
     <app-custom-button
