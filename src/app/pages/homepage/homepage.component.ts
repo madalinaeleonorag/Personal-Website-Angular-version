@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { EXPERIENCE, PROJECTS } from 'src/assets/data';
+import { EXPERIENCE, DESIGNPROJECTS } from 'src/assets/data';
 import { CommonsService } from 'src/app/commons.service';
 import { ExperienceModel, ProjectModel, PublicationModel } from 'src/app/data.model';
 declare var particlesJS: any;
@@ -24,11 +24,14 @@ export class HomepageComponent implements OnInit {
   ngOnInit(): void {
     this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
     this.experience = EXPERIENCE[0];
-    this.projectsTechnology = PROJECTS.filter(project => project.category === 'programming');
-    this.projectsDesign = PROJECTS.filter(project => project.category === 'design');
+    this.projectsDesign = DESIGNPROJECTS;
 
     this.commonsService.publications$.subscribe(publications => {
       this.publications = publications;
+    });
+
+    this.commonsService.repositories$.subscribe(repositories => {
+      this.projectsTechnology = repositories;
     });
 
     particlesJS.load('particles-js', '../assets/particles.json', null);

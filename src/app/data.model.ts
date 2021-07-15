@@ -1,7 +1,6 @@
 export class ProjectModel {
     public id: number;
     public featured?: boolean;
-    public category: string;
     public name: string;
     public startDate: string;
     public endDate?: string;
@@ -11,7 +10,12 @@ export class ProjectModel {
     public code?: string;
     public description?: string;
     public images?: {};
+    public noDetails?: boolean;
     public logo: string;
+
+    constructor(data?: any) {
+        Object.assign(this, data);
+    }
 }
 
 export class SkillModel {

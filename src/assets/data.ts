@@ -1,8 +1,7 @@
-export const PROJECTS = [
+export const DESIGNPROJECTS = [
     {
         id: 1,
         featured: true,
-        category: 'design',
         name: 'Photography',
         startDate: 'Jun 2018',
         endDate: 'Present',
@@ -16,7 +15,6 @@ export const PROJECTS = [
         id: 2,
         name: 'Furniture Design',
         startDate: 'Dec 2018',
-        category: 'design',
         featured: true,
         endDate: 'Present',
         technologies: ['Photoshop'],
@@ -41,158 +39,9 @@ export const PROJECTS = [
     },
     {
         id: 3,
-        featured: true,
-        name: 'Learning League - Hipo DevHack Hackathon',
-        startDate: 'Nov 2020',
-        category: 'programming',
-        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'CometChat', 'Firebase'],
-        type: 'Hackathon',
-        code: 'https://github.com/madalinaeleonorag/LearningLeague-Hipo-DevHack-Hackathon',
-        live: 'https://devhacks2020-1c585.web.app',
-        description: `
-            <h1>DevHacks2020 App</h1>
-            <p>Education application created using Vue.js, Vuetify, Vuex, Firebase.</p>
-            <h2>Development</h2>
-            This project was created using <a href="https://vuejs.org/">Vue.js CLI</a> version 2.6.11 with <a href="https://vuetifyjs.com/en/">Vuetify</a>. Video and voice calling are made through <a href="https://www.cometchat.com/">CometChat</a> and data is saved through <a href="https://firebase.google.com/docs">Firebase</a>.
-            <h2>Features</h2>
-            <ul>
-            <li>The user can login into the platform as a teacher or as a student</li>
-            <li>As a teacher the user will have access to all of the app resources</li>
-            <li>As a student the user will have access only on what the teacher shares with him for security purposes and for creating a community based on trust</li>
-            <li>On the homepage the user will have the following options:
-            <ol>
-            <li>search for uploaded resources by other teachers or students and download them</li>
-            <li>upload resources with selecting the privacy type to define which users can access the resource</li>
-            <li>view classrooms and filter them by name or description</li>
-            <li>view courses and filter them by name or description</li>
-            <li>take tests from different categories</li>
-            </ol>
-            <li>The user can search for resources, download them and filter them by name or description</li>
-            <li>The user can enter several classrooms where they can talk about different topics with or without a teacher</li>
-            <li>Users can make voice calls, video calls, share screen in the chatroom and upload/download documents</li>
-            <li>User can take courses in order to develop their e-learning skills</li>
-            <li>Users cand take tests in order to verify their knowledges from different categories</li>
-            </ul>
-        `,
-        images: {
-            screenshots: [
-                '../assets/projects/3/1.png',
-                '../assets/projects/3/2.png',
-                '../assets/projects/3/3.png',
-                '../assets/projects/3/4.png',
-                '../assets/projects/3/5.png',
-                '../assets/projects/3/6.png',
-                '../assets/projects/3/7.png',
-                '../assets/projects/3/8.png',
-                '../assets/projects/3/9.png',
-                '../assets/projects/3/10.png',
-                '../assets/projects/3/11.png',
-                '../assets/projects/3/12.png'
-            ]
-        },
-        logo: '../assets/projects/3/1.png'
-    },
-    {
-        id: 4,
-        featured: true,
-        name: 'UniversityRating',
-        startDate: 'Jul 2018',
-        endDate: 'Jul 2020',
-        category: 'programming',
-        type: 'Personal project',
-        technologies: ['HTML', 'CSS', 'Javascript', 'Sass', 'Angular', 'Angular Material', 'Microsoft Text Analytics', 'RxJs', 'Google Charts', 'Google Maps'],
-        code: 'https://github.com/madalinaeleonorag/UniversityRating',
-        live: 'https://universityraking.web.app',
-        description: `
-            <p>In this application you can search for your best option through hundred of updated universities around the world. Users can grade and add a comment to institutions so others can see if it fits for them. Only verified ratings, using Microsoft Text Analysis will be displayed. After creating an account, the user can activate it to claim a university and add verified informations about it. The user needs to provide full informations and will be contacted by administrators in order to securely activate the account. The information accuracy depends on institution representant.</p>
-            <h2>Development</h2>
-            This project was created using <a href="https://github.com/angular/angular-cli">Angular CLI</a> version 8.3.2 with <a href="https://www.typescriptlang.org/">TypeScript</a>, <a href="https://material.angular.io/">Angular Material</a>, <a href="https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/">Microsoft Text Analytics</a>, <a href="https://developers.google.com/maps/documentation">Google Maps API</a>, <a href="https://developers.google.com/chart">Google Charts</a> and <a href="https://www.npmjs.com/package/rxjs">RxJs</a>.
-            <br>
-            For database used to store the data is <a href="https://firebase.google.com/docs/firestore">Firebase Firestore</a>.
-            <p>The main page of the application gives the visitor the opportunity to register in the account or create a new account or to view the list of available information. Also, in the footer of the page you can see its legal details.</p>
-            <p>Pressing the "LOGIN" button leads to the window that allows the user to enter the personal account by filling in the fields "Email" and "Password", and pressing the "SIGNUP" button on the form to create a new account. The account is only entered with valid data, with automatic correction for the fields required. The e-mail address requires the presence of the "@" character and the connection point, in order to be declared valid. If the email address is formed correctly but does not exist in the database, an error will be received.</p>
-            <p>The essential information for creating a new account is your email, password, last name, first name and GDPR agreement.</p>
-            <p>After logging in, the user has the option to view personal data or log out. Another feature activated by creating an account is the ability to write reviews at universities or colleges.</p>
-            <p>Pressing the "ACCOUNT" button takes you to the user's personal information page, where he can change it.</p>
-            <p>For the administrator, the additional pages that can be accessed are "DASHBOARD" and "UNIVERSITY REQUESTS". In the applications section, he can see the status of applications for the administration of a university on the application, to accept or reject one of these applications.</p>
-            <p>
-            By entering the "DASHBOARD" section, the administrator has the opportunity to view:
-            <ul>
-            <li>Report with information about users, such as their identification code, email address, date of birth, name, surname and location;</li>
-            <li>Report on all universities registered on the application so far;</li>
-            <li>Report on all faculties registered on the application so far;</li>
-            <li>Reports on existing bachelor's, master's and doctoral programs;</li>
-            <li>Graphic reports on the degree of use of facilities, age of users, level of education of users, location of users and universities;</li>
-            <li>Statistics on the level of education of users, type of registered universities, gender of users, degree of acceptance of the GDPR, type of verification of courses, status of applications, average number of registered faculties for a university, photos uploaded for a university, number of facilities offered by universities, as well as on the average number of specializations registered at a faculty.</li>
-            </ul>
-            </p>
-            <p>Pressing the "SEARCH" button redirects the user to the results page, where he can filter the information by level of education, name, description, location, facilities or type of institution.</p>
-            <p>Pressing the "VIEW DETAILS" button redirects the user to the page for the university or faculty, according to the filtering obtained previously.
-            The university page contains general information about the university, such as the description, mission, values ​​and strategic programs, link to the official website of the university, photos, existing facilities, contact details and the route to reach its location. At the existing faculties at this university, there is a table with the name, the number of specializations on the level of education and a button that redirects the user to the faculty page.</p>
-            <p>The faculty page contains general information about the faculty or university to which it belongs, the faculty guide, the programs available for each level of education, as well as a button that redirects us to the university.</p>
-            <p>For each program, the number of years and semesters required for completion, the general skills obtained, the professional perspectives and the courses existing during the university years are known.</p>
-            <p>The course is known by its name, the number of credits obtained after completion, the evaluation procedure, the number of hours available, the semester and its objectives.</p>
-            <p>For both college and university, an authenticated user will be able to write a review. This review is automatically accepted and published if it is positive, or verified by a user and subsequently added or deleted if it contains inappropriate words, in order to avoid misleading users. The review consists of the number of stars awarded and the completed comment.</p>
-            <p>Editing data after activating the university account can be done from the presentation page of the university / faculty by pressing the "EDIT" button, which will activate the fields for completing or modifying the information.</p>
-        `,
-        images: {
-            screenshots: [
-                '../assets/projects/4/1.png',
-                '../assets/projects/4/2.png',
-                '../assets/projects/4/3.png',
-                '../assets/projects/4/4.png',
-                '../assets/projects/4/5.png',
-                '../assets/projects/4/6.png',
-                '../assets/projects/4/7.png',
-                '../assets/projects/4/8.png',
-                '../assets/projects/4/9.png',
-                '../assets/projects/4/10.png',
-                '../assets/projects/4/11.png',
-                '../assets/projects/4/12.png',
-                '../assets/projects/4/13.png',
-                '../assets/projects/4/14.png',
-                '../assets/projects/4/15.png',
-                '../assets/projects/4/16.png'
-            ]
-        },
-        logo: '../assets/projects/4/1.png'
-    },
-    {
-        id: 5,
-        featured: true,
-        name: 'Exams Schedule',
-        startDate: 'Apr 2020',
-        category: 'programming',
-        endDate: 'May 2020',
-        technologies: ['HTML', 'CSS', 'Javascript', 'Firebase', 'React', 'AXIOS', 'Redux', 'Sass'],
-        type: 'Personal project',
-        code: 'https://github.com/madalinaeleonorag/ExamsSchedule',
-        live: 'https://reactproject-df131.web.app',
-        description: `
-            CRUD application that allows the management of university exams
-            <h2>Development</h2>
-            <p>
-            This project was created using <a href="https://reactjs.org/">React.js</a>, <a href="https://www.npmjs.com/package/axios">axios</a>, <a href="https://redux.js.org/">Redux</a> and <a href="https://sass-lang.com/">Sass</a>. For database used to store the data is <a href="https://firebase.google.com/products/realtime-database">Firebase Realtime Database</a>.
-            </p>
-        `,
-        images: {
-            screenshots: [
-                '../assets/projects/5/1.png',
-                '../assets/projects/5/2.png',
-                '../assets/projects/5/3.png',
-                '../assets/projects/5/4.png',
-                '../assets/projects/5/5.png',
-                '../assets/projects/5/6.png'
-            ]
-        },
-        logo: '../assets/projects/5/1.png'
-    },
-    {
-        id: 6,
         name: 'Graphic Design',
         startDate: 'Jun 2015',
         endDate: 'Present',
-        category: 'design',
         featured: true,
         technologies: ['Photoshop'],
         type: 'Personal project',
@@ -200,184 +49,15 @@ export const PROJECTS = [
             Providing logos for different clients and pro bono`,
         images: {
             screenshots: [
-                'assets/projects/6/1.png',
-                'assets/projects/6/2.png',
-                'assets/projects/6/3.png',
-                'assets/projects/6/4.png',
-                'assets/projects/6/5.png',
-                'assets/projects/6/6.png'
+                'assets/projects/3/1.png',
+                'assets/projects/3/2.png',
+                'assets/projects/3/3.png',
+                'assets/projects/3/4.png',
+                'assets/projects/3/5.png',
+                'assets/projects/3/6.png'
             ]
         },
-        logo: 'assets/projects/6/1.png'
-    },
-    {
-        id: 7,
-        name: 'PhotoBooking - RauDevHack Hackathon',
-        startDate: 'Apr 2019',
-        category: 'programming',
-        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
-        type: 'Hackathon',
-        code: 'https://github.com/madalinaeleonorag/PhotoBooking-URA-RauDevHack-Hackathon',
-        description: `
-            <h1>PhotoBooking App for URA Hackathon 2019</h1>
-            <p>PhotoBooking App that recommends a suitable photographer for a customer's event, according to his visual preferences, budget and period.</p>
-            <h2>Development</h2>
-            <p>This project was created using <a href="https://vuejs.org/">Vue.js CLI</a> version 2.6.11 with <a href="https://vuetifyjs.com/en/">Vuetify</a>. Data is saved through <a href="https://firebase.google.com/docs">Firebase</a>.</p>
-            <h2>Features</h2>
-            <ul>
-            <li>Users can login into the platform as a customer or as a photographer</li>
-            <li>Customers can take a test so that the app can recommend the best photographer for their event, according to their visual preferences, budget and period</li>
-            <li>Users can access their profile (as customer or photographer) where they can change their details</li>
-            <li>Both types of users cand see a list of their requests and status</li>
-            <li>Informations are saved through Firebase</li>
-            </ul>
-        `,
-        images: {
-            screenshots: [
-                '../assets/projects/7/1.png',
-                '../assets/projects/7/2.png',
-                '../assets/projects/7/3.png',
-                '../assets/projects/7/4.png',
-                '../assets/projects/7/5.png',
-                '../assets/projects/7/6.png',
-                '../assets/projects/7/7.png',
-                '../assets/projects/7/8.png',
-                '../assets/projects/7/9.png'
-            ]
-        },
-        logo: '../assets/projects/7/2.png'
-    },
-    {
-        id: 8,
-        name: 'Rap Jobs - Hipo DevHack Hackathon',
-        startDate: 'Nov 2018',
-        category: 'programming',
-        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
-        type: 'Hackathon',
-        code: 'https://github.com/madalinaeleonorag/RapJobs-Hipo-DevHack-Hackathon',
-        live: 'https://devhacks2018.web.app/',
-        description: `
-        <h1>RapJobs - Job Search App</h1>
-        <p>The aim of this product is to help candidates find the employer that best suits their needs and personality, using our personality test.</p>
-        <h2>Development</h2>
-        <p>This project was created using <a href="https://vuejs.org/">Vue.js CLI</a> version 2.6.11 with <a href="https://vuetifyjs.com/en/">Vuetify</a>, <a href="https://vuex.vuejs.org/">Vuex</a>. Data is saved through <a href="https://firebase.google.com/">Firebase</a></p>
-        <h2>Features</h2>
-        <ul>
-        <li>Users can login or signup</li>
-        <li>Users can search for jobs or companies by different criteria (filter by name, address, industry, location, benefits, requirements, full-time/part-time job)</li>
-        <li>Users can see details about companies on the employer's page</li>
-        <li>The user's profile page is also his resume so the application progress is simplified</li>
-        <li>The user can take a personality test in order to help him find the jobs that suits his needs best</li>
-        </ul>
-        `,
-        images: {
-            screenshots: [
-                '../assets/projects/8/1.png',
-                '../assets/projects/8/2.png',
-                '../assets/projects/8/3.png',
-                '../assets/projects/8/4.png',
-                '../assets/projects/8/5.png',
-                '../assets/projects/8/6.png',
-                '../assets/projects/8/7.png'
-            ]
-        },
-        logo: '../assets/projects/8/2.png'
-    },
-    {
-        id: 9,
-        name: 'Waffic',
-        startDate: 'Mar 2018',
-        category: 'programming',
-        endDate: 'Jul 2018',
-        technologies: ['HTML', 'CSS', 'Javascript', 'Vue', 'Vuetify', 'Firebase'],
-        type: 'Personal project',
-        code: 'https://github.com/madalinaeleonorag/Waffic',
-        live: 'https://waffic1997.web.app',
-        description: `
-            Integrated application for tracking weather and traffic conditions, using AccuWeather, Google Maps and Google Charts APIs.
-            <h2>Development</h2>
-            <p>This project was created using <a href="https://vuejs.org/">Vue.js CLI</a> version 2.5.2 with <a href="https://vuetifyjs.com/en/">Vuetify</a>, <a href="https://developers.google.com/maps/documentation">Google Maps API</a>, <a href="https://developers.google.com/chart">Google Charts</a>, <a href="https://vuex.vuejs.org/">VUEX</a> and <a href="https://router.vuejs.org/">Router</a>. For database used to store the data is <a href="https://firebase.google.com/docs/database">Firebase Realtime Database</a>.</p>
-            <p>From the main page of the application, the visitor is offered the opportunity to log in or create a new account, view subscriptions, send a contact, read news in the field or view the user guide. Accessing such functionality is done by pressing the corresponding button in the side menu. Also, in the footer of the page you can view the Terms and Conditions, Privacy Policy and Copyright, following the same procedure.</p>
-            <p>Pressing the "Log in / Create new account" button allows the user to enter the personal account by filling in the "Email" and "Password" fields, to create a new account by pressing the "New account" button or to recover the password, following enter the email address for the account for which you want to recover your password.</p>
-            <p>The account can only be entered with valid data. Because of this, there is automatic correction for the fields that are required. An example of an error obtained for incorrect completion of a field. The e-mail address needs the presence of the "@" character and the domain connection point in order to be declared valid.</p>
-            <p>If the email address is correctly formatted but does not exist in the database, an error will be received.</p>
-            <p>If the email address is valid but the password is incorrect, you will receive the error specifying this.</p>
-            <p>
-            The password recovery steps are:
-            <li>Enter the email address for which you want to recover the password (if it does not exist in the database, an error will be received)</li>
-            <li>Receive a message with password recovery instructions on the email address</li>
-            <li>Enter a new password chosen by the user. This step is reached by clicking on the reference provided automatically in the received message. He can see what password he enters by tapping the icon next to the "New Password" field.</li>
-            <li>After entering a new password and saving it by pressing the "Save" button, it is notified that the password change has been made successfully and can return to authentication with the new password.</li>
-            </p>
-            <p>Pressing the "New Account" button brings up the window where the new user is asked to enter the email address, name, surname, city, date of birth and account password. For the account password it is necessary to enter twice, in order to check its correctness.</p>
-            <p>The fields considered mandatory for account creation are email and password. If they are not completed, the new user will be notified. If he presses the "Register" button with the omission of these fields, he will be notified and the registration will not take place. If you want to cancel the action of creating a new account, he can press the "Back" button.</p>
-            <p>If the user or the new user does not manage to use the application, he can access the "Help" button from the side menu where the user guide will be displayed.</p>
-            <p>In order to obtain various benefits on his account, the user can access the "Collaborations" button, visible even in the absence of an account. In order to purchase such a collaboration, he must log in and fill in the data necessary to complete the payment on the page to which he will be sent.</p>
-            <p>
-            The collaborations available are:
-            <ol>
-            <li>1week: collaboration valid for 7 days, starting from the day of payment confirmation, with the price of 5 RON;</li>
-            <li>Happy Month: collaboration valid for 30 days, starting from the day of payment confirmation, with the price of 15 RON;</li>
-            <li>BeOnline: collaboration valid for 90 days, starting from the day of payment confirmation, with the price of 30 RON;</li>
-            <li>What about six ?: collaboration valid for 180 days, starting from the day of payment confirmation, with the price of 50 RON;</li>
-            <li>Forget about payment: collaboration valid for 365 days, starting from the day of payment confirmation, with the price of 75 RON.</li>
-            </ol>
-            </p>
-            <p>After logging in, the "Map", "Personal Data" and "Your Trips" buttons will also be available to the user in the side menu. The destination search field is also activated.</p>
-            <p>The "Search for destination" field leads to the essential page and to the application itself, which can be reached only by entering a destination in the search field. The search field, while typing, will provide additional suggestions for ease of use and finding the desired destination.</p>
-            <p>Choosing a destination will start the application algorithm and calculate the most efficient route from the current location taken from the user. Updated weather conditions will be on the search bar. To the left of the destination searched by the user will be the weather conditions for the current location, and to the right of the destination, the weather conditions from the chosen destination.</p>
-            <p>To view the history of the destinations searched by the user, he will access from the side menu the button "Your trips" where you will find the starting location, destination, search date and the button to delete the registration on the same line. This information is structured in the form of a table.</p>
-            <p>If the user wishes to view the personal information saved in his account, or to change one of these information, the "Personal data" button in the side menu can be accessed. Clicking on a field on this page will activate the ability to edit, and the "Save changes" button will save all new changes if they exist. Changes to the database will only take place if the user fills in the password in the required field "Current password" for security.</p>
-            <p>For the administrator, the "Messages", "Statistics and reports" and "Search" fields are still valid in the "Administration" section of the side menu.</p>
-            <p>In the messages section, the administrator has the ability to view messages received from users or visitors to the application, change their status, and delete them as needed.</p>
-            <p>
-            By entering the "Reports and statistics" section, the administrator has the opportunity to view in real time:
-            <ul>
-            <li>Report with information about all users, such as their code, name, surname, email address, date of birth and location. Also, for each user, by pressing the "View collaborations" and "View history" buttons he can see:</li>
-            <ul>
-            <li>History of collaborations activated by that user;</li>
-            <li>History of routes performed.</li>
-            </ul>
-            <li>Report on all collaborations by users so far;</li>
-            <li>The report containing all the destinations searched by users;</li>
-            <li>Top three most active users according to the number of routes performed since the creation of the account and until now;</li>
-            <li>Top three most searched destinations</li>
-            <li>Top three most active collaborators according to the number of purchases made within the application since the creation of the account and until now;</li>
-            <li>Account statistics with or without acquisitions;</li>
-            <li>Account statistics with or without history;</li>
-            <li>Top three most common homes of users;</li>
-            <li>Top three most activated collaborations;</li>
-            <li>Top three most common ages of users;</li>
-            <li>User age statistics.</li>
-            </ul>
-            </p>
-            <p>
-            The "Search" section of the side menu gives the administrator the ability to perform custom searches in the application database such as:
-            <ul>
-            <li>Search by name or surname in the user table with reference to the history of collaborations or trips of each user;</li>
-            <li>Search by calendar date between two times, before or after a certain date, in the history of total collaborations performed by all existing customers;</li>
-            <li>Search by the names of destinations saved in the user history and their total frequency in the database.</li>
-            </ul>
-            </p>
-        `,
-        images: {
-            screenshots: [
-                '../assets/projects/9/1.png',
-                '../assets/projects/9/2.png',
-                '../assets/projects/9/3.png',
-                '../assets/projects/9/4.png',
-                '../assets/projects/9/5.png',
-                '../assets/projects/9/6.png',
-                '../assets/projects/9/7.png',
-                '../assets/projects/9/8.png',
-                '../assets/projects/9/9.png',
-                '../assets/projects/9/10.png',
-                '../assets/projects/9/11.png',
-                '../assets/projects/9/12.png',
-                '../assets/projects/9/13.png'
-            ]
-        },
-        logo: '../assets/projects/9/1.png'
+        logo: 'assets/projects/3/1.png'
     }
 ];
 

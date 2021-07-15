@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { PROJECTS } from 'src/assets/data';
+import { DESIGNPROJECTS } from 'src/assets/data';
 import { Image } from '@ks89/angular-modal-gallery';
 import { ProjectModel } from 'src/app/data.model';
 import { CommonsService } from 'src/app/commons.service';
@@ -21,7 +21,7 @@ export class ProjectDetailsComponent implements OnInit {
   public imagesKeys: string[];
 
   constructor(private route: ActivatedRoute, private commonsService: CommonsService) {
-    this.projects = PROJECTS;
+    this.projects = DESIGNPROJECTS;
   }
 
   ngOnInit(): void {
