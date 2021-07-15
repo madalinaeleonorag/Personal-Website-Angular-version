@@ -3790,7 +3790,7 @@
           }
         },
         directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCard"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardHeader"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardSubtitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardContent"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardActions"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _custom_chip_custom_chip_component__WEBPACK_IMPORTED_MODULE_4__["CustomChipComponent"], _custom_button_custom_button_component__WEBPACK_IMPORTED_MODULE_5__["CustomButtonComponent"]],
-        styles: ["app-custom-card {\n  flex: 1 0 30%;\n  margin: 15px;\n  display: flex;\n}\napp-custom-card .mat-card {\n  box-shadow: 0px 0px 3px -1px #fcdede !important;\n  display: flex;\n  flex-direction: column;\n  height: -webkit-fill-available;\n  width: 100%;\n  border-radius: unset;\n  padding: unset;\n}\napp-custom-card .mat-card-actions {\n  margin: 0 !important;\n}\napp-custom-card .image {\n  height: 25vh;\n  background-size: cover;\n  background-position: center;\n}\napp-custom-card .technologies {\n  display: flex;\n  flex-flow: wrap;\n  justify-content: center;\n}\napp-custom-card .mat-card:hover .technologies span {\n  color: #d02929;\n}\napp-custom-card .mat-card-content {\n  margin-top: auto;\n}\napp-custom-card .mat-card-actions {\n  display: flex;\n  justify-content: space-between;\n}\napp-custom-card .mat-card-header-text {\n  text-align: -webkit-center;\n}\napp-custom-card .mat-card-header {\n  place-content: center;\n}\napp-custom-card .mat-card-header .mat-card-title {\n  padding: 12px 0;\n  margin: 0;\n}\n@media (max-width: 850px) {\n  app-custom-card {\n    flex: unset;\n    width: -webkit-fill-available;\n  }\n  app-custom-card .mat-card-subtitle {\n    display: none;\n  }\n  app-custom-card .mat-card-content {\n    margin-bottom: 5px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jdXN0b20tY2FyZC9jdXN0b20tY2FyZC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvdmFyaWFibGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxhQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7QUFERjtBQUdFO0VBQ0UsK0NBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSw4QkFBQTtFQUNBLFdBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7QUFESjtBQUlFO0VBQ0Usb0JBQUE7QUFGSjtBQUtFO0VBQ0UsWUFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7QUFISjtBQU1FO0VBQ0UsYUFBQTtFQUNBLGVBQUE7RUFDQSx1QkFBQTtBQUpKO0FBU007RUFDRSxjQ2hDRTtBRHlCVjtBQVlFO0VBQ0UsZ0JBQUE7QUFWSjtBQWFFO0VBQ0UsYUFBQTtFQUNBLDhCQUFBO0FBWEo7QUFjRTtFQUNFLDBCQUFBO0FBWko7QUFlRTtFQUNFLHFCQUFBO0FBYko7QUFnQkU7RUFDRSxlQUFBO0VBQ0EsU0FBQTtBQWRKO0FBa0JBO0VBQ0U7SUFDRSxXQUFBO0lBQ0EsNkJBQUE7RUFmRjtFQWlCRTtJQUNFLGFBQUE7RUFmSjtFQWtCRTtJQUNFLGtCQUFBO0VBaEJKO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2N1c3RvbS1jYXJkL2N1c3RvbS1jYXJkLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uLy4uL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5hcHAtY3VzdG9tLWNhcmQge1xyXG4gIGZsZXg6IDEgMCAzMCU7XHJcbiAgbWFyZ2luOiAxNXB4O1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcblxyXG4gIC5tYXQtY2FyZCB7XHJcbiAgICBib3gtc2hhZG93OiAwcHggMHB4IDNweCAtMXB4ICRsaWdodGdyYXkgIWltcG9ydGFudDtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgaGVpZ2h0OiAtd2Via2l0LWZpbGwtYXZhaWxhYmxlO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBib3JkZXItcmFkaXVzOiB1bnNldDtcclxuICAgIHBhZGRpbmc6IHVuc2V0O1xyXG4gIH1cclxuXHJcbiAgLm1hdC1jYXJkLWFjdGlvbnMge1xyXG4gICAgbWFyZ2luOiAwICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG5cclxuICAuaW1hZ2Uge1xyXG4gICAgaGVpZ2h0OiAyNXZoO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICB9XHJcblxyXG4gIC50ZWNobm9sb2dpZXMge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZmxvdzogd3JhcDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgLm1hdC1jYXJkOmhvdmVyIHtcclxuICAgIC50ZWNobm9sb2dpZXMge1xyXG4gICAgICBzcGFuIHtcclxuICAgICAgICBjb2xvcjogJHByaW1hcnk7XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcblxyXG4gIC5tYXQtY2FyZC1jb250ZW50IHtcclxuICAgIG1hcmdpbi10b3A6IGF1dG87XHJcbiAgfVxyXG5cclxuICAubWF0LWNhcmQtYWN0aW9ucyB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gIH1cclxuXHJcbiAgLm1hdC1jYXJkLWhlYWRlci10ZXh0IHtcclxuICAgIHRleHQtYWxpZ246IC13ZWJraXQtY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgLm1hdC1jYXJkLWhlYWRlciB7XHJcbiAgICBwbGFjZS1jb250ZW50OiBjZW50ZXI7XHJcbiAgfVxyXG5cclxuICAubWF0LWNhcmQtaGVhZGVyIC5tYXQtY2FyZC10aXRsZSB7XHJcbiAgICBwYWRkaW5nOiAxMnB4IDA7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgfVxyXG59XHJcblxyXG5AbWVkaWEgKG1heC13aWR0aDogODUwcHgpIHtcclxuICBhcHAtY3VzdG9tLWNhcmQge1xyXG4gICAgZmxleDogdW5zZXQ7XHJcbiAgICB3aWR0aDogLXdlYmtpdC1maWxsLWF2YWlsYWJsZTtcclxuXHJcbiAgICAubWF0LWNhcmQtc3VidGl0bGUge1xyXG4gICAgICBkaXNwbGF5Om5vbmU7XHJcbiAgICB9XHJcblxyXG4gICAgLm1hdC1jYXJkLWNvbnRlbnQge1xyXG4gICAgICBtYXJnaW4tYm90dG9tOiA1cHg7XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiIsIiRibGFjazogIzE3MDQwNDtcclxuJGRhcmtQcmltYXJ5OiAjNjIxMTExO1xyXG4kbGlnaHRncmF5OiAjZmNkZWRlO1xyXG4kd2hpdGU6ICNmZmY7XHJcbiRwcmltYXJ5OiAjZDAyOTI5O1xyXG4kcHJpbWFyeW9wYWNpdHk6ICNkMDI5MjkxMjsiXX0= */"],
+        styles: ["app-custom-card {\n  flex: 1 0 30%;\n  margin: 15px;\n  display: flex;\n}\napp-custom-card .mat-card {\n  box-shadow: 0px 0px 3px -1px #fcdede !important;\n  display: flex;\n  flex-direction: column;\n  height: -webkit-fill-available;\n  width: 100%;\n  border-radius: unset;\n  padding: unset;\n}\napp-custom-card .mat-card-actions {\n  margin: 0 !important;\n}\napp-custom-card .image {\n  height: 25vh;\n  background-size: cover;\n  background-position: center;\n}\napp-custom-card .technologies {\n  display: flex;\n  flex-flow: wrap;\n  justify-content: center;\n}\napp-custom-card .mat-card:hover .technologies span {\n  color: #d02929;\n}\napp-custom-card .mat-card-content {\n  margin-top: auto;\n}\napp-custom-card .mat-card-actions {\n  display: flex;\n  justify-content: space-between;\n}\napp-custom-card .mat-card-header-text {\n  text-align: -webkit-center;\n}\napp-custom-card .mat-card-header {\n  place-content: center;\n}\napp-custom-card .mat-card-header .mat-card-title {\n  padding: 12px 0;\n  margin: 0;\n}\n@media (max-width: 850px) {\n  app-custom-card {\n    flex: unset;\n    width: -webkit-fill-available;\n  }\n  app-custom-card .mat-card-subtitle {\n    display: none;\n  }\n  app-custom-card .mat-card-content {\n    margin-bottom: 10px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jdXN0b20tY2FyZC9jdXN0b20tY2FyZC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvdmFyaWFibGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxhQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7QUFERjtBQUdFO0VBQ0UsK0NBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSw4QkFBQTtFQUNBLFdBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7QUFESjtBQUlFO0VBQ0Usb0JBQUE7QUFGSjtBQUtFO0VBQ0UsWUFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7QUFISjtBQU1FO0VBQ0UsYUFBQTtFQUNBLGVBQUE7RUFDQSx1QkFBQTtBQUpKO0FBU007RUFDRSxjQ2hDRTtBRHlCVjtBQVlFO0VBQ0UsZ0JBQUE7QUFWSjtBQWFFO0VBQ0UsYUFBQTtFQUNBLDhCQUFBO0FBWEo7QUFjRTtFQUNFLDBCQUFBO0FBWko7QUFlRTtFQUNFLHFCQUFBO0FBYko7QUFnQkU7RUFDRSxlQUFBO0VBQ0EsU0FBQTtBQWRKO0FBa0JBO0VBQ0U7SUFDRSxXQUFBO0lBQ0EsNkJBQUE7RUFmRjtFQWlCRTtJQUNFLGFBQUE7RUFmSjtFQWtCRTtJQUNFLG1CQUFBO0VBaEJKO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2N1c3RvbS1jYXJkL2N1c3RvbS1jYXJkLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uLy4uL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5hcHAtY3VzdG9tLWNhcmQge1xyXG4gIGZsZXg6IDEgMCAzMCU7XHJcbiAgbWFyZ2luOiAxNXB4O1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcblxyXG4gIC5tYXQtY2FyZCB7XHJcbiAgICBib3gtc2hhZG93OiAwcHggMHB4IDNweCAtMXB4ICRsaWdodGdyYXkgIWltcG9ydGFudDtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgaGVpZ2h0OiAtd2Via2l0LWZpbGwtYXZhaWxhYmxlO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBib3JkZXItcmFkaXVzOiB1bnNldDtcclxuICAgIHBhZGRpbmc6IHVuc2V0O1xyXG4gIH1cclxuXHJcbiAgLm1hdC1jYXJkLWFjdGlvbnMge1xyXG4gICAgbWFyZ2luOiAwICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG5cclxuICAuaW1hZ2Uge1xyXG4gICAgaGVpZ2h0OiAyNXZoO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICB9XHJcblxyXG4gIC50ZWNobm9sb2dpZXMge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZmxvdzogd3JhcDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgLm1hdC1jYXJkOmhvdmVyIHtcclxuICAgIC50ZWNobm9sb2dpZXMge1xyXG4gICAgICBzcGFuIHtcclxuICAgICAgICBjb2xvcjogJHByaW1hcnk7XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcblxyXG4gIC5tYXQtY2FyZC1jb250ZW50IHtcclxuICAgIG1hcmdpbi10b3A6IGF1dG87XHJcbiAgfVxyXG5cclxuICAubWF0LWNhcmQtYWN0aW9ucyB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gIH1cclxuXHJcbiAgLm1hdC1jYXJkLWhlYWRlci10ZXh0IHtcclxuICAgIHRleHQtYWxpZ246IC13ZWJraXQtY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgLm1hdC1jYXJkLWhlYWRlciB7XHJcbiAgICBwbGFjZS1jb250ZW50OiBjZW50ZXI7XHJcbiAgfVxyXG5cclxuICAubWF0LWNhcmQtaGVhZGVyIC5tYXQtY2FyZC10aXRsZSB7XHJcbiAgICBwYWRkaW5nOiAxMnB4IDA7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgfVxyXG59XHJcblxyXG5AbWVkaWEgKG1heC13aWR0aDogODUwcHgpIHtcclxuICBhcHAtY3VzdG9tLWNhcmQge1xyXG4gICAgZmxleDogdW5zZXQ7XHJcbiAgICB3aWR0aDogLXdlYmtpdC1maWxsLWF2YWlsYWJsZTtcclxuXHJcbiAgICAubWF0LWNhcmQtc3VidGl0bGUge1xyXG4gICAgICBkaXNwbGF5Om5vbmU7XHJcbiAgICB9XHJcblxyXG4gICAgLm1hdC1jYXJkLWNvbnRlbnQge1xyXG4gICAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG4gICAgfVxyXG4gIH1cclxufVxyXG4iLCIkYmxhY2s6ICMxNzA0MDQ7XHJcbiRkYXJrUHJpbWFyeTogIzYyMTExMTtcclxuJGxpZ2h0Z3JheTogI2ZjZGVkZTtcclxuJHdoaXRlOiAjZmZmO1xyXG4kcHJpbWFyeTogI2QwMjkyOTtcclxuJHByaW1hcnlvcGFjaXR5OiAjZDAyOTI5MTI7Il19 */"],
         encapsulation: 2
       });
       /*@__PURE__*/
@@ -4930,13 +4930,19 @@
       /* harmony import */
 
 
-      var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! rxjs/operators */
+      "kU1M");
+      /* harmony import */
+
+
+      var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/common/http */
       "IheW");
       /* harmony import */
 
 
-      var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @angular/router */
       "iInd");
 
@@ -5002,21 +5008,24 @@
             var _this5 = this;
 
             var dataMapped = [];
-            this.http.get('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=9').subscribe(function (data) {
+            this.http.get('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=9').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
               dataMapped = [];
               data.forEach(function (element) {
                 var newProject = new _data_model__WEBPACK_IMPORTED_MODULE_2__["ProjectModel"]();
                 newProject.name = element.name;
                 newProject.code = element.html_url;
                 newProject.live = element.homepage;
+                newProject.technologies = [element.languages_url];
                 newProject.noDetails = true;
                 newProject.logo = "./../assets/projects/github/".concat(element.name, ".png");
-
-                _this5.http.get(element.languages_url).subscribe(function (response) {
-                  return newProject.technologies = response.data ? Object.keys(response.data) : [];
-                });
-
                 dataMapped.push(newProject);
+              });
+              return dataMapped;
+            })).subscribe(function (data) {
+              data.forEach(function (element) {
+                _this5.http.get(element.technologies[0]).subscribe(function (response) {
+                  element.technologies = response ? Object.keys(response) : [];
+                });
               });
 
               _this5.repositories.next(dataMapped);
@@ -5035,7 +5044,7 @@
       }();
 
       CommonsService.ɵfac = function CommonsService_Factory(t) {
-        return new (t || CommonsService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]));
+        return new (t || CommonsService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]));
       };
 
       CommonsService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
@@ -5053,9 +5062,9 @@
           }]
         }], function () {
           return [{
-            type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]
+            type: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"]
           }, {
-            type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]
+            type: _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]
           }];
         }, null);
       })();

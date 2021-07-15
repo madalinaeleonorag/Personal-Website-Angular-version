@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { BehaviorSubject, Subject } from 'rxjs';
 import { ProjectModel, PublicationModel } from './data.model';
+import { map } from 'rxjs/operators';
 import { Octokit } from '@octokit/core';
 
 
@@ -33,9 +34,9 @@ export class CommonsService {
     this.http.get<any>('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@madalinaeleonorag').subscribe(data => {
       switch (true) {
         case data.items.length > 7: articlesToShow = [...data.items.slice(0, 6)];
-          break;
+                                    break;
         default: articlesToShow = [...data.items];
-          break;
+                 break;
       }
 
       this.publications.next(articlesToShow);
@@ -60,24 +61,31 @@ export class CommonsService {
 
     let dataMapped: ProjectModel[] = [];
 
-    this.http.get<any>('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=9')
+    this.http.get<any>('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=9').pipe(map(data => {
+
+      dataMapped = [];
+
+      data.forEach(element => {
+        const newProject: ProjectModel = new ProjectModel();
+
+        newProject.name = element.name;
+        newProject.code = element.html_url;
+        newProject.live = element.homepage;
+        newProject.technologies = [element.languages_url];
+        newProject.noDetails = true;
+        newProject.logo = `./../assets/projects/github/${element.name}.png`;
+        dataMapped.push(newProject);
+      });
+
+      return dataMapped;
+    }))
       .subscribe(data => {
 
-        dataMapped = [];
-
         data.forEach(element => {
-          const newProject: ProjectModel = new ProjectModel();
-
-          newProject.name = element.name;
-          newProject.code = element.html_url;
-          newProject.live = element.homepage;
-          newProject.noDetails = true;
-          newProject.logo = `./../assets/projects/github/${element.name}.png`;
-
-          this.http.get<any>(element.languages_url)
-            .subscribe(response => newProject.technologies = response.data ? Object.keys(response.data) : [])
-
-          dataMapped.push(newProject);
+          this.http.get<any>(element.technologies[0])
+            .subscribe(response => {
+              element.technologies = response ? Object.keys(response) : [];
+            });
         });
 
         this.repositories.next(dataMapped);
