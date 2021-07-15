@@ -4912,37 +4912,31 @@
       /* harmony import */
 
 
-      var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! @angular/common/http */
-      "IheW");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
       "8Y7J");
       /* harmony import */
 
 
-      var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! rxjs */
       "qCKp");
       /* harmony import */
 
 
-      var _data_model__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _data_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! ./data.model */
       "PUJg");
       /* harmony import */
 
 
-      var _octokit_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-      /*! @octokit/core */
-      "m+yY");
+      var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! @angular/common/http */
+      "IheW");
       /* harmony import */
 
 
-      var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/router */
       "iInd");
 
@@ -4952,9 +4946,9 @@
 
           this.http = http;
           this.router = router;
-          this.publications = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
+          this.publications = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
           this.publications$ = this.publications.asObservable();
-          this.repositories = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]([]);
+          this.repositories = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"]([]);
           this.repositories$ = this.repositories.asObservable();
         }
 
@@ -5008,27 +5002,20 @@
             var _this5 = this;
 
             var dataMapped = [];
-            var octokit = new _octokit_core__WEBPACK_IMPORTED_MODULE_4__["Octokit"]({
-              auth: "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"
-            });
-            var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]().set('Content-Type', 'application/vnd.github.nebula-preview+json');
-            this.http.get('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=9', {
-              headers: headers
-            }).subscribe(function (data) {
+            this.http.get('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=9').subscribe(function (data) {
               dataMapped = [];
               data.forEach(function (element) {
-                var newProject = new _data_model__WEBPACK_IMPORTED_MODULE_3__["ProjectModel"]();
+                var newProject = new _data_model__WEBPACK_IMPORTED_MODULE_2__["ProjectModel"]();
                 newProject.name = element.name;
                 newProject.code = element.html_url;
                 newProject.live = element.homepage;
                 newProject.noDetails = true;
                 newProject.logo = "./../assets/projects/github/".concat(element.name, ".png");
-                octokit.request("GET ".concat(element.languages_url), {}).then(function (response) {
-                  newProject.technologies = response.data ? Object.keys(response.data) : [];
-                })["catch"](function (err) {
-                  newProject.technologies = [];
-                  console.clear();
+
+                _this5.http.get(element.languages_url).subscribe(function (response) {
+                  return newProject.technologies = response.data ? Object.keys(response.data) : [];
                 });
+
                 dataMapped.push(newProject);
               });
 
@@ -5048,10 +5035,10 @@
       }();
 
       CommonsService.ɵfac = function CommonsService_Factory(t) {
-        return new (t || CommonsService)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]));
+        return new (t || CommonsService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]));
       };
 
-      CommonsService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
+      CommonsService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
         token: CommonsService,
         factory: CommonsService.ɵfac,
         providedIn: 'root'
@@ -5059,16 +5046,16 @@
       /*@__PURE__*/
 
       (function () {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](CommonsService, [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"],
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CommonsService, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
           args: [{
             providedIn: 'root'
           }]
         }], function () {
           return [{
-            type: _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClient"]
+            type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]
           }, {
-            type: _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]
+            type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]
           }];
         }, null);
       })();

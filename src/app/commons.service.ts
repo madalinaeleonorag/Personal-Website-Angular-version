@@ -60,10 +60,7 @@ export class CommonsService {
 
     let dataMapped: ProjectModel[] = [];
 
-    const octokit = new Octokit({ auth: `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` });
-    const headers = new HttpHeaders().set('Content-Type', 'application/vnd.github.nebula-preview+json');
-
-    this.http.get<any>('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=9', { headers })
+    this.http.get<any>('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=9')
       .subscribe(data => {
 
         dataMapped = [];
@@ -77,13 +74,8 @@ export class CommonsService {
           newProject.noDetails = true;
           newProject.logo = `./../assets/projects/github/${element.name}.png`;
 
-          octokit.request(`GET ${element.languages_url}`, {})
-            .then(response => {
-              newProject.technologies = response.data ? Object.keys(response.data) : [];
-            }).catch(err => {
-              newProject.technologies = [];
-              console.clear();
-            });
+          this.http.get<any>(element.languages_url)
+            .subscribe(response => newProject.technologies = response.data ? Object.keys(response.data) : [])
 
           dataMapped.push(newProject);
         });
