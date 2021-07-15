@@ -1987,15 +1987,8 @@
         _createClass(AppComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            this.cookieConsoleMessage();
             this.commonsService.getDataFromAPIs();
-          }
-        }, {
-          key: "cookieConsoleMessage",
-          value: function cookieConsoleMessage() {
-            var consoleSignatureStyle = 'font-size: 12px;' + 'background: #a50c0c;' + 'color: white;' + 'text-align: center;' + 'padding: 5px 10px;' + 'margin: 5px 0;' + 'width: 100%;' + 'border-radius: 20px;';
-            var consoleSignatureText = '%cDon\'t steal my cookies! 🍪';
-            console.log(consoleSignatureText, consoleSignatureStyle);
+            this.commonsService.cookieConsoleMessage();
           }
         }]);
 
@@ -2344,7 +2337,7 @@
         selectors: [["app-project-details"]],
         decls: 13,
         vars: 11,
-        consts: [[1, "image", 3, "ngStyle"], [1, "summary"], [1, "name"], [1, "date"], [4, "ngIf"], [1, "actions-buttons"], ["buttonText", "Demo", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "</ See code >", 3, "isFilledButton", "click", 4, "ngIf"], ["class", "technologies", 4, "ngIf"], [1, "description", 3, "innerHTML"], ["buttonText", "Demo", 3, "isFilledButton", "click"], ["buttonText", "</ See code >", 3, "isFilledButton", "click"], [1, "technologies"], [3, "text", 4, "ngFor", "ngForOf"], [3, "text"], [4, "ngFor", "ngForOf"], [3, "id", "modalImages", "slideConfig"]],
+        consts: [[1, "image", 3, "ngStyle"], [1, "summary"], [1, "name"], [1, "date"], [4, "ngIf"], [1, "actions-buttons"], ["buttonText", "See live", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "</ See code >", 3, "isFilledButton", "click", 4, "ngIf"], ["class", "technologies", 4, "ngIf"], [1, "description", 3, "innerHTML"], ["buttonText", "See live", 3, "isFilledButton", "click"], ["buttonText", "</ See code >", 3, "isFilledButton", "click"], [1, "technologies"], [3, "text", 4, "ngFor", "ngForOf"], [3, "text"], [4, "ngFor", "ngForOf"], [3, "id", "modalImages", "slideConfig"]],
         template: function ProjectDetailsComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 0);
@@ -3716,7 +3709,7 @@
         },
         decls: 14,
         vars: 9,
-        consts: [["class", "image", 3, "ngStyle", 4, "ngIf"], [3, "innerHTML"], [4, "ngIf"], ["class", "technologies", 4, "ngIf"], ["buttonText", "</Code>", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "Demo", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "See details", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "Read article", 3, "isFilledButton", "click", 4, "ngIf"], [1, "image", 3, "ngStyle"], [1, "technologies"], [3, "text", 4, "ngFor", "ngForOf"], [3, "text"], ["buttonText", "</Code>", 3, "isFilledButton", "click"], ["buttonText", "Demo", 3, "isFilledButton", "click"], ["buttonText", "See details", 3, "isFilledButton", "click"], ["buttonText", "Read article", 3, "isFilledButton", "click"]],
+        consts: [["class", "image", 3, "ngStyle", 4, "ngIf"], [3, "innerHTML"], [4, "ngIf"], ["class", "technologies", 4, "ngIf"], ["buttonText", "</Code>", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "See live", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "See details", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "Read article", 3, "isFilledButton", "click", 4, "ngIf"], [1, "image", 3, "ngStyle"], [1, "technologies"], [3, "text", 4, "ngFor", "ngForOf"], [3, "text"], ["buttonText", "</Code>", 3, "isFilledButton", "click"], ["buttonText", "See live", 3, "isFilledButton", "click"], ["buttonText", "See details", 3, "isFilledButton", "click"], ["buttonText", "Read article", 3, "isFilledButton", "click"]],
         template: function CustomCardComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-card");
@@ -5019,11 +5012,10 @@
               auth: "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"
             });
             var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]().set('Content-Type', 'application/vnd.github.nebula-preview+json');
-            this.http.get('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=30', {
+            this.http.get('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=9', {
               headers: headers
             }).subscribe(function (data) {
               dataMapped = [];
-              console.log('data', data);
               data.forEach(function (element) {
                 var newProject = new _data_model__WEBPACK_IMPORTED_MODULE_3__["ProjectModel"]();
                 newProject.name = element.name;
@@ -5033,12 +5025,22 @@
                 newProject.logo = "./../assets/projects/github/".concat(element.name, ".png");
                 octokit.request("GET ".concat(element.languages_url), {}).then(function (response) {
                   newProject.technologies = response.data ? Object.keys(response.data) : [];
+                })["catch"](function (err) {
+                  newProject.technologies = [];
+                  console.clear();
                 });
                 dataMapped.push(newProject);
               });
 
               _this5.repositories.next(dataMapped);
             });
+          }
+        }, {
+          key: "cookieConsoleMessage",
+          value: function cookieConsoleMessage() {
+            var consoleSignatureStyle = 'font-size: 12px;' + 'background: #a50c0c;' + 'color: white;' + 'text-align: center;' + 'padding: 5px 10px;' + 'margin: 5px 0;' + 'width: 100%;' + 'border-radius: 20px;';
+            var consoleSignatureText = '%cDon\'t steal my cookies! 🍪';
+            console.log(consoleSignatureText, consoleSignatureStyle);
           }
         }]);
 

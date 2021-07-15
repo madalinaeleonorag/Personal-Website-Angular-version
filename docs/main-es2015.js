@@ -1073,20 +1073,8 @@ class AppComponent {
         this.commonsService = commonsService;
     }
     ngOnInit() {
-        this.cookieConsoleMessage();
         this.commonsService.getDataFromAPIs();
-    }
-    cookieConsoleMessage() {
-        const consoleSignatureStyle = 'font-size: 12px;' +
-            'background: #a50c0c;' +
-            'color: white;' +
-            'text-align: center;' +
-            'padding: 5px 10px;' +
-            'margin: 5px 0;' +
-            'width: 100%;' +
-            'border-radius: 20px;';
-        const consoleSignatureText = '%cDon\'t steal my cookies! 🍪';
-        console.log(consoleSignatureText, consoleSignatureStyle);
+        this.commonsService.cookieConsoleMessage();
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_commons_service__WEBPACK_IMPORTED_MODULE_1__["CommonsService"])); };
@@ -1243,7 +1231,7 @@ class ProjectDetailsComponent {
     }
 }
 ProjectDetailsComponent.ɵfac = function ProjectDetailsComponent_Factory(t) { return new (t || ProjectDetailsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_commons_service__WEBPACK_IMPORTED_MODULE_4__["CommonsService"])); };
-ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectDetailsComponent, selectors: [["app-project-details"]], decls: 13, vars: 11, consts: [[1, "image", 3, "ngStyle"], [1, "summary"], [1, "name"], [1, "date"], [4, "ngIf"], [1, "actions-buttons"], ["buttonText", "Demo", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "</ See code >", 3, "isFilledButton", "click", 4, "ngIf"], ["class", "technologies", 4, "ngIf"], [1, "description", 3, "innerHTML"], ["buttonText", "Demo", 3, "isFilledButton", "click"], ["buttonText", "</ See code >", 3, "isFilledButton", "click"], [1, "technologies"], [3, "text", 4, "ngFor", "ngForOf"], [3, "text"], [4, "ngFor", "ngForOf"], [3, "id", "modalImages", "slideConfig"]], template: function ProjectDetailsComponent_Template(rf, ctx) { if (rf & 1) {
+ProjectDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectDetailsComponent, selectors: [["app-project-details"]], decls: 13, vars: 11, consts: [[1, "image", 3, "ngStyle"], [1, "summary"], [1, "name"], [1, "date"], [4, "ngIf"], [1, "actions-buttons"], ["buttonText", "See live", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "</ See code >", 3, "isFilledButton", "click", 4, "ngIf"], ["class", "technologies", 4, "ngIf"], [1, "description", 3, "innerHTML"], ["buttonText", "See live", 3, "isFilledButton", "click"], ["buttonText", "</ See code >", 3, "isFilledButton", "click"], [1, "technologies"], [3, "text", 4, "ngFor", "ngForOf"], [3, "text"], [4, "ngFor", "ngForOf"], [3, "id", "modalImages", "slideConfig"]], template: function ProjectDetailsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1955,7 +1943,7 @@ class CustomCardComponent {
     }
 }
 CustomCardComponent.ɵfac = function CustomCardComponent_Factory(t) { return new (t || CustomCardComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_commons_service__WEBPACK_IMPORTED_MODULE_1__["CommonsService"])); };
-CustomCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CustomCardComponent, selectors: [["app-custom-card"]], inputs: { data: "data", type: "type" }, decls: 14, vars: 9, consts: [["class", "image", 3, "ngStyle", 4, "ngIf"], [3, "innerHTML"], [4, "ngIf"], ["class", "technologies", 4, "ngIf"], ["buttonText", "</Code>", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "Demo", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "See details", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "Read article", 3, "isFilledButton", "click", 4, "ngIf"], [1, "image", 3, "ngStyle"], [1, "technologies"], [3, "text", 4, "ngFor", "ngForOf"], [3, "text"], ["buttonText", "</Code>", 3, "isFilledButton", "click"], ["buttonText", "Demo", 3, "isFilledButton", "click"], ["buttonText", "See details", 3, "isFilledButton", "click"], ["buttonText", "Read article", 3, "isFilledButton", "click"]], template: function CustomCardComponent_Template(rf, ctx) { if (rf & 1) {
+CustomCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CustomCardComponent, selectors: [["app-custom-card"]], inputs: { data: "data", type: "type" }, decls: 14, vars: 9, consts: [["class", "image", 3, "ngStyle", 4, "ngIf"], [3, "innerHTML"], [4, "ngIf"], ["class", "technologies", 4, "ngIf"], ["buttonText", "</Code>", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "See live", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "See details", 3, "isFilledButton", "click", 4, "ngIf"], ["buttonText", "Read article", 3, "isFilledButton", "click", 4, "ngIf"], [1, "image", 3, "ngStyle"], [1, "technologies"], [3, "text", 4, "ngFor", "ngForOf"], [3, "text"], ["buttonText", "</Code>", 3, "isFilledButton", "click"], ["buttonText", "See live", 3, "isFilledButton", "click"], ["buttonText", "See details", 3, "isFilledButton", "click"], ["buttonText", "Read article", 3, "isFilledButton", "click"]], template: function CustomCardComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-card");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, CustomCardComponent_div_1_Template, 1, 3, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-card-header");
@@ -2577,10 +2565,9 @@ class CommonsService {
         let dataMapped = [];
         const octokit = new _octokit_core__WEBPACK_IMPORTED_MODULE_4__["Octokit"]({ auth: `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` });
         const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]().set('Content-Type', 'application/vnd.github.nebula-preview+json');
-        this.http.get('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=30', { headers })
+        this.http.get('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=9', { headers })
             .subscribe(data => {
             dataMapped = [];
-            console.log('data', data);
             data.forEach(element => {
                 const newProject = new _data_model__WEBPACK_IMPORTED_MODULE_3__["ProjectModel"]();
                 newProject.name = element.name;
@@ -2591,11 +2578,26 @@ class CommonsService {
                 octokit.request(`GET ${element.languages_url}`, {})
                     .then(response => {
                     newProject.technologies = response.data ? Object.keys(response.data) : [];
+                }).catch(err => {
+                    newProject.technologies = [];
+                    console.clear();
                 });
                 dataMapped.push(newProject);
             });
             this.repositories.next(dataMapped);
         });
+    }
+    cookieConsoleMessage() {
+        const consoleSignatureStyle = 'font-size: 12px;' +
+            'background: #a50c0c;' +
+            'color: white;' +
+            'text-align: center;' +
+            'padding: 5px 10px;' +
+            'margin: 5px 0;' +
+            'width: 100%;' +
+            'border-radius: 20px;';
+        const consoleSignatureText = '%cDon\'t steal my cookies! 🍪';
+        console.log(consoleSignatureText, consoleSignatureStyle);
     }
 }
 CommonsService.ɵfac = function CommonsService_Factory(t) { return new (t || CommonsService)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"])); };

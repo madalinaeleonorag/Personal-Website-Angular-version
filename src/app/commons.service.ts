@@ -63,11 +63,11 @@ export class CommonsService {
     const octokit = new Octokit({ auth: `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` });
     const headers = new HttpHeaders().set('Content-Type', 'application/vnd.github.nebula-preview+json');
 
-    this.http.get<any>('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=30', { headers })
+    this.http.get<any>('https://api.github.com/users/madalinaeleonorag/repos?type=public&sort=pushed&per_page=9', { headers })
       .subscribe(data => {
 
         dataMapped = [];
-        console.log('data', data);
+
         data.forEach(element => {
           const newProject: ProjectModel = new ProjectModel();
 
@@ -80,6 +80,9 @@ export class CommonsService {
           octokit.request(`GET ${element.languages_url}`, {})
             .then(response => {
               newProject.technologies = response.data ? Object.keys(response.data) : [];
+            }).catch(err => {
+              newProject.technologies = [];
+              console.clear();
             });
 
           dataMapped.push(newProject);
@@ -87,5 +90,21 @@ export class CommonsService {
 
         this.repositories.next(dataMapped);
       });
+  }
+
+  public cookieConsoleMessage(): void {
+
+    const consoleSignatureStyle = 'font-size: 12px;' +
+      'background: #a50c0c;' +
+      'color: white;' +
+      'text-align: center;' +
+      'padding: 5px 10px;' +
+      'margin: 5px 0;' +
+      'width: 100%;' +
+      'border-radius: 20px;';
+
+    const consoleSignatureText = '%cDon\'t steal my cookies! 🍪';
+
+    console.log(consoleSignatureText, consoleSignatureStyle);
   }
 }
