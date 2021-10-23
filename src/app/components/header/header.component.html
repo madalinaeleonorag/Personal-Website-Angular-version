@@ -36,6 +36,9 @@
   <a target="_blank" href="https://github.com/madalinaeleonorag">
     <app-custom-svg type="github"></app-custom-svg>
   </a>
+  <div (click)="changeTheme()" class="theme-change">
+    {{ themeEmoji}}
+  </div>
   <app-custom-button
   buttonText="&#60;/Resume&#62;"
   [isFilledButton]="false"

@@ -1,11 +1,8 @@
-@import "../../variables.scss";
-
 app-skills {
   display: flex;
   flex-flow: column;
 
   .category {
-
     .category-name {
       font-weight: bold;
       padding: 5vh 0;
@@ -42,8 +39,7 @@ app-skills {
       }
 
       .name {
-        font-weight: bold;
-        color:white;
+        color: var(--white);
       }
     }
   }

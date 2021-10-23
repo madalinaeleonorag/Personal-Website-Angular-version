@@ -4,7 +4,6 @@ import { Router } from '@angular/router';
 import { BehaviorSubject, Subject } from 'rxjs';
 import { ProjectModel, PublicationModel } from './data.model';
 import { map } from 'rxjs/operators';
-import { Octokit } from '@octokit/core';
 
 
 @Injectable({
@@ -12,10 +11,18 @@ import { Octokit } from '@octokit/core';
 })
 export class CommonsService {
 
+  public isDarkThemeDefault = localStorage.getItem('theme')
+    ? localStorage.getItem('theme')
+      && localStorage.getItem('theme') === 'dark' ? true : false
+    : true;
+
   public publications = new Subject<PublicationModel[]>();
   public publications$ = this.publications.asObservable();
   public repositories = new BehaviorSubject<ProjectModel[]>([]);
   public repositories$ = this.repositories.asObservable();
+  public changeTheme = new BehaviorSubject<boolean>(this.isDarkThemeDefault);
+  public changeTheme$ = this.changeTheme.asObservable();
+
 
   constructor(
     private http: HttpClient,
@@ -34,9 +41,9 @@ export class CommonsService {
     this.http.get<any>('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@madalinaeleonorag').subscribe(data => {
       switch (true) {
         case data.items.length > 7: articlesToShow = [...data.items.slice(0, 6)];
-                                    break;
+          break;
         default: articlesToShow = [...data.items];
-                 break;
+          break;
       }
 
       this.publications.next(articlesToShow);

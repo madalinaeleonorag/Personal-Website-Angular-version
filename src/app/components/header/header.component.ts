@@ -11,6 +11,9 @@ import { CommonsService } from 'src/app/commons.service';
 export class HeaderComponent implements OnInit {
 
   private selectedPageUrl = '/';
+  private isDarkThemeSelected = false;
+
+  public themeEmoji: string;
 
   constructor(private router: Router, private commonsService: CommonsService) {
     this.router.events.subscribe(() => {
@@ -19,6 +22,10 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.commonsService.changeTheme$.subscribe(isDarkTheme => {
+      this.isDarkThemeSelected = isDarkTheme;
+      this.themeEmoji = isDarkTheme ? '☀️' : '🌙';
+    });
   }
 
   public goToPage(page: string): void {
@@ -33,4 +40,9 @@ export class HeaderComponent implements OnInit {
     this.commonsService.openNewTab('./../../../assets/CV.pdf');
   }
 
+  public changeTheme(): void {
+    this.isDarkThemeSelected
+      ? this.commonsService.changeTheme.next(false)
+      : this.commonsService.changeTheme.next(true);
+  }
 }

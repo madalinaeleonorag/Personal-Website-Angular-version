@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+
 
 app-experience {
 
@@ -6,15 +6,15 @@ app-experience {
     margin: 5vh;
     text-align-last: center;
     font-size: 1.5rem;
-    color: $white;
+    color: var(--white);
   }
 
   .other-work-experiences {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: column;
 
     app-experience-card {
-      flex: 0 0 50%;
+      padding: 1vh 0;
     }
   }
 }

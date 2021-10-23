@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+
 
 app-awards .award-wrapper {
   .header {
@@ -21,13 +21,13 @@ app-awards .award-wrapper {
       .name {
         font-weight: bold;
         font-size: 1.5rem;
-        color: $primary;
+        color: var(--primary);
         margin: 10px 0;
       }
 
       .date {
         font-weight: bold;
-        color: $lightgray;
+        color: var(--lightgray);
       }
     }
   }

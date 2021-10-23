@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+
 
 app-skill-card {
   display: flex;
@@ -17,8 +17,7 @@ app-skill-card {
 
   .name {
     padding: 5px;
-    font-weight: bold;
-    color: $black;
+    color: var(--black);
   }
 
   .progress {

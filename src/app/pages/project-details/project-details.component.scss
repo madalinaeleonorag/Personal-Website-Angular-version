@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+
 
 app-project-details {
   display: flex;
@@ -23,7 +23,7 @@ app-project-details {
     }
     .date {
       padding-top: 5px;
-      color: $lightgray;
+      color: var(--lightgray);
       font-weight: normal;
     }
 

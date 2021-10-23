@@ -88,6 +88,13 @@ export const SKILLS = [
 
 export const CERTIFICATIONS = [
     {
+        logo: '../assets/certifications/Think-like-a-hacker.png',
+        name: 'Think like a hacker',
+        organization: 'IBM',
+        issueDate: 'Sep 2021',
+        url: 'https://www.credly.com/badges/2b0b25bd-328e-45c3-8248-85e09c380ef2'
+    },
+    {
         logo: '../assets/certifications/IBM_Cloud_Essentials.png',
         name: 'IBM Cloud Essentials',
         organization: 'IBM',
@@ -117,7 +124,7 @@ export const CERTIFICATIONS = [
     },
     {
         logo: '../assets/certifications/JavaScript-Front-End-Development.png',
-        name: 'JavaScript Front End Development',
+        name: 'JavaScript Frontend Development',
         organization: 'IBM',
         issueDate: 'Dec 2020',
         url: 'https://www.youracclaim.com/badges/b6792b26-e919-4de1-bc24-d4192439aa50'
@@ -187,13 +194,44 @@ export const AWARDS = [
 
 export const EXPERIENCE = [
     {
-        companyName: 'IBM iX',
-        role: 'Front End Developer',
-        dateStart: 'Dec 2018',
+        companyName: 'Deloitte Digital',
+        role: 'Frontend Developer / Consultant',
+        dateStart: 'Oct 2021',
         dateEnd: 'Present',
         location: 'Bucharest, Romania',
         description: `
-            <h3>Client 1</h3>
+            <h4>Assignment description:</h4>
+            <ul>
+            <li>I analyze and study the aspects of the program, decide the objectives to be achieved;</li>
+            <li>I design and implement quality applications, using technologies specific to each project, being up to date with news in the field;</li>
+            <li>I test the made product and I make the adequate documentation;</li>
+            <li>I perform maintenance for existing projects;</li>
+            <li>I make objective proposals for development and design;</li>
+            <li>I communicate with clients and their representatives, I identify clients' needs and propose optimal solutions to them, participating in all meetings;</li>
+            <li>I constantly participate in professional training courses and provide mentoring for other colleagues.</li>
+            </ul>
+            <b>Overall technologies:</b> HTML, CSS, JavaScript, REST<br><br>
+            <h3>Client 1 - United Arab Emirates</h3>
+            <i>10/2021 - to date</i><br>
+            Industry: Banking<br>
+            <h4>Assignment description:</h4>
+            <ul>
+            <li>Integrate <a href="https://www2.deloitte.com/uk/en/pages/financial-services/solutions/alphaplatform.html">Alpha</a> platform;</li>
+            <li>Collaborate with back-end developers and web designers to improve usability.</li>
+            </ul>
+            <b>Technologies:</b> Angular, Sass, TypeScript, REST<br>
+        `,
+        companyLogo: '../assets/logos/deloitte.jpg',
+        skill: ['Angular', 'Sass', 'TypeScript', 'REST', 'Jira']
+    },
+    {
+        companyName: 'IBM iX',
+        role: 'Frontend Developer',
+        dateStart: 'Dec 2018',
+        dateEnd: 'Oct 2021',
+        location: 'Bucharest, Romania',
+        description: `
+            <h3>Client 1 - Germany</h3>
             <i>03/2019 - 03/2020</i><br>
             Industry: Insurance<br>
             <h4>Assignment description:</h4>
@@ -203,7 +241,7 @@ export const EXPERIENCE = [
             <li>Get feedback from, and build solutions for, users and customers;</li>
             <li>Create quality mockups and prototypes;</li>
             <li>Stay up-to-date on emerging technologies;</li>
-            <li>Participate in shadowing sessions with Senior Front End Developers in solving different problems;</li>
+            <li>Participate in shadowing sessions with Senior Frontend Developers in solving different problems;</li>
             <li>Attended relevant courses for the knowledge used in my field;</li>
             <li>Investigate and fixed vulnerabilities in packages.</li>
             </ul>
@@ -215,7 +253,7 @@ export const EXPERIENCE = [
             <li>Participated in every meeting and decision in a proactive way in order to deliver a quality and clean code which meets the client requirements. I also suggested various changes to the design that was taken into account.</li>
             </ul>
             <b>Technologies:</b> Angular, Ionic, Sass, TypeScript, REST, Capacitor, RxJs<br><br>
-            <h3>Client 2</h3>
+            <h3>Client 2 - United Kingdom</h3>
             <i>03/2020 - 03/2020</i><br>
             Industry: Retail<br>
             <h4>Assignment description:</h4>
@@ -229,8 +267,8 @@ export const EXPERIENCE = [
             <li>Created dynamic forms using Formik framework for the registration of new plastic free materials.</li>
             </ul>
             <b>Technologies:</b> React.js<br><br>
-            <h3>Client 3</h3>
-            <i>04/2020 - to date</i><br>
+            <h3>Client 3 - United States</h3>
+            <i>04/2020 - 10/2021</i><br>
             Industry: Retail</h4>
             <h4>Assignment description:</h4>
             <ul>
@@ -243,10 +281,10 @@ export const EXPERIENCE = [
             <li>Learned better ways to solve the problems that appears during the development;</li>
             <li>Delivered WYSIWYG (What You See Is What You Get), a feature that wants to improve the customer experience regarding the promotional codes.The first phase included changing the design of both coupons and product promotions, including more descriptive text and a user-friendly design, changes made throughout the application, on all banners. In the same phase was included the creation of the right drawer, which replaces the pop-up with the description of the promotion or the description page for it, being available by clicking on the link with the coupon / promotion details. If there are multiple promotions for a single product, they are displayed as a total, and will be described accordingly in the right drawer. The second phase includes the implementation of the new API response, which includes a new possibility to process the offers, displaying the requirement quantity, following that on the stores where the feature is activated, to display and if the offer has been completed and benefit from it. The new treatment system is visible both in the coupon design, in the mini-cart or in the top menu, in the right drawer and in the product page.</li>
             </ul>
-            <b>Technologies:</b> Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox<br>
+            <b>Technologies:</b> Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox, JQuery, Unit Testing<br>
         `,
         companyLogo: '../assets/logos/ibm.jpg',
-        skill: ['Angular', 'Vagrant', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'Jira'],
+        skill: ['Angular', 'Vagrant', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'Jira', 'Unit Testing'],
     },
     {
         companyName: 'Groupe Renault',

@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+
 
 app-experience-card {
   .header {
@@ -19,19 +19,19 @@ app-experience-card {
 
       .name {
         font-weight: bold;
-        color: $darkPrimary;
+        color: var(--darkPrimary);
       }
       .role {
         font-weight: bold;
         font-size: 1.2rem;
-        color: $primary;
+        color: var(--primary);
         margin: 4px 0;
       }
       .date {
         font-weight: normal;
       }
       .location {
-        color: $lightgray;
+        color: var(--lightgray);
       }
     }
   }

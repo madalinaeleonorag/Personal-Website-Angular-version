@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+
 
 app-homepage {
 
@@ -18,22 +18,23 @@ app-homepage {
     line-height: 1.7rem;
     margin: 2vh 5vw 8vh 5vw;
     padding: 1vh 0 2vh 3vw;
-    border-left: 1px solid $primary;
+    border-left: 1px solid var(--primary);
 
     .welcome-name {
-      color: $primary;
+      color: var(--primary);
       font-weight: 400;
       font-family: monospace;
     }
 
     .name {
       height: auto;
+      color: var(--white);
       padding: 10px 0;
-      max-width: 80vw;
+      font-size: 3rem;
     }
 
     .welcome-subtitle {
-      color: $primary;
+      color: var(--primary);
       margin-top: 0;
       font-family: monospace;
     }
@@ -69,7 +70,7 @@ app-homepage {
 
   .mat-tab-label {
     opacity: 1;
-    color: $white;
+    color: var(--white);
   }
 
   .publications {
@@ -86,7 +87,7 @@ app-homepage {
     margin: 2vh 5vh;
     text-align-last: center;
     font-size: 1.5rem;
-    color: $white;
+    color: var(--white);
   }
 
   @media (max-width: 850px) {

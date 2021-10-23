@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+
 
 app-education-level {
   .header {
@@ -21,12 +21,12 @@ app-education-level {
 
       .name {
         font-weight: bold;
-        color: $darkPrimary;
+        color: var(--darkPrimary);
       }
       .degree {
         font-weight: bold;
         font-size: 1.2rem;
-        color: $primary;
+        color: var(--primary);
         margin: 4px 0;
       }
       .date {
@@ -34,10 +34,10 @@ app-education-level {
       }
       .fieldOfStudy {
         font-weight: normal;
-        color: $lightgray;
+        color: var(--lightgray);
       }
       .grade {
-        color: $lightgray;
+        color: var(--lightgray);
       }
     }
   }

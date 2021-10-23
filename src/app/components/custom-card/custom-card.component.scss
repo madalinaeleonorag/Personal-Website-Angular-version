@@ -1,12 +1,13 @@
-@import "../../variables.scss";
+
 
 app-custom-card {
   flex: 1 0 30%;
   margin: 15px;
   display: flex;
+  box-shadow: 0px 0px 9px -6px var(--primary);
 
   .mat-card {
-    box-shadow: 0px 0px 3px -1px $lightgray !important;
+    box-shadow: 0px 0px 3px -1px var(--lightgray) !important;
     display: flex;
     flex-direction: column;
     height: -webkit-fill-available;
@@ -34,7 +35,7 @@ app-custom-card {
   .mat-card:hover {
     .technologies {
       span {
-        color: $primary;
+        color: var(--primary);
       }
     }
   }

@@ -33,6 +33,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { HttpClientModule } from '@angular/common/http';
 import { MatMenuModule } from '@angular/material/menu';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
 import { CertificationCardComponent } from './components/certification-card/certification-card.component';
@@ -80,7 +81,8 @@ import { CustomSocialCardComponent } from './components/custom-social-card/custo
     IvyCarouselModule,
     HttpClientModule,
     MatMenuModule,
-    MatTableModule
+    MatTableModule,
+    MatSlideToggleModule
   ],
   exports: [
     MatProgressBarModule,

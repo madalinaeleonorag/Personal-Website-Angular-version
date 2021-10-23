@@ -2,7 +2,6 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { EXPERIENCE, DESIGNPROJECTS } from 'src/assets/data';
 import { CommonsService } from 'src/app/commons.service';
 import { ExperienceModel, ProjectModel, PublicationModel } from 'src/app/data.model';
-declare var particlesJS: any;
 
 @Component({
   selector: 'app-homepage',
@@ -33,8 +32,6 @@ export class HomepageComponent implements OnInit {
     this.commonsService.repositories$.subscribe(repositories => {
       this.projectsTechnology = repositories;
     });
-
-    particlesJS.load('particles-js', '../assets/particles.json', null);
   }
 
   public openGitHub(): void {
