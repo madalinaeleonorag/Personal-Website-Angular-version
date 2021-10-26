@@ -210,16 +210,15 @@ export const EXPERIENCE = [
             <li>I communicate with clients and their representatives, I identify clients' needs and propose optimal solutions to them, participating in all meetings;</li>
             <li>I constantly participate in professional training courses and provide mentoring for other colleagues.</li>
             </ul>
-            <b>Overall technologies:</b> HTML, CSS, JavaScript, REST<br><br>
-            <h3>Client 1 - United Arab Emirates</h3>
-            <i>10/2021 - to date</i><br>
-            Industry: Banking<br>
+            💼 Client 1 - United Arab Emirates<br>
+            🗓️ 10/2021 - to date<br>
+            🏦 Industry: Banking<br>
+            💻 Technologies: Angular, Sass, TypeScript, REST<br><br>
             <h4>Assignment description:</h4>
             <ul>
             <li>Integrate <a href="https://www2.deloitte.com/uk/en/pages/financial-services/solutions/alphaplatform.html">Alpha</a> platform;</li>
             <li>Collaborate with back-end developers and web designers to improve usability.</li>
             </ul>
-            <b>Technologies:</b> Angular, Sass, TypeScript, REST<br>
         `,
         companyLogo: '../assets/logos/deloitte.jpg',
         skill: ['Angular', 'Sass', 'TypeScript', 'REST', 'Jira']
@@ -231,9 +230,10 @@ export const EXPERIENCE = [
         dateEnd: 'Oct 2021',
         location: 'Bucharest, Romania',
         description: `
-            <h3>Client 1 - Germany</h3>
-            <i>03/2019 - 03/2020</i><br>
-            Industry: Insurance<br>
+            💼 Client 1 - Germany<br>
+            🗓️ 03/2019 - 03/2020<br>
+            🏦 Industry: Insurance<br>
+            💻 Technologies: Angular, Ionic, Sass, TypeScript, REST, Capacitor, RxJs<br><br>
             <h4>Assignment description:</h4>
             <ul>
             <li>Develop Web based applications including UX design, application building and supporting solutions;</li>
@@ -251,11 +251,11 @@ export const EXPERIENCE = [
             <li>Investigated and solved some vulnerabilities from the applications;</li>
             <li>Contributed actively on a project from march and until the end of November, by helping other colleagues with code review and implementing reusable components. I also helped taking decisions in business rules and in development process;</li>
             <li>Participated in every meeting and decision in a proactive way in order to deliver a quality and clean code which meets the client requirements. I also suggested various changes to the design that was taken into account.</li>
-            </ul>
-            <b>Technologies:</b> Angular, Ionic, Sass, TypeScript, REST, Capacitor, RxJs<br><br>
-            <h3>Client 2 - United Kingdom</h3>
-            <i>03/2020 - 03/2020</i><br>
-            Industry: Retail<br>
+            </ul><br>
+            💼 Client 2 - United Kingdom<br>
+            🗓️ 03/2020 - 03/2020<br>
+            🏬 Industry: Retail<br>
+            💻 Technologies: React.js<br><br>
             <h4>Assignment description:</h4>
             <ul>
             <li>Redesigning the on-boarding process for non plastic material and packaging suppliers onto the materials library and reimagining the presentation and navigation of the library in parallel.</li>
@@ -265,11 +265,11 @@ export const EXPERIENCE = [
             <li>Participated in discussions with the design and front-end team in order to clarify and suggest edits so the user can have a better experience using the website;</li>
             <li>Created reusable pages using React.js which corresponds to the design;</li>
             <li>Created dynamic forms using Formik framework for the registration of new plastic free materials.</li>
-            </ul>
-            <b>Technologies:</b> React.js<br><br>
-            <h3>Client 3 - United States</h3>
-            <i>04/2020 - 10/2021</i><br>
-            Industry: Retail</h4>
+            </ul><br>
+            💼 Client 3 - United States<br>
+            🗓️ 04/2020 - 10/2021<br>
+            🛒 Industry: E-Commerce<br>
+            💻 Technologies: Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox, JQuery, Unit Testing<br><br>
             <h4>Assignment description:</h4>
             <ul>
             <li>Being a member of the a subdivision from the team and delivering features and quality code.</li>
@@ -281,7 +281,6 @@ export const EXPERIENCE = [
             <li>Learned better ways to solve the problems that appears during the development;</li>
             <li>Delivered WYSIWYG (What You See Is What You Get), a feature that wants to improve the customer experience regarding the promotional codes.The first phase included changing the design of both coupons and product promotions, including more descriptive text and a user-friendly design, changes made throughout the application, on all banners. In the same phase was included the creation of the right drawer, which replaces the pop-up with the description of the promotion or the description page for it, being available by clicking on the link with the coupon / promotion details. If there are multiple promotions for a single product, they are displayed as a total, and will be described accordingly in the right drawer. The second phase includes the implementation of the new API response, which includes a new possibility to process the offers, displaying the requirement quantity, following that on the stores where the feature is activated, to display and if the offer has been completed and benefit from it. The new treatment system is visible both in the coupon design, in the mini-cart or in the top menu, in the right drawer and in the product page.</li>
             </ul>
-            <b>Technologies:</b> Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox, JQuery, Unit Testing<br>
         `,
         companyLogo: '../assets/logos/ibm.jpg',
         skill: ['Angular', 'Vagrant', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'Jira', 'Unit Testing'],
