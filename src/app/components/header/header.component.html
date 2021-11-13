@@ -10,24 +10,6 @@
 
 <div class="title" (click)="goToPage('/')"><span>Madalina</span>Eleonora</div>
 <div class="links">
-  <div
-    (click)="goToPage('/')"
-    [ngClass]="{ 'selected-page': isPageSelected('/') }"
-  >
-    Home
-  </div>
-  <div
-    (click)="goToPage('skills')"
-    [ngClass]="{ 'selected-page': isPageSelected('/skills') }"
-  >
-    Skills
-  </div>
-  <div
-    (click)="goToPage('experience')"
-    [ngClass]="{ 'selected-page': isPageSelected('/experience') }"
-  >
-    Experience
-  </div>
 </div>
 <div class="social-icons-wrapper">
   <a target="_blank" href="https://madalinaeleonorag.medium.com/">
@@ -54,27 +36,6 @@
 </div>
 
 <mat-menu #menu="matMenu">
-  <button
-    mat-menu-item
-    (click)="goToPage('/')"
-    [ngClass]="{ 'selected-page': isPageSelected('/') }"
-  >
-    Home
-  </button>
-  <button
-    mat-menu-item
-    (click)="goToPage('skills')"
-    [ngClass]="{ 'selected-page': isPageSelected('/skills') }"
-  >
-    Skills
-  </button>
-  <button
-    mat-menu-item
-    (click)="goToPage('experience')"
-    [ngClass]="{ 'selected-page': isPageSelected('/experience') }"
-  >
-    Experience
-  </button>
   <app-custom-button
     buttonText="&#60;/Resume&#62;"
     [isFilledButton]="false"

@@ -124,4 +124,83 @@ app-homepage {
       }
     }
   }
+
+  .category {
+    .category-name {
+      font-weight: bold;
+      padding: 5vh 0;
+      font-size: medium;
+      font-size: 1.5rem;
+      text-align: -webkit-center;
+    }
+
+    .category-items {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+
+      &.courses {
+        display: flex;
+        flex-flow: column;
+        margin: 0 10%;
+
+        .course {
+          display: flex;
+          align-items: center;
+          padding: 10px;
+
+          .image-course {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+          }
+
+          .course-detail {
+            padding-left: 10px;
+          }
+        }
+      }
+
+      .name {
+        color: var(--white);
+      }
+    }
+  }
+
+  @media (max-width: 850px) {
+    .category {
+      .category-name {
+        font-size: 1rem;
+        padding: 3vh 0;
+      }
+    }
+  }
+
+  .title-category {
+    margin: 5vh;
+    text-align-last: center;
+    font-size: 1.5rem;
+    color: var(--white);
+  }
+
+  .other-work-experiences {
+    display: flex;
+    flex-flow: column;
+
+    app-experience-card {
+      padding: 1vh 0;
+    }
+  }
+
+  @media (max-width: 800px) {
+      .title-category {
+        font-size: 1.2rem;
+        margin: 3vh;
+      }
+      .other-work-experiences {
+        app-experience-card {
+          flex: 0 0 100%;
+        }
+      }
+  }
 }

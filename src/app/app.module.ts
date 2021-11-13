@@ -21,9 +21,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './components/contact/contact.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { HeaderComponent } from './components/header/header.component';
-import { SkillsComponent } from './pages/skills/skills.component';
 import { ProgressBarColorsDirective } from './directives/progress-bar-colors.directive';
-import { ExperienceComponent } from './pages/experience/experience.component';
 import { ExperienceCardComponent } from './components/experience-card/experience-card.component';
 import { EducationLevelComponent } from './components/education-level/education-level.component';
 import { AwardsComponent } from './components/awards/awards.component';
@@ -49,9 +47,7 @@ import { CustomSocialCardComponent } from './components/custom-social-card/custo
     ContactComponent,
     HomepageComponent,
     HeaderComponent,
-    SkillsComponent,
     ProgressBarColorsDirective,
-    ExperienceComponent,
     ExperienceCardComponent,
     EducationLevelComponent,
     AwardsComponent,

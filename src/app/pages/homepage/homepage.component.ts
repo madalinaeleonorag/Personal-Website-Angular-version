@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { EXPERIENCE, DESIGNPROJECTS } from 'src/assets/data';
+import { EXPERIENCE, DESIGNPROJECTS, CERTIFICATIONS, SKILLS, AWARDS, EDUCATION } from 'src/assets/data';
 import { CommonsService } from 'src/app/commons.service';
-import { ExperienceModel, ProjectModel, PublicationModel } from 'src/app/data.model';
+import { AwardModel, CertificationModel, EducationModel, ExperienceModel, ProjectModel, PublicationModel, SkillModel } from 'src/app/data.model';
 
 @Component({
   selector: 'app-homepage',
@@ -11,18 +11,31 @@ import { ExperienceModel, ProjectModel, PublicationModel } from 'src/app/data.mo
 })
 export class HomepageComponent implements OnInit {
 
-  public experience: ExperienceModel;
   public publications: PublicationModel[] = [];
   public isMobileView: boolean;
   public projectsTechnology: ProjectModel[] = [];
   public projectsDesign: ProjectModel[] = [];
+  public experience: ExperienceModel[] = [];
+  public education: EducationModel[] = [];
+  public awards: AwardModel[] = [];
+  public otherExperiences: ExperienceModel[] = [];
+  public skills: SkillModel[];
+  public certifications: CertificationModel[];
+
+  columns: string[] = ['logo', 'name', 'organization'];
 
   constructor(private commonsService: CommonsService) {
+    this.skills = SKILLS;
+    this.certifications = CERTIFICATIONS;
+
+    this.experience = EXPERIENCE;
+    this.education = EDUCATION;
+    this.awards = AWARDS;
+    this.otherExperiences = this.experience.slice(1, this.experience.length);
   }
 
   ngOnInit(): void {
     this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
-    this.experience = EXPERIENCE[0];
     this.projectsDesign = DESIGNPROJECTS;
 
     this.commonsService.publications$.subscribe(publications => {
