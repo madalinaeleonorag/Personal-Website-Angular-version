@@ -26,7 +26,6 @@ import { ExperienceCardComponent } from './components/experience-card/experience
 import { EducationLevelComponent } from './components/education-level/education-level.component';
 import { AwardsComponent } from './components/awards/awards.component';
 import { CustomCardComponent } from './components/custom-card/custom-card.component';
-import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { HttpClientModule } from '@angular/common/http';
@@ -40,6 +39,8 @@ import { CustomSvgComponent } from './components/custom-svg/custom-svg.component
 import { CustomCategoryButtonComponent } from './components/custom-category-button/custom-category-button.component';
 import { CustomChipComponent } from './components/custom-chip/custom-chip.component';
 import { CustomSocialCardComponent } from './components/custom-social-card/custom-social-card.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,6 @@ import { CustomSocialCardComponent } from './components/custom-social-card/custo
     EducationLevelComponent,
     AwardsComponent,
     CustomCardComponent,
-    ProjectDetailsComponent,
     NotFoundComponent,
     SkillCardComponent,
     CertificationCardComponent,
@@ -63,6 +63,7 @@ import { CustomSocialCardComponent } from './components/custom-social-card/custo
     CustomSocialCardComponent,
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -78,7 +79,8 @@ import { CustomSocialCardComponent } from './components/custom-social-card/custo
     HttpClientModule,
     MatMenuModule,
     MatTableModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatDialogModule
   ],
   exports: [
     MatProgressBarModule,

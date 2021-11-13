@@ -1,7 +1,9 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, Inject, OnInit, ViewEncapsulation } from '@angular/core';
 import { EXPERIENCE, DESIGNPROJECTS, CERTIFICATIONS, SKILLS, AWARDS, EDUCATION } from 'src/assets/data';
 import { CommonsService } from 'src/app/commons.service';
 import { AwardModel, CertificationModel, EducationModel, ExperienceModel, ProjectModel, PublicationModel, SkillModel } from 'src/app/data.model';
+import {MatDialog, MAT_DIALOG_DATA} from '@angular/material/dialog';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-homepage',
@@ -24,7 +26,7 @@ export class HomepageComponent implements OnInit {
 
   columns: string[] = ['logo', 'name', 'organization'];
 
-  constructor(private commonsService: CommonsService) {
+  constructor(private commonsService: CommonsService, public dialog: MatDialog) {
     this.skills = SKILLS;
     this.certifications = CERTIFICATIONS;
 
@@ -32,6 +34,12 @@ export class HomepageComponent implements OnInit {
     this.education = EDUCATION;
     this.awards = AWARDS;
     this.otherExperiences = this.experience.slice(1, this.experience.length);
+  }
+
+  public openDialog(type: string, data: any): void {
+    this.dialog.open(DialogDataExampleDialog, {
+      data: {type, data}
+    });
   }
 
   ngOnInit(): void {
@@ -53,5 +61,17 @@ export class HomepageComponent implements OnInit {
 
   public openMedium(): void {
     this.commonsService.openNewTab('https://madalinaeleonorag.medium.com/');
+  }
+}
+
+
+@Component({
+  selector: 'dialog-data-example-dialog',
+  templateUrl: './dialog-data-example-dialog.html',
+})
+export class DialogDataExampleDialog {
+
+  constructor(@Inject(MAT_DIALOG_DATA) public data: any, private commonsService: CommonsService) {
+    console.log(data);
   }
 }
