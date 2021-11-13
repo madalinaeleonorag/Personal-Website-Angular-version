@@ -4,6 +4,7 @@ import { CommonsService } from 'src/app/commons.service';
 import { AwardModel, CertificationModel, EducationModel, ExperienceModel, ProjectModel, PublicationModel, SkillModel } from 'src/app/data.model';
 import {MatDialog, MAT_DIALOG_DATA} from '@angular/material/dialog';
 import { Subscription } from 'rxjs';
+import { CustomDialogComponent } from 'src/app/components/custom-dialog/custom-dialog.component';
 
 @Component({
   selector: 'app-homepage',
@@ -37,7 +38,7 @@ export class HomepageComponent implements OnInit {
   }
 
   public openDialog(type: string, data: any): void {
-    this.dialog.open(DialogDataExampleDialog, {
+    this.dialog.open(CustomDialogComponent, {
       data: {type, data}
     });
   }
@@ -61,17 +62,5 @@ export class HomepageComponent implements OnInit {
 
   public openMedium(): void {
     this.commonsService.openNewTab('https://madalinaeleonorag.medium.com/');
-  }
-}
-
-
-@Component({
-  selector: 'dialog-data-example-dialog',
-  templateUrl: './dialog-data-example-dialog.html',
-})
-export class DialogDataExampleDialog {
-
-  constructor(@Inject(MAT_DIALOG_DATA) public data: any, private commonsService: CommonsService) {
-    console.log(data);
   }
 }

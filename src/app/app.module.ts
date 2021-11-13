@@ -41,6 +41,7 @@ import { CustomChipComponent } from './components/custom-chip/custom-chip.compon
 import { CustomSocialCardComponent } from './components/custom-social-card/custom-social-card.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { CommonModule } from '@angular/common';
+import { CustomDialogComponent } from './components/custom-dialog/custom-dialog.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +62,7 @@ import { CommonModule } from '@angular/common';
     CustomCategoryButtonComponent,
     CustomChipComponent,
     CustomSocialCardComponent,
+    CustomDialogComponent,
   ],
   imports: [
     CommonModule,
