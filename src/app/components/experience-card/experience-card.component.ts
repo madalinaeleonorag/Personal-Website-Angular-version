@@ -1,5 +1,7 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { ExperienceModel } from 'src/app/data.model';
+import { CustomDialogComponent } from '../custom-dialog/custom-dialog.component';
 
 @Component({
   selector: 'app-experience-card',
@@ -12,9 +14,17 @@ export class ExperienceCardComponent implements OnInit {
   @Input() experience: ExperienceModel;
   @Input() parentPage: string;
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
+  }
+
+  public openDialog(type: string, data: any): void {
+    this.dialog.open(CustomDialogComponent, {
+      height: '80vh',
+      width: '70vw',
+      data: {type, data}
+    });
   }
 
 }

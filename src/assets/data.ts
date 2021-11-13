@@ -230,6 +230,15 @@ export const EXPERIENCE = [
         dateEnd: 'Oct 2021',
         location: 'Bucharest, Romania',
         description: `
+            💼 Internship<br>
+            🗓️ 12/2018 - 02/2019<br>
+            💻 Technologies: HTML, CSS, JavaScript, Angular, RxJs, Vue.js, Vuex, Firebase, Ionic<br><br>
+            <h4>Assignment description:</h4>
+            <ul>
+            <li>I learned the basics of Ionic and Angular;</li>
+            <li>Applied the knowledge in a project delivered to the client;</li>
+            <li>Designing mobile-based features, working in an agile team.</li>
+            </ul><br>
             💼 Client 1 - Germany<br>
             🗓️ 03/2019 - 03/2020<br>
             🏦 Industry: Insurance<br>
@@ -290,6 +299,12 @@ export const EXPERIENCE = [
         role: 'Practicant - Drive your future',
         dateStart: 'Jun 2017',
         dateEnd: 'Sept 2017',
+        description: `
+        <h4>Assignment description:</h4>
+        <ul>
+        <li>Database maintenance using my own Matlab scripts.</li>
+        </ul>
+        `,
         location: 'Bucharest, Romania',
         companyLogo: '../assets/logos/renault.png',
         skill: ['Matlab']
@@ -300,6 +315,12 @@ export const EXPERIENCE = [
         dateStart: 'Feb 2016',
         dateEnd: 'Jun 2017',
         location: 'Bucharest, Romania',
+        description: `
+        <h4>Assignment description:</h4>
+        <ul>
+        <li>Taking calls and solving the situations encountered by clients, making recordings and offering them.</li>
+        </ul>
+        `,
         companyLogo: '../assets/logos/telekom.png',
         skill: ['Work under pressure', 'Adaptability', 'Multitasking']
     }

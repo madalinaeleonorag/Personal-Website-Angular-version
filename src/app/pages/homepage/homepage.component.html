@@ -11,59 +11,57 @@
         occasionally designing) digital experiences.
       </p>
       <p>
-        Currently I'm a Frontend Application Developer at <a href="https://ro.deloittedigital.com/">Deloitte Digital</a>,
-        former Frontend Application Developer at <a href="https://www.ibm.com/services/ibmix">IBM iX</a> and Database Administrator at <a href="https://www.renaultgroup.com/en/">Groupe Renault</a>, focused on
-        increasing both technical and soft skills, working with people around
+        Currently I'm a Frontend Application Developer at
+        <a href="https://ro.deloittedigital.com/">Deloitte Digital</a>, former
+        Frontend Application Developer at
+        <a href="https://www.ibm.com/services/ibmix">IBM iX</a> and Database
+        Administrator at
+        <a href="https://www.renaultgroup.com/en/">Groupe Renault</a>, focused
+        on increasing both technical and soft skills, working with people around
         the globe and learning how to deliver their expectations.
       </p>
     </div>
   </div>
 
-<div id="skills">
-  <div class="category">
-    <div class="category-name">What i know 🌟</div>
-    <div class="category-items">
-      <app-skill-card
-        [item]="skill"
-        *ngFor="let skill of skills"
-      ></app-skill-card>
+  <div id="skills">
+    <div class="category">
+      <div class="category-name">What i know 🌟</div>
+      <div class="category-items">
+        <app-skill-card
+          [item]="skill"
+          *ngFor="let skill of skills"
+        ></app-skill-card>
+      </div>
+    </div>
+
+    <div class="category">
+      <div class="category-name">What certifications i achieved 📃</div>
+      <div class="category-items">
+        <app-certification-card
+          [item]="certification"
+          *ngFor="let certification of certifications"
+        ></app-certification-card>
+      </div>
     </div>
   </div>
-  
-  <div class="category">
-    <div class="category-name">What certifications i achieved 📃</div>
-    <div class="category-items">
-      <app-certification-card
-        [item]="certification"
-        *ngFor="let certification of certifications"
-      ></app-certification-card>
+
+  <div id="experience">
+    <div class="title-category">Awards 🏆</div>
+    <div *ngFor="let item of awards">
+      <app-awards [award]="item"></app-awards>
+    </div>
+    <div class="title-category">Education 📚</div>
+    <div *ngFor="let item of education">
+      <app-education-level [education]="item"></app-education-level>
+    </div>
+    <div class="title-category">Work experiences 📁</div>
+    <div class="other-work-experiences">
+      <app-experience-card
+        [experience]="item"
+        *ngFor="let item of otherExperiences"
+      ></app-experience-card>
     </div>
   </div>
-</div>
-
-<div id="experience">
-  <app-experience-card [experience]="experience[0]"></app-experience-card>
-  <div class="title-category">Awards 🏆</div>
-  <div *ngFor="let item of awards">
-    <app-awards [award]="item"></app-awards>
-  </div>
-  <div class="title-category">Education 📚</div>
-  <div *ngFor="let item of education">
-    <app-education-level [education]="item"></app-education-level>
-  </div>
-  <div class="title-category">Other work experiences 📁</div>
-  <div class="other-work-experiences">
-    <app-experience-card
-      [experience]="item"
-      *ngFor="let item of otherExperiences"
-    ></app-experience-card>
-  </div>
-</div>
-
-
-
-
-
 
   <div class="title">Latest programming projects 💻</div>
   <div class="projects">

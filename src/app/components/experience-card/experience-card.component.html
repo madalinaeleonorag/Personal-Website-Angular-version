@@ -20,16 +20,6 @@
       {{ experience.dateStart ? experience.dateStart : experience.startYear }} -
       {{ experience.dateEnd ? experience.dateEnd : experience.endYear }}
     </div>
-    <div class="location" *ngIf="experience.location">
-      {{ experience.location }}
-    </div>
+    <button (click)="openDialog('experience', experience)">See details</button>
   </div>
 </div>
-<div class="skills" *ngIf="experience.skill && experience.skill.length > 0">
-  <app-custom-chip *ngFor="let skill of experience.skill" [text]="skill"></app-custom-chip>
-</div>
-<div
-  class="description"
-  [innerHTML]="experience.description"
-  *ngIf="parentPage !== 'homepage'"
-></div>
