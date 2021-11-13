@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { Router } from '@angular/router';
 import { CommonsService } from 'src/app/commons.service';
 
 @Component({
@@ -15,10 +14,7 @@ export class HeaderComponent implements OnInit {
 
   public themeEmoji: string;
 
-  constructor(private router: Router, private commonsService: CommonsService) {
-    this.router.events.subscribe(() => {
-      this.selectedPageUrl = router.url.toString();
-    });
+  constructor(private commonsService: CommonsService) {
   }
 
   ngOnInit(): void {
@@ -26,10 +22,6 @@ export class HeaderComponent implements OnInit {
       this.isDarkThemeSelected = isDarkTheme;
       this.themeEmoji = isDarkTheme ? '☀️' : '🌙';
     });
-  }
-
-  public goToPage(page: string): void {
-    this.commonsService.navigateToURL(`${page}`);
   }
 
   public isPageSelected(page: string): boolean {

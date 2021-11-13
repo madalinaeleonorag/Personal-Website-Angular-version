@@ -48,8 +48,6 @@ body {
   background: var(--background);
 }
 
-
-
 @media (max-width: 850px) {
   .component-wrapper {
     padding: 5vw;
@@ -167,4 +165,204 @@ a {
 
 .selected-page {
   color: var(--primary) !important;
+}
+
+.logo {
+  text-align-last: center;
+  padding: 20px;
+
+  img {
+    width: auto;
+    height: 25vh;
+  }
+}
+
+.homepage-title {
+  line-height: 1.7rem;
+  margin: 2vh 5vw 8vh 5vw;
+  padding: 1vh 0 2vh 3vw;
+  border-left: 1px solid var(--primary);
+
+  .welcome-name {
+    color: var(--primary);
+    font-weight: 400;
+    font-family: monospace;
+  }
+
+  .name {
+    height: auto;
+    color: var(--white);
+    padding: 10px 0;
+    font-size: 3rem;
+  }
+
+  .welcome-subtitle {
+    color: var(--primary);
+    margin-top: 0;
+    font-family: monospace;
+  }
+
+  .description {
+    font-family: monospace;
+    line-height: normal;
+    font-size: unset;
+  }
+}
+
+.see-more {
+  width: fit-content;
+  margin: auto;
+  margin: 2vh auto;
+}
+
+.projects {
+  display: flex;
+  margin: 10px;
+  overflow: auto;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.mat-tab-header {
+  border-bottom: none;
+}
+
+.mat-tab-labels {
+  justify-content: center;
+}
+
+.mat-tab-label {
+  opacity: 1;
+  color: var(--white);
+}
+
+.publications {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+
+  app-publications {
+    flex: 1 0 30%;
+  }
+}
+
+.title {
+  margin: 2vh 5vh;
+  text-align-last: center;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+@media (max-width: 850px) {
+  .description-homepage {
+    margin: 3vh 5vw;
+
+    .name {
+      font-size: x-large;
+    }
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .publications {
+    app-publications {
+      flex: 0 0 50%;
+
+      .publication-wrapper {
+        padding: 10px;
+
+        .image {
+          height: 125px;
+          width: 125px;
+        }
+
+        .summary {
+          .name {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.category {
+  .category-name {
+    font-weight: bold;
+    padding: 5vh 0;
+    font-size: medium;
+    font-size: 1.5rem;
+    text-align: -webkit-center;
+  }
+
+  .category-items {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+    &.courses {
+      display: flex;
+      flex-flow: column;
+      margin: 0 10%;
+
+      .course {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+        .image-course {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+
+        .course-detail {
+          padding-left: 10px;
+        }
+      }
+    }
+
+    .name {
+      color: var(--white);
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .category {
+    .category-name {
+      font-size: 1rem;
+      padding: 3vh 0;
+    }
+  }
+}
+
+.title-category {
+  margin: 5vh;
+  text-align-last: center;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.other-work-experiences {
+  display: flex;
+  flex-flow: column;
+
+  app-experience-card {
+    padding: 1vh 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .title-category {
+    font-size: 1.2rem;
+    margin: 3vh;
+  }
+  .other-work-experiences {
+    app-experience-card {
+      flex: 0 0 100%;
+    }
+  }
 }

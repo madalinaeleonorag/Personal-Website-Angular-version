@@ -1,6 +1,5 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Router } from '@angular/router';
 import { BehaviorSubject, Subject } from 'rxjs';
 import { ProjectModel, PublicationModel } from './data.model';
 import { map } from 'rxjs/operators';
@@ -26,7 +25,6 @@ export class CommonsService {
 
   constructor(
     private http: HttpClient,
-    private router: Router
   ) { }
 
   public getDataFromAPIs(): void {
@@ -52,11 +50,6 @@ export class CommonsService {
 
   public openNewTab(link: string): void {
     window.open(link);
-  }
-
-  public navigateToURL(url: string): void {
-    this.router.navigateByUrl(url);
-    this.goToTop();
   }
 
   private goToTop(): void {

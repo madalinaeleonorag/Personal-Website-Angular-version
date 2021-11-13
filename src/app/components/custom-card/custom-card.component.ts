@@ -30,10 +30,6 @@ export class CustomCardComponent implements OnInit {
     }
   }
 
-  public seeDetailsProject(): void {
-    this.commonsService.navigateToURL(`/project/${this.data.id}`);
-  }
-
   public openNewTab(type: string): void {
     switch (type) {
       case 'live': this.commonsService.openNewTab(this.data.live);

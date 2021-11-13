@@ -15,11 +15,9 @@ import 'hammerjs';
 import 'mousetrap';
 import { GalleryModule } from '@ks89/angular-modal-gallery';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './components/contact/contact.component';
-import { HomepageComponent } from './pages/homepage/homepage.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ProgressBarColorsDirective } from './directives/progress-bar-colors.directive';
 import { ExperienceCardComponent } from './components/experience-card/experience-card.component';
@@ -30,8 +28,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { HttpClientModule } from '@angular/common/http';
 import { MatMenuModule } from '@angular/material/menu';
-import {MatSlideToggleModule} from '@angular/material/slide-toggle';
-import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
 import { CertificationCardComponent } from './components/certification-card/certification-card.component';
 import { CustomButtonComponent } from './components/custom-button/custom-button.component';
@@ -47,14 +44,12 @@ import { CustomDialogComponent } from './components/custom-dialog/custom-dialog.
   declarations: [
     AppComponent,
     ContactComponent,
-    HomepageComponent,
     HeaderComponent,
     ProgressBarColorsDirective,
     ExperienceCardComponent,
     EducationLevelComponent,
     AwardsComponent,
     CustomCardComponent,
-    NotFoundComponent,
     SkillCardComponent,
     CertificationCardComponent,
     CustomButtonComponent,
@@ -67,7 +62,6 @@ import { CustomDialogComponent } from './components/custom-dialog/custom-dialog.
   imports: [
     CommonModule,
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     MatProgressBarModule,
     MatExpansionModule,
