@@ -1,4 +1,5 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { CommonsService } from 'src/app/commons.service';
 
 @Component({
   selector: 'app-certification-card',
@@ -10,8 +11,12 @@ export class CertificationCardComponent implements OnInit {
 
   @Input() item: any;
 
-  constructor() { }
+  constructor(private commonService: CommonsService) { }
 
   ngOnInit(): void {
+  }
+
+  public open(): void {
+    this.commonService.openNewTab(this.item.url);
   }
 }

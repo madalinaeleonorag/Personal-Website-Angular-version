@@ -179,16 +179,12 @@ export const AWARDS = [
     {
         name: 'Rau-DevHack Hackathon',
         place: 2,
-        date: 'Apr 2019',
-        description: 'Creating an application to help users choose the most recommended photographer for their event, according to their visual preferences, budget and period, giving photographers easier management on the event calendar and applications.'
+        date: 'Apr 2019'
     },
     {
         name: 'Web&Mobile Challenge at DevHacks',
         date: 'Nov 2018',
-        place: 1,
-        description: `
-      Our result should allows candidates from Romania the possibility to offer reviews/ratings to companies about key areas such as: recruitment process,  work environment (team, schedule, etc), trainings, learning and development opportunities, salary & benefits, work-life balance, management, internal systems (procedures, values, way of working), other relevant areas. The aim of this product is to help candidates find the employer that best suits their needs and personality, something different. The target audience of the product will be made up students and young professionals.
-      `
+        place: 1
     }
 ];
 

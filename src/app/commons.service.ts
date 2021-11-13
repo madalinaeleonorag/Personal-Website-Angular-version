@@ -52,11 +52,6 @@ export class CommonsService {
     window.open(link);
   }
 
-  private goToTop(): void {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  }
-
   public getRepositories(): void {
 
     let dataMapped: ProjectModel[] = [];

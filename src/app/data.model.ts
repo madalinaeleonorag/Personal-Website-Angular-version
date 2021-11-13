@@ -48,7 +48,6 @@ export class AwardModel {
     public name: string;
     public place: number;
     public date: string;
-    public description: string;
 }
 
 export class PublicationModel {
