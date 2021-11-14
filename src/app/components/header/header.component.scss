@@ -35,24 +35,7 @@ app-header {
   }
 
   .links {
-    flex-flow: row;
-    display: flex;
     margin-right: auto;
-    align-items: center;
-
-    a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: var(--white) !important;
-    }
-    a:hover {
-      color: var(--primary) !important;
-      cursor: pointer;
-    }
-
-    .selected-page {
-      color: var(--primary) !important;
-    }
   }
 
   .social-icons-wrapper {
