@@ -1,113 +1,122 @@
 <app-header></app-header>
 <div class="body">
-    <div class="component-wrapper">
-        <div id="particles-js">
-            <div class="homepage-title">
-              <div class="welcome-name">Hi, my name is</div>
-              <div class="name">Madalina-Eleonora</div>
-              <h3 class="welcome-subtitle">
-                and I gathered my passions in Web Development
-              </h3>
-              <div class="description">
-                <p>
-                  I'm a Bucharest-based software engineer specialised in building (and
-                  occasionally designing) digital experiences.
-                </p>
-                <p>
-                  Currently I'm a Frontend Application Developer at
-                  <a href="https://ro.deloittedigital.com/">Deloitte Digital</a>, former
-                  Frontend Application Developer at
-                  <a href="https://www.ibm.com/services/ibmix">IBM iX</a> and Database
-                  Administrator at
-                  <a href="https://www.renaultgroup.com/en/">Groupe Renault</a>, focused
-                  on increasing both technical and soft skills, working with people around
-                  the globe and learning how to deliver their expectations.
-                </p>
-              </div>
-            </div>
-          
-            <div id="skills">
-              <div class="category">
-                <div class="category-name">What i know 🌟</div>
-                <div class="category-items">
-                  <app-skill-card
-                    [item]="skill"
-                    *ngFor="let skill of skills"
-                  ></app-skill-card>
-                </div>
-              </div>
-          
-              <div class="category">
-                <div class="category-name">What certifications i achieved 📃</div>
-                <div class="category-items">
-                  <app-certification-card
-                    [item]="certification"
-                    *ngFor="let certification of certifications"
-                  ></app-certification-card>
-                </div>
-              </div>
-            </div>
-          
-            <div id="experience">
-              <div class="title-category">Awards 🏆</div>
-              <div *ngFor="let item of awards">
-                <app-awards [award]="item"></app-awards>
-              </div>
-              <div class="title-category">Education 📚</div>
-              <div *ngFor="let item of education">
-                <app-education-level [education]="item"></app-education-level>
-              </div>
-              <div class="title-category">Work experiences 📁</div>
-              <div class="other-work-experiences">
-                <app-experience-card
-                  [data]="experience"
-                ></app-experience-card>
-              </div>
-            </div>
-          
-            <div class="title">Latest programming projects 💻</div>
-            <div class="projects">
-              <app-custom-card
-                *ngFor="let project of projectsTechnology"
-                [data]="project"
-                type="project"
-              ></app-custom-card>
-            </div>
-            <div class="see-more">
-              <app-custom-button
-                buttonText="&#60;/See more projects on GitHub&#62;"
-                [isFilledButton]="true"
-                (click)="openGitHub()"
-              ></app-custom-button>
-            </div>
-            <div class="title">Latest design projects 🎨</div>
-            <div class="projects">
-              <app-custom-card
-                *ngFor="let project of projectsDesign"
-                type="project"
-                [data]="project"
-                (click)="openDialog('project', project)"
-              ></app-custom-card>
-            </div>
-            <div class="title" *ngIf="publications.length > 0">
-              I like to write, sometimes ✏️
-            </div>
-            <div class="publications" *ngIf="publications.length > 0">
-              <app-custom-card
-                *ngFor="let publication of publications"
-                type="publication"
-                [data]="publication"
-              ></app-custom-card>
-            </div>
-            <div class="see-more" *ngIf="publications.length > 0">
-              <app-custom-button
-                buttonText="See more articles on Medium"
-                [isFilledButton]="true"
-                (click)="openMedium()"
-              ></app-custom-button>
-            </div>
-            <app-contact></app-contact>
-          </div>
-          
+  <div class="component-wrapper">
+    <div id="particles-js">
+      <div class="homepage-title">
+        <div class="welcome-name">Hi, my name is</div>
+        <div class="name">Madalina-Eleonora</div>
+        <h3 class="welcome-subtitle">
+          and I gathered my passions in Web Development
+        </h3>
+        <div class="description">
+          <p>
+            I'm a Bucharest-based software engineer specialised in building (and
+            occasionally designing) digital experiences.
+          </p>
+          <p>
+            Currently I'm a Frontend Application Developer at
+            <a href="https://ro.deloittedigital.com/">Deloitte Digital</a>,
+            former Frontend Application Developer at
+            <a href="https://www.ibm.com/services/ibmix">IBM iX</a> and Database
+            Administrator at
+            <a href="https://www.renaultgroup.com/en/">Groupe Renault</a>,
+            focused on increasing both technical and soft skills, working with
+            people around the globe and learning how to deliver their
+            expectations.
+          </p>
+        </div>
+      </div>
+
+      <div class="category" id="skills">
+        <div class="category-name">01. What i know 🌟</div>
+        <div class="category-items">
+          <app-skill-card
+            [item]="skill"
+            *ngFor="let skill of skills"
+          ></app-skill-card>
+        </div>
+      </div>
+
+      <div class="category" id="experience">
+        <div class="title-category">02. Work experiences 📁</div>
+        <div class="other-work-experiences">
+          <app-experience-card [data]="experience"></app-experience-card>
+        </div>
+      </div>
+
+      <div class="category" id="education">
+        <div class="title-category">03. Education 📚</div>
+        <div *ngFor="let item of education">
+          <app-education-level [education]="item"></app-education-level>
+        </div>
+      </div>
+
+      <div class="category" id="certifications">
+        <div class="category-name">04. What certifications i achieved 📃</div>
+        <div class="category-items">
+          <app-certification-card
+            [item]="certification"
+            *ngFor="let certification of certifications"
+          ></app-certification-card>
+        </div>
+      </div>
+
+      <div class="category" id="projects">
+        <div class="title-category">05. Latest programming projects 💻</div>
+        <div class="projects">
+          <app-custom-card
+            *ngFor="let project of projectsTechnology"
+            [data]="project"
+            type="project"
+          ></app-custom-card>
+        </div>
+        <div class="see-more">
+          <app-custom-button
+            buttonText="&#60;/See more projects on GitHub&#62;"
+            [isFilledButton]="true"
+            (click)="openGitHub()"
+          ></app-custom-button>
+        </div>
+      </div>
+
+      <div class="category" id="awards">
+        <div class="title-category">06. Awards 🏆</div>
+        <div *ngFor="let item of awards">
+          <app-awards [award]="item"></app-awards>
+        </div>
+      </div>
+
+      <div class="category" *ngIf="publications.length > 0" id="articles">
+        <div class="title-category">07. I like to write, sometimes ✏️</div>
+        <div class="publications">
+          <app-custom-card
+            *ngFor="let publication of publications"
+            type="publication"
+            [data]="publication"
+          ></app-custom-card>
+        </div>
+        <div class="see-more">
+          <app-custom-button
+            buttonText="See more articles on Medium"
+            [isFilledButton]="true"
+            (click)="openMedium()"
+          ></app-custom-button>
+        </div>
+      </div>
+
+      <div class="category" id="design">
+        <div class="title-category">08. Latest design projects 🎨</div>
+        <div class="projects">
+          <app-custom-card
+            *ngFor="let project of projectsDesign"
+            type="project"
+            [data]="project"
+            (click)="openDialog('project', project)"
+          ></app-custom-card>
+        </div>
+      </div>
+
+      <app-contact></app-contact>
     </div>
+  </div>
 </div>

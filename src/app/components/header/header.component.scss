@@ -40,12 +40,12 @@ app-header {
     margin-right: auto;
     align-items: center;
 
-    div {
+    a {
       margin: 0 10px;
       text-decoration: none;
       color: var(--white) !important;
     }
-    div:hover {
+    a:hover {
       color: var(--primary) !important;
       cursor: pointer;
     }
