@@ -11,8 +11,7 @@ import { CustomDialogComponent } from '../custom-dialog/custom-dialog.component'
 })
 export class ExperienceCardComponent implements OnInit {
 
-  @Input() experience: ExperienceModel;
-  @Input() parentPage: string;
+  @Input() data: ExperienceModel;
 
   constructor(public dialog: MatDialog) { }
 

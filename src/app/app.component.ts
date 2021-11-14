@@ -1,6 +1,6 @@
 import { Component, ElementRef, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { SKILLS, CERTIFICATIONS, EXPERIENCE, EDUCATION, AWARDS, DESIGNPROJECTS } from 'docs/assets/data';
+import { AWARDS, CERTIFICATIONS, DESIGNPROJECTS, EDUCATION, EXPERIENCE, SKILLS } from 'src/assets/data';
 import { CommonsService } from './commons.service';
 import { CustomDialogComponent } from './components/custom-dialog/custom-dialog.component';
 import { PublicationModel, ProjectModel, ExperienceModel, EducationModel, AwardModel, SkillModel, CertificationModel } from './data.model';
@@ -20,7 +20,6 @@ export class AppComponent implements OnInit {
   public experience: ExperienceModel[] = [];
   public education: EducationModel[] = [];
   public awards: AwardModel[] = [];
-  public otherExperiences: ExperienceModel[] = [];
   public skills: SkillModel[];
   public certifications: CertificationModel[];
 
@@ -33,7 +32,6 @@ export class AppComponent implements OnInit {
     this.experience = EXPERIENCE;
     this.education = EDUCATION;
     this.awards = AWARDS;
-    this.otherExperiences = this.experience.slice(1, this.experience.length);
   }
 
   ngOnInit(): void {

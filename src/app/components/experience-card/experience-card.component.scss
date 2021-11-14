@@ -1,38 +1,48 @@
-
-
 app-experience-card {
-  .header {
+  mat-tab-group[vertical] .mat-tab-labels {
     display: flex;
-    flex-flow: row;
-    align-items: center;
+    flex-direction: column !important;
+  }
 
-    .image {
-      img {
-        max-width: 150px;
-        height: auto;
-      }
-    }
-    .summary {
-      display: flex;
-      flex-flow: column;
-      padding: 20px;
+  mat-tab-group[vertical] {
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  mat-ink-bar {
+    display: none;
+  }
+  
+  .mat-tab-label {
+    align-items: flex-start;
+    color: var(--darkPrimary);
+  }
+
+  .mat-tab-label-active {
+    color: var(--primary);
+  }
+
+  .summary {
+    display: flex;
+    flex-flow: column;
+
+    .role {
+      font-weight: bold;
+      font-size: 1.2rem;
 
       .name {
         font-weight: bold;
-        color: var(--darkPrimary);
-      }
-      .role {
-        font-weight: bold;
-        font-size: 1.2rem;
         color: var(--primary);
-        margin: 4px 0;
       }
-      .date {
-        font-weight: normal;
-      }
-      .location {
-        color: var(--lightgray);
-      }
+    }
+    .date {
+      font-weight: normal;
+      color: var(--lightgray);
+      padding-top: 1vh;
+    }
+    
+    .location {
+      color: var(--lightgray);
     }
   }
 
@@ -44,35 +54,5 @@ app-experience-card {
 
   .description {
     line-height: 1.5rem;
-  }
-
-  @media (max-width: 800px) {
-    .header {
-      flex-flow: wrap;
-      margin: 10px 0;
-
-      .image img {
-        max-width: 80px;
-      }
-
-      .summary {
-        padding: 0 10px;
-
-        .role {
-          font-size: small;
-        }
-      }
-
-      .location {
-        display: none;
-      }
-    }
-    .description {
-      font-size: smaller;
-
-      h3, h4 {
-        margin: 0;
-      } 
-    }
   }
 }

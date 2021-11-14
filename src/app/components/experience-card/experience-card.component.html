@@ -1,25 +1,29 @@
-<div class="header">
-  <div class="image">
-    <img
-      *ngIf="experience.companyLogo || experience.logo"
-      src="{{
-        experience.companyLogo ? experience.companyLogo : experience.logo
-      }}"
-    />
-  </div>
-  <div class="summary">
-    <div class="name">
-      {{
-        experience.companyName
-          ? experience.companyName
-          : experience.organization
-      }}
+<mat-tab-group vertical>
+  <mat-tab *ngFor="let experience of data" [label]="experience.companyName">
+    <div class="summary">
+      <div class="role">
+        {{ experience.role }}
+        <span class="name">
+          @
+          {{
+            experience.companyName
+              ? experience.companyName
+              : experience.organization
+          }}
+        </span>
+      </div>
+      <div class="date">
+        {{ experience.dateStart ? experience.dateStart : experience.startYear }}
+        -
+        {{ experience.dateEnd ? experience.dateEnd : experience.endYear }}
+      </div>
     </div>
-    <div class="role">{{ experience.role }}</div>
-    <div class="date">
-      {{ experience.dateStart ? experience.dateStart : experience.startYear }} -
-      {{ experience.dateEnd ? experience.dateEnd : experience.endYear }}
+    <div class="skills" *ngIf="experience.skill && experience.skill.length > 0">
+      <app-custom-chip
+        *ngFor="let technology of experience.skill"
+        [text]="technology"
+      ></app-custom-chip>
     </div>
-    <button (click)="openDialog('experience', experience)">See details</button>
-  </div>
-</div>
+    <div [innerHTML]="experience.description"></div>
+  </mat-tab>
+</mat-tab-group>

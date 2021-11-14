@@ -206,15 +206,6 @@ export const EXPERIENCE = [
             <li>I communicate with clients and their representatives, I identify clients' needs and propose optimal solutions to them, participating in all meetings;</li>
             <li>I constantly participate in professional training courses and provide mentoring for other colleagues.</li>
             </ul>
-            💼 Client 1 - United Arab Emirates<br>
-            🗓️ 10/2021 - to date<br>
-            🏦 Industry: Banking<br>
-            💻 Technologies: Angular, Sass, TypeScript, REST<br><br>
-            <h4>Assignment description:</h4>
-            <ul>
-            <li>Integrate <a href="https://www2.deloitte.com/uk/en/pages/financial-services/solutions/alphaplatform.html">Alpha</a> platform;</li>
-            <li>Collaborate with back-end developers and web designers to improve usability.</li>
-            </ul>
         `,
         companyLogo: '../assets/logos/deloitte.jpg',
         skill: ['Angular', 'Sass', 'TypeScript', 'REST', 'Jira']
