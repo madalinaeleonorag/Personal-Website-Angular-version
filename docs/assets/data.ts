@@ -73,17 +73,12 @@ export const SKILLS = [
     { name: 'Node.js', level: 0, color: '#539e43', logo: 'nodejs' },
     { name: 'JQuery', level: 1, color: '#0864A7', logo: 'JQuery' },
     { name: 'Postman', level: 2, color: '#ff6c37', logo: 'Postman' },
-    { name: 'VS Code', level: 3, color: '#2981b9', logo: 'Visual Studio Code' },
-    { name: 'C#', level: 1, color: '#68217a', logo: 'CSharp' },
-    { name: 'C++', level: 1, color: '#00589c', logo: 'CPP' },
     { name: 'Ionic', level: 2, color: '#367CF7', logo: 'Ionic' },
     { name: 'React.js', level: 0, color: '#50BBD7', logo: 'Reactjs' },
     { name: 'Wordpress', level: 1, color: '#207196', logo: 'Wordpress' },
     { name: 'Git', level: 3, color: '#E84E31', logo: 'Git' },
     { name: 'NoSQL', level: 2, color: '#F7C52B', logo: 'NoSQL' },
-    { name: 'PHP', level: 0, color: '#787cb4', logo: 'PHP' },
-    { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' },
-    { name: 'Lightroom', level: 1, color: '#0A232F', logo: 'Lightroom' }
+    { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' }
 ];
 
 export const CERTIFICATIONS = [
@@ -179,16 +174,35 @@ export const AWARDS = [
     {
         name: 'Rau-DevHack Hackathon',
         place: 2,
-        date: 'Apr 2019',
-        description: 'Creating an application to help users choose the most recommended photographer for their event, according to their visual preferences, budget and period, giving photographers easier management on the event calendar and applications.'
+        date: 'Apr 2019'
     },
     {
         name: 'Web&Mobile Challenge at DevHacks',
         date: 'Nov 2018',
-        place: 1,
-        description: `
-      Our result should allows candidates from Romania the possibility to offer reviews/ratings to companies about key areas such as: recruitment process,  work environment (team, schedule, etc), trainings, learning and development opportunities, salary & benefits, work-life balance, management, internal systems (procedures, values, way of working), other relevant areas. The aim of this product is to help candidates find the employer that best suits their needs and personality, something different. The target audience of the product will be made up students and young professionals.
-      `
+        place: 1
+    }
+];
+
+export const RECOMMENDATIONS = [
+    {
+        text: 'I worked with Madalina on the same project for over a year. Even though she started as a Junior Developer, she quickly managed to learn and acquire quite an extensive set of skills.Her determination to never give up and always learn and improve, is what sets her apart from many other developers out there.It\'s been a pleasure working with her. She is currently riding the proverbial wave and I am sure she will achieve great things in the future.I highly recommend her to anyone looking to expand their team(s).',
+        author: 'Theodor Palamaru',
+        role: 'Front-End Developer',
+        place: 'LinkedIn',
+        from: 'IBM'
+    },
+    {
+        text: 'For the past years I had the opportunity to work along Madalina on multiple personal & comercial projects. She was able to develop features in an extremely elegant and creative way all the time. Her ability to develop high quality products while being under extreme pressure is something that I look up to, not only that she’s able to stay calm and professional in difficult situations. She’s also able to make everyone in the team feel that they are also capable of doing more than they expect from themselves.',
+        author: 'Emanuel Cepoi',
+        role: 'Full-Stack Developer',
+        place: 'LinkedIn'
+    },
+    {
+        text: 'Madalina is always reliable and helping her team members, able to understand the requirements and come up with a solution. It was a joy and always had confidence while working with her. I am strongly recommend her in any new opportunity and challenge.',
+        author: 'Raluca Rusu',
+        role: 'Project Manager',
+        place: 'LinkedIn',
+        from: 'IBM'
     }
 ];
 
@@ -221,6 +235,15 @@ export const EXPERIENCE = [
         dateEnd: 'Oct 2021',
         location: 'Bucharest, Romania',
         description: `
+            💼 Internship<br>
+            🗓️ 12/2018 - 02/2019<br>
+            💻 Technologies: HTML, CSS, JavaScript, Angular, RxJs, Vue.js, Vuex, Firebase, Ionic<br><br>
+            <h4>Assignment description:</h4>
+            <ul>
+            <li>I learned the basics of Ionic and Angular;</li>
+            <li>Applied the knowledge in a project delivered to the client;</li>
+            <li>Designing mobile-based features, working in an agile team.</li>
+            </ul><br>
             💼 Client 1 - Germany<br>
             🗓️ 03/2019 - 03/2020<br>
             🏦 Industry: Insurance<br>
@@ -281,6 +304,12 @@ export const EXPERIENCE = [
         role: 'Practicant - Drive your future',
         dateStart: 'Jun 2017',
         dateEnd: 'Sept 2017',
+        description: `
+        <h4>Assignment description:</h4>
+        <ul>
+        <li>Database maintenance using my own Matlab scripts.</li>
+        </ul>
+        `,
         location: 'Bucharest, Romania',
         companyLogo: '../assets/logos/renault.png',
         skill: ['Matlab']
@@ -291,6 +320,12 @@ export const EXPERIENCE = [
         dateStart: 'Feb 2016',
         dateEnd: 'Jun 2017',
         location: 'Bucharest, Romania',
+        description: `
+        <h4>Assignment description:</h4>
+        <ul>
+        <li>Taking calls and solving the situations encountered by clients, making recordings and offering them.</li>
+        </ul>
+        `,
         companyLogo: '../assets/logos/telekom.png',
         skill: ['Work under pressure', 'Adaptability', 'Multitasking']
     }
