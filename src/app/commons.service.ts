@@ -19,9 +19,6 @@ export class CommonsService {
   public publications$ = this.publications.asObservable();
   public repositories = new BehaviorSubject<ProjectModel[]>([]);
   public repositories$ = this.repositories.asObservable();
-  public changeTheme = new BehaviorSubject<boolean>(this.isDarkThemeDefault);
-  public changeTheme$ = this.changeTheme.asObservable();
-
 
   constructor(
     private http: HttpClient,

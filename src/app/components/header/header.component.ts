@@ -18,10 +18,6 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.commonsService.changeTheme$.subscribe(isDarkTheme => {
-      this.isDarkThemeSelected = isDarkTheme;
-      this.themeEmoji = isDarkTheme ? '☀️' : '🌙';
-    });
   }
 
   public isPageSelected(page: string): boolean {
@@ -30,11 +26,5 @@ export class HeaderComponent implements OnInit {
 
   public openCV(): void {
     this.commonsService.openNewTab('./../../../assets/CV.pdf');
-  }
-
-  public changeTheme(): void {
-    this.isDarkThemeSelected
-      ? this.commonsService.changeTheme.next(false)
-      : this.commonsService.changeTheme.next(true);
   }
 }

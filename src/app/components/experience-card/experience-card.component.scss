@@ -9,13 +9,19 @@ app-experience-card {
     flex-direction: row !important;
   }
 
+  .mat-tab-body {
+    border-left: solid 1px var(--primary);
+    padding-left: 2vw;
+  }
+
   mat-ink-bar {
     display: none;
   }
   
   .mat-tab-label {
     align-items: flex-start;
-    color: var(--darkPrimary);
+    color: var(--lightgray);
+    opacity: 1;
   }
 
   .mat-tab-label-active {
@@ -25,6 +31,7 @@ app-experience-card {
   .summary {
     display: flex;
     flex-flow: column;
+    line-height: 1.5rem;
 
     .role {
       font-weight: bold;
@@ -38,21 +45,20 @@ app-experience-card {
     .date {
       font-weight: normal;
       color: var(--lightgray);
-      padding-top: 1vh;
     }
-    
+
     .location {
       color: var(--lightgray);
     }
   }
 
-  .skills {
-    display: flex;
-    flex-flow: wrap;
-    margin: 10px 0;
-  }
-
   .description {
+    color: var(--lightgray);
     line-height: 1.5rem;
+    padding-top:1.5vh;
+
+    li::marker {
+      color: var(--primary);
+    }
   }
 }
