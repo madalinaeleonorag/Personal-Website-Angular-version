@@ -116,6 +116,16 @@
         </div>
       </div>
 
+      <div class="category" id="recommendations">
+        <div class="title-category">09. Recommendations</div>
+        <div class="recommendations">
+          <app-recommendation
+            *ngFor="let recommendation of recommendations"
+            [data]="recommendation"
+          ></app-recommendation>
+        </div>
+      </div>
+
       <app-contact></app-contact>
     </div>
   </div>

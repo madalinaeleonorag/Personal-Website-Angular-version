@@ -39,6 +39,7 @@ import { CustomSocialCardComponent } from './components/custom-social-card/custo
 import { MatDialogModule } from '@angular/material/dialog';
 import { CommonModule } from '@angular/common';
 import { CustomDialogComponent } from './components/custom-dialog/custom-dialog.component';
+import { RecommendationComponent } from './components/recommendation/recommendation.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { CustomDialogComponent } from './components/custom-dialog/custom-dialog.
     CustomChipComponent,
     CustomSocialCardComponent,
     CustomDialogComponent,
+    RecommendationComponent,
   ],
   imports: [
     CommonModule,

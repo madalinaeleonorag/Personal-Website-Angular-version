@@ -1,6 +1,6 @@
 import { Component, ElementRef, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { AWARDS, CERTIFICATIONS, DESIGNPROJECTS, EDUCATION, EXPERIENCE, SKILLS } from 'src/assets/data';
+import { AWARDS, CERTIFICATIONS, DESIGNPROJECTS, EDUCATION, EXPERIENCE, RECOMMENDATIONS, SKILLS } from 'src/assets/data';
 import { CommonsService } from './commons.service';
 import { CustomDialogComponent } from './components/custom-dialog/custom-dialog.component';
 import { PublicationModel, ProjectModel, ExperienceModel, EducationModel, AwardModel, SkillModel, CertificationModel } from './data.model';
@@ -22,6 +22,7 @@ export class AppComponent implements OnInit {
   public awards: AwardModel[] = [];
   public skills: SkillModel[];
   public certifications: CertificationModel[];
+  public recommendations: any[];
 
   columns: string[] = ['logo', 'name', 'organization'];
 
@@ -40,6 +41,7 @@ export class AppComponent implements OnInit {
 
     this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
     this.projectsDesign = DESIGNPROJECTS;
+    this.recommendations = RECOMMENDATIONS;
 
     this.commonsService.publications$.subscribe(publications => {
       this.publications = publications;
