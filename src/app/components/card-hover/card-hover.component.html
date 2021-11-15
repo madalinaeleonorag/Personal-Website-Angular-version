@@ -29,6 +29,7 @@
         buttonText="See details"
         [isFilledButton]="true"
         *ngIf="!data.noDetails"
+        (click)="openDialog('project', project)"
       ></app-custom-button>
     </div>
   </div>

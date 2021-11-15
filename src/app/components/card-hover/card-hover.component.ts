@@ -1,5 +1,7 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { CommonsService } from 'src/app/commons.service';
+import { CustomDialogComponent } from '../custom-dialog/custom-dialog.component';
 
 @Component({
   selector: 'app-card-hover',
@@ -11,7 +13,7 @@ export class CardHoverComponent implements OnInit {
 
   @Input() data: any;
 
-  constructor(private commonsService: CommonsService) { }
+  constructor(private commonsService: CommonsService, public dialog: MatDialog) { }
 
   ngOnInit(): void {
   }
@@ -23,5 +25,11 @@ export class CardHoverComponent implements OnInit {
       case 'code': this.commonsService.openNewTab(this.data.code);
                    break;
     }
+  }
+
+  public openDialog(type: string, data: any): void {
+    this.dialog.open(CustomDialogComponent, {
+      data: { type, data }
+    });
   }
 }

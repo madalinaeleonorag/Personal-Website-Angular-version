@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { AWARDS, CERTIFICATIONS, DESIGNPROJECTS, EDUCATION, EXPERIENCE, RECOMMENDATIONS, SKILLS } from 'src/assets/data';
 import { CommonsService } from './commons.service';
@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
 
   columns: string[] = ['logo', 'name', 'organization'];
 
-  constructor(private commonsService: CommonsService, private el: ElementRef, public dialog: MatDialog) {
+  constructor(private commonsService: CommonsService, public dialog: MatDialog) {
     this.skills = SKILLS;
     this.certifications = CERTIFICATIONS;
 
