@@ -20,7 +20,6 @@ app-experience-card {
   
   .mat-tab-label {
     align-items: flex-start;
-    color: var(--lightgray);
     opacity: 1;
   }
 
@@ -44,16 +43,10 @@ app-experience-card {
     }
     .date {
       font-weight: normal;
-      color: var(--lightgray);
-    }
-
-    .location {
-      color: var(--lightgray);
     }
   }
 
   .description {
-    color: var(--lightgray);
     line-height: 1.5rem;
     padding-top:1.5vh;
 

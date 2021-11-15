@@ -26,13 +26,6 @@
       [isFilledButton]="false"
       (click)="openCV()"
     ></app-custom-button>
-    <app-custom-button
-      buttonText="Contact"
-      [isFilledButton]="true"
-      [matMenuTriggerFor]="contactMenu"
-      #t="matMenuTrigger"
-    >
-    </app-custom-button>
   </div>
 
   <mat-menu #menu="matMenu">
@@ -41,10 +34,6 @@
       [isFilledButton]="false"
       (click)="openCV()"
     ></app-custom-button>
-    <app-contact></app-contact>
-  </mat-menu>
-
-  <mat-menu #contactMenu="matMenu">
     <app-contact></app-contact>
   </mat-menu>
 </header>

@@ -42,10 +42,8 @@ body {
 }
 
 .component-wrapper {
-  padding: 5vh 5vw;
   color: var(--white);
   background: var(--background);
-  padding-top: 50px;
 }
 
 @media (max-width: 850px) {
@@ -179,9 +177,14 @@ a {
 
 .homepage-title {
   line-height: 1.7rem;
-  margin: 2vh 5vw 8vh 5vw;
-  padding: 1vh 0 2vh 3vw;
-  border-left: 1px solid var(--primary);
+  padding: 0 20vw 0vh 20vw;
+  background: url(../assets/header.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 
   .welcome-name {
     color: var(--primary);
@@ -289,6 +292,8 @@ a {
 }
 
 .category {
+  padding: 5vh 5vw;
+
   .category-name {
     font-weight: bold;
     padding: 5vh 0;
