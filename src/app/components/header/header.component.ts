@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, HostListener, OnInit, ViewEncapsulation } from '@angular/core';
 import { CommonsService } from 'src/app/commons.service';
 
 @Component({
@@ -10,9 +10,18 @@ import { CommonsService } from 'src/app/commons.service';
 export class HeaderComponent implements OnInit {
 
   private selectedPageUrl = '/';
-  private isDarkThemeSelected = false;
 
+  public isSticky: boolean;
   public themeEmoji: string;
+
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll(e) {
+    if (window.pageYOffset > 50) {
+      this.isSticky = true;
+    } else {
+      this.isSticky = false;
+    }
+  }
 
   constructor(private commonsService: CommonsService) {
   }

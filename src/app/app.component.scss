@@ -39,13 +39,13 @@ body {
   margin: 0;
   font-family: "Verdana", "Helvetica Neue", sans-serif;
   font-size: 14px;
-  margin-top: 60px;
 }
 
 .component-wrapper {
   padding: 5vh 5vw;
   color: var(--white);
   background: var(--background);
+  padding-top: 50px;
 }
 
 @media (max-width: 850px) {

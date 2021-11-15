@@ -1,15 +1,29 @@
 app-header {
-  display: flex;
-  height: 30px;
-  flex-flow: row;
-  background-color: var(--background);
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px;
-  margin-top: -60px;
-  position: fixed;
-  width: -webkit-fill-available;
-  z-index: 99999;
+
+  .header-area {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 1vh 1vw;
+    height: 50px;
+    width: -webkit-fill-available;
+
+    &.is-sticky {
+      background: white;
+      position: fixed;
+    }
+  
+    &.box-shadow-header {
+      -webkit-box-shadow: 0 4px 6px 0px black;
+      box-shadow: 0 4px 6px 0px black;
+    }
+  }
 
   .menu-icon {
     display: none;

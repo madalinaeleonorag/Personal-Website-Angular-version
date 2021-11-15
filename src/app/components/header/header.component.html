@@ -1,46 +1,50 @@
-<button
-  mat-icon-button
-  [matMenuTriggerFor]="menu"
-  #t="matMenuTrigger"
-  class="menu-icon"
+<header
+  class="header-area transparent-header"
+  id="navbar"
+  [ngClass]="{ 'is-sticky': isSticky, 'box-shadow-header': isSticky}"
 >
-  <mat-icon *ngIf="!t.menuOpen" class="">menu</mat-icon>
-  <mat-icon *ngIf="t.menuOpen" class="">close</mat-icon>
-</button>
-
-<div class="title"><span>Madalina</span>Eleonora</div>
-<div class="links">
-</div>
-<div class="social-icons-wrapper">
-  <a target="_blank" href="https://madalinaeleonorag.medium.com/">
-    <app-custom-svg type="medium"></app-custom-svg>
-  </a>
-  <a target="_blank" href="https://github.com/madalinaeleonorag">
-    <app-custom-svg type="github"></app-custom-svg>
-  </a>
-  <app-custom-button
-  buttonText="&#60;/Resume&#62;"
-  [isFilledButton]="false"
-  (click)="openCV()"
-></app-custom-button>
-  <app-custom-button
-  buttonText="Contact"
-    [isFilledButton]="true"
-    [matMenuTriggerFor]="contactMenu"
+  <button
+    mat-icon-button
+    [matMenuTriggerFor]="menu"
     #t="matMenuTrigger"
+    class="menu-icon"
   >
-  </app-custom-button>
-</div>
+    <mat-icon *ngIf="!t.menuOpen" class="">menu</mat-icon>
+    <mat-icon *ngIf="t.menuOpen" class="">close</mat-icon>
+  </button>
+  <div class="title"><span>Madalina</span>Eleonora</div>
+  <div class="links"></div>
+  <div class="social-icons-wrapper">
+    <a target="_blank" href="https://madalinaeleonorag.medium.com/">
+      <app-custom-svg type="medium"></app-custom-svg>
+    </a>
+    <a target="_blank" href="https://github.com/madalinaeleonorag">
+      <app-custom-svg type="github"></app-custom-svg>
+    </a>
+    <app-custom-button
+      buttonText="&#60;/Resume&#62;"
+      [isFilledButton]="false"
+      (click)="openCV()"
+    ></app-custom-button>
+    <app-custom-button
+      buttonText="Contact"
+      [isFilledButton]="true"
+      [matMenuTriggerFor]="contactMenu"
+      #t="matMenuTrigger"
+    >
+    </app-custom-button>
+  </div>
 
-<mat-menu #menu="matMenu">
-  <app-custom-button
-    buttonText="&#60;/Resume&#62;"
-    [isFilledButton]="false"
-    (click)="openCV()"
-  ></app-custom-button>
-  <app-contact></app-contact>
-</mat-menu>
+  <mat-menu #menu="matMenu">
+    <app-custom-button
+      buttonText="&#60;/Resume&#62;"
+      [isFilledButton]="false"
+      (click)="openCV()"
+    ></app-custom-button>
+    <app-contact></app-contact>
+  </mat-menu>
 
-<mat-menu #contactMenu="matMenu">
-  <app-contact></app-contact>
-</mat-menu>
+  <mat-menu #contactMenu="matMenu">
+    <app-contact></app-contact>
+  </mat-menu>
+</header>
