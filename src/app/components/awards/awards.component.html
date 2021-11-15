@@ -1,11 +1,5 @@
-<div class="award-wrapper">
-  <div class="header">
-    <div class="summary">
-      <app-custom-svg [type]="place"></app-custom-svg>
-      <div class="name">{{ award.name }}</div>
-      <div class="date" *ngIf="award.date">
-        {{ award.date }}
-      </div>
-    </div>
-  </div>
+<app-custom-svg [type]="place"></app-custom-svg>
+<div class="name">{{ award.name }}</div>
+<div class="date" *ngIf="award.date">
+  {{ award.date }}
 </div>

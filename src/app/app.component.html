@@ -44,8 +44,10 @@
 
     <div class="category" id="education">
       <div class="title-category">03. Education 📚</div>
-      <div *ngFor="let item of education">
-        <app-education-level [education]="item"></app-education-level>
+      <div class="projects">
+        <div *ngFor="let item of education">
+          <app-education-level [education]="item"></app-education-level>
+        </div>
       </div>
     </div>
 
@@ -79,8 +81,10 @@
 
     <div class="category" id="awards">
       <div class="title-category">06. Awards 🏆</div>
-      <div *ngFor="let item of awards">
-        <app-awards [award]="item"></app-awards>
+      <div class="projects">
+        <div *ngFor="let item of awards">
+          <app-awards [award]="item"></app-awards>
+        </div>
       </div>
     </div>
 

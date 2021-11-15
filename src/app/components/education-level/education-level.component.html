@@ -1,13 +1,10 @@
-<div class="header">
-  <div class="image">
-    <img alt="" *ngIf="education.logo" src="{{ education.logo }}" />
-  </div>
-  <div class="summary">
-    <div class="name">{{ education.school }}</div>
-    <div class="degree">{{ education.degree }}</div>
-    <div class="fieldOfStudy">{{ education.fieldOfStudy }}</div>
-    <div class="date">{{ education.startYear }} - {{ education.endYear }}</div>
-    <div class="grade" *ngIf="education.grade">Grade: {{ education.grade }}</div>
-  </div>
+<div class="image">
+  <img alt="" *ngIf="education.logo" src="{{ education.logo }}" />
 </div>
-<div class="description" [innerHTML]="education.description"></div>
+<div class="summary">
+  <div class="name">{{ education.school }}</div>
+  <div class="degree">{{ education.degree }}</div>
+  <div class="fieldOfStudy">{{ education.fieldOfStudy }}</div>
+  <div class="date">{{ education.startYear }} - {{ education.endYear }}</div>
+  <div class="grade" *ngIf="education.grade">Grade: {{ education.grade }}</div>
+</div>

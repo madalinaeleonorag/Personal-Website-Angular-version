@@ -16,6 +16,9 @@ export class CardHoverComponent implements OnInit {
   constructor(private commonsService: CommonsService, public dialog: MatDialog) { }
 
   ngOnInit(): void {
+    console.log(this.data)
+    this.data.logo = this.data.logo ? this.data.logo : this.data.image;
+    this.data.name = this.data.name ? this.data.name : this.data.title;
   }
 
   public openNewTab(type: string): void {
