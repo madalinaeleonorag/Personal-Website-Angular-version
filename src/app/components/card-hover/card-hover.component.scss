@@ -1,0 +1,60 @@
+app-card-hover {
+  flex: 1 1 30%;
+  height: 300px;
+
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+
+    img {
+      float: left;
+      flex-shrink: 1;
+      min-width: 100%;
+      min-height: 100%;
+    }
+
+    .caption-text {
+      position: absolute;
+      opacity: 0;
+      transition: all 0.45s ease-in-out;
+      background-color: #000000e0;
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+      text-align: center;
+      display: flex;
+      color: #ffffff;
+      flex-flow: column;
+      padding: 3vh 3vw;
+      justify-content: center;
+
+      .technologies {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+      }
+
+      .actions {
+        display: flex;
+        flex-flow: row;
+        align-self: center;
+      }
+
+      h2,
+      p {
+        width: 100%;
+        margin: 10px 0px;
+      }
+    }
+  }
+
+  .wrapper:hover {
+    .caption-text {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
+}

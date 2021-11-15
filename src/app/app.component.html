@@ -64,11 +64,11 @@
       <div class="category" id="projects">
         <div class="title-category">05. Latest programming projects 💻</div>
         <div class="projects">
-          <app-custom-card
+          <app-card-hover
             *ngFor="let project of projectsTechnology"
             [data]="project"
-            type="project"
-          ></app-custom-card>
+          >
+          </app-card-hover>
         </div>
         <div class="see-more">
           <app-custom-button

@@ -1,0 +1,35 @@
+<div
+  class="wrapper"
+  [ngStyle]="{
+    background: 'url(' + data.logo + ')'
+  }"
+>
+  <div class="caption-text">
+    <h2>{{ data.name }}</h2>
+    <div class="technologies">
+      <app-custom-chip
+        *ngFor="let technology of data.technologies"
+        [text]="technology"
+      ></app-custom-chip>
+    </div>
+    <div class="actions">
+      <app-custom-button
+        buttonText="&#60;/Code&#62;"
+        [isFilledButton]="false"
+        *ngIf="data.code"
+        (click)="openNewTab('code')"
+      ></app-custom-button>
+      <app-custom-button
+        buttonText="See live"
+        [isFilledButton]="true"
+        *ngIf="data.live"
+        (click)="openNewTab('live')"
+      ></app-custom-button>
+      <app-custom-button
+        buttonText="See details"
+        [isFilledButton]="true"
+        *ngIf="!data.noDetails"
+      ></app-custom-button>
+    </div>
+  </div>
+</div>

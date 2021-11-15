@@ -21,11 +21,6 @@ app-custom-chip {
     height: -webkit-fill-available;
   }
 
-  .chip__inner:hover {
-    border: 1px solid var(--primary)opacity;
-    cursor: default;
-  }
-
   @media (max-width: 850px) {
     .chip__inner {
       padding: 4px;

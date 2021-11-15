@@ -40,6 +40,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { CommonModule } from '@angular/common';
 import { CustomDialogComponent } from './components/custom-dialog/custom-dialog.component';
 import { RecommendationComponent } from './components/recommendation/recommendation.component';
+import { CardHoverComponent } from './components/card-hover/card-hover.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { RecommendationComponent } from './components/recommendation/recommendat
     CustomSocialCardComponent,
     CustomDialogComponent,
     RecommendationComponent,
+    CardHoverComponent,
   ],
   imports: [
     CommonModule,
