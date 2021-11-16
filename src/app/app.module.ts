@@ -25,7 +25,6 @@ import { EducationLevelComponent } from './components/education-level/education-
 import { AwardsComponent } from './components/awards/awards.component';
 import { CustomCardComponent } from './components/custom-card/custom-card.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { HttpClientModule } from '@angular/common/http';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
@@ -75,7 +74,6 @@ import { CardHoverComponent } from './components/card-hover/card-hover.component
     ReactiveFormsModule,
     MatSelectModule,
     GalleryModule.forRoot(),
-    IvyCarouselModule,
     HttpClientModule,
     MatMenuModule,
     MatTableModule,
