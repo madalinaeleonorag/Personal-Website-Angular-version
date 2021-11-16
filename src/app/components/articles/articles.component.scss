@@ -167,6 +167,12 @@ app-articles {
     transition: 0.2s;
     margin: 0;
   }
+
+  .mini-card:hover {
+    .article-card-header {
+      text-shadow: 0rem 0 1rem #000000c7;
+    }
+  }
   .mini-card h2 {
     font-size: 20px;
     margin: 0.25rem 0 auto 0;
