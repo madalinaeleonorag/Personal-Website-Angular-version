@@ -3869,30 +3869,6 @@
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
       "8Y7J");
-      /* harmony import */
-
-
-      var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! @angular/common */
-      "SVse");
-
-      function RecommendationComponent_span_4_Template(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        }
-
-        if (rf & 2) {
-          var ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" in ", ctx_r0.data.from, ") ");
-        }
-      }
 
       var RecommendationComponent = /*#__PURE__*/function () {
         function RecommendationComponent() {
@@ -3901,7 +3877,9 @@
 
         _createClass(RecommendationComponent, [{
           key: "ngOnInit",
-          value: function ngOnInit() {}
+          value: function ngOnInit() {
+            this.formattedText = "".concat(this.data.author, ", ").concat(this.data.role, " ").concat(this.data.from ? 'in ' + this.data.from : '', ", on ").concat(this.data.place);
+          }
         }]);
 
         return RecommendationComponent;
@@ -3917,22 +3895,22 @@
         inputs: {
           data: "data"
         },
-        decls: 6,
-        vars: 5,
-        consts: [[1, "recommendation"], [4, "ngIf"]],
+        decls: 5,
+        vars: 2,
+        consts: [[1, "recommendation"], [1, "content"], [1, "author"]],
         template: function RecommendationComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, RecommendationComponent_span_4_Template, 2, 1, "span", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -3940,25 +3918,16 @@
           }
 
           if (rf & 2) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" \"", ctx.data.text, "\" ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("\"", ctx.data.text, "\"");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"](" - ", ctx.data.author, " (", ctx.data.role, "");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.data.from);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" on ", ctx.data.place, " ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.formattedText, " ");
           }
         },
-        directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]],
-        styles: ["app-recommendation {\n  line-height: 1.5rem;\n}\napp-recommendation .recommendation {\n  margin: 1.5vh 0;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9yZWNvbW1lbmRhdGlvbi9yZWNvbW1lbmRhdGlvbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1CQUFBO0FBQ0o7QUFBSTtFQUNJLGVBQUE7QUFFUiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcmVjb21tZW5kYXRpb24vcmVjb21tZW5kYXRpb24uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJhcHAtcmVjb21tZW5kYXRpb24ge1xyXG4gICAgbGluZS1oZWlnaHQ6IDEuNXJlbTtcclxuICAgIC5yZWNvbW1lbmRhdGlvbiB7XHJcbiAgICAgICAgbWFyZ2luOiAxLjV2aCAwO1xyXG4gICAgfVxyXG59Il19 */"],
+        styles: ["app-recommendation .recommendation {\n  line-height: 1.5rem;\n  margin: 1.5vh 0;\n}\napp-recommendation .recommendation .content {\n  border: 1px solid var(--darkPrimary);\n  border-radius: 16px;\n  padding: 2vh 2vw;\n}\napp-recommendation .recommendation .author {\n  display: flex;\n  justify-content: right;\n  color: var(--primary);\n  padding: 0.5vh 0;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9yZWNvbW1lbmRhdGlvbi9yZWNvbW1lbmRhdGlvbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFSTtFQUVJLG1CQUFBO0VBQ0EsZUFBQTtBQUZSO0FBSVE7RUFDSSxvQ0FBQTtFQUNBLG1CQUFBO0VBQ0EsZ0JBQUE7QUFGWjtBQUtRO0VBQ0ksYUFBQTtFQUNBLHNCQUFBO0VBQ0EscUJBQUE7RUFDQSxnQkFBQTtBQUhaIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9yZWNvbW1lbmRhdGlvbi9yZWNvbW1lbmRhdGlvbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImFwcC1yZWNvbW1lbmRhdGlvbiB7XHJcblxyXG4gICAgLnJlY29tbWVuZGF0aW9uIHtcclxuXHJcbiAgICAgICAgbGluZS1oZWlnaHQ6IDEuNXJlbTtcclxuICAgICAgICBtYXJnaW46IDEuNXZoIDA7XHJcbiAgICBcclxuICAgICAgICAuY29udGVudCB7XHJcbiAgICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWRhcmtQcmltYXJ5KTtcclxuICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMTZweDtcclxuICAgICAgICAgICAgcGFkZGluZzogMnZoIDJ2dztcclxuICAgICAgICB9XHJcbiAgICBcclxuICAgICAgICAuYXV0aG9yIHtcclxuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiByaWdodDtcclxuICAgICAgICAgICAgY29sb3I6IHZhcigtLXByaW1hcnkpO1xyXG4gICAgICAgICAgICBwYWRkaW5nOiAwLjV2aCAwO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxuICAgIH0iXX0= */"],
         encapsulation: 2
       });
       /*@__PURE__*/

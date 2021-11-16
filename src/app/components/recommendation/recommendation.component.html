@@ -1,7 +1,6 @@
 <div class="recommendation">
-    "{{ data.text }}"
-    <div>
-        - {{ data.author }} ({{ data.role }}<span *ngIf="data.from"> in {{ data.from }})
-        </span> on {{ data.place }}
-    </div>
+  <div class="content">"{{ data.text }}"</div>
+  <div class="author">
+    {{ formattedText }}
+  </div>
 </div>

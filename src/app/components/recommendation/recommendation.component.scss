@@ -1,6 +1,21 @@
 app-recommendation {
-    line-height: 1.5rem;
+
     .recommendation {
+
+        line-height: 1.5rem;
         margin: 1.5vh 0;
+    
+        .content {
+            border: 1px solid var(--darkPrimary);
+            border-radius: 16px;
+            padding: 2vh 2vw;
+        }
+    
+        .author {
+            display: flex;
+            justify-content: right;
+            color: var(--primary);
+            padding: 0.5vh 0;
+        }
     }
-}
+    }
