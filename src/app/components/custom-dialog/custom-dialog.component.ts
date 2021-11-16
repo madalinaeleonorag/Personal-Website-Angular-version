@@ -10,7 +10,6 @@ import { CommonsService } from 'src/app/commons.service';
 export class CustomDialogComponent implements OnInit {
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: any, private commonsService: CommonsService) {
-    console.log(data);
   }
 
   ngOnInit(): void {

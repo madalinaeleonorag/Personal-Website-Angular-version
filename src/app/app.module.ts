@@ -80,7 +80,7 @@ import { CardHoverComponent } from './components/card-hover/card-hover.component
     MatMenuModule,
     MatTableModule,
     MatSlideToggleModule,
-    MatDialogModule
+    MatDialogModule,
   ],
   exports: [
     MatProgressBarModule,

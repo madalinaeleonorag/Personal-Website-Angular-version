@@ -3,7 +3,25 @@
   <div class="component-wrapper">
     <div class="homepage-title" id="header">
       <div class="welcome-name">Hi, my name is</div>
-      <div class="name">Madalina-Eleonora</div>
+      <div class="decode-text">
+        <div class="text-animation">M</div>
+        <div class="text-animation">a</div>
+        <div class="text-animation">d</div>
+        <div class="text-animation">a</div>
+        <div class="text-animation">l</div>
+        <div class="text-animation">i</div>
+        <div class="text-animation">n</div>
+        <div class="text-animation">a</div>
+        <div class="text-animation">-</div>
+        <div class="text-animation">E</div>
+        <div class="text-animation">l</div>
+        <div class="text-animation">e</div>
+        <div class="text-animation">o</div>
+        <div class="text-animation">n</div>
+        <div class="text-animation">o</div>
+        <div class="text-animation">r</div>
+        <div class="text-animation">a</div>
+      </div>
       <h3 class="welcome-subtitle">
         and I gathered my passions in Web Development
       </h3>
@@ -90,13 +108,14 @@
 
     <div class="category" *ngIf="publications.length > 0" id="articles">
       <div class="title-category">07. I like to write, sometimes ✏️</div>
-      <div class="publications">
-        <app-custom-card
-          *ngFor="let publication of publications"
-          type="publication"
-          [data]="publication"
-        ></app-custom-card>
-      </div>
+      <carousel>
+        <div class="carousel-cell" *ngFor="let publication of publications">
+          <app-custom-card
+            type="publication"
+            [data]="publication"
+          ></app-custom-card>
+        </div>
+      </carousel>
       <div class="see-more">
         <app-custom-button
           buttonText="See more articles on Medium"

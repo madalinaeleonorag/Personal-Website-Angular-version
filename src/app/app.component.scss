@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
 @import "./variables.scss";
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
@@ -44,12 +45,6 @@ body {
 .component-wrapper {
   color: var(--white);
   background: var(--background);
-}
-
-@media (max-width: 850px) {
-  .component-wrapper {
-    padding: 5vw;
-  }
 }
 
 .social-icons-wrapper {
@@ -161,10 +156,6 @@ a {
   }
 }
 
-.selected-page {
-  color: var(--primary) !important;
-}
-
 .logo {
   text-align-last: center;
   padding: 20px;
@@ -177,7 +168,9 @@ a {
 
 .homepage-title {
   line-height: 1.7rem;
-  padding: 0 20vw 0vh 20vw;
+  font-size: larger;
+  font-family: monospace;
+  padding: 0 15vw;
   background: url(../assets/header.png);
   background-size: cover;
   background-position: center;
@@ -186,29 +179,63 @@ a {
   flex-flow: column;
   justify-content: center;
 
-  .welcome-name {
-    color: var(--primary);
-    font-weight: 400;
-    font-family: monospace;
-  }
-
-  .name {
-    height: auto;
-    color: var(--white);
-    padding: 10px 0;
-    font-size: 3rem;
-  }
-
+  .welcome-name,
   .welcome-subtitle {
-    color: var(--primary);
-    margin-top: 0;
+    color: var(--black);
     font-family: monospace;
+    font-size: 1.7rem;
+  }
+
+  .decode-text {
+    font-family: "Share Tech Mono", monospace;
+    width: 100%;
+    font-size: 30px;
+    font-size: 6vw;
+  }
+  .space {
+    display: inline-block;
+    width: 10px;
+  }
+  .text-animation {
+    display: inline-block;
+    position: relative;
+    line-height: initial;
+    color: transparent;
+    text-transform: uppercase;
+    &:before {
+      content: "";
+      color: var(--primary);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background: var(--black);
+      width: 0;
+      height: 1.2em;
+      -webkit-transform: translate(-50%, -55%);
+      -ms-transform: translate(-50%, -55%);
+      transform: translate(-50%, -55%);
+    }
+
+    &.state-1 {
+      &:before {
+        width: 1px;
+      }
+    }
+    &.state-2 {
+      &:before {
+        width: 0.9em;
+      }
+    }
+    &.state-3 {
+      color: var(--primary);
+      &:before {
+        width: 0;
+      }
+    }
   }
 
   .description {
-    font-family: monospace;
     line-height: normal;
-    font-size: unset;
   }
 }
 
@@ -257,16 +284,12 @@ a {
 }
 
 @media (max-width: 850px) {
-  .description-homepage {
-    margin: 3vh 5vw;
-
-    .name {
-      font-size: x-large;
-    }
-  }
-
   .title {
     font-size: 1rem;
+  }
+
+  .description {
+    display: none;
   }
 
   .publications {

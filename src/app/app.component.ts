@@ -50,6 +50,7 @@ export class AppComponent implements OnInit {
     this.commonsService.repositories$.subscribe(repositories => {
       this.projectsTechnology = repositories;
     });
+    this.decodeText();
   }
 
   public openDialog(type: string, data: any): void {
@@ -64,5 +65,70 @@ export class AppComponent implements OnInit {
 
   public openMedium(): void {
     this.commonsService.openNewTab('https://madalinaeleonorag.medium.com/');
+  }
+
+
+
+  private decodeText(): void {
+    const text = document.getElementsByClassName('decode-text')[0];
+    const state = [];
+    for (let i = 0, j = text.children.length; i < j; i++) {
+      text.children[i].classList.remove('state-1', 'state-2', 'state-3');
+      state[i] = i;
+    }
+
+    const shuffled = this.shuffle(state);
+
+    for (let i = 0, j = shuffled.length; i < j; i++) {
+      const child = text.children[shuffled[i]];
+      const classes = child.classList;
+
+      const state1Time = Math.round(Math.random() * (2000 - 300)) + 50;
+      if (classes.contains('text-animation')) {
+        setTimeout(() => this.firstStages(child), state1Time);
+      }
+    }
+  }
+
+  private firstStages(child: any): void {
+    if (child.classList.contains('state-2')) {
+      child.classList.add('state-3');
+    } else if (child.classList.contains('state-1')) {
+      child.classList.add('state-2');
+    } else if (!child.classList.contains('state-1')) {
+      child.classList.add('state-1');
+      setTimeout(() => this.secondStages(child), 100);
+    }
+  }
+
+  private secondStages(child: any): void {
+    if (child.classList.contains('state-1')) {
+      child.classList.add('state-2');
+      setTimeout(() => this.thirdStages(child), 100);
+    }
+    else if (!child.classList.contains('state-1')) {
+      child.classList.add('state-1');
+    }
+  }
+
+  private thirdStages(child: any): void {
+    if (child.classList.contains('state-2')) {
+      child.classList.add('state-3');
+    }
+  }
+
+  private shuffle(array: any): any {
+    let currentIndex = array.length;
+    let temporaryValue: any;
+    let randomIndex: any;
+
+    while (0 !== currentIndex) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+    return array;
   }
 }
