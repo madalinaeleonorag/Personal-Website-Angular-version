@@ -22,12 +22,12 @@ app-card-hover {
       position: absolute;
       opacity: 0;
       transition: all 0.45s ease-in-out;
-      background-color: #000000e0;
+      background-color: var(--background-transparent);
       width: -webkit-fill-available;
       height: -webkit-fill-available;
       text-align: center;
       display: flex;
-      color: #ffffff;
+      color: var(--white);
       flex-flow: column;
       padding: 3vh 3vw;
       justify-content: center;

@@ -106,23 +106,9 @@
       </div>
     </div>
 
-    <div class="category" *ngIf="publications.length > 0" id="articles">
+    <div class="category articles" *ngIf="publications.length > 0" id="articles">
       <div class="title-category">07. I like to write, sometimes ✏️</div>
-      <carousel>
-        <div class="carousel-cell" *ngFor="let publication of publications">
-          <app-custom-card
-            type="publication"
-            [data]="publication"
-          ></app-custom-card>
-        </div>
-      </carousel>
-      <div class="see-more">
-        <app-custom-button
-          buttonText="See more articles on Medium"
-          [isFilledButton]="true"
-          (click)="openMedium()"
-        ></app-custom-button>
-      </div>
+      <app-articles [publications]="publications"></app-articles>
     </div>
 
     <div class="category" id="design">

@@ -317,6 +317,10 @@ a {
 .category {
   padding: 2vh 5vw;
 
+  &.articles {
+    padding: 2vh 0 2vh 5vw;
+  }
+
   .category-name {
     padding: 5vh 0;
     font-size: medium;
