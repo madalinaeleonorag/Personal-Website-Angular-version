@@ -14,6 +14,6 @@ export class RecommendationComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.formattedText = `${this.data.author}, ${this.data.role} ${this.data.from ? 'in ' + this.data.from : ''}, on ${this.data.place}`;
+    this.formattedText = `${this.data.author}, ${this.data.role}${this.data.from ? 'in ' + this.data.from : ''}, on ${this.data.place}`;
   }
 }

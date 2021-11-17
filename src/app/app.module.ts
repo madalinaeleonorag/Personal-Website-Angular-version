@@ -23,7 +23,6 @@ import { ProgressBarColorsDirective } from './directives/progress-bar-colors.dir
 import { ExperienceCardComponent } from './components/experience-card/experience-card.component';
 import { EducationLevelComponent } from './components/education-level/education-level.component';
 import { AwardsComponent } from './components/awards/awards.component';
-import { CustomCardComponent } from './components/custom-card/custom-card.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MatMenuModule } from '@angular/material/menu';
@@ -32,7 +31,6 @@ import { SkillCardComponent } from './components/skill-card/skill-card.component
 import { CertificationCardComponent } from './components/certification-card/certification-card.component';
 import { CustomButtonComponent } from './components/custom-button/custom-button.component';
 import { CustomSvgComponent } from './components/custom-svg/custom-svg.component';
-import { CustomCategoryButtonComponent } from './components/custom-category-button/custom-category-button.component';
 import { CustomChipComponent } from './components/custom-chip/custom-chip.component';
 import { CustomSocialCardComponent } from './components/custom-social-card/custom-social-card.component';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -51,12 +49,10 @@ import { ArticlesComponent } from './components/articles/articles.component';
     ExperienceCardComponent,
     EducationLevelComponent,
     AwardsComponent,
-    CustomCardComponent,
     SkillCardComponent,
     CertificationCardComponent,
     CustomButtonComponent,
     CustomSvgComponent,
-    CustomCategoryButtonComponent,
     CustomChipComponent,
     CustomSocialCardComponent,
     CustomDialogComponent,
