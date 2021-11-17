@@ -64,7 +64,7 @@ export const DESIGNPROJECTS = [
 export const SKILLS = [
     { name: 'HTML5', level: 3, color: '#E85D25', logo: 'HTML5' },
     { name: 'CSS3', level: 2, color: '#249CDA', logo: 'CSS3' },
-    { name: 'SCSS', level: 2, color: '#C96195', logo: 'SCSS' },
+    { name: 'Sass', level: 2, color: '#C96195', logo: 'Sass' },
     { name: 'Bootstrap', level: 2, color: '#533B78', logo: 'Bootstrap' },
     { name: 'Javascript', level: 3, color: '#EFD81D', logo: 'Javascript' },
     { name: 'Vue.js', level: 3, color: '#3FB27F', logo: 'Vuejs' },
@@ -263,7 +263,7 @@ export const EXPERIENCE = [
             <ul>
             <li>Delivered a good quality presentation website for our client in order to present our projects to their customers, in a small amount of time so the client was able to see the results and to use it;</li>
             <li>Investigated and solved some vulnerabilities from the applications;</li>
-            <li>Contributed actively on a project from march and until the end of November, by helping other colleagues with code review and implementing reusable components. I also helped taking decisions in business rules and in development process;</li>
+            <li>Contributed actively on a project from March and until the end of November, by helping other colleagues with code review and implementing reusable components. I also helped taking decisions in business rules and in development process;</li>
             <li>Participated in every meeting and decision in a proactive way in order to deliver a quality and clean code which meets the client requirements. I also suggested various changes to the design that was taken into account.</li>
             </ul><br>
             💼 Client 2 - United Kingdom<br>

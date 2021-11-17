@@ -185,6 +185,13 @@ a {
     font-family: monospace;
     font-size: 1.7rem;
   }
+  
+  .description {
+    a {
+      background: var(--background-transparent-2);
+      padding: 2px 6px;
+    }
+  }
 
   .decode-text {
     font-family: "Share Tech Mono", monospace;
