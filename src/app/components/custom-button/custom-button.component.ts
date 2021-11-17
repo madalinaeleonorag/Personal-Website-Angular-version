@@ -9,7 +9,6 @@ import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 export class CustomButtonComponent implements OnInit {
 
   @Input() buttonText: string;
-  @Input() isFilledButton: boolean;
 
   constructor() { }
 

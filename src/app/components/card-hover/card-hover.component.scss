@@ -11,13 +11,6 @@ app-card-hover {
     background-size: cover !important;
     background-position: center !important;
 
-    img {
-      float: left;
-      flex-shrink: 1;
-      min-width: 100%;
-      min-height: 100%;
-    }
-
     .caption-text {
       position: absolute;
       opacity: 0;

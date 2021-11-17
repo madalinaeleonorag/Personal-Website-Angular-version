@@ -199,10 +199,7 @@ a {
     font-size: 30px;
     font-size: 6vw;
   }
-  .space {
-    display: inline-block;
-    width: 10px;
-  }
+
   .text-animation {
     display: inline-block;
     position: relative;
@@ -273,16 +270,6 @@ a {
   color: var(--white);
 }
 
-.publications {
-  display: flex;
-  justify-content: center;
-  flex-flow: wrap;
-
-  app-publications {
-    flex: 1 0 30%;
-  }
-}
-
 .title {
   margin: 2vh 5vh;
   text-align-last: center;
@@ -297,27 +284,6 @@ a {
 
   .description {
     display: none;
-  }
-
-  .publications {
-    app-publications {
-      flex: 0 0 50%;
-
-      .publication-wrapper {
-        padding: 10px;
-
-        .image {
-          height: 125px;
-          width: 125px;
-        }
-
-        .summary {
-          .name {
-            font-size: 0.9rem;
-          }
-        }
-      }
-    }
   }
 }
 
@@ -339,28 +305,6 @@ a {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-
-    &.courses {
-      display: flex;
-      flex-flow: column;
-      margin: 0 10%;
-
-      .course {
-        display: flex;
-        align-items: center;
-        padding: 10px;
-
-        .image-course {
-          width: 50px;
-          height: 50px;
-          border-radius: 50%;
-        }
-
-        .course-detail {
-          padding-left: 10px;
-        }
-      }
-    }
 
     .name {
       color: var(--white);

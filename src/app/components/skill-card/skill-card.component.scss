@@ -24,12 +24,6 @@ app-skill-card {
     width: 100%;
     display: flex;
     flex-flow: column;
-
-    .level-legend {
-      filter: brightness(2);
-      font-size: small;
-      padding: 5px;
-    }
   }
 
   .mat-progress-bar {
@@ -54,13 +48,6 @@ app-skill-card {
 
     .name {
       padding: 5px 0;
-    }
-
-    .progress {
-      .level-legend {
-        font-size: x-small;
-        padding: 3px;
-      }
     }
   }
 }
