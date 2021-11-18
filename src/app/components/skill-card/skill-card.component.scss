@@ -41,13 +41,11 @@ app-skill-card {
     width: 80px;
 
     .logo {
-      img {
-        height: 40px;
-      }
+      padding: 10px;
     }
 
     .name {
-      padding: 5px 0;
+      display: none;
     }
   }
 }

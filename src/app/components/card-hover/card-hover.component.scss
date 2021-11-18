@@ -52,3 +52,10 @@ app-card-hover {
     }
   }
 }
+
+
+@media (max-width: 800px) {
+  app-card-hover {
+    flex: 1 1 49%;
+  }
+}

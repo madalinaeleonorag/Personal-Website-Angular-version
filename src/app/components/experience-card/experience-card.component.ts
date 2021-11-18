@@ -1,5 +1,6 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { CommonsService } from 'src/app/commons.service';
 import { ExperienceModel } from 'src/app/data.model';
 import { CustomDialogComponent } from '../custom-dialog/custom-dialog.component';
 
@@ -13,7 +14,7 @@ export class ExperienceCardComponent implements OnInit {
 
   @Input() data: ExperienceModel;
 
-  constructor(public dialog: MatDialog) { }
+  constructor(public dialog: MatDialog, private commonsService: CommonsService) { }
 
   ngOnInit(): void {
   }
@@ -26,4 +27,7 @@ export class ExperienceCardComponent implements OnInit {
     });
   }
 
+  public openCV(): void {
+    this.commonsService.openNewTab('./../../../assets/CV.pdf');
+  }
 }

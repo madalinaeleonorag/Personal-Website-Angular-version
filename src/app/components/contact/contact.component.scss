@@ -3,6 +3,7 @@ app-contact {
   flex-flow: column;
   align-items: center;
   margin: 5vh 0 0 0;
+  background: var(--white);
 
   .info-text {
     color: var(--background);
@@ -11,13 +12,11 @@ app-contact {
     font-size: 1.5rem;
     text-align: -webkit-center;
     width: 100%;
-    background: var(--white);
   }
 
   .social-wrapper {
     flex-flow: wrap;
     width: 100%;
-    background: var(--white);
     place-content: center;
     display: flex;
   }
@@ -27,7 +26,6 @@ app-contact {
     padding: 10px;
     font-size: smaller;
     width: -webkit-fill-available;
-    background: var(--white);
     text-align-last: center;
   }
 
@@ -60,25 +58,5 @@ app-contact {
         }
       }
     }
-  }
-
-  .custom-shape-divider-bottom {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-  }
-
-  .custom-shape-divider-bottom svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 73px;
-  }
-
-  .custom-shape-divider-bottom .shape-fill {
-    fill: var(--white);
   }
 }

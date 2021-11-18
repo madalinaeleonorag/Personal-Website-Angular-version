@@ -6,8 +6,6 @@ app-education-level {
   text-align: -webkit-center;
 
   .image {
-    padding-right: 20px;
-
     img {
       max-width: 150px;
       height: auto;
@@ -34,20 +32,14 @@ app-education-level {
   }
 
   @media (max-width: 800px) {
-    .header {
-      padding: 10px 0;
-
       .image {
-        display: none;
-      }
-
-      .summary {
-        text-align: -webkit-center;
-
-        .name {
-          display: none;
+        img {
+          max-width: 70px;
         }
       }
-    }
+
+      .fieldOfStudy, .name {
+        display: none
+      }
   }
 }

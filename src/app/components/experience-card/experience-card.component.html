@@ -22,5 +22,11 @@
       </div>
     </div>
     <div class="description" [innerHTML]="experience.description"></div>
+    <div class="see-more">
+      <app-custom-button
+        buttonText="See more in my CV"
+        (click)="openCV()"
+      ></app-custom-button>
+    </div>
   </mat-tab>
 </mat-tab-group>

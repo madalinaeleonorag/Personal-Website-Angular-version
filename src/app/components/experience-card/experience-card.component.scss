@@ -17,7 +17,7 @@ app-experience-card {
   mat-ink-bar {
     display: none;
   }
-  
+
   .mat-tab-label {
     align-items: flex-start;
     opacity: 1;
@@ -48,10 +48,35 @@ app-experience-card {
 
   .description {
     line-height: 1.5rem;
-    padding-top:1.5vh;
+    padding-top: 1.5vh;
 
     li::marker {
       color: var(--primary);
+    }
+  }
+
+  .see-more {
+    display: none;
+    width: fit-content;
+    margin: auto;
+    margin: 2vh auto;
+
+    .border-btn {
+      width: unset;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .title {
+      font-size: 1rem;
+    }
+
+    .description {
+      display: none;
+    }
+
+    .see-more {
+      display: inline;
     }
   }
 }
