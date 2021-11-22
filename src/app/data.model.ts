@@ -1,10 +1,10 @@
 export class ProjectModel {
-    public id: number;
+    public id?: number;
     public featured?: boolean;
     public name: string;
-    public startDate: string;
+    public startDate?: string;
     public endDate?: string;
-    public type: string;
+    public type?: string;
     public technologies: string[];
     public live?: string;
     public code?: string;

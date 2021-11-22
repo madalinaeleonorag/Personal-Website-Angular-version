@@ -1,63 +1,87 @@
-export const DESIGNPROJECTS = [
+export const PHOTOS = [
     {
-        id: 1,
-        featured: true,
-        name: 'Photography',
-        startDate: 'Jun 2018',
-        endDate: 'Present',
-        type: 'Personal project',
+        name: 'Herculane',
         noDetails: true,
-        technologies: ['Photoshop', 'Lightroom', 'Photography'],
-        live: 'https://500px.com/p/madalinaeleonorag?view=galleries&',
+        technologies: ['Lightroom', 'Photography'],
+        live: 'https://500px.com/photo/274673693/Herculane-by-Gheorghe-Madalina-Eleonora',
         logo: 'https://drscdn.500px.org/photo/274673693/q%3D80_m%3D2000/v2?sig=8ca6a504a9b659352523386d6b165d110ff3fc53618fd56f7dc6b136683c7e1d'
     },
     {
-        id: 2,
-        name: 'Furniture Design',
-        startDate: 'Dec 2018',
-        featured: true,
-        endDate: 'Present',
-        technologies: ['Photoshop'],
-        type: 'Personal project',
-        description: `
-            Long time ago I started drawing furniture design for my own place or for others, discovering that I have a passion for it.
-        `,
-        images: {
-            screenshots: [
-                '../assets/projects/2/1.png',
-                '../assets/projects/2/2.png',
-                '../assets/projects/2/3.png',
-                '../assets/projects/2/4.png',
-                '../assets/projects/2/5.png',
-                '../assets/projects/2/6.png',
-                '../assets/projects/2/7.png',
-                '../assets/projects/2/8.png',
-                '../assets/projects/2/9.png'
-            ]
-        },
-        logo: '../assets/projects/2/1.png'
+        name: 'Vama Veche',
+        technologies: ['Lightroom', 'Photography'],
+        noDetails: true,
+        live: 'https://500px.com/photo/1035360039/Vama-Veche-by-Gheorghe-Madalina-Eleonora/',
+        logo: 'https://drscdn.500px.org/photo/1035360039/q%3D80_m%3D1000/v2?sig=1ae791d297aeb092af8b627bdd445cf189ab5236fcff3f9f11fe71647bdbcccc'
     },
     {
-        id: 3,
-        name: 'Graphic Design',
-        startDate: 'Jun 2015',
-        endDate: 'Present',
-        featured: true,
-        technologies: ['Photoshop'],
-        type: 'Personal project',
-        description: `
-            Providing logos for different clients and pro bono`,
-        images: {
-            screenshots: [
-                'assets/projects/3/1.png',
-                'assets/projects/3/2.png',
-                'assets/projects/3/3.png',
-                'assets/projects/3/4.png',
-                'assets/projects/3/5.png',
-                'assets/projects/3/6.png'
-            ]
-        },
-        logo: 'assets/projects/3/1.png'
+        name: 'Winter',
+        technologies: ['Lightroom', 'Photography'],
+        noDetails: true,
+        live: 'https://500px.com/photo/1034981439/Winter-landscape-by-Gheorghe-Madalina-Eleonora/',
+        logo: 'https://drscdn.500px.org/photo/1034981439/q%3D80_m%3D2000/v2?sig=1714ea64faca9654f349225c440ca1c88575e39baddd08ebcfee0ee5324902ef'
+    },
+    {
+        name: 'Bucharest International Air Show',
+        technologies: ['Lightroom', 'Photography'],
+        noDetails: true,
+        live: 'https://500px.com/photo/1007902123/Bucharest-International-Air-Show-by-Gheorghe-Madalina-Eleonora/',
+        logo: 'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000/v2?sig=3d058c5ea07fd1272709010cd936e35775f4ac71b017634de84ff736acabced2'
+    },
+    {
+        name: 'Busteni',
+        technologies: ['Lightroom', 'Photography'],
+        noDetails: true,
+        live: 'https://500px.com/photo/274679765/Busteni-by-Gheorghe-Madalina-Eleonora/',
+        logo: 'https://drscdn.500px.org/photo/274679765/q%3D80_m%3D1500/v2?sig=7b80814d01dac2364c129093677fc75279378329ba47c78abf9cf3b8fb8979f4'
+    },
+    {
+        name: 'Mogosoaia - Canon Summer School',
+        technologies: ['Lightroom', 'Photography'],
+        noDetails: true,
+        live: 'https://500px.com/photo/274680569/Mogosoaia--Canon-Summer-School-by-Gheorghe-Madalina-Eleonora/',
+        logo: 'https://drscdn.500px.org/photo/274680569/q%3D80_m%3D1500/v2?sig=169412e495354420c2b23257d27673c74df27a3b9847ee874b65f2766d4576d3'
+    },
+    {
+        name: 'Aerial Show',
+        technologies: ['Lightroom', 'Photography'],
+        noDetails: true,
+        logo: 'https://drscdn.500px.org/photo/1035360036/q%3D80_m%3D1500/v2?sig=7e45e0da89c7c06bf98d99774144ed85cab4069f8eb250a96f065dfb33a9a1b4',
+        live: 'https://500px.com/photo/1035360036/aerial-show-by-gheorghe-madalina-eleonora'
+    },
+    {
+        name: 'Red ladybug on a leaf',
+        technologies: ['Lightroom', 'Photography'],
+        noDetails: true,
+        live: 'https://500px.com/photo/274675811/Red-ladybug-on-a-leaf-by-Gheorghe-Madalina-Eleonora/',
+        logo: 'https://drscdn.500px.org/photo/274675811/q%3D80_m%3D1500/v2?sig=c090e926a2d8d1bdbf2ab6e1e5e75ec0f98548542f12af9386b756e4a4b257c9'
+    },
+    {
+        name: 'Flower',
+        technologies: ['Lightroom', 'Photography'],
+        noDetails: true,
+        live: 'https://500px.com/photo/1034981440/Flower-by-Gheorghe-Madalina-Eleonora/',
+        logo: 'https://drscdn.500px.org/photo/1034981440/q%3D80_m%3D1500/v2?sig=1d8e0ac937ce2734a8940720300d23d08554fdccb96f3ed0387dc8c5aea34c76'
+    },
+    {
+        name: 'Crocodile',
+        technologies: ['Lightroom', 'Photography'],
+        noDetails: true,
+        live: 'https://500px.com/photo/1035360032/Crocodile-by-Gheorghe-Madalina-Eleonora/',
+        logo: 'https://drscdn.500px.org/photo/1035360032/q%3D80_m%3D1500/v2?sig=d2b5090a1fe8ceab337e18acbf0e97d150271717e202853c087f667fac8f2141'
+    },
+    {
+        name: 'Mogosoaia - Canon Summer School',
+        technologies: ['Lightroom', 'Photography'],
+        noDetails: true,
+        live: 'https://500px.com/photo/274680533/Mogosoaia--Canon-Summer-School-by-Gheorghe-Madalina-Eleonora/',
+        logo: 'https://drscdn.500px.org/photo/274680533/q%3D80_m%3D1500/v2?sig=a545ce4578aaefcb9898000cc7f87672418b411c729bb82d6f5b2bfe38ab2d56'
+    },
+    {
+        name: 'Fireworks',
+        technologies: ['Lightroom', 'Photography'],
+        noDetails: true,
+        live: 'https://500px.com/photo/274677385/Fireworks-by-Gheorghe-Madalina-Eleonora/',
+        logo: 'https://drscdn.500px.org/photo/274677385/q%3D80_m%3D1500/v2?sig=0fd7bc43cfa47853c0167cba3d68a1e655836bb4cb2eaefc8cbbf61f92547945'
     }
 ];
 

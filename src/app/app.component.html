@@ -111,10 +111,16 @@
     </div>
 
     <div class="category" id="design">
-      <div class="title-category">08. Latest design projects 🎨</div>
-      <div class="projects">
-        <app-card-hover *ngFor="let project of projectsDesign" [data]="project">
+      <div class="title-category">08. I have a passion 📸</div>
+      <div class="projects photography">
+        <app-card-hover *ngFor="let photo of photos" [data]="photo">
         </app-card-hover>
+      </div>
+      <div class="see-more">
+        <app-custom-button
+          buttonText="See more on 500px"
+          (click)="open500px()"
+        ></app-custom-button>
       </div>
     </div>
 

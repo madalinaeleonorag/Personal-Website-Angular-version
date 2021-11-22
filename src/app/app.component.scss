@@ -255,6 +255,19 @@ a {
   overflow: auto;
   flex-flow: wrap;
   justify-content: center;
+
+  &.photography {
+    app-card-hover {
+      flex: 1 1 20%;
+    }
+
+    @media (max-width: 800px) {
+      app-card-hover {
+        flex: 1 1 30%;
+        height: 80px;
+      }
+    }
+  }
 }
 
 .mat-tab-header {
