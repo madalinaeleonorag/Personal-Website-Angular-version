@@ -511,13 +511,22 @@ const EXPERIENCE = [
         description: `
             <h4>Assignment description:</h4>
             <ul>
-            <li>I analyze and study the aspects of the program, decide the objectives to be achieved;</li>
-            <li>I design and implement quality applications, using technologies specific to each project, being up to date with news in the field;</li>
-            <li>I test the made product and I make the adequate documentation;</li>
-            <li>I perform maintenance for existing projects;</li>
-            <li>I make objective proposals for development and design;</li>
-            <li>I communicate with clients and their representatives, I identify clients' needs and propose optimal solutions to them, participating in all meetings;</li>
-            <li>I constantly participate in professional training courses and provide mentoring for other colleagues.</li>
+            <li>Analyze and study the aspects of the program, decide the objectives to be achieved;</li>
+            <li>Design and implement quality applications, using technologies specific to each project, being up to date with news in the field;</li>
+            <li>Test the made product and I make the adequate documentation;</li>
+            <li>Perform maintenance for existing projects;</li>
+            <li>Make objective proposals for development and design;</li>
+            <li>Communicate with clients and their representatives, I identify clients' needs and propose optimal solutions to them, participating in all meetings;</li>
+            <li>Constantly participate in professional training courses and provide mentoring for other colleagues.</li>
+            </ul>
+            <br>
+            💼 Client 1 - United Kingdom<br>
+            🗓️ 03/2019 - 03/2020<br>
+            🏦 Industry: Insurance<br>
+            💻 Technologies: Angular<br><br>
+            <h4>Assignment description:</h4>
+            <ul>
+            <li>Writing documentation about how to write clean code when working on the frontend side.</li>
             </ul>
         `,
         companyLogo: '../assets/logos/deloitte.jpg',
