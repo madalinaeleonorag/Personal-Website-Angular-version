@@ -521,8 +521,8 @@ const EXPERIENCE = [
             </ul>
             <br>
             💼 Client 1 - United Kingdom<br>
-            🗓️ 03/2019 - 03/2020<br>
-            🏦 Industry: Insurance<br>
+            🗓️ 10.2021 - Present<br>
+            🏦 Industry: Banking<br>
             💻 Technologies: Angular<br><br>
             <h4>Assignment description:</h4>
             <ul>
