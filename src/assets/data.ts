@@ -227,6 +227,13 @@ export const RECOMMENDATIONS = [
         role: 'Project Manager',
         place: 'LinkedIn',
         from: 'IBM'
+    },
+    {
+        text: 'Madalina is a very practical person. Working on various projects with her I was able to see how flexible she can be, especially with the help of her vast knowledge in the IT field. In addition to intelligence, I noticed that she also has leadership qualities that have been very helpful in any project. Attention to detail characterizes her, so it\'s hard not to get things going almost perfectly with her. She is a charismatic, dynamic person with a very precise decision-making power. Nothing remains unresolved with Madalina!',
+        author: 'Mihaela Gales',
+        role: 'System Support Engineer',
+        place: 'LinkedIn',
+        from: 'Vodafone'
     }
 ];
 
