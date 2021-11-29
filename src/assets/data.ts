@@ -209,31 +209,60 @@ export const AWARDS = [
 
 export const RECOMMENDATIONS = [
     {
-        text: 'I worked with Madalina on the same project for over a year. Even though she started as a Junior Developer, she quickly managed to learn and acquire quite an extensive set of skills.Her determination to never give up and always learn and improve, is what sets her apart from many other developers out there.It\'s been a pleasure working with her. She is currently riding the proverbial wave and I am sure she will achieve great things in the future.I highly recommend her to anyone looking to expand their team(s).',
-        author: 'Theodor Palamaru',
-        role: 'Front-End Developer',
-        place: 'LinkedIn',
-        from: 'IBM'
-    },
-    {
-        text: 'For the past years I had the opportunity to work along Madalina on multiple personal & comercial projects. She was able to develop features in an extremely elegant and creative way all the time. Her ability to develop high quality products while being under extreme pressure is something that I look up to, not only that she’s able to stay calm and professional in difficult situations. She’s also able to make everyone in the team feel that they are also capable of doing more than they expect from themselves.',
-        author: 'Emanuel Cepoi',
-        role: 'Full-Stack Developer',
-        place: 'LinkedIn'
-    },
-    {
-        text: 'Madalina is always reliable and helping her team members, able to understand the requirements and come up with a solution. It was a joy and always had confidence while working with her. I am strongly recommend her in any new opportunity and challenge.',
-        author: 'Raluca Rusu',
-        role: 'Project Manager',
-        place: 'LinkedIn',
+        text: 'I spent a lot of time working together with Madalina over the last few years on both personal project and competitions, so here are my thoughts on this experience. Without doubt I can say that she had a big impact on me. She’s ambitious, enjoys learning new things all the time, she takes action whenever the situation requires it. She never stepped back from a challenge, but rather is determined to figure out how we overcome it. Madalina was there when anyone from the team needed support on any level: if it’s a coding problem, providing some information, investigating an issue, giving an advice non-work related or just for a simple talk. She always encourages everyone to push their limits and become a better version on themselves. Her patient and professional attitude makes it really easy to talk to. She’s not just about work, she’s also about being human and having a good time while trying to grow as much as possible.',
+        author: 'Narcisa-Elena Badea',
+        role: 'Frontend Developer',
+        date: 'Nov 27, 2021',
         from: 'IBM'
     },
     {
         text: 'Madalina is a very practical person. Working on various projects with her I was able to see how flexible she can be, especially with the help of her vast knowledge in the IT field. In addition to intelligence, I noticed that she also has leadership qualities that have been very helpful in any project. Attention to detail characterizes her, so it\'s hard not to get things going almost perfectly with her. She is a charismatic, dynamic person with a very precise decision-making power. Nothing remains unresolved with Madalina!',
         author: 'Mihaela Gales',
         role: 'System Support Engineer',
-        place: 'LinkedIn',
+        date: 'Nov 25, 2021',
         from: 'Vodafone'
+    },
+    {
+        text: 'For the past years I had the opportunity to work along Madalina on multiple personal & comercial projects. She was able to develop features in an extremely elegant and creative way all the time. Her ability to develop high quality products while being under extreme pressure is something that I look up to, not only that she’s able to stay calm and professional in difficult situations. She’s also able to make everyone in the team feel that they are also capable of doing more than they expect from themselves.',
+        author: 'Emanuel Cepoi',
+        role: 'Full-Stack Developer',
+        date: 'Sep 24, 2021',
+        from: 'Wooter Apparel'
+    },
+    {
+        text: 'Madalina is always reliable and helping her team members, able to understand the requirements and come up with a solution. It was a joy and always had confidence while working with her. I am strongly recommend her in any new opportunity and challenge.',
+        author: 'Raluca Rusu',
+        role: 'Project Manager',
+        date: 'Sep 13, 2021',
+        from: 'IBM'
+    },
+    {
+        text: 'Madalina, thank you for your support as technical mentor for our new intern. Appreciate your guidance and helping bring new talent to our wider iX IBM team and also constant strong contribution to our project delivery. Keep up the good work!',
+        author: 'Alexandra-Luminita Tanef',
+        role: 'Project Manager',
+        date: 'Aug 6, 2021',
+        from: 'IBM'
+    },
+    {
+        text: 'I worked with Madalina on the same project for over a year. Even though she started as a Junior Developer, she quickly managed to learn and acquire quite an extensive set of skills.Her determination to never give up and always learn and improve, is what sets her apart from many other developers out there.It\'s been a pleasure working with her. She is currently riding the proverbial wave and I am sure she will achieve great things in the future.I highly recommend her to anyone looking to expand their team(s).',
+        author: 'Theodor Palamaru',
+        role: 'Frontend Developer',
+        date: 'Jun 22, 2021',
+        from: 'IBM'
+    },
+    {
+        text: 'Great job on the project Madalina, the feedback received for the project is very good. Also I like your drive and attitude and I hope you will continue to invest in your skills as you did until now, and more. For this year, keep up the good work and continue to grow your technical and soft skills!',
+        author: 'Sorina Radulescu',
+        role: 'People Manager',
+        date: 'Dec 16, 2020',
+        from: 'IBM'
+    },
+    {
+        text: 'Madalina had a very good start and path in the project, having in charge a very hard project and client on a team, being in front of the client for direct communication and problem solving. I am very satisfied with her abilities to create and maintain a good working relationship both with the client and her team members,to adapt quickly to change and to help any time need it. Also, the technical feedback from the TTL is very good. Keep up the good work!',
+        author: 'Raluca Rusu',
+        role: 'Project Manager',
+        date: '15 Feb, 2019',
+        from: 'IBM'
     }
 ];
 

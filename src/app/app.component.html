@@ -105,7 +105,11 @@
       </div>
     </div>
 
-    <div class="category articles" *ngIf="publications.length > 0" id="articles">
+    <div
+      class="category articles"
+      *ngIf="publications.length > 0"
+      id="articles"
+    >
       <div class="title-category">07. I like to write, sometimes ✏️</div>
       <app-articles [publications]="publications"></app-articles>
     </div>
@@ -131,6 +135,12 @@
           *ngFor="let recommendation of recommendations"
           [data]="recommendation"
         ></app-recommendation>
+      </div>
+      <div class="see-more">
+        <app-custom-button
+          [buttonText]="seeText"
+          (click)="loadMoreRecommendations()"
+        ></app-custom-button>
       </div>
     </div>
 

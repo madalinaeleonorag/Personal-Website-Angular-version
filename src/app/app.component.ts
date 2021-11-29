@@ -23,16 +23,20 @@ export class AppComponent implements OnInit {
   public skills: SkillModel[];
   public certifications: CertificationModel[];
   public recommendations: any[];
+  public seeText = 'See more';
+  public seeMore: boolean;
 
   columns: string[] = ['logo', 'name', 'organization'];
 
   constructor(private commonsService: CommonsService, public dialog: MatDialog) {
     this.skills = SKILLS;
     this.certifications = CERTIFICATIONS;
-
     this.experience = EXPERIENCE;
     this.education = EDUCATION;
     this.awards = AWARDS;
+    this.photos = PHOTOS;
+    this.recommendations = RECOMMENDATIONS.slice(0, 3);
+    this.seeMore = true;
   }
 
   ngOnInit(): void {
@@ -40,8 +44,6 @@ export class AppComponent implements OnInit {
     this.commonsService.cookieConsoleMessage();
 
     this.isMobileView = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent);
-    this.photos = PHOTOS;
-    this.recommendations = RECOMMENDATIONS;
 
     this.commonsService.publications$.subscribe(publications => {
       this.publications = publications;
@@ -71,7 +73,11 @@ export class AppComponent implements OnInit {
     this.commonsService.openNewTab('https://madalinaeleonorag.medium.com/');
   }
 
-
+  public loadMoreRecommendations(): void {
+    this.seeMore = !this.seeMore;
+    this.recommendations = this.seeMore ? RECOMMENDATIONS.slice(0, 3) : RECOMMENDATIONS;
+    this.seeText = this.seeMore ? 'See more' : 'See less';
+  }
 
   private decodeText(): void {
     const text = document.getElementsByClassName('decode-text')[0];
