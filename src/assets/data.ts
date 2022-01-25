@@ -276,23 +276,36 @@ export const EXPERIENCE = [
         description: `
             <h4>Assignment description:</h4>
             <ul>
-            <li>Analyze and study the aspects of the program, decide the objectives to be achieved;</li>
-            <li>Design and implement quality applications, using technologies specific to each project, being up to date with news in the field;</li>
-            <li>Test the made product and I make the adequate documentation;</li>
-            <li>Perform maintenance for existing projects;</li>
-            <li>Make objective proposals for development and design;</li>
-            <li>Communicate with clients and their representatives, I identify clients' needs and propose optimal solutions to them, participating in all meetings;</li>
-            <li>Constantly participate in professional training courses and provide mentoring for other colleagues.</li>
-            </ul>
+            <li>I analyze and study the aspects of the program, decide the objectives to be achieved, making objective proposals for development and design;
+            </li><li>I design and implement quality applications, using technologies specific to each project, being up to date with news in the field;
+            </li><li>I perform maintenance for existing projects;
+            </li><li>I identify clients' needs and propose optimal solutions to them, participating in all meetings;
+            </li><li> I constantly participate in professional training courses and provide mentoring for other colleagues.
+            </li></ul>
             <br>
-            💼 Client 1 - United Kingdom<br>
-            🗓️ 10.2021 - Present<br>
-            🏦 Industry: Banking<br>
-            💻 Technologies: Angular<br><br>
-            <h4>Assignment description:</h4>
+            💻 Overall technologies: HTML, CSS, JavaScript, REST, Angular<br>
+
+            💼 Client 1 - Alpha Team - United Kingdom<br>
+            🗓️ 10.2021 - 01.2022<br>
+            🏦 Industry: Banking, Insurance<br>
+            💻 Technologies: Angular, RxJs, Jira, moment.js<br>
+<br>
+            Assignment description:<br>
             <ul>
-            <li>Writing documentation about how to write clean code when working on the frontend side.</li>
-            </ul>
+            <li>Writing documentation;
+            </li><li>Delivering quality code and new features for Alpha Insurance field;
+            </li><li>Mentoring colleagues.
+            </li></ul>
+            <br>
+            Noticeable features delivered:
+            <ul>
+            <li>
+            Wrote a tutorial about how to write clean code when working on the frontend side for Alpha Team;
+            </li><li>Feature that show to the user the active policies into a responsive and interactive design.
+            </li><li>Upgraded from Angular 8 to Angular 13;
+            </li><li>Improved the user authentication flow and added more layers of security for the confidential information;
+            </li><li>Adding the possibility of a Mid Term Adjustment to a policy.
+            </li></ul>
         `,
         companyLogo: '../assets/logos/deloitte.jpg',
         skill: ['Angular', 'Sass', 'TypeScript', 'REST', 'Jira']
