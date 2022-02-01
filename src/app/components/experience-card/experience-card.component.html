@@ -1,5 +1,9 @@
 <mat-tab-group vertical>
-  <mat-tab *ngFor="let experience of data" [label]="experience.companyName">
+  <mat-tab *ngFor="let experience of data">
+    <ng-template mat-tab-label>
+      <span>{{ experience.companyName }}</span>
+      <img [src]="experience.companyLogo" alt="company logo">
+  </ng-template>
     <div class="summary">
       <div class="role">
         {{ experience.role }}
@@ -11,6 +15,12 @@
               : experience.organization
           }}
         </span>
+      </div>
+      <div class="technologies">
+        <app-custom-chip
+          *ngFor="let skill of experience.skill"
+          [text]="skill"
+        ></app-custom-chip>
       </div>
       <div class="date">
         {{ experience.dateStart ? experience.dateStart : experience.startYear }}

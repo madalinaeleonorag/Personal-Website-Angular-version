@@ -35,7 +35,7 @@ export class CommonsService {
 
     this.http.get<any>('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@madalinaeleonorag').subscribe(data => {
       switch (true) {
-        case data.items.length > 5: articlesToShow = [...data.items.slice(0, 5)];
+        case data.items.length > 3: articlesToShow = [...data.items.slice(0, 3)];
           break;
         default: articlesToShow = [...data.items];
           break;

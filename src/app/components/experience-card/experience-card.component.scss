@@ -21,10 +21,22 @@ app-experience-card {
   .mat-tab-label {
     align-items: flex-start;
     opacity: 1;
+    justify-content: right;
+    min-width: unset;
+    padding: 0 20px;
   }
 
   .mat-tab-label-active {
     color: var(--primary);
+  }
+
+  .mat-tab-label-content {
+    img {
+      height: 25px;
+      margin-left: 10px;
+      object-fit: cover;
+      width: 25px;
+    }
   }
 
   .summary {
@@ -43,6 +55,11 @@ app-experience-card {
     }
     .date {
       font-weight: normal;
+    }
+
+    .technologies {
+      display: flex;
+      flex-flow: wrap;
     }
   }
 

@@ -7,6 +7,21 @@ app-recommendation {
       border: 1px solid var(--darkPrimary);
       border-radius: 16px;
       padding: 2vh 2vw;
+      background: var(--darkPlum);
+
+      &::after {
+        content: ' "';
+        font-size: x-large;
+        color: var(--darkPrimary);
+        font-family: -webkit-body;
+      }
+
+      &::before {
+        content: '" ';
+        font-size: x-large;
+        color: var(--darkPrimary);
+        font-family: -webkit-body;
+      }
     }
 
     .author {

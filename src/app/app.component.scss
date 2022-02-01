@@ -172,12 +172,14 @@ a {
   font-family: monospace;
   padding: 0 15vw;
   background: url(../assets/header.png);
-  background-size: cover;
-  background-position: center;
   height: 100vh;
   display: flex;
   flex-flow: column;
   justify-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .welcome-name,
   .welcome-subtitle {
@@ -300,7 +302,7 @@ a {
   padding: 2vh 5vw;
 
   &.articles {
-    padding: 2vh 0 2vh 5vw;
+    padding: 2vh 0;
   }
 
   .category-name {

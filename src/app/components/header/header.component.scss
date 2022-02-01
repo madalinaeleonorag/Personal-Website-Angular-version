@@ -10,8 +10,7 @@ app-header {
     display: flex;
     flex-flow: row;
     align-items: center;
-    padding: 1vh 1vw;
-    height: 50px;
+    padding: 1.5vh 1vw;
     width: -webkit-fill-available;
 
     &.is-sticky {

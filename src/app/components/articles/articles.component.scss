@@ -82,6 +82,7 @@ app-articles {
     box-sizing: content-box;
     display: -webkit-box;
     display: -ms-flexbox;
+    place-content: center;
     display: flex;
     width: -webkit-fill-available;
     padding: 2rem 0;
@@ -233,7 +234,7 @@ app-articles {
 
   .mini-article-card-header {
     margin-bottom: auto;
-    width: -webkit-fill-available;
+    width: 20vw;
     border-radius: 16px;
     padding: 2vh 2vw;
     height: 100%;

@@ -209,6 +209,15 @@ export const AWARDS = [
 
 export const RECOMMENDATIONS = [
     {
+        text: `To Whom It May Concern,<br>
+        I have been working with Madalina for almost two months on Alpha for Insurance core project. Even though the collaboration was for a short while as the project could not afford extra costs at this time, she managed to leave a very strong impression. She gave a huge boost to our Web app development, she came with a very long list of improvements to our existing app and managed to implement a lot of those items in just a couple of weeks: upgrade Angular from ver 8 up to ver 13, brought in good practices like introducing a vocabulary into the app, introducing CSS constants, introducing model classes, refactoring a lot of components to make them more reusable, adjust tons of pieces of layout to make them more responsive, updating and eliminating redundant dependencies, etc. She is mastering SASS, she is extremely fast at delivering very appealing layouts with very well structured CSS code. The quality of the code she has been writing and the overall work quality has been impressive. She delivered a lot of features in a very short time, at the highest standards. She is hard working and determined to deliver good quality work. For Web developer Consultant level she is a top performer. I hope to work with Madalina soon. I would always want her in my team, given the opportunity.<br>
+        Thank you for your hard work and for the huge improvements to our app, Madalina!`,
+        author: 'Dragos-Vasile Lungu',
+        role: 'Technical Lead',
+        date: 'Ian 28, 2022',
+        from: 'Deloitte Digital'
+    },
+    {
         text: 'I spent a lot of time working together with Madalina over the last few years on both personal project and competitions, so here are my thoughts on this experience. Without doubt I can say that she had a big impact on me. She’s ambitious, enjoys learning new things all the time, she takes action whenever the situation requires it. She never stepped back from a challenge, but rather is determined to figure out how we overcome it. Madalina was there when anyone from the team needed support on any level: if it’s a coding problem, providing some information, investigating an issue, giving an advice non-work related or just for a simple talk. She always encourages everyone to push their limits and become a better version on themselves. Her patient and professional attitude makes it really easy to talk to. She’s not just about work, she’s also about being human and having a good time while trying to grow as much as possible.',
         author: 'Narcisa-Elena Badea',
         role: 'Frontend Developer',
@@ -274,41 +283,27 @@ export const EXPERIENCE = [
         dateEnd: 'Present',
         location: 'Bucharest, Romania',
         description: `
-            <h4>Assignment description:</h4>
-            <ul>
-            <li>I analyze and study the aspects of the program, decide the objectives to be achieved, making objective proposals for development and design;
-            </li><li>I design and implement quality applications, using technologies specific to each project, being up to date with news in the field;
-            </li><li>I perform maintenance for existing projects;
-            </li><li>I identify clients' needs and propose optimal solutions to them, participating in all meetings;
-            </li><li> I constantly participate in professional training courses and provide mentoring for other colleagues.
-            </li></ul>
             <br>
-            💻 Overall technologies: HTML, CSS, JavaScript, REST, Angular<br>
-
             💼 Client 1 - Alpha Team - United Kingdom<br>
             🗓️ 10.2021 - 01.2022<br>
             🏦 Industry: Banking, Insurance<br>
-            💻 Technologies: Angular, RxJs, Jira, moment.js<br>
-<br>
-            Assignment description:<br>
-            <ul>
-            <li>Writing documentation;
-            </li><li>Delivering quality code and new features for Alpha Insurance field;
-            </li><li>Mentoring colleagues.
-            </li></ul>
+            💻 Technologies: Angular 8+, RxJs, Jira, moment.js<br>
             <br>
-            Noticeable features delivered:
+            Contribution:
             <ul>
             <li>
             Wrote a tutorial about how to write clean code when working on the frontend side for Alpha Team;
             </li><li>Feature that show to the user the active policies into a responsive and interactive design.
             </li><li>Upgraded from Angular 8 to Angular 13;
+            </li><li>Added consistency to the CSS and HTML code maintaining a good collaboration with the designer;
+            </li><li>Added possibility to use a vocabulary for an easier translation;
             </li><li>Improved the user authentication flow and added more layers of security for the confidential information;
-            </li><li>Adding the possibility of a Mid Term Adjustment to a policy.
+            </li><li>Adding the possibility of a Mid Term Adjustment to a policy;
+            </li><li>Mentoring frontend colleagues.
             </li></ul>
         `,
         companyLogo: '../assets/logos/deloitte.jpg',
-        skill: ['Angular', 'Sass', 'TypeScript', 'REST', 'Jira']
+        skill: ['HTML', 'CSS', 'JavaScript', 'Angular', 'Sass', 'TypeScript', 'REST', 'Jira', 'Confluence']
     },
     {
         companyName: 'IBM iX',
@@ -319,28 +314,16 @@ export const EXPERIENCE = [
         description: `
             💼 Internship<br>
             🗓️ 12/2018 - 02/2019<br>
-            💻 Technologies: HTML, CSS, JavaScript, Angular, RxJs, Vue.js, Vuex, Firebase, Ionic<br><br>
-            <h4>Assignment description:</h4>
+            💻 Technologies: HTML, CSS, JavaScript, Angular, RxJs, Vue.js, Vuex, Firebase, Ionic<br>
+            <br>
+            <h4>Contribution:</h4>
             <ul>
-            <li>I learned the basics of Ionic and Angular;</li>
-            <li>Applied the knowledge in a project delivered to the client;</li>
-            <li>Designing mobile-based features, working in an agile team.</li>
+            <li>Designing mobile-based features using Ionic, working in an agile team.</li>
             </ul><br>
             💼 Client 1 - Germany<br>
             🗓️ 03/2019 - 03/2020<br>
             🏦 Industry: Insurance<br>
             💻 Technologies: Angular, Ionic, Sass, TypeScript, REST, Capacitor, RxJs<br><br>
-            <h4>Assignment description:</h4>
-            <ul>
-            <li>Develop Web based applications including UX design, application building and supporting solutions;</li>
-            <li>Collaborate with back-end developers and web designers to improve usability;</li>
-            <li>Get feedback from, and build solutions for, users and customers;</li>
-            <li>Create quality mockups and prototypes;</li>
-            <li>Stay up-to-date on emerging technologies;</li>
-            <li>Participate in shadowing sessions with Senior Frontend Developers in solving different problems;</li>
-            <li>Attended relevant courses for the knowledge used in my field;</li>
-            <li>Investigate and fixed vulnerabilities in packages.</li>
-            </ul>
             <h4>Contribution:</h4>
             <ul>
             <li>Delivered a good quality presentation website for our client in order to present our projects to their customers, in a small amount of time so the client was able to see the results and to use it;</li>
@@ -352,12 +335,9 @@ export const EXPERIENCE = [
             🗓️ 03/2020 - 03/2020<br>
             🏬 Industry: Retail<br>
             💻 Technologies: React.js<br><br>
-            <h4>Assignment description:</h4>
-            <ul>
-            <li>Redesigning the on-boarding process for non plastic material and packaging suppliers onto the materials library and reimagining the presentation and navigation of the library in parallel.</li>
-            </ul>
             <h4>Contribution:</h4>
             <ul>
+            <li>Redesigning the on-boarding process for non plastic material and packaging suppliers onto the materials library and imagining the presentation and navigation of the library in parallel;</li>
             <li>Participated in discussions with the design and front-end team in order to clarify and suggest edits so the user can have a better experience using the website;</li>
             <li>Created reusable pages using React.js which corresponds to the design;</li>
             <li>Created dynamic forms using Formik framework for the registration of new plastic free materials.</li>
@@ -366,10 +346,6 @@ export const EXPERIENCE = [
             🗓️ 04/2020 - 10/2021<br>
             🛒 Industry: E-Commerce<br>
             💻 Technologies: Angular, Sass, TypeScript, REST, RxJs, Adobe Experience Manager, VirtualBox, JQuery, Unit Testing<br><br>
-            <h4>Assignment description:</h4>
-            <ul>
-            <li>Being a member of the a subdivision from the team and delivering features and quality code.</li>
-            </ul>
             <h4>Contribution:</h4>
             <ul>
             <li>Created new components and features for the application in a way that we can reuse them when it's need;</li>
@@ -379,7 +355,7 @@ export const EXPERIENCE = [
             </ul>
         `,
         companyLogo: '../assets/logos/ibm.jpg',
-        skill: ['Angular', 'Vagrant', 'Ionic', 'Sass', 'TypeScript', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'Jira', 'Unit Testing'],
+        skill: ['Angular', 'SharePoint', 'Vagrant', 'Ionic', 'Sass', 'TypeScript', 'JQuery','REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'Jira','Vue.js', 'Firebase','Vuex',  'Unit Testing'],
     },
     {
         companyName: 'Groupe Renault',
@@ -387,14 +363,15 @@ export const EXPERIENCE = [
         dateStart: 'Jun 2017',
         dateEnd: 'Sept 2017',
         description: `
-        <h4>Assignment description:</h4>
-        <ul>
-        <li>Database maintenance using my own Matlab scripts.</li>
+        <h4>Contribution:</h4>
+            <ul>
+            <li>Generating reports using large amounts of data from company clients around the globe;</li>
+            <li>Database maintenance using my own Matlab scripts.</li>
         </ul>
         `,
         location: 'Bucharest, Romania',
         companyLogo: '../assets/logos/renault.png',
-        skill: ['Matlab']
+        skill: ['Matlab', 'SQL', 'Excel', 'PowerPoint']
     },
     {
         companyName: 'Telekom Romania',
@@ -403,8 +380,9 @@ export const EXPERIENCE = [
         dateEnd: 'Jun 2017',
         location: 'Bucharest, Romania',
         description: `
-        <h4>Assignment description:</h4>
+        <h4>Contribution:</h4>
         <ul>
+        <li>Helping new joiners with all the information needed to perform the activity;</li>
         <li>Taking calls and solving the situations encountered by clients, making recordings and offering them.</li>
         </ul>
         `,

@@ -3,12 +3,11 @@ app-contact {
   flex-flow: column;
   align-items: center;
   margin: 5vh 0 0 0;
-  background: var(--white);
 
   .info-text {
-    color: var(--background);
     padding: 4vh 0 2vh 0;
     font-weight: bold;
+    color: var(--white);
     font-size: 1.5rem;
     text-align: -webkit-center;
     width: 100%;
