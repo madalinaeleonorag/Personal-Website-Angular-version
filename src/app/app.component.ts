@@ -50,7 +50,7 @@ export class AppComponent implements OnInit {
     });
 
     this.commonsService.repositories$.subscribe(repositories => {
-      this.projectsTechnology = repositories;
+      this.projectsTechnology = this.isMobileView ? repositories.slice(0, 4) : repositories;
     });
     this.decodeText();
   }

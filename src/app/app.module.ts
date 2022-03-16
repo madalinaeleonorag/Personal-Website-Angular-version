@@ -38,7 +38,6 @@ import { CommonModule } from '@angular/common';
 import { CustomDialogComponent } from './components/custom-dialog/custom-dialog.component';
 import { RecommendationComponent } from './components/recommendation/recommendation.component';
 import { CardHoverComponent } from './components/card-hover/card-hover.component';
-import { ArticlesComponent } from './components/articles/articles.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +57,6 @@ import { ArticlesComponent } from './components/articles/articles.component';
     CustomDialogComponent,
     RecommendationComponent,
     CardHoverComponent,
-    ArticlesComponent,
   ],
   imports: [
     CommonModule,

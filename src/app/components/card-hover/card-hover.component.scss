@@ -29,18 +29,36 @@ app-card-hover {
         display: flex;
         flex-flow: wrap;
         justify-content: center;
+
+        @media (max-width: 800px) {
+          display: none;
+        }
       }
 
       .actions {
         display: flex;
         flex-flow: row;
         align-self: center;
+
+        @media (max-width: 800px) {
+          .border-btn {
+            height: 35px;
+          }
+          .border-btn__inner {
+            font-size: 0.5rem;
+            padding: 10px;
+          }
+        }
       }
 
       h2,
       p {
         width: 100%;
         margin: 10px 0px;
+
+        @media (max-width: 800px) {
+          display: none;
+        }
       }
     }
   }

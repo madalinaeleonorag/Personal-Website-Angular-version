@@ -98,7 +98,7 @@
 
     <div class="category" id="awards">
       <div class="title-category">06. Awards 🏆</div>
-      <div class="projects">
+      <div class="projects awards">
         <div *ngFor="let item of awards">
           <app-awards [award]="item"></app-awards>
         </div>
@@ -106,12 +106,21 @@
     </div>
 
     <div
-      class="category articles"
+      class="category"
       *ngIf="publications.length > 0"
       id="articles"
     >
       <div class="title-category">07. I like to write, sometimes ✏️</div>
-      <app-articles [publications]="publications"></app-articles>
+      <div class="projects">
+        <app-card-hover *ngFor="let publication of publications" [data]="publication">
+        </app-card-hover>
+      </div>
+      <div class="see-more">
+        <app-custom-button
+          buttonText="&#60;/See more publications on Medium&#62;"
+          (click)="openMedium()"
+        ></app-custom-button>
+      </div>
     </div>
 
     <div class="category" id="design">

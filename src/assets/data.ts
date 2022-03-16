@@ -209,6 +209,23 @@ export const AWARDS = [
 
 export const RECOMMENDATIONS = [
     {
+        text: `Hi Madalina,<br>
+        Please find below my feedback for you. The feedback is based on my interaction with you, as well as feedback I have received from various Alpha stakeholders (UK and ERDC).<br>
+        During her time spent on Alpha space, Madalina has shown a lot of flexibility and maturity.<br>
+        Even though she had to change teams and industries, from banking to insurance, her experience has been extremely appreciate by our main stakeholders and there have been multiple requests to keep her on Alpha.
+        From a technical perspective, she delivers extremely fast and at a high quality. For example, she managed to bring visible improvements on the web app in just a couple of weeks, as well as mentioning more junior team members. If given the opportunity (to match her expertise and role desired), she has the ability to make a huge  difference, she has the skills and determination needed. For that, she has my respect and support through her career path, here in Digital.
+        <br>
+        As a future recommendation, I would probably suggest Madalina to socialise and interact with her team more. I fully understand it can be challenging to adapt to a new company, environment, team but sometimes, all you need to do is open yourself a little bit, and let your colleagues get closer to you.
+        Note: The above suggest is based on my personal experience from a while back. It\'s up to Madalina to analyse and decide if it was just a context issue or if she thinks there is room to improve as I\'m not that close to her day to day activity.
+        <br>
+        Thanks,
+        Isabela`,
+        author: 'Isabela Pecete',
+        role: 'Project Manager',
+        date: 'Feb 7, 2022',
+        from: 'Deloitte Digital'
+    },
+    {
         text: `To Whom It May Concern,<br>
         I have been working with Madalina for almost two months on Alpha for Insurance core project. Even though the collaboration was for a short while as the project could not afford extra costs at this time, she managed to leave a very strong impression. She gave a huge boost to our Web app development, she came with a very long list of improvements to our existing app and managed to implement a lot of those items in just a couple of weeks: upgrade Angular from ver 8 up to ver 13, brought in good practices like introducing a vocabulary into the app, introducing CSS constants, introducing model classes, refactoring a lot of components to make them more reusable, adjust tons of pieces of layout to make them more responsive, updating and eliminating redundant dependencies, etc. She is mastering SASS, she is extremely fast at delivering very appealing layouts with very well structured CSS code. The quality of the code she has been writing and the overall work quality has been impressive. She delivered a lot of features in a very short time, at the highest standards. She is hard working and determined to deliver good quality work. For Web developer Consultant level she is a top performer. I hope to work with Madalina soon. I would always want her in my team, given the opportunity.<br>
         Thank you for your hard work and for the huge improvements to our app, Madalina!`,
@@ -218,7 +235,7 @@ export const RECOMMENDATIONS = [
         from: 'Deloitte Digital'
     },
     {
-        text: 'I spent a lot of time working together with Madalina over the last few years on both personal project and competitions, so here are my thoughts on this experience. Without doubt I can say that she had a big impact on me. She’s ambitious, enjoys learning new things all the time, she takes action whenever the situation requires it. She never stepped back from a challenge, but rather is determined to figure out how we overcome it. Madalina was there when anyone from the team needed support on any level: if it’s a coding problem, providing some information, investigating an issue, giving an advice non-work related or just for a simple talk. She always encourages everyone to push their limits and become a better version on themselves. Her patient and professional attitude makes it really easy to talk to. She’s not just about work, she’s also about being human and having a good time while trying to grow as much as possible.',
+        text: 'I spent a lot of time working together with Madalina over the last few years on both personal project and competitions, so here are my thoughts on this experience. Without doubt I can say that she had a big impact on me. She\'s ambitious, enjoys learning new things all the time, she takes action whenever the situation requires it.She never stepped back from a challenge, but rather is determined to figure out how we overcome it.Madalina was there when anyone from the team needed support on any level: if it\'s a coding problem, providing some information, investigating an issue, giving an advice non-work related or just for a simple talk. She always encourages everyone to push their limits and become a better version on themselves. Her patient and professional attitude makes it really easy to talk to. She\'s not just about work, she\'s also about being human and having a good time while trying to grow as much as possible.',
         author: 'Narcisa-Elena Badea',
         role: 'Frontend Developer',
         date: 'Nov 27, 2021',
@@ -232,7 +249,7 @@ export const RECOMMENDATIONS = [
         from: 'Vodafone'
     },
     {
-        text: 'For the past years I had the opportunity to work along Madalina on multiple personal & comercial projects. She was able to develop features in an extremely elegant and creative way all the time. Her ability to develop high quality products while being under extreme pressure is something that I look up to, not only that she’s able to stay calm and professional in difficult situations. She’s also able to make everyone in the team feel that they are also capable of doing more than they expect from themselves.',
+        text: 'For the past years I had the opportunity to work along Madalina on multiple personal & comercial projects. She was able to develop features in an extremely elegant and creative way all the time. Her ability to develop high quality products while being under extreme pressure is something that I look up to, not only that she\'s able to stay calm and professional in difficult situations.She\'s also able to make everyone in the team feel that they are also capable of doing more than they expect from themselves.',
         author: 'Emanuel Cepoi',
         role: 'Full-Stack Developer',
         date: 'Sep 24, 2021',
@@ -283,27 +300,47 @@ export const EXPERIENCE = [
         dateEnd: 'Present',
         location: 'Bucharest, Romania',
         description: `
-            <br>
-            💼 Client 1 - Alpha Team - United Kingdom<br>
-            🗓️ 10.2021 - 01.2022<br>
-            🏦 Industry: Banking, Insurance<br>
-            💻 Technologies: Angular 8+, RxJs, Jira, moment.js<br>
-            <br>
-            Contribution:
-            <ul>
-            <li>
-            Wrote a tutorial about how to write clean code when working on the frontend side for Alpha Team;
-            </li><li>Feature that show to the user the active policies into a responsive and interactive design.
-            </li><li>Upgraded from Angular 8 to Angular 13;
-            </li><li>Added consistency to the CSS and HTML code maintaining a good collaboration with the designer;
-            </li><li>Added possibility to use a vocabulary for an easier translation;
-            </li><li>Improved the user authentication flow and added more layers of security for the confidential information;
-            </li><li>Adding the possibility of a Mid Term Adjustment to a policy;
-            </li><li>Mentoring frontend colleagues.
-            </li></ul>
+        💼 Client 1 - Alpha Team - United Kingdom<br>
+        🗓️ 10.2021 - 01.2022<br>
+        🏦 Industry: Banking, Insurance<br>
+        💻 Technologies: Angular 8+, RxJs, Jira, moment.js<br>
+        <br>
+        Contribution:
+        <ul>
+        <li>
+        Wrote a tutorial about how to write clean code when working on the frontend side for Alpha Team;
+        </li><li>Feature that show to the user the active policies into a responsive and interactive design.
+        </li><li>Upgraded from Angular 8 to Angular 13;
+        </li><li>Added consistency to the CSS and HTML code maintaining a good collaboration with the designer;
+        </li><li>Added possibility to use a vocabulary for an easier translation;
+        </li><li>Improved the user authentication flow and added more layers of security for the confidential information;
+        </li><li>Adding the possibility of a Mid Term Adjustment to a policy;
+        </li><li>Mentoring frontend colleagues.
+        </li></ul>
+        <br>
+        💼 Client 2 - Germany<br>
+        🗓️ 10.2021 - Present<br>
+        🏦 Industry: Banking<br>
+        💻 Technologies: React, Thymeleaf, Mambu, moment.js, TypeScript, AWS Services, Java<br>
+        <br>
+        Contribution:
+        <ul>
+        <li>
+        Create new React components and upload them into Mambu;
+        </li><li>Modify Java functions accordingly to Thymeleaf templates to create custom PDF files.
+        </li></ul>
+        <br>
+        💼 Client 3 - Alpha Team - United Kingdom<br>
+        🗓️ 10.2021 - Present<br>
+        🏦 Industry: E-Commerce<br>
+        💻 Technologies: React, TypeScript<br>
+        <br>
+        Contribution:
+        <ul><li>Create new React components.
+        </li></ul>
         `,
         companyLogo: '../assets/logos/deloitte.jpg',
-        skill: ['HTML', 'CSS', 'JavaScript', 'Angular', 'Sass', 'TypeScript', 'REST', 'Jira', 'Confluence']
+        skill: ['HTML', 'CSS', 'JavaScript', 'Angular', 'Sass', 'TypeScript', 'REST', 'Jira', 'Confluence', 'React', 'Thymeleaf', 'Mambu', 'moment.js', 'AWS Services', 'Java']
     },
     {
         companyName: 'IBM iX',
@@ -355,7 +392,7 @@ export const EXPERIENCE = [
             </ul>
         `,
         companyLogo: '../assets/logos/ibm.jpg',
-        skill: ['Angular', 'SharePoint', 'Vagrant', 'Ionic', 'Sass', 'TypeScript', 'JQuery','REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'Jira','Vue.js', 'Firebase','Vuex',  'Unit Testing'],
+        skill: ['Angular', 'SharePoint', 'Vagrant', 'Ionic', 'Sass', 'TypeScript', 'JQuery', 'REST', 'Capacitor', 'RxJs', 'React.js', 'Adobe Experience Manager', 'Jira', 'Vue.js', 'Firebase', 'Vuex', 'Unit Testing'],
     },
     {
         companyName: 'Groupe Renault',
