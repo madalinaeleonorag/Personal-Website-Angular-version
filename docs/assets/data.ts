@@ -319,7 +319,7 @@ export const EXPERIENCE = [
         </li></ul>
         <br>
         💼 Client 2 - Germany<br>
-        🗓️ 10.2021 - Present<br>
+        🗓️ 02.2022 - Present<br>
         🏦 Industry: Banking<br>
         💻 Technologies: React, Thymeleaf, Mambu, moment.js, TypeScript, AWS Services, Java<br>
         <br>
@@ -331,7 +331,7 @@ export const EXPERIENCE = [
         </li></ul>
         <br>
         💼 Client 3 - Alpha Team - United Kingdom<br>
-        🗓️ 10.2021 - Present<br>
+        🗓️ 02.2022 - Present<br>
         🏦 Industry: E-Commerce<br>
         💻 Technologies: React, TypeScript<br>
         <br>
