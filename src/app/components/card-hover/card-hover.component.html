@@ -26,11 +26,6 @@
         *ngIf="data.live"
         (click)="openNewTab('live')"
       ></app-custom-button>
-      <app-custom-button
-        buttonText="See details"
-        [isFilledButton]="true"
-        *ngIf="!data.noDetails"
-        (click)="openDialog('project', project)"
-      ></app-custom-button>
     </div>
   </div>
+</div>

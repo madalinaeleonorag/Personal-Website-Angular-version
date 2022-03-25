@@ -64,7 +64,6 @@ export class CommonsService {
         newProject.code = element.html_url;
         newProject.live = element.homepage;
         newProject.technologies = [element.languages_url];
-        newProject.noDetails = true;
         newProject.logo = `./../assets/projects/github/${element.name}.png`;
         dataMapped.push(newProject);
       });

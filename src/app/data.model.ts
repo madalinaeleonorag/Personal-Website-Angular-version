@@ -10,7 +10,6 @@ export class ProjectModel {
     public code?: string;
     public description?: string;
     public images?: {};
-    public noDetails?: boolean;
     public logo: string;
 
     constructor(data?: any) {

@@ -158,7 +158,8 @@ a {
 
 .logo {
   text-align-last: center;
-  padding: 20px;
+  padding: 20px 0;
+  align-self: center;
 
   img {
     width: auto;
@@ -187,7 +188,7 @@ a {
     font-family: monospace;
     font-size: 1.7rem;
   }
-  
+
   .description {
     a {
       background: var(--background-transparent-2);

@@ -1,7 +1,6 @@
 export const PHOTOS = [
     {
         name: 'Herculane',
-        noDetails: true,
         technologies: ['Lightroom', 'Photography'],
         live: 'https://500px.com/photo/274673693/Herculane-by-Gheorghe-Madalina-Eleonora',
         logo: 'https://drscdn.500px.org/photo/274673693/q%3D80_m%3D2000/v2?sig=8ca6a504a9b659352523386d6b165d110ff3fc53618fd56f7dc6b136683c7e1d'
@@ -9,77 +8,66 @@ export const PHOTOS = [
     {
         name: 'Vama Veche',
         technologies: ['Lightroom', 'Photography'],
-        noDetails: true,
         live: 'https://500px.com/photo/1035360039/Vama-Veche-by-Gheorghe-Madalina-Eleonora/',
         logo: 'https://drscdn.500px.org/photo/1035360039/q%3D80_m%3D1000/v2?sig=1ae791d297aeb092af8b627bdd445cf189ab5236fcff3f9f11fe71647bdbcccc'
     },
     {
         name: 'Winter',
         technologies: ['Lightroom', 'Photography'],
-        noDetails: true,
         live: 'https://500px.com/photo/1034981439/Winter-landscape-by-Gheorghe-Madalina-Eleonora/',
         logo: 'https://drscdn.500px.org/photo/1034981439/q%3D80_m%3D2000/v2?sig=1714ea64faca9654f349225c440ca1c88575e39baddd08ebcfee0ee5324902ef'
     },
     {
         name: 'Bucharest International Air Show',
         technologies: ['Lightroom', 'Photography'],
-        noDetails: true,
         live: 'https://500px.com/photo/1007902123/Bucharest-International-Air-Show-by-Gheorghe-Madalina-Eleonora/',
         logo: 'https://drscdn.500px.org/photo/1007902123/q%3D80_m%3D2000/v2?sig=3d058c5ea07fd1272709010cd936e35775f4ac71b017634de84ff736acabced2'
     },
     {
         name: 'Busteni',
         technologies: ['Lightroom', 'Photography'],
-        noDetails: true,
         live: 'https://500px.com/photo/274679765/Busteni-by-Gheorghe-Madalina-Eleonora/',
         logo: 'https://drscdn.500px.org/photo/274679765/q%3D80_m%3D1500/v2?sig=7b80814d01dac2364c129093677fc75279378329ba47c78abf9cf3b8fb8979f4'
     },
     {
         name: 'Mogosoaia - Canon Summer School',
         technologies: ['Lightroom', 'Photography'],
-        noDetails: true,
         live: 'https://500px.com/photo/274680569/Mogosoaia--Canon-Summer-School-by-Gheorghe-Madalina-Eleonora/',
         logo: 'https://drscdn.500px.org/photo/274680569/q%3D80_m%3D1500/v2?sig=169412e495354420c2b23257d27673c74df27a3b9847ee874b65f2766d4576d3'
     },
     {
         name: 'Aerial Show',
         technologies: ['Lightroom', 'Photography'],
-        noDetails: true,
         logo: 'https://drscdn.500px.org/photo/1035360036/q%3D80_m%3D1500/v2?sig=7e45e0da89c7c06bf98d99774144ed85cab4069f8eb250a96f065dfb33a9a1b4',
         live: 'https://500px.com/photo/1035360036/aerial-show-by-gheorghe-madalina-eleonora'
     },
     {
         name: 'Red ladybug on a leaf',
         technologies: ['Lightroom', 'Photography'],
-        noDetails: true,
         live: 'https://500px.com/photo/274675811/Red-ladybug-on-a-leaf-by-Gheorghe-Madalina-Eleonora/',
         logo: 'https://drscdn.500px.org/photo/274675811/q%3D80_m%3D1500/v2?sig=c090e926a2d8d1bdbf2ab6e1e5e75ec0f98548542f12af9386b756e4a4b257c9'
     },
     {
         name: 'Flower',
         technologies: ['Lightroom', 'Photography'],
-        noDetails: true,
         live: 'https://500px.com/photo/1034981440/Flower-by-Gheorghe-Madalina-Eleonora/',
         logo: 'https://drscdn.500px.org/photo/1034981440/q%3D80_m%3D1500/v2?sig=1d8e0ac937ce2734a8940720300d23d08554fdccb96f3ed0387dc8c5aea34c76'
     },
     {
         name: 'Crocodile',
         technologies: ['Lightroom', 'Photography'],
-        noDetails: true,
         live: 'https://500px.com/photo/1035360032/Crocodile-by-Gheorghe-Madalina-Eleonora/',
         logo: 'https://drscdn.500px.org/photo/1035360032/q%3D80_m%3D1500/v2?sig=d2b5090a1fe8ceab337e18acbf0e97d150271717e202853c087f667fac8f2141'
     },
     {
         name: 'Mogosoaia - Canon Summer School',
         technologies: ['Lightroom', 'Photography'],
-        noDetails: true,
         live: 'https://500px.com/photo/274680533/Mogosoaia--Canon-Summer-School-by-Gheorghe-Madalina-Eleonora/',
         logo: 'https://drscdn.500px.org/photo/274680533/q%3D80_m%3D1500/v2?sig=a545ce4578aaefcb9898000cc7f87672418b411c729bb82d6f5b2bfe38ab2d56'
     },
     {
         name: 'Fireworks',
         technologies: ['Lightroom', 'Photography'],
-        noDetails: true,
         live: 'https://500px.com/photo/274677385/Fireworks-by-Gheorghe-Madalina-Eleonora/',
         logo: 'https://drscdn.500px.org/photo/274677385/q%3D80_m%3D1500/v2?sig=0fd7bc43cfa47853c0167cba3d68a1e655836bb4cb2eaefc8cbbf61f92547945'
     }
@@ -101,11 +89,30 @@ export const SKILLS = [
     { name: 'React.js', level: 0, color: '#50BBD7', logo: 'Reactjs' },
     { name: 'Wordpress', level: 1, color: '#207196', logo: 'Wordpress' },
     { name: 'Git', level: 3, color: '#E84E31', logo: 'Git' },
+    { name: 'Typescript', level: 2, color: '#2D79C7', logo: 'Typescript' },
+    { name: 'Java', level: 0, color: '#E88A32', logo: 'Java' },
     { name: 'NoSQL', level: 2, color: '#F7C52B', logo: 'NoSQL' },
-    { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' }
+    { name: 'Photoshop', level: 2, color: '#001D34', logo: 'Photoshop' },
+    { name: 'Jira', level: 1, color: '#1A80FF', logo: 'Jira' },
+    { name: 'AWS', level: 0, color: '#FF8E04', logo: 'AWS' },
+    { name: 'C#', level: 1, color: '#953DAC', logo: 'CSharp' },
 ];
 
 export const CERTIFICATIONS = [
+    {
+        logo: '../assets/certifications/HackerRank.png',
+        name: 'Angular Certificate',
+        organization: 'HackerRank',
+        issueDate: 'Mar 2022',
+        url: 'https://www.hackerrank.com/certificates/502d54979ed0'
+    },
+    {
+        logo: '../assets/certifications/EF-Standard.png',
+        name: 'English Certificate - C1 Advanced',
+        organization: 'EF Standard English Test (EF SET)',
+        issueDate: 'Mar 2022',
+        url: 'https://www.efset.org/cert/V3b9C2'
+    },
     {
         logo: '../assets/certifications/Think-like-a-hacker.png',
         name: 'Think like a hacker',
@@ -147,13 +154,6 @@ export const CERTIFICATIONS = [
         organization: 'IBM',
         issueDate: 'Dec 2020',
         url: 'https://www.youracclaim.com/badges/b6792b26-e919-4de1-bc24-d4192439aa50'
-    },
-    {
-        logo: '../assets/certifications/EF-Standard.png',
-        name: 'ES SET English Certificate',
-        organization: 'EF Standard English Test (EF SET)',
-        issueDate: 'Jul 2020',
-        url: 'https://www.efset.org/cert/V3b9C2'
     },
     {
         logo: '../assets/certifications/Badges_v8-07_Practitioner.png',

@@ -25,15 +25,9 @@ export class CardHoverComponent implements OnInit {
   public openNewTab(type: string): void {
     switch (type) {
       case 'live': this.commonsService.openNewTab(this.data.live);
-                   break;
+        break;
       case 'code': this.commonsService.openNewTab(this.data.code);
-                   break;
+        break;
     }
-  }
-
-  public openDialog(type: string, data: any): void {
-    this.dialog.open(CustomDialogComponent, {
-      data: { type, data }
-    });
   }
 }
