@@ -27,6 +27,9 @@ export class CommonsService {
   public getDataFromAPIs(): void {
     this.getPublications();
     this.getRepositories();
+
+    this.http.get<any>('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@madalinaeleonorag').subscribe(data => {
+    })
   }
 
   public getPublications(): void {

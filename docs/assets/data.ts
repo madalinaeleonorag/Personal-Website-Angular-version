@@ -210,6 +210,21 @@ export const AWARDS = [
 export const RECOMMENDATIONS = [
     {
         text: `Hi Madalina,<br>
+        Madalina was a fundamental part of Alpha for Insurance, particularly at a point where we needed to ramp up development. Madalina instantly collaborated with the team and importantly understood our objectives quickly. The repeated feedback from the development lead was how quickly our production increased – thanks to Madalina. Madalina clearly has a strong skillset which benefited our FE team significantly. Madalina worked hard to develop her colleagues and ensured they were implementing best practice techniques. As a Product Manager, I really value this. Thank you 😊`,
+        author: 'Jack Taylor',
+        role: 'Manager',
+        date: 'Apr 6, 2022',
+        from: 'Deloitte Digital'
+    },
+    {
+        text: 'Madalina has recently joined the project and up until now she has a good attitude towards it. I can clearly see that Madalina is a smart person, she managed to learn the project very fast and started doing complex stories in short time after joining the team. In terms of collaboration, she already started communicating efficiently with multiple members of the local team and the remote team.',
+        author: 'Corina Costin',
+        role: 'Backend Developer',
+        date: 'Apr 5, 2022',
+        from: 'Deloitte Digital'
+    },
+    {
+        text: `Hi Madalina,<br>
         Please find below my feedback for you. The feedback is based on my interaction with you, as well as feedback I have received from various Alpha stakeholders (UK and ERDC).<br>
         During her time spent on Alpha space, Madalina has shown a lot of flexibility and maturity.<br>
         Even though she had to change teams and industries, from banking to insurance, her experience has been extremely appreciate by our main stakeholders and there have been multiple requests to keep her on Alpha.

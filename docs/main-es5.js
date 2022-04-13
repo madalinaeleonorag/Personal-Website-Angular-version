@@ -739,6 +739,18 @@
         place: 1
       }];
       var RECOMMENDATIONS = [{
+        text: "Hi Madalina,<br>\n        Madalina was a fundamental part of Alpha for Insurance, particularly at a point where we needed to ramp up development. Madalina instantly collaborated with the team and importantly understood our objectives quickly. The repeated feedback from the development lead was how quickly our production increased \u2013 thanks to Madalina. Madalina clearly has a strong skillset which benefited our FE team significantly. Madalina worked hard to develop her colleagues and ensured they were implementing best practice techniques. As a Product Manager, I really value this. Thank you \uD83D\uDE0A",
+        author: 'Jack Taylor',
+        role: 'Manager',
+        date: 'Apr 6, 2022',
+        from: 'Deloitte Digital'
+      }, {
+        text: 'Madalina has recently joined the project and up until now she has a good attitude towards it. I can clearly see that Madalina is a smart person, she managed to learn the project very fast and started doing complex stories in short time after joining the team. In terms of collaboration, she already started communicating efficiently with multiple members of the local team and the remote team.',
+        author: 'Corina Costin',
+        role: 'Backend Developer',
+        date: 'Apr 5, 2022',
+        from: 'Deloitte Digital'
+      }, {
         text: "Hi Madalina,<br>\n        Please find below my feedback for you. The feedback is based on my interaction with you, as well as feedback I have received from various Alpha stakeholders (UK and ERDC).<br>\n        During her time spent on Alpha space, Madalina has shown a lot of flexibility and maturity.<br>\n        Even though she had to change teams and industries, from banking to insurance, her experience has been extremely appreciate by our main stakeholders and there have been multiple requests to keep her on Alpha.\n        From a technical perspective, she delivers extremely fast and at a high quality. For example, she managed to bring visible improvements on the web app in just a couple of weeks, as well as mentioning more junior team members. If given the opportunity (to match her expertise and role desired), she has the ability to make a huge  difference, she has the skills and determination needed. For that, she has my respect and support through her career path, here in Digital.\n        <br>\n        As a future recommendation, I would probably suggest Madalina to socialise and interact with her team more. I fully understand it can be challenging to adapt to a new company, environment, team but sometimes, all you need to do is open yourself a little bit, and let your colleagues get closer to you.\n        Note: The above suggest is based on my personal experience from a while back. It's up to Madalina to analyse and decide if it was just a context issue or if she thinks there is room to improve as I'm not that close to her day to day activity.\n        <br>\n        Thanks,\n        Isabela",
         author: 'Isabela Pecete',
         role: 'Project Manager',
@@ -4286,6 +4298,7 @@
           value: function getDataFromAPIs() {
             this.getPublications();
             this.getRepositories();
+            this.http.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@madalinaeleonorag').subscribe(function (data) {});
           }
         }, {
           key: "getPublications",

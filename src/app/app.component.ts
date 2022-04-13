@@ -40,6 +40,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
     this.commonsService.getDataFromAPIs();
     this.commonsService.cookieConsoleMessage();
 
