@@ -407,6 +407,31 @@ const AWARDS = [
 ];
 const RECOMMENDATIONS = [
     {
+        text: `Hi Mada,
+        <br>
+        You can find my feedback for our collaboration bellow:
+        <br>
+        I’m working together with Madalina since February this year. Though she joined the project in a phase where everything was almost finished, she managed to get up to speed with the technology and the ways of working in a very short time. Given the speedy handover, the short ramp-up period and the big amount of information, she managed to understand the architecture of the solution quickly. From early on, she was fully independent from a tech perspective, requiring assistance only for understanding the feature she needed to implement. Even though she is a less experienced frontend developer than the former one, seeing her work I can confirm that she managed to surpass everyone’s expectations. She communicates the blockers & issues clearly, she developed complex features faster and with increased quality than before.She handled cloud configuration & installs for the applications that she developed with ease, even though this is out of her area of expertise. 
+        <br>
+        She is asking everyone for information when she needs it, she is efficiently communicating her concerns and thus, every story that she implemented was easily integrated with the backend components and the platform. Moreover, I appreciate the fact that during refinements and clarifications, she challenges the approach and the input data, and, thus we managed to increase the quality of the features’ description resulting in better structured stories and acceptance criteria.
+        <br>
+        I know that this project was Madalina’s chance to work with React and I’m recommending her to continue to do so. I’m sure that there are still areas where she can improve. At the same time, I’m hoping that BRASS was a good introduction for her with this technology. 
+        Madalina still needs to focus on understanding stories and requirements better. At the same time, given the short span of time she’s been on the project and the complexity of the stories coupled with some descriptions being in german, I consider that she did a great job in this regard.
+        <br>
+        Concluding these lines, I’m happy that I got the chance to work with her and I would definitely like to continue doing this in the future.`,
+        author: 'Andrei-Ioan Popescu',
+        role: 'Team Lead',
+        date: 'Apr 20, 2022',
+        from: 'Deloitte Digital'
+    },
+    {
+        text: `As a Business Analyst in the project, although I am unable to evaluate the technical skills, I can definitely provide feedback on the project contributions: Madalina was on-boarded the fastest onto the project. The transition was from the previous developer was seamless. Overnight she became the expert and point of contact for front-end applications. She has delivered all her tasks with great speed and took on several topics instantly. The entire project is happy to have her onboard.`,
+        author: 'Kavitha Padmanabham',
+        role: 'Business Analyst',
+        date: 'Apr 20, 2022',
+        from: 'Deloitte Digital'
+    },
+    {
         text: `Hi Madalina,<br>
         Madalina was a fundamental part of Alpha for Insurance, particularly at a point where we needed to ramp up development. Madalina instantly collaborated with the team and importantly understood our objectives quickly. The repeated feedback from the development lead was how quickly our production increased – thanks to Madalina. Madalina clearly has a strong skillset which benefited our FE team significantly. Madalina worked hard to develop her colleagues and ensured they were implementing best practice techniques. As a Product Manager, I really value this. Thank you 😊`,
         author: 'Jack Taylor',
