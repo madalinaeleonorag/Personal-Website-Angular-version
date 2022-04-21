@@ -414,6 +414,13 @@ const RECOMMENDATIONS = [
         from: 'Deloitte Digital'
     },
     {
+        text: `I’ve met Madalina when she joined the BRASS project in February as a front-end developer. Madalina is great at picking new things up. Even though Next JS and React weren’t her areas of focus, she managed to quickly learn the frameworks and took over the FE topics and successfully implemented new functionalities in no time. Regarding team dynamics, she integrated fast in the team, proving great collaboration skills, and communicates well with the team and in client based meetings. I would encourage her to keep up the good work, and continue the same good practices to further develop her technical and soft skills. II really enjoy working with her and I’m looking forward to collaborate with her in the future.`,
+        author: 'Cristina-Mihaela Antohe',
+        role: 'Backend Developer',
+        date: 'Apr 20, 2022',
+        from: 'Deloitte Digital'
+    },
+    {
         text: `Hi Mada,
         <br>
         You can find my feedback for our collaboration bellow:
