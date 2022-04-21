@@ -407,6 +407,13 @@ const AWARDS = [
 ];
 const RECOMMENDATIONS = [
     {
+        text: `Madalina joined the team in a very critical moment. She replaced our Frontend team member and the handover duration wasn't the most adequate. However, Madalina could quickly take over the tasks assigned to her and she could deliver them with a very good quality on the agreed time. Madalina is also a team player and she knows when she need to raise the hand when and issue appears. I suggest Madalina to continue working on this way and not stop learning not only frontend technical things but also Cloud and Devops tools to increase the value of her profile.`,
+        author: 'Diego Frison Aladren',
+        role: 'Solution Lead',
+        date: 'Apr 20, 2022',
+        from: 'Deloitte Digital'
+    },
+    {
         text: `Hi Mada,
         <br>
         You can find my feedback for our collaboration bellow:
