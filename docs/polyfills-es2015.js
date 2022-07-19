@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Mada\Documents\GitHub\madalinaeleonorag.github.io\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /Users/madagheorghe/Documents/GitHub/madalinaeleonorag.github.io/src/polyfills.ts */"hN/g");
 
 
 /***/ }),
